@@ -19,17 +19,17 @@ def run_mock(*cmd, **kwargs):
     kwargs.setdefault('stdout', subprocess.PIPE)
     kwargs.setdefault('stderr', subprocess.PIPE)
     kwargs.setdefault('text', True)
-    with open((TESTS_DIR / RAWHIDE_MOCK).with_suffix('.lock'), 'w') as lock:
-        fcntl.flock(lock, fcntl.LOCK_EX)
-        return subprocess.run(['mock', '-r', RAWHIDE_MOCK, '--no-bootstrap-chroot',
-                               '--isolation=simple', *cmd], **kwargs)
+    return subprocess.run(['mock', '-r', RAWHIDE_MOCK, '--no-bootstrap-chroot',
+                           '--isolation=simple', *cmd], **kwargs)
 
 
 def resolve_buildroot_in_mock(package_name):
-    run_mock('--init')
-    run_mock('--update')
-    run_mock('--dnf-cmd', 'builddep', package_name)
-    packages = run_mock('--shell', 'rpm -qa --qf=%{NAME}\\\\n').stdout
+    with open((TESTS_DIR / RAWHIDE_MOCK).with_suffix('.lock'), 'w') as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        run_mock('--init')
+        run_mock('--update')
+        run_mock('--dnf-cmd', 'builddep', package_name)
+        packages = run_mock('--shell', 'rpm -qa --qf=%{NAME}\\\\n').stdout
     return set(packages.splitlines()) - {'gpg-pubkey'}  # pubkey only installed in mock
 
 
