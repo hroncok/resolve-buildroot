@@ -25,7 +25,7 @@ REPOS = {
 
 
 @functools.cache
-def base(repo_key):
+def _base(repo_key):
     f"""
     Creates a DNF base from repositories defined in REPOS, based on the given key.
     The sack is filled, which can be extremely slow if not already cached on disk in {DNF_CACHEDIR}.
@@ -44,8 +44,22 @@ def base(repo_key):
     return base
 
 
+def rawhide_group(group_id):
+    """
+    Return a rawhide comps group of a given id (a.k.a. name)
+    """
+    base = _base('rawhide')
+    log('• Reading the comps information...', end=' ')
+    base.read_comps()
+    log('done.')
+    for group in base.comps.groups_by_pattern(group_id):
+        if group.id == group_id:
+            return group
+    raise ValueError(f'No such group {group_id}')
+
+
 def rawhide_sack():
     """
     A filled sack to perform rawhide repoquries. See base() for details.
     """
-    return base('rawhide').sack
+    return _base('rawhide').sack

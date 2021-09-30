@@ -1,37 +1,39 @@
 import functools
 import sys
 
+import dnf
 import hawkey
 
-from sacks import rawhide_sack
+from sacks import rawhide_sack, rawhide_group
 from utils import log, stringify
 
 # Some deps are only pulled in when those are installed:
-# XXX we would like to resolve the @buildsys-build instead, now copy-pasted
-DEFAULT_DEPS = (
-    'bash',
-    'bzip2',
-    'coreutils',
-    'cpio',
-    'diffutils',
-    'fedora-release-common',
-    'findutils',
-    'gawk',
-    'glibc-minimal-langpack',
-    'grep',
-    'gzip',
-    'info',
-    'patch',
-    'redhat-rpm-config',
-    'rpm-build',
-    'sed',
-    'shadow-utils',
-    'tar',
-    'unzip',
-    'util-linux',
-    'which',
-    'xz',
+DEFAULT_GROUPS = (
+    'buildsys-build',
 )
+
+
+def mandatory_packages_in_group(group_id):
+    """
+    For given group id (a.k.a. name),
+    returns a set of names of mandatory packages in it.
+    """
+    group = rawhide_group(group_id)
+    return {p.name for p in group.packages_iter()
+            if p.option_type == dnf.comps.MANDATORY}
+
+
+@functools.lru_cache(maxsize=1)
+def mandatory_packages_in_groups(groups=DEFAULT_GROUPS):
+    """
+    For all group ids,
+    returns a single set of names of mandatory packages in any of them.
+    """
+    all_mandatory_packages = set()
+    for group in groups:
+        all_mandatory_packages |= mandatory_packages_in_group(group)
+    log(f'• Found {len(all_mandatory_packages)} default buildroot packages.')
+    return all_mandatory_packages
 
 
 @functools.cache
@@ -82,12 +84,14 @@ def resolve_requires(requires, ignore_weak_deps=True):
     """
     sack = rawhide_sack()
     goal = hawkey.Goal(sack)
-    log(f'• Resolving {len(requires)} requirements...', end=' ')
-    for dep in DEFAULT_DEPS + requires:
+    orig_len = len(requires)
+    requires += tuple(mandatory_packages_in_groups())
+    log(f'• Resolving {orig_len} requirements...', end=' ')
+    for dep in requires:
         selector = hawkey.Selector(sack).set(provides=dep)
         goal.install(select=selector)
     if not goal.run(ignore_weak_deps=ignore_weak_deps):
-        raise ValueError(f'Cannot resolve {stringify(DEFAULT_DEPS + requires)}')
+        raise ValueError(f'Cannot resolve {stringify(requires)}')
     if goal.list_upgrades() or goal.list_erasures():
         raise RuntimeError('Got packages to upgrade or erase, that should never happen.')
     log(f'to {len(goal.list_installs())} installs.')
@@ -108,7 +112,6 @@ def resolve_buildrequires_of(package_name, *, extra_requires=(), ignore_weak_dep
 
 if __name__ == '__main__':
     # this is merely to invoke the function via CLI for easier manual testing
-    package = sys.argv[1]
-    extra_requires = tuple(sys.argv[1:])
-    installs = resolve_buildrequires_of(package, extra_requires=extra_requires)
-    print(stringify(installs, '\n'))
+    for package_name in sys.argv[1:]:
+        installs = resolve_buildrequires_of(package_name)
+        print(stringify(installs, '\n'))
