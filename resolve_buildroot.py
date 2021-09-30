@@ -37,12 +37,13 @@ DEFAULT_DEPS = (
 @functools.cache
 def buildrequires_of(package_name):
     sack = rawhide_sack()
-    log(f'• Finding BuildRequires of {package_name}.')
+    log(f'• Finding BuildRequires of {package_name}...', end=' ')
     pkgs = sack.query().filter(name=package_name, arch='src', latest=1).run()
     if not pkgs:
         raise ValueError(f'No SRPMs called {package_name} found.')
     if len(pkgs) > 1:
         raise ValueError(f'Too many SRPMs called {package_name} found: {pkgs!r}')
+    log(f'found {len(pkgs[0].requires)} requirements.')
     # let's return a hashable type, so we can cache the result of resolving it:
     return tuple(sorted(str(dep) for dep in pkgs[0].requires))
 
@@ -51,7 +52,7 @@ def buildrequires_of(package_name):
 def resolve_requires(requires):
     sack = rawhide_sack()
     goal = hawkey.Goal(sack)
-    log(f'• Resolving {len(requires)} requires.')
+    log(f'• Resolving {len(requires)} requirements...', end=' ')
     for dep in DEFAULT_DEPS + requires:
         selector = hawkey.Selector(sack).set(provides=dep)
         goal.install(select=selector)
@@ -59,6 +60,7 @@ def resolve_requires(requires):
         raise RuntimeError(f'Cannot resolve {stringify(DEFAULT_DEPS + requires)}')
     if goal.list_upgrades() or goal.list_erasures():
         raise RuntimeError('Got packages to upgrade or erase, that should never happen.')
+    log(f'to {len(goal.list_installs())} installs.')
     return goal.list_installs()
 
 
