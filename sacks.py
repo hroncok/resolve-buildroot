@@ -6,6 +6,7 @@ from utils import log
 
 DNF_CACHEDIR = '_dnf_cache_dir'
 ARCH = 'x86_64'
+MULTILIB = {'x86_64': 'i686'}  # architectures to exclude in certain queries
 METALINK = 'https://mirrors.fedoraproject.org/metalink'
 
 
