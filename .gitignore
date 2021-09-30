@@ -1,1 +1,3 @@
 /_dnf_cache_dir/
+tests/*.lock
+__pycache__/
