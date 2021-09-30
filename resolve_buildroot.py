@@ -107,4 +107,8 @@ def resolve_buildrequires_of(package_name, *, extra_requires=(), ignore_weak_dep
 
 
 if __name__ == '__main__':
-    print(stringify(resolve_buildrequires_of(sys.argv[1], extra_requires=tuple(sys.argv[1:])), '\n'))
+    # this is merely to invoke the function via CLI for easier manual testing
+    package = sys.argv[1]
+    extra_requires = tuple(sys.argv[1:])
+    installs = resolve_buildrequires_of(package, extra_requires=extra_requires)
+    print(stringify(installs, '\n'))
