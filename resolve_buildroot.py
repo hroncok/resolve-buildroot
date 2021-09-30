@@ -1,13 +1,10 @@
 import functools
 import sys
 
-import dnf
 import hawkey
 
-
-DNF_CACHEDIR = '_dnf_cache_dir'
-ARCH = 'x86_64'
-METALINK = 'https://mirrors.fedoraproject.org/metalink'
+from sacks import rawhide_sack
+from utils import log, stringify
 
 # Some deps are only pulled in when those are installed:
 # XXX we would like to resolve the @buildsys-build instead, now copy-pasted
@@ -35,40 +32,6 @@ DEFAULT_DEPS = (
     'which',
     'xz',
 )
-
-
-def log(*args, **kwargs):
-    kwargs.setdefault('file', sys.stderr)
-    return print(*args, **kwargs)
-
-
-def name_or_str(thing):
-    return getattr(thing, 'name', str(thing))
-
-
-def stringify(lst, sep=None):
-    sep = sep or ', '
-    return sep.join(name_or_str(i) for i in lst)
-
-
-@functools.lru_cache(maxsize=1)
-def rawhide_sack():
-    base = dnf.Base()
-    conf = base.conf
-    conf.cachedir = DNF_CACHEDIR
-    conf.substitutions['releasever'] = 'rawhide'
-    conf.substitutions['basearch'] = ARCH
-    for repo_name in 'rawhide', 'rawhide-source':
-        base.repos.add_new_repo(
-            repo_name,
-            conf,
-            metalink=f'{METALINK}?repo={repo_name}&arch=$basearch',
-            skip_if_unavailable=False,
-        )
-    log('• Filling the DNF sack, can take minutes if not cached...', end=' ')
-    base.fill_sack(load_system_repo=False, load_available_repos=True)
-    log('done.')
-    return base.sack
 
 
 @functools.cache

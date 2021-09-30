@@ -4,10 +4,10 @@ import subprocess
 
 import pytest
 
-from resolve_buildroot import ARCH
-from resolve_buildroot import name_or_str
 from resolve_buildroot import buildrequires_of
 from resolve_buildroot import resolve_buildrequires_of
+from sacks import ARCH
+from utils import name_or_str
 
 
 TESTS_DIR = pathlib.Path(__file__).parent
