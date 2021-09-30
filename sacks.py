@@ -24,9 +24,10 @@ REPOS = {
 }
 
 
-def sack(repo_key):
+@functools.cache
+def base(repo_key):
     f"""
-    Creates a DNF sack from repositories defined in REPOS, based on the given key.
+    Creates a DNF base from repositories defined in REPOS, based on the given key.
     The sack is filled, which can be extremely slow if not already cached on disk in {DNF_CACHEDIR}.
     Cache is never invalidated here, remove the directory manually if needed.
     """
@@ -40,19 +41,11 @@ def sack(repo_key):
     log(f'• Filling the DNF sack to/from {DNF_CACHEDIR}...', end=' ')
     base.fill_sack(load_system_repo=False, load_available_repos=True)
     log('done.')
-    return base.sack
+    return base
 
 
-def sack_factory(repo_key):
+def rawhide_sack():
     """
-    Creates a lru_cached function that returns a filled sack for the given key of REPOS.
+    A filled sack to perform rawhide repoquries. See base() for details.
     """
-
-    @functools.lru_cache(maxsize=1)
-    def _sack():
-        f"""Returns a DNF sack for {repo_key}"""
-        return sack(repo_key)
-    return _sack
-
-
-rawhide_sack = sack_factory('rawhide')
+    return base('rawhide').sack
