@@ -1,6 +1,6 @@
 import collections
 import functools
-import sys
+from dataclasses import dataclass
 
 from sacks import ARCH, MULTILIB, rawhide_sack
 from utils import log
@@ -29,6 +29,7 @@ class ReverseLookupDict(collections.defaultdict):
     Unique values in the lists are assumed but not checked.
 
     Use it like a regular dict, but lookup a key by the key(item) method.
+    Use the all_values() method to get a set of all items in all keys at once.
 
     The lookup is internally cached in a reversed dictionary.
 
@@ -47,6 +48,9 @@ class ReverseLookupDict(collections.defaultdict):
                 self._reverse_lookup_cache[value] = candidate_key
                 return candidate_key
         raise KeyError(f'Value {value!r} found in no list in this dict.')
+
+    def all_values(self):
+        return {value for lst in self.values() for value in lst}
 
 
 @functools.lru_cache(maxsize=1)
@@ -83,10 +87,56 @@ def packages_to_rebuild(old_deps, *, excluded_components=()):
     return components
 
 
+def packages_built():
+    """
+    XXX A fake function, for testing purposes
+    """
+    @dataclass
+    class FakePackage:
+        name: str
+
+    components = ReverseLookupDict()
+    components['python-packaging'] = [FakePackage('python3-packaging')]
+    components['pyparsing'] = [FakePackage('python3-pyparsing')]
+    components['python-setuptools'] = [FakePackage('python3-setuptools')]
+    return components
+
+
 if __name__ == '__main__':
-    # this is merely to invoke the function via CLI for easier manual testing
+    # this is spaghetti code that will be split into functions later:
+    from resolve_buildroot import resolve_buildrequires_of
+
     components = packages_to_rebuild(OLD_DEPS, excluded_components=EXCLUDED_COMPONENTS)
-    package_name = sys.argv[1]
-    package_obj = rawhide_sack().query().filter(latest=1, name=package_name).run()[0]
-    print(components.key(package_obj))
-    print(components._reverse_lookup_cache)
+    components_done = packages_built()
+    binary_rpms = components.all_values()
+
+    for component in components:
+        try:
+            component_buildroot = resolve_buildrequires_of(component)
+        except ValueError as e:
+            log(f'\n  ✗ {e}')
+            continue
+
+        relevant_packages = set(component_buildroot) & binary_rpms
+        relevant_components = ReverseLookupDict()
+        for pkg in relevant_packages:
+            relevant_components[components.key(pkg)].append(pkg)
+        relevant_components.default_factory = None
+
+        log(f'  • {component}: {len(relevant_packages)} packages / {len(relevant_components)} '
+            f'components relevant to our problem')
+        ready_to_rebuild = True
+        for relevant_component, required_packages in relevant_components.items():
+            log(f'    • {relevant_component}')
+            for required_package in required_packages:
+                for done_package in components_done[relevant_component]:
+                    # The done packages are from different repo and might have different EVR
+                    # Hence, we only compare the names
+                    if done_package.name == required_package.name:
+                        log(f'      ✔ {required_package.name}')
+                        break
+                else:
+                    log(f'      ✗ {required_package.name}')
+                    ready_to_rebuild = False
+        if ready_to_rebuild:
+            print(component)
