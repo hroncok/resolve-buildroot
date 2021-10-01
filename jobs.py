@@ -17,11 +17,15 @@ NEW_DEPS = (
     'libpython3.11.so.1.0()(64bit)',
     'libpython3.11d.so.1.0()(64bit)',
 )
+EXCLUDED_COMPONENTS = (
+    'python3.10',
+    'python3.11',
+)
 
 
 class ReverseLookupDict(collections.defaultdict):
     """
-    An enhanced dict of lists that can reverse-lookup the keys for given items.
+    An enhanced defaultdict(list) that can reverse-lookup the keys for given items.
     Unique values in the lists are assumed but not checked.
 
     Use it like a regular dict, but lookup a key by the key(item) method.
@@ -46,7 +50,7 @@ class ReverseLookupDict(collections.defaultdict):
 
 
 @functools.lru_cache(maxsize=1)
-def packages_to_rebuild(old_deps=OLD_DEPS):
+def packages_to_rebuild(old_deps, *, excluded_components=()):
     """
     Given a hashable collection of string-dependencies that are "old",
     queries rawhide for all binary packages that require those
@@ -54,7 +58,10 @@ def packages_to_rebuild(old_deps=OLD_DEPS):
      - keys: SRPM-names
      - values: lists of hawkey.Packages
 
-    If rawhide does not contain our newly rebuilt packages,
+    Excluded_components is an optional hashable collection of component names
+    to exclude from the results.
+
+    If rawhide does not contain our newly rebuilt packages (which is expected here),
     the dict will also contain packages that already successfully rebuilt
     (in our side tag or copr, etc.).
     """
@@ -64,15 +71,21 @@ def packages_to_rebuild(old_deps=OLD_DEPS):
     if ARCH in MULTILIB:
         results = results.filter(arch__neq=MULTILIB[ARCH])
     components = ReverseLookupDict()
+    anticount = 0
     for result in results:
-        components[result.source_name].append(result)
-    log(f'found {len(components)} components ({len(results)} binary packages).')
+        if result.source_name not in excluded_components:
+            components[result.source_name].append(result)
+        else:
+            anticount += 1
+    # no longer create lists on access to avoid mistakes:
+    components.default_factory = None
+    log(f'found {len(components)} components ({len(results)-anticount} binary packages).')
     return components
 
 
 if __name__ == '__main__':
     # this is merely to invoke the function via CLI for easier manual testing
-    components = packages_to_rebuild()
+    components = packages_to_rebuild(OLD_DEPS, excluded_components=EXCLUDED_COMPONENTS)
     package_name = sys.argv[1]
     package_obj = rawhide_sack().query().filter(latest=1, name=package_name).run()[0]
     print(components.key(package_obj))
