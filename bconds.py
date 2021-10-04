@@ -197,13 +197,14 @@ def handle_exisitng_koji_id(repopath, *, was_updated):
                 return koji_task_id
 
 
-def scratchbuild_patched(component_name, config, *, branch='', target=''):
+def scratchbuild_patched_if_needed(component_name, config, *, branch='', target=''):
     """
     This will:
      1. clone/fetch the given component_name package from Fedora to FEDPKG_CACHEDIR
         in case the repo existed and HEAD was not updated:
           - return None early if a SRPM exists
           - return previously stored Koji task ID early if it is present
+            and not canceled or failed
      2. change the specfile to apply the given bcond/macro config
      3. scratchbuild the package in Koji (in a given target if specified)
      4. cleanup the generated SRPM
@@ -230,7 +231,18 @@ def scratchbuild_patched(component_name, config, *, branch='', target=''):
 
 
 if __name__ == '__main__':
-    # this is merely to invoke the function via CLI for easier manual testing
+    # build everything
     for pkg, configs in PACKAGES_BCONDS.items():
         for config in configs:
-            scratchbuild_patched(pkg, config)
+            config['koji_task_id'] = scratchbuild_patched_if_needed(pkg, config)
+
+    # we loop again rather than doing this within to get some free koji-build time
+    for pkg, configs in PACKAGES_BCONDS.items():
+        for config in configs:
+            repodir = job_identifier(pkg, config)
+            if koji_task_id := config['koji_task_id']:
+                status = koji_status(koji_task_id)
+                if status == 'closed':
+                    ...  # download the SRPM to repodir
+            if srpm := srpm_path(repodir):
+                ...  # extract BuildRequires
