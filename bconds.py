@@ -1,7 +1,9 @@
+import functools
 import os
 import pathlib
 import re
 import subprocess
+import time
 
 from utils import log
 
@@ -9,7 +11,6 @@ from utils import log
 # Here we prefer the most reliable/fast architecture
 KOJI_ARCH = 'x86_64'
 KOJI_ID_FILENAME = 'koji.id'
-
 
 FEDPKG_CACHEDIR = pathlib.Path('_fedpkg_cache_dir')
 DEFAULT_BRANCH = 'rawhide'
@@ -103,6 +104,8 @@ def srpm_path(directory):
 
 
 def patch_spec(specpath, config):
+    log(f'   • Patching {specpath.name}')
+
     run('git', '-C', specpath.parent, 'reset', '--hard')
     spec_text = specpath.read_text()
 
@@ -142,12 +145,26 @@ def submit_scratchbuild(repopath, target=''):
     for line in fedpkg_output.splitlines():
         if line.startswith('Created task: '):
             koji_task_id = line.split(' ')[-1]
-            log(f'task {koji_task_id}.')
+            log(f'task {koji_task_id}')
             koji_id_path = repopath / KOJI_ID_FILENAME
             koji_id_path.write_text(koji_task_id)
             return koji_task_id
     else:
         raise RuntimeError('Carnot parse fedpkg build output')
+
+
+@functools.cache
+def _koji_status_cached(koji_id, epoch=None):
+    output = run('koji', 'taskinfo', koji_id).stdout.splitlines()
+    for line in output:
+        if line.startswith('State: '):
+            return line.split(' ')[-1]
+    raise RuntimeError('Carnot parse koji taskinfo output')
+
+
+def koji_status(koji_id):
+    epoch = int(time.time()) // 60  # we cache the results for 0-1 minutes
+    return _koji_status_cached(koji_id, epoch)
 
 
 def handle_exisitng_srpm(repopath, *, was_updated):
@@ -168,10 +185,16 @@ def handle_exisitng_koji_id(repopath, *, was_updated):
             return None
         else:
             koji_task_id = koji_id_path.read_text()
-            # XXX check what is the status of this task, ignore failed/canceled
-            log(f'   • Found exisiting Koji task {koji_task_id}, will not rebuild; '
-                f'remove {KOJI_ID_FILENAME} to force me.')
-            return koji_task_id
+            status = koji_status(koji_task_id)
+            if status in ('canceled', 'failed'):
+                log(f'   • Koji task {koji_task_id} is {status}; '
+                    f'removing {KOJI_ID_FILENAME}.')
+                koji_id_path.unlink()
+                return None
+            else:
+                log(f'   • Koji task {koji_task_id} is {status}; '
+                    f'not rebulding (rm {KOJI_ID_FILENAME} to force).')
+                return koji_task_id
 
 
 def scratchbuild_patched(component_name, config, *, branch='', target=''):
