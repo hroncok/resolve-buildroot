@@ -49,8 +49,7 @@ def test_buildrequires_simple(package_name, expected):
 # XXX sometimes, we might manually need to scrub our cache as well as mock's (--scrub=dnf-cache)
 def run_mock(*cmd, **kwargs):
     kwargs.setdefault('check', True)
-    kwargs.setdefault('stdout', subprocess.PIPE)
-    kwargs.setdefault('stderr', subprocess.PIPE)
+    kwargs.setdefault('capture_output', True)
     kwargs.setdefault('text', True)
     return subprocess.run(['mock', '-r', RAWHIDE_MOCK, '--no-bootstrap-chroot',
                            '--isolation=simple', *cmd], **kwargs)

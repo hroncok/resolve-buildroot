@@ -57,8 +57,7 @@ def job_identifier(component_name, config, *, branch='', target=''):
 
 def run(*cmd, **kwargs):
     kwargs.setdefault('check', True)
-    kwargs.setdefault('stdout', subprocess.PIPE)
-    kwargs.setdefault('stderr', subprocess.PIPE)
+    kwargs.setdefault('capture_output', True)
     kwargs.setdefault('text', True)
     return subprocess.run(cmd, **kwargs)
 
