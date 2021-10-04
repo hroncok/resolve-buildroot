@@ -1,5 +1,6 @@
 import os
 import pathlib
+import re
 import subprocess
 
 from utils import log
@@ -102,7 +103,22 @@ def srpm_path(directory):
 
 
 def patch_spec(specpath, config):
-    ...
+    run('git', '-C', specpath.parent, 'reset', '--hard')
+    spec_text = specpath.read_text()
+
+    lines = []
+    for without in sorted(config.get('withouts', ())):
+        if without in config.get('withs', ()):
+            raise ValueError(f'Cannot have the same with and without: {without}')
+        lines.append(f'%global _without_{without} 1')
+    for with_ in sorted(config.get('withs', ())):
+        lines.append(f'%global _with_{with_} 1')
+    for macro, value in config.get('replacements', {}).items():
+        spec_text = re.sub(fr'^(\s*)%(define|global)(\s+){macro}(\s+)\S.*$',
+                           fr'\1%\2\g<3>{macro}\g<4>{value}',
+                           spec_text, flags=re.MULTILINE)
+    lines.append(spec_text)
+    specpath.write_text('\n'.join(lines))
 
 
 def submit_scratchbuild(repopath, target=''):
@@ -185,7 +201,7 @@ def scratchbuild_patched(component_name, config, *, branch='', target=''):
     if koji_id := handle_exisitng_koji_id(repopath, was_updated=news):
         return koji_id
 
-    patch_spec(repopath / f'{component_name}', config)
+    patch_spec(repopath / f'{component_name}.spec', config)
 
     return submit_scratchbuild(repopath, target=target)
 
