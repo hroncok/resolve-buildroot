@@ -134,6 +134,30 @@ def submit_scratchbuild(repopath, target=''):
         raise RuntimeError('Carnot parse fedpkg build output')
 
 
+def handle_exisitng_srpm(repopath, *, was_updated):
+    srpm = srpm_path(repopath)
+    if srpm and not was_updated:
+        log(f'   • Found {srpm.name}, will not rebuild; remove it to force me.')
+        return True
+    if srpm:
+        srpm.unlink()
+    return False
+
+
+def handle_exisitng_koji_id(repopath, *, was_updated):
+    koji_id_path = repopath / KOJI_ID_FILENAME
+    if koji_id_path.exists():
+        if was_updated:
+            koji_id_path.unlink()
+            return None
+        else:
+            koji_task_id = koji_id_path.read_text()
+            # XXX check what is the status of this task, ignore failed/canceled
+            log(f'   • Found exisiting Koji task {koji_task_id}, will not rebuild; '
+                f'remove {KOJI_ID_FILENAME} to force me.')
+            return koji_task_id
+
+
 def scratchbuild_patched(component_name, config, *, branch='', target=''):
     """
     This will:
@@ -155,21 +179,11 @@ def scratchbuild_patched(component_name, config, *, branch='', target=''):
         clone_into(component_name, repopath, branch=branch)
         news = True
 
-    if not news and (srpm := srpm_path(repopath)):
-        log(f'   • Found {srpm.name}, will not rebuild; remove it to force me.')
+    if handle_exisitng_srpm(repopath, was_updated=news):
         return None
 
-    # XXX this deserves a function:
-    koji_id_path = repopath / KOJI_ID_FILENAME
-    if koji_id_path.exists():
-        if news:
-            koji_id_path.unlink()
-        else:
-            koji_task_id = koji_id_path.read_text()
-            # XXX check what is the status of this task?
-            log(f'   • Found exisiting Koji task {koji_task_id}, will not rebuild; '
-                f'remove {KOJI_ID_FILENAME} to force me.')
-            return koji_task_id
+    if koji_id := handle_exisitng_koji_id(repopath, was_updated=news):
+        return koji_id
 
     patch_spec(repopath / f'{component_name}', config)
 
