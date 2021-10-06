@@ -31,7 +31,7 @@ PACKAGES_BCONDS = {
 }
 
 
-def job_identifier(component_name, config, *, branch='', target=''):
+def bcond_cache_identifier(component_name, config, *, branch='', target=''):
     """
     Return an unique more or less human-readable string identifier for caching purposes.
     The form of the identifier is more or less:
@@ -255,12 +255,15 @@ def download_srpm_if_possible(component_name, config):
 
 def rpm_requires(rpm):
     """
-    Returns a set with Requires of given on-disk RPM package.
+    Returns a collection with Requires of given on-disk RPM package.
     If the package is a source package, those are BuildRequires.
     rpmlib() requires are filtered out.
+
+    The result is a sorted, deduplicated tuple,
+    so it can be hashed as an argument to other cached functions.
     """
     raw_requires = run('rpm', '-qp', '--requires', rpm).stdout.splitlines()
-    return {r for r in raw_requires if not r.startswith('rpmlib(')}
+    return tuple(sorted({r for r in raw_requires if not r.startswith('rpmlib(')}))
 
 
 def extract_buildrequires_if_possible(component_name, config):
@@ -276,10 +279,8 @@ def extract_buildrequires_if_possible(component_name, config):
             config['srpm'] = srpm
         else:
             return False
-    log(f' • Extracting BuildRequires from {config["srpm"].name}')
     config['buildrequires'] = rpm_requires(config['srpm'])
-    for br in sorted(config['buildrequires']):
-        log(f'   • {br}')
+    log(f' • Extracted {len(config["buildrequires"])} BuildRequires from {config["srpm"].name}')
     return True
 
 
@@ -288,7 +289,7 @@ if __name__ == '__main__':
     something_was_submitted = False
     for component_name, configs in PACKAGES_BCONDS.items():
         for config in configs:
-            config['id'] = job_identifier(component_name, config)
+            config['id'] = bcond_cache_identifier(component_name, config)
             something_was_submitted |= scratchbuild_patched_if_needed(component_name, config)
 
     # download everything until there's nothing downloaded

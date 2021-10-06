@@ -102,9 +102,38 @@ def packages_built():
     return components
 
 
+def are_all_done(*, packages_to_check, all_components, components_done):
+    """
+    Given a collection of (binary) packages_to_check, and dicts of all_components and components_done,
+    returns True if ALL packages_to_check are considered "done" (i.e. installable).
+    """
+    relevant_components = ReverseLookupDict()
+    for pkg in packages_to_check:
+        relevant_components[all_components.key(pkg)].append(pkg)
+    relevant_components.default_factory = None
+
+    log(f'  • {component}: {len(packages_to_check)} packages / {len(relevant_components)} '
+        f'components relevant to our problem')
+    all_available = True
+    for relevant_component, required_packages in relevant_components.items():
+        log(f'    • {relevant_component}')
+        for required_package in required_packages:
+            for done_package in components_done[relevant_component]:
+                # The done packages are from different repo and might have different EVR
+                # Hence, we only compare the names
+                if done_package.name == required_package.name:
+                    log(f'      ✔ {required_package.name}')
+                    break
+            else:
+                log(f'      ✗ {required_package.name}')
+                all_available = False
+    return all_available
+
+
 if __name__ == '__main__':
     # this is spaghetti code that will be split into functions later:
-    from resolve_buildroot import resolve_buildrequires_of
+    from resolve_buildroot import resolve_buildrequires_of, resolve_requires
+    from bconds import PACKAGES_BCONDS, bcond_cache_identifier, extract_buildrequires_if_possible
 
     components = packages_to_rebuild(OLD_DEPS, excluded_components=EXCLUDED_COMPONENTS)
     components_done = packages_built()
@@ -117,26 +146,32 @@ if __name__ == '__main__':
             log(f'\n  ✗ {e}')
             continue
 
-        relevant_packages = set(component_buildroot) & binary_rpms
-        relevant_components = ReverseLookupDict()
-        for pkg in relevant_packages:
-            relevant_components[components.key(pkg)].append(pkg)
-        relevant_components.default_factory = None
+        ready_to_rebuild = are_all_done(
+            packages_to_check=set(component_buildroot) & binary_rpms,
+            all_components=components,
+            components_done=components_done,
+        )
 
-        log(f'  • {component}: {len(relevant_packages)} packages / {len(relevant_components)} '
-            f'components relevant to our problem')
-        ready_to_rebuild = True
-        for relevant_component, required_packages in relevant_components.items():
-            log(f'    • {relevant_component}')
-            for required_package in required_packages:
-                for done_package in components_done[relevant_component]:
-                    # The done packages are from different repo and might have different EVR
-                    # Hence, we only compare the names
-                    if done_package.name == required_package.name:
-                        log(f'      ✔ {required_package.name}')
-                        break
-                else:
-                    log(f'      ✗ {required_package.name}')
-                    ready_to_rebuild = False
         if ready_to_rebuild:
             print(component)
+        elif component in PACKAGES_BCONDS:
+            for config in PACKAGES_BCONDS[component]:
+                config['id'] = bcond_cache_identifier(component, config)
+                log(f'• {component} not ready and {config["id"]} bcond found, will check that one')
+                if 'buildrequires' not in config:
+                    extract_buildrequires_if_possible(component, config)
+                if 'buildrequires' in config:
+                    try:
+                        component_buildroot = resolve_requires(tuple(sorted(config['buildrequires'])))
+                    except ValueError as e:
+                        log(f'\n  ✗ {e}')
+                        continue
+                    ready_to_rebuild = are_all_done(
+                        packages_to_check=set(component_buildroot) & binary_rpms,
+                        all_components=components,
+                        components_done=components_done,
+                    )
+                    if ready_to_rebuild:
+                        print(config['id'])
+                else:
+                    log(f' • {config["id"]} bcond SRPM not present yet, skipping')
