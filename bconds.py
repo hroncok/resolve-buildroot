@@ -182,7 +182,7 @@ def patch_spec(specpath, config):
 
 def submit_scratchbuild(repopath, target=''):
     command = ('fedpkg', 'build', '--scratch', '--srpm',
-               f'--arches={KOJI_ARCH}', '--nowait')  # XXX --background
+               f'--arches={KOJI_ARCH}', '--nowait', '--background')
     if target:
         command += (f'--target={target}',)
     try:
