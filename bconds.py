@@ -1,9 +1,8 @@
 import functools
-import os
 import pathlib
 import re
 import subprocess
-import time
+import sys
 
 from utils import log
 
@@ -127,19 +126,14 @@ def patch_spec(specpath, config):
 
 
 def submit_scratchbuild(repopath, target=''):
-    # I would like to avoid cd'ing and use f'--path={repopath}'
-    # But https://pagure.io/rpkg/issue/580
-    cwd = os.getcwd()
     command = ('fedpkg', 'build', '--scratch', '--srpm',
-               f'--arches={KOJI_ARCH}', '--nowait')
+               f'--arches={KOJI_ARCH}', '--nowait')  # XXX --background
     if target:
         command += (f'--target={target}',)
     try:
-        os.chdir(repopath)
         log('   • Submitting Koji scratchbuild...', end=' ')
-        fedpkg_output = run(*command).stdout
+        fedpkg_output = run(*command, cwd=repopath).stdout
     finally:
-        os.chdir(cwd)
         # we must cleanup the generated SRPM no matter what
         # not to confuse it with our Koji-downloaded one later
         if srpm := srpm_path(repopath):
@@ -156,7 +150,7 @@ def submit_scratchbuild(repopath, target=''):
 
 
 @functools.cache
-def _koji_status_cached(koji_id, epoch=None):
+def koji_status(koji_id):
     output = run('koji', 'taskinfo', koji_id).stdout.splitlines()
     for line in output:
         if line.startswith('State: '):
@@ -164,19 +158,14 @@ def _koji_status_cached(koji_id, epoch=None):
     raise RuntimeError('Carnot parse koji taskinfo output')
 
 
-def koji_status(koji_id):
-    epoch = int(time.time()) // 60  # we cache the results for 0-1 minutes
-    return _koji_status_cached(koji_id, epoch)
-
-
 def handle_exisitng_srpm(repopath, *, was_updated):
     srpm = srpm_path(repopath)
     if srpm and not was_updated:
         log(f'   • Found {srpm.name}, will not rebuild; remove it to force me.')
-        return True
+        return srpm
     if srpm:
         srpm.unlink()
-    return False
+    return None
 
 
 def handle_exisitng_koji_id(repopath, *, was_updated):
@@ -203,17 +192,17 @@ def scratchbuild_patched_if_needed(component_name, config, *, branch='', target=
     """
     This will:
      1. clone/fetch the given component_name package from Fedora to FEDPKG_CACHEDIR
-        in case the repo existed and HEAD was not updated:
-          - return None early if a SRPM exists
-          - return previously stored Koji task ID early if it is present
-            and not canceled or failed
+        in case the repo existed and HEAD was not updated, this ends early if:
+          - a SRPM exists
+          - a previously stored Koji task ID is present and not canceled or failed
+          (both information is added to the provided config)
      2. change the specfile to apply the given bcond/macro config
      3. scratchbuild the package in Koji (in a given target if specified)
      4. cleanup the generated SRPM
-     5. write the Koji ID to KOJI_ID_FILENAME in the repo directory
+     5. write the Koji ID to KOJI_ID_FILENAME in the repo directory and to config
+     6. return True if something was submitted to Koji
     """
-    jid = job_identifier(pkg, config, branch=branch, target=target)
-    repopath = FEDPKG_CACHEDIR / jid
+    repopath = FEDPKG_CACHEDIR / config['id']
     if repopath.exists():
         news = refresh_gitrepo(repopath)
     else:
@@ -221,30 +210,102 @@ def scratchbuild_patched_if_needed(component_name, config, *, branch='', target=
         clone_into(component_name, repopath, branch=branch)
         news = True
 
-    if handle_exisitng_srpm(repopath, was_updated=news):
-        return None
+    if srpm := handle_exisitng_srpm(repopath, was_updated=news):
+        config['srpm'] = srpm
+        return False
 
     if koji_id := handle_exisitng_koji_id(repopath, was_updated=news):
-        return koji_id
+        config['koji_task_id'] = koji_id
+        return False
 
     patch_spec(repopath / f'{component_name}.spec', config)
 
-    return submit_scratchbuild(repopath, target=target)
+    config['koji_task_id'] = submit_scratchbuild(repopath, target=target)
+    return True
+
+
+def download_srpm_if_possible(component_name, config):
+    """
+    This will:
+     1. inspect the config for srpm path and a koji build id
+     2. if srpm exists or koji build doesn't, do nothing
+     3. if koji build is closed, download the srpm and store the path in config
+     4. return True if something was downloaded
+    """
+    if ('srpm' in config or
+            'koji_task_id' not in config or
+            koji_status(config['koji_task_id']) != 'closed'):
+        return False
+    log(' • Downloading SRPM from Koji...', end=' ')
+    repopath = FEDPKG_CACHEDIR / config['id']
+    command = ('koji', 'download-task', config['koji_task_id'], '--arch=src', '--noprogress')
+    koji_output = run(*command, cwd=repopath).stdout.splitlines()
+    if (l := len(koji_output)) != 1:
+        raise RuntimeError(f'Cannot parse koji download-task ouptut, expected 1 line, got {l}')
+    srpm_filename = koji_output[0].split(' ')[-1]
+    if not srpm_filename.endswith('.src.rpm'):
+        raise RuntimeError('Cannot parse koji download-task ouptut, expected a *.src.rpm filename, got {srpm_filename}')
+    srpm = repopath / srpm_filename
+    if not srpm.exists():
+        raise RuntimeError('Downloaded SRPM does not exist: {srpm}')
+    config['srpm'] = srpm
+    log(srpm_filename)
+    return True
+
+
+def rpm_requires(rpm):
+    """
+    Returns a set with Requires of given on-disk RPM package.
+    If the package is a source package, those are BuildRequires.
+    rpmlib() requires are filtered out.
+    """
+    raw_requires = run('rpm', '-qp', '--requires', rpm).stdout.splitlines()
+    return {r for r in raw_requires if not r.startswith('rpmlib(')}
+
+
+def extract_buildrequires_if_possible(component_name, config):
+    """
+    This will:
+     1. inspect the config for srpm path
+     2. if srpm does not exist, do nothing
+     3. add buildrequires of the found srpm to the config
+     4. return True if srpm was found
+    """
+    if 'srpm' not in config:
+        if srpm := srpm_path(FEDPKG_CACHEDIR / config['id']):
+            config['srpm'] = srpm
+        else:
+            return False
+    log(f' • Extracting BuildRequires from {config["srpm"].name}')
+    config['buildrequires'] = rpm_requires(config['srpm'])
+    for br in sorted(config['buildrequires']):
+        log(f'   • {br}')
+    return True
 
 
 if __name__ == '__main__':
     # build everything
-    for pkg, configs in PACKAGES_BCONDS.items():
+    something_was_submitted = False
+    for component_name, configs in PACKAGES_BCONDS.items():
         for config in configs:
-            config['koji_task_id'] = scratchbuild_patched_if_needed(pkg, config)
+            config['id'] = job_identifier(component_name, config)
+            something_was_submitted |= scratchbuild_patched_if_needed(component_name, config)
 
-    # we loop again rather than doing this within to get some free koji-build time
-    for pkg, configs in PACKAGES_BCONDS.items():
-        for config in configs:
-            repodir = job_identifier(pkg, config)
-            if koji_task_id := config['koji_task_id']:
-                status = koji_status(koji_task_id)
-                if status == 'closed':
-                    ...  # download the SRPM to repodir
-            if srpm := srpm_path(repodir):
-                ...  # extract BuildRequires
+    # download everything until there's nothing downloaded
+    # the idea is that while downloading, other tasks could finish
+    something_was_downloaded = True  # bogus initial value to be able to start
+    extracted_count = 0
+    while something_was_downloaded:
+        something_was_downloaded = False
+        # while we were downloading, we could have finished Koji builds
+        for pkg, configs in PACKAGES_BCONDS.items():
+            for config in configs:
+                if 'buildrequires' not in config:
+                    something_was_downloaded |= download_srpm_if_possible(component_name, config)
+                    if extract_buildrequires_if_possible(component_name, config):
+                        extracted_count += 1
+        koji_status.cache_clear()
+
+    log(f'Extracted BuildRequires from {extracted_count} SRPMs.')
+    if not_extracted_count := sum(len(configs) for configs in PACKAGES_BCONDS.values()) - extracted_count:
+        sys.exit(f'{not_extracted_count} SRPMs remain to be built/downloaded/extracted, run this again in a while.')
