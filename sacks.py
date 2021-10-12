@@ -8,6 +8,7 @@ DNF_CACHEDIR = '_dnf_cache_dir'
 ARCH = 'x86_64'
 MULTILIB = {'x86_64': 'i686'}  # architectures to exclude in certain queries
 METALINK = 'https://mirrors.fedoraproject.org/metalink'
+COPR = 'https://copr-be.cloud.fedoraproject.org'
 
 
 REPOS = {
@@ -20,7 +21,15 @@ REPOS = {
             'repoid': 'rawhide-source',
             'metalink': f'{METALINK}?repo=rawhide-source&arch=$basearch',
         },
-    )
+    ),
+    # XXX Make this configurable, it can be a koji side tag, etc.
+    'target': (
+        {
+            'repoid': 'python3.11',
+            'baseurl': [f'{COPR}/results/@python/python3.11/fedora-rawhide-$basearch/'],
+            'metadata_expire': 60,
+        },
+    ),
 }
 
 
@@ -38,7 +47,7 @@ def _base(repo_key):
     conf.substitutions['basearch'] = ARCH
     for repo in REPOS[repo_key]:
         base.repos.add_new_repo(conf=conf, skip_if_unavailable=False, **repo)
-    log(f'• Filling the DNF sack to/from {DNF_CACHEDIR}...', end=' ')
+    log(f'• Filling the DNF {repo_key} sack to/from {DNF_CACHEDIR}...', end=' ')
     base.fill_sack(load_system_repo=False, load_available_repos=True)
     log('done.')
     return base
@@ -63,3 +72,10 @@ def rawhide_sack():
     A filled sack to perform rawhide repoquries. See base() for details.
     """
     return _base('rawhide').sack
+
+
+def target_sack():
+    """
+    A filled sack to perform target repoquries. See base() for details.
+    """
+    return _base('target').sack

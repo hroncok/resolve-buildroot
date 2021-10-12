@@ -1,8 +1,7 @@
 import collections
 import functools
-from dataclasses import dataclass
 
-from sacks import ARCH, MULTILIB, rawhide_sack
+from sacks import ARCH, MULTILIB, rawhide_sack, target_sack
 from utils import log
 
 
@@ -87,18 +86,33 @@ def packages_to_rebuild(old_deps, *, excluded_components=()):
     return components
 
 
-def packages_built():
+@functools.lru_cache(maxsize=1)
+def packages_built(new_deps, *, excluded_components=()):
     """
-    XXX A fake function, for testing purposes
-    """
-    @dataclass
-    class FakePackage:
-        name: str
+    Given a hashable collection of string-dependencies that are "new",
+    queries target for all binary packages that require those
+    and returns them in a dict:
+     - keys: SRPM-names
+     - values: lists of hawkey.Packages
 
+    Excluded_components is an optional hashable collection of component names
+    to exclude from the results.
+    """
+    sack = target_sack()
+    log('• Querying all successfully rebuilt packages...', end=' ')
+    results = sack.query().filter(requires=new_deps, arch__neq='src', latest=1)
+    if ARCH in MULTILIB:
+        results = results.filter(arch__neq=MULTILIB[ARCH])
     components = ReverseLookupDict()
-    components['python-packaging'] = [FakePackage('python3-packaging')]
-    components['pyparsing'] = [FakePackage('python3-pyparsing')]
-    components['python-setuptools'] = [FakePackage('python3-setuptools')]
+    anticount = 0
+    for result in results:
+        if result.source_name not in excluded_components:
+            components[result.source_name].append(result)
+        else:
+            anticount += 1
+    # no longer create lists on access to avoid mistakes:
+    components.default_factory = None
+    log(f'found {len(components)} components ({len(results)-anticount} binary packages).')
     return components
 
 
@@ -118,7 +132,7 @@ def are_all_done(*, packages_to_check, all_components, components_done):
     for relevant_component, required_packages in relevant_components.items():
         log(f'    • {relevant_component}')
         for required_package in required_packages:
-            for done_package in components_done[relevant_component]:
+            for done_package in components_done.get(relevant_component, ()):
                 # The done packages are from different repo and might have different EVR
                 # Hence, we only compare the names
                 if done_package.name == required_package.name:
@@ -136,7 +150,7 @@ if __name__ == '__main__':
     from bconds import PACKAGES_BCONDS, bcond_cache_identifier, extract_buildrequires_if_possible
 
     components = packages_to_rebuild(OLD_DEPS, excluded_components=EXCLUDED_COMPONENTS)
-    components_done = packages_built()
+    components_done = packages_built(NEW_DEPS, excluded_components=EXCLUDED_COMPONENTS)
     binary_rpms = components.all_values()
 
     for component in components:
