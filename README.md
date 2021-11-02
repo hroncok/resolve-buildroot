@@ -79,7 +79,7 @@ When you change the bcond logic in packages, occasionally refresh this cache.
 ## Getting a list of packages to rebuild
 
 Running the `jobs.py` script will put a lot of debug information to stderr
-and a list of packages that need to be and can already be rebuilt to stdout.
+and a list of packages that (TODO need to be and) can already be rebuilt to stdout.
 Bconded builds have colons (`:`) in them and you can find the meaning of that in `jobs.py`
 (function `bcond_cache_identifier()`).
 Regular builds only have component names.
@@ -89,7 +89,7 @@ Regular builds only have component names.
  1. All packages that require the "old requires" are collected from rawhide, grouped by their components.
  2. All packages that require the "new requires" are collected from the target repo, grouped by their components.
  3. A difference between the two is considered as "needs to be built".
- 4. For each component in need of rebuilding, a list of packages that would be installed in the buildroot is resolved.
+ 4. For each component (TODO in need of rebuilding), a list of packages that would be installed in the buildroot is resolved.
  5. If none of the to-be-installed packages needs a rebuild, this component is ready to be rebuilt. If some packages are not yet rebuilt, the builder would not be able to resolve the dependencies; bcond'ed builds are considered in that case if in the cache.
 
 ## Caveats
@@ -97,6 +97,8 @@ Regular builds only have component names.
 As of now, this does not rebuild anything.
 It only tells you what can be rebuilt.
 Currently running builds are not considered at all.
+As of now, all packages that can be rebuilt are printed --
+we want to be able to print just the once that are still needed.
 
 Packages that were already rebuilt (even in a bconded state)
 will never be reported again as in need of another rebuild.
