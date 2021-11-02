@@ -116,7 +116,7 @@ def packages_built(new_deps, *, excluded_components=()):
     return components
 
 
-def are_all_done(*, packages_to_check, all_components, components_done):
+def are_all_done(*, packages_to_check, all_components, components_done, blocker_counter):
     """
     Given a collection of (binary) packages_to_check, and dicts of all_components and components_done,
     returns True if ALL packages_to_check are considered "done" (i.e. installable).
@@ -129,8 +129,10 @@ def are_all_done(*, packages_to_check, all_components, components_done):
     log(f'  • {component}: {len(packages_to_check)} packages / {len(relevant_components)} '
         f'components relevant to our problem')
     all_available = True
+    blocking_components = set()
     for relevant_component, required_packages in relevant_components.items():
         log(f'    • {relevant_component}')
+        count_component = False
         for required_package in required_packages:
             for done_package in components_done.get(relevant_component, ()):
                 # The done packages are from different repo and might have different EVR
@@ -141,6 +143,12 @@ def are_all_done(*, packages_to_check, all_components, components_done):
             else:
                 log(f'      ✗ {required_package.name}')
                 all_available = False
+                count_component = True
+        if count_component:
+            blocker_counter['general'][relevant_component] += 1
+            blocking_components.add(relevant_component)
+    if len(blocking_components) == 1:
+        blocker_counter['single'][blocking_components.pop()] += 1
     return all_available
 
 
@@ -153,6 +161,11 @@ if __name__ == '__main__':
     components_done = packages_built(NEW_DEPS, excluded_components=EXCLUDED_COMPONENTS)
     binary_rpms = components.all_values()
 
+    blocker_counter = {
+        'general': collections.Counter(),
+        'single': collections.Counter(),
+    }
+
     for component in components:
         try:
             component_buildroot = resolve_buildrequires_of(component)
@@ -164,6 +177,7 @@ if __name__ == '__main__':
             packages_to_check=set(component_buildroot) & binary_rpms,
             all_components=components,
             components_done=components_done,
+            blocker_counter=blocker_counter,
         )
 
         if ready_to_rebuild:
@@ -184,8 +198,17 @@ if __name__ == '__main__':
                         packages_to_check=set(component_buildroot) & binary_rpms,
                         all_components=components,
                         components_done=components_done,
+                        blocker_counter=blocker_counter,
                     )
                     if ready_to_rebuild:
                         print(config['id'])
                 else:
                     log(f' • {config["id"]} bcond SRPM not present yet, skipping')
+
+    log('\nThe 50 most commonly needed components are:')
+    for component, count in blocker_counter['general'].most_common(50):
+        log(f'{count:>5} {component}')
+
+    log('\nThe 20 most commonly last-blocking components are:')
+    for component, count in blocker_counter['single'].most_common(20):
+        log(f'{count:>5} {component}')
