@@ -149,6 +149,8 @@ def are_all_done(*, packages_to_check, all_components, components_done, blocker_
             blocking_components.add(relevant_component)
     if len(blocking_components) == 1:
         blocker_counter['single'][blocking_components.pop()] += 1
+    elif 1 < len(blocking_components) < 10:  # this is an arbitrarily chosen number to avoid cruft
+        blocker_counter['combinations'][tuple(sorted(blocking_components))] += 1
     return all_available
 
 
@@ -164,6 +166,7 @@ if __name__ == '__main__':
     blocker_counter = {
         'general': collections.Counter(),
         'single': collections.Counter(),
+        'combinations': collections.Counter(),
     }
 
     for component in components:
@@ -212,3 +215,7 @@ if __name__ == '__main__':
     log('\nThe 20 most commonly last-blocking components are:')
     for component, count in blocker_counter['single'].most_common(20):
         log(f'{count:>5} {component}')
+
+    log('\nThe 20 most commonly last-blocking small combinations of components are:')
+    for components, count in blocker_counter['combinations'].most_common(20):
+        log(f'{count:>5} {", ".join(components)}')
