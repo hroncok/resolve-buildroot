@@ -137,11 +137,16 @@ def are_all_done(*, packages_to_check, all_components, components_done, blocker_
             for done_package in components_done.get(relevant_component, ()):
                 # The done packages are from different repo and might have different EVR
                 # Hence, we only compare the names
-                if done_package.name == required_package.name:
+                # For Copr rebuilds, the Copr EVR must be >= Fedora EVR
+                # For koji rebuilds, this will be always true anyway
+                if done_package.name == required_package.name and not done_package.evr_lt(required_package):
                     log(f'      ✔ {required_package.name}')
                     break
             else:
-                log(f'      ✗ {required_package.name}')
+                if done_package.name == required_package.name:
+                    log(f'      ✗ {required_package.name} (older EVR available)')
+                else:
+                    log(f'      ✗ {required_package.name}')
                 all_available = False
                 count_component = True
         if count_component:
