@@ -31,6 +31,7 @@ The tool currently invokes the following commands in subprocess:
  - `fedpkg` (`clone -a`, `build --srpm --scratch`)
  - `koji` (`taskinfo`, `download-task`)
  - `rpm -qp`
+ - `rpmdev-bumpspec`
 
 The tests also use `mock -r fedora-rawhide-x86_64`.
 

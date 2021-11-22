@@ -164,6 +164,12 @@ def patch_spec(specpath, config):
     log(f'   • Patching {specpath.name}')
 
     run('git', '-C', specpath.parent, 'reset', '--hard')
+
+    if 'bootstrap' in config.get('withs', ()):
+        # bump the release not to create an older EVR with ~bootstrap
+        # this is useful if we build the testing SRPMs in copr
+        run('rpmdev-bumpspec', '--rightmost', specpath)
+
     spec_text = specpath.read_text()
 
     lines = []
