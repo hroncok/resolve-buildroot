@@ -1,5 +1,6 @@
 import collections
 import functools
+import sys
 
 from sacks import ARCH, MULTILIB, rawhide_sack, target_sack
 from utils import log
@@ -179,6 +180,9 @@ if __name__ == '__main__':
     }
 
     for component in components:
+        if len(sys.argv) > 1 and component not in sys.argv[1:]:
+            continue
+
         try:
             component_buildroot = resolve_buildrequires_of(component)
         except ValueError as e:
