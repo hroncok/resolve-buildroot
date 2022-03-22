@@ -84,6 +84,7 @@ PACKAGES_BCONDS = {
     'python-libcst': [{'withouts': ['tests']}],
     'python-databases': [{'withs': ['bootstrap']}],
     'python-molecule': [{'withouts': ['doc']}],
+    'scipy': [{'withouts': ['pythran']}],
 }
 
 
