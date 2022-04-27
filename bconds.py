@@ -60,7 +60,7 @@ PACKAGES_BCONDS = {
     'python-sphinxcontrib-websupport': [{'withouts': ['optional_tests']}],
     'python-soupsieve': [{'withouts': ['tests']}],
     'python-towncrier': [{'withouts': ['tests']}],
-    'python3-pytest-asyncio': [{'withouts': ['tests']}],
+    'python-pytest-asyncio': [{'withouts': ['tests']}],
     'python-flit': [{'withouts': ['tests']}],
     'python-async-timeout': [{'withouts': ['tests']}],
     'python-trio': [{'withouts': ['tests']}],
