@@ -69,7 +69,7 @@ PACKAGES_BCONDS = {
     'python-jupyter-client': [{'withouts': ['doc', 'tests']}],
     'python-matplotlib': [{'withouts': ['check']}],
     'ipython': [{'withouts': ['check', 'doc']}],
-    'python-ipykernel': [{'withouts': ['intersphinx']}],
+    'python-ipykernel': [{'withouts': ['intersphinx', 'tests']}],
     'pybind11': [{'withouts': ['tests']}],
     'python-nbconvert': [{'withouts': ['check', 'doc']}],
     'python-nbclient': [{'withouts': ['check']}],
