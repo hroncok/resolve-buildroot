@@ -85,6 +85,7 @@ PACKAGES_BCONDS = {
     'python-databases': [{'withs': ['bootstrap']}],
     'python-molecule': [{'withouts': ['doc']}],
     'scipy': [{'withouts': ['pythran']}],
+    'python-pandas': [{'withs': ['bootstrap']}],
 }
 
 
