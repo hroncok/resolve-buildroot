@@ -86,6 +86,7 @@ PACKAGES_BCONDS = {
     'python-molecule': [{'withouts': ['doc']}],
     'scipy': [{'withouts': ['pythran']}],
     'python-pandas': [{'withs': ['bootstrap']}],
+    'grpc': [{'withs': ['bootstrap']}],
 }
 
 
