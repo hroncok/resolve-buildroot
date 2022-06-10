@@ -8,6 +8,7 @@ DNF_CACHEDIR = '_dnf_cache_dir'
 ARCH = 'x86_64'
 MULTILIB = {'x86_64': 'i686'}  # architectures to exclude in certain queries
 METALINK = 'https://mirrors.fedoraproject.org/metalink'
+KOJI = 'http://kojipkgs.fedoraproject.org'
 COPR = 'https://copr-be.cloud.fedoraproject.org'
 
 
@@ -15,11 +16,13 @@ REPOS = {
     'rawhide': (
         {
             'repoid': 'rawhide',
-            'metalink': f'{METALINK}?repo=rawhide&arch=$basearch',
+            # 'metalink': f'{METALINK}?repo=rawhide&arch=$basearch',
+            'baseurl': [f'{KOJI}/repos/rawhide/latest/$basearch/'],
         },
         {
             'repoid': 'rawhide-source',
-            'metalink': f'{METALINK}?repo=rawhide-source&arch=$basearch',
+            # 'metalink': f'{METALINK}?repo=rawhide-source&arch=$basearch',
+            'baseurl': [f'{KOJI}/repos/rawhide/latest/src/'],
         },
     ),
     # XXX Make this configurable, it can be a koji side tag, etc.

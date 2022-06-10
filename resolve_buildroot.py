@@ -9,7 +9,8 @@ from utils import log, stringify
 
 # Some deps are only pulled in when those are installed:
 DEFAULT_GROUPS = (
-    'buildsys-build',
+    #'buildsys-build',  # for composed repo
+    'build',  # for koji repo
 )
 
 
