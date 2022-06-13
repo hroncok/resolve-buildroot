@@ -88,6 +88,7 @@ PACKAGES_BCONDS = {
     'python-pandas': [{'withs': ['bootstrap']}],
     'grpc': [{'withs': ['bootstrap']}],
 }
+reverse_id_lookup = {}
 
 
 def bcond_cache_identifier(component_name, config, *, branch='', target=''):
@@ -112,7 +113,9 @@ def bcond_cache_identifier(component_name, config, *, branch='', target=''):
     replacements_id = '-'.join(sorted(config.get('replacements', {})))
     if branch == DEFAULT_BRANCH:
         branch = ''
-    return f'{component_name}:{withouts_id}:{withs_id}:{replacements_id}:{branch}:{target}'
+    identifier = f'{component_name}:{withouts_id}:{withs_id}:{replacements_id}:{branch}:{target}'
+    reverse_id_lookup[identifier] = config
+    return identifier   
 
 
 def run(*cmd, **kwargs):
@@ -131,7 +134,7 @@ def clone_into(component_name, target, branch=''):
     log('done.')
 
 
-def refresh_gitrepo(repopath):
+def refresh_gitrepo(repopath, prune_exisitng=False):
     log(f' • Refreshing "{repopath}" git repo...', end=' ')
     git = 'git', '-C', repopath
     head_before = run(*git, 'rev-parse', 'HEAD').stdout.rstrip()
@@ -140,8 +143,9 @@ def refresh_gitrepo(repopath):
     run(*git, 'pull')
     head_after = run(*git, 'rev-parse', 'HEAD').stdout.rstrip()
     if head_before == head_after:
-        # we try to preserve the changes for local inspection, but if it fails, meh
-        run(*git, 'stash', 'pop', check=False)
+        if not prune_exisitng:
+            # we try to preserve the changes for local inspection, but if it fails, meh
+            run(*git, 'stash', 'pop', check=False)
         log('already up to date.')
         return False
     else:
@@ -349,13 +353,23 @@ def extract_buildrequires_if_possible(component_name, config):
     return True
 
 
-if __name__ == '__main__':
-    # build everything
-    something_was_submitted = False
+def each_bcond_name_config():
     for component_name, configs in PACKAGES_BCONDS.items():
         for config in configs:
             config['id'] = bcond_cache_identifier(component_name, config)
-            something_was_submitted |= scratchbuild_patched_if_needed(component_name, config)
+            yield component_name, config
+
+
+def build_reverse_id_lookup():
+    for _ in each_bcond_name_config():
+        pass
+
+
+if __name__ == '__main__':
+    # build everything
+    something_was_submitted = False
+    for component_name, config in each_bcond_name_config():
+        something_was_submitted |= scratchbuild_patched_if_needed(component_name, config)
 
     # download everything until there's nothing downloaded
     # the idea is that while downloading, other tasks could finish
