@@ -168,11 +168,6 @@ def patch_spec(specpath, config):
 
     run('git', '-C', specpath.parent, 'reset', '--hard')
 
-    if 'bootstrap' in config.get('withs', ()):
-        # bump the release not to create an older EVR with ~bootstrap
-        # this is useful if we build the testing SRPMs in copr
-        run('rpmdev-bumpspec', '--rightmost', specpath)
-
     spec_text = specpath.read_text()
 
     lines = []
@@ -283,7 +278,12 @@ def scratchbuild_patched_if_needed(component_name, config, *, branch='', target=
         config['koji_task_id'] = koji_id
         return False
 
-    patch_spec(repopath / f'{component_name}.spec', config)
+    specpath = repopath / f'{component_name}.spec'
+    patch_spec(specpath, config)
+    if 'bootstrap' in config.get('withs', ()):
+        # bump the release not to create an older EVR with ~bootstrap
+        # this is useful if we build the testing SRPMs in copr
+        run('rpmdev-bumpspec', '--rightmost', specpath)
 
     config['koji_task_id'] = submit_scratchbuild(repopath, target=target)
     return True
