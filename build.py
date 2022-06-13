@@ -39,6 +39,8 @@ if __name__ == '__main__':
     # Find any patches from previous bootstrap builds
     patch = PATCHDIR / f'{component_name}.patch'
     if patch.exists():
+        if bootstrap:
+            raise NotImplementedError('Double bootstrap is not yet supported')
         with patch.open('r') as patchfile:
             run('patch', '-R', '-p1', stdin=patchfile, cwd=repopath)
         patch.unlink()
