@@ -7,6 +7,7 @@ PyX
 R2spec
 RBTools
 ServiceReport
+WALinuxAgent
 Zim
 abrt-server-info-page
 academic-admin
@@ -90,6 +91,7 @@ devscripts
 dib-utils
 diceware
 distcc
+distgen
 dmlite
 dnf-plugin-diff
 dnf-plugin-ovl
@@ -238,6 +240,7 @@ mgarepo
 minigalaxy
 mirage
 mkosi
+mock
 mom
 mozo
 mpich
@@ -265,6 +268,7 @@ nwchem
 nwg-panel
 nyx
 oct2spec
+offlineimap
 ogr2osm
 omniORB
 omniORBpy
@@ -309,6 +313,7 @@ pre-commit
 printrun
 profanity
 proselint
+protontricks
 protonvpn-cli
 proxmark3
 pss
@@ -465,6 +470,7 @@ python-alsaaudio
 python-altgraph
 python-amico
 python-amply
+python-amqp
 python-ana
 python-aniso8601
 python-annexremote
@@ -472,6 +478,8 @@ python-ansi
 python-ansi2html
 python-ansicolor
 python-ansicolors
+python-ansiwrap
+antlr4-project
 python-anyconfig
 python-anyjson
 python-anytree
@@ -550,6 +558,7 @@ python-berkeleydb
 python-betamax
 python-betamax-serializers
 python-bibtexparser
+python-bidict
 python-bids-validator
 python-bigsuds
 python-billiard
@@ -789,6 +798,7 @@ python-dbf
 python-dbfread
 dbus-python
 python-dbus-client-gen
+python-dbus-next
 python-dbus-python-client-gen
 python-dbus-signature-pyparsing
 python-dbusmock
@@ -888,6 +898,7 @@ dynaconf
 python-easyargs
 python-easyco
 python-easygui
+python-easyprocess
 python-eccodes
 python-ecdsa
 python-edgegrid
@@ -936,7 +947,7 @@ python-feedgenerator
 python-feedparser
 python-fields
 file
-python-filelock:docs-tests::::
+python-filelock
 python-filetype
 python-firehose
 firewalld
@@ -992,6 +1003,7 @@ python-gammu
 python-gast
 python-gattlib
 python-gccinvocation
+gdal
 gdcm
 python-gearbox
 python-gekitchen
@@ -1009,6 +1021,7 @@ libgexiv2
 gfal2-python
 python-ghp-import
 python-giacpy
+python-gilt
 python-git-revise
 python-git-url-parse
 python-gitapi
@@ -1157,7 +1170,9 @@ python-jaraco-classes
 python-jaraco-envs
 python-jaraco-functools
 python-jaraco-path
+python-javabridge
 python-javalang
+python-javaobj
 javapackages-tools
 python-javaproperties
 python-jaydebeapi
@@ -1227,6 +1242,7 @@ python-lark-parser
 python-lasagne
 lasso
 python-latexcodec
+python-lazr-config
 python-lazr-delegates
 python-lazr-smtptest
 python-lazr-uri
@@ -1478,6 +1494,7 @@ python-openidc-client
 OpenIPMI
 python-openoffice
 python-openopt
+python-openpaperwork-core
 python-openpyxl
 python-openqa_client
 python-opensearch-py
@@ -1499,6 +1516,7 @@ python-outcome
 python-outdated
 python-overpy
 python-ovirt-engine-sdk4
+python-owl_rl
 python-packaging
 python-pacpy
 python-paho-mqtt
@@ -1549,6 +1567,7 @@ python-pickleshare
 python-pid
 python-pifpaf
 python-pigpio
+python-pipdeptree
 python-pivy
 python-pkgconfig
 python-pkginfo
@@ -1599,6 +1618,7 @@ python-progressbar2
 python-promise
 python-prompt-toolkit
 python-protego
+protobuf
 python-prov
 python-psutil
 python-psycogreen
@@ -1623,6 +1643,7 @@ python-py27hash
 python-py2pack
 python3-py3dns
 python-py3nvml
+py4j
 python-py9p
 python-pyModbusTCP
 python3-pyPEG2
@@ -1810,6 +1831,7 @@ python-pytest-isort
 python-pytest-lazy-fixture
 python-pytest-metadata
 python-pytest-mock
+python-pytest-mpi
 python-pytest-multihost
 python-pytest-openfiles
 python-pytest-ordering
@@ -1895,6 +1917,7 @@ python-reparser
 python-repomd
 python-repoze-lru
 python-repoze-sphinx-autointerface
+python-repoze-tm2
 python-repoze-who
 python-requests:tests::::
 python-requests-cache
@@ -1909,7 +1932,9 @@ python-requre
 python-resolvelib
 python-restructuredtext-lint
 python-restsh
+restview
 python-resultsdb_api
+resultsdb_conventions
 python-resumable-urlretrieve
 python-retask
 python-retrying
@@ -1922,6 +1947,7 @@ python-rmtest
 python-rnc2rng
 python-robot-detection
 python-roman
+python-rospkg
 python-rpdb
 python-rply
 rpm
@@ -2107,6 +2133,7 @@ python-ssdp
 python-sseclient
 python-sseclient-py
 python-ssh-python
+python-stack-data
 python-stackprinter
 pdf-stapler
 python-statsd
@@ -2155,6 +2182,7 @@ python-teamcity-messages
 python-tempdir
 python-tempita
 python-templated-dictionary
+python-tenacity
 python-termcolor
 python-terminado
 testcloud
@@ -2186,6 +2214,7 @@ python-tornado
 python-tortilla
 python-towncrier:tests::::
 python-tox-current-env
+tracer
 trademgen
 python-traitlets
 python-transaction
@@ -2292,6 +2321,7 @@ python-waitress
 python-walkdir
 python-waqiasync
 python-warlock
+python-watchdog
 python-wavio
 python-wcag-contrast-ratio
 python-wcmatch
@@ -2377,7 +2407,7 @@ python-zope-event
 python-zope-exceptions
 python3-zope-fixers
 python-zope-i18nmessageid
-python-zope-interface:docs::::
+python-zope-interface
 python-zope-sqlalchemy
 python-zope-testing
 python-zopfli
@@ -2417,6 +2447,7 @@ rtlsdr-scanner
 rubber
 s-tui
 s3cmd
+salt
 salt-lint
 sasutils
 screenkey
@@ -2448,6 +2479,7 @@ sugar-paint
 sugar-toolkit-gtk3
 supervisor
 suricata
+swift-lang
 syslog-ng
 sysmontask
 system-config-printer
@@ -2468,6 +2500,7 @@ tito
 tldr
 todocli
 toot
+torbrowser-launcher
 python-tox
 trac-monotone-plugin
 trac-tracnav-plugin
