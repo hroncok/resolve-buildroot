@@ -260,6 +260,7 @@ pssh
 puddletag
 pulsecaster
 pybugz
+pydeps
 pyflowtools
 pyhoca-cli
 pyhoca-gui
@@ -1021,6 +1022,7 @@ python-itsdangerous
 python-itypes
 python-j1m.sphinxautozconfig
 python-jaraco-classes
+python-jaraco-envs
 python-jaraco-functools
 python-jaraco-path
 python-javalang
@@ -1755,6 +1757,7 @@ python-sane
 sanlock
 python-scales
 scanless
+scapy
 python-schedutils
 python-schema
 python-scour
@@ -1973,6 +1976,7 @@ python-tomli
 python-toolz
 python-toposort
 python-tortilla
+python-tox-current-env
 trademgen
 python-traitlets
 python-transforms3d
