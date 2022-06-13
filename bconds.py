@@ -40,7 +40,7 @@ PACKAGES_BCONDS = {
     'python-hypothesis': [{'withouts': ['doc', 'tests']}],
     'python-pysocks': [{'replacements': {'with_python3_tests': '0'}}],
     'python-pygments': [{'withouts': ['docs', 'tests']}],
-    'python-filelock': [{'withouts': ['docs']}],
+    'python-filelock': [{'withouts': ['docs', 'tests']}],
     'python-elementpath': [{'withouts': ['tests']}],
     'python-iniconfig': [{'withouts': ['tests']}],
     'Cython': [{'withouts': ['tests']}],
