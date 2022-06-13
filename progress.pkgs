@@ -8,6 +8,7 @@ R2spec
 RBTools
 ServiceReport
 abrt-server-info-page
+academic-admin
 adb-enhanced
 aiodnsbrute
 airnef
@@ -26,6 +27,8 @@ asciinema
 aubio
 auditwheel
 autojump
+avogadro2-libs
+awscli
 azote
 b43-tools
 battray
@@ -45,6 +48,7 @@ btrfs-sxbackup
 bumpversion
 buttermanager
 cairo-dock-plug-ins
+calamares
 cantoolz
 cantor
 ccnet
@@ -59,10 +63,12 @@ codespell
 collectd
 commissaire-client
 compizconfig-python
+condor
 congruity
 cranc
 cryptlib
 csmock
+cvc4
 cxxtest
 d-feet
 dblatex
@@ -73,13 +79,16 @@ devscripts
 dib-utils
 diceware
 distcc
+dmlite
 dnf-plugin-diff
 dnf-plugin-ovl
 dnfdaemon
 doge
+domoticz
 dot2tex
 python-drgn
 duplicity
+elements
 ephemeral-port-reserve
 evemu
 quodlibet
@@ -96,6 +105,7 @@ fros
 fusion-icon
 gammastep
 gcovr
+gdb
 gdeploy
 getdp
 gi-docgen
@@ -113,6 +123,7 @@ gnome-feeds
 gns3-gui
 gns3-net-converter
 gns3-server
+gnucash
 go2rpm
 gobject-introspection
 goobook
@@ -142,9 +153,11 @@ iotop
 irclog2html
 is-it-in-rhel
 jello
+kea
 kf5-kapidox
 khal
 khard
+kig
 kismon
 koji-containerbuild
 koji-osbuild
@@ -155,7 +168,10 @@ legofy
 babeltrace2
 libbatch
 libcap-ng
+libixion
 libolm
+liborcus
+libreoffice
 libsearpc
 libsigrokdecode
 libstoragemgmt
@@ -182,6 +198,7 @@ mpich
 mqtt-randompub
 mrchem
 mysql-connector-python
+nbdkit
 needrestart
 netgen-mesher
 netstat-monitor
@@ -404,6 +421,7 @@ python-arpy
 python-asciitree
 python-asn1crypto
 python-aspy.yaml
+assimp
 python-asteval
 python-astor
 python-astral
@@ -427,6 +445,7 @@ python-auth-credential
 python-authres
 python-autograd
 python-autopep8
+autowrap
 awake
 python-axolotl-curve25519
 python-azure-common
@@ -482,6 +501,7 @@ python-bokeh
 python-boolean.py
 python-booleanoperations
 boom-boot
+botan
 botan2
 python-boto3
 python-botocore
@@ -492,6 +512,7 @@ python-bracex
 python-bravado
 python-bravado-core
 python-breathe
+brial
 brltty
 brotli
 python-bsddb3
@@ -637,7 +658,10 @@ createrepo_c
 criu
 python-croniter
 python-crypto
+cryptominisat
+csdiff
 python-cson
+csound
 python-css-parser
 python-cssmin
 python-cssselect
@@ -731,6 +755,7 @@ python-django-tastypie
 python-django-threadedcomments
 python-django-timezone-field
 python-djvulibre
+dlib
 python-dmidecode
 dnsgen
 python-dnslib
@@ -787,6 +812,7 @@ python-evdev
 python-events
 python-exabgp
 python-exif
+python3-exiv2
 python-extension-helpers
 python-fastbencode
 python-fastcache
@@ -800,6 +826,7 @@ python-feedgenerator
 python-feedparser
 python-fields
 file
+python-filelock:docs-tests::::
 python-filetype
 python-firehose
 firewalld
@@ -823,6 +850,8 @@ python-flit:tests::::
 python-flock
 python-flufl-testing
 python-fluidity-sm
+fmf
+folly
 python-fontconfig
 python-formats
 python-formencode
@@ -843,6 +872,7 @@ python-fuzzyfinder
 python-fuzzywuzzy
 python-fypp
 python-gammu
+python-gattlib
 python-gccinvocation
 gdcm
 python-gearbox
@@ -856,6 +886,7 @@ gerrymander
 python-gertty
 python-getmac
 python-gettext
+gfal2-python
 python-ghp-import
 python-giacpy
 python-git-revise
@@ -895,6 +926,7 @@ gwebsockets
 python-gzipstream
 python-h11
 python-hamcrest
+hamlib
 python-hatasmota
 python-hatch-vcs
 python-hatchling
@@ -908,6 +940,7 @@ python-hidapi
 python-hikvision
 hivex
 python-hl7
+hokuyoaist
 python-hole
 python-homeconnect
 python-homeworks
@@ -944,6 +977,7 @@ libiio
 python-ijson
 python-imageio
 python-imagesize
+imath
 livecd-tools
 python-immutables
 python-impacket
@@ -1017,6 +1051,7 @@ python-jsonrpclib
 python-jsons
 python-jsonschema:tests::::
 python-junitxml
+python-jupymake
 python-jupyterlab_pygments
 python-justbases
 python-justbytes
@@ -1038,6 +1073,7 @@ python-kmod
 koan
 kobo
 koji
+libkolabxml
 python-korean-lunar-calendar
 python-krbcontext
 krop
@@ -1076,10 +1112,12 @@ libdnet
 python-libevdev
 dtc
 libfreenect
+libftdi
 libgpiod
 libiptcdata
 libkdtree++
 libkdumpfile
+libkml
 liblinear
 util-linux
 python-libnacl
@@ -1092,6 +1130,7 @@ pam_wrapper
 libpfm
 libplist
 libproxy
+libpst
 libreport
 libsbml
 libsedml
@@ -1138,6 +1177,7 @@ python-mako
 python3-mallard-ducktype
 python-managesieve
 python-mapbox-earcut
+python-mapnik
 python-maps
 mapserver
 python-marathon
@@ -1227,6 +1267,7 @@ python-natlas-libnmap
 python-ndjson-testrunner
 python-neovim
 python-nessus-file-reader
+nest
 python-nest-asyncio
 net-snmp
 python-netaddr
@@ -1269,6 +1310,7 @@ python-okaara
 python-olefile
 python-omnilogic
 oneVPL
+openbabel
 python-opendata-transport
 python-openidc-client
 OpenIPMI
@@ -1278,7 +1320,9 @@ python-openpyxl
 python-opensearch-py
 python-opensensemap-api
 python-openstackdocstheme
+opentrep
 python-opentype-sanitizer
+openvdb
 python-operator-courier
 python-optcomplete
 python-ordered-set
@@ -1500,12 +1544,14 @@ python-pymata-express
 python-pymc3
 python-pymediainfo
 python-pymeeus
+pymilia
 pymodbus
 python-pynacl
 python-pynetbox
 python-pyngus
 python-pynuvo
 pyodbc
+python-pyopencl
 python-pyopengl
 python-pyoptical
 python-pyotgw
@@ -1674,6 +1720,7 @@ python-retryz
 python-rfc3986
 python-rfc3987
 python-rjsmin
+rmol
 python-rmtest
 python-rnc2rng
 python-roman
@@ -1771,6 +1818,7 @@ libsmbios
 python-smbpasswd
 python-smi
 python-smmap
+smoldyn
 tcl-snack
 python-snappy
 python-sniffio
@@ -1861,6 +1909,7 @@ python-stem
 python-stomper
 python-stone
 python-stopit
+stp
 python-straight-plugin
 python-strict-rfc3339
 python-strictyaml
@@ -1891,6 +1940,7 @@ python-tbtrim
 python-tcolorpy
 python-tcxparser
 libtdb
+python-tdlib
 python-teamcity-messages
 python-tempdir
 python-tempita
@@ -1907,6 +1957,7 @@ python-texttable
 python-tftpy
 python-thingserver
 python-three_merge
+thrift
 python-tidy
 python-tifffile
 python-timeout-decorator
@@ -1919,6 +1970,7 @@ python-tomli
 python-toolz
 python-toposort
 python-tortilla
+trademgen
 python-traitlets
 python-transforms3d
 python-translationstring
@@ -1976,6 +2028,7 @@ python-user-agents
 python-utils
 python-utmp
 python-uvloop
+uwsgi
 python-vagrantpy
 python-validators
 vapoursynth
@@ -1990,6 +2043,7 @@ python-versiontools
 vertica-python
 strongswan
 python-virt-firmware
+python-virtualenv:tests::::
 visidata
 python-visionegg-quest
 python-visitor
@@ -2065,6 +2119,7 @@ python-yattag
 ydiff
 python-yourls
 python-ytmusicapi
+libyui
 z3
 python-zabbix-api-erigones
 python-zake
@@ -2096,6 +2151,7 @@ qpid-dispatch
 qutebrowser
 ranger
 rapid-photo-downloader
+rb_libtorrent
 rdiff-backup
 realtime-tests
 recoll
@@ -2148,6 +2204,7 @@ syslog-ng
 sysmontask
 system-config-printer
 system-storage-manager
+systemtap
 targetcli
 targetd
 teampulls
@@ -2164,6 +2221,7 @@ trac-tracnav-plugin
 transifex-client
 transmageddon
 trash-cli
+trellis
 tryton
 trytond
 trytond-account
@@ -2226,6 +2284,7 @@ virt-lightning
 virt-who
 virtme
 vit
+ViTables
 volk
 wad
 waf
