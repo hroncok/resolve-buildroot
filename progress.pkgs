@@ -110,6 +110,7 @@ elements
 elements-alexandria
 enki
 ephemeral-port-reserve
+eric
 evemu
 quodlibet
 expliot
@@ -1893,6 +1894,7 @@ PyYAML
 python-pyyaml-env-tag
 python-pyzolib
 python-q
+qgis
 qpid-proton
 qr-code-generator
 python-qrencode
