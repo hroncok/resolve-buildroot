@@ -57,6 +57,7 @@ getdp
 git-archive-all
 git-fame
 git-filter-repo
+git-pull-request
 git-review
 gjots2
 globus-net-manager
@@ -66,6 +67,7 @@ gns3-gui
 gns3-net-converter
 go2rpm
 goobook
+gphotoframe
 graphviz
 grin
 gumbo-parser
@@ -80,6 +82,7 @@ irclog2html
 is-it-in-rhel
 jello
 kf5-kapidox
+khard
 kismon
 koji-containerbuild
 koji-osbuild
@@ -234,6 +237,7 @@ python-aiohomekit
 python-aiohttp-socks
 python-aiohue
 python-aioiotprov
+python-aioitertools
 python-aiolifx
 python-aiomultiprocess
 python-aiomysql
@@ -262,6 +266,7 @@ python-archinfo
 python-argopt
 python-asciitree
 python-asn1crypto
+python-astroplan
 python-astunparse
 python-async-timeout:tests::::
 python-asysocks
@@ -275,6 +280,7 @@ awake
 python-axolotl-curve25519
 python-azure-common
 python-azure-sdk-tools
+python-b2sdk
 babel::bootstrap:::
 babeltrace
 python-backlash
@@ -293,8 +299,10 @@ python-blinker
 python-blivet
 python-blowfish
 pybluez
+python-blurb
 bmap-tools
 python-bokeh
+python-booleanoperations
 python-boto3
 python-bottle
 python-bottle-sqlite
@@ -323,6 +331,7 @@ python-cerealizer
 python-certifi
 python-chai
 python-chardet:tests::::
+python-cherrypy:tests::::
 python-chirpstack-api
 python-claripy
 python-cle
@@ -332,6 +341,7 @@ python-click-man
 python-clikit
 python-cloudant
 clustershell
+python-cmd2
 python-cmdln
 python-coapthon3
 python-colcon-common-extensions
@@ -443,6 +453,7 @@ python-docs-theme
 python-docutils
 dogtail
 python-dpath
+python-drf-yasg
 python-dtopt
 dynaconf
 python-easyco
@@ -485,6 +496,7 @@ python-flock
 python-flufl-testing
 python-fontconfig
 python-formats
+python-formencode
 freeradius
 python-friendlyloris
 python-frozen-flask
@@ -506,6 +518,7 @@ python-gitapi
 python-github3py
 python-glad
 python-glances-api
+python-glyphsLib
 python-gmqtt
 python-gnupg
 gofer
@@ -555,6 +568,7 @@ livecd-tools
 python-impacket
 python-incremental
 python-influxdb
+python-iniconfig:tests::::
 python-iniparse
 python-inotify
 python-inotify_simple
@@ -586,6 +600,7 @@ python-jsonpatch
 python-jsonpath-rw
 python-jsonpointer
 python-jsonrpclib
+python-jsonschema:tests::::
 python-junitxml
 python-jupyterlab_pygments
 python-justbases
@@ -606,6 +621,7 @@ langtable
 python-lark-parser
 python-lasagne
 python-lazr-uri
+python-lazy-object-proxy
 python-ldap3
 ldapdomaindump
 ldeep
@@ -644,6 +660,7 @@ python-linkheader
 python-linux-procfs
 python-lit
 python-littleutils
+python-logfury
 python-logging-tree
 python-logutils
 python-logzero
@@ -707,6 +724,7 @@ python-nanoid
 python-natlas-libnmap
 python-ndjson-testrunner
 python-nessus-file-reader
+python-nest-asyncio
 net-snmp
 python-netapp-lib
 python-netdata
@@ -767,8 +785,10 @@ python-pivy
 python-pkgconfig
 python-plaintable
 python-plotly
+python-pluggy:tests::::
 python-pluginlib
 python-plugnplay
+python-plumbum
 python-ply
 python-pmw
 pocketsphinx
@@ -797,6 +817,7 @@ python-pulsectl
 pwncat
 python-pwntools
 libpwquality
+python-py
 py-bcrypt
 python-py-gfm
 python-py27hash
@@ -883,8 +904,10 @@ pystatgrab
 pysvn
 python-pysword
 python-pytapo
+python-pytest-astropy-header
 python-pytest-benchmark
 python-pytest-capturelog
+python-pytest-filter-subpackage
 python-pytest-smartcov
 python-pytest-watch
 pythia8
@@ -976,6 +999,7 @@ python-speaklater
 speech-dispatcher
 python-speedtest-cli
 python-speg
+python-sphinx-autodoc-typehints
 python-sphinx-bootstrap-theme
 python-sphinx-epytext
 python-sphinx-press-theme
@@ -1001,6 +1025,7 @@ python-sphinxcontrib-serializinghtml:check::::
 python-sphobjinv
 py-spidev
 python-sql
+python-sqlacodegen
 python-sqlalchemy-filters
 pdf-stapler
 python-stdiomask
@@ -1016,6 +1041,7 @@ sword
 python-system-calls
 systemd-coredump-python
 python-sysv_ipc
+python-tablib
 libtalloc
 python-tasmotadevicecontroller
 tbb
@@ -1050,6 +1076,7 @@ python-types-boto
 python-types-cryptography
 python-types-enum34
 python-types-ipaddress
+python-types-pyopenssl
 python-types-pyyaml
 python-types-requests
 python-types-six
@@ -1074,6 +1101,7 @@ python-utmp
 python-uvloop
 python-vagrantpy
 vapoursynth
+python-varlink
 python-vatnumber
 python-velbus
 python-versioneer
@@ -1107,6 +1135,7 @@ python-wiffi
 python-winacl
 python-winsspi
 python-xapp
+python-xlib
 python-xlsxwriter
 python-xlwt
 python-xml2rfc
@@ -1114,6 +1143,7 @@ python-xmltramp
 python-xpath-expressions
 python-xtermcolor
 python-xunitparser
+python-xxhash
 python-yapf
 python-yaswfp
 ydiff
@@ -1134,6 +1164,7 @@ python-zstd
 python-zuul-sphinx
 ranger
 rapid-photo-downloader
+rdiff-backup
 realtime-tests
 recoll
 rednotebook
@@ -1177,6 +1208,7 @@ tiled
 timeline
 todocli
 trac-monotone-plugin
+trac-tracnav-plugin
 transmageddon
 trash-cli
 trytond-account
@@ -1234,6 +1266,7 @@ vim-jedi
 virtme
 wafw00f
 webtech
+whipper
 whipper-plugin-eaclogger
 winpdb
 wordxtr
