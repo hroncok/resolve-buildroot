@@ -220,6 +220,7 @@ omniORBpy
 onionshare
 python-op1repacker
 python-op1svg
+opae
 openmpi
 openscap
 openscap-daemon
@@ -249,6 +250,7 @@ poezio-omemo
 policycoreutils
 postgresql
 powerline
+pre-commit
 printrun
 profanity
 protonvpn-cli
@@ -1642,6 +1644,7 @@ python-pytest-sugar
 python-pytest-testmon
 python-pytest-trio
 python-pytest-vcr
+python-pytest-venv
 python-pytest-watch
 python-pytest-xprocess
 pythia8
@@ -2044,6 +2047,7 @@ vertica-python
 strongswan
 python-virt-firmware
 python-virtualenv:tests::::
+python-virtualenv-api
 visidata
 python-visionegg-quest
 python-visitor
@@ -2216,6 +2220,7 @@ timeline
 tito
 tldr
 todocli
+python-tox
 trac-monotone-plugin
 trac-tracnav-plugin
 transifex-client
