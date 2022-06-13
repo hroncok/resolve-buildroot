@@ -12,8 +12,10 @@ aiodnsbrute
 airnef
 ampy
 androwarn
+ansible-bender
 ansible-collections-openstack
 appliance-tools
+apx
 arandr
 argparse-manpage
 artifacts
@@ -34,6 +36,7 @@ buttermanager
 cantoolz
 cantor
 cdist
+python-pycha
 chrome-gnome-shell
 coccinelle
 codespell
@@ -86,6 +89,7 @@ guake
 gumbo-parser
 gyp
 hashid
+hplip
 imagefactory
 imagefactory-plugins
 impressive
@@ -163,6 +167,7 @@ perl-Inline-Python
 persepolis
 photocollage
 picard
+pitivi
 playitagainsam
 podman-compose
 poezio-omemo
@@ -258,11 +263,13 @@ python-adafruit-board-toolkit
 adapt
 python-adb-shell
 python-adext
+python-admesh
 python-aenum
 python-aexpect
 python-afsapi
 python-ailment
 python-aioambient
+python-aioasuswrt
 python-aiocmd
 python-aiocurrencylayer
 python-aioftp
@@ -281,6 +288,7 @@ python-aiorestapi
 python-aiorpcx
 python-aiosecretsdump
 python-aiosmb
+python-aiosnmp
 python-aiounittest
 python-aiowinreg
 python-aiozeroconf
@@ -306,6 +314,7 @@ python-apt
 python-apypie
 python-archinfo
 python-argopt
+python-arpeggio
 python-arpy
 python-asciitree
 python-asn1crypto
@@ -314,11 +323,13 @@ python-astor
 python-astroplan
 python-astunparse
 python-async-generator
-python-async-timeout:tests::::
+python-async-timeout
+python-asyncio-dgram
 python-asysocks
 atomic-reactor
 python-atomicwrites:docs-tests::::
 python-attrs:tests::::
+python-audioread
 audit
 python-auth-credential
 python-authres
@@ -341,6 +352,7 @@ python-berkeleydb
 python-betamax
 python-betamax-serializers
 python-bids-validator
+python-bigsuds
 python-billiard
 python-binstruct
 python-bintrees
@@ -397,6 +409,7 @@ python-chardet
 python-charset-normalizer
 python-cherrypy:tests::::
 python-chirpstack-api
+python-ciso8601
 python-claripy
 python-cle
 python-cleo
@@ -465,6 +478,7 @@ python-coverage_pth
 python-cpio
 python-cppheaderparser
 python-cpuinfo
+python-cram
 python-crank
 python-crayons
 python-crcelk
@@ -488,6 +502,7 @@ python-danfossair
 python-dasbus
 python-datadog
 python-dateutils
+python-datrie
 python-dbf
 python-dbus-client-gen
 python-dbus-python-client-gen
@@ -561,6 +576,7 @@ python-dominate
 python-dotmap
 python-dpath
 python-drf-yasg
+python-dropbox
 python-dtfabric
 python-dtopt
 python-dukpy
@@ -582,6 +598,7 @@ enjarify
 python-enlighten
 python-enthought-sphinx-theme
 python-enzyme
+python-epc
 python-epi
 eralchemy
 python-et_xmlfile
@@ -598,6 +615,7 @@ python-fastcache
 python-fastprogress
 python-fb-re2
 python-fdb
+python-feedgenerator
 file
 python-filetype
 python-firehose
@@ -636,13 +654,16 @@ gdcm
 python-gearbox
 python-gekitchen
 python-gelidum
+python-genshi
 python-genty
+python-geopy
 gerrymander
 python-getmac
 python-gettext
 python-giacpy
 python-git-revise
 python-gitapi
+python-gitdb
 python-github3py
 python-glad
 python-glances-api
@@ -658,6 +679,7 @@ python-gphoto2
 python-gpiozero
 python-gpxpy
 python-grabserial
+python-grako
 grammalecte
 python-graphitesend
 python-greenlet
@@ -672,6 +694,7 @@ python-h11
 python-hamcrest
 python-hatasmota
 python-hatchling
+python-hdate
 python-heapdict
 python-helpdev
 python-hexdump
@@ -695,6 +718,7 @@ python-husl
 python-hvac
 python-hyperframe
 python-hypothesis:doc-tests::::
+python-hypothesis-fspaths
 i2c-tools
 python-i3ipc
 python-idna
@@ -708,6 +732,7 @@ python-imagesize
 livecd-tools
 python-immutables
 python-impacket
+python-importlib-metadata
 python-importmagic
 python-incremental
 python-inflect
@@ -715,13 +740,16 @@ python-inflection
 python-influxdb
 python-iniconfig:tests::::
 python-iniparse
+python-inject
 python-inotify
 python-inotify_simple
 python-instant
 python-intervaltree
 python-into-dbus-python
+python-invoke
 python-iowait
 python-ipgetter
+python-ipgetter2
 python-iptools
 python-ipython_genutils
 python-ironicclient
@@ -736,12 +764,15 @@ python-itemadapter
 python-itypes
 python-j1m.sphinxautozconfig
 python-jaraco-classes
+python-jaraco-functools
 python-jaraco-path
 python-javalang
 python-jaydebeapi
+jc
 python-jcconv
 python-jdcal
 python-jellyfish
+python-jinja2:docs::::
 python-jmespath
 python-journal-brief
 python-jsmin
@@ -763,6 +794,7 @@ python-justbases
 python-justbytes
 python-kadmin
 python-kaitaistruct
+python-kajiki
 python-kanboard
 python-kaptan
 kerberoast
@@ -797,6 +829,7 @@ libCombine
 python-libarchive-c
 libcec
 libchewing
+python-libcloud
 concordance
 libdnet
 python-libevdev
@@ -844,11 +877,15 @@ python-lupa
 python3-lxc
 python-lxml
 python-ly
+python-m2r
 python-magic
 python-mailer
 python-mailmerge
 python-makeelf
+python-makefun
+python-mako
 python3-mallard-ducktype
+python-managesieve
 python-maps
 mapserver
 python-marathon
@@ -861,6 +898,7 @@ python-markdown_2
 python-markupsafe
 python-masscan
 python-matrix-synapse-ldap3
+python-mccabe
 python-mdx_gh_links
 med
 python-memcached
@@ -884,6 +922,9 @@ python-mnemonic
 python-mock
 python-modernize
 python-modestmaps
+python-moksha-common
+python-molecule-podman
+python-mongomock
 python-mongoquery
 python-monotonic
 python-more-executors
@@ -906,6 +947,7 @@ python-multitasking
 python-munkres
 python-musicbrainzngs
 python-myhdl
+python3-mypy
 python-mypy_extensions
 python-mysql
 python-mystrom
@@ -942,6 +984,7 @@ numpy
 python-oauth
 python-oauth2
 odfpy
+python-ogr
 python-omnilogic
 oneVPL
 python-opendata-transport
@@ -957,15 +1000,18 @@ python-orderedset
 python-osa
 osbs-client
 otf2
+python-outcome
 python-outdated
 python-ovirt-engine-sdk4
 python-pacpy
+python-paho-mqtt
 python-pam
 python-pamela
 python-pandocfilters
 python-param
 python-parse
 python-parsedatetime
+python-parsel
 python-parso
 partio
 python-passlib
@@ -985,6 +1031,8 @@ python-pebble
 python-pecan
 python-pefile
 python-pep621
+python-pexpect
+python-pg8000
 python-phabricator
 python-phonenumbers
 python-phpserialize
@@ -1021,6 +1069,7 @@ libpreludedb
 python-pretend
 python-prettyprinter
 python-prettytable
+prewikka
 prewikka-updatedb
 python-process-tests
 python-productmd
@@ -1060,6 +1109,7 @@ python-pycdio
 python-pycdlib
 python-pycec
 python-chm
+python-pyclipper
 pycmd
 python-pycomm3
 python-pycosat
@@ -1114,6 +1164,7 @@ python-pylotoncycle
 python-pyls-spyder
 python-pymata-express
 python-pymc3
+python-pymediainfo
 pymodbus
 python-pynuvo
 pyodbc
@@ -1131,6 +1182,7 @@ python-pypubsub
 sip
 python-pyqt5-sip
 python-pyqt6-sip
+python-pyrfc3339
 python-pyro
 python-pyroute2
 python-pyrpmmd
@@ -1152,6 +1204,7 @@ python-pystemd
 pysvn
 python-pyswip
 python-pysword
+python-pytaglib
 python-pytapo
 pytest:docs-tests-tiemout::::
 python-pytest-astropy-header
@@ -1163,10 +1216,12 @@ python-pytest-env
 python-pytest-error-for-skips
 python-pytest-filter-subpackage
 python-pytest-fixture-config
+python-pytest-flakes
 python-pytest-forked
 python-pytest-isort
 python-pytest-lazy-fixture
 python-pytest-metadata
+python-pytest-mock
 python-pytest-multihost
 python-pytest-openfiles
 python-pytest-remotedata
@@ -1237,6 +1292,7 @@ python-retrying
 python-retryz
 python-rfc3986
 python-rfc3987
+python-rnc2rng
 python-roman
 python-rpdb
 python-rply
@@ -1251,6 +1307,7 @@ python-ruamel-yaml
 python-ruamel-yaml-clib
 rust-packaging
 python-rustcfg
+python-rx
 python-rxjson
 python-sanction
 sanlock
@@ -1269,6 +1326,7 @@ python-semver
 python-send2trash
 sentencepiece
 python-sentinels
+python-serpent
 python-serpy
 setools
 python-setproctitle
@@ -1283,6 +1341,7 @@ python-shelly
 python-should_dsl
 python-show-in-file-manager
 python-shtab
+python-sieve
 python-signalfd
 python-simpleaudio
 python-simplebayes
@@ -1358,6 +1417,7 @@ pdf-stapler
 python-stdiomask
 python-stdnum
 python-stomper
+python-stone
 python-stopit
 python-straight-plugin
 python-strict-rfc3339
@@ -1421,8 +1481,11 @@ python-types-pyyaml
 python-types-requests
 python-types-six
 python-typing-extensions
+python-typing-inspect
 python-typogrify
+python-tzlocal
 python-ua-parser
+python-uamqp
 python-uinput
 python-ujson
 unbound
@@ -1513,6 +1576,7 @@ python-xvfbwrapper
 python-xxhash
 python-yamlordereddictloader
 python-yapf
+python-yarl
 python-yaswfp
 python-yattag
 ydiff
@@ -1561,6 +1625,7 @@ rubber
 s-tui
 s3cmd
 sasutils
+screenkey
 sendKindle
 sepolicy_analysis
 setconf
@@ -1642,6 +1707,7 @@ tuna
 txt2tags
 ubertooth
 udica
+uflash
 ufw
 upt
 urlscan
@@ -1650,6 +1716,7 @@ vdr-epg-daemon
 vdr-epg2vdr
 vex
 vim-jedi
+virt-lightning
 virt-who
 virtme
 wad
