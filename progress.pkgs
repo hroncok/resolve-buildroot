@@ -108,6 +108,7 @@ electron-cash
 electrum
 elements
 elements-alexandria
+enki
 ephemeral-port-reserve
 evemu
 quodlibet
@@ -206,6 +207,7 @@ koji-osbuild
 komikku
 lammps
 lecm
+lector
 legendary
 legofy
 libaccounts-glib
@@ -326,6 +328,7 @@ protonvpn-cli
 proxmark3
 pss
 pssh
+ptpython
 puddletag
 pulsecaster
 pybugz
@@ -890,6 +893,7 @@ python-docs-theme
 python-docutils
 dogtail
 python-dominate
+python-dotenv
 python-dotmap
 python-doxytag2zealdb
 python-dpath
@@ -1156,6 +1160,7 @@ python-intervaltree
 python-into-dbus-python
 python-invoke
 python-iowait
+python-ipdb
 python-ipgetter
 python-ipgetter2
 python-ipmi
@@ -1894,6 +1899,7 @@ python-qrencode
 qscintilla
 python-qt5
 pyqtwebengine
+python-qtconsole
 python-qtsass
 python-quantities
 python-queuelib
@@ -1936,6 +1942,7 @@ python-repoze-lru
 python-repoze-sphinx-autointerface
 python-repoze-tm2
 python-repoze-who
+python-represent
 python-requests:tests::::
 python-requests-cache
 python-requests-exoscale-auth
@@ -1964,7 +1971,9 @@ python-rmtest
 python-rnc2rng
 python-robot-detection
 python-roman
+python-rosdep
 python-rosdistro
+python-rosinstall_generator
 python-rospkg
 python-rpdb
 python-rply
@@ -2095,6 +2104,7 @@ python-sphinx-argparse
 python-sphinx-autodoc-typehints
 python-sphinx-bootstrap-theme
 python-sphinx-click
+python-sphinx-copybutton
 python-sphinx-epytext
 python-sphinx-hoverxref
 python-sphinx-inline-tabs
