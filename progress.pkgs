@@ -17,9 +17,11 @@ airnef
 alacarte
 alot
 ampy
+anaconda
 androwarn
 ansible-bender
 ansible-collections-openstack
+apostrophe
 appliance-tools
 apx
 arandr
@@ -40,6 +42,7 @@ beets
 binwalk
 blivet-gui
 bluefish
+blueman
 boost
 borgbackup
 borgmatic
@@ -54,6 +57,7 @@ cairo-dock-plug-ins
 calamares
 cantoolz
 cantor
+catfish
 ccnet
 ccsm
 cdist
@@ -125,6 +129,7 @@ git-fame
 git-filter-repo
 git-pull-request
 git-review
+gitg
 gjots2
 glade
 glances
@@ -132,8 +137,12 @@ globus-net-manager
 gmsh
 gnofract4d
 gnome-activity-journal
+gnome-builder
 gnome-doc-utils
 gnome-feeds
+gnome-music
+gnome-passwordsafe
+gnome-tweaks
 gns3-gui
 gns3-net-converter
 gns3-server
@@ -161,6 +170,7 @@ hexchat
 holland
 hplip
 hugin
+hydrapaper
 python-hyperkitty
 ibus
 ibus-cangjie
@@ -168,6 +178,7 @@ imagefactory
 imagefactory-plugins
 imgbased
 impressive
+initial-setup
 inn
 insight
 ioc-writer
@@ -184,6 +195,7 @@ kig
 kismon
 koji-containerbuild
 koji-osbuild
+komikku
 lammps
 lecm
 legendary
@@ -196,6 +208,7 @@ libgit2-glib
 libixion
 libolm
 liborcus
+libpeas
 libreoffice
 libsearpc
 libsigrokdecode
@@ -205,13 +218,16 @@ link-grammar
 linux-thermaltake-rgb
 lldb
 lnst
+lollypop
 loook
 lorax
 lutris
+lvm2
 python-mackup
 maildirproc
 mailman3-fedmsg-plugin
 mailnag
+manafirewall
 marshalparser
 mate-menu
 mcomix3
@@ -251,6 +267,7 @@ oct2spec
 ogr2osm
 omniORB
 omniORBpy
+onboard
 onionshare
 python-op1repacker
 python-op1svg
@@ -517,6 +534,7 @@ python-batinfo
 bcc
 python-bcrypt
 python-beanbag
+python-beautifulsoup4
 python-beautifultable
 python-behave
 python-beniget
@@ -538,6 +556,7 @@ python-bitmath
 python-bitstring
 python-bitstruct
 python-blackbird
+python-bleach
 python-blessed
 python-blessings
 python-blinker
@@ -560,6 +579,7 @@ python-boto3
 python-botocore
 python-bottle
 python-bottle-sqlite
+python-bowler
 bpython
 python-bracex
 python-bravado
@@ -758,6 +778,7 @@ dbus-python
 python-dbus-client-gen
 python-dbus-python-client-gen
 python-dbus-signature-pyparsing
+python-dbusmock
 python-dbutils
 python-ddt
 debconf
@@ -975,6 +996,7 @@ python-github3py
 python-glad
 python-glances-api
 python-glob2
+glusterfs
 python-glyphsLib
 python-gmpy2
 python-gmqtt
@@ -1156,6 +1178,7 @@ python-kazoo
 kerberoast
 python-kerberos
 keycloak-httpd-client-install
+keylime
 pykickstart
 python-kismet-rest
 python-kitchen
@@ -1377,6 +1400,7 @@ python-netapp-lib
 netcdf4-python
 python-netdata
 python-netifaces
+python-networkmanager
 newt
 nftables
 python-nine
@@ -1569,6 +1593,7 @@ python-pyaes
 afflib
 python-pyaib
 python-pyasn1
+pyatspi
 pyaudio
 python-pybalboa
 python-pybeam
@@ -1728,6 +1753,7 @@ python-pytest-astropy-header
 python-pytest-asyncio
 python-pytest-benchmark
 python-pytest-capturelog
+python-pytest-cov:tests::::
 python-pytest-datadir
 python-pytest-datafiles
 python-pytest-doctestplus
@@ -1788,6 +1814,7 @@ python-q
 qpid-proton
 qr-code-generator
 python-qrencode
+python-qt5
 python-qtsass
 python-quantities
 python-queuelib
@@ -1803,6 +1830,7 @@ python-ratelimitingfilter
 python-raven
 python-rawkit
 python-rcssmin
+python-rdflib
 rdopkg
 python-re-assert
 python-read-roi
@@ -1969,7 +1997,7 @@ speech-dispatcher
 python-speedtest-cli
 python-speg
 spglib
-python-sphinx:tests-websupport::::
+python-sphinx
 python-sphinx-argparse
 python-sphinx-autodoc-typehints
 python-sphinx-bootstrap-theme
@@ -2002,7 +2030,7 @@ python-sphinxcontrib-autoprogram
 python-sphinxcontrib-blockdiag
 python-sphinxcontrib-svg2pdfconverter
 python-sphinxcontrib-devhelp
-python-sphinxcontrib-htmlhelp:check::::
+python-sphinxcontrib-htmlhelp
 python-sphinxcontrib-httpdomain
 python-sphinxcontrib-jsmath
 python-sphinxcontrib-log-cabinet
@@ -2286,6 +2314,7 @@ python-zope-deprecation
 python-zope-event
 python3-zope-fixers
 python-zope-i18nmessageid
+python-zope-interface:docs::::
 python-zope-sqlalchemy
 python-zope-testing
 python-zopfli
@@ -2362,6 +2391,7 @@ systemtap
 targetcli
 targetd
 teampulls
+terminator
 texworks
 thefuck
 theme-switcher
@@ -2425,6 +2455,7 @@ trytond-stock-supply
 trytond-stock-supply-day
 trytond-timesheet
 tuna
+tuned
 txt2tags
 ubertooth
 udica
