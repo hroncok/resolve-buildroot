@@ -118,6 +118,7 @@ expliot
 fedora-business-cards
 fedora-gather-easyfix
 fedora-third-party
+libffado
 flatbuffers
 flent
 fontforge
@@ -269,6 +270,7 @@ netgen-mesher
 netstat-monitor
 neuron
 nfoview
+nicotine+
 nik4
 ninja-build
 nml
@@ -432,6 +434,7 @@ python-absl-py
 python-accept-types
 python-acora
 python-acoustid
+python-actdiag
 python-adafruit-board-toolkit
 python-adafruit-platformdetect
 python-adafruit-pureio
@@ -648,6 +651,7 @@ python-can
 pycanberra
 python3-cangjie
 python-canonicaljson
+cantera
 capstone
 python-capturer
 caribou
@@ -1066,6 +1070,7 @@ python-google-i18n-address
 gpgme
 python-gphoto2
 python-gpiozero
+gpsd
 python-gpxpy
 python-grabbit
 python-grabserial
@@ -1505,6 +1510,7 @@ python-num2words
 python-numexpr
 numpy
 python-numpy-stl
+python-nwdiag
 python-oauth
 python-oauth2
 python-oauth2client
@@ -2051,6 +2057,7 @@ python-send2trash
 sentencepiece
 python-sentinels
 python-sep
+python-seqdiag
 python-serpent
 python-serpy
 setools
@@ -2264,6 +2271,7 @@ python-tld
 tlsh
 python-toml
 python-tomli
+python-tomli-w:check::::
 python-toolz
 python-toposort
 python-tornado
@@ -2490,9 +2498,11 @@ renderdoc
 reprotest
 resalloc-openstack
 resultsdb_frontend
+retext
 revelation
 rhythmbox-ampache
 rig
+rmlint
 rofimoji
 rpkg-util
 rpl
@@ -2642,6 +2652,7 @@ waf
 wafw00f
 webtech
 weechat
+wesnoth
 wfuzz
 whipper
 whipper-plugin-eaclogger
