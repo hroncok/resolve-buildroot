@@ -21,6 +21,9 @@ EXCLUDED_COMPONENTS = (
     'python3.10',
     'python3.11',
 )
+EXTRA_COMPONENTS = (
+    'python3-docs',
+)
 
 
 class ReverseLookupDict(collections.defaultdict):
@@ -170,6 +173,8 @@ if __name__ == '__main__':
     from bconds import PACKAGES_BCONDS, bcond_cache_identifier, extract_buildrequires_if_possible
 
     components = packages_to_rebuild(OLD_DEPS, excluded_components=EXCLUDED_COMPONENTS)
+    for component in EXTRA_COMPONENTS:
+        components[component] = []
     components_done = packages_built(NEW_DEPS, excluded_components=EXCLUDED_COMPONENTS)
     binary_rpms = components.all_values()
 
