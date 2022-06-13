@@ -84,6 +84,7 @@ graphviz
 grin
 guake
 gumbo-parser
+gyp
 hashid
 imagefactory
 imagefactory-plugins
@@ -111,6 +112,7 @@ libstoragemgmt
 lightdm-gtk-greeter-settings
 link-grammar
 linux-thermaltake-rgb
+lldb
 lnst
 loook
 lorax
@@ -119,6 +121,7 @@ maildirproc
 mailman3-fedmsg-plugin
 mailnag
 mcomix3
+meld
 meson
 mgarepo
 mirage
@@ -192,6 +195,7 @@ python-xdot
 ATpy
 python-AWSIoTPythonSDK
 COPASI
+python-CommonMark
 Cython:tests::::
 python-GeoIP
 GeographicLib
@@ -370,6 +374,7 @@ python-bucky
 libbytesize
 libcaca
 python-cachetools
+python-cachez
 python-cachy
 pycairo
 python-calcephpy
@@ -407,6 +412,7 @@ python-colcon-argcomplete
 python-colcon-bash
 python-colcon-cd
 python-colcon-common-extensions
+python-colcon-core
 python-colcon-coveragepy-result
 python-colcon-defaults
 python-colcon-devtools
@@ -460,6 +466,7 @@ python-cpio
 python-cppheaderparser
 python-cpuinfo
 python-crank
+python-crayons
 python-crcelk
 criu
 python-crypto
@@ -572,6 +579,7 @@ python-emoji
 python-empy
 python-enchant
 enjarify
+python-enlighten
 python-enthought-sphinx-theme
 python-enzyme
 python-epi
@@ -612,6 +620,7 @@ python-fluidity-sm
 python-fontconfig
 python-formats
 python-formencode
+fprettify
 freeradius
 python-friendlyloris
 python-frozen-flask
@@ -662,6 +671,7 @@ python-gzipstream
 python-h11
 python-hamcrest
 python-hatasmota
+python-hatchling
 python-heapdict
 python-helpdev
 python-hexdump
@@ -672,6 +682,7 @@ hivex
 python-hole
 python-homeconnect
 python-homeworks
+python-hpack
 python-hs-dbus-signature
 python-hstspreload
 python-html2text
@@ -731,11 +742,13 @@ python-jaydebeapi
 python-jcconv
 python-jdcal
 python-jellyfish
+python-jmespath
 python-journal-brief
 python-jsmin
 python-json-logger
 python-json-minify
 python-json2table
+python-json5
 python-jsondiff
 jsonnet
 python-jsonpatch
@@ -873,6 +886,7 @@ python-modernize
 python-modestmaps
 python-mongoquery
 python-monotonic
+python-more-executors
 python-more-itertools:tests::::
 python-moss
 python-mozilla-django-oidc
@@ -924,6 +938,7 @@ python-ntplib
 python-nudatus
 python-nudepy
 python-num2words
+numpy
 python-oauth
 python-oauth2
 odfpy
@@ -951,6 +966,7 @@ python-pandocfilters
 python-param
 python-parse
 python-parsedatetime
+python-parso
 partio
 python-passlib
 python-paste-deploy
@@ -1017,6 +1033,7 @@ python-psutil
 python-psycogreen
 python-ptrace
 python-ptyprocess
+python-pulp
 python-pulsectl
 python-pure-protobuf
 pwncat
@@ -1049,6 +1066,7 @@ python-pycosat
 python-pycotap
 python-pycountry
 python-pycparser
+python-pycurl
 python-pycxx
 python-pydbus
 python-pydicom
@@ -1146,6 +1164,7 @@ python-pytest-error-for-skips
 python-pytest-filter-subpackage
 python-pytest-fixture-config
 python-pytest-forked
+python-pytest-isort
 python-pytest-lazy-fixture
 python-pytest-metadata
 python-pytest-multihost
@@ -1166,6 +1185,7 @@ python-pytimeparse
 python-pytn3270
 pytz
 python-pyudev
+rdma-core
 python-pyvit
 python-pyvlx
 pywbem
@@ -1179,6 +1199,7 @@ PyYAML
 python-pyyaml-env-tag
 python-pyzolib
 python-q
+qr-code-generator
 python-qrencode
 python-qtsass
 python-queuelib
@@ -1194,6 +1215,7 @@ python-rcssmin
 rdopkg
 python-re-assert
 python-readability
+python-readability-lxml
 python-readlike
 python-reedsolo
 python-regenmaschine
@@ -1205,12 +1227,14 @@ python-rencode
 python-reparser
 python-repomd
 python-repoze-lru
+python-requests:tests::::
 python-requests-ftp
 python-requests-pkcs12
 python-requestsexceptions
 python-resolvelib
 python-restructuredtext-lint
 python-retrying
+python-retryz
 python-rfc3986
 python-rfc3987
 python-roman
@@ -1282,10 +1306,12 @@ python-smbpasswd
 python-smi
 python-smmap
 tcl-snack
+python-sniffio
 python-snowballstemmer
 socialscan
 python-socks5line
 python-socksio
+libsolv
 python-sortedcontainers:docs-tests::::
 python-spdx
 python-spdx-lookup
@@ -1418,6 +1444,7 @@ python-urllib-gssapi
 python-urllib3:tests::::
 python-urwid
 python-urwid-readline
+python-user-agents
 python-utmp
 python-uvloop
 python-vagrantpy
@@ -1448,6 +1475,7 @@ python-waitress
 python-walkdir
 python-waqiasync
 python-wavio
+python-wcmatch
 python-wcwidth
 python-webob
 python-webscrapbook
@@ -1464,6 +1492,7 @@ python-wiffi
 python-winacl
 python-winsspi
 python-wsaccel
+python-wsproto
 python-wurlitzer
 python-www-authenticate
 python-xapp
@@ -1488,6 +1517,7 @@ python-yaswfp
 python-yattag
 ydiff
 python-ytmusicapi
+z3
 python-zabbix-api-erigones
 zanata-python-client
 python-zanata2fedmsg
@@ -1521,6 +1551,7 @@ reprotest
 resalloc-openstack
 resultsdb_frontend
 rhythmbox-ampache
+rofimoji
 rpl
 rpmspectool
 rst2pdf
@@ -1556,6 +1587,7 @@ targetcli
 targetd
 teampulls
 texworks
+theme-switcher
 tiled
 timeline
 todocli
