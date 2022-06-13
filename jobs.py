@@ -202,7 +202,9 @@ if __name__ == '__main__':
         )
 
         if ready_to_rebuild:
-            print(component)
+            # XXX make this configurable
+            if True: #  component not in components_done:
+                print(component)
         elif component in PACKAGES_BCONDS:
             for config in PACKAGES_BCONDS[component]:
                 config['id'] = bcond_cache_identifier(component, config)
@@ -222,7 +224,8 @@ if __name__ == '__main__':
                         blocker_counter=blocker_counter,
                     )
                     if ready_to_rebuild:
-                        print(config['id'])
+                        if True: #  component not in components_done:
+                            print(config['id'])
                 else:
                     log(f' • {config["id"]} bcond SRPM not present yet, skipping')
 
