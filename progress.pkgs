@@ -57,6 +57,7 @@ cdist
 cekit
 python-pycha
 chrome-gnome-shell
+clang
 clingo
 coccinelle
 codespell
@@ -199,6 +200,7 @@ mom
 mpich
 mqtt-randompub
 mrchem
+python-myrepos-utils
 mysql-connector-python
 nbdkit
 needrestart
@@ -255,6 +257,7 @@ powerline
 pre-commit
 printrun
 profanity
+proselint
 protonvpn-cli
 proxmark3
 pss
@@ -448,6 +451,7 @@ python-asyncpg
 python-asysocks
 atomic-reactor
 python-atomicwrites
+python-atpublic
 python-attrs:tests::::
 python-audioread
 audit
@@ -479,6 +483,8 @@ bcc
 python-bcrypt
 python-beanbag
 python-beautifultable
+python-behave
+python-beniget
 python-berkeleydb
 python-betamax
 python-betamax-serializers
@@ -508,6 +514,7 @@ python-bluepy
 pybluez
 python-blurb
 bmap-tools
+python-bna
 python-bokeh
 python-boolean.py
 python-booleanoperations
@@ -576,13 +583,22 @@ python-cle
 python-cleo
 python-click
 python-click-completion
+python-click-default-group
+python-click-help-colors
+python-click-log
 python-click-man
+python-click-plugins
+python-click-repl
+python-click-spinner
+python-click-threading
 python-cliff-tablib
+python-cligj
 python-clikit
 python-cloud-sptheme
 subscription-manager
 python-cloudant
 python-cloudflare
+python-cloudpickle
 clustershell
 python-cma
 python-cmake-build-extension
@@ -783,6 +799,7 @@ dogtail
 python-dominate
 python-dotmap
 python-dpath
+python-drat
 python-drf-yasg
 python-dropbox
 python-dtfabric
@@ -805,7 +822,7 @@ python-editor
 python-editorconfig
 python-efel
 python-elasticsearch
-python-elementpath:tests::::
+python-elementpath
 python-emoji
 python-empy
 python-enchant
@@ -869,6 +886,7 @@ python-fluidity-sm
 fmf
 folly
 python-fontconfig
+python-fontname
 python-formats
 python-formencode
 fprettify
@@ -899,6 +917,7 @@ python-gelidum
 python-genshi
 python-genty
 python-geojson
+python-geomet
 python-geopy
 gerrymander
 python-gertty
@@ -918,8 +937,10 @@ python-glyphsLib
 python-gmpy2
 python-gmqtt
 python-gnupg
+pygobject3
 gofer
 python-google-auth
+python-google-cloud-testutils
 python-google-crc32c
 python-google-i18n-address
 gpgme
@@ -938,6 +959,7 @@ python-grokmirror
 python-grpcio-gcp
 python-gsd
 python-gssapi
+gtts
 gtts-token
 python-guessit
 python-guizero
@@ -1126,6 +1148,7 @@ python-lesscpy
 python-leveldb
 python-lexicon
 lhapdf
+389-ds-base
 libCombine
 python-libarchive-c
 libcec
@@ -1202,6 +1225,7 @@ python-makefun
 python-mako
 python3-mallard-ducktype
 python-managesieve
+python-manatools
 python-mapbox-earcut
 python-mapnik
 python-maps
@@ -1374,6 +1398,7 @@ python-pamela
 python-pandas::bootstrap:::
 python-pandocfilters
 python-param
+python-parameterized
 python-parse
 python-parse_type
 python-parsedatetime
@@ -1388,6 +1413,7 @@ python-patch-ng
 python-path
 python-pathspec
 python-pathtools
+python-pathvalidate
 python-patiencediff
 patool
 python-pbkdf2
@@ -1401,6 +1427,7 @@ python-pefile
 python-pep621
 python-pep8-naming
 python-periodictable
+python-persist-queue
 python-petlink
 petsc
 python-pexpect
@@ -1441,6 +1468,7 @@ python-posix_ipc
 python3-postgresql
 python-pox
 python-poyo
+python-ppft
 python-pplpy
 python-precis_i18n
 python-prefixed
@@ -1540,7 +1568,7 @@ python-pygatt
 python-pygeoip
 python-pygiftiio
 python-pygit2
-python-pygments:docs-tests::::
+python-pygments
 python-pygments-better-html
 python-pygments-markdown-lexer
 python-pygments-pytest
@@ -1631,6 +1659,7 @@ pysnmp
 python-pysnooper
 python-pysocks
 python-pysodium
+python-pysol-cards
 python-pyspf
 python-pyspiflash
 python-pyspike
@@ -1655,6 +1684,7 @@ python-pytest-datafiles
 python-pytest-doctestplus
 python-pytest-env
 python-pytest-error-for-skips
+python-pytest-expect
 python-pytest-filter-subpackage
 python-pytest-fixture-config
 python-pytest-flake8
@@ -1678,6 +1708,7 @@ python-pytest-sourceorder
 python-pytest-subtests
 python-pytest-sugar
 python-pytest-testmon
+python-pytest-tornado
 python-pytest-trio
 python-pytest-vcr
 python-pytest-venv
@@ -1724,6 +1755,7 @@ python-rawkit
 python-rcssmin
 rdopkg
 python-re-assert
+python-read-roi
 python-readability
 python-readability-lxml
 python-readlike
@@ -1750,6 +1782,7 @@ python-requests-gssapi
 python-requests-pkcs12
 python-requests-unixsocket
 python-requestsexceptions
+python-requre
 python-resolvelib
 python-restructuredtext-lint
 python-restsh
@@ -1771,6 +1804,7 @@ rpm
 rpmconf
 python-rpmfluff
 python-rpyc
+python-rq
 rrdtool
 python-rsa
 python-rst-linker
@@ -1885,9 +1919,11 @@ python-sphinx:tests-websupport::::
 python-sphinx-argparse
 python-sphinx-autodoc-typehints
 python-sphinx-bootstrap-theme
+python-sphinx-click
 python-sphinx-epytext
 python-sphinx-hoverxref
 python-sphinx-inline-tabs
+python-sphinx-intl
 python-sphinx-issues
 python-sphinx-kr-theme
 python-sphinx-last-updated-by-git
@@ -1988,6 +2024,7 @@ python-tempdir
 python-tempita
 python-templated-dictionary
 python-termcolor
+python-terminado
 testcloud
 python-testing.common.database
 libtevent
@@ -2013,6 +2050,7 @@ python-toolz
 python-toposort
 python-tornado
 python-tortilla
+python-towncrier:tests::::
 python-tox-current-env
 trademgen
 python-traitlets
@@ -2070,6 +2108,7 @@ python-urwid
 python-urwid-readline
 python-urwidtrees
 python-user-agents
+python-userpath
 python-utils
 python-utmp
 python-uvloop
@@ -2154,6 +2193,7 @@ python-xmlsec
 python-xmltodict
 python-xmltramp
 python-xmp-toolkit
+python-xnat
 python-xpath-expressions
 python-xtermcolor
 python-xunitparser
@@ -2216,6 +2256,7 @@ resultsdb_frontend
 rhythmbox-ampache
 rig
 rofimoji
+rpkg-util
 rpl
 rpmspectool
 rss2email
