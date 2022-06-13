@@ -54,6 +54,7 @@ breezy
 bst-external
 btest
 btrfs-sxbackup
+bubblemail
 bumpversion
 buttermanager
 cairo-dock-plug-ins
@@ -144,6 +145,7 @@ gjots2
 glade
 glances
 globus-net-manager
+python-glue
 gmsh
 gnofract4d
 gnome-activity-journal
@@ -208,6 +210,7 @@ koji-containerbuild
 koji-osbuild
 komikku
 lammps
+lazygal
 lecm
 lector
 legendary
@@ -268,6 +271,7 @@ neuron
 nfoview
 nik4
 ninja-build
+nml
 nodepool
 nordugrid-arc-nagios-plugins
 ntpsec
@@ -949,6 +953,7 @@ python-executing
 python-exif
 python3-exiv2
 python-extension-helpers
+python-faker
 python-fastbencode
 python-fastcache
 python-fasteners
@@ -1520,6 +1525,7 @@ python-openpyxl
 python-openqa_client
 python-opensearch-py
 python-opensensemap-api
+python-openslide
 python-openstackdocstheme
 opentrep
 python-opentype-sanitizer
@@ -1586,6 +1592,7 @@ python-phpserialize
 python-phyghtmap
 python-pickleshare
 python-pid
+python-piexif
 python-pifpaf
 python-pigpio
 python-pillow
@@ -1702,6 +1709,7 @@ python-pycurl
 python-pycxx
 python-pydantic
 python-pydbus
+python-pydenticon
 python-pydicom
 python-pydispatcher
 python-pydocstyle
@@ -1724,6 +1732,7 @@ python-pygatt
 python-pygeoip
 python-pygiftiio
 python-pygit2
+python-pyglet
 python-pygments
 python-pygments-better-html
 python-pygments-markdown-lexer
@@ -1772,6 +1781,7 @@ python-pynamodb
 python-pynetbox
 python-pyngus
 python-pynuvo
+python-pyocr
 pyodbc
 python-pyopencl
 python-pyopengl
@@ -1786,6 +1796,7 @@ python-pypcapkit
 python-pypck
 python-pyperclip
 python-pypet
+python-pypillowfight
 python-pypng
 python-pyprocdev
 python-pyproject-api
@@ -1825,6 +1836,7 @@ python-pyspike
 python-pysrt
 pystatgrab
 python-pystemd
+python-pystray
 pysvn
 python-pyswip
 python-pysword
@@ -1884,6 +1896,7 @@ pytz
 python-pyudev
 rdma-core
 python-pyvex
+python-pyvirtualdisplay
 python-pyvirtualize
 python-pyvit
 python-pyvlx
@@ -1900,6 +1913,7 @@ python-pyzolib
 python-q
 qgis
 qpid-proton
+python-qrcode
 qr-code-generator
 python-qrencode
 qscintilla
@@ -1944,6 +1958,7 @@ python-rencode
 python-reno
 python-reparser
 python-repomd
+python-reportlab
 python-repoze-lru
 python-repoze-sphinx-autointerface
 python-repoze-tm2
@@ -2227,6 +2242,7 @@ libtevent
 python-text-unidecode
 python-textdistance
 python-textfsm
+python-textile
 python-textparser
 python-texttable
 python-textwrap3
@@ -2488,6 +2504,7 @@ salt
 salt-lint
 sasutils
 screenkey
+scribus
 seafile
 sendKindle
 sepolicy_analysis
@@ -2601,6 +2618,7 @@ upt
 urlscan
 urlwatch
 ursa-major
+variety
 vdr-epg-daemon
 vdr-epg2vdr
 vex
