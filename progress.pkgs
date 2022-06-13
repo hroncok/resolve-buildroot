@@ -19,6 +19,7 @@ alacarte
 alot
 ampy
 anaconda
+andriller
 androwarn
 ansible-bender
 ansible-collections-openstack
@@ -33,6 +34,7 @@ asciinema
 aubio
 auditwheel
 autojump
+autokey
 avogadro2-libs
 awscli
 azote
@@ -101,6 +103,9 @@ domoticz
 dot2tex
 python-drgn
 duplicity
+dxf2gcode
+electron-cash
+electrum
 elements
 elements-alexandria
 ephemeral-port-reserve
@@ -127,6 +132,7 @@ gedit
 getdp
 gi-docgen
 git-archive-all
+git-cola
 git-fame
 git-filter-repo
 git-pull-request
@@ -303,10 +309,12 @@ piper
 pipx
 pitivi
 playitagainsam
+plplot
 pmbootstrap
 podman-compose
 poezio-omemo
 policycoreutils
+porcupine
 postgresql
 powerline
 pre-commit
@@ -1067,6 +1075,7 @@ gwebsockets
 python-gzipstream
 python-h11
 python-h2
+h5py
 python-hamcrest
 hamlib
 python-hatasmota
@@ -1151,6 +1160,7 @@ python-ipgetter
 python-ipgetter2
 python-ipmi
 python-iptools
+ipython:check-doc::::
 python-ipython_genutils
 python-ironicclient
 iscsi-initiator-utils
@@ -1483,6 +1493,7 @@ python-oauth
 python-oauth2
 python-oauth2client
 odfpy
+python-odml
 python-ogr
 python-okaara
 python-olefile
@@ -1495,6 +1506,7 @@ OpenIPMI
 python-openoffice
 python-openopt
 python-openpaperwork-core
+python-openpaperwork-gtk
 python-openpyxl
 python-openqa_client
 python-opensearch-py
@@ -1590,6 +1602,7 @@ python-podman-api
 python-polib
 python-policyuniverse
 python-pooch
+python3-poppler-qt5
 python-port-for
 python-portalocker
 portmidi
@@ -1770,6 +1783,7 @@ python-pypubsub
 sip
 python-pyqt5-sip
 python-pyqt6-sip
+python-pyqtchart
 python-pyquery:tests::::
 python-pyrad
 python-pyrfc3339
@@ -1877,10 +1891,13 @@ python-q
 qpid-proton
 qr-code-generator
 python-qrencode
+qscintilla
 python-qt5
+pyqtwebengine
 python-qtsass
 python-quantities
 python-queuelib
+python-qutepart
 rabbitvcs
 python-radexreader
 python-rak811
@@ -1947,6 +1964,7 @@ python-rmtest
 python-rnc2rng
 python-robot-detection
 python-roman
+python-rosdistro
 python-rospkg
 python-rpdb
 python-rply
@@ -1981,6 +1999,7 @@ scanless
 scapy
 python-schedutils
 python-schema
+scidavis
 python-scour
 python-scp
 python-scramp
@@ -2137,6 +2156,7 @@ python-stack-data
 python-stackprinter
 pdf-stapler
 python-statsd
+python-stdio-mgr
 python-stdiomask
 python-stdlib-list
 python-stdnum
@@ -2314,6 +2334,7 @@ python-voluptuous-serialize
 python-volvooncall
 python-vsts-cd-manager
 python-vsure
+vtk
 python-vulture
 python-w3lib
 python-wadllib
@@ -2569,6 +2590,7 @@ vdr-epg2vdr
 vex
 vim-jedi
 vimiv
+vimiv-qt
 virt-lightning
 virt-who
 virtme
