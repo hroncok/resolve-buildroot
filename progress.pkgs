@@ -548,6 +548,7 @@ python-auth-credential
 python-authres
 python-autograd
 python-autopep8
+python-autoprop
 autowrap
 awake
 python-axolotl-curve25519
@@ -1212,6 +1213,7 @@ python-jcconv
 python-jdcal
 python-jedi:tests::::
 emacs-jedi
+python-jeepney
 python-jellyfish
 python-jep
 python-jinja2
@@ -1239,6 +1241,7 @@ python-jsonschema:tests::::
 python-junit_xml
 python-junitxml
 python-jupymake
+python-jupyter-core
 python-jupyterlab_pygments
 python-justbases
 python-justbytes
@@ -1472,6 +1475,7 @@ python-nagiosplugin
 python-nanoid
 python-natlas-libnmap
 python-natsort
+python-nbconvert:check-doc::::
 python-ndjson-testrunner
 python-neovim
 python-nessus-file-reader
@@ -1587,6 +1591,7 @@ python-pdfrw
 python-pebble
 python-pecan
 python-pefile
+python-pep517
 python-pep621
 python-pep8-naming
 python-periodictable
@@ -1929,6 +1934,7 @@ python-qrcode
 qr-code-generator
 python-qrencode
 qscintilla
+python-qstylizer
 python-qt5
 pyqtwebengine
 python-qtconsole
