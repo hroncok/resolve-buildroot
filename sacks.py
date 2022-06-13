@@ -29,7 +29,8 @@ REPOS = {
     'target': (
         {
             'repoid': 'python3.11',
-            'baseurl': [f'{COPR}/results/@python/python3.11/fedora-rawhide-$basearch/'],
+            #'baseurl': [f'{COPR}/results/@python/python3.11/fedora-rawhide-$basearch/'],
+            'baseurl': [f'{KOJI}/repos/f37-python/latest/$basearch/'],
             'metadata_expire': 60,
         },
     ),
