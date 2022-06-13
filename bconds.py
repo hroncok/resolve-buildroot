@@ -28,6 +28,7 @@ PACKAGES_BCONDS = {
     'python-six': [{'withouts': ['tests']}],
     'python-toml': [{'withouts': ['tests']}],
     'python-tomli': [{'withs': ['bootstrap']}],
+    'python-tomli-w': [{'withouts': ['check']}],
     'python-setuptools_scm': [{'withouts': ['tests']}],
     'python-py': [{'withouts': ['docs', 'tests']}],
     'python-chardet': [{'withouts': ['tests']}],
