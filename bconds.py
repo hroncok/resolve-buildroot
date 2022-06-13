@@ -70,6 +70,7 @@ PACKAGES_BCONDS = {
     'python-soupsieve': [{'withouts': ['tests']}],
     'python-towncrier': [{'withouts': ['tests']}],
     'python-pytest-asyncio': [{'withouts': ['tests']}],
+    'python-pytest-cov': [{'withouts': ['tests']}],
     'python-flit': [{'withouts': ['tests']}],
     'python-async-timeout': [{'withouts': ['tests']}],
     'python-trio': [{'withouts': ['tests']}],
@@ -96,6 +97,7 @@ PACKAGES_BCONDS = {
     'scipy': [{'withouts': ['pythran']}],
     'python-pandas': [{'withs': ['bootstrap']}],
     'grpc': [{'withs': ['bootstrap']}],
+    'python-zope-interface': [{'withouts': ['docs']}],
 }
 reverse_id_lookup = {}
 
