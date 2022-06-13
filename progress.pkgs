@@ -676,6 +676,7 @@ python-chai
 python-chameleon
 python-chardet
 python-charset-normalizer
+python-check-manifest
 python-cheetah
 python-cherrypy:tests::::
 python-chirpstack-api
@@ -1201,6 +1202,7 @@ python-j1m.sphinxautozconfig
 python-jaraco-classes
 python-jaraco-envs
 python-jaraco-functools
+python-jaraco-packaging
 python-jaraco-path
 python-javabridge
 python-javalang
@@ -1630,6 +1632,7 @@ pocketsphinx
 python-podcastparser
 python-podman
 python-podman-api
+python-poetry-core
 python-polib
 python-policyuniverse
 python-pooch
@@ -2367,6 +2370,7 @@ python-vatnumber
 python-vcrpy
 python-vcstool
 python-vdf
+python-vecrec
 python-velbus
 python-venusian
 python-verboselogs
