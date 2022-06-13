@@ -1,0 +1,9 @@
+diff --git a/babel.spec b/babel.spec
+index 32b9065..252085e 100644
+--- a/babel.spec
++++ b/babel.spec
+@@ -1,3 +1,4 @@
++%global _with_bootstrap 1
+ %global srcname Babel
+ %global sum Library for internationalizing Python applications
+ 

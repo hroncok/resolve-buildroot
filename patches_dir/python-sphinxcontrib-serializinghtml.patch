@@ -1,0 +1,9 @@
+diff --git a/python-sphinxcontrib-serializinghtml.spec b/python-sphinxcontrib-serializinghtml.spec
+index 866381b..265101a 100644
+--- a/python-sphinxcontrib-serializinghtml.spec
++++ b/python-sphinxcontrib-serializinghtml.spec
+@@ -1,3 +1,4 @@
++%global _without_check 1
+ %global pypi_name sphinxcontrib-serializinghtml
+ 
+ # when bootstrapping sphinx, we cannot run tests yet

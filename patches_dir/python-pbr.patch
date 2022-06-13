@@ -1,0 +1,9 @@
+diff --git a/python-pbr.spec b/python-pbr.spec
+index 0b18768..cd5d311 100644
+--- a/python-pbr.spec
++++ b/python-pbr.spec
+@@ -1,3 +1,4 @@
++%global _with_bootstrap 1
+ %global pypi_name pbr
+ 
+ %bcond_with bootstrap
