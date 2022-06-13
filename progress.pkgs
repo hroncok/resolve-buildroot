@@ -596,6 +596,7 @@ python-blessings
 python-blinker
 python-blivet
 libblockdev
+python-blockdiag
 python-blosc
 python-blowfish
 python-bluepy
@@ -1379,6 +1380,7 @@ python-markdown-include
 python-markdown-math
 python-markdown2
 python-markdown_2
+python-markups
 python-markupsafe
 python-marshmallow
 python-marshmallow-enum
@@ -1888,6 +1890,7 @@ python-pytest-vcr
 python-pytest-venv
 python-pytest-watch
 python-pytest-xprocess
+python-pytest-xvfb
 pythia8
 python-pytimeparse
 python-pytn3270
@@ -2030,6 +2033,7 @@ scapy
 python-schedutils
 python-schema
 scidavis
+scons
 python-scour
 python-scp
 python-scramp
@@ -2276,6 +2280,7 @@ python-translitcodec
 tre
 python-trezor
 python-trio
+python-trml2pdf
 python-trollius
 python-trololio
 python-tvb-data
@@ -2556,6 +2561,7 @@ todocli
 toot
 torbrowser-launcher
 python-tox
+trac
 trac-monotone-plugin
 trac-tracnav-plugin
 transifex-client
