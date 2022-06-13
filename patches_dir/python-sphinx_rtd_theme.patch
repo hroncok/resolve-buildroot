@@ -1,9 +1,0 @@
-diff --git a/python-sphinx_rtd_theme.spec b/python-sphinx_rtd_theme.spec
-index d3a8aba..d7fa075 100644
---- a/python-sphinx_rtd_theme.spec
-+++ b/python-sphinx_rtd_theme.spec
-@@ -1,3 +1,4 @@
-+%global _with_bootstrap 1
- %global srcname sphinx_rtd_theme
- 
- # Disables tests and docs
