@@ -16,13 +16,14 @@ DEFAULT_BRANCH = 'rawhide'
 
 # XXX we need an actual user-configuration for this
 PACKAGES_BCONDS = {
-    'gdb': [{'replacements': {'_without_python': '1'}}],
-    'python-setuptools': [{'withs': ['bootstrap'], 'withouts': ['tests']}],
-    'pyparsing': [{'withs': ['bootstrap']}],
-    'python-packaging': [{'withs': ['bootstrap'], 'withouts': ['tests', 'docs']}],
-    'python-wheel': [{'withs': ['bootstrap']}],
-    'python-pip': [{'withouts': ['tests', 'doc']}],
-    'python-setuptools': [{'withouts': ['tests']}],
+    #'gdb': [{'replacements': {'_without_python': '1'}}],
+    #'python-setuptools': [{'withs': ['bootstrap'], 'withouts': ['tests']}],
+    #'pyparsing': [{'withs': ['bootstrap']}],
+    #'python-packaging': [{'withs': ['bootstrap'], 'withouts': ['tests', 'docs']}],
+    #'python-wheel': [{'withs': ['bootstrap']}],
+    #'python-pip': [{'withouts': ['tests', 'doc']}],
+    #'python-setuptools': [{'withouts': ['tests']}],
+    # XXX: build.py cannot handle double bootstrap yet
 
     'python-six': [{'withouts': ['tests']}],
     'python-toml': [{'withouts': ['tests']}],
@@ -138,7 +139,7 @@ def clone_into(component_name, target, branch=''):
     log(f' • Cloning {component_name} into "{target}"...', end=' ')
     # I would like to use --depth=1 but that breaks rpmautospec
     # https://pagure.io/fedora-infra/rpmautospec/issue/227
-    run('fedpkg', 'clone', '-a', component_name, target, f'--branch={branch}')
+    run('fedpkg', 'clone', component_name, target, f'--branch={branch}')
     log('done.')
 
 
