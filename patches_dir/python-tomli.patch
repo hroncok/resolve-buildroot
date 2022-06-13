@@ -1,9 +1,0 @@
-diff --git a/python-tomli.spec b/python-tomli.spec
-index bcc2cfc..c21db38 100644
---- a/python-tomli.spec
-+++ b/python-tomli.spec
-@@ -1,3 +1,4 @@
-+%global _with_bootstrap 1
- # This package buildrequires flit_core to build the wheel, but flit_core requires tomli.
- # To bootstrap, we copy the files to appropriate locations manually and create a minimal dist-info metadata.
- # Note that as a pure Python package, the wheel contains no pre-built binary stuff.
