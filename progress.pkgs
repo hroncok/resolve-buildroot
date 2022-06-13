@@ -29,6 +29,7 @@ binwalk
 blivet-gui
 bluefish
 brd
+bst-external
 btest
 btrfs-sxbackup
 bumpversion
@@ -106,6 +107,7 @@ kismon
 koji-containerbuild
 koji-osbuild
 lecm
+legendary
 legofy
 babeltrace2
 libbatch
@@ -195,6 +197,7 @@ pysysbot
 python-idna-ssl
 python-play-scraper
 python-proteus
+python-requests-futures
 python-ufl
 python-xdot
 ATpy
@@ -289,6 +292,7 @@ python-aiorpcx
 python-aiosecretsdump
 python-aiosmb
 python-aiosnmp
+python-aiosqlite
 python-aiounittest
 python-aiowinreg
 python-aiozeroconf
@@ -336,6 +340,8 @@ python-authres
 awake
 python-axolotl-curve25519
 python-azure-common
+python-azure-core
+python-azure-cosmos
 python-azure-sdk-tools
 python-b2sdk
 babel::bootstrap:::
@@ -348,6 +354,7 @@ barman
 python-batalgorithm
 python-batinfo
 bcc
+python-beanbag
 python-berkeleydb
 python-betamax
 python-betamax-serializers
@@ -383,6 +390,7 @@ python-bsddb3
 python-pymongo
 python-btchip
 python-bucky
+python-bugzilla
 libbytesize
 libcaca
 python-cachetools
@@ -417,13 +425,16 @@ python-click-completion
 python-click-man
 python-clikit
 python-cloudant
+python-cloudflare
 clustershell
 python-cmd2
 python-cmdln
 python-coapthon3
+python-codecov
 python-colcon-argcomplete
 python-colcon-bash
 python-colcon-cd
+python-colcon-cmake
 python-colcon-common-extensions
 python-colcon-core
 python-colcon-coveragepy-result
@@ -443,6 +454,7 @@ python-colcon-pkg-config
 python-colcon-powershell
 python-colcon-python-setup-py
 python-colcon-recursive-crawl
+python-colcon-ros
 python-colcon-ros-bazel
 python-colcon-spawn-shell
 python-colcon-test-result
@@ -458,6 +470,7 @@ python-colour
 python-colour-runner
 pycolumnize
 python-commandparse
+python-compal
 python-configargparse
 python-configobj
 python-configshell
@@ -469,6 +482,7 @@ python-constantly
 python-construct
 python-contextlib2
 python-cooldict
+python-copr-common
 python-coreapi
 python-coreschema
 python-coronavirus
@@ -528,6 +542,7 @@ python-dill
 python-dingz
 python-dirq
 python-distlib
+python-distroinfo
 python-distutils-extra
 python-django-ajax-selects
 python-django-annoying
@@ -585,6 +600,7 @@ python-easyargs
 python-easyco
 python-easygui
 python-ecdsa
+python-edgegrid
 python-edimax
 python-editables
 python-editdistance
@@ -658,6 +674,7 @@ python-genshi
 python-genty
 python-geopy
 gerrymander
+python-gertty
 python-getmac
 python-gettext
 python-giacpy
@@ -686,6 +703,7 @@ python-greenlet
 python-grokmirror
 python-grpcio-gcp
 python-gssapi
+gtts-token
 python-guessit
 python-guizero
 gwebsockets
@@ -693,6 +711,7 @@ python-gzipstream
 python-h11
 python-hamcrest
 python-hatasmota
+python-hatch-vcs
 python-hatchling
 python-hdate
 python-heapdict
@@ -771,6 +790,7 @@ python-jaydebeapi
 jc
 python-jcconv
 python-jdcal
+python-jedi:tests::::
 python-jellyfish
 python-jinja2:docs::::
 python-jmespath
@@ -798,7 +818,9 @@ python-kajiki
 python-kanboard
 python-kaptan
 kerberoast
+python-kerberos
 keycloak-httpd-client-install
+pykickstart
 python-kismet-rest
 python-kitchen
 python-kmod
@@ -818,6 +840,7 @@ python-lazr-uri
 python-lazy-object-proxy
 python-ldap3
 ldapdomaindump
+libldb
 ldeep
 ldns
 lensfun
@@ -880,6 +903,7 @@ python-ly
 python-m2r
 python-magic
 python-mailer
+python-mailmanclient
 python-mailmerge
 python-makeelf
 python-makefun
@@ -988,12 +1012,14 @@ python-ogr
 python-omnilogic
 oneVPL
 python-opendata-transport
+python-openidc-client
 OpenIPMI
 python-openoffice
 python-openpyxl
 python-opensearch-py
 python-opensensemap-api
 python-opentype-sanitizer
+python-operator-courier
 python-optcomplete
 python-ordered-set
 python-orderedset
@@ -1057,6 +1083,7 @@ python-podcastparser
 python-podman-api
 python-polib
 python-policyuniverse
+python-pooch
 portmidi
 python-posix_ipc
 python3-postgresql
@@ -1082,6 +1109,7 @@ python-psutil
 python-psycogreen
 python-ptrace
 python-ptyprocess
+python-publicsuffix2
 python-pulp
 python-pulsectl
 python-pure-protobuf
@@ -1166,6 +1194,7 @@ python-pymata-express
 python-pymc3
 python-pymediainfo
 pymodbus
+python-pynetbox
 python-pynuvo
 pyodbc
 python-pyoptical
@@ -1182,6 +1211,7 @@ python-pypubsub
 sip
 python-pyqt5-sip
 python-pyqt6-sip
+python-pyquery:tests::::
 python-pyrfc3339
 python-pyro
 python-pyroute2
@@ -1206,6 +1236,7 @@ python-pyswip
 python-pysword
 python-pytaglib
 python-pytapo
+python-pytelegrambotapi
 pytest:docs-tests-tiemout::::
 python-pytest-astropy-header
 python-pytest-asyncio:tests::::
@@ -1260,6 +1291,7 @@ python-qtsass
 python-queuelib
 python-radexreader
 python-rak811
+python-rangehttpserver
 python-rangeparser
 python-rarfile
 python-ratelimiter
@@ -1283,8 +1315,12 @@ python-reparser
 python-repomd
 python-repoze-lru
 python-requests:tests::::
+python-requests-exoscale-auth
+python-requests-file
 python-requests-ftp
+python-requests-gssapi
 python-requests-pkcs12
+python-requests-unixsocket
 python-requestsexceptions
 python-resolvelib
 python-restructuredtext-lint
@@ -1372,6 +1408,7 @@ python-socks5line
 python-socksio
 libsolv
 python-sortedcontainers:docs-tests::::
+python-soupsieve:tests::::
 python-spdx
 python-spdx-lookup
 python-speaklater
@@ -1421,6 +1458,7 @@ python-stone
 python-stopit
 python-straight-plugin
 python-strict-rfc3339
+python-stripe
 python-stuf
 python-subarulink
 subversion
@@ -1463,9 +1501,11 @@ python-tomli::bootstrap:::
 python-toolz
 python-toposort
 python-tortilla
+python-traitlets
 python-translationstring
 python-translitcodec
 tre
+python-trezor
 python-trollius
 python-trololio
 python-tvb-data
@@ -1591,6 +1631,7 @@ python-zc-lockfile
 zinnia
 python-zipp
 python-zipstream
+python-zm
 python-zmq
 python-zope-deprecation
 python3-zope-fixers
@@ -1658,6 +1699,7 @@ timeline
 todocli
 trac-monotone-plugin
 trac-tracnav-plugin
+transifex-client
 transmageddon
 trash-cli
 trytond-account
