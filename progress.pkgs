@@ -942,6 +942,7 @@ python-enchant
 enjarify
 python-enlighten
 python-enthought-sphinx-theme
+python-entrypoints
 python-enzyme
 python-epc
 python-ephem
@@ -1724,6 +1725,7 @@ python-pydocstyle
 pydot
 python-pydotplus
 python-pyduofern
+python-pydyf
 python-pyeclib
 pyelftools
 python-pyemby
@@ -1818,6 +1820,7 @@ python-pyrad
 python-pyrfc3339
 python-pyro
 python-pyroute2
+python-pyrpm
 python-pyrpmmd
 python-pyrsistent
 python-pyrtlsdr
@@ -1975,6 +1978,7 @@ python-repoze-who
 python-represent
 python-requests:tests::::
 python-requests-cache
+python-requests-download
 python-requests-exoscale-auth
 python-requests-file
 python-requests-ftp
@@ -2078,6 +2082,7 @@ python-shtab
 python-sieve
 python-sievelib
 python-signalfd
+python-signature-dispatch
 signon-glib
 python-simpleaudio
 python-simplebayes
@@ -2165,6 +2170,7 @@ python-sphinxcontrib-autoprogram
 python-sphinxcontrib-blockdiag
 python-sphinxcontrib-svg2pdfconverter
 python-sphinxcontrib-devhelp
+python-sphinxcontrib-github-alt
 python-sphinxcontrib-htmlhelp
 python-sphinxcontrib-httpdomain
 python-sphinxcontrib-jsmath
@@ -2249,6 +2255,7 @@ python-termcolor
 python-terminado
 testcloud
 python-testing.common.database
+python-testpath
 libtevent
 python-text-unidecode
 python-textdistance
@@ -2265,6 +2272,7 @@ python-tidy
 python-tifffile
 python-timeout-decorator
 python-timeunit
+python-tinycss2
 python-tinydb
 python-tkrzw
 python-tld
@@ -2525,6 +2533,7 @@ sendKindle
 sepolicy_analysis
 setconf
 setroubleshoot
+sgmanager
 sgtk-menu
 shyaml
 sigil
