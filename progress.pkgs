@@ -480,6 +480,7 @@ python-flask-healthz
 python-flask-login
 python-flask-restx
 python-flask-talisman
+python-flit:tests::::
 python-flock
 python-flufl-testing
 python-fontconfig
@@ -938,6 +939,7 @@ python-selenium
 sentencepiece
 python-serpy
 setools
+python-setuptools_scm:tests::::
 python-sgmllib3k
 python-sh
 python-shamir-mnemonic
