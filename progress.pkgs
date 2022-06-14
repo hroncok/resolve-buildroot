@@ -565,6 +565,7 @@ python-AppTools
 python-apsw
 python-apt
 python-apypie
+ara:::with_docs::
 python-archinfo
 python-aresponses
 python-argcomplete
@@ -941,6 +942,7 @@ python-dijitso
 python-dill
 python-dingz
 dionaea
+python-dipy
 python-dirq
 python3-discid
 python-distlib
@@ -1084,6 +1086,7 @@ python-executing
 python-exif
 python3-exiv2
 python-extension-helpers
+python-extras::bootstrap:::
 python-fabric
 python-factory-boy
 python-faker
@@ -1236,6 +1239,7 @@ gpsd
 python-gpxpy
 python-grabbit
 python-grabserial
+python-gradunwarp
 python-grako
 grammalecte
 python-graphitesend
@@ -1311,6 +1315,7 @@ python-hvac
 python-hwdata
 python-hyperframe
 python-hyperlink
+python-hypothesis:doc-tests::::
 python-hypothesis-fspaths
 i2c-tools
 python-i3ipc
@@ -1335,6 +1340,7 @@ python-impacket
 python-importlib-metadata
 python-importmagic
 python-incremental
+python-indexed_gzip
 python-inflect
 python-inflection
 python-influxdb
@@ -1422,6 +1428,7 @@ python-junit_xml
 python-junitxml
 python-jupymake
 python-jupyter-c-kernel
+python-jupyter-client:doc-tests::::
 python-jupyter-core
 python-jupyter-kernel-singular
 python-jupyter-packaging
@@ -1800,6 +1807,7 @@ python-pagure-messages
 python-paho-mqtt
 python-pam
 python-pamela
+python-pandas::bootstrap:::
 python-pandocfilters
 python-param
 python-parameterized
@@ -1824,6 +1832,7 @@ python-pathvalidate
 python-patiencediff
 patool
 python-pbkdf2
+python-pbr::bootstrap:::
 pcapy
 pdc-client
 python-pdfkit
@@ -2433,6 +2442,7 @@ python-socks5line
 python-socksio
 libsolv
 python-sortedcollections
+python-sortedcontainers:docs-tests::::
 python-soupsieve
 python-spdx
 python-spdx-lookup
