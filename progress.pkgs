@@ -932,6 +932,7 @@ python-django-timezone-field
 python-djvulibre
 dlib
 python-dmidecode
+python-dns
 dnsgen
 python-dnslib
 python-docker
@@ -1126,6 +1127,7 @@ python-google-auth
 python-google-cloud-testutils
 python-google-crc32c
 python-google-i18n-address
+python-googletrans
 gpgme
 python-gphoto2
 python-gpiozero
@@ -1189,7 +1191,7 @@ python-http-client
 python-http-ece
 python-httpagentparser
 python-httpbin
-python-httpcore:tests::::
+python-httpcore
 python-httplib2
 python-httpsig-cffi
 python-httptools
@@ -1985,6 +1987,7 @@ python-pytest-flakes
 python-pytest-forked
 python-pytest-freezegun
 python-pytest-httpbin
+python-pytest-httpx
 python-pytest-isort
 python-pytest-lazy-fixture
 python-pytest-metadata
@@ -2089,7 +2092,7 @@ python-repoze-sphinx-autointerface
 python-repoze-tm2
 python-repoze-who
 python-represent
-python-requests:tests::::
+python-requests
 python-requests-cache
 python-requests-download
 python-requests-exoscale-auth
@@ -2814,6 +2817,7 @@ x-tile
 xcat
 xcb-proto
 xen
+xonsh
 xortool
 yamllint
 yawn
