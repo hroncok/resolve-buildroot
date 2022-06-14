@@ -99,6 +99,8 @@ PACKAGES_BCONDS = {
     'python-pandas': [{'withs': ['bootstrap']}],
     'grpc': [{'withs': ['bootstrap']}],
     'python-zope-interface': [{'withouts': ['docs']}],
+    'python-tqdm': [{'withouts': ['tests']}],
+    'python-cryptography': [{'withouts': ['tests']}],
 }
 reverse_id_lookup = {}
 
