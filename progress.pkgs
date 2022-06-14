@@ -67,6 +67,7 @@ ccnet
 ccsm
 cdist
 cekit
+cffconvert
 python-pycha
 chrome-gnome-shell
 clang
@@ -81,6 +82,7 @@ commissaire-client
 compizconfig-python
 condor
 congruity
+copr-keygen
 cranc
 cryptlib
 csmock
@@ -443,6 +445,7 @@ python-abimap
 abiword
 python-absl-py
 python-accept-types
+python-acme
 python-acora
 python-acoustid
 python-actdiag
@@ -516,6 +519,7 @@ python-ansicolors
 python-ansiwrap
 antlr4-project
 python-anyconfig
+python-anyio
 python-anyjson
 python-anytree
 apbs
@@ -597,6 +601,7 @@ python-behave
 python-beniget
 python-berkeleydb
 python-betamax
+python-betamax-matchers
 python-betamax-serializers
 python-bibtexparser
 python-bidict
@@ -640,6 +645,7 @@ python-bottle
 python-bottle-sqlite
 python-bowler
 python-box
+python-boxsdk
 bpython
 python-bracex
 python-bravado
@@ -722,6 +728,7 @@ subscription-manager
 python-cloudant
 python-cloudflare
 python-cloudpickle
+python-cloudscraper
 clustershell
 python-cma
 python-cmake-build-extension
@@ -792,6 +799,7 @@ python-construct
 python-contextlib2
 python-convertdate
 python-cooldict
+python-copr
 python-copr-common
 python-coreapi
 python-coreschema
@@ -1021,11 +1029,24 @@ python-flaky
 flann
 python-flask
 python-flask-admin
+python-flask-babel
 python-flask-bootstrap
+python-flask-caching
+python-flask-compress
+python-flask-cors
 python-flask-healthz
+python-flask-htmlmin
+python-flask-httpauth
 python-flask-login
+python-flask-mail
+python-flask-mako
+python-flask-multistatic
+python-flask-paranoid
+python-flask-principal
+python-flask-restful
 python-flask-restx
 python-flask-talisman
+python-flask-xml-rpc
 flatpak-module-tools
 python-flock
 python-flufl-bounce
@@ -1162,6 +1183,7 @@ python-httmock
 python-http-client
 python-http-ece
 python-httpagentparser
+python-httpbin
 python-httplib2
 python-httpsig-cffi
 python-httptools
@@ -1399,6 +1421,7 @@ python-littleutils
 python-llfuse
 python-llvmlite
 python-lmdb
+python-locket
 python-lockfile
 python-logfury
 python-logging-tree
@@ -1501,6 +1524,7 @@ mraa
 python-mrcfile
 python-mrcrowbar
 python-msal
+python-msal-extensions
 python-msgpack
 python-msldap
 msoffcrypto-tool
@@ -1584,6 +1608,7 @@ python-ogr
 python-okaara
 python-olefile
 python-omemo
+python-omemo-backend-signal
 python-omnilogic
 oneVPL
 python-onionbalance
@@ -2134,6 +2159,7 @@ python-selenium
 python-semantic_version
 python-semver
 python-send2trash
+python-sendgrid
 sentencepiece
 python-sentinels
 python-sep
@@ -2201,6 +2227,7 @@ python-snipeit
 python-snowballstemmer
 python-snuggs
 socialscan
+python-socks
 python-socks5line
 python-socksio
 libsolv
@@ -2428,6 +2455,7 @@ python-uritemplate
 urlbuster
 python-urlgrabber
 python-urllib-gssapi
+python-urllib3
 python-urwid
 python-urwid-readline
 python-urwidtrees
