@@ -417,6 +417,7 @@ python-QtPy
 python-ROPGadget
 SoapySDR
 python-tgscheduler
+python-Traits::bootstrap:::
 python-WSGIProxy2
 python-XStatic
 python-XStatic-Angular
@@ -740,6 +741,7 @@ python-charset-normalizer
 python-check-manifest
 python-cheetah
 python-cheroot
+python-cherrypy:tests::::
 python-chirpstack-api
 pychromecast
 python-ciso8601
@@ -889,6 +891,7 @@ python-daemonize
 python-daikin
 python-danfossair
 python-dasbus
+python-databases::bootstrap:::
 python-datadog
 python-dateparser
 python-dateutil
@@ -940,24 +943,37 @@ python-django
 python-django-ajax-selects
 python-django-angular
 python-django-annoying
+python-django-appconf
+python-django-auth-ldap
 python-django-authority
 python-django-cache-url
 python-django-cacheops
 python-django-compressor
+python-django-configurations
 python-django-contact-form
+python-django-contrib-comments
 python-django-cors-headers
 python-django-crispy-forms
 python-django-database-url
+python-django-debreach
 python-django-debug-toolbar
 python-django-email-url
+python-django-filter
+python-django-formtools
+python-django-gravatar2
+python-django-haystack
 python-django-health-check
+python-django-ipware
 python-django-js-asset
 python-django-macros
+python-django-markdownx
 python-django-mptt
 python-django-pdb
 python-django-pglocks
+python-django-picklefield
 python-django-pipeline
 python-django-pytest
+python-django-redis
 python-django-rest-framework
 python-django-reversion
 python-django-robots
@@ -972,6 +988,8 @@ python-django-taggit-serializer
 python-django-tastypie
 python-django-threadedcomments
 python-django-timezone-field
+python-django-uuslug
+python-djangoql
 python-djvulibre
 python-dkimpy
 dlib
@@ -1031,6 +1049,7 @@ python-enrich
 python-enthought-sphinx-theme
 python-entrypoints
 python-enturclient
+python-environs
 python-enzyme
 python-epc
 python-ephem
@@ -1052,6 +1071,7 @@ python-exif
 python3-exiv2
 python-extension-helpers
 python-fabric
+python-factory-boy
 python-faker
 python-fastbencode
 python-fastcache
@@ -1109,6 +1129,7 @@ python-flask-wtf
 python-flask-wtf-decorators
 python-flask-xml-rpc
 flatpak-module-tools
+python-flit:tests::::
 python-flock
 python-flufl-bounce
 python-flufl-i18n
@@ -1267,6 +1288,7 @@ python-hvac
 python-hwdata
 python-hyperframe
 python-hyperlink
+python-hypothesis:doc-tests::::
 python-hypothesis-fspaths
 i2c-tools
 python-i3ipc
@@ -1312,6 +1334,7 @@ python-ipgetter
 python-ipgetter2
 python-ipmi
 python-iptools
+ipython:check-doc::::
 python-ipython_genutils
 python-ironicclient
 iscsi-initiator-utils
@@ -1344,6 +1367,7 @@ python-jaydebeapi
 jc
 python-jcconv
 python-jdcal
+python-jedi
 emacs-jedi
 python-jeepney
 python-jellyfish
@@ -1376,6 +1400,7 @@ python-junit_xml
 python-junitxml
 python-jupymake
 python-jupyter-c-kernel
+python-jupyter-client:doc-tests::::
 python-jupyter-core
 python-jupyter-kernel-singular
 python-jupyter-packaging
@@ -1494,6 +1519,7 @@ python-linux-procfs
 python-listparser
 python-lit
 python-littleutils
+python-livereload
 python-llfuse
 python-llvmlite
 python-lmdb
@@ -1633,6 +1659,7 @@ python-name-that-hash
 python-nanoid
 python-natlas-libnmap
 python-natsort
+python-nbconvert:check-doc::::
 python-ncclient
 python-ndg_httpsclient
 python-ndjson-testrunner
@@ -1685,6 +1712,7 @@ python-oauth
 python-oauth2
 python-oauth2client
 python-oauthlib
+python-odata-query
 odfpy
 python-odml
 python-ogr
@@ -1698,6 +1726,7 @@ python-onionbalance
 openbabel
 opencv
 python-opendata-transport
+python3-openid
 python-openidc-client
 OpenIPMI
 openmeeg
@@ -1736,6 +1765,7 @@ python-pagure-messages
 python-paho-mqtt
 python-pam
 python-pamela
+python-pandas::bootstrap:::
 python-pandocfilters
 python-param
 python-parameterized
@@ -1760,6 +1790,7 @@ python-pathvalidate
 python-patiencediff
 patool
 python-pbkdf2
+python-pbr::bootstrap:::
 pcapy
 pdc-client
 python-pdfkit
@@ -1889,6 +1920,7 @@ pyatspi
 pyaudio
 python-pybalboa
 python-pybeam
+pybind11:tests::::
 pybox2d
 python-pybtex
 python-pybtex-docutils
@@ -2013,6 +2045,7 @@ sip
 python-pyqt5-sip
 python-pyqt6-sip
 python-pyqtchart
+python-pyquery:tests::::
 python-pyrad
 python-pyrfc3339
 python-pyro
@@ -2302,6 +2335,7 @@ python-shamir-mnemonic
 python-shellingham
 python-shelly
 python-shodan
+python-shortuuid
 python-should_dsl
 python-show-in-file-manager
 python-shtab
@@ -2356,6 +2390,7 @@ python-socks5line
 python-socksio
 libsolv
 python-sortedcollections
+python-sortedcontainers:docs-tests::::
 python-soupsieve
 python-spdx
 python-spdx-lookup
@@ -2527,6 +2562,7 @@ python-tmuxp
 python-toml
 python-toml-adapt
 python-tomli
+python-tomli-w:check::::
 python-tomlkit
 python-toolz
 python-toposort
@@ -2631,6 +2667,7 @@ strongswan
 vigra
 python-vine
 python-virt-firmware
+python-virtualenv:tests::::
 python-virtualenv-api
 python-virtualenv-clone
 visidata
@@ -2673,6 +2710,7 @@ python-whatever
 python-wheel
 python-whichcraft
 python-whisper
+python-whitenoise
 python-whois
 python-whoosh
 python-widgetsnbextension
@@ -2732,6 +2770,7 @@ python-zake
 zanata-python-client
 python-zanata2fedmsg
 python-zaqarclient
+python-zbase32::bootstrap:::
 python-zc-lockfile
 zeitgeist
 python-zeroconf

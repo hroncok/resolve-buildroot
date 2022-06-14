@@ -1,0 +1,9 @@
+diff --git a/python-databases.spec b/python-databases.spec
+index b4bf57d..2edd1e0 100644
+--- a/python-databases.spec
++++ b/python-databases.spec
+@@ -1,3 +1,4 @@
++%global _with_bootstrap 1
+ # When bootstrapping, break circular dependency on starlette in the tests.
+ %bcond_with bootstrap
+ 
