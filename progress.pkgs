@@ -288,6 +288,7 @@ nik4
 ninja-build
 nml
 nodepool
+nordugrid-arc
 nordugrid-arc-nagios-plugins
 nova-agent
 ntpsec
@@ -383,9 +384,10 @@ python-proteus
 python-requests-futures
 python-ufl
 python-xdot
+python-APScheduler
 ATpy
 python-AWSIoTPythonSDK
-python-Automat:tests::::
+python-Automat
 COPASI
 python-CommonMark
 python-configupdater
@@ -488,6 +490,7 @@ python-aiogqlc
 python-aioguardian
 python-aiohomekit
 python-aiohttp
+python-aiohttp-cors
 python-aiohttp-socks
 python-aiohttp-sse-client
 python-aiohue
@@ -533,6 +536,7 @@ python-aniso8601
 python-annexremote
 python-ansi
 python-ansi2html
+python-ansible-compat
 python-ansible-pygments
 python-ansicolor
 python-ansicolors
@@ -709,6 +713,7 @@ python-canonicaljson
 cantera
 capstone
 python-capturer
+python-carbon
 caribou
 python-case
 python-casttube
@@ -849,7 +854,9 @@ python-crayons
 python-crcelk
 python-crcmod
 createrepo_c
+credslayer
 criu
+python-crochet
 python-croniter
 python-crypto
 python-cryptography
@@ -875,6 +882,7 @@ python-cypy
 python-cysignals
 python-d2to1
 python-daemonize
+python-daikin
 python-danfossair
 python-dasbus
 python-datadog
@@ -1004,6 +1012,7 @@ python-editdistance
 python-editdistance-s
 python-editor
 python-editorconfig
+pyee
 python-efel
 python-elasticsearch
 python-elementpath
@@ -1083,6 +1092,7 @@ python-flask-httpauth
 python-flask-login
 python-flask-mail
 python-flask-mako
+python-flask-migrate
 python-flask-multistatic
 python-flask-paranoid
 python-flask-principal
@@ -1359,7 +1369,7 @@ python-jsonref
 python-jsonrpc-server
 python-jsonrpclib
 python-jsons
-python-jsonschema:tests::::
+python-jsonschema
 python-junit_xml
 python-junitxml
 python-jupymake
@@ -1533,10 +1543,12 @@ python-martian
 python-masscan
 mathgl
 python-matplotlib-inline
+python-matrix-common
 python-matrix-synapse-ldap3
 python-maxminddb
 python-mccabe
 python-mdx_gh_links
+python-mechanize
 med
 python-memcached
 python-mergedeep
@@ -1583,6 +1595,7 @@ python-moreorless
 python-moss
 python-mozilla-django-oidc
 python-mpd
+python-mpd2
 mpi4py
 python-mpmath
 mpsolve
@@ -1729,6 +1742,7 @@ python-parse
 python-parse_type
 python-parsedatetime
 python-parsel
+python-parsley
 python-parso
 partio
 python-parver
@@ -1754,6 +1768,7 @@ python-pebble
 python-pecan
 python-pefile
 python-pelican
+python-pem
 python-pep517
 python-pep621
 python-pep8-naming
@@ -1773,6 +1788,7 @@ python-pid
 python-piexif
 python-pifpaf
 python-pigpio
+python-pika
 python-pillow
 python-pipdeptree
 python-pivy
@@ -1801,6 +1817,7 @@ python-pooch
 python3-poppler-qt5
 python-port-for
 python-portalocker
+python-portend
 portmidi
 python-posix_ipc
 python3-postgresql
@@ -1825,6 +1842,7 @@ python-productmd
 python-profilehooks
 python-progress
 python-progressbar2
+python-prometheus_client
 python-promise
 python-prompt-toolkit
 python-protego
@@ -2032,7 +2050,7 @@ python-pytaglib
 python-pytapo
 python-pyte
 python-pytelegrambotapi
-pytest:docs-tests-tiemout::::
+pytest
 python-pytest-aiohttp
 python-pytest-arraydiff
 python-pytest-astropy-header
@@ -2243,6 +2261,7 @@ scons
 python-scour
 python-scp
 python-scramp
+python-scrapy
 python3-script
 python-scripttest
 python-scripttester
@@ -2425,6 +2444,7 @@ python-stdnum
 python-steam
 python-stem
 python-stomper
+python-stompest
 python-stone
 python-stopit
 stp
@@ -2433,6 +2453,7 @@ python-strict-rfc3339
 python-strictyaml
 python-string_utils
 python-stripe
+python-structlog
 python-stuf
 python-subarulink
 python-subprocess-tee
@@ -2456,6 +2477,7 @@ python-tambo
 python-tasklib
 python-tasmotadevicecontroller
 tbb
+python-tblib
 python-tbtrim
 python-tcolorpy
 python-tcxparser
@@ -2504,7 +2526,7 @@ python-toolz
 python-toposort
 python-tornado
 python-tortilla
-python-towncrier:tests::::
+python-towncrier
 python-tox-current-env
 tracer
 trademgen
@@ -2514,17 +2536,21 @@ python-transforms3d
 python-translationstring
 python-translitcodec
 tre
+python-treq
 python-trezor
 python-trio
 python-trml2pdf
 python-trollius
 python-trololio
 python-trustme
+python-tubes
 python-tvb-data
 python-twiggy
 python-twisted
 python-txaio
 python-txredisapi
+python-txws
+python-txzmq
 python3-typed_ast
 python-typedecorator
 python-typeguard
