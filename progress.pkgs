@@ -84,6 +84,7 @@ commissaire-client
 compizconfig-python
 condor
 congruity
+copr-cli
 copr-keygen
 cranc
 cryptlib
@@ -185,11 +186,13 @@ gumbo-parser
 gwe
 gyp
 hashid
+hatch
 hexchat
 hgsvn
 hgview
 holland
 hplip
+httpie
 hugin
 hydrapaper
 python-hyperkitty
@@ -269,6 +272,7 @@ mirage
 mkosi
 mock
 mom
+mopidy
 mozo
 mpich
 mqtt-randompub
@@ -557,6 +561,7 @@ python-AppTools
 python-apsw
 python-apt
 python-apypie
+ara:::with_docs::
 python-archinfo
 python-aresponses
 python-argcomplete
@@ -958,6 +963,7 @@ python-django-database-url
 python-django-debreach
 python-django-debug-toolbar
 python-django-email-url
+python-django-extensions
 python-django-filter
 python-django-formtools
 python-django-gravatar2
@@ -1083,6 +1089,7 @@ python-fauxquests
 python-fb-re2
 python-fdb
 fedfind
+python-fedora
 fedora-messaging
 python-feedgen
 python-feedgenerator
@@ -1120,6 +1127,7 @@ python-flask-mail
 python-flask-mako
 python-flask-migrate
 python-flask-multistatic
+python-flask-openid
 python-flask-paranoid
 python-flask-principal
 python-flask-restful
@@ -1130,7 +1138,7 @@ python-flask-wtf
 python-flask-wtf-decorators
 python-flask-xml-rpc
 flatpak-module-tools
-python-flit:tests::::
+python-flit
 python-flock
 python-flufl-bounce
 python-flufl-i18n
@@ -1146,6 +1154,7 @@ python-formencode
 fprettify
 python-fpylll
 python-fqdn
+python-freeipa
 freeradius
 python-freetype
 python-freezegun
@@ -1153,6 +1162,7 @@ python-friendlyloris
 python-frozen-flask
 python-frozendict
 python-frozenlist
+python-fs
 python-fuckit
 python-funcparserlib
 python-funcsigs
@@ -1239,6 +1249,7 @@ python-gzipstream
 python-h11
 python-h2
 h5py
+python-habitipy
 python-hamcrest
 hamlib
 python-hatasmota
@@ -1294,6 +1305,7 @@ python-hypothesis-fspaths
 i2c-tools
 python-i3ipc
 python-ibm-cloud-sdk-core
+python-ibm-vpc
 python-icalendar
 python-identify
 python-idna
@@ -1515,6 +1527,7 @@ libxml2
 python-license-expression
 python-lightblue
 lilv
+python-limits
 python-linkheader
 python-linux-procfs
 python-listparser
@@ -1576,6 +1589,7 @@ python-matrix-common
 python-matrix-synapse-ldap3
 python-maxminddb
 python-mccabe
+python-mdurl
 python-mdx_gh_links
 python-mechanize
 med
@@ -1704,6 +1718,7 @@ python-ntlm-auth
 python-ntplib
 python-nudatus
 python-nudepy
+python-nuheat
 python-num2words
 python-numexpr
 numpy
@@ -1728,6 +1743,8 @@ openbabel
 opencv
 python-opendata-transport
 python3-openid
+python-openid-cla
+python-openid-teams
 python-openidc-client
 OpenIPMI
 openmeeg
@@ -1886,6 +1903,7 @@ python-prov
 python-psutil
 python-psycogreen
 python-psycopg2
+python-psycopg3
 python-ptrace
 python-ptyprocess
 python-publicsuffix2
@@ -1933,6 +1951,7 @@ python-chm
 python-pyclipper
 pycmd
 python-pycodestyle
+python-pycoingecko
 python-pycomfoair
 python-pycomm3
 python-pycosat
@@ -2365,6 +2384,7 @@ python-siphash
 sipvicious
 python-six
 skf
+python-slacker
 python-slip
 python-slixmpp
 slowloris
@@ -2444,6 +2464,7 @@ python-sphinxcontrib-htmlhelp
 python-sphinxcontrib-httpdomain
 python-sphinxcontrib-jsmath
 python-sphinxcontrib-log-cabinet
+python-sphinxcontrib-openapi
 python-sphinxcontrib-pecanwsme
 python-sphinxcontrib-phpdomain
 python-sphinxcontrib-programoutput
@@ -2480,6 +2501,7 @@ python-sshtunnel
 python-stack-data
 python-stackprinter
 pdf-stapler
+python-starlette
 python-statsd
 python-stdio-mgr
 python-stdiomask
@@ -2561,12 +2583,13 @@ python-tinydb
 python-tinyrpc
 python-tkrzw
 python-tld
+python-tldextract
 tlsh
 python-tmuxp
 python-toml
 python-toml-adapt
 python-tomli
-python-tomli-w:check::::
+python-tomli-w
 python-tomlkit
 python-toolz
 python-toposort
@@ -2624,6 +2647,7 @@ python-ujson
 python-ukkonen
 unbound
 python-unicodecsv
+python-unicodedata2
 unicorn
 python-unidecode
 python-unidiff
@@ -2671,7 +2695,7 @@ strongswan
 vigra
 python-vine
 python-virt-firmware
-python-virtualenv:tests::::
+python-virtualenv
 python-virtualenv-api
 python-virtualenv-clone
 visidata
@@ -2977,6 +3001,7 @@ volk
 wad
 waf
 wafw00f
+wapiti
 webtech
 weechat
 wesnoth
