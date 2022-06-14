@@ -426,7 +426,6 @@ python-QtPy
 python-ROPGadget
 SoapySDR
 python-tgscheduler
-python-Traits::bootstrap:::
 python-WSGIProxy2
 python-XStatic
 python-XStatic-Angular
@@ -566,7 +565,6 @@ python-AppTools
 python-apsw
 python-apt
 python-apypie
-ara:::with_docs::
 python-archinfo
 python-aresponses
 python-argcomplete
@@ -753,7 +751,6 @@ python-charset-normalizer
 python-check-manifest
 python-cheetah
 python-cheroot
-python-cherrypy:tests::::
 python-chirpstack-api
 pychromecast
 python-ciso8601
@@ -1054,6 +1051,7 @@ python-efel
 python-elasticsearch
 python-elementpath
 python-email-validator
+python-emcee
 python-emoji
 python-empy
 python-enchant
@@ -1071,6 +1069,7 @@ python-epi
 python-epson-projector
 python-epub
 eralchemy
+espresso
 python-et_xmlfile
 python-etcd
 python-etcd3
@@ -1079,6 +1078,7 @@ python-evdev
 python-eventlet
 python-events
 python-exabgp
+python-exdir
 python-execnet
 python-executing
 python-exif
@@ -1257,6 +1257,7 @@ gwebsockets
 python-gzipstream
 python-h11
 python-h2
+python-h5io
 h5py
 python-habitipy
 python-hamcrest
@@ -1267,6 +1268,7 @@ python-hatchling
 python-haversion
 libdnf
 python-hdate
+python-hdf5storage
 python-hdfs
 python-heapdict
 python-helpdev
@@ -1309,7 +1311,6 @@ python-hvac
 python-hwdata
 python-hyperframe
 python-hyperlink
-python-hypothesis:doc-tests::::
 python-hypothesis-fspaths
 i2c-tools
 python-i3ipc
@@ -1356,7 +1357,6 @@ python-ipgetter
 python-ipgetter2
 python-ipmi
 python-iptools
-ipython:check-doc::::
 python-ipython_genutils
 python-ironicclient
 iscsi-initiator-utils
@@ -1422,7 +1422,6 @@ python-junit_xml
 python-junitxml
 python-jupymake
 python-jupyter-c-kernel
-python-jupyter-client:doc-tests::::
 python-jupyter-core
 python-jupyter-kernel-singular
 python-jupyter-packaging
@@ -1451,6 +1450,7 @@ python-kitchen
 kiwi
 python-kiwisolver
 python-klein
+python-klusta
 python-kmod
 koan
 kobo
@@ -1527,6 +1527,7 @@ libsbml
 libsedml
 libselinux
 libsemanage
+libsonata
 libssh2-python
 libsvm
 python-libtmux
@@ -1648,6 +1649,7 @@ moose
 python-more-executors
 python-more-itertools
 python-moreorless
+morphio
 python-moss
 python-mozilla-django-oidc
 python-mpd
@@ -1687,8 +1689,6 @@ python-name-that-hash
 python-nanoid
 python-natlas-libnmap
 python-natsort
-python-nbclient:check::::
-python-nbconvert:check-doc::::
 python-nbformat
 python-ncclient
 python-ndg_httpsclient
@@ -1708,6 +1708,7 @@ python-netmiko
 python-networkmanager
 newt
 nftables
+python-nibabel
 python-nine
 nispor
 python-nitrate
@@ -1799,7 +1800,6 @@ python-pagure-messages
 python-paho-mqtt
 python-pam
 python-pamela
-python-pandas::bootstrap:::
 python-pandocfilters
 python-param
 python-parameterized
@@ -1824,7 +1824,6 @@ python-pathvalidate
 python-patiencediff
 patool
 python-pbkdf2
-python-pbr::bootstrap:::
 pcapy
 pdc-client
 python-pdfkit
@@ -2042,6 +2041,7 @@ python-pyls-spyder
 python-pyls_black
 python-pymacaroons-pynacl
 python-pymata-express
+python-pymatreader
 python-pymc3
 python-pymediainfo
 python-pymediawiki
@@ -2082,7 +2082,7 @@ sip
 python-pyqt5-sip
 python-pyqt6-sip
 python-pyqtchart
-python-pyquery:tests::::
+python-pyqtgraph
 python-pyrad
 python-pyrfc3339
 python-pyro
@@ -2094,6 +2094,7 @@ python-pyrtlsdr
 python-pysam
 python-pysaml2
 pyscard
+python-pyscf
 pyserial
 pyserial-asyncio
 python-pyshark
@@ -2432,7 +2433,6 @@ python-socks5line
 python-socksio
 libsolv
 python-sortedcollections
-python-sortedcontainers:docs-tests::::
 python-soupsieve
 python-spdx
 python-spdx-lookup
@@ -2823,7 +2823,6 @@ python-zake
 zanata-python-client
 python-zanata2fedmsg
 python-zaqarclient
-python-zbase32::bootstrap:::
 python-zc-lockfile
 zeitgeist
 python-zeroconf
@@ -3014,6 +3013,7 @@ ursa-major
 variety
 vdr-epg-daemon
 vdr-epg2vdr
+veusz
 vex
 vim-jedi
 vimiv
