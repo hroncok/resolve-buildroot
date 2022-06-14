@@ -390,7 +390,6 @@ python-QtPy
 python-ROPGadget
 SoapySDR
 python-tgscheduler
-python-Traits::bootstrap:::
 python-WSGIProxy2
 python-XStatic
 python-XStatic-Angular
@@ -683,7 +682,6 @@ python-chardet
 python-charset-normalizer
 python-check-manifest
 python-cheetah
-python-cherrypy:tests::::
 python-chirpstack-api
 python-ciso8601
 python-claripy
@@ -716,6 +714,7 @@ python-cmd2
 python-cmdln
 python-coapthon3
 python-codecov
+python-colander
 python-colcon-argcomplete
 python-colcon-bash
 python-colcon-bazel
@@ -969,6 +968,7 @@ python-executing
 python-exif
 python3-exiv2
 python-extension-helpers
+python-extras::bootstrap:::
 python-faker
 python-fastbencode
 python-fastcache
@@ -986,6 +986,7 @@ python-fields
 file
 python-filelock
 python-filetype
+python-fireflyalgorithm
 python-firehose
 firewalld
 python-firkin
@@ -1192,7 +1193,6 @@ python-ipgetter
 python-ipgetter2
 python-ipmi
 python-iptools
-ipython:check-doc::::
 python-ipython_genutils
 python-ironicclient
 iscsi-initiator-utils
@@ -1210,6 +1210,7 @@ python-itsdangerous
 python-itypes
 python-j1m.sphinxautozconfig
 python-jaraco-classes
+python-jaraco-collections
 python-jaraco-envs
 python-jaraco-functools
 python-jaraco-packaging
@@ -1254,8 +1255,10 @@ python-jsonschema:tests::::
 python-junit_xml
 python-junitxml
 python-jupymake
+python-jupyter-c-kernel
 python-jupyter-client:doc-tests::::
 python-jupyter-core
+python-jupyter-kernel-singular
 python-jupyterlab_pygments
 python-justbases
 python-justbytes
@@ -1488,10 +1491,10 @@ python-mysql
 python-mysqlclient
 python-mystrom
 python-nagiosplugin
+python-name-that-hash
 python-nanoid
 python-natlas-libnmap
 python-natsort
-python-nbconvert:check-doc::::
 python-ndjson-testrunner
 python-neovim
 python-nessus-file-reader
@@ -1717,7 +1720,6 @@ pyatspi
 pyaudio
 python-pybalboa
 python-pybeam
-pybind11:tests::::
 pybox2d
 python-pybtex
 python-pybtex-docutils
@@ -1772,6 +1774,7 @@ python-pygments-pytest
 python-pygments-style-solarized
 libgpuarray
 PyGreSQL
+python-pygrocy
 pygsl
 python-pyhcl
 python-pyhomematic
@@ -1833,11 +1836,11 @@ python-pypng
 python-pyprocdev
 python-pyproject-api
 python-pypubsub
+python-pyqt-feedback-flow
 sip
 python-pyqt5-sip
 python-pyqt6-sip
 python-pyqtchart
-python-pyquery:tests::::
 python-pyrad
 python-pyrfc3339
 python-pyro
@@ -2107,6 +2110,7 @@ python-sieve
 python-sievelib
 python-signalfd
 python-signature-dispatch
+python-signedjson
 signon-glib
 python-simpleaudio
 python-simplebayes
@@ -2182,6 +2186,7 @@ python-sphinx-removed-in
 python-sphinx-sitemap
 python-sphinx-theme-alabaster
 python-sphinx-theme-py3doc-enhanced
+python-sphinx_ansible_theme
 python-sphinx_lv2_theme
 python-sphinx_rtd_theme
 python-sphinx_selective_exclude
@@ -2301,6 +2306,7 @@ python-tinydb
 python-tkrzw
 python-tld
 tlsh
+python-tmuxp
 python-toml
 python-toml-adapt
 python-tomli
@@ -2312,6 +2318,7 @@ python-tornado
 python-tortilla
 python-towncrier:tests::::
 python-tox-current-env
+python-tqdm:tests::::
 tracer
 trademgen
 python-traitlets
@@ -2494,7 +2501,6 @@ python-zake
 zanata-python-client
 python-zanata2fedmsg
 python-zaqarclient
-python-zbase32::bootstrap:::
 python-zc-lockfile
 zeitgeist
 python-zict
