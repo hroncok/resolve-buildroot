@@ -249,6 +249,7 @@ mate-menu
 mcomix3
 meld
 menulibre
+mercurial
 meson
 mgarepo
 minigalaxy
@@ -305,6 +306,7 @@ pacemaker
 pagure
 pagure-dist-git
 parsero
+past-time
 python-patatt
 python-pcicrawler
 pcp2pdf
@@ -763,6 +765,7 @@ pycolumnize
 python-commandparse
 python-compal
 compose-utils
+python-conda-package-handling
 python-configargparse
 python-configobj
 python-configshell
@@ -1336,6 +1339,7 @@ util-linux
 python-libnacl
 libnbd
 libnl3
+nmstate
 libnuml
 libnvme
 python-libpagure
@@ -1510,6 +1514,7 @@ python-networkmanager
 newt
 nftables
 python-nine
+nispor
 python-nitrate
 python-nltk
 python-nmap
@@ -2093,6 +2098,7 @@ python-serpent
 python-serpy
 setools
 python-setproctitle
+python-setuptools-rust
 python-setuptools_git
 python-setuptools_scm:tests::::
 python-setuptools_scm_git_archive
@@ -2318,7 +2324,6 @@ python-tornado
 python-tortilla
 python-towncrier:tests::::
 python-tox-current-env
-python-tqdm:tests::::
 tracer
 trademgen
 python-traitlets
@@ -2559,6 +2564,7 @@ s-tui
 s3cmd
 salt
 salt-lint
+python-samloader
 sasutils
 screenkey
 scribus
