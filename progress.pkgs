@@ -200,6 +200,7 @@ imagefactory
 imagefactory-plugins
 imgbased
 impressive
+ini2toml
 initial-setup
 inn
 insight
@@ -332,6 +333,7 @@ perl-Inline-Python
 persepolis
 pgzero
 photocollage
+photoqt
 picard
 piper
 pipx
@@ -383,6 +385,7 @@ python-ufl
 python-xdot
 ATpy
 python-AWSIoTPythonSDK
+python-Automat:tests::::
 COPASI
 python-CommonMark
 python-configupdater
@@ -508,6 +511,7 @@ python-aiosmb
 python-aiosmtpd
 python-aiosnmp
 python-aiosqlite
+python-aiounifi
 python-aiounittest
 python-aiowinreg
 python-aiozeroconf
@@ -584,6 +588,7 @@ python-attrs
 python-audioread
 audit
 python-augeas
+python-august
 python-auth-credential
 python-authheaders
 python-authres
@@ -1032,6 +1037,7 @@ python-executing
 python-exif
 python3-exiv2
 python-extension-helpers
+python-extras::bootstrap:::
 python-fabric
 python-faker
 python-fastbencode
@@ -1088,6 +1094,7 @@ python-flask-wtf
 python-flask-wtf-decorators
 python-flask-xml-rpc
 flatpak-module-tools
+python-flit:tests::::
 python-flock
 python-flufl-bounce
 python-flufl-i18n
@@ -1201,6 +1208,7 @@ hamlib
 python-hatasmota
 python-hatch-vcs
 python-hatchling
+python-haversion
 libdnf
 python-hdate
 python-hdfs
@@ -1245,6 +1253,7 @@ python-hvac
 python-hwdata
 python-hyperframe
 python-hyperlink
+python-hypothesis:doc-tests::::
 python-hypothesis-fspaths
 i2c-tools
 python-i3ipc
@@ -1322,6 +1331,7 @@ python-jaydebeapi
 jc
 python-jcconv
 python-jdcal
+python-jedi:tests::::
 emacs-jedi
 python-jeepney
 python-jellyfish
@@ -1349,10 +1359,12 @@ python-jsonref
 python-jsonrpc-server
 python-jsonrpclib
 python-jsons
+python-jsonschema:tests::::
 python-junit_xml
 python-junitxml
 python-jupymake
 python-jupyter-c-kernel
+python-jupyter-client:doc-tests::::
 python-jupyter-core
 python-jupyter-kernel-singular
 python-jupyter-packaging
@@ -1708,6 +1720,7 @@ python-pacpy
 python-paho-mqtt
 python-pam
 python-pamela
+python-pandas::bootstrap:::
 python-pandocfilters
 python-param
 python-parameterized
@@ -1731,6 +1744,7 @@ python-pathvalidate
 python-patiencediff
 patool
 python-pbkdf2
+python-pbr::bootstrap:::
 pcapy
 pdc-client
 python-pdfkit
@@ -1990,6 +2004,7 @@ python-pysaml2
 pyscard
 pyserial
 pyserial-asyncio
+python-pyshark
 pyshp
 python-pyside2
 python-pysignals
@@ -2017,6 +2032,7 @@ python-pytaglib
 python-pytapo
 python-pyte
 python-pytelegrambotapi
+pytest:docs-tests-tiemout::::
 python-pytest-aiohttp
 python-pytest-arraydiff
 python-pytest-astropy-header
@@ -2315,6 +2331,7 @@ python-socks5line
 python-socksio
 libsolv
 python-sortedcollections
+python-sortedcontainers:docs-tests::::
 python-soupsieve
 python-spdx
 python-spdx-lookup
@@ -2481,11 +2498,13 @@ python-tmuxp
 python-toml
 python-toml-adapt
 python-tomli
+python-tomli-w:check::::
 python-tomlkit
 python-toolz
 python-toposort
 python-tornado
 python-tortilla
+python-towncrier:tests::::
 python-tox-current-env
 tracer
 trademgen
@@ -2579,6 +2598,7 @@ strongswan
 vigra
 python-vine
 python-virt-firmware
+python-virtualenv:tests::::
 python-virtualenv-api
 python-virtualenv-clone
 visidata
