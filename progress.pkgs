@@ -1687,6 +1687,7 @@ python-name-that-hash
 python-nanoid
 python-natlas-libnmap
 python-natsort
+python-nbclient:check::::
 python-nbconvert:check-doc::::
 python-nbformat
 python-ncclient
