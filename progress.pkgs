@@ -643,6 +643,7 @@ python-binaryornot
 bind
 python-binstruct
 python-bintrees
+python-biopython
 python-biscuits
 python-bitarray
 python-bitcoinlib
@@ -935,6 +936,7 @@ python-distro
 distro-info
 python-distroinfo
 python-distutils-extra
+python-django
 python-django-ajax-selects
 python-django-angular
 python-django-annoying
@@ -1049,7 +1051,6 @@ python-executing
 python-exif
 python3-exiv2
 python-extension-helpers
-python-extras::bootstrap:::
 python-fabric
 python-faker
 python-fastbencode
@@ -1108,7 +1109,6 @@ python-flask-wtf
 python-flask-wtf-decorators
 python-flask-xml-rpc
 flatpak-module-tools
-python-flit:tests::::
 python-flock
 python-flufl-bounce
 python-flufl-i18n
@@ -1267,7 +1267,6 @@ python-hvac
 python-hwdata
 python-hyperframe
 python-hyperlink
-python-hypothesis:doc-tests::::
 python-hypothesis-fspaths
 i2c-tools
 python-i3ipc
@@ -1345,7 +1344,6 @@ python-jaydebeapi
 jc
 python-jcconv
 python-jdcal
-python-jedi:tests::::
 emacs-jedi
 python-jeepney
 python-jellyfish
@@ -1378,7 +1376,6 @@ python-junit_xml
 python-junitxml
 python-jupymake
 python-jupyter-c-kernel
-python-jupyter-client:doc-tests::::
 python-jupyter-core
 python-jupyter-kernel-singular
 python-jupyter-packaging
@@ -1739,7 +1736,6 @@ python-pagure-messages
 python-paho-mqtt
 python-pam
 python-pamela
-python-pandas::bootstrap:::
 python-pandocfilters
 python-param
 python-parameterized
@@ -1764,7 +1760,6 @@ python-pathvalidate
 python-patiencediff
 patool
 python-pbkdf2
-python-pbr::bootstrap:::
 pcapy
 pdc-client
 python-pdfkit
@@ -1772,6 +1767,7 @@ python-pdfminer
 python-pdfrw
 python-pebble
 python-pecan
+python-peewee
 python-pefile
 python-pelican
 python-pem
@@ -1785,6 +1781,7 @@ petsc
 python-pexpect
 python-pg8000
 roca-detect
+python-pgspecial
 python-phabricator
 python-phonenumbers
 python-phpserialize
@@ -2204,6 +2201,7 @@ python-requests-toolbelt
 python-requests-unixsocket
 python-requestsexceptions
 python-requre
+resalloc
 python-resolvelib
 python-restructuredtext-lint
 python-restsh
@@ -2358,7 +2356,6 @@ python-socks5line
 python-socksio
 libsolv
 python-sortedcollections
-python-sortedcontainers:docs-tests::::
 python-soupsieve
 python-spdx
 python-spdx-lookup
@@ -2502,6 +2499,7 @@ python-termcolor
 python-terminado
 testcloud
 python-testing.common.database
+python-testing.postgresql
 python-testpath
 libtevent
 python-text-unidecode
@@ -2529,7 +2527,6 @@ python-tmuxp
 python-toml
 python-toml-adapt
 python-tomli
-python-tomli-w:check::::
 python-tomlkit
 python-toolz
 python-toposort
@@ -2634,7 +2631,6 @@ strongswan
 vigra
 python-vine
 python-virt-firmware
-python-virtualenv:tests::::
 python-virtualenv-api
 python-virtualenv-clone
 visidata
