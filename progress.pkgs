@@ -801,6 +801,7 @@ createrepo_c
 criu
 python-croniter
 python-crypto
+python-cryptography:tests::::
 cryptominisat
 csdiff
 python-cson
