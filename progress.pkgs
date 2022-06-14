@@ -972,6 +972,7 @@ python-django-pdb
 python-django-pglocks
 python-django-picklefield
 python-django-pipeline
+python-django-pyscss
 python-django-pytest
 python-django-redis
 python-django-rest-framework
@@ -2099,6 +2100,7 @@ python-pytest-capturelog
 python-pytest-cov
 python-pytest-datadir
 python-pytest-datafiles
+python-pytest-django
 python-pytest-doctestplus
 python-pytest-env
 python-pytest-error-for-skips
@@ -2119,6 +2121,7 @@ python-pytest-mpi
 python-pytest-multihost
 python-pytest-openfiles
 python-pytest-ordering
+python-pytest-randomly
 python-pytest-remotedata
 python-pytest-repeat
 python-pytest-rerunfailures
@@ -2402,6 +2405,7 @@ python-speg
 spglib
 python-sphinx
 python-sphinx-argparse
+python-sphinx-autobuild
 python-sphinx-autodoc-typehints
 python-sphinx-bootstrap-theme
 python-sphinx-click
