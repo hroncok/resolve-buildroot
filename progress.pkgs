@@ -1688,6 +1688,7 @@ python-nanoid
 python-natlas-libnmap
 python-natsort
 python-nbconvert:check-doc::::
+python-nbformat
 python-ncclient
 python-ndg_httpsclient
 python-ndjson-testrunner
