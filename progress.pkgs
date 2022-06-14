@@ -283,6 +283,7 @@ nvmetcli
 nwchem
 nwg-panel
 nyx
+obserware
 oct2spec
 offlineimap
 ogr2osm
@@ -454,6 +455,7 @@ python-aioasuswrt
 python-aiocmd
 python-aiocurrencylayer
 python-aiodns
+python-aiofiles
 python-aioftp
 python-aioguardian
 python-aiohomekit
@@ -496,6 +498,7 @@ python-aniso8601
 python-annexremote
 python-ansi
 python-ansi2html
+python-ansible-pygments
 python-ansicolor
 python-ansicolors
 python-ansiwrap
@@ -551,6 +554,7 @@ python-autopep8
 python-autoprop
 autowrap
 awake
+python-awesomeversion
 python-axolotl-curve25519
 python-azure-common
 python-azure-core
@@ -560,6 +564,7 @@ python-azure-mgmt-core
 python-azure-sdk-tools
 python-b2sdk
 babel
+python-babelfish
 babeltrace
 python-backcall
 python-backlash
@@ -687,6 +692,7 @@ python-cleo
 python-click
 python-click-completion
 python-click-default-group
+python-click-didyoumean
 python-click-help-colors
 python-click-log
 python-click-man
@@ -785,6 +791,7 @@ python-cppy
 python-cpuinfo
 python-cram
 python-crank
+python-crashtest
 python-crayons
 python-crcelk
 python-crcmod
@@ -847,6 +854,7 @@ python-dict-sorted
 python-dictdumper
 python-dicttoxml
 python-didl-lite
+python-diff-cover
 python-diff-match-patch
 python-dijitso
 python-dill
@@ -1051,6 +1059,7 @@ gfal2-python
 python-ghp-import
 python-giacpy
 python-gilt
+python-git-changelog
 python-git-revise
 python-git-url-parse
 python-gitapi
@@ -1190,6 +1199,7 @@ iscsi-initiator-utils
 python-iso-639
 python-iso3166
 python-iso639
+python-iso8601
 python-isodate
 isomd5sum
 python-isort
@@ -1204,6 +1214,7 @@ python-jaraco-envs
 python-jaraco-functools
 python-jaraco-packaging
 python-jaraco-path
+python-jaraco-text
 python-javabridge
 python-javalang
 python-javaobj
@@ -1243,6 +1254,7 @@ python-jsonschema:tests::::
 python-junit_xml
 python-junitxml
 python-jupymake
+python-jupyter-client:doc-tests::::
 python-jupyter-core
 python-jupyterlab_pygments
 python-justbases
@@ -1335,6 +1347,7 @@ libsedml
 libselinux
 libsemanage
 libssh2-python
+python-libtmux
 libucl
 libunity
 libuser
@@ -1440,6 +1453,7 @@ python-mongoengine
 python-mongomock
 python-mongoquery
 python-monotonic
+moose
 python-more-executors
 python-more-itertools
 python-moreorless
@@ -2008,6 +2022,7 @@ python-retrying
 python-retryz
 python-rfc3986
 python-rfc3987
+python-rich
 python-rjsmin
 rmol
 python-rmtest
@@ -2287,8 +2302,10 @@ python-tkrzw
 python-tld
 tlsh
 python-toml
+python-toml-adapt
 python-tomli
 python-tomli-w:check::::
+python-tomlkit
 python-toolz
 python-toposort
 python-tornado
@@ -2341,6 +2358,7 @@ unicorn
 python-unidecode
 python-unidiff
 python-unipath
+python-unpaddedbase64
 upm
 python-upnpy
 python-upoints
