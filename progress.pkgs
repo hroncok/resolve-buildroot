@@ -664,6 +664,7 @@ pybluez
 python-blurb
 bmap-tools
 python-bna
+bodhi-messages
 python-bokeh
 python-boolean.py
 python-booleanoperations
@@ -836,6 +837,7 @@ python-convertdate
 python-cooldict
 python-copr
 python-copr-common
+copr-messaging
 python-coreapi
 python-coreschema
 python-coronavirus
@@ -1733,6 +1735,7 @@ python-ovirt-engine-sdk4
 python-owl_rl
 python-packaging
 python-pacpy
+python-pagure-messages
 python-paho-mqtt
 python-pam
 python-pamela
@@ -2218,6 +2221,7 @@ python-rjsmin
 rmol
 python-rmtest
 python-rnc2rng
+python-robosignatory
 python-robot-detection
 python-roman
 python-rope
@@ -2551,6 +2555,7 @@ python-trustme
 python-tubes
 python-tvb-data
 python-twiggy
+python-twilio
 python-twisted
 python-txaio
 python-txredisapi
@@ -2772,6 +2777,7 @@ remmina
 renderdoc
 reprotest
 resalloc-openstack
+resultsdb
 resultsdb_frontend
 retext
 reuse
