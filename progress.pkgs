@@ -39,6 +39,7 @@ autokey
 avogadro2-libs
 awscli
 azote
+python-b4
 b43-tools
 battray
 beaker
@@ -238,6 +239,7 @@ libsigrokdecode
 libstoragemgmt
 lightdm-gtk-greeter-settings
 link-grammar
+linkchecker
 linux-thermaltake-rgb
 lldb
 lnst
@@ -398,6 +400,7 @@ python-PyLink
 python-PyMySQL
 python-PyPDF2
 python-PyRSS2Gen
+pykka
 python-Pyped
 python-QtAwesome
 python-QtPy
@@ -566,6 +569,7 @@ python-audioread
 audit
 python-augeas
 python-auth-credential
+python-authheaders
 python-authres
 python-autograd
 python-autopep8
@@ -930,6 +934,7 @@ python-django-tastypie
 python-django-threadedcomments
 python-django-timezone-field
 python-djvulibre
+python-dkimpy
 dlib
 python-dmidecode
 python-dns
@@ -976,6 +981,7 @@ python-editorconfig
 python-efel
 python-elasticsearch
 python-elementpath
+python-email-validator
 python-emoji
 python-empy
 python-enchant
@@ -990,11 +996,14 @@ python-epi
 python-epub
 eralchemy
 python-et_xmlfile
+python-etcd
 python-etcd3
 python-ethtool
 python-evdev
+python-eventlet
 python-events
 python-exabgp
+python-execnet
 python-executing
 python-exif
 python3-exiv2
@@ -1102,6 +1111,8 @@ gerrymander
 python-gertty
 python-getmac
 python-gettext
+python-gevent
+python-gevent-eventemitter
 libgexiv2
 gfal2-python
 python-ghp-import
@@ -1151,6 +1162,7 @@ gtts
 gtts-token
 python-guessit
 python-guizero
+python-gunicorn
 gwebsockets
 python-gzipstream
 python-h11
@@ -1329,6 +1341,7 @@ python-kajiki
 python-kanboard
 python-kaptan
 python-kazoo
+python-kdcproxy
 kerberoast
 python-kerberos
 keycloak-httpd-client-install
@@ -1640,6 +1653,7 @@ python-opensearch-py
 python-opensensemap-api
 python-openslide
 python-openstackdocstheme
+python-opentracing
 opentrep
 python-opentype-sanitizer
 openvdb
@@ -1652,6 +1666,7 @@ osbs-client
 python-oslo-sphinx
 python-osrf-pycommon
 otf2
+python-ouimeaux
 python-outcome
 python-outdated
 python-overpy
@@ -2008,6 +2023,7 @@ python-pytest-subtests
 python-pytest-sugar
 python-pytest-testmon
 python-pytest-timeout
+python-pytest-toolbox
 python-pytest-tornado
 python-pytest-trio
 python-pytest-vcr
@@ -2240,6 +2256,7 @@ python-smi
 python-smmap
 smoldyn
 tcl-snack
+snallygaster
 python-snappy
 python-snaptime
 python-sniffio
@@ -2562,8 +2579,10 @@ python-wloc
 python-wrapt
 python-wsaccel
 python-wsproto
+python-wtforms
 python-wurlitzer
 python-www-authenticate
+python-x2go
 python-x3dh
 xapian-bindings
 python-xapp
@@ -2591,6 +2610,7 @@ python-xvfbwrapper
 python-xxhash
 python-yamlordereddictloader
 python-yapf
+python-yappi
 python-yapsy
 python-yara
 python-yarl
@@ -2826,3 +2846,4 @@ youtube-dl
 zbar
 zezere
 znc
+python3-docs
