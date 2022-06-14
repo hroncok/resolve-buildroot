@@ -16,13 +16,13 @@ DEFAULT_BRANCH = 'rawhide'
 
 # XXX we need an actual user-configuration for this
 PACKAGES_BCONDS = {
-    #'gdb': [{'replacements': {'_without_python': '1'}}],
-    #'python-setuptools': [{'withs': ['bootstrap'], 'withouts': ['tests']}],
-    #'pyparsing': [{'withs': ['bootstrap']}],
-    #'python-packaging': [{'withs': ['bootstrap'], 'withouts': ['tests', 'docs']}],
-    #'python-wheel': [{'withs': ['bootstrap']}],
-    #'python-pip': [{'withouts': ['tests', 'doc']}],
-    #'python-setuptools': [{'withouts': ['tests']}],
+    'gdb': [{'replacements': {'_without_python': '1'}}],
+    'python-setuptools': [{'withs': ['bootstrap'], 'withouts': ['tests']}],
+    'pyparsing': [{'withs': ['bootstrap']}],
+    'python-packaging': [{'withs': ['bootstrap'], 'withouts': ['tests', 'docs']}],
+    'python-wheel': [{'withs': ['bootstrap']}],
+    'python-pip': [{'withouts': ['tests', 'doc']}],
+    'python-setuptools': [{'withouts': ['tests']}],
     # XXX: build.py cannot handle double bootstrap yet
 
     'python-six': [{'withouts': ['tests']}],
