@@ -1973,6 +1973,7 @@ python-pycotap
 python-pycountry
 python-pycparser
 python-pycryptodomex
+python-pyct
 python-pycurl
 python-pycxx
 python-pydantic
