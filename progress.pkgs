@@ -112,6 +112,7 @@ elements-alexandria
 enki
 ephemeral-port-reserve
 eric
+esptool
 evemu
 quodlibet
 expliot
@@ -180,6 +181,7 @@ gwe
 gyp
 hashid
 hexchat
+hgview
 holland
 hplip
 hugin
@@ -277,6 +279,7 @@ ninja-build
 nml
 nodepool
 nordugrid-arc-nagios-plugins
+nova-agent
 ntpsec
 nut
 nvme-stas
@@ -310,6 +313,7 @@ past-time
 python-patatt
 python-pcicrawler
 pcp2pdf
+pcs
 pdfarranger
 pdfposter
 kernel-tools
@@ -384,6 +388,7 @@ python-Naked
 python-Pallets-Sphinx-Themes
 python-PyLEMS
 python-PyLink
+python-PyMySQL
 python-PyPDF2
 python-PyRSS2Gen
 python-Pyped
@@ -556,6 +561,7 @@ python-autoprop
 autowrap
 awake
 python-awesomeversion
+python-axolotl
 python-axolotl-curve25519
 python-azure-common
 python-azure-core
@@ -563,6 +569,7 @@ python-azure-cosmos
 python-azure-devtools
 python-azure-mgmt-core
 python-azure-sdk-tools
+python-azure-storage-common
 python-b2sdk
 babel
 python-babelfish
@@ -921,6 +928,7 @@ dogtail
 python-dominate
 python-dotenv
 python-dotmap
+python-doubleratchet
 python-doxytag2zealdb
 python-dpath
 python-dpkt
@@ -986,6 +994,7 @@ fedfind
 python-feedgen
 python-feedgenerator
 python-feedparser
+python-fido2
 python-fields
 file
 python-filelock
@@ -1122,7 +1131,9 @@ python-hdate
 python-heapdict
 python-helpdev
 python-hexdump
+python-hgapi
 python-hgdistver
+python-hglib
 python-hidapi
 python-hikvision
 hivex
@@ -1141,7 +1152,10 @@ python-html5lib
 python-htmlmin
 python-httmock
 python-http-client
+python-http-ece
 python-httpagentparser
+python-httplib2
+python-httpsig-cffi
 python-httptools
 python-httpx
 python-humanfriendly
@@ -1238,6 +1252,7 @@ python-jinja2
 python-jinja2-cli
 python-jinja2_pluralize
 python-jmespath
+python-jose
 python-journal-brief
 python-jsmin
 python-json-logger
@@ -1266,6 +1281,8 @@ python-jupyter-kernel-singular
 python-jupyterlab_pygments
 python-justbases
 python-justbytes
+python-jwcrypto
+python-jwt
 python-kadmin
 python-kaitaistruct
 python-kajiki
@@ -1476,6 +1493,7 @@ python-mrcfile
 python-mrcrowbar
 python-msgpack
 python-msldap
+msoffcrypto-tool
 python-mujson
 python-mulpyplexer
 python-multi_key_dict
@@ -1521,6 +1539,7 @@ python-nltk
 python-nmap
 python-node-semver
 python-nodeenv
+python-noiseprotocol
 python-nose
 python-nose-testconfig
 python-nose-timer
@@ -1533,6 +1552,7 @@ python-nptyping
 python-npyscreen
 python-nrf24
 python-ns1-python
+python-ntlm-auth
 python-ntplib
 python-nudatus
 python-nudepy
@@ -1551,6 +1571,7 @@ python-okaara
 python-olefile
 python-omnilogic
 oneVPL
+python-onionbalance
 openbabel
 python-opendata-transport
 python-openidc-client
@@ -1591,6 +1612,7 @@ python-pandas::bootstrap:::
 python-pandocfilters
 python-param
 python-parameterized
+python-paramiko
 python-parse
 python-parse_type
 python-parsedatetime
@@ -1612,6 +1634,7 @@ python-pbkdf2
 python-pbr::bootstrap:::
 pcapy
 python-pdfkit
+python-pdfminer
 python-pdfrw
 python-pebble
 python-pecan
@@ -1625,6 +1648,7 @@ python-petlink
 petsc
 python-pexpect
 python-pg8000
+roca-detect
 python-phabricator
 python-phonenumbers
 python-phpserialize
@@ -1716,6 +1740,7 @@ python-py3nvml
 py4j
 python-py9p
 python-pyModbusTCP
+pyOpenSSL
 python3-pyPEG2
 python-pyactivetwo
 python-pyaes
@@ -2015,6 +2040,7 @@ python-requests-exoscale-auth
 python-requests-file
 python-requests-ftp
 python-requests-gssapi
+python-requests-kerberos
 python-requests-pkcs12
 python-requests-unixsocket
 python-requestsexceptions
@@ -2045,6 +2071,7 @@ python-rospkg
 python-rpdb
 python-rply
 rpm
+python-rpm-head-signing
 rpmconf
 python-rpmfluff
 python-rpyc
@@ -2086,6 +2113,7 @@ python-scripttester
 python-scrypt
 python-scss
 seadrive-daemon
+python-SecretStorage
 python-secure_cookie
 python-selenium
 python-semantic_version
@@ -2097,11 +2125,12 @@ python-sep
 python-seqdiag
 python-serpent
 python-serpy
+python-service-identity
 setools
 python-setproctitle
 python-setuptools-rust
 python-setuptools_git
-python-setuptools_scm:tests::::
+python-setuptools_scm
 python-setuptools_scm_git_archive
 python-sexpdata
 python-sgmllib3k
@@ -2225,6 +2254,7 @@ python-sphinxext-opengraph
 python-sphinxext-rediraffe
 python-sphobjinv
 py-spidev
+python-spnego
 spyder
 python-sql
 python-sqlacodegen
@@ -2236,6 +2266,7 @@ python-ssdp
 python-sseclient
 python-sseclient-py
 python-ssh-python
+python-sshpubkeys
 python-stack-data
 python-stackprinter
 pdf-stapler
@@ -2449,6 +2480,7 @@ python-websockets
 python-websockify
 python-webthing
 python-webthing-ws
+python-werkzeug
 python-whatever
 python-wheel
 python-whichcraft
@@ -2466,6 +2498,7 @@ python-wsaccel
 python-wsproto
 python-wurlitzer
 python-www-authenticate
+python-x3dh
 xapian-bindings
 python-xapp
 xapps
@@ -2547,6 +2580,7 @@ reprotest
 resalloc-openstack
 resultsdb_frontend
 retext
+reuse
 revelation
 rhythmbox-ampache
 rig
@@ -2620,7 +2654,9 @@ tldr
 todocli
 toot
 torbrowser-launcher
+tortoisehg
 python-tox
+tpm2-pkcs11
 trac
 trac-monotone-plugin
 trac-tracnav-plugin
