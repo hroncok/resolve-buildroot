@@ -265,6 +265,7 @@ mqtt-randompub
 mrchem
 python-myrepos-utils
 mysql-connector-python
+nanovna-saver
 nautilus-python
 needrestart
 nemo-extensions
@@ -384,6 +385,7 @@ Cython
 python-GeoIP
 GeographicLib
 GitPython
+python-GridDataFormats
 HepMC3
 python-IPy
 python-Levenshtein
@@ -554,6 +556,7 @@ python-arpeggio
 python-arpy
 python-arrow
 python-asciitree
+python-ase
 python-asgiref
 python-asn1crypto
 python-aspy.yaml
@@ -1122,6 +1125,7 @@ python-fluidity-sm
 fmf
 python-fontconfig
 python-fontname
+fonttools
 python-formats
 python-formencode
 fprettify
@@ -1152,6 +1156,7 @@ python-gearbox
 python-gekitchen
 python-gelidum
 python-genshi
+python-gensim
 python-genty
 python-geoip2
 python-geojson
@@ -1375,7 +1380,7 @@ python-jsonref
 python-jsonrpc-server
 python-jsonrpclib
 python-jsons
-python-jsonschema:tests::::
+python-jsonschema
 python-junit_xml
 python-junitxml
 python-jupyter-c-kernel
@@ -1427,7 +1432,9 @@ python-lazr-config
 python-lazr-delegates
 python-lazr-smtptest
 python-lazr-uri
+python-lazy-loader
 python-lazy-object-proxy
+python-lazyarray
 python-ldap
 python-ldap3
 ldapdomaindump
@@ -1479,6 +1486,7 @@ libsedml
 libselinux
 libsemanage
 libssh2-python
+libsvm
 python-libtmux
 libucl
 libunity
@@ -1659,6 +1667,7 @@ nispor
 python-nitrate
 python-nltk
 python-nmap
+python-nmrglue
 python-node-semver
 python-nodeenv
 python-noiseprotocol
@@ -1895,7 +1904,7 @@ pyatspi
 pyaudio
 python-pybalboa
 python-pybeam
-pybind11:tests::::
+pybind11
 pybox2d
 python-pybtex
 python-pybtex-docutils
@@ -2457,6 +2466,7 @@ python-stackprinter
 pdf-stapler
 python-starlette
 python-statsd
+python-statsmodels
 python-stdio-mgr
 python-stdiomask
 python-stdlib-list
@@ -2479,6 +2489,7 @@ python-subprocess-tee
 subversion
 python-subvertpy
 python-suds
+python-supersmoother
 python-sure
 python-surt
 python-svg
@@ -2524,7 +2535,9 @@ python-textparser
 python-texttable
 python-textwrap3
 python-tftpy
+python-theano
 python-thingserver
+python-threadpoolctl
 python-three_merge
 python-tidy
 python-tifffile
@@ -2565,6 +2578,7 @@ python-trololio
 python-trustme
 python-tubes
 python-tvb-data
+python-tvb-gdist
 python-twiggy
 python-twilio
 python-twisted
