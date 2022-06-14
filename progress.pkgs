@@ -476,6 +476,7 @@ python-aiofiles
 python-aioftp
 python-aioguardian
 python-aiohomekit
+python-aiohttp
 python-aiohttp-socks
 python-aiohue
 python-aioiotprov
@@ -1060,6 +1061,7 @@ python-flask-principal
 python-flask-restful
 python-flask-restx
 python-flask-talisman
+python-flask-wtf
 python-flask-xml-rpc
 flatpak-module-tools
 python-flit:tests::::
@@ -1987,6 +1989,7 @@ python-pytest-arraydiff
 python-pytest-astropy-header
 python-pytest-asyncio
 python-pytest-benchmark
+python-pytest-cache
 python-pytest-capturelog
 python-pytest-cov:tests::::
 python-pytest-datadir
@@ -2016,6 +2019,7 @@ python-pytest-repeat
 python-pytest-rerunfailures
 python-pytest-runner
 python-pytest-services
+python-pytest-shutil
 python-pytest-smartcov
 python-pytest-sourceorder
 python-pytest-subprocess
@@ -2029,6 +2033,7 @@ python-pytest-trio
 python-pytest-vcr
 python-pytest-venv
 python-pytest-watch
+python-pytest-xdist
 python-pytest-xprocess
 python-pytest-xvfb
 pythia8
@@ -2098,6 +2103,7 @@ python-regex
 python-registry
 python-relatorio
 remctl
+python-remoto
 python-rencode
 python-reno
 python-reparser
@@ -2356,6 +2362,7 @@ python-stdio-mgr
 python-stdiomask
 python-stdlib-list
 python-stdnum
+python-steam
 python-stem
 python-stomper
 python-stone
@@ -2551,6 +2558,7 @@ python-walkdir
 python-waqiasync
 python-warlock
 python-watchdog
+python-watchgod
 python-wavio
 python-wcag-contrast-ratio
 python-wcmatch
