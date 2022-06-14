@@ -737,6 +737,7 @@ python-chardet
 python-charset-normalizer
 python-check-manifest
 python-cheetah
+python-cheroot
 python-chirpstack-api
 pychromecast
 python-ciso8601
@@ -1058,6 +1059,7 @@ python-fauxquests
 python-fb-re2
 python-fdb
 fedfind
+fedora-messaging
 python-feedgen
 python-feedgenerator
 python-feedparser
@@ -1401,6 +1403,7 @@ python-kismet-rest
 python-kitchen
 kiwi
 python-kiwisolver
+python-klein
 python-kmod
 koan
 kobo
@@ -1986,6 +1989,7 @@ python-pyngus
 python-pynuvo
 python-pyocr
 pyodbc
+python-pyone
 python-pyopencl
 python-pyopengl
 python-pyoptical
@@ -2513,6 +2517,7 @@ python-timeout-decorator
 python-timeunit
 python-tinycss2
 python-tinydb
+python-tinyrpc
 python-tkrzw
 python-tld
 tlsh
@@ -2901,6 +2906,7 @@ trytond-stock-supply-day
 trytond-timesheet
 tuna
 tuned
+python-twine
 txt2tags
 ubertooth
 udica
