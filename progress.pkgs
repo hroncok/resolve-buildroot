@@ -49,6 +49,7 @@ python-black
 blivet-gui
 bluefish
 blueman
+bodhi-client
 boost
 borgbackup
 borgmatic
@@ -2288,6 +2289,7 @@ python-rosdistro
 python-rosinstall_generator
 python-rospkg
 python-rpdb
+rpkg
 python-rply
 rpm
 python-rpm-head-signing
