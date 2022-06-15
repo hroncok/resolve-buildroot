@@ -29,10 +29,12 @@ apostrophe
 appliance-tools
 apx
 arandr
+arbor
 argparse-manpage
 artifacts
 asciidoc
 asciinema
+asv
 aubio
 auditwheel
 autojump
@@ -421,6 +423,7 @@ python-ModulemdTranslationHelpers
 python-MultipartPostHandler2
 NLopt
 python-Naked
+python-OBD
 python-Pallets-Sphinx-Themes
 python-PyLEMS
 python-PyLink
@@ -1138,6 +1141,7 @@ python-firkin
 python-fissix
 python-fisx
 python-fitsio
+python-fixtures::bootstrap:::
 python-flake8
 python-flake8-docstrings
 python-flake8-import-order
@@ -1490,6 +1494,7 @@ python-kiwisolver
 python-klein
 python-klusta
 python-kmod
+python-knack
 koan
 kobo
 koji
@@ -1626,6 +1631,7 @@ python-marathon
 marisa
 python-markdown
 python-markdown-include
+python-markdown-it-py
 python-markdown-math
 python-markdown2
 python-markdown_2
@@ -2213,6 +2219,7 @@ python-pytest-flake8
 python-pytest-flakes
 python-pytest-forked
 python-pytest-freezegun
+python-pytest-harvest
 python-pytest-httpbin
 python-pytest-httpx
 python-pytest-isort
@@ -2538,6 +2545,7 @@ python-sphinx-panels
 python-sphinx-press-theme
 python-sphinx-removed-in
 python-sphinx-sitemap
+python-sphinx-tabs
 python-sphinx-theme-alabaster
 python-sphinx-theme-py3doc-enhanced
 python-sphinx_ansible_theme
@@ -2708,6 +2716,7 @@ python-transaction
 python-transforms3d
 python-translationstring
 python-translitcodec
+transtats-cli
 tre
 python-treq
 python-trezor

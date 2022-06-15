@@ -1,0 +1,9 @@
+diff --git a/python-fixtures.spec b/python-fixtures.spec
+index 00c9418..f56420a 100644
+--- a/python-fixtures.spec
++++ b/python-fixtures.spec
+@@ -1,3 +1,4 @@
++%global _with_bootstrap 1
+ %global pypi_name fixtures
+ 
+ # fixtures has a circular dependency with testtools
