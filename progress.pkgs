@@ -283,6 +283,7 @@ micropipenv
 minigalaxy
 mirage
 mkdocs:docs::::
+mkdocs-markdownextradata-plugin
 mkosi
 mlpack
 mock
@@ -579,6 +580,7 @@ python-anyconfig
 python-anyio
 python-anyjson
 python-anykeystore
+python-anymarkup
 python-anymarkup-core
 python-anytree
 apbs
@@ -1796,6 +1798,7 @@ python-mirakuru
 python-mirrors-countme
 python-mistune
 python-mitogen
+python-mkdocs-redirects
 mlt
 python-mmtf
 python-mnemonic
@@ -2768,6 +2771,7 @@ python-stripe
 python-structlog
 python-stuf
 python-subarulink
+python-subliminal
 python-subprocess-tee
 subunit
 subversion
