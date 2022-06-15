@@ -110,6 +110,7 @@ diceware
 distcc
 distgen
 dmlite
+dnf
 dnf-plugin-diff
 dnf-plugin-ovl
 dnfdaemon
@@ -614,7 +615,10 @@ python-astroid
 astrometry
 python-astroplan
 python-astropy:check::::
+python-astropy-healpix
 python-astropy-helpers
+python-astroquery
+python-astroscrappy
 python-asttokens
 python-astunparse
 python-async-generator
@@ -1415,6 +1419,7 @@ python-hdate
 python-hdf5storage
 python-hdfs
 python-hdmf
+python-healpy
 python-heapdict
 python-helpdev
 python-hexdump
@@ -1681,6 +1686,7 @@ libpfm
 libplist
 libproxy
 libpst
+librepo
 libreport
 python-libsass
 libsbml
@@ -2190,7 +2196,7 @@ python-pyelectro
 pyelftools
 python-pyemby
 python-pyemd
-python-pyerfa:tests::::
+python-pyerfa
 libesedb
 python-pyev
 python-pyfakefs
@@ -2546,6 +2552,7 @@ python-rustcfg
 python-rx
 python-rxjson
 python-s3transfer
+samba
 python3-saml
 python-sanction
 python-sane
