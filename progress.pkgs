@@ -282,7 +282,7 @@ mgarepo
 micropipenv
 minigalaxy
 mirage
-mkdocs:docs::::
+mkdocs
 mkdocs-markdownextradata-plugin
 mkosi
 mlpack
@@ -2188,6 +2188,7 @@ python-pyelectro
 pyelftools
 python-pyemby
 python-pyemd
+python-pyerfa:tests::::
 libesedb
 python-pyev
 python-pyfakefs
