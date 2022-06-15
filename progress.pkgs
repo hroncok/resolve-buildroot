@@ -353,6 +353,7 @@ pdfposter
 kernel-tools
 perl-Inline-Python
 persepolis
+pg_activity
 pgzero
 photocollage
 photoqt
@@ -1001,6 +1002,7 @@ python-danfossair
 python-dasbus
 python-databases
 python-datadog
+python-datanommer-models
 python-dateparser
 python-dateutil
 python-dateutils
