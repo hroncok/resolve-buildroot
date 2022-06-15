@@ -402,6 +402,7 @@ python-APScheduler
 ATpy
 python-AWSIoTPythonSDK
 python-Automat
+python-Bottleneck
 COPASI
 python-CommonMark
 python-configupdater
@@ -905,6 +906,7 @@ python-cwcwidth
 python-cx-oracle
 python-cxxfilt
 python-cycler
+python-cyipopt
 python-cypari2
 python-cypy
 python-cysignals
@@ -1637,6 +1639,7 @@ python-meautility
 python-mechanize
 med
 python-memcached
+python-mercantile
 python-mergedeep
 python-messaging
 python-metaextract
@@ -1737,6 +1740,7 @@ python-netifaces
 python-netmiko
 python-networkmanager
 python-neurodsp
+python-neurotune
 newt
 nftables
 python-nibabel
@@ -1770,6 +1774,7 @@ python-nudatus
 python-nudepy
 python-nuheat
 python-num2words
+python-numcodecs
 python-numexpr
 numpy
 python-numpy-stl
@@ -2024,6 +2029,7 @@ python-pydotplus
 python-pyduofern
 python-pydyf
 python-pyeclib
+python-pyedflib
 python-pyelectro
 pyelftools
 python-pyemby
@@ -2047,6 +2053,7 @@ python-pygments-markdown-lexer
 python-pygments-pytest
 python-pygments-style-solarized
 libgpuarray
+python-pygraphviz
 PyGreSQL
 python-pygrocy
 pygsl
@@ -2132,6 +2139,7 @@ python-pyrsistent
 python-pyrtlsdr
 python-pysam
 python-pysaml2
+python-pysb
 pyscard
 python-pyscf
 pyserial
@@ -2237,6 +2245,7 @@ python-pyvlx
 pywbem
 pywebdav
 python-pywizlight
+python-pywt
 pyxattr
 pyxdg
 python-pyxid
@@ -2519,6 +2528,7 @@ python-sphinxcontrib-apidoc
 python-sphinxcontrib-applehelp
 python-sphinxcontrib-asyncio
 python-sphinxcontrib-autoprogram
+python-sphinxcontrib-bibtex
 python-sphinxcontrib-blockdiag
 python-sphinxcontrib-svg2pdfconverter
 python-sphinxcontrib-devhelp
@@ -2540,6 +2550,7 @@ python-sphinxcontrib-websupport
 python-sphinxemoji
 python-sphinxext-opengraph
 python-sphinxext-rediraffe
+python-sphinxtesters
 python-sphobjinv
 py-spidev
 python-spnego
@@ -2825,6 +2836,7 @@ python-wsproto
 python-wtforms
 python-wurlitzer
 python-www-authenticate
+python-wxnatpy
 python-wxpython4
 python-x2go
 python-x3dh
