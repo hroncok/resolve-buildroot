@@ -112,6 +112,7 @@ PACKAGES_BCONDS = {
     'python-google-api-core': [{'withouts': ['tests']}],
     'python-googleapis-common-protos': [{'withs': ['bootstrap']}],
     'python-proto-plus': [{'withouts': ['tests']}],
+    'python-networkx': [{'withs': ['bootstrap']}],
 }
 reverse_id_lookup = {}
 

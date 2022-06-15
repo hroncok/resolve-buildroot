@@ -467,6 +467,7 @@ python-QtPy
 python-ROPGadget
 SoapySDR
 python-tgscheduler
+python-Traits::bootstrap:::
 python-WSGIProxy2
 python-XStatic
 python-XStatic-Angular
@@ -630,7 +631,6 @@ python-astral
 python-astroid
 astrometry
 python-astroplan
-python-astropy:check::::
 python-astropy-healpix
 python-astropy-helpers
 python-astroquery
@@ -664,7 +664,6 @@ python-autoprop
 autowrap
 awake
 python-awesomeversion
-python-aws-sam-translator
 python-axolotl
 python-axolotl-curve25519
 python-azure-appconfiguration
@@ -876,6 +875,7 @@ python-charset-normalizer
 python-check-manifest
 python-cheetah
 python-cheroot
+python-cherrypy:tests::::
 python-chirpstack-api
 pychromecast
 python-ciso8601
@@ -1390,14 +1390,12 @@ python-gmqtt
 python-gnupg
 pygobject3
 gofer
-python-google-api-core:tests::::
 python-google-auth
 python-google-auth-oauthlib
 python-google-cloud-testutils
 python-google-crc32c
 python-google-i18n-address
 python-google-resumable-media
-python-googleapis-common-protos::bootstrap:::
 python-googletrans
 gpgme
 python-gphoto2
@@ -1795,6 +1793,7 @@ python-marshmallow-enum
 python-martian
 python-masscan
 mathgl
+python-matplotlib:check::::
 python-matplotlib-inline
 python-matplotlib-scalebar
 python-matplotlib-venn
@@ -1899,6 +1898,8 @@ python-name-that-hash
 python-nanoid
 python-natlas-libnmap
 python-natsort
+python-nbclient:check::::
+python-nbconvert:check-doc::::
 python-nbformat
 python-nbsphinx
 python-ncclient
@@ -1917,6 +1918,7 @@ python-netdisco
 python-netifaces
 python-netmiko
 python-networkmanager
+python-networkx::bootstrap:::
 python-neurodsp
 python-neurom
 python-neurotune
@@ -1970,7 +1972,6 @@ python-odml
 python-ogr
 python-okaara
 python-olefile
-python-oletools::bootstrap:::
 python-omemo
 python-omemo-backend-signal
 python-omnilogic
@@ -2326,6 +2327,7 @@ python-pyqt5-sip
 python-pyqt6-sip
 python-pyqtchart
 python-pyqtgraph
+python-pyquery:tests::::
 python-pyrad
 python-pyrfc3339
 python-pyro
@@ -2910,6 +2912,7 @@ python-tortilla
 totpcgi
 python-towncrier
 python-tox-current-env
+python-tqdm:tests::::
 tracer
 trademgen
 python-traitlets
@@ -3131,6 +3134,7 @@ python-zake
 zanata-python-client
 python-zanata2fedmsg
 python-zaqarclient
+python-zbase32::bootstrap:::
 python-zc-lockfile
 python-zeep
 zeitgeist
