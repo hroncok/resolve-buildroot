@@ -103,6 +103,13 @@ PACKAGES_BCONDS = {
     'python-cryptography': [{'withouts': ['tests']}],
     'python-decopatch': [{'withouts': ['tests']}],
     'python-geopandas': [{'withouts': ['tests']}],
+    'mkdocs': [{'withouts': ['docs']}],
+    'python-astropy': [{'withouts': ['check']}],
+    'python-pyerfa': [{'withouts': ['tests']}],
+    'python-fsspec': [{'withs': ['bootstrap']}],
+    'python-pyface': [{'withs': ['bootstrap']}],
+    'python-oletools': [{'withs': ['bootstrap']}],
+    'python-google-api-core': [{'withouts': ['tests']}],
 }
 reverse_id_lookup = {}
 
@@ -251,7 +258,7 @@ def handle_exisitng_srpm(repopath, *, was_updated):
 def handle_exisitng_koji_id(repopath, *, was_updated):
     koji_id_path = repopath / KOJI_ID_FILENAME
     if koji_id_path.exists():
-        if was_updated:
+        if False:
             koji_id_path.unlink()
             return None
         else:
