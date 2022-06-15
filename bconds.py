@@ -102,6 +102,7 @@ PACKAGES_BCONDS = {
     'python-tqdm': [{'withouts': ['tests']}],
     'python-cryptography': [{'withouts': ['tests']}],
     'python-decopatch': [{'withouts': ['tests']}],
+    'python-geopandas': [{'withouts': ['tests']}],
 }
 reverse_id_lookup = {}
 
