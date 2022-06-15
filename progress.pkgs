@@ -919,6 +919,7 @@ python-cypari2
 python-cypy
 python-cysignals
 python-d2to1
+python-daemon
 python-daemonize
 python-daikin
 python-danfossair
@@ -1110,10 +1111,12 @@ python-execnet
 python-executing
 python-exif
 python3-exiv2
+python-exoscale
 python-extension-helpers
 python-extras
 python-eyed3
 python-ezdxf
+python-f5-icontrol-rest
 python-fabric
 python-factory-boy
 python-faker
@@ -1123,6 +1126,7 @@ python-fastcache
 python-fasteners
 python-fastjsonschema
 python-fastprogress
+python-fastpurge
 python-fauxquests
 python-fb-re2
 python-fdb
@@ -1438,6 +1442,7 @@ python-jedi
 emacs-jedi
 python-jeepney
 python-jellyfish
+python-jenkins
 python-jep
 python-jinja2
 python-jinja2-cli
@@ -1660,6 +1665,7 @@ python-mdit-py-plugins
 python-mdurl
 python-mdx_gh_links
 python-meautility
+python-mechanicalsoup
 python-mechanize
 med
 python-memcached
@@ -2025,6 +2031,7 @@ python-pyactivetwo
 python-pyaes
 afflib
 python-pyaib
+python-pyarlo
 python-pyasn1
 pyatspi
 pyaudio
@@ -2360,6 +2367,7 @@ python-requests-ftp
 python-requests-gssapi
 python-requests-kerberos
 python-requests-mock
+python-requests-oauthlib
 python-requests-pkcs12
 python-requests-toolbelt
 python-requests-unixsocket
@@ -2645,6 +2653,7 @@ python-structlog
 python-stuf
 python-subarulink
 python-subprocess-tee
+subunit
 subversion
 python-subvertpy
 python-suds
@@ -2690,7 +2699,7 @@ python-testing.postgresql
 python-testpath
 python-testresources
 python-testscenarios
-python-testtools::bootstrap:::
+python-testtools
 libtevent
 python-text-unidecode
 python-textdistance
@@ -2792,8 +2801,10 @@ python-unpaddedbase64
 upm
 python-upnpy
 python-upoints
+python-upt-cpan
 python-upt-fedora
 python-upt-pypi
+python-upt-rubygems
 python-uptime
 python-uri-templates
 python-uritemplate
@@ -2815,6 +2826,7 @@ python-validators
 vapoursynth
 python-varlink
 python-vatnumber
+python-vconnector
 python-vcrpy
 python-vcstool
 python-vcstools
@@ -2940,6 +2952,7 @@ zanata-python-client
 python-zanata2fedmsg
 python-zaqarclient
 python-zc-lockfile
+python-zeep
 zeitgeist
 python-zeroconf
 python-zict
