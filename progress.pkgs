@@ -1396,6 +1396,7 @@ python-google-cloud-testutils
 python-google-crc32c
 python-google-i18n-address
 python-google-resumable-media
+python-googleapis-common-protos::bootstrap:::
 python-googletrans
 gpgme
 python-gphoto2
@@ -1690,6 +1691,7 @@ libfreenect
 libftdi
 libgpiod
 libguestfs
+sssd
 libiptcdata
 libkdtree++
 libkdumpfile

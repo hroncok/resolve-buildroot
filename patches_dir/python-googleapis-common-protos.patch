@@ -1,0 +1,9 @@
+diff --git a/python-googleapis-common-protos.spec b/python-googleapis-common-protos.spec
+index ec96e72..c12d188 100644
+--- a/python-googleapis-common-protos.spec
++++ b/python-googleapis-common-protos.spec
+@@ -1,3 +1,4 @@
++%global _with_bootstrap 1
+ # When bootstrapping, we do not include the “grpc” extra in the BR’s. That adds
+ # a BR on python3dist(grpcio), but this package is required by
+ # python3dist(grpcio-status), which creates a circular dependency with grpc.
