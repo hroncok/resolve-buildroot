@@ -45,6 +45,7 @@ awscli
 azote
 python-b4
 b43-tools
+bandit
 battray
 beaker
 beets
@@ -90,6 +91,7 @@ commissaire-client
 compizconfig-python
 condor
 congruity
+container-workflow-tool
 copr-cli
 copr-keygen
 cranc
@@ -277,8 +279,10 @@ menulibre
 mercurial
 meson
 mgarepo
+micropipenv
 minigalaxy
 mirage
+mkdocs:docs::::
 mkosi
 mlpack
 mock
@@ -392,6 +396,7 @@ pyhoca-gui
 pylibgamerzilla
 pynag
 pyotherside
+pyp2rpm
 pypolicyd-spf
 pyppd
 pypykatz
@@ -559,6 +564,7 @@ python-amico
 python-amply
 python-amqp
 python-ana
+python-animatplot
 python-aniso8601
 python-annexremote
 python-ansi
@@ -573,6 +579,7 @@ python-anyconfig
 python-anyio
 python-anyjson
 python-anykeystore
+python-anymarkup-core
 python-anytree
 apbs
 python-apipkg
@@ -603,6 +610,7 @@ python-astor
 python-astral
 python-astroid
 python-astroplan
+python-astropy:check::::
 python-astropy-helpers
 python-asttokens
 python-astunparse
@@ -959,6 +967,7 @@ python-cpio
 python-cppheaderparser
 python-cppy
 python-cpuinfo
+python-cradox
 python-cram
 python-crank
 python-crashtest
@@ -1031,6 +1040,7 @@ deltarpm
 python-demjson
 python-deprecated
 python-deprecation
+python-devicely
 python-dfdatetime
 python-dialog
 python-dict-sorted
@@ -1122,6 +1132,7 @@ python-dockerpty
 python-docopt
 python-docs-theme
 python-docutils
+python-dogpile-cache
 dogtail
 python-dominate
 python-dotenv
@@ -1258,6 +1269,7 @@ python-flask-restful
 python-flask-restx
 python-flask-sqlalchemy
 python-flask-talisman
+python-flask-whooshee
 python-flask-wtf
 python-flask-wtf-decorators
 python-flask-xml-rpc
@@ -1271,6 +1283,7 @@ python-flufl-lock
 python-flufl-testing
 python-fluidity-sm
 fmf
+python-folium
 folly
 python-fontMath
 python-fontconfig
@@ -2304,6 +2317,7 @@ pystatgrab
 python-pystemd
 python-pystray
 pysvn
+python-pyswarms
 python-pyswip
 python-pysword
 python-pytaglib
@@ -2715,6 +2729,7 @@ python-sqlacodegen
 python-sqlalchemy
 python-sqlalchemy-collectd
 python-sqlalchemy-filters
+python-sqlalchemy-utils
 python-sqlalchemy1.3
 python-sqlalchemy_schemadisplay
 python-sqlobject
@@ -3072,6 +3087,7 @@ python-zm
 python-zmq
 python-zodbpickle
 python-zope-component
+python-zope-configuration
 python-zope-deprecation
 python-zope-event
 python-zope-exceptions
@@ -3088,6 +3104,7 @@ python-zstd
 python-zuul-sphinx
 python-zxcvbn
 zxing-cpp
+pythran
 pyzor
 qpid-dispatch
 quisk
@@ -3153,6 +3170,7 @@ solarwolf
 sos
 soundconverter
 sourcextractor++
+spec2scl
 speedtest-cli
 sshuttle
 stgit

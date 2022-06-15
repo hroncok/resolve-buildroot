@@ -1,0 +1,9 @@
+diff --git a/mkdocs.spec b/mkdocs.spec
+index f421774..ef557f8 100644
+--- a/mkdocs.spec
++++ b/mkdocs.spec
+@@ -1,3 +1,4 @@
++%global _without_docs 1
+ %bcond_without docs
+ 
+ Name:           mkdocs
