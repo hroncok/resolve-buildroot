@@ -34,7 +34,8 @@ PACKAGES_BCONDS = {
     'python-chardet': [{'withouts': ['tests']}],
     'python-pbr': [{'withs': ['bootstrap']}],
     'python-mock': [{'withouts': ['tests']}],
-    'python-extras': [{'withs': ['bootstrap']}],
+    'python-extras': [{'withs': ['bootstrap']}], # XXX the bootstrap build has fewer runtime deps
+    'python-testtools': [{'withs': ['bootstrap']}], # XXX this might newer be reported as ready due to ^
     'python-attrs': [{'withouts': ['tests']}],
     'python-pluggy': [{'withouts': ['tests']}],
     'python-sortedcontainers': [{'withouts': ['docs', 'tests']}],
@@ -47,7 +48,6 @@ PACKAGES_BCONDS = {
     'Cython': [{'withouts': ['tests']}],
     'python-more-itertools': [{'withouts': ['tests']}],
     'python-atomicwrites': [{'withouts': ['docs', 'tests']}],
-    'python-testtools': [{'withs': ['bootstrap']}],
     'python-fixtures': [{'withs': ['bootstrap']}],
     'python-wcwidth': [{'withouts': ['tests']}],
     'pytest': [{'withouts': ['tiemout', 'tests', 'docs']}],
