@@ -115,6 +115,7 @@ dmlite
 dnf
 dnf-plugin-diff
 dnf-plugin-ovl
+swid-tools
 dnfdaemon
 doge
 domoticz
@@ -132,6 +133,7 @@ ephemeral-port-reserve
 eric
 python-esphomeflasher
 esptool
+etckeeper
 evemu
 quodlibet
 expliot
@@ -139,6 +141,7 @@ fail2ban
 fapolicyd
 fedora-business-cards
 fedora-gather-easyfix
+fedora-review
 fedora-third-party
 libffado
 flatbuffers
@@ -261,6 +264,7 @@ libreoffice
 libsearpc
 libsigrokdecode
 libstoragemgmt
+libvirt-test-API
 lightdm-gtk-greeter-settings
 limnoria
 link-grammar
@@ -294,6 +298,7 @@ mkdocs-markdownextradata-plugin
 mkosi
 mlpack
 mock
+module-build
 modulemd-tools
 mom
 mopidy
@@ -394,6 +399,7 @@ proselint
 protontricks
 protonvpn-cli
 proxmark3
+prunerepo
 pss
 pssh
 ptpython
@@ -1683,6 +1689,7 @@ dtc
 libfreenect
 libftdi
 libgpiod
+libguestfs
 libiptcdata
 libkdtree++
 libkdumpfile
@@ -1959,6 +1966,7 @@ python-odml
 python-ogr
 python-okaara
 python-olefile
+python-oletools::bootstrap:::
 python-omemo
 python-omemo-backend-signal
 python-omnilogic
@@ -2277,6 +2285,7 @@ python-pymeeus
 python-pymemcache
 pymilia
 python-pymilter
+python-pymoc
 pymodbus
 python-pymssql
 python-pynacl
@@ -2364,6 +2373,7 @@ python-pytest-astropy
 python-pytest-astropy-header
 python-pytest-asyncio
 python-pytest-bdd
+python-pytest-beakerlib
 python-pytest-benchmark
 python-pytest-cache
 python-pytest-capturelog
