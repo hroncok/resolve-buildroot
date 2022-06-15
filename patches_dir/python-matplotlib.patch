@@ -1,0 +1,9 @@
+diff --git a/python-matplotlib.spec b/python-matplotlib.spec
+index 4ca6e19..4f4148c 100644
+--- a/python-matplotlib.spec
++++ b/python-matplotlib.spec
+@@ -1,3 +1,4 @@
++%global _without_check 1
+ %bcond_with html
+ %bcond_without check
+ # https://fedorahosted.org/fpc/ticket/381

@@ -119,6 +119,7 @@ elements-alexandria
 enki
 ephemeral-port-reserve
 eric
+python-esphomeflasher
 esptool
 evemu
 quodlibet
@@ -218,6 +219,7 @@ kea
 kf5-kapidox
 khal
 khard
+kicad
 kig
 kismon
 kitty
@@ -1613,6 +1615,7 @@ python-marshmallow-enum
 python-martian
 python-masscan
 mathgl
+python-matplotlib:check::::
 python-matplotlib-inline
 python-matrix-common
 python-matrix-synapse-ldap3
@@ -2077,6 +2080,7 @@ python-pynetbox
 python-pynetdicom
 python-pyngus
 python-pynuvo
+python-pyobd
 python-pyocr
 pyodbc
 python-pyone
@@ -2875,6 +2879,7 @@ python-zxcvbn
 zxing-cpp
 pyzor
 qpid-dispatch
+quisk
 qutebrowser
 ranger
 rapid-photo-downloader
@@ -2978,6 +2983,7 @@ trac-tracnav-plugin
 transifex-client
 transmageddon
 trash-cli
+trelby
 trellis
 tryton
 trytond
