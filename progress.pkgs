@@ -12,6 +12,7 @@ ServiceReport
 WALinuxAgent
 Zim
 abrt-server-info-page
+abrt
 academic-admin
 accerciser
 adb-enhanced
@@ -76,6 +77,7 @@ ccnet
 ccsm
 cdist
 cekit
+ceph
 cffconvert
 python-pycha
 chrome-gnome-shell
@@ -120,6 +122,7 @@ dot2tex
 python-drgn
 duplicity
 dxf2gcode
+ec2-hibinit-agent
 electron-cash
 electrum
 elements
@@ -132,6 +135,8 @@ esptool
 evemu
 quodlibet
 expliot
+fail2ban
+fapolicyd
 fedora-business-cards
 fedora-gather-easyfix
 fedora-third-party
@@ -167,6 +172,7 @@ globus-net-manager
 python-glue
 gmsh
 gnofract4d
+gnome-abrt
 gnome-activity-journal
 gnome-builder
 gnome-doc-utils
@@ -288,6 +294,7 @@ mkdocs-markdownextradata-plugin
 mkosi
 mlpack
 mock
+modulemd-tools
 mom
 mopidy
 mopidy-mpd
@@ -307,6 +314,7 @@ netgen-mesher
 netstat-monitor
 neuron
 nfoview
+nfs-ganesha
 nfsometer
 nicotine+
 nik4
@@ -340,6 +348,7 @@ openscap
 openscap-daemon
 openssh-ldap-authkeys
 openvswitch
+openwsman
 orca
 oval-graph
 oz
@@ -390,6 +399,7 @@ pssh
 ptpython
 puddletag
 pulsecaster
+pungi
 pybugz
 pydeps
 pyflowtools
@@ -863,6 +873,7 @@ python-cheroot
 python-chirpstack-api
 pychromecast
 python-ciso8601
+cjdns
 python-claripy
 python-cle
 python-cleo
@@ -930,6 +941,7 @@ colin
 python-collada
 python-collectd_cvmfs
 python-collectd_puppet
+python-collectd_systemd
 python-colorama
 python-colorclass
 python-colored-traceback
@@ -1128,6 +1140,11 @@ python-djvulibre
 python-dkimpy
 dlib
 python-dmidecode
+dnf-plugin-cow
+dnf-plugin-flunk_dependent_remove
+dnf-plugins-extras
+dnf-plugins-core
+dnf-plugin-perfmetrics
 python-dns
 python-dns-lexicon
 dnsgen
@@ -1781,6 +1798,7 @@ python-meautility
 python-mechanicalsoup
 python-mechanize
 med
+python-meh
 python-memcached
 python-mercantile
 python-mergedeep
@@ -1975,6 +1993,7 @@ python-ordered-set
 python-orderedset
 python-osa
 osbs-client
+osbuild
 python-oslo-sphinx
 pyosmium
 python-osrf-pycommon
@@ -2021,6 +2040,7 @@ python-patsy
 python-pbkdf2
 python-pbr::bootstrap:::
 pcapy
+pcp
 pdc-client
 python-pdfkit
 python-pdfminer
@@ -2256,6 +2276,7 @@ python-pymediawiki
 python-pymeeus
 python-pymemcache
 pymilia
+python-pymilter
 pymodbus
 python-pymssql
 python-pynacl
@@ -2442,6 +2463,7 @@ python-queuelib
 python-qutepart
 rabbitvcs
 python-radexreader
+radicale
 python-rak811
 python-random2
 python-rangehttpserver
@@ -2532,6 +2554,7 @@ python-rply
 rpm
 python-rpm-head-signing
 rpmconf
+rpmdeplint
 python-rpmfluff
 rpy
 python-rpyc
@@ -2869,6 +2892,7 @@ python-toolz
 python-toposort
 python-tornado
 python-tortilla
+totpcgi
 python-towncrier
 python-tox-current-env
 tracer
@@ -3065,6 +3089,7 @@ python-xmltramp
 python-xmp-toolkit
 python-xnat
 python-xpath-expressions
+xrootd
 python-xtermcolor
 python-xunitparser
 python-xvfbwrapper
@@ -3142,6 +3167,7 @@ resalloc-openstack
 resultsdb
 resultsdb_frontend
 retext
+retrace-server
 reuse
 revelation
 rhythmbox-ampache
