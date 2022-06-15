@@ -1649,6 +1649,7 @@ python-matrix-common
 python-matrix-synapse-ldap3
 python-maxminddb
 python-mccabe
+python-mdit-py-plugins
 python-mdurl
 python-mdx_gh_links
 python-meautility
@@ -2241,6 +2242,7 @@ python-pytest-services
 python-pytest-shutil
 python-pytest-smartcov
 python-pytest-sourceorder
+python-pytest-steps
 python-pytest-subprocess
 python-pytest-subtests
 python-pytest-sugar
