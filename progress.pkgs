@@ -2317,6 +2317,7 @@ python-pytest-mpl
 python-pytest-multihost
 python-pytest-openfiles
 python-pytest-ordering
+python-pytest-postgresql
 python-pytest-randomly
 python-pytest-regressions
 python-pytest-remotedata
