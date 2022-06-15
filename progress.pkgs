@@ -23,6 +23,7 @@ alot
 ampy
 anaconda
 andriller
+androguard
 androwarn
 ansible-bender
 ansible-collections-openstack
@@ -453,6 +454,7 @@ NLopt
 python-Naked
 python-OBD
 python-Pallets-Sphinx-Themes
+ProDy
 python-PyLEMS
 python-PyLink
 python-PyMuPDF
@@ -861,6 +863,7 @@ python-catkin_tools
 python-cbor2
 python-cccolutils
 python-cchardet
+python-cclib
 python-cerberus
 python-cerealizer
 python-certifi
@@ -1526,6 +1529,7 @@ python-instant
 python-insteon
 intelhex
 python-interfile
+python-interrogate
 python-intervaltree
 python-into-dbus-python
 python-invoke
@@ -1928,6 +1932,7 @@ python-niapy
 python-nibabel
 python-nine
 nispor
+python-nitime
 python-nitrate
 python-nixio
 python-nltk
@@ -2463,6 +2468,7 @@ PyYAML
 python-pyyaml-env-tag
 python-pyzolib
 python-q
+python-qcelemental
 qgis
 qpid-proton
 python-qrcode
