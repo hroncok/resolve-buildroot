@@ -168,22 +168,30 @@ def are_all_done(*, packages_to_check, all_components, components_done, blocker_
     return all_available
 
 
-def _detect_loop(loop_detector, probed_component, depchain, loops):
+def _sort_loop(loop):
+    index = loop.index(min(loop))
+    return tuple(loop[index:] + loop[:index+1])
+
+
+def _detect_loop(loop_detector, probed_component, depchain, loops, seen):
     for component in loop_detector[probed_component]:
+        seen.add(component)
         if component in PACKAGES_BCONDS:
             # we assume bconds are manually crafted not to have loops
             continue
         if loop_detector.get(component, []) == []:
             continue
         if component in depchain:
-            loops.add(tuple(depchain[depchain.index(component):] + [component]))
+            loops.add(_sort_loop(depchain[depchain.index(component):]))
             continue
-        _detect_loop(loop_detector, component, depchain + [component], loops)
+        _detect_loop(loop_detector, component, depchain + [component], loops, seen)
 
 def report_blocking_components(loop_detector):
     loops = set()
+    seen = set()
     for component in loop_detector:
-        _detect_loop(loop_detector, component, [component], loops)
+        if component not in seen:
+            _detect_loop(loop_detector, component, [component], loops, seen)
     log('\nDetected dependency loops:')
     for loop in sorted(loops, key=lambda t: -len(t)):
         log('    • ' + ' → '.join(loop))
