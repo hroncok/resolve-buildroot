@@ -426,6 +426,7 @@ python-QtPy
 python-ROPGadget
 SoapySDR
 python-tgscheduler
+python-Traits::bootstrap:::
 python-WSGIProxy2
 python-XStatic
 python-XStatic-Angular
@@ -752,6 +753,7 @@ python-charset-normalizer
 python-check-manifest
 python-cheetah
 python-cheroot
+python-cherrypy:tests::::
 python-chirpstack-api
 pychromecast
 python-ciso8601
@@ -922,6 +924,7 @@ python-debian
 python-debianbts
 python-debrepo
 python-deconz
+python-decopatch:tests::::
 python-decorator
 python-defcon
 python-defusedxml
@@ -1363,6 +1366,7 @@ python-ipgetter
 python-ipgetter2
 python-ipmi
 python-iptools
+ipython:check-doc::::
 python-ipython_genutils
 python-ironicclient
 iscsi-initiator-utils
@@ -1696,6 +1700,8 @@ python-name-that-hash
 python-nanoid
 python-natlas-libnmap
 python-natsort
+python-nbclient:check::::
+python-nbconvert:check-doc::::
 python-nbformat
 python-ncclient
 python-ndg_httpsclient
@@ -1866,6 +1872,7 @@ python-pifpaf
 python-pigpio
 python-pika
 python-pillow
+python-pip:doc-tests::::
 python-pipdeptree
 python-pivy
 python-pkgconfig
@@ -2092,6 +2099,7 @@ python-pyqt5-sip
 python-pyqt6-sip
 python-pyqtchart
 python-pyqtgraph
+python-pyquery:tests::::
 python-pyrad
 python-pyrfc3339
 python-pyro
@@ -2833,6 +2841,7 @@ python-zake
 zanata-python-client
 python-zanata2fedmsg
 python-zaqarclient
+python-zbase32::bootstrap:::
 python-zc-lockfile
 zeitgeist
 python-zeroconf
