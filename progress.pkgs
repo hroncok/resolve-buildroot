@@ -611,6 +611,7 @@ python-asteval
 python-astor
 python-astral
 python-astroid
+astrometry
 python-astroplan
 python-astropy:check::::
 python-astropy-helpers
@@ -1343,6 +1344,7 @@ gfal2-python
 python-ghp-import
 python-giacpy
 python-gilt
+ginga
 python-gios
 python-git-changelog
 python-git-revise
@@ -2331,6 +2333,7 @@ python-pytelegrambotapi
 pytest
 python-pytest-aiohttp
 python-pytest-arraydiff
+python-pytest-astropy
 python-pytest-astropy-header
 python-pytest-asyncio
 python-pytest-bdd
@@ -2404,6 +2407,7 @@ python-pyvirtualize
 python-pyvit
 python-pyvlx
 python-pyvmomi
+python-pyvo
 pywbem
 pywebdav
 python-pywizlight
