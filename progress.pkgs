@@ -275,6 +275,7 @@ mgarepo
 minigalaxy
 mirage
 mkosi
+mlpack
 mock
 mom
 mopidy
@@ -839,6 +840,7 @@ python-colored-traceback
 python-coloredlogs
 python-colorful
 python-colorlog
+python-colorspacious
 python-colorzero
 python-colour
 python-colour-runner
@@ -961,6 +963,7 @@ python-dipy
 python-dirq
 python3-discid
 python-distlib
+root
 python-distro
 distro-info
 python-distroinfo
@@ -1102,9 +1105,12 @@ python-exif
 python3-exiv2
 python-extension-helpers
 python-extras::bootstrap:::
+python-eyed3
+python-ezdxf
 python-fabric
 python-factory-boy
 python-faker
+python-fastavro
 python-fastbencode
 python-fastcache
 python-fasteners
@@ -1124,6 +1130,7 @@ python-fields
 file
 python-filelock
 python-filetype
+python-fiona
 python-fireflyalgorithm
 python-firehose
 firewalld
@@ -1285,6 +1292,7 @@ h5py
 python-habitipy
 python-hamcrest
 hamlib
+python-hass-data-detective
 python-hatasmota
 python-hatch-vcs
 python-hatchling
@@ -1293,6 +1301,7 @@ libdnf
 python-hdate
 python-hdf5storage
 python-hdfs
+python-hdmf
 python-heapdict
 python-helpdev
 python-hexdump
@@ -1439,6 +1448,7 @@ jsonnet
 python-jsonpatch
 python-jsonpath-rw
 python-jsonpath-rw-ext
+python-jsonpickle
 python-jsonpointer
 python-jsonref
 python-jsonrpc-server
@@ -1740,9 +1750,11 @@ python-netifaces
 python-netmiko
 python-networkmanager
 python-neurodsp
+python-neurom
 python-neurotune
 newt
 nftables
+python-niapy
 python-nibabel
 python-nine
 nispor
@@ -1825,6 +1837,7 @@ python-orderedset
 python-osa
 osbs-client
 python-oslo-sphinx
+pyosmium
 python-osrf-pycommon
 otf2
 python-ouimeaux
@@ -1840,6 +1853,7 @@ python-paho-mqtt
 python-pam
 python-pamela
 python-pandas::bootstrap:::
+python-pandas-datareader
 python-pandocfilters
 python-param
 python-parameterized
@@ -1863,6 +1877,7 @@ python-pathtools
 python-pathvalidate
 python-patiencediff
 patool
+python-patsy
 python-pbkdf2
 python-pbr::bootstrap:::
 pcapy
@@ -1870,6 +1885,7 @@ pdc-client
 python-pdfkit
 python-pdfminer
 python-pdfrw
+python-pdir2
 python-pebble
 python-pecan
 python-peewee
@@ -1898,6 +1914,7 @@ python-pifpaf
 python-pigpio
 python-pika
 python-pillow
+python-pint
 python-pipdeptree
 python-pivy
 python-pkgconfig
@@ -1945,6 +1962,7 @@ python-prettytable
 prewikka
 prewikka-updatedb
 python-priority
+python-probeinterface
 python-process-tests
 python-productmd
 python-profilehooks
@@ -2207,6 +2225,7 @@ python-pytest-multihost
 python-pytest-openfiles
 python-pytest-ordering
 python-pytest-randomly
+python-pytest-regressions
 python-pytest-remotedata
 python-pytest-repeat
 python-pytest-rerunfailures
@@ -2275,6 +2294,7 @@ python-random2
 python-rangehttpserver
 python-rangeparser
 python-rarfile
+python-rasterio
 python-ratelimiter
 python-ratelimitingfilter
 python-raven
@@ -2357,6 +2377,7 @@ rpm
 python-rpm-head-signing
 rpmconf
 python-rpmfluff
+rpy
 python-rpyc
 python-rq
 rrdtool
@@ -2397,6 +2418,7 @@ python-scripttest
 python-scripttester
 python-scrypt
 python-scss
+python-seaborn
 seadrive-daemon
 python-SecretStorage
 python-secure_cookie
@@ -2616,6 +2638,7 @@ systemd-coredump-python
 python-sysv_ipc
 python-tables
 python-tablib
+python-tabulate
 libtalloc
 python-tambo
 python-tasklib
@@ -2656,6 +2679,7 @@ python-three_merge
 thrift
 python-tidy
 python-tifffile
+python-tilestache
 python-timeout-decorator
 python-timeunit
 python-tinycss2
@@ -2864,6 +2888,7 @@ python-xtermcolor
 python-xunitparser
 python-xvfbwrapper
 python-xxhash
+python-xyzservices
 python-yamlordereddictloader
 python-yapf
 python-yappi
@@ -2873,6 +2898,7 @@ python-yarl
 python-yaswfp
 python-yattag
 ydiff
+python-yfinance
 python-yourls
 python-ytmusicapi
 libyui
