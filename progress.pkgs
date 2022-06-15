@@ -416,6 +416,7 @@ python-Naked
 python-Pallets-Sphinx-Themes
 python-PyLEMS
 python-PyLink
+python-PyMuPDF
 python-PyMySQL
 python-PyPDF2
 python-PyRSS2Gen
@@ -744,6 +745,7 @@ python-cerberus
 python-cerealizer
 python-certifi
 python-cffi
+python-cffsubr
 python-cfgv
 python-cftime
 python-chai
@@ -837,6 +839,7 @@ pycolumnize
 python-commandparse
 python-compal
 compose-utils
+python-compreffor
 python-conda-package-handling
 python-configargparse
 python-configobj
@@ -1160,6 +1163,7 @@ python-flufl-testing
 python-fluidity-sm
 fmf
 folly
+python-fontMath
 python-fontconfig
 python-fontname
 fonttools
@@ -1740,6 +1744,7 @@ python-notario
 notcurses
 python-notify2
 notmuch
+nototools
 python-nptyping
 python-npyscreen
 python-nrf24
@@ -2685,6 +2690,7 @@ python-u-msgpack-python
 python-ua-parser
 python-uamqp
 udiskie
+python-ufoLib2
 python-uinput
 python-ujson
 python-ukkonen
@@ -2790,6 +2796,7 @@ python-wikipedia
 python-winacl
 python-winsspi
 python-wloc
+woffTools
 python-wrapt
 python-wsaccel
 python-wsproto
