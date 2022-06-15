@@ -48,7 +48,7 @@ PACKAGES_BCONDS = {
     'python-more-itertools': [{'withouts': ['tests']}],
     'python-atomicwrites': [{'withouts': ['docs', 'tests']}],
     'python-testtools': [{'withs': ['bootstrap']}],
-    'python-fixtures': [{'withouts': ['tests']}],
+    'python-fixtures': [{'withs': ['bootstrap']}],
     'python-wcwidth': [{'withouts': ['tests']}],
     'pytest': [{'withouts': ['tiemout', 'tests', 'docs']}],
     'python-virtualenv': [{'withouts': ['tests']}],
