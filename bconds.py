@@ -110,6 +110,8 @@ PACKAGES_BCONDS = {
     'python-pyface': [{'withs': ['bootstrap']}],
     'python-oletools': [{'withs': ['bootstrap']}],
     'python-google-api-core': [{'withouts': ['tests']}],
+    'python-googleapis-common-protos': [{'withs': ['bootstrap']}],
+    'python-proto-plus': [{'withouts': ['tests']}],
 }
 reverse_id_lookup = {}
 
