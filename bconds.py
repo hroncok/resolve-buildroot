@@ -101,6 +101,7 @@ PACKAGES_BCONDS = {
     'python-zope-interface': [{'withouts': ['docs']}],
     'python-tqdm': [{'withouts': ['tests']}],
     'python-cryptography': [{'withouts': ['tests']}],
+    'python-decopatch': [{'withouts': ['tests']}],
 }
 reverse_id_lookup = {}
 
