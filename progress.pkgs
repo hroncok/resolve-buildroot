@@ -2,6 +2,7 @@
 Io-language
 Mayavi
 OpenLP
+PyMca
 PyQt-builder
 PySolFC
 PyX
@@ -141,6 +142,7 @@ gaupol
 gcovr
 gdb
 gdeploy
+gdl
 gedit
 getdp
 gi-docgen
@@ -281,6 +283,7 @@ mozo
 mpich
 mqtt-randompub
 mrchem
+mygnuhealth
 python-myrepos-utils
 mysql-connector-python
 nanovna-saver
@@ -292,6 +295,7 @@ netgen-mesher
 netstat-monitor
 neuron
 nfoview
+nfsometer
 nicotine+
 nik4
 ninja-build
@@ -423,13 +427,13 @@ python-PyMySQL
 python-PyPDF2
 python-PyRSS2Gen
 pykka
+python-Pympler
 python-Pyped
 python-QtAwesome
 python-QtPy
 python-ROPGadget
 SoapySDR
 python-tgscheduler
-python-Traits::bootstrap:::
 python-WSGIProxy2
 python-XStatic
 python-XStatic-Angular
@@ -692,6 +696,7 @@ python-boto3
 python-botocore
 python-bottle
 python-bottle-sqlite
+python-boututils
 python-bowler
 python-box
 python-boxsdk
@@ -757,7 +762,6 @@ python-charset-normalizer
 python-check-manifest
 python-cheetah
 python-cheroot
-python-cherrypy:tests::::
 python-chirpstack-api
 pychromecast
 python-ciso8601
@@ -853,6 +857,7 @@ python-connection_pool
 python-constantly
 python-construct
 python-contextlib2
+python-contourpy
 python-convertdate
 python-cooldict
 python-copr
@@ -924,12 +929,12 @@ python-dbus-signature-pyparsing
 python-dbusmock
 python-dbutils
 python-ddt
+python-deap
 debconf
 python-debian
 python-debianbts
 python-debrepo
 python-deconz
-python-decopatch:tests::::
 python-decorator
 python-defcon
 python-defusedxml
@@ -1183,6 +1188,7 @@ python-frozen-flask
 python-frozendict
 python-frozenlist
 python-fs
+python-fsleyes-widgets
 python-fuckit
 python-funcparserlib
 python-funcsigs
@@ -1205,6 +1211,7 @@ python-gensim
 python-genty
 python-geoip2
 python-geojson
+python-geomdl
 python-geomet
 python-geopy
 gerrymander
@@ -1251,6 +1258,7 @@ python-grabserial
 python-gradunwarp
 python-grako
 grammalecte
+python-graph-tool
 python-graphitesend
 python-graphql-core
 python-graphql-relay
@@ -1337,6 +1345,7 @@ python-idstools
 python3-iep
 python-ifaddr
 python-ifcfg
+python-igor
 python-igraph
 libiio
 python-ijson
@@ -1359,6 +1368,7 @@ python-inject
 python-injector
 python-inotify
 python-inotify_simple
+python-inspyred
 python-instant
 python-insteon
 intelhex
@@ -1372,7 +1382,6 @@ python-ipgetter
 python-ipgetter2
 python-ipmi
 python-iptools
-ipython:check-doc::::
 python-ipython_genutils
 python-ironicclient
 iscsi-initiator-utils
@@ -1615,14 +1624,16 @@ python-marshmallow-enum
 python-martian
 python-masscan
 mathgl
-python-matplotlib:check::::
 python-matplotlib-inline
+python-matplotlib-scalebar
+python-matplotlib-venn
 python-matrix-common
 python-matrix-synapse-ldap3
 python-maxminddb
 python-mccabe
 python-mdurl
 python-mdx_gh_links
+python-meautility
 python-mechanize
 med
 python-memcached
@@ -1673,6 +1684,7 @@ python-mozilla-django-oidc
 python-mpd
 python-mpd2
 mpi4py
+python-mplcairo
 python-mpmath
 mpsolve
 mraa
@@ -1707,8 +1719,6 @@ python-name-that-hash
 python-nanoid
 python-natlas-libnmap
 python-natsort
-python-nbclient:check::::
-python-nbconvert:check-doc::::
 python-nbformat
 python-ncclient
 python-ndg_httpsclient
@@ -1726,12 +1736,14 @@ python-netdisco
 python-netifaces
 python-netmiko
 python-networkmanager
+python-neurodsp
 newt
 nftables
 python-nibabel
 python-nine
 nispor
 python-nitrate
+python-nixio
 python-nltk
 python-nmap
 python-nmrglue
@@ -1761,6 +1773,7 @@ python-num2words
 python-numexpr
 numpy
 python-numpy-stl
+python-numpydoc
 python-nwdiag
 python-oauth
 python-oauth2
@@ -1880,7 +1893,6 @@ python-pifpaf
 python-pigpio
 python-pika
 python-pillow
-python-pip:doc-tests::::
 python-pipdeptree
 python-pivy
 python-pkgconfig
@@ -2012,6 +2024,7 @@ python-pydotplus
 python-pyduofern
 python-pydyf
 python-pyeclib
+python-pyelectro
 pyelftools
 python-pyemby
 python-pyemd
@@ -2053,6 +2066,7 @@ python-pykeepass
 python-pykmip
 python-pykwalify
 pylast
+python-pylatex
 python-pylev
 pylibacl
 pyliblo
@@ -2108,7 +2122,6 @@ python-pyqt5-sip
 python-pyqt6-sip
 python-pyqtchart
 python-pyqtgraph
-python-pyquery:tests::::
 python-pyrad
 python-pyrfc3339
 python-pyro
@@ -2181,6 +2194,7 @@ python-pytest-lazy-fixture
 python-pytest-metadata
 python-pytest-mock
 python-pytest-mpi
+python-pytest-mpl
 python-pytest-multihost
 python-pytest-openfiles
 python-pytest-ordering
@@ -2400,6 +2414,7 @@ python-sexpdata
 python-sgmllib3k
 python-sh
 python-shamir-mnemonic
+python-shapely
 python-shellingham
 python-shelly
 python-shodan
@@ -2413,6 +2428,7 @@ python-signalfd
 python-signature-dispatch
 python-signedjson
 signon-glib
+python-simframe
 python-simpleaudio
 python-simplebayes
 python-simpleeval
@@ -2459,7 +2475,7 @@ python-socks5line
 python-socksio
 libsolv
 python-sortedcollections
-python-sortedcontainers:docs-tests::::
+python-sortedcontainers
 python-soupsieve
 python-spdx
 python-spdx-lookup
@@ -2477,6 +2493,7 @@ python-sphinx-bootstrap-theme
 python-sphinx-click
 python-sphinx-copybutton
 python-sphinx-epytext
+python-sphinx-gallery
 python-sphinx-hoverxref
 python-sphinx-inline-tabs
 python-sphinx-intl
@@ -2556,6 +2573,7 @@ python-stdlib-list
 python-stdnum
 python-steam
 python-stem
+python-steps
 python-stomper
 python-stompest
 python-stone
@@ -2852,7 +2870,6 @@ python-zake
 zanata-python-client
 python-zanata2fedmsg
 python-zaqarclient
-python-zbase32::bootstrap:::
 python-zc-lockfile
 zeitgeist
 python-zeroconf
@@ -2931,6 +2948,7 @@ setzer
 sgmanager
 sgtk-menu
 shyaml
+shybrid
 sigil
 simple-ccsm
 sip6
