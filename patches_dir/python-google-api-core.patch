@@ -1,0 +1,9 @@
+diff --git a/python-google-api-core.spec b/python-google-api-core.spec
+index ecb115b..aed3080 100644
+--- a/python-google-api-core.spec
++++ b/python-google-api-core.spec
+@@ -1,3 +1,4 @@
++%global _without_tests 1
+ %bcond_without  tests
+ 
+ %global         srcname         google-api-core

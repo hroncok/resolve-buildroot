@@ -1390,6 +1390,7 @@ python-gmqtt
 python-gnupg
 pygobject3
 gofer
+python-google-api-core:tests::::
 python-google-auth
 python-google-auth-oauthlib
 python-google-cloud-testutils
@@ -2894,6 +2895,7 @@ python-tkrzw
 python-tld
 python-tldextract
 tlsh
+tmt
 python-tmuxp
 python-toml
 python-toml-adapt
@@ -3334,6 +3336,7 @@ vex
 vim-jedi
 vimiv
 vimiv-qt
+virt-bootstrap
 virt-lightning
 virt-who
 virtme
