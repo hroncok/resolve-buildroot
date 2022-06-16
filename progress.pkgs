@@ -1153,6 +1153,7 @@ python-djangoql
 python-djvulibre
 python-dkimpy
 dlib
+dlrn
 python-dmidecode
 dnf-plugin-cow
 dnf-plugin-flunk_dependent_remove
@@ -1332,6 +1333,7 @@ python-formencode
 fprettify
 python-fpylll
 python-fqdn
+python-freecell_solver
 python-freeipa
 freeradius
 python-freetype
@@ -1607,6 +1609,7 @@ python-jsondiff
 python-jsonmodels
 jsonnet
 python-jsonpatch
+python-jsonpath-ng
 python-jsonpath-rw
 python-jsonpath-rw-ext
 python-jsonpickle
@@ -1897,6 +1900,7 @@ python-multiprocess
 python-multitasking
 python-munch
 python-munkres
+python-murano-pkg-check
 python-musicbrainzngs
 python-mutagen
 python-mwclient
@@ -2024,8 +2028,11 @@ python-os-testr
 python-osa
 osbs-client
 osbuild
+python-oslo-config
+python-oslo-context
 python-oslo-i18n
 python-oslo-sphinx
+python-oslo-utils
 python-oslotest
 pyosmium
 python-osrf-pycommon
@@ -2534,6 +2541,7 @@ python-relatorio
 remctl
 python-remoto
 python-rencode
+python-renderspec
 python-reno
 python-reparser
 python-repomd
@@ -2600,6 +2608,7 @@ python-rpyc
 python-rq
 rrdtool
 python-rsa
+python-rsdclient
 python-rst-linker
 python-rstcheck
 python-rstr
@@ -2855,6 +2864,7 @@ python-suds
 python-supersmoother
 python-sure
 python-surt
+python-sushy
 python-svg
 python-svg-path
 python-svgwrite
@@ -2933,6 +2943,7 @@ python-toolz
 python-toposort
 python-tornado
 python-tortilla
+python-tosca-parser
 totpcgi
 python-towncrier
 python-tox-current-env
@@ -3051,6 +3062,7 @@ visidata
 python-visionegg-quest
 python-visitor
 python-visvis
+python-vitrageclient
 python-vobject
 python-volatile
 python-volkszaehler
