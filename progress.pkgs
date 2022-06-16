@@ -1075,6 +1075,7 @@ python-danfossair
 python-dasbus
 python-databases
 python-datadog
+python-datalad
 python-datanommer-models
 python-dateparser
 python-dateutil
@@ -3185,6 +3186,7 @@ python-wiffi
 python-wikipedia
 python-wikitcms
 python-winacl
+python-winrm
 python-winsspi
 python-wloc
 woffTools
