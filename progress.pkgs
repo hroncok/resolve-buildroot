@@ -390,11 +390,13 @@ pdfposter
 kernel-tools
 perl-Inline-Python
 persepolis
+pew
 pg_activity
 pgzero
 photocollage
 photoqt
 picard
+pipenv
 piper
 pipx
 pitivi
@@ -3155,6 +3157,7 @@ python-virt-firmware
 python-virtualenv
 python-virtualenv-api
 python-virtualenv-clone
+python-virtualenvwrapper
 visidata
 python-visionegg-quest
 python-visitor
