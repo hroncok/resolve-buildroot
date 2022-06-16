@@ -146,6 +146,7 @@ fedora-business-cards
 fedora-gather-easyfix
 fedora-review
 fedora-third-party
+fedscm-admin
 libffado
 flatbuffers
 flent
@@ -677,6 +678,7 @@ python-aws-sam-translator
 python-axolotl
 python-axolotl-curve25519
 python-azure-appconfiguration
+python-azure-batch
 python-azure-common
 python-azure-core
 python-azure-cosmos
@@ -684,7 +686,9 @@ python-azure-data-tables
 python-azure-datalake-store
 python-azure-devtools
 python-azure-functions-devops-build
+python-azure-graphrbac
 python-azure-identity
+python-azure-keyvault
 python-azure-keyvault-administration
 python-azure-keyvault-certificates
 python-azure-keyvault-keys
@@ -694,19 +698,26 @@ python-azure-mgmt-advisor
 python-azure-mgmt-apimanagement
 python-azure-mgmt-appconfiguration
 python-azure-mgmt-applicationinsights
+python-azure-mgmt-authorization
 python-azure-mgmt-azurestackhci
 python-azure-mgmt-batch
 python-azure-mgmt-batchai
 python-azure-mgmt-billing
+python-azure-mgmt-botservice
 python-azure-mgmt-cdn
 python-azure-mgmt-cognitiveservices
 python-azure-mgmt-compute
+python-azure-mgmt-consumption
 python-azure-mgmt-containerregistry
 python-azure-mgmt-containerservice
 python-azure-mgmt-core
 python-azure-mgmt-cosmosdb
 python-azure-mgmt-databoxedge
+python-azure-mgmt-datalake-analytics
+python-azure-mgmt-datalake-store
 python-azure-mgmt-datamigration
+python-azure-mgmt-deploymentmanager
+python-azure-mgmt-devtestlabs
 python-azure-mgmt-dns
 python-azure-mgmt-eventgrid
 python-azure-mgmt-extendedlocation
@@ -715,7 +726,9 @@ python-azure-mgmt-hybridcompute
 python-azure-mgmt-imagebuilder
 python-azure-mgmt-iotcentral
 python-azure-mgmt-keyvault
+python-azure-mgmt-kusto
 python-azure-mgmt-loganalytics
+python-azure-mgmt-managedservices
 python-azure-mgmt-managementgroups
 python-azure-mgmt-maps
 python-azure-mgmt-marketplaceordering
@@ -731,6 +744,7 @@ python-azure-mgmt-recoveryservices
 python-azure-mgmt-recoveryservicesbackup
 python-azure-mgmt-redhatopenshift
 python-azure-mgmt-redis
+python-azure-mgmt-relay
 python-azure-mgmt-reservations
 python-azure-mgmt-resource
 python-azure-mgmt-search
@@ -1535,6 +1549,7 @@ python-ijson
 python-imageio
 python-imagesize
 imath
+python-img2pdf
 livecd-tools
 python-immutables
 python-impacket
@@ -1832,6 +1847,7 @@ python-marshmallow-enum
 python-martian
 python-masscan
 mathgl
+python-matplotlib
 python-matplotlib-inline
 python-matplotlib-scalebar
 python-matplotlib-venn
