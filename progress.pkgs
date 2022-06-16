@@ -41,6 +41,7 @@ asciidoc
 asciinema
 asv
 aubio
+audiotube
 auditwheel
 autojump
 autokey
@@ -1546,6 +1547,7 @@ hokuyoaist
 python-hole
 python-homeconnect
 python-homeworks
+python-howdoi
 python-hpack
 python-hpilo
 python-hs-dbus-signature
@@ -1842,6 +1844,7 @@ python-linux-procfs
 liquidctl
 python-listparser
 python-lit
+litecli
 python-littleutils
 python-livereload
 python-llfuse
