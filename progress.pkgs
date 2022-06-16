@@ -2222,6 +2222,7 @@ pocketsphinx
 python-podcastparser
 python-podman
 python-podman-api
+poetry
 python-poetry-core
 python-polib
 python-policyuniverse
