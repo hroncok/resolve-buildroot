@@ -86,6 +86,7 @@ clang
 classification-banner
 claws-mail
 clingo
+cloud-init
 cm_rgb
 coccinelle
 codespell
@@ -110,6 +111,7 @@ dee
 devscripts
 dib-utils
 diceware
+did
 distcc
 distgen
 dmlite
@@ -209,6 +211,7 @@ gyp
 hashid
 hatch
 hddfancontrol
+heat-cfntools
 hexchat
 hgsvn
 hgview
@@ -520,6 +523,7 @@ python-actdiag
 python-adafruit-board-toolkit
 python-adafruit-platformdetect
 python-adafruit-pureio
+python-adal
 adapt
 python-adb-shell
 python-adext
@@ -603,6 +607,7 @@ python-anykeystore
 python-anymarkup
 python-anymarkup-core
 python-anytree
+python-aodhclient
 apbs
 python-apipkg
 python-appdirs
@@ -676,6 +681,7 @@ python-azure-common
 python-azure-core
 python-azure-cosmos
 python-azure-data-tables
+python-azure-datalake-store
 python-azure-devtools
 python-azure-functions-devops-build
 python-azure-identity
@@ -811,6 +817,7 @@ python-booleanoperations
 boom-boot
 botan
 botan2
+python-boto
 python-boto3
 python-botocore
 python-bottle
@@ -885,6 +892,7 @@ python-cheetah
 python-cheroot
 python-chirpstack-api
 pychromecast
+python-cinderclient
 python-ciso8601
 cjdns
 python-claripy
@@ -1252,6 +1260,7 @@ python-f5-sdk
 python-fabric
 python-factory-boy
 python-faker
+python-fasjson-client
 python-fastavro
 python-fastbencode
 python-fastcache
@@ -1303,6 +1312,7 @@ python-flask-mail
 python-flask-mako
 python-flask-migrate
 python-flask-multistatic
+python-flask-oidc
 python-flask-openid
 python-flask-paranoid
 python-flask-principal
@@ -1354,6 +1364,7 @@ future
 python-fuzzyfinder
 python-fuzzywuzzy
 python-fypp
+python-gabbi
 python-gammu
 python-gast
 python-gattlib
@@ -1394,6 +1405,7 @@ python-gitdb
 python-github3py
 python-gitlab
 python-glad
+python-glanceclient
 python-glances-api
 python-glob2
 glusterfs
@@ -1405,6 +1417,7 @@ pygobject3
 gofer
 python-google-api-core:tests::::
 python-google-auth
+google-auth-httplib2
 python-google-auth-oauthlib
 python-google-cloud-testutils
 python-google-crc32c
@@ -1429,6 +1442,7 @@ python-graphql-relay
 python-graphviz
 python-greenlet
 python-grokmirror
+grpc::bootstrap:::
 python-grpcio-gcp
 python-gsd
 python-gssapi
@@ -1488,6 +1502,7 @@ python-httpagentparser
 python-httpbin
 python-httpcore
 python-httplib2
+python-httpretty
 python-httpsig-cffi
 python-httptools
 python-httpx
@@ -1652,6 +1667,7 @@ keylime
 python-keyring
 python-keyrings-alt
 python-keystoneauth1
+python-keystoneclient
 pykickstart
 python-kismet-rest
 python-kitchen
@@ -1676,8 +1692,10 @@ python-lark-parser
 python-lasagne
 lasso
 python-latexcodec
+python-launchpadlib
 python-lazr-config
 python-lazr-delegates
+python-lazr-restfulclient
 python-lazr-smtptest
 python-lazr-uri
 python-lazy-loader
@@ -1893,6 +1911,7 @@ python-msgpack
 python-msldap
 msoffcrypto-tool
 python-msrest
+python-msrestazure
 python-mujson
 python-mulpyplexer
 python-multi_key_dict
@@ -1966,6 +1985,9 @@ notcurses
 python-notify2
 notmuch
 nototools
+python-novaclient
+python-novaclient-os-networks
+python-novaclient-os-virtual-interfaces
 python-nptyping
 python-npyscreen
 python-nrf24
@@ -2017,6 +2039,7 @@ python-opensearch-py
 python-opensensemap-api
 python-openslide
 python-openstackdocstheme
+python-openstacksdk
 python-opentracing
 opentrep
 python-opentype-sanitizer
@@ -2036,6 +2059,7 @@ python-oslo-config
 python-oslo-context
 python-oslo-db
 python-oslo-i18n
+python-oslo-log
 python-oslo-serialization
 python-oslo-sphinx
 python-oslo-utils
@@ -2119,6 +2143,7 @@ python-piexif
 python-pifpaf
 python-pigpio
 python-pika
+python-pikepdf
 python-pillow
 python-pint
 python-pip
@@ -2276,6 +2301,7 @@ python-pygeoip
 python-pyghmi
 python-pygiftiio
 python-pygit2
+python-PyGithub
 python-pyglet
 python-pygments
 python-pygments-better-html
@@ -2334,6 +2360,7 @@ python-pynamodb
 python-pynetbox
 python-pynetdicom
 python-pyngus
+python-pynlpl
 python-pynuvo
 python-pyobd
 python-pyocr
@@ -2496,6 +2523,7 @@ python-pyxid
 python-pyxs
 PyYAML
 python-pyyaml-env-tag
+python-pyzabbix
 python-pyzolib
 python-q
 python-qcelemental
@@ -2737,6 +2765,7 @@ python-sniffio
 python-snipeit
 python-snowballstemmer
 python-snuggs
+python-social-auth-core
 socialscan
 python-socks
 python-socks5line
@@ -2875,6 +2904,8 @@ python-sushy
 python-svg
 python-svg-path
 python-svgwrite
+python-swagger-spec-validator
+python-swiftclient
 sword
 python-sybil
 sympy
@@ -2978,6 +3009,7 @@ python-tweepy
 python-twiggy
 python-twilio
 python-twisted
+python-twitter
 python-txaio
 python-txredisapi
 python-txws
@@ -3121,6 +3153,7 @@ python-wloc
 woffTools
 python-wrapt
 python-wsaccel
+python-wsgi_intercept
 python-wsproto
 python-wtforms
 python-wurlitzer
@@ -3268,6 +3301,7 @@ simple-ccsm
 sip6
 slingshot
 smbcmp
+snakemake
 solaar
 solarwolf
 sos
