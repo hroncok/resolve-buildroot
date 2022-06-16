@@ -611,7 +611,7 @@ python-AppTools
 python-apsw
 python-apt
 python-apypie
-ara:::with_docs::
+ara
 python-archinfo
 python-aresponses
 python-argcomplete
@@ -1367,6 +1367,7 @@ python-geojson
 python-geomdl
 python-geomet
 python-geopy
+python-gerritlib
 gerrymander
 python-gertty
 python-getmac
@@ -2822,6 +2823,7 @@ python-stdnum
 python-steam
 python-stem
 python-steps
+python-stestr
 python-stevedore
 python-stomper
 python-stompest
