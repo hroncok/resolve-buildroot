@@ -426,6 +426,7 @@ puddletag
 pulsecaster
 pungi
 pybugz
+pychess
 pydeps
 pyflowtools
 pyhoca-cli
@@ -2183,6 +2184,7 @@ python-peewee
 python-pefile
 python-pelican
 python-pem
+python-pendulum
 python-pep517
 python-pep621
 python-pep8-naming
@@ -2547,6 +2549,7 @@ python-pytest-remotedata
 python-pytest-repeat
 python-pytest-rerunfailures
 python-pytest-runner
+python-pytest-sanic
 python-pytest-services
 python-pytest-shutil
 python-pytest-smartcov
@@ -3214,6 +3217,7 @@ python-webencodings
 python-webob
 python-webpy
 python-webscrapbook
+python-websocket-client
 python-websockets
 python-websockify
 python-webthing
@@ -3535,6 +3539,7 @@ yamllint
 yawn
 yokadi
 youtube-dl
+yt-dlp
 zbar
 zezere
 znc
