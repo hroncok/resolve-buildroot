@@ -85,6 +85,7 @@ ceph
 cffconvert
 python-pycha
 chrome-gnome-shell
+cinch
 clang
 classification-banner
 claws-mail
@@ -160,7 +161,7 @@ flent
 fontforge
 fonts-tweak-tool
 freeipa-fas
-freeipa-healthcheck:tests::::
+freeipa-healthcheck
 frescobaldi
 fros
 fusion-icon
@@ -379,6 +380,7 @@ pagure-dist-git
 parsero
 past-time
 python-patatt
+paternoster
 python-pcicrawler
 pcl
 pcp2pdf
@@ -1602,6 +1604,7 @@ python-intervaltree
 python-into-dbus-python
 python-invoke
 python-iowait
+freeipa-desktop-profile
 freeipa
 python-ipdb
 python-ipgetter
@@ -2000,6 +2003,7 @@ python-netdata
 python-netdisco
 python-netifaces
 python-netmiko
+python-network-runner
 python-networkmanager
 python-networkx::bootstrap:::
 python-neurodsp
@@ -2535,6 +2539,7 @@ python-pytest-steps
 python-pytest-subprocess
 python-pytest-subtests
 python-pytest-sugar
+python-pytest-testinfra
 python-pytest-testmon
 python-pytest-timeout
 python-pytest-toolbox
