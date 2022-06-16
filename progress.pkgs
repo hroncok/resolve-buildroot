@@ -27,6 +27,7 @@ androguard
 androwarn
 ansible-bender
 ansible-collections-openstack
+ansible-core
 apostrophe
 appliance-tools
 python-apprise
