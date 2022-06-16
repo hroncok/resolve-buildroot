@@ -154,6 +154,7 @@ flent
 fontforge
 fonts-tweak-tool
 freeipa-fas
+freeipa-healthcheck:tests::::
 frescobaldi
 fros
 fusion-icon
