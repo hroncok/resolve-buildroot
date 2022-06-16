@@ -213,6 +213,7 @@ hexchat
 hgsvn
 hgview
 holland
+home-assistant-cli
 hplip
 httpie
 hugin
@@ -755,6 +756,7 @@ python-backcall
 python-backlash
 python-backrefs
 python-baluhn
+python-barbicanclient
 barman
 python-bash-kernel
 python-bashate
@@ -1649,6 +1651,7 @@ keycloak-httpd-client-install
 keylime
 python-keyring
 python-keyrings-alt
+python-keystoneauth1
 pykickstart
 python-kismet-rest
 python-kitchen
@@ -2028,9 +2031,12 @@ python-os-testr
 python-osa
 osbs-client
 osbuild
+python-oslo-concurrency
 python-oslo-config
 python-oslo-context
+python-oslo-db
 python-oslo-i18n
+python-oslo-serialization
 python-oslo-sphinx
 python-oslo-utils
 python-oslotest
@@ -2608,6 +2614,7 @@ python-rpyc
 python-rq
 rrdtool
 python-rsa
+python-rsd-lib
 python-rsdclient
 python-rst-linker
 python-rstcheck
