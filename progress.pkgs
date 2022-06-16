@@ -1434,13 +1434,17 @@ python-gmqtt
 python-gnupg
 pygobject3
 gofer
+google-api-python-client
 python-google-auth
 google-auth-httplib2
 python-google-auth-oauthlib
+python-google-cloud-access-context-manager
+python-google-cloud-core
 python-google-cloud-testutils
 python-google-crc32c
 python-google-i18n-address
 python-google-resumable-media
+python-googleapis-common-protos
 python-googletrans
 gpgme
 python-gphoto2
@@ -1459,6 +1463,7 @@ python-graphql-relay
 python-graphviz
 python-greenlet
 python-grokmirror
+python-grpc-google-iam-v1
 grpc::bootstrap:::
 python-grpcio-gcp
 python-gsd
@@ -2042,6 +2047,7 @@ python-omnilogic
 oneVPL
 python-onionbalance
 openbabel
+python-opencensus-proto
 opencv
 python-opendata-transport
 python3-openid
@@ -2226,6 +2232,7 @@ python-prometheus_client
 python-promise
 python-prompt-toolkit
 python-protego
+python-proto-plus
 protobuf
 python-prov
 python-psutil
@@ -2482,6 +2489,7 @@ python-pytest-flake8
 python-pytest-flakes
 python-pytest-forked
 python-pytest-freezegun
+python-pytest-grpc
 python-pytest-harvest
 python-pytest-httpbin
 python-pytest-httpx
