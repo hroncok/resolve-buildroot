@@ -276,6 +276,7 @@ limnoria
 link-grammar
 linkchecker
 linux-thermaltake-rgb
+lirc
 lldb
 lnst
 lollypop
@@ -344,7 +345,6 @@ nwchem
 nwg-panel
 nyx
 obserware
-ocrmypdf
 oct2spec
 offlineimap
 ogr2osm
@@ -677,6 +677,7 @@ python-autoprop
 autowrap
 awake
 python-awesomeversion
+python-aws-sam-translator
 python-axolotl
 python-axolotl-curve25519
 python-azure-appconfiguration
@@ -2012,7 +2013,6 @@ python-nose-timer
 python-nose2
 python-nose_fixes
 python-notario
-notcurses
 python-notify2
 notmuch
 nototools
