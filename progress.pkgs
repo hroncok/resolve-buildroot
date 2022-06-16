@@ -1816,6 +1816,7 @@ python-limits
 python-linecache2
 python-linkheader
 python-linux-procfs
+liquidctl
 python-listparser
 python-lit
 python-littleutils
@@ -2062,6 +2063,7 @@ python-omemo-backend-signal
 python-omnilogic
 oneVPL
 python-onionbalance
+python-openant
 openbabel
 python-opencensus-proto
 opencv
@@ -3254,6 +3256,8 @@ ydiff
 python-yfinance
 python-yourls
 python-ytmusicapi
+python-yubico
+yubikey-manager
 libyui
 z3
 python-zabbix-api-erigones
