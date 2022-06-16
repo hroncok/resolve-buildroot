@@ -2633,6 +2633,7 @@ python-requests-oauthlib
 python-requests-pkcs12
 python-requests-toolbelt
 python-requests-unixsocket
+python-requests_ntlm
 python-requestsexceptions
 python-requre
 resalloc
