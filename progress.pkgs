@@ -1179,6 +1179,7 @@ python-django-pdb
 python-django-pglocks
 python-django-picklefield
 python-django-pipeline
+python-django-prometheus
 python-django-pyscss
 python-django-pytest
 python-django-redis
@@ -2032,6 +2033,7 @@ python-nose-timer
 python-nose2
 python-nose_fixes
 python-notario
+python-notebook
 python-notify2
 notmuch
 nototools
