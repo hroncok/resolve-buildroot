@@ -558,8 +558,10 @@ python-aioasuswrt
 python-aiocmd
 python-aiocurrencylayer
 python-aiodns
+python-aioeafm
 python-aioesphomeapi
 python-aiofiles
+python-aioflo
 python-aioftp
 python-aiogqlc
 python-aioguardian
@@ -576,6 +578,7 @@ python-aiomodbus
 python-aiomqtt
 python-aiomultiprocess
 python-aiomysql
+python-aionotion
 python-aioodbc
 python-aioopenssl
 python-aiopg
@@ -797,6 +800,7 @@ python-babelfish
 babeltrace
 python-backcall
 python-backlash
+python-backoff
 python-backrefs
 python-baluhn
 python-barbicanclient
@@ -1320,6 +1324,7 @@ python-feedparser
 python-fido2
 python-fields
 file
+python-filecheck
 python-filelock
 python-filetype
 python-fiona
@@ -2028,6 +2033,7 @@ python-nmap
 python-nmrglue
 python-node-semver
 python-nodeenv
+python-noggin-messages
 python-noiseprotocol
 python-nose
 python-nose-testconfig
@@ -2299,6 +2305,8 @@ python-pyactivetwo
 python-pyaes
 afflib
 python-pyaib
+python-pyairnow
+python-pyairvisual
 python-pyarlo
 python-pyasn1
 pyatspi
@@ -2425,6 +2433,7 @@ pyodbc
 python-pyone
 python-pyopencl
 python-pyopengl
+python-pyopenuv
 python-pyoptical
 python-pyotgw
 python-pyotp
@@ -2542,6 +2551,7 @@ python-pytest-services
 python-pytest-shutil
 python-pytest-smartcov
 python-pytest-sourceorder
+python-pytest-spec
 python-pytest-steps
 python-pytest-subprocess
 python-pytest-subtests
@@ -2560,10 +2570,12 @@ python-pytest-xdist
 python-pytest-xprocess
 python-pytest-xvfb
 pythia8
+python-pytile
 python-pytimeparse
 python-pytn3270
 python-pytools
 pytz
+python-pytzdata
 python-pyudev
 rdma-core
 python-pyvex
@@ -2899,6 +2911,7 @@ python-sphinxcontrib-serializinghtml
 python-sphinxcontrib-spelling
 python-sphinxcontrib-trio
 python-sphinxcontrib-websupport
+python-sphinxcontrib-zopeext
 python-sphinxemoji
 python-sphinxext-opengraph
 python-sphinxext-rediraffe
@@ -2940,8 +2953,10 @@ python-stem
 python-steps
 python-stestr
 python-stevedore
+python-stochastic
 python-stomper
 python-stompest
+stomppy
 python-stone
 python-stopit
 stp
@@ -2998,6 +3013,7 @@ python-tempora
 python-tenacity
 python-termcolor
 python-terminado
+python-terminaltables
 testcloud
 python-testinfra
 python-testing.common.database
