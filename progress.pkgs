@@ -25,6 +25,7 @@ anaconda
 andriller
 androguard
 androwarn
+ansible
 ansible-bender
 ansible-collections-openstack
 ansible-core
@@ -79,6 +80,7 @@ ccnet
 ccsm
 cdist
 cekit
+centpkg
 ceph
 cffconvert
 python-pycha
@@ -98,6 +100,8 @@ condor
 congruity
 container-workflow-tool
 copr-cli
+copr-dist-git
+copr-rpmbuild
 copr-keygen
 cranc
 cryptlib
@@ -148,6 +152,7 @@ fedora-business-cards
 fedora-gather-easyfix
 fedora-review
 fedora-third-party
+fedpkg
 fedscm-admin
 libffado
 flatbuffers
@@ -603,7 +608,10 @@ python-annexremote
 python-ansi
 python-ansi2html
 python-ansible-compat
+ansible-inventory-grapher
+ansible-lint
 python-ansible-pygments
+python-ansible-runner
 python-ansicolor
 python-ansicolors
 python-ansiwrap
@@ -2977,6 +2985,7 @@ python-tenacity
 python-termcolor
 python-terminado
 testcloud
+python-testinfra
 python-testing.common.database
 python-testing.postgresql
 python-testpath
