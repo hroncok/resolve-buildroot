@@ -126,6 +126,7 @@ dnf-plugin-diff
 dnf-plugin-ovl
 swid-tools
 dnfdaemon
+docker-compose
 doge
 dogtag-pki
 domoticz
@@ -284,6 +285,7 @@ lightdm-gtk-greeter-settings
 limnoria
 link-grammar
 linkchecker
+linode-cli
 linux-thermaltake-rgb
 lirc
 lldb
@@ -342,6 +344,7 @@ nik4
 ninja-build
 nml
 nodepool
+noggin
 nordugrid-arc
 nordugrid-arc-nagios-plugins
 nova-agent
@@ -941,6 +944,7 @@ cjdns
 python-claripy
 python-cle
 python-cleo
+python-cli-helpers
 python-click
 python-click-completion
 python-click-default-group
@@ -1034,6 +1038,7 @@ python-constantly
 python-construct
 python-contextlib2
 python-contourpy
+conu
 python-convertdate
 python-cooldict
 python-copr
@@ -1128,6 +1133,7 @@ python-demjson
 python-deprecated
 python-deprecation
 python-devicely
+python-devolo-home-control-api
 python-dfdatetime
 python-dialog
 python-dict-sorted
@@ -1221,6 +1227,7 @@ dnsgen
 python-dnslib
 python-docker
 python-docker-pycreds
+python-docker-squash
 python-dockerfile-parse
 python-dockerpty
 python-docopt
@@ -1267,6 +1274,7 @@ python-emcee
 python-emoji
 python-empy
 python-enchant
+python-engineio
 enjarify
 python-enlighten
 python-enrich
@@ -1714,6 +1722,7 @@ python-kanboard
 python-kaptan
 python-kazoo
 python-kdcproxy
+python-keep
 kerberoast
 python-kerberos
 keycloak-httpd-client-install
@@ -1894,6 +1903,7 @@ python-matplotlib-venn
 python-matrix-common
 python-matrix-synapse-ldap3
 python-maxminddb
+python-maya
 python-mccabe
 python-mdit-py-plugins
 python-mdurl
@@ -1939,6 +1949,7 @@ mod_wsgi
 python-modernize
 python-modestmaps
 python-moksha-common
+python-moksha-hub
 python-molecule-podman
 python-mongoengine
 python-mongomock
@@ -2099,6 +2110,7 @@ python-openpyxl
 python-openqa_client
 python-opensearch-py
 python-opensensemap-api
+python-openshift
 python-openslide
 python-openstackdocstheme
 python-openstacksdk
@@ -2766,6 +2778,7 @@ python-secure_cookie
 python-selenium
 python-semantic_version
 python-semver
+sen
 python-send2trash
 python-sendgrid
 sentencepiece
@@ -2819,12 +2832,14 @@ python-siphash
 sipvicious
 python-six
 skf
+python-slackclient
 python-slacker
 python-slip
 python-slixmpp
 slowloris
 python-slugify
 python-sly
+python-smart-gardena
 python-smart_open
 python-smartcols
 python-smartypants
@@ -3017,6 +3032,7 @@ python-tenacity
 python-termcolor
 python-terminado
 python-terminaltables
+python-teslajsonpy
 testcloud
 python-testinfra
 python-testing.common.database
@@ -3208,6 +3224,7 @@ python-waqiasync
 python-warlock
 python-watchdog
 python-watchgod
+python-waterfurnace
 python-wavio
 python-wcag-contrast-ratio
 python-wcmatch
@@ -3237,6 +3254,7 @@ python-wikitcms
 python-winacl
 python-winrm
 python-winsspi
+python-wled
 python-wloc
 woffTools
 python-wrapt
@@ -3497,6 +3515,7 @@ ubertooth
 udica
 uflash
 ufw
+ulauncher
 upt
 urlscan
 urlwatch
