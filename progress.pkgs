@@ -454,6 +454,7 @@ python-AWSIoTPythonSDK
 python-Automat
 python-Bottleneck
 COPASI
+python-CacheControl
 python-CommonMark
 python-configupdater
 Cython
@@ -926,7 +927,7 @@ python-charset-normalizer
 python-check-manifest
 python-cheetah
 python-cheroot
-python-cherrypy:tests::::
+python-cherrypy
 python-chirpstack-api
 pychromecast
 python-cinderclient
@@ -1693,6 +1694,7 @@ python-jupyter-kernel-singular
 python-jupyter-kernel-test
 python-jupyter-packaging
 python-jupyter-polymake
+python-jupyter-sphinx
 python-jupyterlab_pygments
 python-justbases
 python-justbytes
@@ -1987,8 +1989,8 @@ python-name-that-hash
 python-nanoid
 python-natlas-libnmap
 python-natsort
-python-nbclient:check::::
-python-nbconvert:check-doc::::
+python-nbclient
+python-nbconvert
 python-nbformat
 python-nbsphinx
 python-ncclient
@@ -3193,6 +3195,7 @@ python-wcwidth
 python-webcolors
 python-webencodings
 python-webob
+python-webpy
 python-webscrapbook
 python-websockets
 python-websockify
@@ -3216,6 +3219,7 @@ python-winsspi
 python-wloc
 woffTools
 python-wrapt
+python-ws4py
 python-wsaccel
 python-wsgi_intercept
 python-wsproto
