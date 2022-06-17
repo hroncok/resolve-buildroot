@@ -2283,6 +2283,7 @@ python-pox
 python-poyo
 python-ppft
 python-pplpy
+python-prawcore
 python-precis_i18n
 python-prefixed
 libprelude
@@ -2788,6 +2789,7 @@ scapy
 python-schedutils
 python-schema
 scidavis
+python-scikit-image
 scipy
 python-sciunit
 scons
