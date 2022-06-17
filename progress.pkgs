@@ -127,6 +127,7 @@ dnf-plugin-diff
 dnf-plugin-ovl
 swid-tools
 dnfdaemon
+dnfdragora
 docker-compose
 doge
 dogtag-pki
@@ -2378,6 +2379,7 @@ python-pyfastnoisesimd
 python-pyfim
 pyflakes
 python-pyftdi
+python-pygal
 pygame
 python-pygatt
 python-pygeoip
