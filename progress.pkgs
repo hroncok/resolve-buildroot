@@ -2128,6 +2128,7 @@ python-odml
 python-ogr
 python-okaara
 python-olefile
+python-oletools
 python-omemo
 python-omemo-backend-signal
 python-omnilogic
@@ -2226,6 +2227,7 @@ python-patsy
 python-pbkdf2
 python-pbr
 pcapy
+python-pcodedmp
 pcp
 pdc-client
 python-pdfkit
