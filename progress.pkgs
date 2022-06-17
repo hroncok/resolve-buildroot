@@ -1077,6 +1077,7 @@ python-copr-common
 copr-messaging
 python-coreapi
 python-coreschema
+python-cornice
 python-coronavirus
 python-cotyledon
 python-cov-core
@@ -2525,6 +2526,10 @@ python-pyqtgraph
 python-pyquery
 python-pyrad
 python-pyramid
+python-pyramid-fas-openid
+python-pyramid-mako
+python-pyramid-tm
+python-pyramid_sawing
 python-pyrfc3339
 python-pyro
 python-pyroute2
@@ -3166,6 +3171,7 @@ python-tubes
 python-tvb-data
 python-tvb-gdist
 python-tw2-core
+python-tw2-forms
 python-tweepy
 python-twiggy
 python-twilio
