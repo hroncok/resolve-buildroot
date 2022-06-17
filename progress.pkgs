@@ -503,6 +503,7 @@ python-ROPGadget
 SoapySDR
 python-tgscheduler
 python-Traits::bootstrap:::
+TurboGears2
 python-WSGIProxy2
 python-XStatic
 python-XStatic-Angular
@@ -1078,6 +1079,7 @@ copr-messaging
 python-coreapi
 python-coreschema
 python-cornice
+python-cornice-sphinx
 python-coronavirus
 python-cotyledon
 python-cov-core
