@@ -824,6 +824,7 @@ python-batalgorithm
 python-batinfo
 bcc
 python-bcrypt
+python-beaker
 python-beanbag
 python-beautifulsoup4
 python-beautifultable
@@ -2237,6 +2238,7 @@ python-pdfrw
 python-pdir2
 python-pebble
 python-pecan
+python-pecan-notario
 python-peewee
 python-pefile
 python-pelican
@@ -2520,8 +2522,9 @@ python-pyqt5-sip
 python-pyqt6-sip
 python-pyqtchart
 python-pyqtgraph
-python-pyquery:tests::::
+python-pyquery
 python-pyrad
+python-pyramid
 python-pyrfc3339
 python-pyro
 python-pyroute2
@@ -2768,6 +2771,7 @@ python-rosdep
 python-rosdistro
 python-rosinstall_generator
 python-rospkg
+python-routes
 python-rpdb
 rpkg
 python-rply
@@ -3086,6 +3090,7 @@ python-termcolor
 python-terminado
 python-terminaltables
 python-teslajsonpy
+python-test_server
 testcloud
 python-testfixtures
 python-testinfra
@@ -3160,6 +3165,7 @@ python-trustme
 python-tubes
 python-tvb-data
 python-tvb-gdist
+python-tw2-core
 python-tweepy
 python-twiggy
 python-twilio
