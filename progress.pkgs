@@ -442,6 +442,7 @@ pylibgamerzilla
 pynag
 pyotherside
 pyp2rpm
+pyplane
 pypolicyd-spf
 pyppd
 pypykatz
@@ -871,6 +872,7 @@ python-boto3
 python-botocore
 python-bottle
 python-bottle-sqlite
+python-boutdata
 python-boututils
 python-bowler
 python-box
@@ -882,6 +884,7 @@ python-bravado
 python-bravado-core
 python-breathe
 brial
+python-brian2
 brltty
 python-brother
 brotli
@@ -1335,6 +1338,7 @@ fedora-messaging
 python-feedgen
 python-feedgenerator
 python-feedparser
+python-fiat
 python-fido2
 python-fields
 file
@@ -1782,6 +1786,7 @@ lensfun
 python-lesscpy
 python-leveldb
 python-lexicon
+python-lfpykit
 lhapdf
 389-ds-base
 libCombine
@@ -1819,6 +1824,7 @@ python-libpagure
 pam_wrapper
 libpfm
 libplist
+libpoly
 libproxy
 libpst
 librepo
@@ -2044,6 +2050,7 @@ nftables
 python-niapy
 python-nibabel
 python-nine
+python-nipy
 nispor
 python-nitime
 python-nitrate
@@ -2080,6 +2087,7 @@ python-nuheat
 python-num2words
 python-numcodecs
 python-numexpr
+python-numpoly
 numpy
 python-numpy-stl
 python-numpydoc
@@ -2682,6 +2690,7 @@ python-repoze-tm2
 python-repoze-who
 python-repoze-who-plugins-sa
 python-represent
+python-reproject
 python-requests
 python-requests-cache
 python-requests-download
@@ -3053,6 +3062,7 @@ python-testscenarios
 python-TestSlide
 python-testtools
 libtevent
+python-texext
 python-text-unidecode
 python-textdistance
 python-textfsm
