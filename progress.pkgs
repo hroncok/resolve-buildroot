@@ -1245,6 +1245,7 @@ python-docs-theme
 python-docutils
 python-dogpile-cache
 dogtail
+dolfin
 python-dominate
 python-dotenv
 python-dotmap
