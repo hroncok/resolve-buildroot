@@ -108,6 +108,7 @@ copr-keygen
 cranc
 cryptlib
 csmock
+cura
 cvc4
 cxxtest
 d-feet
@@ -2299,6 +2300,7 @@ python-pox
 python-poyo
 python-ppft
 python-pplpy
+python-praw
 python-prawcore
 python-precis_i18n
 python-prefixed

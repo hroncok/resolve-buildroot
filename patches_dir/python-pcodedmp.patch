@@ -1,0 +1,9 @@
+diff --git a/python-pcodedmp.spec b/python-pcodedmp.spec
+index afe8d27..e026af8 100644
+--- a/python-pcodedmp.spec
++++ b/python-pcodedmp.spec
+@@ -1,3 +1,4 @@
++%global _with_bootstrap 1
+ %global srcname pcodedmp
+ 
+ # Bootstrap may be needed to break circular dependencies between
