@@ -89,6 +89,8 @@ def resolve_requires(requires, ignore_weak_deps=True):
     requires += tuple(mandatory_packages_in_groups())
     log(f'• Resolving {orig_len} requirements...', end=' ')
     for dep in requires:
+        if 'zope-component' in str(dep):  # XXX we have built an older version of zope-component, but this is broken on rawhide
+            continue
         selector = hawkey.Selector(sack).set(provides=dep)
         goal.install(select=selector)
     if not goal.run(ignore_weak_deps=ignore_weak_deps):

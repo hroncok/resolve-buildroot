@@ -491,6 +491,7 @@ python-PyLink
 python-PyMuPDF
 python-PyMySQL
 python-PyPDF2
+PyQt4
 python-PyRSS2Gen
 pykka
 python-Pympler
@@ -653,6 +654,7 @@ python-apt
 python-apypie
 ara
 python-archinfo
+libarcus
 python-aresponses
 python-argcomplete
 python-argon2-cffi
@@ -933,6 +935,7 @@ python-cchardet
 python-cclib
 python-cerberus
 python-cerealizer
+certbot
 python-certifi
 python-cffi
 python-cffsubr
@@ -2459,6 +2462,7 @@ pymodbus
 python-pymssql
 python-pynacl
 python-pynamodb
+python-pynest2d
 python-pynetbox
 python-pynetdicom
 python-pyngus
@@ -2777,6 +2781,7 @@ python-sanction
 python-sane
 sanlock
 satyr
+libsavitar
 python-scales
 scanless
 scapy
@@ -3058,6 +3063,7 @@ python-terminado
 python-terminaltables
 python-teslajsonpy
 testcloud
+python-testfixtures
 python-testinfra
 python-testing.common.database
 python-testing.postgresql
