@@ -457,6 +457,7 @@ python-proteus
 python-requests-futures
 python-ufl
 python-xdot
+APLpy
 python-APScheduler
 ATpy
 python-AWSIoTPythonSDK
@@ -872,6 +873,7 @@ python-boto3
 python-botocore
 python-bottle
 python-bottle-sqlite
+bout++
 python-boutdata
 python-boututils
 python-bowler
@@ -1338,6 +1340,7 @@ fedora-messaging
 python-feedgen
 python-feedgenerator
 python-feedparser
+python-ffc
 python-fiat
 python-fido2
 python-fields
@@ -1786,6 +1789,7 @@ lensfun
 python-lesscpy
 python-leveldb
 python-lexicon
+python-lfpy
 python-lfpykit
 lhapdf
 389-ds-base
@@ -2020,6 +2024,7 @@ python-name-that-hash
 python-nanoid
 python-natlas-libnmap
 python-natsort
+python-nb2plots
 python-nbclient
 python-nbconvert
 python-nbformat
