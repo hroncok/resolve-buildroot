@@ -119,6 +119,7 @@ devscripts
 dib-utils
 diceware
 did
+diffoscope
 distcc
 distgen
 dmlite
@@ -327,6 +328,7 @@ mozo
 mpich
 mqtt-randompub
 mrchem
+mu
 mygnuhealth
 python-myrepos-utils
 mysql-connector-python
@@ -1578,7 +1580,7 @@ python-hvac
 python-hwdata
 python-hyperframe
 python-hyperlink
-python-hypothesis:doc-tests::::
+python-hypothesis
 python-hypothesis-fspaths
 i2c-tools
 python-i3ipc
@@ -1783,6 +1785,7 @@ python-lexicon
 lhapdf
 389-ds-base
 libCombine
+python-libNeuroML
 python-libarchive-c
 libcec
 libchewing
@@ -3047,6 +3050,7 @@ python-testpath
 python-testrepository
 python-testresources
 python-testscenarios
+python-TestSlide
 python-testtools
 libtevent
 python-text-unidecode
