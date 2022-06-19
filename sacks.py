@@ -18,11 +18,13 @@ REPOS = {
             'repoid': 'rawhide',
             # 'metalink': f'{METALINK}?repo=rawhide&arch=$basearch',
             'baseurl': [f'{KOJI}/repos/rawhide/latest/$basearch/'],
+            'metadata_expire': 60*60*24*365,
         },
         {
             'repoid': 'rawhide-source',
             # 'metalink': f'{METALINK}?repo=rawhide-source&arch=$basearch',
             'baseurl': [f'{KOJI}/repos/rawhide/latest/src/'],
+            'metadata_expire': 60*60*24*365,
         },
     ),
     # XXX Make this configurable, it can be a koji side tag, etc.
