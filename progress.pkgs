@@ -116,6 +116,7 @@ dblatex
 ddiskit
 ddupdate
 dee
+deluge
 devscripts
 dib-utils
 diceware
@@ -362,6 +363,7 @@ nwchem
 nwg-panel
 nyx
 obserware
+ocrmypdf
 oct2spec
 offlineimap
 ogr2osm
@@ -2099,6 +2101,7 @@ python-nose-timer
 python-nose2
 python-nose_fixes
 python-notario
+notcurses
 python-notebook
 python-notify2
 notmuch
