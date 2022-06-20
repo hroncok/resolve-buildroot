@@ -13,7 +13,7 @@ PATCHDIR = pathlib.Path('patches_dir')
 REBUILT_MESSAGE = 'Rebuilt for Python 3.11'
 BOOTSTRAP_MESSAGE = 'Bootstrap for Python 3.11'
 AUTHOR = 'Python Maint <python-maint@redhat.com>'
-TARGET = 'f37-python'
+TARGET = 'rawhide'
 
 if __name__ == '__main__':
     try:
