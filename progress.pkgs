@@ -32,6 +32,7 @@ profanity
 python-parsimonious
 python-proteus
 APLpy
+python-BTrees
 HepMC3
 PyQt4
 python-Pympler
@@ -116,7 +117,6 @@ liquidctl
 litecli
 m2crypto
 python-mailer
-python-manuel
 python-marathon
 python-maya
 python-mechanize
@@ -193,6 +193,7 @@ python-whatever
 python-wsproto
 python-xunitparser
 python-yappi
+python-zc-customdoctests
 python-zodbpickle
 qpid-dispatch
 rebase-helper
