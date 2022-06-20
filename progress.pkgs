@@ -6,6 +6,8 @@ python-pycha
 collectd
 copr-backend
 d-feet
+datagrepper
+datanommer-commands
 domoticz
 fail2ban
 flatbuffers
@@ -16,7 +18,6 @@ home-assistant-cli
 python-hyperkitty
 kicad
 lldb
-mirrormanager2
 mlpack
 module-build
 monkeytype
@@ -83,7 +84,6 @@ conda
 python-contextlib2
 python-cookiecutter
 python-cssutils
-python-datanommer-consumer
 python-deap
 python-diff-cover
 root
@@ -96,7 +96,6 @@ dlib
 python-eccodes
 python-engineio
 espresso
-python-fedmsg-meta-fedora-infrastructure
 python-filecheck
 folly
 python-fpylll
