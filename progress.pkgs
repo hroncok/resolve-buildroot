@@ -504,7 +504,6 @@ python-QtPy
 python-ROPGadget
 SoapySDR
 python-tgscheduler
-python-Traits::bootstrap:::
 TurboGears2
 python-WSGIProxy2
 python-XStatic
@@ -678,6 +677,7 @@ python-astral
 python-astroid
 astrometry
 python-astroplan
+python-astropy:check::::
 python-astropy-healpix
 python-astropy-helpers
 python-astroquery
@@ -1272,6 +1272,7 @@ python-docs-theme
 python-docutils
 python-dogpile-cache
 dogtail
+python-doit
 dolfin
 python-dominate
 python-dotenv
@@ -1510,6 +1511,7 @@ python-gnupg
 pygobject3
 gofer
 google-api-python-client
+python-google-api-core:tests::::
 python-google-auth
 google-auth-httplib2
 python-google-auth-oauthlib
@@ -1671,6 +1673,7 @@ python-ipgetter
 python-ipgetter2
 python-ipmi
 python-iptools
+python-ipykernel
 ipython
 python-ipython_genutils
 python-ipywidgets
@@ -1965,6 +1968,7 @@ python-mercantile
 python-mergedeep
 python-messaging
 python-metaextract
+python-metakernel
 python-metar
 python-metno
 metrics2mqtt
@@ -2075,7 +2079,6 @@ python-netifaces
 python-netmiko
 python-network-runner
 python-networkmanager
-python-networkx::bootstrap:::
 python-neurodsp
 python-neurom
 python-neurotune
@@ -3156,7 +3159,6 @@ python-tosca-parser
 totpcgi
 python-towncrier
 python-tox-current-env
-python-tqdm:tests::::
 tracer
 trademgen
 python-traitlets
@@ -3395,7 +3397,6 @@ python-zake
 zanata-python-client
 python-zanata2fedmsg
 python-zaqarclient
-python-zbase32::bootstrap:::
 python-zc-lockfile
 python-zeep
 zeitgeist
