@@ -35,6 +35,7 @@ APLpy
 HepMC3
 PyQt4
 python-Pympler
+python-ZEO
 python-agate
 python-aioopenssl
 python-aiosasl
@@ -78,7 +79,6 @@ python-cchardet
 python-cclib
 python-cheetah
 cjdns
-python-colorcet
 python-contextlib2
 python-cssutils
 python-cytoolz
@@ -152,7 +152,6 @@ python-pyghmi
 pylibacl
 python-pynetdicom
 pyodbc
-pyparted
 python-pyside2
 pysvn
 pythia8
@@ -191,7 +190,6 @@ python-whatever
 python-wsproto
 python-xunitparser
 python-yappi
-python-zdaemon
 qpid-dispatch
 rebase-helper
 renderdoc
