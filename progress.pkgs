@@ -97,6 +97,7 @@ python-filecheck
 folly
 python-fpylll
 gfal2-python
+grpc
 python-haversion
 python-hdmf
 python-httpsig-cffi
@@ -191,7 +192,6 @@ python-vcstools
 python-watchgod
 python-whatever
 python-wsproto
-python-xds-protos
 python-xunitparser
 python-yappi
 python-zodbpickle
