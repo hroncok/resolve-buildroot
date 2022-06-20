@@ -9,6 +9,7 @@ domoticz
 fail2ban
 flatbuffers
 gitg
+gitlint
 gnome-passwordsafe
 gplugin
 home-assistant-cli
@@ -42,7 +43,6 @@ python-altgraph
 python-animatplot
 python-ansiwrap
 python-anyjson
-python-arrow
 python-ase
 python-asyncio-dgram
 atomic-reactor
@@ -78,14 +78,15 @@ python-cchardet
 python-cclib
 python-cheetah
 cjdns
+conda
 python-contextlib2
 python-cssutils
-python-cytoolz
 python-deap
 python-diff-cover
 root
 python-django-debreach
 python-django-extensions
+python-django-q
 python-django-uuslug
 python-djangoql
 python-djvulibre
@@ -93,9 +94,11 @@ dlib
 python-eccodes
 python-engineio
 espresso
+fedmsg
 python-filecheck
 folly
 python-fpylll
+python-geotiler
 gfal2-python
 python-haversion
 python-hdmf
@@ -104,6 +107,7 @@ python-hypothesmith
 python-insteon
 python-javabridge
 python-jep
+python-jinja2-time
 python-jsmin
 python-jsonpickle
 python-jupyter-console
@@ -157,6 +161,7 @@ python-pywt
 python-qcelemental
 python-rasterio
 python-relatorio
+python-restfly
 rmol
 python-rmtest
 python-rpm-head-signing
@@ -167,6 +172,7 @@ python-sciunit
 python-sendgrid
 python-serpent
 python-socks
+python-specfile
 python-spnego
 python-sqlobject
 python-stackprinter
