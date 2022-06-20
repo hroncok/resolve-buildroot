@@ -1833,6 +1833,7 @@ libchewing
 python-libcloud
 libcomps
 concordance
+python-libcst:tests::::
 python-libdiscid
 libdnet
 python-libevdev
@@ -2134,6 +2135,7 @@ python-oauth
 python-oauth2
 python-oauth2client
 python-oauthlib
+python-octave-kernel
 python-odata-query
 odfpy
 python-odml
