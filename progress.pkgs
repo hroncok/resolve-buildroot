@@ -105,6 +105,7 @@ python-hypothesmith
 python-insteon
 python-javabridge
 python-jep
+python-joblib
 python-jsmin
 python-jsonpickle
 python-jupyter-console
@@ -176,7 +177,6 @@ python-structlog
 python-tcxparser
 python-TestSlide
 python-theano
-python-threadpoolctl
 trademgen
 python-txaio
 python-unicodecsv
