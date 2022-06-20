@@ -324,6 +324,7 @@ mock
 module-build
 modulemd-tools
 mom
+monkeytype
 mopidy
 mopidy-mpd
 mozo
@@ -435,6 +436,7 @@ ptpython
 puddletag
 pulsecaster
 pungi
+py3status
 pybugz
 pychess
 pydeps
@@ -1115,6 +1117,8 @@ csound
 python-css-parser
 python-cssmin
 python-cssselect
+python-cssselect2
+python-cssutils
 python-cups
 python-curio
 python-curtsies
@@ -1620,6 +1624,7 @@ python-hyperframe
 python-hyperlink
 python-hypothesis
 python-hypothesis-fspaths
+python-hypothesmith
 i2c-tools
 python-i3ipc
 python-ibm-cloud-sdk-core
@@ -2056,6 +2061,7 @@ python-mystrom
 python-nagiosplugin
 python-name-that-hash
 python-nanoid
+python-nashpy
 python-natlas-libnmap
 python-natsort
 python-nb2plots
@@ -2524,6 +2530,7 @@ python-pypcapkit
 python-pypck
 python-pyperclip
 python-pypet
+python-pyphen
 python-pypillowfight
 python-pypng
 python-pyprocdev
@@ -3246,6 +3253,7 @@ python-urwid-readline
 python-urwidtrees
 python-user-agents
 python-userpath
+python-usort
 python-utils
 python-utmp
 python-uvloop
