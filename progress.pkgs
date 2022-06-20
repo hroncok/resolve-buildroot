@@ -97,6 +97,7 @@ espresso
 python-filecheck
 folly
 python-fpylll
+python-gcsfs
 gfal2-python
 python-haversion
 python-hdmf
@@ -190,6 +191,7 @@ python-whatever
 python-wsproto
 python-xunitparser
 python-yappi
+python-zarr
 qpid-dispatch
 rebase-helper
 renderdoc
