@@ -2093,6 +2093,7 @@ newt
 nftables
 python-niapy
 python-nibabel
+python-nikola
 python-nine
 python-nipy
 nispor
@@ -3317,6 +3318,7 @@ python-wavio
 python-wcag-contrast-ratio
 python-wcmatch
 python-wcwidth
+weasyprint
 python-webcolors
 python-webencodings
 python-webob
