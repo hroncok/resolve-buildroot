@@ -97,7 +97,6 @@ python-filecheck
 folly
 python-fpylll
 gfal2-python
-grpc
 python-haversion
 python-hdmf
 python-httpsig-cffi
