@@ -35,7 +35,7 @@ APLpy
 HepMC3
 PyQt4
 python-Pympler
-python-ZEO
+python-ZODB3
 python-agate
 python-aioopenssl
 python-aiosasl
@@ -149,7 +149,6 @@ python-pycec
 python-pycountry
 python-pyduofern
 python-pyghmi
-pylibacl
 python-pynetdicom
 pyodbc
 python-pyside2
