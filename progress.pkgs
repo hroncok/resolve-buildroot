@@ -4,7 +4,6 @@ arbor
 awscli
 python-pycha
 collectd
-copr-backend
 d-feet
 datagrepper
 datanommer-commands
@@ -82,7 +81,6 @@ python-cheetah
 cjdns
 conda
 python-contextlib2
-python-cookiecutter
 python-cssutils
 python-deap
 python-diff-cover
@@ -123,6 +121,7 @@ python-marathon
 python-maya
 python-mechanize
 python-migen
+python-molecule
 python-mox3
 python-mplcairo
 python-multiprocess
@@ -155,7 +154,6 @@ python-pynetdicom
 pyodbc
 python-pyside2
 pysvn
-python-pytenable
 pythia8
 python-pywt
 python-qcelemental
