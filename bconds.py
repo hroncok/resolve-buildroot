@@ -14,6 +14,8 @@ KOJI_ID_FILENAME = 'koji.id'
 FEDPKG_CACHEDIR = pathlib.Path('_fedpkg_cache_dir')
 DEFAULT_BRANCH = 'rawhide'
 
+PATCHDIR = pathlib.Path('patches_dir')
+
 # XXX we need an actual user-configuration for this
 PACKAGES_BCONDS = {
     'gdb': [{'replacements': {'_without_python': '1'}}],

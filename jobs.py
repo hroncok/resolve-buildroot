@@ -199,7 +199,7 @@ def report_blocking_components(loop_detector):
 if __name__ == '__main__':
     # this is spaghetti code that will be split into functions later:
     from resolve_buildroot import resolve_buildrequires_of, resolve_requires
-    from bconds import PACKAGES_BCONDS, bcond_cache_identifier, extract_buildrequires_if_possible
+    from bconds import PACKAGES_BCONDS, bcond_cache_identifier, extract_buildrequires_if_possible, PATCHDIR
 
     components = packages_to_rebuild(OLD_DEPS, excluded_components=EXCLUDED_COMPONENTS)
     for component in EXTRA_COMPONENTS:
@@ -234,7 +234,7 @@ if __name__ == '__main__':
 
         if ready_to_rebuild:
             # XXX make this configurable
-            if True: #  component not in components_done:
+            if component not in components_done or (PATCHDIR / f'{component}.patch').exists():
                 print(component)
         elif component in PACKAGES_BCONDS:
             for config in PACKAGES_BCONDS[component]:
@@ -256,7 +256,7 @@ if __name__ == '__main__':
                         loop_detector=loop_detector,
                     )
                     if ready_to_rebuild:
-                        if True: #  component not in components_done:
+                        if component not in components_done:
                             print(config['id'])
                 else:
                     log(f' • {config["id"]} bcond SRPM not present yet, skipping')

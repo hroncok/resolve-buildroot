@@ -3,13 +3,12 @@ import sys
 
 # this module reuses bconds functions heavily
 # XXX move to a common module?
-from bconds import FEDPKG_CACHEDIR, clone_into, refresh_gitrepo, patch_spec, run
+from bconds import FEDPKG_CACHEDIR, clone_into, refresh_gitrepo, patch_spec, run, PATCHDIR
 
 # the following bcond things actually do stay there
 from bconds import PACKAGES_BCONDS, reverse_id_lookup, build_reverse_id_lookup
 
 
-PATCHDIR = pathlib.Path('patches_dir')
 REBUILT_MESSAGE = 'Rebuilt for Python 3.11'
 BOOTSTRAP_MESSAGE = 'Bootstrap for Python 3.11'
 AUTHOR = 'Python Maint <python-maint@redhat.com>'
