@@ -114,7 +114,6 @@ libpfm
 python-linux-procfs
 liquidctl
 litecli
-python-lunr
 m2crypto
 python-mailer
 python-marathon
@@ -125,7 +124,6 @@ python-mox3
 python-mplcairo
 python-multiprocess
 python-murano-pkg-check
-python-niaarm
 python-nikola
 python-nipy
 python-nmrglue
@@ -152,7 +150,6 @@ python-pyduofern
 python-pyghmi
 python-pynetdicom
 pyodbc
-python-pyphi
 python-pyside2
 pysvn
 pythia8
