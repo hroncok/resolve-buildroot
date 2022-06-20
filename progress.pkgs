@@ -132,7 +132,6 @@ python-nudepy
 python-octave-kernel
 openmeeg
 python-openstacksdk
-python-opentelemetry
 opentrep
 python-oslo-db
 python-pathvalidate
@@ -192,6 +191,7 @@ python-vcstools
 python-watchgod
 python-whatever
 python-wsproto
+python-xds-protos
 python-xunitparser
 python-yappi
 python-zodbpickle
