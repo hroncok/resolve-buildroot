@@ -32,7 +32,6 @@ profanity
 python-parsimonious
 python-proteus
 APLpy
-python-BTrees
 HepMC3
 PyQt4
 python-Pympler
@@ -79,6 +78,7 @@ python-cchardet
 python-cclib
 python-cheetah
 cjdns
+python-colorcet
 python-contextlib2
 python-cssutils
 python-cytoolz
@@ -147,7 +147,6 @@ py4j
 python-pycdlib
 python-pycec
 python-pycountry
-python-pyct
 python-pyduofern
 python-pyghmi
 pylibacl
@@ -169,7 +168,6 @@ python-scikit-image
 python-sciunit
 python-sendgrid
 python-serpent
-smoldyn
 python-socks
 python-spnego
 python-sqlobject
@@ -193,8 +191,7 @@ python-whatever
 python-wsproto
 python-xunitparser
 python-yappi
-python-zc-customdoctests
-python-zodbpickle
+python-zdaemon
 qpid-dispatch
 rebase-helper
 renderdoc
