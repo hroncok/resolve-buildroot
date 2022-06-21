@@ -65,7 +65,6 @@ python-behave
 python-bitcoinlib
 python-bitstruct
 python-blackbird
-bout++
 python-brother
 python-cachez
 cantera
@@ -148,7 +147,6 @@ rmol
 python-rmtest
 python-rpm-head-signing
 python-rx
-python-scikit-image
 python-scikit-learn
 python-sciunit
 python-sendgrid
