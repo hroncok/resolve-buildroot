@@ -15,7 +15,6 @@ gnome-passwordsafe
 gplugin
 home-assistant-cli
 python-hyperkitty
-kicad
 lldb
 mlpack
 module-build
@@ -120,7 +119,6 @@ python-mox3
 python-mplcairo
 python-multiprocess
 python-murano-pkg-check
-python-nikola
 python-nipy
 python-nmrglue
 python-nudepy
