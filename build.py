@@ -64,9 +64,19 @@ if __name__ == '__main__':
             elif 'State: FAILED' in buildinfo_lines:
                 bump = False
             elif 'State: COMPLETE' in buildinfo_lines:
-                bump = True
+                for line in buildinfo_lines:
+                    if line.startswith('Task: '):
+                        task_id = int(line.split(' ')[1])
+                        if task_id >= 88485063:  # first 3.11 rebuild after side tag merge
+                            print(buildinfo_proc.stdout, file=sys.stderr)
+                            raise RuntimeError('This appears to be already rebuilt with 3.11, investigate')
+                        bump = True
+                        break
+                else:
+                    print(buildinfo_proc.stdout, file=sys.stderr)
+                    raise RuntimeError('Not sure if bump is needed, investigate')
             else:
-                print(buildinfo_proc.stdout)
+                print(buildinfo_proc.stdout, file=sys.stderr)
                 raise RuntimeError('Not sure if bump is needed, investigate')
         if bump:
             run('rpmdev-bumpspec', '-c', message, '--userstring', AUTHOR, specpath)
