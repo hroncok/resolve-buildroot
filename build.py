@@ -54,21 +54,19 @@ if __name__ == '__main__':
             message = REBUILT_MESSAGE
 
         # Bump and commit only if we haven't already, XXX ability to force this
-        head_commit_msg = run('git', '-C', repopath, 'log', '--format=%B', '-n1', 'HEAD').stdout.rstrip()
-        if bootstrap or not ('3.11' in head_commit_msg.lower() or 'python' in head_commit_msg.lower()):
+        bump = run('git', '-C', repopath, 'diff', '--no-ext-diff', '--quiet', '--exit-code', check=False).returncode != 0
+        if not bump:
+            verrel = run('fedpkg', 'verrel', cwd=repopath).stdout.rstrip()
+            bump = run('koji', 'buildinfo', verrel, cwd=repopath, check=False).returncode == 0
+        if bump:
             run('rpmdev-bumpspec', '-c', message, '--userstring', AUTHOR, specpath)
             run('git', '-C', repopath, 'commit', '--allow-empty', f'{component_name}.spec', '-m', message, '--author', AUTHOR)
+            run('git', '-C', repopath, 'push')
 
-	    #raise NotImplementedError('no pushing yet')
-    	run('git', '-C', repopath, 'push')
-    	cp = run('fedpkg', 'build', '--fail-fast', '--nowait', '--background', '--target', TARGET, cwd=repopath)
-    	print(cp.stdout)
-
+        cp = run('fedpkg', 'build', '--fail-fast', '--nowait', '--background', '--target', TARGET, cwd=repopath)
+        print(cp.stdout, file=sys.stderr)
         # XXX prune this directory becasue we don't want no thousands clones?
         # maybe we are not gonna need this?
     except Exception:
         print(sys.argv[1])
         raise
-
-    # XXX prune this directory becasue we don't want no thousands clones?
-    # maybe we are not gonna need this?
