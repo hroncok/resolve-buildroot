@@ -34,7 +34,6 @@ profanity
 python-parsimonious
 python-proteus
 APLpy
-HepMC3
 PyQt4
 python-Pympler
 python-agate
@@ -48,6 +47,7 @@ python-ase
 python-asyncio-dgram
 atomic-reactor
 python-autopep8
+python-avocado
 python-azure-appconfiguration
 python-azure-keyvault-keys
 python-azure-mgmt-appconfiguration
@@ -97,7 +97,7 @@ espresso
 python-filecheck
 folly
 python-fpylll
-python-gcsfs
+python-fsspec
 gfal2-python
 python-haversion
 python-hdmf
@@ -110,6 +110,7 @@ python-jsmin
 python-jsonpickle
 python-jupyter-console
 python-kafka
+python-lazy-ops
 dtc
 libkdtree++
 libpfm
@@ -122,7 +123,6 @@ python-marathon
 python-maya
 python-mechanize
 python-migen
-python-molecule
 python-mox3
 python-mplcairo
 python-multiprocess
@@ -136,17 +136,16 @@ openmeeg
 python-openstacksdk
 opentrep
 python-oslo-db
+packit
 python-pathvalidate
 pcp
 python-pdir2
 python-peewee
-petsc
 python-precis_i18n
 python-profilehooks
 python-proto-plus
 python-py-gfm
 py4j
-python-pycdlib
 python-pycec
 python-pycountry
 python-pyduofern
@@ -191,9 +190,7 @@ python-whatever
 python-wsproto
 python-xunitparser
 python-yappi
-python-zarr
 qpid-dispatch
-rebase-helper
 renderdoc
 rmlint
 sigil
