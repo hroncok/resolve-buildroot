@@ -36,6 +36,7 @@ python-proteus
 APLpy
 PyQt4
 python-Pympler
+python-adb
 python-agate
 python-aioopenssl
 python-aiosasl
@@ -97,7 +98,6 @@ espresso
 python-filecheck
 folly
 python-fpylll
-python-fsspec
 gfal2-python
 python-haversion
 python-hdmf
@@ -110,7 +110,6 @@ python-jsmin
 python-jsonpickle
 python-jupyter-console
 python-kafka
-python-lazy-ops
 dtc
 libkdtree++
 libpfm
