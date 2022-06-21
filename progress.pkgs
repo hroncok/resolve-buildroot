@@ -14,7 +14,6 @@ flatbuffers
 gitg
 gnome-passwordsafe
 gplugin
-gr-osmosdr
 home-assistant-cli
 python-hyperkitty
 ilua
@@ -153,7 +152,6 @@ python-pynetdicom
 pyodbc
 python-pyshtools
 python-pyside2
-python-pyunicorn
 python-pywt
 python-qcelemental
 python-relatorio
