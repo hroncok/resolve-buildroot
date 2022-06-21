@@ -43,7 +43,6 @@ python-altgraph
 python-animatplot
 python-ansiwrap
 python-anyjson
-python-arviz
 python-ase
 python-asyncio-dgram
 atomic-reactor
@@ -131,10 +130,9 @@ python-nudepy
 python-octave-kernel
 openmeeg
 openshadinglanguage
-python-openstacksdk
 opentrep
+python-os-client-config
 packit
-python-pandas-flavor
 python-pathvalidate
 pcp
 python-pdir2
@@ -168,7 +166,6 @@ python-sendgrid
 python-serpent
 python-socks
 python-spnego
-python-spyder-kernels
 python-sqlobject
 python-stackprinter
 python-statsmodels
