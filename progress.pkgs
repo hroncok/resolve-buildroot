@@ -41,7 +41,6 @@ python-altgraph
 python-animatplot
 python-ansiwrap
 python-anyjson
-python-ase
 python-asyncio-dgram
 atomic-reactor
 python-autopep8
@@ -94,6 +93,7 @@ python-filecheck
 folly
 python-fpylll
 gfal2-python
+gpaw
 python-haversion
 python-hdmf
 python-httpsig-cffi
