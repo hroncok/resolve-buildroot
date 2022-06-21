@@ -130,6 +130,7 @@ python-nmrglue
 python-nudepy
 python-octave-kernel
 openmeeg
+openshadinglanguage
 python-openstacksdk
 opentrep
 packit
@@ -244,6 +245,5 @@ trytond-stock-product-location
 trytond-stock-supply
 trytond-stock-supply-day
 trytond-timesheet
-urh
 virt-bootstrap
 python3-docs
