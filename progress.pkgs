@@ -175,7 +175,6 @@ python-structlog
 python-tcxparser
 python-TestSlide
 python-theano
-python-tqdm
 trademgen
 python-txaio
 python-unicodecsv
