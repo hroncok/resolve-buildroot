@@ -43,6 +43,7 @@ python-altgraph
 python-animatplot
 python-ansiwrap
 python-anyjson
+python-arviz
 python-ase
 python-asyncio-dgram
 atomic-reactor
@@ -84,7 +85,6 @@ python-cssutils
 python-deap
 python-diff-cover
 root
-python-django-debreach
 python-django-extensions
 python-django-uuslug
 python-djangoql
@@ -133,6 +133,7 @@ openmeeg
 python-openstacksdk
 opentrep
 packit
+python-pandas-flavor
 python-pathvalidate
 pcp
 python-pdir2
@@ -144,15 +145,16 @@ python-py-gfm
 py4j
 python-pycec
 python-pycountry
+python-pydata-sphinx-theme
 python-pyduofern
 python-pyghmi
 python-pynetdicom
 pyodbc
+pyproj
+python-pyshtools
 python-pyside2
-pysvn
 python-pywt
 python-qcelemental
-qhexedit2
 python-relatorio
 rmol
 python-rmtest
@@ -165,6 +167,7 @@ python-sendgrid
 python-serpent
 python-socks
 python-spnego
+python-spyder-kernels
 python-sqlobject
 python-stackprinter
 python-statsmodels
@@ -183,7 +186,6 @@ python-vcstools
 python-watchgod
 python-whatever
 python-wsproto
-python-xarray
 python-xunitparser
 python-yappi
 qpid-dispatch
