@@ -77,7 +77,6 @@ python-catkin_lint
 python-catkin_tools
 python-cchardet
 python-cclib
-python-cheetah
 cjdns
 conda
 python-contextlib2
@@ -243,5 +242,6 @@ trytond-stock-product-location
 trytond-stock-supply
 trytond-stock-supply-day
 trytond-timesheet
+uhd
 virt-bootstrap
 python3-docs
