@@ -1,4 +1,3 @@
-5minute
 PyMca
 Zim
 arbor
@@ -16,7 +15,6 @@ gnome-passwordsafe
 gplugin
 home-assistant-cli
 python-hyperkitty
-ilua
 kicad
 lldb
 mlpack
@@ -113,9 +111,7 @@ python-linux-procfs
 liquidctl
 litecli
 m2crypto
-python-magnumclient
 python-mailer
-python-manilaclient
 python-marathon
 python-maya
 python-mechanize
@@ -129,7 +125,6 @@ python-nipy
 python-nmrglue
 python-nudepy
 python-octave-kernel
-python-octaviaclient
 openmeeg
 openshadinglanguage
 opentrep
@@ -176,7 +171,6 @@ python-tcxparser
 python-TestSlide
 python-theano
 trademgen
-python-troveclient
 python-txaio
 python-unicodecsv
 python-unicodedata2
