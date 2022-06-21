@@ -152,7 +152,6 @@ python-pynetdicom
 pyodbc
 python-pyside2
 pysvn
-pythia8
 python-pywt
 python-qcelemental
 python-rasterio
@@ -176,6 +175,7 @@ python-structlog
 python-tcxparser
 python-TestSlide
 python-theano
+python-tqdm
 trademgen
 python-txaio
 python-unicodecsv
