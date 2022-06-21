@@ -91,7 +91,6 @@ python-engineio
 espresso
 python-filecheck
 folly
-python-fpylll
 gfal2-python
 gpaw
 python-haversion
@@ -181,6 +180,7 @@ python-wsproto
 python-xunitparser
 python-yappi
 renderdoc
+sagemath
 sigil
 slingshot
 snakemake
