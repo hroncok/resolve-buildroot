@@ -12,6 +12,7 @@ fail2ban
 flatbuffers
 gitg
 gnome-passwordsafe
+gnuradio
 gplugin
 home-assistant-cli
 python-hyperkitty
@@ -34,7 +35,6 @@ profanity
 python-parsimonious
 python-proteus
 APLpy
-PyQt4
 python-Pympler
 python-agate
 python-aioopenssl
@@ -132,7 +132,6 @@ python-octave-kernel
 openmeeg
 python-openstacksdk
 opentrep
-python-oslo-db
 packit
 python-pathvalidate
 pcp
@@ -153,7 +152,7 @@ python-pyside2
 pysvn
 python-pywt
 python-qcelemental
-python-rasterio
+qhexedit2
 python-relatorio
 rmol
 python-rmtest
@@ -184,6 +183,7 @@ python-vcstools
 python-watchgod
 python-whatever
 python-wsproto
+python-xarray
 python-xunitparser
 python-yappi
 qpid-dispatch
@@ -242,6 +242,6 @@ trytond-stock-product-location
 trytond-stock-supply
 trytond-stock-supply-day
 trytond-timesheet
-uhd
+urh
 virt-bootstrap
 python3-docs
