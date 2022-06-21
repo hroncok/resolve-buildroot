@@ -9,7 +9,6 @@ datagrepper
 datanommer-commands
 domoticz
 fail2ban
-flatbuffers
 gitg
 gnome-passwordsafe
 gplugin
@@ -92,7 +91,6 @@ espresso
 python-filecheck
 folly
 gfal2-python
-gpaw
 python-haversion
 python-hdmf
 python-httpsig-cffi
@@ -111,7 +109,6 @@ litecli
 m2crypto
 python-mailer
 python-marathon
-python-maya
 python-mechanize
 python-migen
 python-mox3
