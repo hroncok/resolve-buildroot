@@ -57,7 +57,16 @@ if __name__ == '__main__':
         bump = run('git', '-C', repopath, 'diff', '--no-ext-diff', '--quiet', '--exit-code', check=False).returncode != 0
         if not bump:
             verrel = run('fedpkg', 'verrel', cwd=repopath).stdout.rstrip()
-            bump = run('koji', 'buildinfo', verrel, cwd=repopath, check=False).returncode == 0
+            buildinfo_proc = run('koji', 'buildinfo', verrel, cwd=repopath, check=False)
+            buildinfo_lines = buildinfo_proc.stdout.splitlines()
+            if buildinfo_proc.returncode == 0:  # this has never been built
+                bump = False
+            elif 'State: FAILED' in buildinfo_lines:
+                bump = False
+            elif 'State: COMPLETE' in buildinfo_lines:
+                bump = True
+            else:
+                raise RuntimeError('Not sure if bump is needed, investigate')
         if bump:
             run('rpmdev-bumpspec', '-c', message, '--userstring', AUTHOR, specpath)
             run('git', '-C', repopath, 'commit', '--allow-empty', f'{component_name}.spec', '-m', message, '--author', AUTHOR)
