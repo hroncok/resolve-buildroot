@@ -59,13 +59,14 @@ if __name__ == '__main__':
             verrel = run('fedpkg', 'verrel', cwd=repopath).stdout.rstrip()
             buildinfo_proc = run('koji', 'buildinfo', verrel, cwd=repopath, check=False)
             buildinfo_lines = buildinfo_proc.stdout.splitlines()
-            if buildinfo_proc.returncode == 0:  # this has never been built
+            if buildinfo_proc.returncode != 0:  # this has never been built
                 bump = False
             elif 'State: FAILED' in buildinfo_lines:
                 bump = False
             elif 'State: COMPLETE' in buildinfo_lines:
                 bump = True
             else:
+                print(buildinfo_proc.stdout)
                 raise RuntimeError('Not sure if bump is needed, investigate')
         if bump:
             run('rpmdev-bumpspec', '-c', message, '--userstring', AUTHOR, specpath)
