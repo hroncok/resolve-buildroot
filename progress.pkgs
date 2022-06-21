@@ -12,8 +12,12 @@ fail2ban
 flatbuffers
 gitg
 gnome-passwordsafe
-gnuradio
 gplugin
+gr-air-modes
+gr-funcube
+gr-hpsdr
+gr-iqbal
+gr-rds
 home-assistant-cli
 python-hyperkitty
 kicad
@@ -35,6 +39,7 @@ profanity
 python-parsimonious
 python-proteus
 APLpy
+python-OWSLib
 python-Pympler
 python-agate
 python-aioopenssl
@@ -65,10 +70,12 @@ python-azure-mgmt-sql
 python-azure-mgmt-web
 python-azure-servicebus
 python-backrefs
+python-basemap
 python-behave
 python-bitcoinlib
 python-bitstruct
 python-blackbird
+python-bluepyopt
 bout++
 python-brother
 python-cachez
@@ -81,7 +88,6 @@ cjdns
 conda
 python-contextlib2
 python-cssutils
-python-deap
 python-diff-cover
 root
 python-django-extensions
@@ -95,6 +101,7 @@ espresso
 python-filecheck
 folly
 python-fpylll
+python-geopandas:tests::::
 gfal2-python
 python-haversion
 python-hdmf
@@ -131,7 +138,7 @@ python-octave-kernel
 openmeeg
 openshadinglanguage
 opentrep
-python-os-client-config
+python-osc-lib
 packit
 python-pathvalidate
 pcp
@@ -149,7 +156,6 @@ python-pyduofern
 python-pyghmi
 python-pynetdicom
 pyodbc
-pyproj
 python-pyshtools
 python-pyside2
 python-pywt
@@ -164,6 +170,7 @@ python-scikit-learn
 python-sciunit
 python-sendgrid
 python-serpent
+python-shade
 python-socks
 python-spnego
 python-sqlobject
@@ -188,7 +195,6 @@ python-xunitparser
 python-yappi
 qpid-dispatch
 renderdoc
-rmlint
 sigil
 slingshot
 snakemake
