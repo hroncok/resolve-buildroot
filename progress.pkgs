@@ -43,7 +43,6 @@ atomic-reactor
 python-autopep8
 python-avocado
 python-azure-appconfiguration
-python-azure-keyvault-keys
 python-azure-mgmt-appconfiguration
 python-azure-mgmt-cognitiveservices
 python-azure-mgmt-containerinstance
