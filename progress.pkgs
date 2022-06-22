@@ -15,7 +15,6 @@ gplugin
 home-assistant-cli
 python-hyperkitty
 lldb
-mlpack
 module-build
 monkeytype
 nordugrid-arc
@@ -76,7 +75,6 @@ cjdns
 conda
 python-contextlib2
 python-cssutils
-python-diff-cover
 root
 python-django-extensions
 python-django-uuslug
@@ -87,6 +85,7 @@ python-eccodes
 python-engineio
 espresso
 python-filecheck
+python-fixit
 folly
 gfal2-python
 python-haversion
