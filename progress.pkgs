@@ -69,12 +69,11 @@ python-cartopy
 python-catkin_lint
 python-catkin_tools
 python-cchardet
+python-certbot-dns-digitalocean
 cjdns
 conda
 python-contextlib2
 python-cssutils
-python-deepdiff
-python-digitalocean
 root
 python-django-extensions
 python-django-uuslug
@@ -94,7 +93,6 @@ python-hypothesmith
 python-insteon
 python-javabridge
 python-jep
-python-jschema-to-python
 python-jsmin
 python-kafka
 dtc
@@ -111,7 +109,6 @@ python-mox3
 python-mplcairo
 python-multiprocess
 python-murano-pkg-check
-python-music21
 python-nipy
 python-nmrglue
 python-nudepy
