@@ -69,11 +69,12 @@ python-cartopy
 python-catkin_lint
 python-catkin_tools
 python-cchardet
-python-cclib
 cjdns
 conda
 python-contextlib2
 python-cssutils
+python-deepdiff
+python-digitalocean
 root
 python-django-extensions
 python-django-uuslug
@@ -93,8 +94,8 @@ python-hypothesmith
 python-insteon
 python-javabridge
 python-jep
+python-jschema-to-python
 python-jsmin
-python-jsonpickle
 python-kafka
 dtc
 libkdtree++
@@ -110,6 +111,7 @@ python-mox3
 python-mplcairo
 python-multiprocess
 python-murano-pkg-check
+python-music21
 python-nipy
 python-nmrglue
 python-nudepy
@@ -117,7 +119,6 @@ python-octave-kernel
 openmeeg
 openshadinglanguage
 opentrep
-packit
 python-pathvalidate
 pcp
 python-pdir2
@@ -175,7 +176,6 @@ sigil
 slingshot
 snakemake
 sshuttle
-sudo
 systemtap
 tiled
 trellis
