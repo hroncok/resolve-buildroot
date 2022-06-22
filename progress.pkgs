@@ -3,12 +3,12 @@ Zim
 arbor
 awscli
 python-pycha
-collectd
 d-feet
 datagrepper
 datanommer-commands
 domoticz
 fail2ban
+fapolicyd
 gitg
 gnome-passwordsafe
 gplugin
@@ -17,7 +17,6 @@ python-hyperkitty
 lldb
 module-build
 monkeytype
-nordugrid-arc
 nyx
 opae
 openvswitch
@@ -85,7 +84,6 @@ python-eccodes
 python-engineio
 espresso
 python-filecheck
-python-fixit
 folly
 gfal2-python
 python-haversion
