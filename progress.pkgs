@@ -41,7 +41,6 @@ python-asyncio-dgram
 atomic-reactor
 python-autopep8
 python-avocado
-python-azure-appconfiguration
 python-azure-servicebus
 python-backrefs
 python-behave

@@ -1,9 +1,0 @@
-diff --git a/python-networkx.spec b/python-networkx.spec
-index 32cef56..872c633 100644
---- a/python-networkx.spec
-+++ b/python-networkx.spec
-@@ -1,3 +1,4 @@
-+%global _with_bootstrap 1
- Name:           python-networkx
- Version:        2.8.3
- Release:        1%{?dist}
