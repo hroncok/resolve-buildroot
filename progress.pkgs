@@ -89,6 +89,7 @@ python-mechanize
 python-migen
 python-mox3
 python-mplcairo
+python-mplcursors
 python-multiprocess
 python-murano-pkg-check
 python-nipy
@@ -109,7 +110,6 @@ python-py-gfm
 py4j
 python-pycec
 python-pycountry
-python-pydata-sphinx-theme
 python-pyduofern
 python-pyghmi
 python-pynetdicom
