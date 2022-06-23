@@ -24,7 +24,6 @@ paternoster
 photoqt
 piper
 pitivi
-powerline
 pre-commit
 profanity
 python-parsimonious
@@ -43,13 +42,6 @@ atomic-reactor
 python-autopep8
 python-avocado
 python-azure-appconfiguration
-python-azure-mgmt-appconfiguration
-python-azure-mgmt-cognitiveservices
-python-azure-mgmt-containerinstance
-python-azure-mgmt-databoxedge
-python-azure-mgmt-datamigration
-python-azure-mgmt-eventhub
-python-azure-mgmt-redis
 python-azure-servicebus
 python-backrefs
 python-behave
@@ -74,11 +66,11 @@ python-djvulibre
 dlib
 python-eccodes
 python-engineio
-espresso
+python-etcd3gw
 python-filecheck
 folly
-fontdump
 gfal2-python
+python-gnocchiclient
 python-haversion
 python-hdmf
 python-httpsig-cffi
@@ -118,6 +110,7 @@ python-profilehooks
 python-proto-plus
 python-py-gfm
 py4j
+python-pybids
 python-pycec
 python-pycountry
 python-pydata-sphinx-theme
