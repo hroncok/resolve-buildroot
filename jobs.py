@@ -218,48 +218,49 @@ if __name__ == '__main__':
         if len(sys.argv) > 1 and component not in sys.argv[1:]:
             continue
 
-        try:
-            component_buildroot = resolve_buildrequires_of(component)
-        except ValueError as e:
-            log(f'\n  ✗ {e}')
-            continue
+        # XXX make this conditional configurable
+        if component not in components_done or (PATCHDIR / f'{component}.patch').exists():
+            try:
+                component_buildroot = resolve_buildrequires_of(component)
+            except ValueError as e:
+                log(f'\n  ✗ {e}')
+                continue
 
-        ready_to_rebuild = are_all_done(
-            packages_to_check=set(component_buildroot) & binary_rpms,
-            all_components=components,
-            components_done=components_done,
-            blocker_counter=blocker_counter,
-            loop_detector=loop_detector,
-        )
+            ready_to_rebuild = are_all_done(
+                packages_to_check=set(component_buildroot) & binary_rpms,
+                all_components=components,
+                components_done=components_done,
+                blocker_counter=blocker_counter,
+                loop_detector=loop_detector,
+            )
 
-        if ready_to_rebuild:
-            # XXX make this configurable
-            if component not in components_done or (PATCHDIR / f'{component}.patch').exists():
+            if ready_to_rebuild:
                 print(component)
-        elif component in PACKAGES_BCONDS:
-            for config in PACKAGES_BCONDS[component]:
-                config['id'] = bcond_cache_identifier(component, config)
-                log(f'• {component} not ready and {config["id"]} bcond found, will check that one')
-                if 'buildrequires' not in config:
-                    extract_buildrequires_if_possible(component, config)
-                if 'buildrequires' in config:
-                    try:
-                        component_buildroot = resolve_requires(tuple(sorted(config['buildrequires'])))
-                    except ValueError as e:
-                        log(f'\n  ✗ {e}')
-                        continue
-                    ready_to_rebuild = are_all_done(
-                        packages_to_check=set(component_buildroot) & binary_rpms,
-                        all_components=components,
-                        components_done=components_done,
-                        blocker_counter=blocker_counter,
-                        loop_detector=loop_detector,
-                    )
-                    if ready_to_rebuild:
-                        if component not in components_done:
-                            print(config['id'])
-                else:
-                    log(f' • {config["id"]} bcond SRPM not present yet, skipping')
+
+            elif component in PACKAGES_BCONDS:
+                for config in PACKAGES_BCONDS[component]:
+                    config['id'] = bcond_cache_identifier(component, config)
+                    log(f'• {component} not ready and {config["id"]} bcond found, will check that one')
+                    if 'buildrequires' not in config:
+                        extract_buildrequires_if_possible(component, config)
+                    if 'buildrequires' in config:
+                        try:
+                            component_buildroot = resolve_requires(tuple(sorted(config['buildrequires'])))
+                        except ValueError as e:
+                            log(f'\n  ✗ {e}')
+                            continue
+                        ready_to_rebuild = are_all_done(
+                            packages_to_check=set(component_buildroot) & binary_rpms,
+                            all_components=components,
+                            components_done=components_done,
+                            blocker_counter=blocker_counter,
+                            loop_detector=loop_detector,
+                        )
+                        if ready_to_rebuild:
+                            if component not in components_done:
+                                print(config['id'])
+                    else:
+                        log(f' • {config["id"]} bcond SRPM not present yet, skipping')
 
     log('\nThe 50 most commonly needed components are:')
     for component, count in blocker_counter['general'].most_common(50):
