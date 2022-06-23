@@ -132,6 +132,7 @@ python-qcelemental
 python-relatorio
 rmol
 python-rmtest
+python-rosinstall
 python-rpm-head-signing
 python-rx
 python-scikit-learn
@@ -158,7 +159,6 @@ python-vatnumber
 python-watchgod
 python-whatever
 python-wsproto
-python-wstool
 python-yappi
 renderdoc
 sagemath
