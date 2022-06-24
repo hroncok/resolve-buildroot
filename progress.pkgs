@@ -3,6 +3,7 @@ Zim
 arbor
 awscli
 python-pycha
+cozy
 d-feet
 datagrepper
 datanommer-commands
@@ -65,6 +66,7 @@ dlib
 python-eccodes
 python-engineio
 python-filecheck
+python-flask-security-too
 folly
 gfal2-python
 python-haversion
@@ -97,7 +99,6 @@ opentrep
 python-pathvalidate
 pcp
 python-pdir2
-python-peewee
 python-precis_i18n
 python-profilehooks
 python-proto-plus
@@ -140,6 +141,7 @@ uwsgi
 python-watchgod
 python-whatever
 python-wsproto
+python-wtf-peewee
 python-yappi
 renderdoc
 sagemath
