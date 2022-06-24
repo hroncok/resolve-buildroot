@@ -2,6 +2,7 @@ PyMca
 Zim
 arbor
 awscli
+bodhi-server
 python-pycha
 d-feet
 datagrepper
@@ -18,8 +19,10 @@ lldb
 module-build
 monkeytype
 nyx
+odcs
 opae
 openvswitch
+oraculum
 paternoster
 photoqt
 piper
@@ -85,11 +88,9 @@ litecli
 m2crypto
 python-mailer
 python-marathon
-python-mechanize
 python-migen
 python-mox3
 python-mplcairo
-python-mplcursors
 python-multiprocess
 python-murano-pkg-check
 python-nipy
@@ -126,7 +127,6 @@ python-rx
 python-scikit-learn
 python-sciunit
 python-sendgrid
-python-serpent
 python-socks
 python-spnego
 python-sqlobject
