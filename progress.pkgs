@@ -14,7 +14,6 @@ gnome-passwordsafe
 gplugin
 home-assistant-cli
 python-hyperkitty
-jrnl
 lldb
 module-build
 monkeytype
@@ -27,7 +26,6 @@ pgcli
 photoqt
 pre-commit
 profanity
-psi4
 python-parsimonious
 python-proteus
 APLpy
@@ -67,7 +65,6 @@ python-filecheck
 folly
 gfal2-python
 python-haversion
-python-httpsig-cffi
 python-hypothesmith
 python-insteon
 python-javabridge
@@ -77,13 +74,11 @@ python-linux-procfs
 liquidctl
 litecli
 m2crypto
-python-marathon
 python-migen
 python-mox3
 python-mplcairo
 python-multiprocess
 python-murano-pkg-check
-python-nipy
 python-nmrglue
 python-nudepy
 python-octave-kernel
@@ -128,10 +123,9 @@ trademgen
 python-txaio
 python-unicodecsv
 python-unicodedata2
+python-uvicorn
 uwsgi
-python-watchgod
 python-whatever
-python-wsproto
 python-yappi
 renderdoc
 sagemath
