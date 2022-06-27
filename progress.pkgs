@@ -17,10 +17,12 @@ python-hyperkitty
 lldb
 module-build
 monkeytype
+mycli
 nyx
 opae
 openvswitch
 paternoster
+pgcli
 photoqt
 pitivi
 pre-commit
@@ -41,7 +43,6 @@ python-autopep8
 python-avocado
 python-azure-servicebus
 python-backrefs
-python-behave
 python-bitcoinlib
 python-bitstruct
 python-blackbird
@@ -62,7 +63,6 @@ python-djvulibre
 dlib
 python-eccodes
 python-engineio
-python-ephyviewer
 python-filecheck
 folly
 gfal2-python
@@ -72,8 +72,6 @@ python-hypothesmith
 python-insteon
 python-javabridge
 python-jep
-python-kafka
-dtc
 libkdtree++
 python-linux-procfs
 liquidctl
@@ -124,7 +122,6 @@ python-stackprinter
 python-statsmodels
 python-steps
 python-structlog
-python-tackerclient
 python-tcxparser
 python-TestSlide
 python-theano
