@@ -36,12 +36,10 @@ python-aioopenssl
 python-aiosasl
 python-altgraph
 python-animatplot
-python-astropy
 python-asyncio-dgram
 atomic-reactor
 python-autopep8
 python-avocado
-python-azure-servicebus
 python-backrefs
 python-bitcoinlib
 python-bitstruct
@@ -52,7 +50,6 @@ python-cachez
 python-cartopy
 python-catkin_lint
 python-catkin_tools
-python-ccdproc
 python-cchardet
 cjdns
 conda
@@ -63,16 +60,13 @@ python-django-extensions
 python-django-uuslug
 python-djvulibre
 dlib
-python-earthpy
 python-engineio
 python-filecheck
 folly
 gfal2-python
-python-glymur
 python-google-cloud-bigquery
 python-haversion
 python-hypothesmith
-python-imagehash
 python-insteon
 python-javabridge
 python-jep
