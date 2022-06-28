@@ -2,6 +2,7 @@ PyMca
 Zim
 arbor
 awscli
+blender
 python-pycha
 d-feet
 datagrepper
@@ -9,7 +10,6 @@ datanommer-commands
 domoticz
 fail2ban
 fapolicyd
-gajim
 gitg
 gnome-passwordsafe
 gplugin
