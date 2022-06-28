@@ -1,9 +1,0 @@
-diff --git a/python-google-api-core.spec b/python-google-api-core.spec
-index 66eca01..dedf1a7 100644
---- a/python-google-api-core.spec
-+++ b/python-google-api-core.spec
-@@ -1,3 +1,4 @@
-+%global _without_tests 1
- # F35: Do not update past 2.8.0 because Fedora 35's protobuf is too old.
- 
- # Enable tests by default.
