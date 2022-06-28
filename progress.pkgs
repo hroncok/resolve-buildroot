@@ -9,6 +9,7 @@ datanommer-commands
 domoticz
 fail2ban
 fapolicyd
+gajim
 gitg
 gnome-passwordsafe
 gplugin
@@ -80,7 +81,6 @@ python-mox3
 python-mplcairo
 python-multiprocess
 python-murano-pkg-check
-python-nbxmpp
 python-nudepy
 python-octave-kernel
 openshadinglanguage
