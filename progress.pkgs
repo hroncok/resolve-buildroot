@@ -67,9 +67,7 @@ folly
 gfal2-python
 python-google-cloud-asset
 python-google-cloud-bigquery
-python-google-cloud-containeranalysis
 python-google-cloud-debugger-client
-python-google-cloud-filestore
 python-haversion
 python-hypothesmith
 python-insteon
