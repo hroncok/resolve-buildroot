@@ -54,6 +54,7 @@ python-cchardet
 cjdns
 conda
 python-contextlib2
+python-cu2qu
 root
 python-django-extensions
 python-django-uuslug
@@ -79,16 +80,14 @@ python-mox3
 python-mplcairo
 python-multiprocess
 python-murano-pkg-check
-python-nmrglue
+python-nbxmpp
 python-nudepy
 python-octave-kernel
-openmeeg
 openshadinglanguage
 opentrep
 python-pathvalidate
 pcp
 python-pdir2
-python-precis_i18n
 python-profilehooks
 python-proto-plus
 python-py-gfm
@@ -122,7 +121,6 @@ python-theano
 trademgen
 python-txaio
 python-unicodecsv
-python-unicodedata2
 python-uvicorn
 uwsgi
 python-whatever
