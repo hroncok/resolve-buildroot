@@ -63,7 +63,7 @@ dlib
 python-engineio
 python-filecheck
 folly
-python-fslpy
+python-fsleyes-props
 gfal2-python
 python-google-cloud-bigquery
 python-haversion
