@@ -63,6 +63,7 @@ dlib
 python-engineio
 python-filecheck
 folly
+python-fslpy
 gfal2-python
 python-google-cloud-bigquery
 python-haversion
@@ -116,7 +117,6 @@ python-tcxparser
 python-TestSlide
 python-theano
 trademgen
-python-trimesh
 python-txaio
 python-unicodecsv
 python-uvicorn
