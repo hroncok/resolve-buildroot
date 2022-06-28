@@ -92,7 +92,8 @@ if __name__ == '__main__':
             run('git', '-C', repopath, 'commit', '--allow-empty', f'{component_name}.spec', '-m', message, '--author', AUTHOR)
             run('git', '-C', repopath, 'push')
 
-        cp = run('fedpkg', 'build', '--fail-fast', '--nowait', '--background', '--target', TARGET, cwd=repopath)
+        # XXX removed --background when the rate of builds was slow, make it configurable
+        cp = run('fedpkg', 'build', '--fail-fast', '--nowait', '--target', TARGET, cwd=repopath)
         print(cp.stdout, file=sys.stderr)
         # XXX prune this directory becasue we don't want no thousands clones?
         # maybe we are not gonna need this?
