@@ -1,5 +1,6 @@
 import pathlib
 import sys
+from datetime import datetime
 
 # this module reuses bconds functions heavily
 # XXX move to a common module?
@@ -55,6 +56,14 @@ if __name__ == '__main__':
 
         # Bump and commit only if we haven't already, XXX ability to force this
         bump = run('git', '-C', repopath, 'diff', '--no-ext-diff', '--quiet', '--exit-code', check=False).returncode != 0
+        if not bump:
+            # commits older than our rebuild are not interesting to us
+            datetimestr = run('git', '-C', repopath, 'log', '-1', '--format=%cd').stdout.strip()
+            fdate = '%a %b %d %H:%M:%S %Y %z'
+            commit_datetime = datetime.strptime(datetimestr, fdate)
+            mass_rebuild_datetime = datetime.strptime('Mon Jun 13 11:23:37 2022 +0200', fdate)
+            if commit_datetime < mass_rebuild_datetime:
+                bump = True
         if not bump:
             verrel = run('fedpkg', 'verrel', cwd=repopath).stdout.rstrip()
             buildinfo_proc = run('koji', 'buildinfo', verrel, cwd=repopath, check=False)
