@@ -22,6 +22,7 @@ mycli
 nyx
 opae
 openvswitch
+paraview
 paternoster
 pgcli
 photoqt
@@ -38,7 +39,6 @@ python-altgraph
 python-animatplot
 python-asyncio-dgram
 atomic-reactor
-python-autobahn
 python-autopep8
 python-avocado
 python-backrefs
