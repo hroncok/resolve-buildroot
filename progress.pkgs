@@ -38,6 +38,7 @@ python-altgraph
 python-animatplot
 python-asyncio-dgram
 atomic-reactor
+python-autobahn
 python-autopep8
 python-avocado
 python-backrefs
@@ -99,7 +100,6 @@ pyodbc
 python-pyshtools
 python-pyside2
 rmol
-python-rmtest
 python-rpm-head-signing
 python-rx
 python-scikit-learn
@@ -116,7 +116,6 @@ python-tcxparser
 python-TestSlide
 python-theano
 trademgen
-python-txaio
 python-unicodecsv
 python-uvicorn
 uwsgi
