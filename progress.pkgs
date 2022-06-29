@@ -18,7 +18,6 @@ python-hyperkitty
 lldb
 module-build
 monkeytype
-mycli
 nyx
 opae
 openvswitch
@@ -50,7 +49,6 @@ python-blackbird
 python-bloom
 python-brother
 python-cachez
-python-cartopy
 python-catkin_lint
 python-catkin_tools
 python-cchardet
@@ -95,6 +93,7 @@ py4j
 python-pycountry
 python-pyduofern
 python-pyghmi
+pygrib
 python-pynetdicom
 python-pynn
 python-pyshtools
