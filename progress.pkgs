@@ -85,6 +85,7 @@ python-nudepy
 python-octave-kernel
 openshadinglanguage
 opentrep
+python-pandas
 python-pathvalidate
 pcp
 python-pdir2
@@ -96,7 +97,6 @@ python-pyduofern
 python-pyghmi
 python-pynetdicom
 python-pynn
-pyodbc
 python-pyshtools
 python-pyside2
 rmol
@@ -107,9 +107,9 @@ python-sciunit
 python-sendgrid
 python-socks
 python-spnego
+python-spyking-circus
 python-sqlobject
 python-stackprinter
-python-statsmodels
 python-steps
 python-structlog
 python-tcxparser
