@@ -32,7 +32,9 @@ python-parsimonious
 python-proteus
 APLpy
 python-Pympler
-python-agate
+python-agate-dbf
+python-agate-excel
+python-agate-sql
 python-aioopenssl
 python-aiosasl
 python-altgraph
@@ -65,7 +67,6 @@ python-engineio
 python-filecheck
 folly
 gfal2-python
-python-google-cloud-bigquery
 python-haversion
 python-hypothesmith
 python-insteon
@@ -85,7 +86,6 @@ python-nudepy
 python-octave-kernel
 openshadinglanguage
 opentrep
-python-pandas
 python-pathvalidate
 pcp
 python-pdir2
@@ -107,7 +107,6 @@ python-sciunit
 python-sendgrid
 python-socks
 python-spnego
-python-spyking-circus
 python-sqlobject
 python-stackprinter
 python-steps
