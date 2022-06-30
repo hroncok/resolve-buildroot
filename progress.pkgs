@@ -7,6 +7,7 @@ python-pycha
 d-feet
 datagrepper
 datanommer-commands
+python-dcrpm
 domoticz
 fail2ban
 fapolicyd
@@ -30,9 +31,6 @@ python-parsimonious
 python-proteus
 APLpy
 python-Pympler
-python-agate-dbf
-python-agate-excel
-python-agate-sql
 python-aioopenssl
 python-aiosasl
 python-altgraph
@@ -78,7 +76,6 @@ python-migen
 python-mox3
 python-mplcairo
 python-multiprocess
-python-murano-pkg-check
 python-nudepy
 python-octave-kernel
 openshadinglanguage
@@ -110,12 +107,10 @@ python-stackprinter
 python-steps
 python-structlog
 python-tcxparser
-python-TestSlide
 python-theano
 trademgen
 python-unicodecsv
 python-uvicorn
-uwsgi
 python-whatever
 python-yappi
 renderdoc
