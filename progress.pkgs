@@ -21,7 +21,6 @@ monkeytype
 nyx
 opae
 openvswitch
-paraview
 paternoster
 pgcli
 photoqt
@@ -93,7 +92,7 @@ py4j
 python-pycountry
 python-pyduofern
 python-pyghmi
-pygrib
+python-pyls_black
 python-pynetdicom
 python-pynn
 python-pyshtools
