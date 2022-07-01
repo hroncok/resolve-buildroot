@@ -11,12 +11,12 @@ python-dcrpm
 domoticz
 fail2ban
 fapolicyd
+freecad
 gitg
 gnome-passwordsafe
 gplugin
 home-assistant-cli
 python-hyperkitty
-lldb
 module-build
 monkeytype
 nyx
@@ -71,6 +71,7 @@ libkdtree++
 python-linux-procfs
 liquidctl
 litecli
+luxcorerender
 m2crypto
 python-migen
 python-mox3
@@ -88,12 +89,13 @@ python-py-gfm
 py4j
 python-pycountry
 python-pyduofern
+python-pyface::bootstrap:::
 python-pyghmi
 python-pyls_black
 python-pynetdicom
 python-pynn
 python-pyshtools
-python-pyside2
+python-qdarkstyle
 rmol
 python-rpm-head-signing
 python-rx
