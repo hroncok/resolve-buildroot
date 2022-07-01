@@ -89,13 +89,11 @@ python-py-gfm
 py4j
 python-pycountry
 python-pyduofern
-python-pyface::bootstrap:::
 python-pyghmi
 python-pyls_black
 python-pynetdicom
 python-pynn
 python-pyshtools
-python-qdarkstyle
 rmol
 python-rpm-head-signing
 python-rx
@@ -111,6 +109,7 @@ python-structlog
 python-tcxparser
 python-theano
 trademgen
+python-traitsui
 python-unicodecsv
 python-uvicorn
 python-whatever
