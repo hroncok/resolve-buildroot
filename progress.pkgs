@@ -31,6 +31,7 @@ python-parsimonious
 python-proteus
 APLpy
 python-Pympler
+python-Traits
 python-aioopenssl
 python-aiosasl
 python-altgraph
@@ -59,6 +60,7 @@ python-django-uuslug
 python-djvulibre
 dlib
 python-engineio
+python-envisage
 python-filecheck
 folly
 gfal2-python
@@ -89,6 +91,7 @@ python-py-gfm
 py4j
 python-pycountry
 python-pyduofern
+python-pyface
 python-pyghmi
 python-pyls_black
 python-pynetdicom
@@ -109,7 +112,6 @@ python-structlog
 python-tcxparser
 python-theano
 trademgen
-python-traitsui
 python-unicodecsv
 python-uvicorn
 python-whatever

@@ -1,9 +1,0 @@
-diff --git a/python-pyface.spec b/python-pyface.spec
-index 2010f92..fad5aaf 100644
---- a/python-pyface.spec
-+++ b/python-pyface.spec
-@@ -1,3 +1,4 @@
-+%global _with_bootstrap 1
- # When we are bootstrapping, we drop some dependencies, and/or build time tests.
- %bcond_with bootstrap
- 
