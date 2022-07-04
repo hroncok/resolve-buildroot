@@ -1,4 +1,3 @@
-NiaAML-GUI
 PyMca
 Zim
 arbor
@@ -27,7 +26,6 @@ pre-commit
 profanity
 python-parsimonious
 python-proteus
-python-EvoPreprocess
 python-Pympler
 python-aioopenssl
 python-aiosasl
@@ -54,7 +52,6 @@ python-django-extensions
 python-django-uuslug
 python-djvulibre
 dlib
-python-elephant
 python-engineio
 python-filecheck
 folly
@@ -81,13 +78,13 @@ python-nudepy
 python-octave-kernel
 openshadinglanguage
 opentrep
+python-paperwork-backend
 python-pathvalidate
 pcp
 python-pdir2
 python-profilehooks
 python-py-gfm
 py4j
-python-pycountry
 python-pyduofern
 python-pyghmi
 python-pyls_black
@@ -96,12 +93,12 @@ python-pyshtools
 rmol
 python-rpm-head-signing
 python-rx
-python-sciunit
 python-sendgrid
 python-spnego
 python-sqlobject
 python-stackprinter
 python-steps
+python-streamlink
 python-structlog
 python-tcxparser
 python-theano
@@ -117,6 +114,7 @@ snakemake
 sshuttle
 systemtap
 tiled
+translate-toolkit
 trellis
 trytond
 trytond-account
