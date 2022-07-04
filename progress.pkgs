@@ -73,10 +73,10 @@ luxcorerender
 m2crypto
 python-matrix-nio
 python-migen
+python-mne
 python-mox3
 python-mplcairo
 python-multiprocess
-python-nilearn
 python-nudepy
 python-octave-kernel
 openshadinglanguage
