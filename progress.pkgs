@@ -1,3 +1,4 @@
+NiaAML-GUI
 PyMca
 Zim
 arbor
@@ -26,6 +27,7 @@ pre-commit
 profanity
 python-parsimonious
 python-proteus
+python-EvoPreprocess
 python-Pympler
 python-aioopenssl
 python-aiosasl
@@ -44,12 +46,9 @@ python-cachez
 python-catkin_lint
 python-catkin_tools
 python-cchardet
-python-chaospy
 cjdns
 conda
 python-contextlib2
-python-contextualbandits
-python-cro
 python-cu2qu
 python-django-extensions
 python-django-uuslug
@@ -59,11 +58,9 @@ python-elephant
 python-engineio
 python-filecheck
 folly
-python-geopandas
 gfal2-python
 python-haversion
 python-hypothesmith
-python-imbalanced-learn
 python-insteon
 python-javabridge
 python-jep
@@ -79,7 +76,6 @@ python-migen
 python-mox3
 python-mplcairo
 python-multiprocess
-python-niaaml
 python-nilearn
 python-nudepy
 python-octave-kernel
@@ -88,7 +84,6 @@ opentrep
 python-pathvalidate
 pcp
 python-pdir2
-python-pingouin
 python-profilehooks
 python-py-gfm
 py4j
@@ -101,11 +96,8 @@ python-pyshtools
 rmol
 python-rpm-head-signing
 python-rx
-python-scikit-uplift
 python-sciunit
 python-sendgrid
-python-sklearn-genetic-opt
-python-sklearn-nature-inspired-algorithms
 python-spnego
 python-sqlobject
 python-stackprinter
