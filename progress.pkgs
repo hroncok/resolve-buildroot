@@ -1,6 +1,5 @@
 PyMca
 Zim
-arbor
 awscli
 blender
 python-pycha
@@ -21,7 +20,6 @@ opae
 openvswitch
 paternoster
 pgcli
-photoqt
 pre-commit
 profanity
 python-parsimonious
@@ -69,16 +67,15 @@ litecli
 luxcorerender
 m2crypto
 python-matrix-nio
-python-migen
 python-mne
 python-mox3
 python-mplcairo
-python-multiprocess
 python-nudepy
 python-octave-kernel
 openshadinglanguage
 opentrep
 python-paperwork-backend
+python-pathos
 python-pathvalidate
 pcp
 python-pdir2
@@ -94,11 +91,10 @@ rmol
 python-rpm-head-signing
 python-rx
 python-sendgrid
+python-sklearn-genetic
 python-spnego
 python-sqlobject
 python-stackprinter
-python-steps
-python-streamlink
 python-structlog
 python-tcxparser
 python-theano
@@ -114,8 +110,6 @@ snakemake
 sshuttle
 systemtap
 tiled
-translate-toolkit
-trellis
 trytond
 trytond-account
 trytond-account-be
@@ -160,5 +154,4 @@ trytond-stock-product-location
 trytond-stock-supply
 trytond-stock-supply-day
 trytond-timesheet
-virt-bootstrap
 python3-docs
