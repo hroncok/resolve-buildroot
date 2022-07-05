@@ -91,7 +91,6 @@ rmol
 python-rpm-head-signing
 python-rx
 python-sendgrid
-python-sklearn-genetic
 python-spnego
 python-sqlobject
 python-stackprinter
