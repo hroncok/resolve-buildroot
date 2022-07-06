@@ -74,7 +74,6 @@ python-nudepy
 python-octave-kernel
 openshadinglanguage
 opentrep
-python-paperwork-backend
 python-pathos
 python-pathvalidate
 pcp
@@ -83,13 +82,11 @@ python-profilehooks
 python-py-gfm
 py4j
 python-pyduofern
-python-pyghmi
 python-pyls_black
 python-pynetdicom
 python-pyshtools
 rmol
 python-rpm-head-signing
-python-rx
 python-sendgrid
 python-spnego
 python-sqlobject
