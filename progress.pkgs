@@ -44,7 +44,6 @@ conda
 python-contextlib2
 python-cu2qu
 python-django-extensions
-python-django-uuslug
 python-djvulibre
 dlib
 python-engineio
@@ -64,7 +63,6 @@ luxcorerender
 m2crypto
 python-matrix-nio
 python-mne
-python-molecule-docker
 python-mox3
 python-mplcairo
 python-nudepy
@@ -81,7 +79,6 @@ py4j
 python-pyduofern
 python-pyls_black
 python-pynetdicom
-python-pyscaffold
 python-pyshtools
 rmol
 python-rpm-head-signing
@@ -99,6 +96,7 @@ python-yappi
 renderdoc
 sigil
 snakemake
+spectrographic
 sshuttle
 systemtap
 tiled
