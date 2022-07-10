@@ -1,7 +1,6 @@
 PyMca
 Zim
 awscli
-blender
 python-pycha
 d-feet
 datagrepper
@@ -20,7 +19,6 @@ opae
 openvswitch
 paternoster
 pgcli
-pre-commit
 profanity
 python-parsimonious
 python-proteus
@@ -32,7 +30,6 @@ python-animatplot
 python-asyncio-dgram
 atomic-reactor
 python-avocado
-python-backrefs
 python-bitcoinlib
 python-bitstruct
 python-blackbird
@@ -61,13 +58,13 @@ python-javabridge
 python-jep
 python-language-server
 libkdtree++
-python-linux-procfs
 liquidctl
 litecli
 luxcorerender
 m2crypto
 python-matrix-nio
 python-mne
+python-molecule-docker
 python-mox3
 python-mplcairo
 python-nudepy
@@ -84,6 +81,7 @@ py4j
 python-pyduofern
 python-pyls_black
 python-pynetdicom
+python-pyscaffold
 python-pyshtools
 rmol
 python-rpm-head-signing
@@ -92,7 +90,6 @@ python-spnego
 python-sqlobject
 python-stackprinter
 python-structlog
-python-tcxparser
 python-theano
 trademgen
 python-unicodecsv
