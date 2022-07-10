@@ -68,7 +68,6 @@ python-mplcairo
 python-nudepy
 python-octave-kernel
 openshadinglanguage
-opentrep
 python-pathos
 python-pathvalidate
 pcp
@@ -80,7 +79,6 @@ python-pyduofern
 python-pyls_black
 python-pynetdicom
 python-pyshtools
-rmol
 python-rpm-head-signing
 python-sendgrid
 python-spnego
@@ -88,7 +86,6 @@ python-sqlobject
 python-stackprinter
 python-structlog
 python-theano
-trademgen
 python-unicodecsv
 python-uvicorn
 python-whatever
@@ -96,7 +93,6 @@ python-yappi
 renderdoc
 sigil
 snakemake
-spectrographic
 sshuttle
 systemtap
 tiled
