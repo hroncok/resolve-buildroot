@@ -47,6 +47,8 @@ python-django-extensions
 python-djvulibre
 dlib
 python-engineio
+python-falcon
+python-fastapi
 python-filecheck
 folly
 gfal2-python
@@ -57,7 +59,6 @@ python-javabridge
 python-jep
 python-language-server
 libkdtree++
-liquidctl
 litecli
 luxcorerender
 m2crypto
@@ -69,8 +70,6 @@ python-nudepy
 python-octave-kernel
 openshadinglanguage
 python-pathos
-python-pathvalidate
-pcp
 python-pdir2
 python-profilehooks
 python-py-gfm
@@ -87,7 +86,6 @@ python-stackprinter
 python-structlog
 python-theano
 python-unicodecsv
-python-uvicorn
 python-whatever
 python-yappi
 renderdoc
