@@ -10,7 +10,6 @@ fail2ban
 fapolicyd
 gitg
 gnome-passwordsafe
-gplugin
 home-assistant-cli
 python-hyperkitty
 module-build
@@ -23,6 +22,7 @@ profanity
 python-parsimonious
 python-proteus
 python-Pympler
+python-SALib
 python-aioopenssl
 python-aiosasl
 python-altgraph
@@ -58,7 +58,6 @@ python-insteon
 python-javabridge
 python-jep
 python-language-server
-libkdtree++
 litecli
 luxcorerender
 m2crypto
@@ -69,7 +68,6 @@ python-mplcairo
 python-nudepy
 python-octave-kernel
 openshadinglanguage
-python-pathos
 python-pdir2
 python-profilehooks
 python-py-gfm
@@ -82,7 +80,6 @@ python-rpm-head-signing
 python-sendgrid
 python-spnego
 python-sqlobject
-python-stackprinter
 python-structlog
 python-theano
 python-unicodecsv
@@ -92,7 +89,6 @@ renderdoc
 sigil
 snakemake
 sshuttle
-systemtap
 tiled
 trytond
 trytond-account
