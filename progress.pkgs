@@ -15,14 +15,12 @@ python-hyperkitty
 module-build
 monkeytype
 opae
-openvswitch
 paternoster
 pgcli
 profanity
 python-parsimonious
 python-proteus
 python-Pympler
-python-SALib
 python-aioopenssl
 python-aiosasl
 python-altgraph
@@ -67,7 +65,6 @@ python-mox3
 python-mplcairo
 python-nudepy
 python-octave-kernel
-openshadinglanguage
 python-pdir2
 python-profilehooks
 python-py-gfm
