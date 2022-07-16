@@ -54,7 +54,6 @@ python-insteon
 python-javabridge
 python-jep
 python-language-server
-python-libcst
 litecli
 luxcorerender
 m2crypto
