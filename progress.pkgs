@@ -1,5 +1,4 @@
 Zim
-awscli
 python-pycha
 datagrepper
 datanommer-commands
@@ -13,6 +12,7 @@ module-build
 monkeytype
 opae
 paternoster
+pcl
 pgcli
 profanity
 python-parsimonious
@@ -49,9 +49,9 @@ m2crypto
 python-matrix-nio
 python-mne
 python-mox3
-python-mplcairo
 python-nudepy
 python-octave-kernel
+python-pep621
 python-profilehooks
 py-bcrypt
 python-py-gfm
@@ -72,7 +72,6 @@ python-yappi
 renderdoc
 sigil
 snakemake
-sshuttle
 tiled
 trytond
 trytond-account
