@@ -47,7 +47,6 @@ python-language-server
 litecli
 m2crypto
 python-matrix-nio
-python-mne
 python-mox3
 python-nudepy
 python-octave-kernel
@@ -71,8 +70,8 @@ python-whatever
 python-yappi
 renderdoc
 sigil
-snakemake
 tiled
+tryton
 trytond
 trytond-account
 trytond-account-be
