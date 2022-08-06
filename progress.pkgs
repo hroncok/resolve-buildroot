@@ -1,4 +1,4 @@
-Zim
+ansible-collections-openstack
 python-pycha
 datagrepper
 datanommer-commands
@@ -15,7 +15,6 @@ paternoster
 pcl
 pgcli
 profanity
-python-parsimonious
 python-proteus
 python-Pympler
 python-aioopenssl
@@ -24,11 +23,11 @@ python-altgraph
 python-animatplot
 python-asyncio-dgram
 python-avocado
+bind
 python-bitstruct
 python-blackbird
 python-brother
 python-cachez
-python-catkin_lint
 python-cchardet
 cjdns
 python-contextlib2
@@ -116,4 +115,5 @@ trytond-stock-product-location
 trytond-stock-supply
 trytond-stock-supply-day
 trytond-timesheet
+zuul
 python3-docs
