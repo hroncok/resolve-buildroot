@@ -13,14 +13,12 @@ monkeytype
 opae
 paternoster
 pcl
-pgcli
 profanity
 python-proteus
 python-Pympler
 python-aioopenssl
 python-aiosasl
 python-altgraph
-python-animatplot
 python-asyncio-dgram
 python-avocado
 bind
@@ -63,9 +61,9 @@ python-sendgrid
 python-spnego
 python-sqlobject
 python-structlog
-python-theano
 python-unicodecsv
 python-whatever
+python-xbout
 python-yappi
 renderdoc
 sigil
