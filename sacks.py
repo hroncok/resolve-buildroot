@@ -48,6 +48,7 @@ def _base(repo_key):
     """
     base = dnf.Base()
     conf = base.conf
+    conf.arch = ARCH
     conf.cachedir = DNF_CACHEDIR
     conf.substitutions['releasever'] = 'rawhide'
     conf.substitutions['basearch'] = ARCH
