@@ -116,6 +116,7 @@ PACKAGES_BCONDS = {
     'python-proto-plus': [{'withouts': ['tests']}],
     'python-networkx': [{'withs': ['bootstrap']}],
     'python-lxml': [{'withouts': ['buildrequire_extras']}],
+    'python-constantly': [{'withouts': ['tests']}],
 }
 reverse_id_lookup = {}
 
