@@ -8,9 +8,9 @@ from utils import log
 
 # XXX we need an interface to set this, not constants
 OLD_DEPS = (
-    'python(abi) = 3.10',
-    'libpython3.10.so.1.0()(64bit)',
-    'libpython3.10d.so.1.0()(64bit)',
+    'python(abi) = 3.9',
+    'libpython3.9.so.1.0()(64bit)',
+    'libpython3.9d.so.1.0()(64bit)',
 )
 NEW_DEPS = (
     'python(abi) = 3.11',
@@ -18,12 +18,11 @@ NEW_DEPS = (
     'libpython3.11d.so.1.0()(64bit)',
 )
 EXCLUDED_COMPONENTS = (
+    'python3.9',
     'python3.10',
     'python3.11',
 )
-EXTRA_COMPONENTS = (
-    'python3-docs',
-)
+EXTRA_COMPONENTS = tuple()
 
 
 class ReverseLookupDict(collections.defaultdict):

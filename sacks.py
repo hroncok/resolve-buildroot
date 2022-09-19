@@ -5,10 +5,11 @@ import dnf
 from utils import log
 
 DNF_CACHEDIR = '_dnf_cache_dir'
-ARCH = 'x86_64'
-MULTILIB = {'x86_64': 'i686'}  # architectures to exclude in certain queries
+ARCH = 'riscv64'
+MULTILIB = {}  # architectures to exclude in certain queries
 METALINK = 'https://mirrors.fedoraproject.org/metalink'
 KOJI = 'http://kojipkgs.fedoraproject.org'
+KOJI_RISCV = 'http://fedora.riscv.rocks'
 COPR = 'https://copr-be.cloud.fedoraproject.org'
 
 
@@ -17,7 +18,7 @@ REPOS = {
         {
             'repoid': 'rawhide',
             # 'metalink': f'{METALINK}?repo=rawhide&arch=$basearch',
-            'baseurl': [f'{KOJI}/repos/rawhide/latest/$basearch/'],
+            'baseurl': [f'{KOJI_RISCV}/repos/f37-build/70264/$basearch/'],
             'metadata_expire': 60*60*24*365,
         },
         {
@@ -32,7 +33,7 @@ REPOS = {
         {
             'repoid': 'python3.11',
             #'baseurl': [f'{COPR}/results/@python/python3.11/fedora-rawhide-$basearch/'],
-            'baseurl': [f'{KOJI}/repos/rawhide/latest/$basearch/'],
+            'baseurl': [f'{KOJI_RISCV}/repos/f37-build/latest/$basearch/'],
             'metadata_expire': 60,
         },
     ),
@@ -48,6 +49,7 @@ def _base(repo_key):
     """
     base = dnf.Base()
     conf = base.conf
+    conf.arch = ARCH
     conf.cachedir = DNF_CACHEDIR
     conf.substitutions['releasever'] = 'rawhide'
     conf.substitutions['basearch'] = ARCH
