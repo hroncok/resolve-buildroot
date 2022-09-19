@@ -12,7 +12,7 @@ KOJI_ARCH = 'x86_64'
 KOJI_ID_FILENAME = 'koji.id'
 
 FEDPKG_CACHEDIR = pathlib.Path('_fedpkg_cache_dir')
-DEFAULT_BRANCH = 'rawhide'
+DEFAULT_BRANCH = 'f37'
 
 PATCHDIR = pathlib.Path('patches_dir')
 

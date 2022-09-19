@@ -13,7 +13,7 @@ from bconds import PACKAGES_BCONDS, reverse_id_lookup, build_reverse_id_lookup
 REBUILT_MESSAGE = 'Rebuilt for Python 3.11'
 BOOTSTRAP_MESSAGE = 'Bootstrap for Python 3.11'
 AUTHOR = 'Python Maint <python-maint@redhat.com>'
-TARGET = 'rawhide'
+TARGET = 'f37'
 
 if __name__ == '__main__':
     try:
@@ -23,6 +23,7 @@ if __name__ == '__main__':
 
         bootstrap = None
         if ':' in component_name:
+            raise NotImplementedError('not yet ready for riscv')
             build_reverse_id_lookup()
             bootstrap = reverse_id_lookup[component_name]
             component_name, *_ = component_name.partition(':')
@@ -40,6 +41,7 @@ if __name__ == '__main__':
         # Find any patches from previous bootstrap builds
         patch = PATCHDIR / f'{component_name}.patch'
         if patch.exists():
+            raise NotImplementedError('not yet ready for riscv')
             if bootstrap:
                 raise NotImplementedError('Double bootstrap is not yet supported')
             with patch.open('r') as patchfile:
@@ -47,6 +49,7 @@ if __name__ == '__main__':
             patch.unlink()
 
         if bootstrap:
+            raise NotImplementedError('not yet ready for riscv')
             message = BOOTSTRAP_MESSAGE
             patch_spec(specpath, bootstrap)
             diff = run('git', '-C', repopath, 'diff').stdout
@@ -54,46 +57,12 @@ if __name__ == '__main__':
         else:
             message = REBUILT_MESSAGE
 
-        # Bump and commit only if we haven't already, XXX ability to force this
-        bump = run('git', '-C', repopath, 'diff', '--no-ext-diff', '--quiet', '--exit-code', check=False).returncode != 0
-        if not bump:
-            # commits older than our rebuild are not interesting to us
-            datetimestr = run('git', '-C', repopath, 'log', '-1', '--format=%cd').stdout.strip()
-            fdate = '%a %b %d %H:%M:%S %Y %z'
-            commit_datetime = datetime.strptime(datetimestr, fdate)
-            mass_rebuild_datetime = datetime.strptime('Mon Jun 13 11:23:37 2022 +0200', fdate)
-            if commit_datetime < mass_rebuild_datetime:
-                bump = True
-        if not bump:
-            verrel = run('fedpkg', 'verrel', cwd=repopath).stdout.rstrip()
-            buildinfo_proc = run('koji', 'buildinfo', verrel, cwd=repopath, check=False)
-            buildinfo_lines = buildinfo_proc.stdout.splitlines()
-            if buildinfo_proc.returncode != 0:  # this has never been built
-                bump = False
-            elif 'State: FAILED' in buildinfo_lines:
-                bump = False
-            elif 'State: COMPLETE' in buildinfo_lines:
-                for line in buildinfo_lines:
-                    if line.startswith('Task: '):
-                        task_id = int(line.split(' ')[1])
-                        if task_id >= 88485063:  # first 3.11 rebuild after side tag merge
-                            print(buildinfo_proc.stdout, file=sys.stderr)
-                            raise RuntimeError('This appears to be already rebuilt with 3.11, investigate')
-                        bump = True
-                        break
-                else:
-                    print(buildinfo_proc.stdout, file=sys.stderr)
-                    raise RuntimeError('Not sure if bump is needed, investigate')
-            else:
-                print(buildinfo_proc.stdout, file=sys.stderr)
-                raise RuntimeError('Not sure if bump is needed, investigate')
-        if bump:
-            run('rpmdev-bumpspec', '-c', message, '--userstring', AUTHOR, specpath)
-            run('git', '-C', repopath, 'commit', '--allow-empty', f'{component_name}.spec', '-m', message, '--author', AUTHOR)
-            run('git', '-C', repopath, 'push')
+        commit_hash = run('git', '-C', repopath, 'rev-pasre', 'HEAD').stdout.strip()
 
         # XXX removed --background when the rate of builds was slow, make it configurable
-        cp = run('fedpkg', 'build', '--fail-fast', '--nowait', '--target', TARGET, cwd=repopath)
+        cp = run('koji', '--config=~/.koji/riscv.conf', '--profile=riscv',
+                 'build', TARGET, '--fail-fast', '--nowait',
+                 f'git+http://fedora.riscv.rocks:3000/rpms/{component_name}.git#{commit_hash}', cwd=repopath)
         print(cp.stdout, file=sys.stderr)
         # XXX prune this directory becasue we don't want no thousands clones?
         # maybe we are not gonna need this?
