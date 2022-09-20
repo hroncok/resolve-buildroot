@@ -1,4 +1,3 @@
-appliance-tools
 b43-tools
 bluefish
 chrome-gnome-shell
@@ -17,7 +16,6 @@ libkdumpfile
 libsearpc
 libsigrokdecode
 link-grammar
-meson
 mirage
 ninja-build
 omniORB
@@ -116,6 +114,7 @@ python-ptrace
 libpwquality
 py-radix
 pyaudio
+pybind11:tests::::
 pybox2d
 python-pycdio
 python-chm
@@ -132,7 +131,6 @@ pyparted
 sip
 pyscard
 pysvn
-python-pytest-metadata
 pythia8
 pyxattr
 python-qrencode
@@ -169,7 +167,6 @@ unbound
 python-uptime
 python-urwid
 python-utmp
-python-zope-event
 python-zope-i18nmessageid
 python-zstd
 rdiff-backup
