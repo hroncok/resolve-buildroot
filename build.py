@@ -58,16 +58,16 @@ if __name__ == '__main__':
             message = REBUILT_MESSAGE
 
         commit_hash = run('git', '-C', repopath, 'rev-pasre', 'HEAD').stdout.strip()
-        run('git', '-C', repopath, 'remote', 'add',
-            'riscv', f'git@fedora.riscv.rocks:rpms/{component_name}.git',
-            check=False)
-        run('git', '-C', repopath, 'push', 'riscv', DEFAULT_BRANCH,
-            check=False)
+        latest_nvr = run('koji', '--config=~/.koji/riscv.conf', '--profile=riscv',
+                         'list-tagged', '--quiet',
+                         '--latest', 'f37', component_name).stdout.strip().split(' ')[0]
+        if '.riscv' in latest_nvr:
+            raise NotImplementedError(f'{component_name} needs to be built from a riscv branch')
 
         # XXX removed --background when the rate of builds was slow, make it configurable
         cp = run('koji', '--config=~/.koji/riscv.conf', '--profile=riscv',
                  'build', TARGET, '--fail-fast', '--nowait',
-                 f'git+http://fedora.riscv.rocks:3000/rpms/{component_name}.git#{commit_hash}', cwd=repopath)
+                 f'git+https://src.fedoraproject.org/rpms/{component_name}.git#{commit_hash}', cwd=repopath)
         print(cp.stdout, file=sys.stderr)
         # XXX prune this directory becasue we don't want no thousands clones?
         # maybe we are not gonna need this?
