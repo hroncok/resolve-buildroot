@@ -366,7 +366,6 @@ photocollage
 pipenv
 piper
 pipx
-pitivi
 playitagainsam
 pmbootstrap
 podman-compose
