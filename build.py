@@ -4,7 +4,7 @@ from datetime import datetime
 
 # this module reuses bconds functions heavily
 # XXX move to a common module?
-from bconds import FEDPKG_CACHEDIR, clone_into, refresh_gitrepo, patch_spec, run, PATCHDIR
+from bconds import FEDPKG_CACHEDIR, clone_into, refresh_gitrepo, patch_spec, run, PATCHDIR, DEFAULT_BRANCH
 
 # the following bcond things actually do stay there
 from bconds import PACKAGES_BCONDS, reverse_id_lookup, build_reverse_id_lookup
@@ -58,6 +58,11 @@ if __name__ == '__main__':
             message = REBUILT_MESSAGE
 
         commit_hash = run('git', '-C', repopath, 'rev-pasre', 'HEAD').stdout.strip()
+        run('git', '-C', repopath, 'remote', 'add',
+            'riscv', f'git@fedora.riscv.rocks:rpms/{component_name}.git',
+            check=False)
+        run('git', '-C', repopath, 'push', 'riscv', DEFAULT_BRANCH,
+            check=False)
 
         # XXX removed --background when the rate of builds was slow, make it configurable
         cp = run('koji', '--config=~/.koji/riscv.conf', '--profile=riscv',
