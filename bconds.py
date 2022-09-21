@@ -114,7 +114,7 @@ PACKAGES_BCONDS = {
     #'python-googleapis-common-protos': [{'withs': ['bootstrap']}],
     #'python-proto-plus': [{'withouts': ['tests']}],
     #'python-networkx': [{'withs': ['bootstrap']}],
-    #'python-lxml': [{'withouts': ['buildrequire_extras']}], -- to be merged
+    'python-lxml': [{'withouts': ['buildrequire_extras']}],
     #'python-constantly': [{'withouts': ['tests']}],
 }
 reverse_id_lookup = {}

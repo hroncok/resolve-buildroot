@@ -18,6 +18,7 @@ libnvme
 libproxy
 libselinux
 libsemanage
+python-lxml:buildrequire_extras::::
 med
 net-snmp
 numpy
