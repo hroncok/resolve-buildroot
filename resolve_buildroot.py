@@ -92,8 +92,8 @@ def resolve_requires(requires, ignore_weak_deps=True):
         selector = hawkey.Selector(sack).set(provides=dep)
         goal.install(select=selector)
     if not goal.run(ignore_weak_deps=ignore_weak_deps):
-        # goal.problem_rules() has the errors in case you want to inspect them
-        raise ValueError(f'Cannot resolve {stringify(requires)}')
+        raise ValueError(f'Cannot resolve {stringify(requires)}: '
+                         f'{stringify(stringify(p) for p in goal.problem_rules())}')
     if goal.list_upgrades() or goal.list_erasures():
         raise RuntimeError('Got packages to upgrade or erase, that should never happen.')
     log(f'to {len(goal.list_installs())} installs.')
