@@ -15,13 +15,11 @@ python-gssapi
 python-gstreamer1
 lasso
 python-libdiscid
-libmodulemd
 util-linux
 libnvme
 libproxy
 libunity
 med
-netcdf4-python
 portmidi
 pyicu
 scipy
@@ -34,4 +32,3 @@ sudo
 sugar-toolkit-gtk3
 syslog-ng
 thunarx-python
-vimiv
