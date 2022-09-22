@@ -2,7 +2,6 @@ chrome-gnome-shell
 link-grammar
 pacemaker
 kernel-tools
-PyQt4
 brltty
 btrfs-progs
 python-cradox
