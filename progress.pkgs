@@ -3,15 +3,12 @@ link-grammar
 python-brian2
 brltty
 btrfs-progs
-python-cheetah
 python-cypari2
-python-fpylll
 python-gstreamer1
 lasso
 python-libdiscid
 sssd
 librealsense
-python-maxminddb
 med
 python-pandas
 portmidi
@@ -20,7 +17,4 @@ python-pyrsistent
 rust-packaging
 scipy
 python-sendgrid
-python-sqlalchemy
-libtevent
-python-uamqp
 qpid-dispatch
