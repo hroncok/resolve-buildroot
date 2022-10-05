@@ -1,17 +1,12 @@
 abrt
 elements
-link-grammar
 kernel-tools
-brltty
 libkolabxml
 lasso
 python-libdiscid
 librealsense
-med
 nest
 openvdb
-portmidi
-scipy
 python-sendgrid
 setools
 subversion
