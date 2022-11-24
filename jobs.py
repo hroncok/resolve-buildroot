@@ -8,18 +8,18 @@ from utils import log
 
 # XXX we need an interface to set this, not constants
 OLD_DEPS = (
-    'python(abi) = 3.10',
-    'libpython3.10.so.1.0()(64bit)',
-    'libpython3.10d.so.1.0()(64bit)',
-)
-NEW_DEPS = (
     'python(abi) = 3.11',
     'libpython3.11.so.1.0()(64bit)',
     'libpython3.11d.so.1.0()(64bit)',
 )
+NEW_DEPS = (
+    'python(abi) = 3.12',
+    'libpython3.12.so.1.0()(64bit)',
+    'libpython3.12d.so.1.0()(64bit)',
+)
 EXCLUDED_COMPONENTS = (
-    'python3.10',
     'python3.11',
+    'python3.12',
 )
 EXTRA_COMPONENTS = (
     'python3-docs',

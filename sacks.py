@@ -28,9 +28,9 @@ REPOS = {
     # XXX Make this configurable, it can be a koji side tag, etc.
     'target': (
         {
-            'repoid': 'python3.11',
-            #'baseurl': [f'{COPR}/results/@python/python3.11/fedora-rawhide-$basearch/'],
-            'baseurl': [f'{KOJI}/repos/f37-python/latest/$basearch/'],
+            'repoid': 'python3.12',
+            'baseurl': [f'{COPR}/results/@python/python3.12/fedora-rawhide-$basearch/'],
+            #'baseurl': [f'{KOJI}/repos/f37-python/latest/$basearch/'],
             'metadata_expire': 60,
         },
     ),
