@@ -13,7 +13,7 @@ PATCHDIR = pathlib.Path('patches_dir')
 REBUILT_MESSAGE = 'Rebuilt for Python 3.11'
 BOOTSTRAP_MESSAGE = 'Bootstrap for Python 3.11'
 AUTHOR = 'Python Maint <python-maint@redhat.com>'
-TARGET = 'f37-pythonxx'
+TARGET = 'f37-python'
 
 if __name__ == '__main__':
     try:
@@ -60,9 +60,10 @@ if __name__ == '__main__':
             run('rpmdev-bumpspec', '-c', message, '--userstring', AUTHOR, specpath)
             run('git', '-C', repopath, 'commit', '--allow-empty', f'{component_name}.spec', '-m', message, '--author', AUTHOR)
 
-            raise NotImplementedError('no pushing yet')
-            run('git', '-C', repopath, 'push')
-            run('fedpkg', 'build', '--fail-fast', '--nowait', '--background', '--target', TARGET, cwd=repopath)
+	    #raise NotImplementedError('no pushing yet')
+    	run('git', '-C', repopath, 'push')
+    	cp = run('fedpkg', 'build', '--fail-fast', '--nowait', '--background', '--target', TARGET, cwd=repopath)
+    	print(cp.stdout)
 
         # XXX prune this directory becasue we don't want no thousands clones?
         # maybe we are not gonna need this?
