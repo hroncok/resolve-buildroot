@@ -2,28 +2,8 @@ import collections
 import functools
 import sys
 
-from sacks import ARCH, MULTILIB, rawhide_sack, target_sack
-from utils import log
-
-
-# XXX we need an interface to set this, not constants
-OLD_DEPS = (
-    'python(abi) = 3.11',
-    'libpython3.11.so.1.0()(64bit)',
-    'libpython3.11d.so.1.0()(64bit)',
-)
-NEW_DEPS = (
-    'python(abi) = 3.12',
-    'libpython3.12.so.1.0()(64bit)',
-    'libpython3.12d.so.1.0()(64bit)',
-)
-EXCLUDED_COMPONENTS = (
-    'python3.11',
-    'python3.12',
-)
-EXTRA_COMPONENTS = (
-    'python3-docs',
-)
+from sacks import MULTILIB, rawhide_sack, target_sack
+from utils import CONFIG, log
 
 
 class ReverseLookupDict(collections.defaultdict):
@@ -75,8 +55,8 @@ def packages_to_rebuild(old_deps, *, excluded_components=()):
     sack = rawhide_sack()
     log('• Querying all packages to rebuild...', end=' ')
     results = sack.query().filter(requires=old_deps, arch__neq='src', latest=1)
-    if ARCH in MULTILIB:
-        results = results.filter(arch__neq=MULTILIB[ARCH])
+    if CONFIG['architectures']['repoquery'] in MULTILIB:
+        results = results.filter(arch__neq=MULTILIB[CONFIG['architectures']['repoquery']])
     components = ReverseLookupDict()
     anticount = 0
     for result in results:
@@ -105,8 +85,8 @@ def packages_built(new_deps, *, excluded_components=()):
     sack = target_sack()
     log('• Querying all successfully rebuilt packages...', end=' ')
     results = sack.query().filter(requires=new_deps, arch__neq='src', latest=1)
-    if ARCH in MULTILIB:
-        results = results.filter(arch__neq=MULTILIB[ARCH])
+    if CONFIG['architectures']['repoquery'] in MULTILIB:
+        results = results.filter(arch__neq=MULTILIB[CONFIG['architectures']['repoquery']])
     components = ReverseLookupDict()
     anticount = 0
     for result in results:
@@ -176,7 +156,7 @@ def _sort_loop(loop):
 def _detect_loop(loop_detector, probed_component, depchain, loops, seen):
     for component in loop_detector[probed_component]:
         seen.add(component)
-        if component in PACKAGES_BCONDS:
+        if component in CONFIG['bconds']:
             # we assume bconds are manually crafted not to have loops
             continue
         if loop_detector.get(component, []) == []:
@@ -199,12 +179,12 @@ def report_blocking_components(loop_detector):
 if __name__ == '__main__':
     # this is spaghetti code that will be split into functions later:
     from resolve_buildroot import resolve_buildrequires_of, resolve_requires
-    from bconds import PACKAGES_BCONDS, bcond_cache_identifier, extract_buildrequires_if_possible
+    from bconds import bcond_cache_identifier, extract_buildrequires_if_possible
 
-    components = packages_to_rebuild(OLD_DEPS, excluded_components=EXCLUDED_COMPONENTS)
-    for component in EXTRA_COMPONENTS:
+    components = packages_to_rebuild(tuple(CONFIG['deps']['old']), excluded_components=tuple(CONFIG['components']['excluded']))
+    for component in CONFIG['components']['extra']:
         components[component] = []
-    components_done = packages_built(NEW_DEPS, excluded_components=EXCLUDED_COMPONENTS)
+    components_done = packages_built(tuple(CONFIG['deps']['new']), excluded_components=tuple(CONFIG['components']['excluded']))
     binary_rpms = components.all_values()
 
     blocker_counter = {
@@ -236,15 +216,15 @@ if __name__ == '__main__':
             # XXX make this configurable
             if True: #  component not in components_done:
                 print(component)
-        elif component in PACKAGES_BCONDS:
-            for config in PACKAGES_BCONDS[component]:
-                config['id'] = bcond_cache_identifier(component, config)
-                log(f'• {component} not ready and {config["id"]} bcond found, will check that one')
-                if 'buildrequires' not in config:
-                    extract_buildrequires_if_possible(component, config)
-                if 'buildrequires' in config:
+        elif component in CONFIG['bconds']:
+            for bcond_config in CONFIG['bconds'][component]:
+                bcond_config['id'] = bcond_cache_identifier(component, bcond_config)
+                log(f'• {component} not ready and {bcond_config["id"]} bcond found, will check that one')
+                if 'buildrequires' not in bcond_config:
+                    extract_buildrequires_if_possible(component, bcond_config)
+                if 'buildrequires' in bcond_config:
                     try:
-                        component_buildroot = resolve_requires(tuple(sorted(config['buildrequires'])))
+                        component_buildroot = resolve_requires(tuple(sorted(bcond_config['buildrequires'])))
                     except ValueError as e:
                         log(f'\n  ✗ {e}')
                         continue
@@ -257,9 +237,9 @@ if __name__ == '__main__':
                     )
                     if ready_to_rebuild:
                         if True: #  component not in components_done:
-                            print(config['id'])
+                            print(bcond_config['id'])
                 else:
-                    log(f' • {config["id"]} bcond SRPM not present yet, skipping')
+                    log(f' • {bcond_config["id"]} bcond SRPM not present yet, skipping')
 
     log('\nThe 50 most commonly needed components are:')
     for component, count in blocker_counter['general'].most_common(50):

@@ -2,57 +2,26 @@ import functools
 
 import dnf
 
-from utils import log
+from utils import CONFIG, log
 
-DNF_CACHEDIR = '_dnf_cache_dir'
-ARCH = 'x86_64'
-MULTILIB = {'x86_64': 'i686'}  # architectures to exclude in certain queries
-METALINK = 'https://mirrors.fedoraproject.org/metalink'
-KOJI = 'http://kojipkgs.fedoraproject.org'
-COPR = 'https://copr-be.cloud.fedoraproject.org'
-
-
-REPOS = {
-    'rawhide': (
-        {
-            'repoid': 'rawhide',
-            # 'metalink': f'{METALINK}?repo=rawhide&arch=$basearch',
-            'baseurl': [f'{KOJI}/repos/rawhide/latest/$basearch/'],
-        },
-        {
-            'repoid': 'rawhide-source',
-            # 'metalink': f'{METALINK}?repo=rawhide-source&arch=$basearch',
-            'baseurl': [f'{KOJI}/repos/rawhide/latest/src/'],
-        },
-    ),
-    # XXX Make this configurable, it can be a koji side tag, etc.
-    'target': (
-        {
-            'repoid': 'python3.12',
-            'baseurl': [f'{COPR}/results/@python/python3.12/fedora-rawhide-$basearch/'],
-            #'baseurl': [f'{KOJI}/repos/f37-python/latest/$basearch/'],
-            'metadata_expire': 60,
-        },
-    ),
-}
-
+MULTILIB = {'x86_64': 'i686'} # architectures to exclude in certain queries
 
 @functools.cache
 def _base(repo_key):
     f"""
-    Creates a DNF base from repositories defined in REPOS, based on the given key.
-    The sack is filled, which can be extremely slow if not already cached on disk in {DNF_CACHEDIR}.
+    Creates a DNF base from repositories defined in CONFIG['repos'], based on the given key.
+    The sack is filled, which can be extremely slow if not already cached on disk in {CONFIG['cache_dir']['dnf']}.
     Cache is never invalidated here, remove the directory manually if needed.
     """
     base = dnf.Base()
-    conf = base.conf
-    conf.arch = ARCH
-    conf.cachedir = DNF_CACHEDIR
-    conf.substitutions['releasever'] = 'rawhide'
-    conf.substitutions['basearch'] = ARCH
-    for repo in REPOS[repo_key]:
-        base.repos.add_new_repo(conf=conf, skip_if_unavailable=False, **repo)
-    log(f'• Filling the DNF {repo_key} sack to/from {DNF_CACHEDIR}...', end=' ')
+    dnf_conf = base.conf
+    dnf_conf.arch = CONFIG['architectures']['repoquery']
+    dnf_conf.cachedir = CONFIG['cache_dir']['dnf']
+    dnf_conf.substitutions['releasever'] = 'rawhide'
+    dnf_conf.substitutions['basearch'] = CONFIG['architectures']['repoquery']
+    for repo in CONFIG['repos'][repo_key]:
+        base.repos.add_new_repo(conf=dnf_conf, skip_if_unavailable=False, **repo)
+    log(f'• Filling the DNF {repo_key} sack to/from {CONFIG["cache_dir"]["dnf"]}...', end=' ')
     base.fill_sack(load_system_repo=False, load_available_repos=True)
     log('done.')
     return base

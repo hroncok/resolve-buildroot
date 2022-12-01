@@ -1,5 +1,8 @@
 import sys
+import tomllib
 
+with open("config.toml", mode="rb") as fp:
+    CONFIG = tomllib.load(fp)
 
 def log(*args, **kwargs):
     """
