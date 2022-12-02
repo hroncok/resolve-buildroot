@@ -4,116 +4,10 @@ import re
 import subprocess
 import sys
 
-from utils import log
+from utils import CONFIG, log
 
-# XXX ARCH is also defined in sacks.py but technically can be different :/
-# Here we prefer the most reliable/fast architecture
-KOJI_ARCH = 'x86_64'
 KOJI_ID_FILENAME = 'koji.id'
 
-FEDPKG_CACHEDIR = pathlib.Path('_fedpkg_cache_dir')
-DEFAULT_BRANCH = 'rawhide'
-
-# XXX we need an actual user-configuration for this
-PACKAGES_BCONDS = {
-    'gdb': [{'replacements': {'_without_python': '1'}}],
-    'python-setuptools': [{'withs': ['bootstrap'], 'withouts': ['tests']}],
-    'pyparsing': [{'withs': ['bootstrap']}],
-    'python-packaging': [{'withs': ['bootstrap'], 'withouts': ['tests', 'docs']}],
-    'python-wheel': [{'withs': ['bootstrap']}],
-    'python-pip': [{'withouts': ['tests', 'doc']}],
-    'python-setuptools': [{'withouts': ['tests']}],
-    # XXX: build.py cannot handle double bootstrap yet
-
-    'python-six': [{'withouts': ['tests']}],
-    'python-tomli-w': [{'withouts': ['check']}],
-    'python-setuptools_scm': [{'withouts': ['tests']}],
-    'python-py': [{'withouts': ['docs', 'tests']}],
-    'python-chardet': [{'withouts': ['tests']}],
-    'python-pbr': [{'withs': ['bootstrap']}],
-    'python-mock': [{'withouts': ['tests']}],
-    'python-extras': [{'withs': ['bootstrap']}], # XXX the bootstrap build has fewer runtime deps
-    'python-testtools': [{'withs': ['bootstrap']}], # XXX this might newer be reported as ready due to ^
-    'python-attrs': [{'withouts': ['tests']}],
-    'python-pluggy': [{'withouts': ['tests']}],
-    'python-sortedcontainers': [{'withouts': ['docs', 'tests']}],
-    'python-hypothesis': [{'withouts': ['doc', 'tests']}],
-    'python-pysocks': [{'replacements': {'with_python3_tests': '0'}}],
-    'python-pygments': [{'withouts': ['docs', 'tests']}],
-    'python-filelock': [{'withouts': ['docs', 'tests']}],
-    'python-elementpath': [{'withouts': ['tests']}],
-    'python-iniconfig': [{'withouts': ['tests']}],
-    'Cython': [{'withouts': ['tests']}],
-    'python-more-itertools': [{'withouts': ['tests']}],
-    'python-atomicwrites': [{'withouts': ['docs', 'tests']}],
-    'python-fixtures': [{'withs': ['bootstrap']}],
-    'python-wcwidth': [{'withouts': ['tests']}],
-    'pytest': [{'withouts': ['tiemout', 'tests', 'docs']}],
-    'python-virtualenv': [{'withouts': ['tests']}],
-    'babel': [{'withs': ['bootstrap']}],
-    'python-jinja2': [{'withouts': ['docs']}],
-    'python-sphinx_rtd_theme': [{'withs': ['bootstrap']}],
-    'python-urllib3': [{'withouts': ['tests']}],
-    'python-requests': [{'withouts': ['tests']}],
-    'python-sphinxcontrib-applehelp': [{'withouts': ['check']}],
-    'python-sphinxcontrib-devhelp': [{'withouts': ['check']}],
-    'python-sphinxcontrib-htmlhelp': [{'withouts': ['check']}],
-    'python-sphinxcontrib-jsmath': [{'withouts': ['check']}],
-    'python-sphinxcontrib-qthelp': [{'withouts': ['check']}],
-    'python-sphinxcontrib-serializinghtml': [{'withouts': ['check']}],
-    'python-sphinx': [{'withouts': ['tests', 'websupport']}],
-    'python-jedi': [{'withouts': ['tests']}],
-    'python-dateutil': [{'withouts': ['tests']}],
-    'python-jsonschema': [{'withouts': ['tests']}],
-    'python-sphinxcontrib-websupport': [{'withouts': ['optional_tests']}],
-    'python-soupsieve': [{'withouts': ['tests']}],
-    'python-towncrier': [{'withouts': ['tests']}],
-    'python-pytest-asyncio': [{'withouts': ['tests']}],
-    'python-pytest-cov': [{'withouts': ['tests']}],
-    'python-flit': [{'withouts': ['tests']}],
-    'python-async-timeout': [{'withouts': ['tests']}],
-    'python-trio': [{'withouts': ['tests']}],
-    'python-Automat': [{'withouts': ['tests']}],
-    'python-invoke': [{'withouts': ['tests']}],
-    'python-jupyter-client': [{'withouts': ['doc', 'tests']}],
-    'python-matplotlib': [{'withouts': ['check']}],
-    'ipython': [{'withouts': ['check', 'doc']}],
-    'python-ipykernel': [{'withouts': ['intersphinx', 'tests']}],
-    'pybind11': [{'withouts': ['tests']}],
-    'python-nbconvert': [{'withouts': ['check', 'doc']}],
-    'python-nbclient': [{'withouts': ['check']}],
-    'python-pyquery': [{'withouts': ['tests']}],
-    'python-cherrypy': [{'withouts': ['tests']}],
-    'freeipa-healthcheck': [{'withouts': ['tests']}],
-    'python-zbase32': [{'withs': ['bootstrap']}],
-    'python-Traits': [{'withs': ['bootstrap']}],
-    'python-lit': [{'withouts': ['check']}],
-    'python-pcodedmp': [{'withs': ['bootstrap']}],
-    'ara': [{'replacements': {'with_docs': '0'}}],
-    'python-libcst': [{'withouts': ['tests']}],
-    'python-databases': [{'withs': ['bootstrap']}],
-    'python-molecule': [{'withouts': ['doc']}],
-    'scipy': [{'withouts': ['pythran']}],
-    'python-pandas': [{'withs': ['bootstrap']}],
-    'grpc': [{'withs': ['bootstrap']}],
-    'python-zope-interface': [{'withouts': ['docs']}],
-    'python-tqdm': [{'withouts': ['tests']}],
-    'python-cryptography': [{'withouts': ['tests']}],
-    'python-decopatch': [{'withouts': ['tests']}],
-    'python-geopandas': [{'withouts': ['tests']}],
-    'mkdocs': [{'withouts': ['docs']}],
-    'python-astropy': [{'withouts': ['check']}],
-    'python-pyerfa': [{'withouts': ['tests']}],
-    'python-fsspec': [{'withs': ['bootstrap']}],
-    'python-pyface': [{'withs': ['bootstrap']}],
-    'python-oletools': [{'withs': ['bootstrap']}],
-    'python-google-api-core': [{'withouts': ['tests']}],
-    'python-googleapis-common-protos': [{'withs': ['bootstrap']}],
-    'python-proto-plus': [{'withouts': ['tests']}],
-    'python-networkx': [{'withs': ['bootstrap']}],
-    'python-lxml': [{'withouts': ['buildrequire_extras']}],
-    'python-constantly': [{'withouts': ['tests']}],
-}
 reverse_id_lookup = {}
 
 
@@ -137,7 +31,7 @@ def bcond_cache_identifier(component_name, bcond_config, *, branch='', target=''
     withouts_id = '-'.join(sorted(bcond_config.get('withouts', [])))
     withs_id = '-'.join(sorted(bcond_config.get('withs', [])))
     replacements_id = '-'.join(sorted(bcond_config.get('replacements', {})))
-    if branch == DEFAULT_BRANCH:
+    if branch == CONFIG['distgit']['branch']:
         branch = ''
     identifier = f'{component_name}:{withouts_id}:{withs_id}:{replacements_id}:{branch}:{target}'
     reverse_id_lookup[identifier] = bcond_config
@@ -152,7 +46,7 @@ def run(*cmd, **kwargs):
 
 
 def clone_into(component_name, target, branch=''):
-    branch = branch or DEFAULT_BRANCH
+    branch = branch or CONFIG['distgit']['branch']
     log(f' • Cloning {component_name} into "{target}"...', end=' ')
     # I would like to use --depth=1 but that breaks rpmautospec
     # https://pagure.io/fedora-infra/rpmautospec/issue/227
@@ -217,7 +111,7 @@ def patch_spec(specpath, bcond_config):
 
 def submit_scratchbuild(repopath, target=''):
     command = ('fedpkg', 'build', '--scratch', '--srpm',
-               f'--arches={KOJI_ARCH}', '--nowait', '--background')
+               f'--arches={CONFIG["architectures"]["koji"]}', '--nowait', '--background')
     if target:
         command += (f'--target={target}',)
     try:
@@ -281,7 +175,7 @@ def handle_exisitng_koji_id(repopath, *, was_updated):
 def scratchbuild_patched_if_needed(component_name, bcond_config, *, branch='', target=''):
     """
     This will:
-     1. clone/fetch the given component_name package from Fedora to FEDPKG_CACHEDIR
+     1. clone/fetch the given component_name package from Fedora to fedpkg_cache_dir
         in case the repo existed and HEAD was not updated, this ends early if:
           - a SRPM exists
           - a previously stored Koji task ID is present and not canceled or failed
@@ -292,11 +186,11 @@ def scratchbuild_patched_if_needed(component_name, bcond_config, *, branch='', t
      5. write the Koji ID to KOJI_ID_FILENAME in the repo directory and to bcond_config
      6. return True if something was submitted to Koji
     """
-    repopath = FEDPKG_CACHEDIR / bcond_config['id']
+    repopath = pathlib.Path(CONFIG['cache_dir']['fedpkg']) / bcond_config['id']
     if repopath.exists():
         news = refresh_gitrepo(repopath)
     else:
-        FEDPKG_CACHEDIR.mkdir(exist_ok=True)
+        pathlib.Path(CONFIG['cache_dir']['fedpkg']).mkdir(exist_ok=True)
         clone_into(component_name, repopath, branch=branch)
         news = True
 
@@ -332,7 +226,7 @@ def download_srpm_if_possible(component_name, bcond_config):
             koji_status(bcond_config['koji_task_id']) != 'closed'):
         return False
     log(' • Downloading SRPM from Koji...', end=' ')
-    repopath = FEDPKG_CACHEDIR / bcond_config['id']
+    repopath = pathlib.Path(CONFIG['cache_dir']['fedpkg']) / bcond_config['id']
     command = ('koji', 'download-task', bcond_config['koji_task_id'], '--arch=src', '--noprogress')
     koji_output = run(*command, cwd=repopath).stdout.splitlines()
     if (l := len(koji_output)) != 1:
@@ -370,7 +264,7 @@ def extract_buildrequires_if_possible(component_name, bcond_config):
      4. return True if srpm was found
     """
     if 'srpm' not in bcond_config:
-        if srpm := srpm_path(FEDPKG_CACHEDIR / bcond_config['id']):
+        if srpm := srpm_path(pathlib.Path(CONFIG['cache_dir']['fedpkg']) / bcond_config['id']):
             bcond_config['srpm'] = srpm
         else:
             return False
@@ -380,7 +274,7 @@ def extract_buildrequires_if_possible(component_name, bcond_config):
 
 
 def each_bcond_name_config():
-    for component_name, bcond_configs in PACKAGES_BCONDS.items():
+    for component_name, bcond_configs in CONFIG['bconds'].items():
         for bcond_config in bcond_configs:
             bcond_config['id'] = bcond_cache_identifier(component_name, bcond_config)
             yield component_name, bcond_config
@@ -404,7 +298,7 @@ if __name__ == '__main__':
     while something_was_downloaded:
         something_was_downloaded = False
         # while we were downloading, we could have finished Koji builds
-        for pkg, bcond_configs in PACKAGES_BCONDS.items():
+        for pkg, bcond_configs in CONFIG['bconds'].items():
             for bcond_config in bcond_configs:
                 if 'buildrequires' not in bcond_config:
                     something_was_downloaded |= download_srpm_if_possible(component_name, bcond_config)
@@ -413,5 +307,5 @@ if __name__ == '__main__':
         koji_status.cache_clear()
 
     log(f'Extracted BuildRequires from {extracted_count} SRPMs.')
-    if not_extracted_count := sum(len(bcond_configs) for bcond_configs in PACKAGES_BCONDS.values()) - extracted_count:
+    if not_extracted_count := sum(len(bcond_configs) for bcond_configs in CONFIG['bconds'].values()) - extracted_count:
         sys.exit(f'{not_extracted_count} SRPMs remain to be built/downloaded/extracted, run this again in a while.')
