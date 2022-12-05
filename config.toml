@@ -1,0 +1,324 @@
+[koji]
+target = 'f39-pythonxx'
+
+[distgit]
+branch = "rawhide"
+commit_message = "Rebuilt for Python3.12"
+bootstrap_commit_message = "Bootstrap for Python 3.11"
+author = "Python Maint <python-maint@redhat.com>"
+
+[architectures]
+repoquery = "x86_64" # used for repository querying
+koji = "x86_64" # used to scratch build packages with bconds
+
+[deps]
+old = ["python(abi) = 3.11", "libpython3.11.so.1.0()(64bit)", "libpython3.11d.so.1.0()(64bit)"]
+new = ["python(abi) = 3.12", "libpython3.12.so.1.0()(64bit)", "libpython3.12d.so.1.0()(64bit)"]
+
+[components]
+excluded = ["python3.11", "python3.12"]
+extra = ["python3-docs"]
+
+[cache_dir]
+dnf = "_dnf_cache_dir"
+fedpkg = "_fedpkg_cache_dir"
+
+[repos]
+[[repos.rawhide]]
+repoid = "rawhide"
+# metalink = "https://mirrors.fedoraproject.org/metalink?repo=rawhide&arch=$basearch"
+baseurl = ["http://kojipkgs.fedoraproject.org/repos/rawhide/latest/$basearch/"]
+
+[[repos.rawhide]]
+repoid = "rawhide-source"
+# metalink = "https://mirrors.fedoraproject.org/metalink?repo=rawhide-source&arch=$basearch"
+baseurl = ["http://kojipkgs.fedoraproject.org/repos/rawhide/latest/src/"]
+
+[[repos.target]]
+repoid = "python3.12"
+baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.12/fedora-rawhide-$basearch/"]
+#baseurl = ["http://kojipkgs.fedoraproject.org/repos/f39-python/latest/$basearch/"]
+metadata_expire = 60
+
+[bconds]
+[[bconds.python-setuptools]]
+withs = ["bootstrap"]
+withouts = ["tests"]
+
+[[bconds.pyparsing]]
+withs = ["bootstrap"]
+
+[[bconds.python-packaging]]
+withs = ["bootstrap"]
+withouts = ["tests", "docs"]
+
+[[bconds.python-wheel]]
+withs = ["bootstrap"]
+
+[[bconds.python-pip]]
+withouts = ["tests", "doc"]
+
+[[bconds.python-six]]
+withouts = ["tests"]
+
+[[bconds.python-tomli-w]]
+withouts = ["check"]
+
+[[bconds.python-setuptools_scm]]
+withouts = ["tests"]
+
+[[bconds.python-py]]
+withouts = ["docs", "tests"]
+
+[[bconds.python-chardet]]
+withouts = ["tests"]
+
+[[bconds.python-pbr]]
+withs = ["bootstrap"]
+
+[[bconds.python-mock]]
+withouts = ["tests"]
+
+[[bconds.python-extras]]
+withs = ["bootstrap"]
+
+[[bconds.python-testtools]]
+withs = ["bootstrap"]
+
+[[bconds.python-attrs]]
+withouts = ["tests"]
+
+[[bconds.python-pluggy]]
+withouts = ["tests"]
+
+[[bconds.python-sortedcontainers]]
+withouts = ["docs", "tests"]
+
+[[bconds.python-hypothesis]]
+withouts = ["doc", "tests"]
+
+[[bconds.python-pygments]]
+withouts = ["docs", "tests"]
+
+[[bconds.python-filelock]]
+withouts = ["docs", "tests"]
+
+[[bconds.python-elementpath]]
+withouts = ["tests"]
+
+[[bconds.python-iniconfig]]
+withouts = ["tests"]
+
+[[bconds.Cython]]
+withouts = ["tests"]
+
+[[bconds.python-more-itertools]]
+withouts = ["tests"]
+
+[[bconds.python-atomicwrites]]
+withouts = ["docs", "tests"]
+
+[[bconds.python-fixtures]]
+withs = ["bootstrap"]
+
+[[bconds.python-wcwidth]]
+withouts = ["tests"]
+
+[[bconds.pytest]]
+withouts = ["timeout", "tests", "docs"]
+
+[[bconds.python-virtualenv]]
+withouts = ["tests"]
+
+[[bconds.babel]]
+withs = ["bootstrap"]
+
+[[bconds.python-jinja2]]
+withouts = ["docs"]
+
+[[bconds.python-sphinx_rtd_theme]]
+withs = ["bootstrap"]
+
+[[bconds.python-urllib3]]
+withouts = ["tests"]
+
+[[bconds.python-requests]]
+withouts = ["tests"]
+
+[[bconds.python-sphinxcontrib-applehelp]]
+withouts = ["check"]
+
+[[bconds.python-sphinxcontrib-devhelp]]
+withouts = ["check"]
+
+[[bconds.python-sphinxcontrib-htmlhelp]]
+withouts = ["check"]
+
+[[bconds.python-sphinxcontrib-jsmath]]
+withouts = ["check"]
+
+[[bconds.python-sphinxcontrib-qthelp]]
+withouts = ["check"]
+
+[[bconds.python-sphinxcontrib-serializinghtml]]
+withouts = ["check"]
+
+[[bconds.python-sphinx]]
+withouts = ["tests", "websupport"]
+
+[[bconds.python-jedi]]
+withouts = ["tests"]
+
+[[bconds.python-dateutil]]
+withouts = ["tests"]
+
+[[bconds.python-jsonschema]]
+withouts = ["tests"]
+
+[[bconds.python-sphinxcontrib-websupport]]
+withouts = ["optional_tests"]
+
+[[bconds.python-soupsieve]]
+withouts = ["tests"]
+
+[[bconds.python-towncrier]]
+withouts = ["tests"]
+
+[[bconds.python-pytest-asyncio]]
+withouts = ["tests"]
+
+[[bconds.python-pytest-cov]]
+withouts = ["tests"]
+
+[[bconds.python-flit]]
+withouts = ["tests"]
+
+[[bconds.python-async-timeout]]
+withouts = ["tests"]
+
+[[bconds.python-trio]]
+withouts = ["tests"]
+
+[[bconds.python-Automat]]
+withouts = ["tests"]
+
+[[bconds.python-invoke]]
+withouts = ["tests"]
+
+[[bconds.python-jupyter-client]]
+withouts = ["doc","tests"]
+
+[[bconds.python-matplotlib]]
+withouts = ["check"]
+
+[[bconds.ipython]]
+withouts = ["check","doc"]
+
+[[bconds.python-ipykernel]]
+withouts = ["intersphinx", "tests"]
+
+[[bconds.pybind11]]
+withouts = ["tests"]
+
+[[bconds.python-nbconvert]]
+withouts = ["check", "doc"]
+
+[[bconds.python-nbclient]]
+withouts = ["check"]
+
+[[bconds.python-pyquery]]
+withouts = ["tests"]
+
+[[bconds.python-cherrypy]]
+withouts = ["tests"]
+
+[[bconds.freeipa-healthcheck]]
+withouts = ["tests"]
+
+[[bconds.python-zbase32]]
+withs = ["bootstrap"]
+
+[[bconds.python-Traits]]
+withs = ["bootstrap"]
+
+[[bconds.python-lit]]
+withouts = ["check"]
+
+[[bconds.python-pcodedmp]]
+withs = ["bootstrap"]
+
+[[bconds.python-libcst]]
+withouts = ["tests"]
+
+[[bconds.python-databases]]
+withs = ["bootstrap"]
+
+[[bconds.python-molecule]]
+withouts = ["doc"]
+
+[[bconds.scipy]]
+withouts = ["pythran"]
+
+[[bconds.python-pandas]]
+withs = ["bootstrap"]
+
+[[bconds.grpc]]
+withs = ["bootstrap"]
+
+[[bconds.python-zope-interface]]
+withouts = ["docs"]
+
+[[bconds.python-tqdm]]
+withouts = ["tests"]
+
+[[bconds.python-cryptography]]
+withouts = ["tests"]
+
+[[bconds.python-decopatch]]
+withouts = ["tests"]
+
+[[bconds.python-geopandas]]
+withouts = ["tests"]
+
+[[bconds.python-astropy]]
+withouts = ["check"]
+
+[[bconds.python-pyerfa]]
+withouts = ["tests"]
+
+[[bconds.python-fsspec]]
+withs = ["bootstrap"]
+
+[[bconds.python-pyface]]
+withs = ["bootstrap"]
+
+[[bconds.python-oletools]]
+withs = ["bootstrap"]
+
+[[bconds.python-google-api-core]]
+withouts = ["tests"]
+
+[[bconds.python-googleapis-common-protos]]
+withs = ["bootstrap"]
+
+[[bconds.python-proto-plus]]
+withouts = ["tests"]
+
+[[bconds.python-networkx]]
+withs = ["bootstrap"]
+
+[[bconds.python-lxml]]
+withouts = ["buildrequire_extras"]
+
+[[bconds.python-constantly]]
+withouts = ["tests"]
+
+[[bconds.gdb]]
+replacements = {_without_python = "1"}
+
+[[bconds.python-pysocks]]
+replacements = {with_python3_tests = "0"}
+
+[[bconds.ara]]
+replacements = {with_docs = "0"}
+
