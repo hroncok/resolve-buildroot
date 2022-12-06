@@ -8,12 +8,10 @@ from bconds import FEDPKG_CACHEDIR, clone_into, refresh_gitrepo, patch_spec, run
 # the following bcond things actually do stay there
 from bconds import PACKAGES_BCONDS, reverse_id_lookup, build_reverse_id_lookup
 
+from utils import CONFIG
+
 
 PATCHDIR = pathlib.Path('patches_dir')
-REBUILT_MESSAGE = 'Rebuilt for Python 3.11'
-BOOTSTRAP_MESSAGE = 'Bootstrap for Python 3.11'
-AUTHOR = 'Python Maint <python-maint@redhat.com>'
-TARGET = 'f37-pythonxx'
 
 if __name__ == '__main__':
     try:
@@ -47,22 +45,22 @@ if __name__ == '__main__':
             patch.unlink()
 
         if bootstrap:
-            message = BOOTSTRAP_MESSAGE
+            message = CONFIG['distgit']['bootstrap_commit_message']
             patch_spec(specpath, bootstrap)
             diff = run('git', '-C', repopath, 'diff').stdout
             patch.write_text(diff)
         else:
-            message = REBUILT_MESSAGE
+            message = CONFIG['distgit']['commit_message']
 
         # Bump and commit only if we haven't already, XXX ability to force this
         head_commit_msg = run('git', '-C', repopath, 'log', '--format=%B', '-n1', 'HEAD').stdout.rstrip()
         if bootstrap or head_commit_msg != message:
-            run('rpmdev-bumpspec', '-c', message, '--userstring', AUTHOR, specpath)
-            run('git', '-C', repopath, 'commit', '--allow-empty', f'{component_name}.spec', '-m', message, '--author', AUTHOR)
+            run('rpmdev-bumpspec', '-c', message, '--userstring', CONFIG['distgit']['author'], specpath)
+            run('git', '-C', repopath, 'commit', '--allow-empty', f'{component_name}.spec', '-m', message, '--author', CONFIG['distgit']['author'])
 
             raise NotImplementedError('no pushing yet')
             run('git', '-C', repopath, 'push')
-            run('fedpkg', 'build', '--fail-fast', '--nowait', '--background', '--target', TARGET, cwd=repopath)
+            run('fedpkg', 'build', '--fail-fast', '--nowait', '--background', '--target', CONFIG['koji']['target'], cwd=repopath)
 
         # XXX prune this directory becasue we don't want no thousands clones?
         # maybe we are not gonna need this?
