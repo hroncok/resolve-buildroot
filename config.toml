@@ -45,9 +45,6 @@ metadata_expire = 60
 withs = ["bootstrap"]
 withouts = ["tests"]
 
-[[bconds.pyparsing]]
-withs = ["bootstrap"]
-
 [[bconds.python-packaging]]
 withs = ["bootstrap"]
 withouts = ["tests", "docs"]
