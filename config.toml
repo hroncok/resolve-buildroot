@@ -1,3 +1,44 @@
+## initial list of manual builds in rpm-list-builder format (historical reasons)
+## STEP 0: bump package version and set macros version to new python
+#- python-rpm-macros
+## build python3.N-1 together with python3.N without any bcond, verify python3.N-1 is nonmain python
+#- python3.N:
+#    macros:
+#      _with_bootstrap: 1  # bump the release so it's greater even with ~bootstrap
+#      _without_rpmwheels: 1
+#      _without_tests: 1
+#      _without_optimizations: 1
+#- gdb: # not blocking (yet)
+#    macros:
+#      _without_python: 1
+#- python-flit:
+#    macros:
+#      _with_bootstrap: 1  # bump the release so it's greater even with ~bootstrap
+#- python-packaging:
+#    macros:
+#      _with_bootstrap: 1  # bump the release so it's greater even with ~bootstrap
+#- python-setuptools:
+#    macros:
+#      _with_bootstrap: 1  # bump the release so it's greater even with ~bootstrap
+#- python-wheel:
+#    macros:
+#      _with_bootstrap: 1  # bump the release so it's greater even with ~bootstrap
+#- python-pip:
+#    macros:
+#      _without_tests: 1
+#      _without_doc: 1
+#- python-setuptools:
+#    macros:
+#      _without_tests: 1
+#- pyparsing:  # python BuildRequires systemtap-sdt-devel Requires pyparsing
+#    macros:
+#      _without_tests: 1
+#      _without_doc: 1
+## wait for gdb
+#- python3.N
+# VERIFY all of the above have correct Provides/Requires
+# do a test/scratch build to VERIFY python3-rpm-generators work before proceeding!
+
 [koji]
 target = 'f39-pythonxx'
 
