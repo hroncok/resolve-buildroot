@@ -253,7 +253,7 @@ withouts = ["check"]
 withouts = ["check","doc"]
 
 [[bconds.python-ipykernel]]
-withouts = ["intersphinx", "tests"]
+withouts = ["tests","doc"]
 
 [[bconds.pybind11]]
 withouts = ["tests"]
