@@ -88,7 +88,6 @@ withouts = ["tests"]
 
 [[bconds.python-packaging]]
 withs = ["bootstrap"]
-withouts = ["tests", "docs"]
 
 [[bconds.python-wheel]]
 withs = ["bootstrap"]
@@ -109,10 +108,11 @@ withouts = ["tests"]
 withouts = ["docs", "tests"]
 
 [[bconds.python-chardet]]
-withouts = ["tests"]
+withouts = ["doc_pdf"]
 
 [[bconds.python-pbr]]
 withs = ["bootstrap"]
+withouts = ["tests"]
 
 [[bconds.python-mock]]
 withouts = ["tests"]
@@ -175,6 +175,9 @@ withs = ["bootstrap"]
 withouts = ["docs"]
 
 [[bconds.python-sphinx_rtd_theme]]
+withs = ["bootstrap"]
+
+[[bconds.python-sphinx-basic-ng]]
 withs = ["bootstrap"]
 
 [[bconds.python-urllib3]]
@@ -246,6 +249,9 @@ withouts = ["tests"]
 [[bconds.python-jupyter-client]]
 withouts = ["doc","tests"]
 
+[[bconds.python-jupyter-server]]
+withouts = ["tests"]
+
 [[bconds.python-matplotlib]]
 withouts = ["check"]
 
@@ -286,7 +292,7 @@ withouts = ["check"]
 withs = ["bootstrap"]
 
 [[bconds.python-libcst]]
-withouts = ["tests"]
+withouts = ["tests", "docs"]
 
 [[bconds.python-databases]]
 withs = ["bootstrap"]
@@ -303,8 +309,15 @@ withs = ["bootstrap"]
 [[bconds.grpc]]
 withs = ["bootstrap"]
 
-[[bconds.python-zope-interface]]
+[[bconds.python-fasteners]]
+withouts = ["tests"]
+
+[[bconds.python-zope-event]]
+withs = ["bootstrap"]
 withouts = ["docs"]
+
+[[bconds.python-zope-interface]]
+withouts = ["tests", "docs"]
 
 [[bconds.python-tqdm]]
 withouts = ["tests"]
@@ -324,11 +337,47 @@ withouts = ["check"]
 [[bconds.python-pyerfa]]
 withouts = ["tests"]
 
+[[bconds.python-aiohttp]]
+withouts = ["tests"]
+
+[[bconds.python-pep517]]
+withouts = ["tests"]
+
+[[bconds.python-azure-core]]
+withouts = ["tests"]
+
+[[bconds.python-azure-common]]
+withouts = ["tests"]
+
+[[bconds.python-azure-mgmt-core]]
+withouts = ["tests"]
+
+[[bconds.python-subprocess-tee]]
+withouts = ["tests"]
+
+[[bconds.python-typeguard]]
+withouts = ["doc_pdf"]
+
+[[bconds.python-tox]]
+withouts = ["tests"]
+
+[[bconds.python-pytest-rerunfailures]]
+withouts = ["tests"]
+
 [[bconds.python-fsspec]]
 withs = ["bootstrap"]
 
 [[bconds.python-pyface]]
 withs = ["bootstrap"]
+
+[[bconds.python-contourpy]]
+withs = ["bootstrap"]
+
+[[bconds.python-msrest]]
+withouts = ["tests"]
+
+[[bconds.numpy]]
+withouts = ["tests"]
 
 [[bconds.python-oletools]]
 withs = ["bootstrap"]
@@ -336,17 +385,35 @@ withs = ["bootstrap"]
 [[bconds.python-google-api-core]]
 withouts = ["tests"]
 
+[[bconds.fonttools]]
+withouts = ["tests"]
+
+[[bconds.python-conda-package-streaming]]
+withs = ["bootstrap"]
+
 [[bconds.python-googleapis-common-protos]]
 withs = ["bootstrap"]
 
 [[bconds.python-proto-plus]]
 withouts = ["tests"]
 
+[[bconds.python-dns]]
+withouts = ["trio", "curio", "doh"]
+
+[[bconds.python-poetry-plugin-export]]
+withouts = ["bootstrap"]
+
+[[bconds.poetry]]
+withs = ["bootstrap"]
+
 [[bconds.python-networkx]]
 withs = ["bootstrap"]
 
+[[bconds.python-beautifulsoup4]]
+withouts = ["soupsieve", "tests"]
+
 [[bconds.python-lxml]]
-withouts = ["buildrequire_extras"]
+withouts = ["extras"]
 
 [[bconds.python-constantly]]
 withouts = ["tests"]
@@ -359,4 +426,7 @@ replacements = {with_python3_tests = "0"}
 
 [[bconds.ara]]
 replacements = {with_docs = "0"}
+
+[[bconds.python-httpretty]]
+replacements = {run_tests = "0"}
 
