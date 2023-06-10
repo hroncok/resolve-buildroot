@@ -11,7 +11,7 @@
 #- gdb: # not blocking (yet)
 #    macros:
 #      _without_python: 1
-#- python-flit:
+#- python-flit-core:
 #    macros:
 #      _with_bootstrap: 1  # bump the release so it's greater even with ~bootstrap
 #- python-packaging:
@@ -228,7 +228,7 @@ withouts = ["tests"]
 [[bconds.python-pytest-cov]]
 withouts = ["tests"]
 
-[[bconds.python-flit]]
+[[bconds.python-flit-core]]
 withouts = ["tests"]
 
 [[bconds.python-async-timeout]]
