@@ -1,0 +1,10 @@
+diff --git a/python-pbr.spec b/python-pbr.spec
+index 218d07a..3d9aef7 100644
+--- a/python-pbr.spec
++++ b/python-pbr.spec
+@@ -1,3 +1,5 @@
++%global _without_tests 1
++%global _with_bootstrap 1
+ %global pypi_name pbr
+ # Disable bootstrap
+ %bcond_with bootstrap

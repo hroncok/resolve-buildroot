@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
             #raise NotImplementedError('no pushing yet')
             run('git', '-C', repopath, 'push')
-            run('fedpkg', 'build', '--fail-fast', '--nowait', '--background', '--target', CONFIG['koji']['target'], cwd=repopath)
+        run('fedpkg', 'build', '--fail-fast', '--nowait', '--background', '--target', CONFIG['koji']['target'], cwd=repopath)
 
         # XXX prune this directory becasue we don't want no thousands clones?
         # maybe we are not gonna need this?
