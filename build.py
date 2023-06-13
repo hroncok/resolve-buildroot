@@ -3,15 +3,16 @@ import sys
 
 # this module reuses bconds functions heavily
 # XXX move to a common module?
-from bconds import FEDPKG_CACHEDIR, clone_into, refresh_gitrepo, patch_spec, run
+from bconds import clone_into, refresh_gitrepo, patch_spec, run
 
 # the following bcond things actually do stay there
-from bconds import PACKAGES_BCONDS, reverse_id_lookup, build_reverse_id_lookup
+from bconds import reverse_id_lookup, build_reverse_id_lookup
 
 from utils import CONFIG
 
 
 PATCHDIR = pathlib.Path('patches_dir')
+FEDPKG_CACHEDIR = pathlib.Path(CONFIG['cache_dir']['fedpkg'])
 
 if __name__ == '__main__':
     try:
@@ -58,7 +59,7 @@ if __name__ == '__main__':
             run('rpmdev-bumpspec', '-c', message, '--userstring', CONFIG['distgit']['author'], specpath)
             run('git', '-C', repopath, 'commit', '--allow-empty', f'{component_name}.spec', '-m', message, '--author', CONFIG['distgit']['author'])
 
-            raise NotImplementedError('no pushing yet')
+            #raise NotImplementedError('no pushing yet')
             run('git', '-C', repopath, 'push')
             run('fedpkg', 'build', '--fail-fast', '--nowait', '--background', '--target', CONFIG['koji']['target'], cwd=repopath)
 
