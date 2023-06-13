@@ -70,6 +70,7 @@ awake
 babel::bootstrap:::
 python-backcall
 python-backrefs
+python-beautifulsoup4:soupsieve-tests::::
 python-biscuits
 python-bitstring
 python-blessed
@@ -83,7 +84,6 @@ python-cfgv
 python-cftime
 python-chai
 python-chardet:doc_pdf::::
-python-charset-normalizer
 python-cherrypy:tests::::
 python-circuitbreaker
 python-colcon-alias
@@ -243,9 +243,11 @@ watchman
 python-pyzolib
 python-recordclass
 python-redis
+python-requests:tests::::
 python-rpmfluff
 python-schedutils
 python3-script
+python-selenium
 python-setuptools:tests:bootstrap:::
 python-setuptools_scm:tests::::
 python-simpleparse
