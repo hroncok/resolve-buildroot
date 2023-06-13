@@ -214,7 +214,7 @@ if __name__ == '__main__':
 
         if ready_to_rebuild:
             # XXX make this configurable
-            if True: #  component not in components_done:
+            if component not in components_done:
                 print(component)
         elif component in CONFIG['bconds']:
             for bcond_config in CONFIG['bconds'][component]:
