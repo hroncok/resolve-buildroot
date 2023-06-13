@@ -40,12 +40,12 @@
 # do a test/scratch build to VERIFY python3-rpm-generators work before proceeding!
 
 [koji]
-target = 'f39-pythonxx'
+target = 'f39-python'
 
 [distgit]
 branch = "rawhide"
-commit_message = "Rebuilt for Python3.12"
-bootstrap_commit_message = "Bootstrap for Python 3.11"
+commit_message = "Rebuilt for Python 3.12"
+bootstrap_commit_message = "Bootstrap for Python 3.12"
 author = "Python Maint <python-maint@redhat.com>"
 
 [architectures]
@@ -77,8 +77,8 @@ baseurl = ["http://kojipkgs.fedoraproject.org/repos/rawhide/latest/src/"]
 
 [[repos.target]]
 repoid = "python3.12"
-baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.12/fedora-rawhide-$basearch/"]
-#baseurl = ["http://kojipkgs.fedoraproject.org/repos/f39-python/latest/$basearch/"]
+#baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.12/fedora-rawhide-$basearch/"]
+baseurl = ["http://kojipkgs.fedoraproject.org/repos/f39-python/latest/$basearch/"]
 metadata_expire = 60
 
 [bconds]
