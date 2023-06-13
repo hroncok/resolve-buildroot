@@ -13,7 +13,6 @@ appliance-tools
 argparse-manpage
 asciinema
 aubio
-avogadro2-libs
 azote
 b43-tools
 battray
@@ -62,6 +61,7 @@ python-arpy
 python-asn1crypto
 python-aspy.yaml
 python-astor
+python-astropy:check::::
 python-astunparse
 python-async-generator
 python-atomicwrites:docs-tests::::
@@ -89,6 +89,7 @@ python-circuitbreaker
 python-colcon-alias
 python-colcon-argcomplete
 python-colcon-bash
+python-colcon-bundle
 python-colcon-cd
 python-colcon-coveragepy-result
 python-colcon-defaults
@@ -142,6 +143,7 @@ python-fspath
 python-gast
 python-gccinvocation
 gfal2-python
+python-glad2
 python-grako
 python-greenlet
 python-guizero
@@ -154,6 +156,8 @@ python-iowait
 python-ipgetter
 python-jep
 python-jinja2:docs::::
+python-jinja2-cli
+python-jinja2_pluralize
 python-json-logger
 python-jsonrpc-server
 python-kmod
@@ -302,7 +306,6 @@ shyaml
 sudo
 sugar
 system-config-printer
-systemtap
 targetd
 transmageddon
 ufw
