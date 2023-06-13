@@ -65,7 +65,6 @@ python-apsw
 python-arpy
 python-asn1crypto
 python-aspy.yaml
-assimp
 python-astor
 python-astunparse
 python-async-generator
@@ -120,14 +119,11 @@ pycolumnize
 python-configargparse
 python-cpio
 criu
-cryptominisat
-csound
 python-curio
 python-cypy
 python-ddt
 python-diff-match-patch
 python-distro
-dlib
 python-dockerfile-parse
 python-docopt
 python-dominate
@@ -135,7 +131,6 @@ python-doxyqml
 python-ducc0
 python-dukpy
 python-elementpath:tests::::
-python3-exiv2
 python-fastbencode
 python-fastprogress
 python-filelock:docs-tests::::
@@ -196,7 +191,6 @@ python-notario
 python-nudatus
 openbabel
 python-openopt
-opentrep
 python-optcomplete
 otf2
 python-owl_rl
@@ -216,7 +210,6 @@ py-radix
 python3-py3dns
 python-py9p
 python-pyaes
-python-pyclipper
 python-pycxx
 python-pydiffx
 python-pyfastnoisesimd
@@ -241,7 +234,6 @@ watchman
 python-pyzolib
 python-recordclass
 python-redis
-rmol
 python-rpmfluff
 python-schedutils
 python3-script
@@ -255,7 +247,6 @@ python-slip
 python-smbpasswd
 python-sortedcontainers:docs-tests::::
 pdf-stapler
-stp
 sword
 python-tables
 python-tambo
