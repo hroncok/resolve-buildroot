@@ -438,3 +438,6 @@ withouts = ["tests"]
 
 [[bconds.python-markdown-it-py]]
 withouts = ["plugins"]
+
+[[bconds.python-factory-boy]]
+withouts = ["tests"]
