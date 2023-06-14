@@ -25,9 +25,11 @@ maturin
 mercurial
 mrchem
 nodepool
+nova-agent
 nut
 nwchem
 oct2spec
+osc
 pyflowtools
 python-IPy
 python-PyPDF2
@@ -81,6 +83,7 @@ python-dijitso
 dionaea
 python-dockerfile-parse
 python-dominate
+python-doubleratchet
 python-elementpath:tests::::
 python-ephem
 python-fastbencode
@@ -101,7 +104,9 @@ python-graphql-core
 python-greenlet
 python-guizero
 python-hpilo
+python-http-ece
 python-httpretty:::run_tests::
+python-httpsig-cffi
 python-hyperlink
 i2c-tools
 libiio
@@ -117,6 +122,7 @@ python-jedi:tests::::
 python-jep
 python-json-logger
 python-jsonrpc-server
+python-jwt
 python-kmod
 python-lacrosse
 python-lazr-smtptest
@@ -148,12 +154,14 @@ python-multi_key_dict
 python-mygpoclient
 python-networkx::bootstrap:::
 python-nmap
+python-noiseprotocol
 python-nose_fixes
 python-notario
+python-ntlm-auth
 python-nudatus
 numpy:tests::::
-python-olefile
 python-optcomplete
+python-oracledb
 python-os-testr
 python-oslo-i18n
 pyosmium
@@ -177,6 +185,7 @@ py-radix
 python3-py3dns
 python-py3nvml
 python-py9p
+pyOpenSSL
 python-pyaes
 pybind11:tests::::
 python-pycodestyle
@@ -211,12 +220,12 @@ python-pytest-rerunfailures:tests::::
 python-pytest-subtests
 python-pytest-venv
 watchman
-python-pyzabbix
 python-pyzolib
 qpid-proton
 python-recordclass
 python-redis
 python-requests:tests::::
+python-requests-kerberos
 python-rjsmin
 python-rosdistro
 python-rpmfluff
@@ -243,6 +252,7 @@ python-sphinx-mdinclude
 python-sphinx-sitemap
 python-sphinxcontrib-htmlhelp:check::::
 python-sphinxcontrib-websupport:optional_tests::::
+python-spnego
 python-ssh-python
 pdf-stapler
 python-stdlib-list
@@ -268,6 +278,7 @@ urjtag
 python-urllib-gssapi
 python-urllib3:tests::::
 ustreamer
+python-virt-firmware
 python-virtualenv:tests::::
 visidata
 python-visionegg-quest
