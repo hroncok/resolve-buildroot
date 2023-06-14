@@ -50,7 +50,7 @@ def clone_into(component_name, target, branch=''):
     log(f' • Cloning {component_name} into "{target}"...', end=' ')
     # I would like to use --depth=1 but that breaks rpmautospec
     # https://pagure.io/fedora-infra/rpmautospec/issue/227
-    run('fedpkg', 'clone', '-a', component_name, target, f'--branch={branch}')
+    run('fedpkg', 'clone', component_name, target, f'--branch={branch}')
     log('done.')
 
 
