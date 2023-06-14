@@ -3,9 +3,11 @@ appliance-tools
 aubio
 b43-tools
 binwalk
+borgbackup
 brd
 btest
 cdist
+conan
 condor
 dblatex
 diceware
@@ -30,10 +32,12 @@ pyflowtools
 python-IPy
 MUSIC
 python-PyPDF2
+python-tgscheduler
 python-Traits::bootstrap:::
 python-acora
 python-aiozeroconf
 python-alarmdecoder
+python-aniso8601
 python-annexremote
 python-ansi
 python-apsw
@@ -57,11 +61,14 @@ botan2
 python-boto
 python-bottle
 python3-cangjie
+python-catkin_pkg
 python-cbor2
 python-cffi
 python-chai
 python-cherrypy:tests::::
+subscription-manager
 colin
+python-collada
 python-coloredlogs
 python-constantly:tests::::
 python-contourpy::bootstrap:::
@@ -89,11 +96,13 @@ python-fixtures::bootstrap:::
 python-flit-core:tests::::
 fonttools:tests::::
 python-fpylll
+python-freezegun
 python-fspath
 future
 python-futurist
 python-gccinvocation
 gfal2-python
+python-ghp-import
 python-gmpy2
 python-grako
 python-graphql-core
@@ -110,6 +119,7 @@ python-invoke
 python-iowait
 python-ipgetter
 python-jaraco-envs
+python-javaproperties
 python-jedi:tests::::
 python-jep
 python-json-logger
@@ -132,6 +142,7 @@ lttng-tools
 python-lxml:extras::::
 python-managesieve
 python-markdown_2
+python-marshmallow
 python-maxminddb
 python-metar
 python-migen
@@ -143,6 +154,7 @@ python-more-itertools:tests::::
 python-mrcfile
 python-multi_key_dict
 python-mygpoclient
+netcdf4-python
 python-networkx::bootstrap:::
 python-nmap
 python-nose_fixes
@@ -155,6 +167,7 @@ python-os-testr
 python-oslo-i18n
 pyosmium
 otf2
+python-pandas::bootstrap:::
 python-pathtools
 python-pbr:tests:bootstrap:::
 python-pcodedmp::bootstrap:::
@@ -229,6 +242,7 @@ skf
 python-slip
 python-smartcols
 python-smbpasswd
+python-snaptime
 python-snipeit
 python-sortedcontainers:docs-tests::::
 python-soupsieve:tests::::
@@ -241,6 +255,7 @@ python-sphinxcontrib-websupport:optional_tests::::
 python-ssh-python
 pdf-stapler
 python-stdlib-list
+python-strictyaml
 python-subprocess-tee:tests::::
 python-sure
 sword
@@ -255,6 +270,7 @@ python-tomli-w:check::::
 python-tornado
 python-tqdm:tests::::
 python-txaio
+python-typepy
 python-uc-micro-py
 python-uinput
 unicorn
@@ -265,13 +281,17 @@ urjtag
 python-urllib-gssapi
 python-urllib3:tests::::
 ustreamer
+vertica-python
 python-virtualenv:tests::::
+visidata
 python-visionegg-quest
+python-vobject
 volume_key
 python-wcmatch
 python-webscrapbook
 python-wrapt
 python-yamlordereddictloader
+python-yaql
 python-yara
 python-yarl
 ydiff
