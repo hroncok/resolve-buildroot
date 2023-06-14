@@ -1,0 +1,9 @@
+diff --git a/python-dateutil.spec b/python-dateutil.spec
+index f31a6d6..436f87e 100644
+--- a/python-dateutil.spec
++++ b/python-dateutil.spec
+@@ -1,3 +1,4 @@
++%global _without_tests 1
+ %global modname dateutil
+ 
+ Name:           python-%{modname}

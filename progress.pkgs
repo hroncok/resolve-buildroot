@@ -21,13 +21,14 @@ kea
 babeltrace2
 mercurial
 mrchem
+neuron
 nodepool
-ntpsec
 nut
 nwchem
 oct2spec
 pyflowtools
 python-IPy
+MUSIC
 python-PyPDF2
 python-Traits::bootstrap:::
 python-acora
@@ -74,6 +75,7 @@ python-cypy
 python-dateutil:tests::::
 python-decopatch:tests::::
 python-diff-match-patch
+python-dijitso
 dionaea
 python-dockerfile-parse
 python-dominate
@@ -84,6 +86,7 @@ python-fasteners:tests::::
 python-filelock:docs-tests::::
 python-firehose
 python-fixtures::bootstrap:::
+python-flit-core:tests::::
 fonttools:tests::::
 python-fpylll
 python-fspath
@@ -114,7 +117,6 @@ python-jsonrpc-server
 python-kmod
 python-lacrosse
 python-lazr-smtptest
-python-ldap
 lensfun
 python-leveldb
 python-libcst:docs-tests::::
@@ -138,7 +140,6 @@ mod_wsgi
 python-modestmaps
 python-mongoengine
 python-more-itertools:tests::::
-mpi4py
 python-mrcfile
 python-multi_key_dict
 python-mygpoclient
@@ -173,7 +174,6 @@ python3-py3dns
 python-py3nvml
 python-py9p
 python-pyaes
-python-pyarlo
 pybind11:tests::::
 python-pycodestyle
 python-pycxx
@@ -202,6 +202,7 @@ pytest:docs-tests-timeout::::
 python-pytest-asyncio:tests::::
 python-pytest-cov:tests::::
 python-pytest-metadata
+python-pytest-mpi
 python-pytest-rerunfailures:tests::::
 python-pytest-subtests
 python-pytest-venv
@@ -278,6 +279,7 @@ python-yourls
 python-ytmusicapi
 python-zbase32::bootstrap:::
 python-zope-event:docs:bootstrap:::
+python-zope-interface:docs-tests::::
 sudo
 sugar
 sugar-datastore
