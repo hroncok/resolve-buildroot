@@ -430,3 +430,5 @@ replacements = {with_docs = "0"}
 [[bconds.python-httpretty]]
 replacements = {run_tests = "0"}
 
+[[bconds.python-ruamel-yaml]]
+withs = ["bootstrap"]
