@@ -23,14 +23,12 @@ kea
 babeltrace2
 mercurial
 mrchem
-neuron
 nodepool
 nut
 nwchem
 oct2spec
 pyflowtools
 python-IPy
-MUSIC
 python-PyPDF2
 python-tgscheduler
 python-Traits::bootstrap:::
