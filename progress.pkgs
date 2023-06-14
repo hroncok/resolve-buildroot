@@ -7,7 +7,6 @@ borgbackup
 brd
 btest
 cdist
-conan
 condor
 dblatex
 diceware
@@ -18,6 +17,7 @@ elements
 fedora-gather-easyfix
 gi-docgen
 gnome-doc-utils
+gtimelog
 hddfancontrol
 kea
 babeltrace2
@@ -30,16 +30,15 @@ oct2spec
 pyflowtools
 python-IPy
 python-PyPDF2
-python-tgscheduler
 python-Traits::bootstrap:::
 python-acora
 python-aiozeroconf
 python-alarmdecoder
-python-aniso8601
 python-annexremote
 python-ansi
 python-apsw
 python-asn1
+python-astral
 python-astropy:check::::
 python-astropy-helpers
 python-async-generator
@@ -48,7 +47,6 @@ python-automaton
 awake
 python-azure-core:tests::::
 python-azure-mgmt-core:tests::::
-babel::bootstrap:::
 python-backrefs
 python-beautifulsoup4:soupsieve-tests::::
 python-bitstruct
@@ -58,16 +56,16 @@ python-bokeh
 botan2
 python-boto
 python-bottle
+python-cached_property
 python3-cangjie
-python-catkin_pkg
+python-catkin_tools
 python-cbor2
 python-cffi
 python-chai
 python-cherrypy:tests::::
-subscription-manager
 colin
-python-collada
 python-coloredlogs
+compose-utils
 python-constantly:tests::::
 python-contourpy::bootstrap:::
 python-cpio
@@ -77,6 +75,7 @@ python-curio
 python-cvxopt
 python-cypari2
 python-cypy
+python-datetimerange
 python-dateutil:tests::::
 python-decopatch:tests::::
 python-diff-match-patch
@@ -94,13 +93,11 @@ python-fixtures::bootstrap:::
 python-flit-core:tests::::
 fonttools:tests::::
 python-fpylll
-python-freezegun
 python-fspath
 future
 python-futurist
 python-gccinvocation
 gfal2-python
-python-ghp-import
 python-gmpy2
 python-grako
 python-graphql-core
@@ -116,6 +113,7 @@ python-immutables
 python-invoke
 python-iowait
 python-ipgetter
+python-itsdangerous
 python-jaraco-envs
 python-javaproperties
 python-jedi:tests::::
@@ -140,7 +138,7 @@ lttng-tools
 python-lxml:extras::::
 python-managesieve
 python-markdown_2
-python-marshmallow
+python-marshmallow-enum
 python-maxminddb
 python-metar
 python-migen
@@ -152,7 +150,6 @@ python-more-itertools:tests::::
 python-mrcfile
 python-multi_key_dict
 python-mygpoclient
-netcdf4-python
 python-networkx::bootstrap:::
 python-nmap
 python-nose_fixes
@@ -176,6 +173,7 @@ python-pivy
 python-plac
 python-pluginlib
 python-podman-api
+python-progressbar2
 python-protego
 protobuf
 python-psutil
@@ -212,6 +210,7 @@ python-pysocks:::with_python3_tests::
 pytest:docs-tests-timeout::::
 python-pytest-asyncio:tests::::
 python-pytest-cov:tests::::
+python-pytest-freezegun
 python-pytest-metadata
 python-pytest-mpi
 python-pytest-rerunfailures:tests::::
@@ -224,6 +223,7 @@ python-recordclass
 python-redis
 python-requests:tests::::
 python-rjsmin
+python-rospkg
 python-rpmfluff
 python-rtmidi
 python-ruffus
@@ -240,7 +240,6 @@ skf
 python-slip
 python-smartcols
 python-smbpasswd
-python-snaptime
 python-snipeit
 python-sortedcontainers:docs-tests::::
 python-soupsieve:tests::::
@@ -253,7 +252,6 @@ python-sphinxcontrib-websupport:optional_tests::::
 python-ssh-python
 pdf-stapler
 python-stdlib-list
-python-strictyaml
 python-subprocess-tee:tests::::
 python-sure
 sword
@@ -268,7 +266,6 @@ python-tomli-w:check::::
 python-tornado
 python-tqdm:tests::::
 python-txaio
-python-typepy
 python-uc-micro-py
 python-uinput
 unicorn
@@ -279,17 +276,14 @@ urjtag
 python-urllib-gssapi
 python-urllib3:tests::::
 ustreamer
-vertica-python
 python-virtualenv:tests::::
 visidata
 python-visionegg-quest
-python-vobject
 volume_key
 python-wcmatch
 python-webscrapbook
 python-wrapt
 python-yamlordereddictloader
-python-yaql
 python-yara
 python-yarl
 ydiff
