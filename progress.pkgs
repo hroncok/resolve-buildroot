@@ -26,13 +26,11 @@ nodepool
 nut
 nwchem
 oct2spec
-openvswitch
 pyflowtools
 python-IPy
 python-PyPDF2
 python-Traits::bootstrap:::
 python-acora
-python-adal
 python-aiozeroconf
 python-alarmdecoder
 python-annexremote
@@ -46,9 +44,11 @@ python-audioread
 python-automaton
 awake
 python-azure-core:tests::::
+python-azure-datalake-store
 python-azure-mgmt-core:tests::::
 python-backrefs
 python-beautifulsoup4:soupsieve-tests::::
+python-betamax-matchers
 python-bitstruct
 python-blowfish
 python-bluepy
@@ -61,6 +61,7 @@ python-catkin_tools
 python-cbor2
 python-chai
 python-cherrypy:tests::::
+python-cloudscraper
 colin
 python-coloredlogs
 compose-utils
@@ -83,6 +84,7 @@ python-dockerfile-parse
 python-dominate
 python-elementpath:tests::::
 python-ephem
+python-factory-boy:tests::::
 python-fastbencode
 python-fasteners:tests::::
 python-filelock:docs-tests::::
@@ -95,7 +97,6 @@ future
 python-futurist
 python-gccinvocation
 gfal2-python
-python-github3py
 python-gmpy2
 python-grako
 python-graphql-core
@@ -106,7 +107,6 @@ python-hpilo
 python-httpretty:::run_tests::
 python-hyperlink
 i2c-tools
-python-ibm-cloud-sdk-core
 libiio
 livecd-tools
 python-immutables
@@ -121,6 +121,7 @@ python-jep
 python-josepy
 python-json-logger
 python-jsonrpc-server
+python-jupyter-ydoc
 python-kmod
 python-lacrosse
 python-lazr-smtptest
@@ -139,6 +140,7 @@ python-logutils
 lttng-tools
 python-lxml:extras::::
 python-managesieve
+python-marathon
 python-markdown_2
 python-maxminddb
 python-metar
@@ -148,10 +150,8 @@ mod_wsgi
 python-modestmaps
 python-mongoengine
 python-more-itertools:tests::::
-python-msal
 python-multi_key_dict
 python-mygpoclient
-python-ndg_httpsclient
 python-networkx::bootstrap:::
 python-nmap
 python-nose_fixes
@@ -159,13 +159,12 @@ python-notario
 python-nudatus
 numpy:tests::::
 python-optcomplete
-python-oracledb
 python-os-testr
 python-oslo-i18n
 pyosmium
 otf2
 python-pandas::bootstrap:::
-python-paste
+python-paste-script
 python-pathtools
 python-pbr:tests:bootstrap:::
 python-pcodedmp::bootstrap:::
@@ -175,6 +174,7 @@ python-pep517:tests::::
 python-pip:doc-tests::::
 python-pivy
 python-plac
+python-plaster-pastedeploy
 python-pluginlib
 python-podman-api
 python-protego
@@ -224,8 +224,6 @@ qpid-proton
 python-recordclass
 python-redis
 python-requests:tests::::
-python-requests-credssp
-python-requests-toolbelt
 python-rjsmin
 python-rosdistro
 python-rpmfluff
@@ -243,7 +241,6 @@ skf
 python-slip
 python-smartcols
 python-smbpasswd
-python-smbprotocol
 python-snipeit
 python-sortedcontainers:docs-tests::::
 python-soupsieve:tests::::
@@ -285,7 +282,6 @@ volume_key
 python-wcmatch
 python-webscrapbook
 python-wrapt
-python-y-py
 python-yamlordereddictloader
 python-yara
 python-yarl
@@ -294,6 +290,7 @@ python-yourls
 python-ytmusicapi
 python-zbase32::bootstrap:::
 python-zope-event:docs:bootstrap:::
+python-zope-interface:docs-tests::::
 sudo
 sugar
 sugar-datastore
