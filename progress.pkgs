@@ -7,6 +7,7 @@ borgbackup
 brd
 btest
 cdist
+cekit
 clingo
 condor
 dblatex
@@ -28,7 +29,6 @@ nut
 nwchem
 oct2spec
 pyflowtools
-python-jack-client
 python-IPy
 python-PyPDF2
 python-Traits::bootstrap:::
@@ -44,7 +44,6 @@ python-astropy:check::::
 python-astropy-helpers
 python-async-generator
 python-audioread
-python-augeas
 python-automaton
 awake
 python-azure-core:tests::::
@@ -92,7 +91,6 @@ python-fasteners:tests::::
 python-filelock:docs-tests::::
 python-firehose
 python-fixtures::bootstrap:::
-python-flit-core:tests::::
 fonttools:tests::::
 python-fpylll
 python-fspath
@@ -111,7 +109,6 @@ python-httpretty:::run_tests::
 python-hyperlink
 i2c-tools
 libiio
-python-ijson
 livecd-tools
 python-immutables
 python-invoke
@@ -120,7 +117,6 @@ python-ipgetter
 python-itsdangerous
 python-jaraco-envs
 python-javaproperties
-jc
 python-jedi:tests::::
 python-jep
 python-json-logger
@@ -136,6 +132,7 @@ libnl3
 pam_wrapper
 libssh2-python
 lilv
+python-linkify-it-py
 python-llvmlite
 python-logging-tree
 python-logutils
@@ -200,13 +197,13 @@ python-pygit2
 python-pygments:docs-tests::::
 pygsl
 pyke
-python-pykwalify
 python-pymeeus
 pyodbc
 python-pyopencl
 python-pyopengl
 python-pyoptical
 pyparted
+python-pyproject-hooks
 python-pyqt5-sip
 python-pyrad
 python-pysam
@@ -222,7 +219,6 @@ python-pytest-mpi
 python-pytest-rerunfailures:tests::::
 python-pytest-subtests
 python-pytest-venv
-python-pyvex
 watchman
 python-pyzolib
 qpid-proton
@@ -266,7 +262,6 @@ python-sure
 sword
 python-tables
 python-tambo
-python-testpath
 python-testresources
 python-testtools::bootstrap:::
 python-textwrap3
@@ -275,7 +270,6 @@ python-tomli-w:check::::
 python-tornado
 python-tqdm:tests::::
 python-txaio
-python-uc-micro-py
 python-uinput
 python-ukkonen
 unicorn
@@ -294,7 +288,6 @@ python-wcmatch
 python-webscrapbook
 python-wrapt
 python-xattr
-python-xcffib
 python-yamlordereddictloader
 python-yara
 python-yarl
@@ -303,7 +296,6 @@ python-yourls
 python-ytmusicapi
 python-zbase32::bootstrap:::
 python-zope-event:docs:bootstrap:::
-python-zope-interface:docs-tests::::
 sudo
 sugar
 sugar-datastore
