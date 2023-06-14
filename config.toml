@@ -432,3 +432,6 @@ replacements = {run_tests = "0"}
 
 [[bconds.python-ruamel-yaml]]
 withs = ["bootstrap"]
+
+[[bconds.python-rq]]
+withouts = ["tests"]
