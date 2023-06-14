@@ -7,8 +7,6 @@ borgbackup
 brd
 btest
 cdist
-cekit
-clingo
 condor
 dblatex
 diceware
@@ -33,12 +31,12 @@ python-IPy
 python-PyPDF2
 python-Traits::bootstrap:::
 python-acora
+python-aiodns
 python-aiozeroconf
 python-alarmdecoder
 python-annexremote
 python-ansi
 python-apsw
-python-argon2-cffi-bindings
 python-asn1
 python-astropy:check::::
 python-astropy-helpers
@@ -62,7 +60,6 @@ python-catkin_tools
 python-cbor2
 python-chai
 python-cherrypy:tests::::
-python-cmarkgfm
 colin
 python-coloredlogs
 compose-utils
@@ -82,8 +79,6 @@ python-dijitso
 dionaea
 python-dockerfile-parse
 python-dominate
-python-eccodes
-python-editdistance-s
 python-elementpath:tests::::
 python-ephem
 python-fastbencode
@@ -99,7 +94,6 @@ python-futurist
 python-gccinvocation
 gfal2-python
 python-gmpy2
-python-google-crc32c
 python-grako
 python-graphql-core
 python-greenlet
@@ -108,6 +102,7 @@ python-hpilo
 python-httpretty:::run_tests::
 python-hyperlink
 i2c-tools
+python-identify
 libiio
 livecd-tools
 python-immutables
@@ -148,14 +143,12 @@ mod_wsgi
 python-modestmaps
 python-mongoengine
 python-more-itertools:tests::::
-python-mrcfile
 python-multi_key_dict
 python-mygpoclient
 python-networkx::bootstrap:::
 python-nmap
 python-nose_fixes
 python-notario
-notcurses
 python-nudatus
 numpy:tests::::
 python-olefile
@@ -185,7 +178,6 @@ python-py3nvml
 python-py9p
 python-pyaes
 pybind11:tests::::
-python-pycares
 python-pycodestyle
 python-pycxx
 python-pydiffx
@@ -193,7 +185,6 @@ python-pyerfa:tests::::
 python-pyfim
 pyflakes
 python-pyghmi
-python-pygit2
 python-pygments:docs-tests::::
 pygsl
 pyke
@@ -203,7 +194,6 @@ python-pyopencl
 python-pyopengl
 python-pyoptical
 pyparted
-python-pyproject-hooks
 python-pyqt5-sip
 python-pyrad
 python-pysam
@@ -243,7 +233,6 @@ skf
 python-slip
 python-smartcols
 python-smbpasswd
-python-snappy
 python-snipeit
 python-sortedcontainers:docs-tests::::
 python-soupsieve:tests::::
@@ -253,7 +242,6 @@ python-sphinx-mdinclude
 python-sphinx-sitemap
 python-sphinxcontrib-htmlhelp:check::::
 python-sphinxcontrib-websupport:optional_tests::::
-python-ssdeep
 python-ssh-python
 pdf-stapler
 python-stdlib-list
@@ -271,7 +259,6 @@ python-tornado
 python-tqdm:tests::::
 python-txaio
 python-uinput
-python-ukkonen
 unicorn
 upm
 python-upoints
@@ -287,7 +274,6 @@ volume_key
 python-wcmatch
 python-webscrapbook
 python-wrapt
-python-xattr
 python-yamlordereddictloader
 python-yara
 python-yarl
