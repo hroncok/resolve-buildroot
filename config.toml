@@ -435,3 +435,6 @@ withs = ["bootstrap"]
 
 [[bconds.python-rq]]
 withouts = ["tests"]
+
+[[bconds.python-markdown-it-py]]
+withouts = ["plugins"]
