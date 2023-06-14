@@ -7,6 +7,7 @@ borgbackup
 brd
 btest
 cdist
+clingo
 condor
 dblatex
 diceware
@@ -27,6 +28,7 @@ nut
 nwchem
 oct2spec
 pyflowtools
+python-jack-client
 python-IPy
 python-PyPDF2
 python-Traits::bootstrap:::
@@ -36,11 +38,13 @@ python-alarmdecoder
 python-annexremote
 python-ansi
 python-apsw
+python-argon2-cffi-bindings
 python-asn1
 python-astropy:check::::
 python-astropy-helpers
 python-async-generator
 python-audioread
+python-augeas
 python-automaton
 awake
 python-azure-core:tests::::
@@ -57,9 +61,9 @@ python-bottle
 python3-cangjie
 python-catkin_tools
 python-cbor2
-python-cffi
 python-chai
 python-cherrypy:tests::::
+python-cmarkgfm
 colin
 python-coloredlogs
 compose-utils
@@ -79,6 +83,8 @@ python-dijitso
 dionaea
 python-dockerfile-parse
 python-dominate
+python-eccodes
+python-editdistance-s
 python-elementpath:tests::::
 python-ephem
 python-fastbencode
@@ -95,6 +101,7 @@ python-futurist
 python-gccinvocation
 gfal2-python
 python-gmpy2
+python-google-crc32c
 python-grako
 python-graphql-core
 python-greenlet
@@ -104,6 +111,7 @@ python-httpretty:::run_tests::
 python-hyperlink
 i2c-tools
 libiio
+python-ijson
 livecd-tools
 python-immutables
 python-invoke
@@ -112,6 +120,7 @@ python-ipgetter
 python-itsdangerous
 python-jaraco-envs
 python-javaproperties
+jc
 python-jedi:tests::::
 python-jep
 python-json-logger
@@ -149,6 +158,7 @@ python-networkx::bootstrap:::
 python-nmap
 python-nose_fixes
 python-notario
+notcurses
 python-nudatus
 numpy:tests::::
 python-olefile
@@ -178,6 +188,7 @@ python-py3nvml
 python-py9p
 python-pyaes
 pybind11:tests::::
+python-pycares
 python-pycodestyle
 python-pycxx
 python-pydiffx
@@ -185,9 +196,11 @@ python-pyerfa:tests::::
 python-pyfim
 pyflakes
 python-pyghmi
+python-pygit2
 python-pygments:docs-tests::::
 pygsl
 pyke
+python-pykwalify
 python-pymeeus
 pyodbc
 python-pyopencl
@@ -209,6 +222,7 @@ python-pytest-mpi
 python-pytest-rerunfailures:tests::::
 python-pytest-subtests
 python-pytest-venv
+python-pyvex
 watchman
 python-pyzolib
 qpid-proton
@@ -219,7 +233,6 @@ python-rjsmin
 python-rosdistro
 python-rpmfluff
 python-rtmidi
-python-ruamel-yaml::bootstrap:::
 python-ruffus
 python-scales
 scapy
@@ -234,6 +247,7 @@ skf
 python-slip
 python-smartcols
 python-smbpasswd
+python-snappy
 python-snipeit
 python-sortedcontainers:docs-tests::::
 python-soupsieve:tests::::
@@ -243,6 +257,7 @@ python-sphinx-mdinclude
 python-sphinx-sitemap
 python-sphinxcontrib-htmlhelp:check::::
 python-sphinxcontrib-websupport:optional_tests::::
+python-ssdeep
 python-ssh-python
 pdf-stapler
 python-stdlib-list
@@ -262,6 +277,7 @@ python-tqdm:tests::::
 python-txaio
 python-uc-micro-py
 python-uinput
+python-ukkonen
 unicorn
 upm
 python-upoints
@@ -277,6 +293,8 @@ volume_key
 python-wcmatch
 python-webscrapbook
 python-wrapt
+python-xattr
+python-xcffib
 python-yamlordereddictloader
 python-yara
 python-yarl
