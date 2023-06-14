@@ -14,12 +14,14 @@ distgen
 dnf-plugin-diff
 python-drgn
 elements
+fapolicy-analyzer
 fedora-gather-easyfix
 gi-docgen
 gnome-doc-utils
 hddfancontrol
 kea
 babeltrace2
+maturin
 mercurial
 mrchem
 nodepool
@@ -31,7 +33,6 @@ python-IPy
 python-PyPDF2
 python-Traits::bootstrap:::
 python-acora
-python-aiodns
 python-aiozeroconf
 python-alarmdecoder
 python-annexremote
@@ -68,6 +69,7 @@ python-contourpy::bootstrap:::
 python-cpio
 python-cppy
 criu
+python-cryptography:tests::::
 python-curio
 python-cvxopt
 python-cypari2
@@ -102,7 +104,6 @@ python-hpilo
 python-httpretty:::run_tests::
 python-hyperlink
 i2c-tools
-python-identify
 libiio
 livecd-tools
 python-immutables
@@ -210,6 +211,7 @@ python-pytest-rerunfailures:tests::::
 python-pytest-subtests
 python-pytest-venv
 watchman
+python-pyzabbix
 python-pyzolib
 qpid-proton
 python-recordclass
@@ -224,7 +226,6 @@ python-scales
 scapy
 python-schedutils
 python3-script
-python-semantic_version
 python-setuptools:tests:bootstrap:::
 python-setuptools_scm:tests::::
 python-simpleparse
