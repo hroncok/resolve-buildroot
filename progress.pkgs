@@ -17,7 +17,6 @@ elements
 fedora-gather-easyfix
 gi-docgen
 gnome-doc-utils
-gtimelog
 hddfancontrol
 kea
 babeltrace2
@@ -38,7 +37,6 @@ python-annexremote
 python-ansi
 python-apsw
 python-asn1
-python-astral
 python-astropy:check::::
 python-astropy-helpers
 python-async-generator
@@ -56,7 +54,6 @@ python-bokeh
 botan2
 python-boto
 python-bottle
-python-cached_property
 python3-cangjie
 python-catkin_tools
 python-cbor2
@@ -75,7 +72,6 @@ python-curio
 python-cvxopt
 python-cypari2
 python-cypy
-python-datetimerange
 python-dateutil:tests::::
 python-decopatch:tests::::
 python-diff-match-patch
@@ -138,7 +134,6 @@ lttng-tools
 python-lxml:extras::::
 python-managesieve
 python-markdown_2
-python-marshmallow-enum
 python-maxminddb
 python-metar
 python-migen
@@ -173,7 +168,6 @@ python-pivy
 python-plac
 python-pluginlib
 python-podman-api
-python-progressbar2
 python-protego
 protobuf
 python-psutil
@@ -210,7 +204,6 @@ python-pysocks:::with_python3_tests::
 pytest:docs-tests-timeout::::
 python-pytest-asyncio:tests::::
 python-pytest-cov:tests::::
-python-pytest-freezegun
 python-pytest-metadata
 python-pytest-mpi
 python-pytest-rerunfailures:tests::::
@@ -223,9 +216,10 @@ python-recordclass
 python-redis
 python-requests:tests::::
 python-rjsmin
-python-rospkg
+python-rosdistro
 python-rpmfluff
 python-rtmidi
+python-ruamel-yaml::bootstrap:::
 python-ruffus
 python-scales
 scapy
