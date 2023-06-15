@@ -1,6 +1,5 @@
 NFStest
 appliance-tools
-python-apprise
 aubio
 b43-tools
 beaker
@@ -28,11 +27,11 @@ babeltrace2
 mercurial
 mrchem
 nodepool
-nut
 oct2spec
 openssh-ldap-authkeys
 openwsman
 pyflowtools
+python-GridDataFormats
 python-IPy
 python-PyPDF2
 python-Traits::bootstrap:::
@@ -43,6 +42,7 @@ python-annexremote
 python-ansi
 python-apsw
 python-argcomplete
+python-ase
 python-asn1
 python-astropy:check::::
 python-astropy-helpers
@@ -56,6 +56,7 @@ python-awscrt
 python-azure-core:tests::::
 python-azure-mgmt-core:tests::::
 python-backrefs
+python-behave
 python-bitstruct
 python-bleach
 python-blowfish
@@ -112,6 +113,7 @@ python-fspath
 future
 python-futurist
 python-gccinvocation
+python-gensim
 python-geomet
 gfal2-python
 python-gmpy2
@@ -119,7 +121,6 @@ python-grako
 python-graphql-core
 python-greenlet
 python-guizero
-python-hamcrest
 python-hdfs
 python-hpilo
 python-httpretty:::run_tests::
@@ -145,6 +146,8 @@ python-kmod
 python-lacrosse
 lasso
 python-lazr-smtptest
+python-lazy-loader
+python-lazyarray
 lensfun
 python-leveldb
 python-libcst:docs-tests::::
@@ -152,6 +155,7 @@ sssd
 libnl3
 pam_wrapper
 libssh2-python
+libsvm
 lilv
 python-linkify-it-py
 python-llvmlite
@@ -168,10 +172,12 @@ python-mistune08
 mod_wsgi
 python-modestmaps
 python-mongoengine
+python-more-executors
 python-multi_key_dict
 python-mygpoclient
 python-networkx::bootstrap:::
 python-nmap
+python-nmrglue
 python-nose2
 python-nose_fixes
 python-notario
@@ -200,13 +206,11 @@ python-podman-api
 python-protego
 protobuf
 python-ptrace
-python-py-gql
 py-radix
 python3-py3dns
 python-py3nvml
 python-py9p
 python-pyaes
-pybind11:tests::::
 python-pycodestyle
 python-pycxx
 python-pydiffx
@@ -234,7 +238,6 @@ python-pyside2
 python-pysnooper
 pytest:docs-tests-timeout::::
 python-pytest-asyncio:tests::::
-python-pytest-bdd5
 python-pytest-metadata
 python-pytest-mpi
 python-pytest-shutil
@@ -247,9 +250,9 @@ radicale
 python-recordclass
 python-redis
 python-requests:tests::::
+python-retryz
 python-rjsmin
 python-rosdistro
-python-rpmautospec
 python-rpmfluff
 python-rtmidi
 python-ruffus
@@ -275,8 +278,10 @@ python-sphinxcontrib-websupport:optional_tests::::
 python-sphinxygen
 python-ssh-python
 pdf-stapler
+python-statsmodels
 python-stdlib-list
 python-subprocess-tee:tests::::
+python-supersmoother
 python-sure
 sword
 python-tables
@@ -284,13 +289,14 @@ python-tambo
 python-testresources
 python-testtools::bootstrap:::
 python-textwrap3
+python-threadpoolctl
 python-token-bucket
 python-tokenize-rt
 python-tomli-w:check::::
 python-tornado
 totpcgi
-python-tpm2-pytss
 python-tqdm:tests::::
+python-tvb-gdist
 python-txaio
 python-uinput
 unicorn
@@ -331,6 +337,7 @@ system-storage-manager
 targetd
 thefuck
 python-tox:tests::::
+tpm2-pkcs11
 transmageddon
 ufw
 vit
