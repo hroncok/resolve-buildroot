@@ -1,9 +1,0 @@
-diff --git a/python-pyerfa.spec b/python-pyerfa.spec
-index 33195f9..89ec6de 100644
---- a/python-pyerfa.spec
-+++ b/python-pyerfa.spec
-@@ -1,3 +1,4 @@
-+%global _without_tests 1
- %global module_name erfa
- %global pypi_name pyerfa
- # tests need pytest-astropy, needs astropy, needs pyerfa
