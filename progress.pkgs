@@ -9,6 +9,7 @@ borgbackup
 brd
 btest
 cdist
+cockpit
 condor
 dblatex
 diceware
@@ -255,7 +256,6 @@ python-ruffus
 python-scales
 scapy
 python-schedutils
-scipy:pythran::::
 python3-script
 python-setuptools:tests:bootstrap:::
 python-setuptools_scm:tests::::
