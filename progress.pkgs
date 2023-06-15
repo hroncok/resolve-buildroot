@@ -19,7 +19,6 @@ distgen
 dnf-plugin-diff
 swid-tools
 python-drgn
-ec2-hibinit-agent
 elements
 fail2ban
 fedora-gather-easyfix
@@ -27,19 +26,15 @@ fonts-tweak-tool
 gaupol
 gnofract4d
 gnome-doc-utils
-hydrapaper
 lammps
 babeltrace2
 libreoffice
-libvirt-test-API
 manafirewall
 mercurial
 mrchem
 oct2spec
 offlineimap
 onboard
-openssh-ldap-authkeys
-openwsman
 kernel-tools
 photoqt
 pyflowtools
@@ -84,13 +79,10 @@ python-bottle
 python-box
 python3-cangjie
 python-catkin_tools
-cepces
 python-chai
 python-check-manifest
 python-cherrypy:tests::::
-cjdns
 python-click-spinner
-python-collectd_systemd
 python-constantly:tests::::
 python-contourpy::bootstrap:::
 python-cpio
@@ -102,10 +94,7 @@ python-cypy
 python-decopatch:tests::::
 python-diff-match-patch
 dionaea
-dnf-plugin-cow
-dnf-plugin-flunk_dependent_remove
 dnf-plugins-extras
-dnf-plugin-perfmetrics
 python-dns:curio-doh-trio::::
 python-dockerfile-parse
 python-dominate
@@ -189,7 +178,6 @@ notmuch
 python-nss
 python-nudatus
 python-optcomplete
-osbuild
 pyosmium
 otf2
 python-pandas::bootstrap:::
@@ -220,7 +208,6 @@ pyflakes
 pyftpdlib
 pygsl
 pyke
-python-pymilter
 pyodbc
 python-pyopencl
 python-pyopengl
@@ -243,7 +230,6 @@ watchman
 python-pyzolib
 qpid-proton
 rabbitvcs
-radicale
 python-recordclass
 python-redis
 python-requests:tests::::
@@ -279,7 +265,6 @@ python-token-bucket
 python-tokenize-rt
 python-tomli-w:check::::
 python-tornado
-totpcgi
 python-tqdm:tests::::
 python-twisted
 python-uinput
@@ -314,7 +299,6 @@ zbar
 python-zbase32::bootstrap:::
 python-zope-event:docs:bootstrap:::
 python-zope-testrunner
-retrace-server
 rmlint
 sudo
 sugar
