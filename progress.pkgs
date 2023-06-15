@@ -9,6 +9,7 @@ brd
 btest
 cdist
 clang
+cockpit
 condor
 cxxtest
 diceware
@@ -113,10 +114,12 @@ dnf-plugin-cow
 dnf-plugin-flunk_dependent_remove
 dnf-plugins-extras
 dnf-plugin-perfmetrics
+python-dns:curio-doh-trio::::
 python-dockerfile-parse
 python-dominate
 python-elementpath:tests::::
 python-ephem
+python-factory-boy:tests::::
 python-fastbencode
 python-fasteners:tests::::
 python-filelock:docs-tests::::
@@ -173,7 +176,6 @@ sssd
 libnl3
 libnvme
 pam_wrapper
-libreport
 libssh2-python
 libsvm
 lilv
