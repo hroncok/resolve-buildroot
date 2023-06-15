@@ -1,5 +1,6 @@
 NFStest
 appliance-tools
+asciidoc
 aubio
 python-b4
 b43-tools
@@ -11,7 +12,6 @@ btest
 cdist
 cockpit
 condor
-dblatex
 diceware
 distgen
 dnf-plugin-diff
@@ -29,6 +29,7 @@ babeltrace2
 libvirt-test-API
 mercurial
 mrchem
+nextpnr
 nodepool
 oct2spec
 opae
@@ -357,7 +358,6 @@ targetd
 thefuck
 python-tox:tests::::
 transmageddon
-trellis
 ufw
 vit
 wordxtr
