@@ -205,7 +205,6 @@ python-pivy
 python-pluginlib
 python-podman-api
 poetry::bootstrap:::
-python-pplpy
 python-protego
 python-ptrace
 py-radix
@@ -228,8 +227,6 @@ python-pyopengl
 python-pyoptical
 pyparted
 python-pyqt5-sip
-python-pyqt6-charts
-python-pyqt6-webengine
 python-pyquery:tests::::
 python-pyrad
 python-pysam
