@@ -26,7 +26,6 @@ fedora-gather-easyfix
 fonts-tweak-tool
 gaupol
 gnofract4d
-gnome-builder
 gnome-doc-utils
 hydrapaper
 lammps
@@ -41,15 +40,12 @@ offlineimap
 onboard
 openssh-ldap-authkeys
 openwsman
-orca
 kernel-tools
 photoqt
-prunerepo
 pyflowtools
 python-GridDataFormats
 python-IPy
 python-PyPDF2
-PyQt4
 python-Traits::bootstrap:::
 python-acora
 python-aiofiles
@@ -129,7 +125,6 @@ python-geomet
 python-gevent
 gfal2-python
 glusterfs
-python-gmpy2
 python-google-api-core:tests::::
 python-googleapis-common-protos::bootstrap:::
 python-grako
@@ -210,6 +205,7 @@ python-pivy
 python-pluginlib
 python-podman-api
 poetry::bootstrap:::
+python-pplpy
 python-protego
 python-ptrace
 py-radix
@@ -232,7 +228,8 @@ python-pyopengl
 python-pyoptical
 pyparted
 python-pyqt5-sip
-python-pyqt6
+python-pyqt6-charts
+python-pyqt6-webengine
 python-pyquery:tests::::
 python-pyrad
 python-pysam
@@ -248,7 +245,6 @@ python-pytest-virtualenv
 watchman
 python-pyzolib
 qpid-proton
-python-qt5
 rabbitvcs
 radicale
 python-recordclass
@@ -308,7 +304,6 @@ python-wcmatch
 python-webscrapbook
 python-webtest
 python-werkzeug
-python-wloc
 python-xmlsec
 xrootd
 python-yamlordereddictloader
