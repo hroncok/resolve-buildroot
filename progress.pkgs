@@ -103,6 +103,7 @@ python-fastbencode
 python-fasteners:tests::::
 python-filelock:docs-tests::::
 python-firehose
+python-flask
 flatpak-module-tools
 fonttools:tests::::
 python-fpylll
@@ -128,7 +129,6 @@ python-iniparse
 python-invoke
 python-iowait
 python-ipgetter
-python-itsdangerous
 python-javaproperties
 python-jedi:tests::::
 emacs-jedi
@@ -150,6 +150,7 @@ sssd
 python-liblarch
 libnl3
 pam_wrapper
+python-libsass
 libssh2-python
 lilv
 python-linkify-it-py
@@ -220,6 +221,7 @@ python-pysnooper
 pytest:docs-tests-timeout::::
 python-pytest-asyncio:tests::::
 python-pytest-bdd
+python-pytest-localserver
 python-pytest-metadata
 python-pytest-subtests
 python-pytest-venv
@@ -283,7 +285,6 @@ volume_key
 python-wcmatch
 python-webscrapbook
 python-webtest
-python-werkzeug
 python-x2go
 python-xmlsec
 python-yamlordereddictloader
