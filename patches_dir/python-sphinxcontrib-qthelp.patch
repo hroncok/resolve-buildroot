@@ -1,9 +1,0 @@
-diff --git a/python-sphinxcontrib-qthelp.spec b/python-sphinxcontrib-qthelp.spec
-index cb5f77b..57314a0 100644
---- a/python-sphinxcontrib-qthelp.spec
-+++ b/python-sphinxcontrib-qthelp.spec
-@@ -1,3 +1,4 @@
-+%global _without_check 1
- %global pypi_name sphinxcontrib-qthelp
- 
- # when bootstrapping sphinx, we cannot run tests yet
