@@ -107,8 +107,6 @@ python-firehose
 python-flask-babel
 python-flask-cors
 python-flask-login
-python-flask-mongoengine
-python-flask-wtf-decorators
 flatpak-module-tools
 fonttools:tests::::
 python-fpylll
@@ -165,6 +163,7 @@ lttng-tools
 python-managesieve
 python-markdown_2
 python-maxminddb
+python-mechanicalsoup
 python-metar
 python-mirakuru
 python-mistune08
@@ -225,7 +224,6 @@ python-pysnooper
 pytest:docs-tests-timeout::::
 python-pytest-asyncio:tests::::
 python-pytest-bdd
-python-pytest-httpbin
 python-pytest-metadata
 python-pytest-subtests
 python-pytest-venv
@@ -289,7 +287,6 @@ volume_key
 python-wcmatch
 python-webscrapbook
 python-webtest
-python-winrm
 python-x2go
 python-xmlsec
 python-yamlordereddictloader
