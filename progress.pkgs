@@ -27,7 +27,7 @@ gnofract4d
 gnome-doc-utils
 lammps
 babeltrace2
-libreoffice
+lvm2
 manafirewall
 mercurial
 mrchem
@@ -110,7 +110,7 @@ python-fspath
 future
 python-gccinvocation
 python-geomet
-python-gevent
+python-gevent-eventemitter
 gfal2-python
 glusterfs
 python-google-api-core:tests::::
@@ -118,6 +118,7 @@ python-googleapis-common-protos::bootstrap:::
 python-grako
 grpc
 python-guizero
+python-h2
 h5py
 python-hdfs
 python-httpretty:::run_tests::
@@ -285,8 +286,10 @@ python-wcmatch
 python-webscrapbook
 python-webtest
 python-werkzeug
+python-x2go
 python-xmlsec
 python-yamlordereddictloader
+python-yappi
 python-yara
 python-yarl
 ydiff
@@ -310,6 +313,7 @@ terminator
 thefuck
 python-tox:tests::::
 transmageddon
+tuned
 vit
 wordxtr
 xcb-proto
