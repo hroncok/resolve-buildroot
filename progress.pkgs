@@ -11,7 +11,6 @@ borgbackup
 brd
 btest
 cdist
-ceph
 classification-banner
 condor
 cxxtest
@@ -287,7 +286,6 @@ python-webscrapbook
 python-webtest
 python-werkzeug
 python-xmlsec
-xrootd
 python-yamlordereddictloader
 python-yara
 python-yarl
@@ -312,7 +310,6 @@ terminator
 thefuck
 python-tox:tests::::
 transmageddon
-ufw
 vit
 wordxtr
 xcb-proto
