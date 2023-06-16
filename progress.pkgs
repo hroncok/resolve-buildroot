@@ -110,7 +110,6 @@ python-fspath
 future
 python-gccinvocation
 python-geomet
-python-gevent-eventemitter
 gfal2-python
 glusterfs
 python-google-api-core:tests::::
@@ -118,7 +117,6 @@ python-googleapis-common-protos::bootstrap:::
 python-grako
 grpc
 python-guizero
-python-h2
 h5py
 python-hdfs
 python-httpretty:::run_tests::
@@ -313,7 +311,6 @@ terminator
 thefuck
 python-tox:tests::::
 transmageddon
-tuned
 vit
 wordxtr
 xcb-proto
