@@ -173,7 +173,6 @@ python-nmap
 python-nose2
 python-nose_fixes
 python-notario
-notmuch
 python-nss
 python-nudatus
 python-optcomplete
@@ -221,7 +220,6 @@ python-pysnooper
 pytest:docs-tests-timeout::::
 python-pytest-asyncio:tests::::
 python-pytest-bdd
-python-pytest-localserver
 python-pytest-metadata
 python-pytest-subtests
 python-pytest-venv
