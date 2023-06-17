@@ -1,4 +1,3 @@
-Mayavi
 NFStest
 Zim
 andriller
@@ -27,7 +26,6 @@ fedora-gather-easyfix
 libffado
 fonts-tweak-tool
 gaupol
-getdp
 gnofract4d
 gnome-doc-utils
 lammps
@@ -217,6 +215,7 @@ python-pyfim
 pyflakes
 pyftpdlib
 python-pyglet
+python-pygrocy
 pygsl
 pyke
 pyodbc
@@ -278,7 +277,6 @@ python-tokenize-rt
 python-tornado
 python-tqdm:tests::::
 python-twisted
-python-tzlocal
 python-uinput
 unicorn
 upm
@@ -309,7 +307,6 @@ python-yte
 python-ytmusicapi
 zbar
 python-zbase32::bootstrap:::
-python-zope-configuration
 rmlint
 scribus
 sudo
