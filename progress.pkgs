@@ -1,3 +1,4 @@
+Mayavi
 NFStest
 Zim
 andriller
@@ -26,6 +27,7 @@ fedora-gather-easyfix
 libffado
 fonts-tweak-tool
 gaupol
+getdp
 gnofract4d
 gnome-doc-utils
 lammps
@@ -33,7 +35,7 @@ lvm2
 manafirewall
 mercurial
 mrchem
-nicotine+
+netgen-mesher
 nml
 oct2spec
 offlineimap
@@ -154,6 +156,7 @@ lensfun
 python-leveldb
 python-libcst:docs-tests::::
 dtc
+libfreenect
 sssd
 python-liblarch
 libnl3
@@ -168,10 +171,10 @@ lttng-tools
 python-managesieve
 python-markdown_2
 python-maxminddb
-python-mdurl
 python-metar
 python-mirakuru
 python-mistune08
+mlt
 python-modestmaps
 python-multi_key_dict
 python-mygpoclient
@@ -233,10 +236,8 @@ python-pytest-metadata
 python-pytest-subtests
 python-pytest-venv
 python-pytest-virtualenv
-python-pytz-deprecation-shim
 watchman
 python-pyzolib
-qgis
 python-qpageview
 qpid-proton
 python-qutepart
@@ -272,14 +273,13 @@ python-tambo
 python-testresources
 python-testtools::bootstrap:::
 python-textdistance
-python-time-machine
 python-token-bucket
 python-tokenize-rt
 python-tornado
 python-tqdm:tests::::
 python-twisted
+python-tzlocal
 python-uinput
-python-unicodedata2
 unicorn
 upm
 python-upoints
@@ -293,7 +293,6 @@ python-virtualenv-clone
 visidata
 python-visionegg-quest
 volume_key
-vtk
 python-wcmatch
 python-webscrapbook
 python-webtest
@@ -310,10 +309,7 @@ python-yte
 python-ytmusicapi
 zbar
 python-zbase32::bootstrap:::
-python-zodbpickle
-python-zope-schema
-python-zopeundo
-retext
+python-zope-configuration
 rmlint
 scribus
 sudo
@@ -326,7 +322,6 @@ system-storage-manager
 targetd
 terminator
 thefuck
-python-tox:tests::::
 transmageddon
 vit
 wordxtr
