@@ -26,6 +26,7 @@ fedora-gather-easyfix
 libffado
 fonts-tweak-tool
 gaupol
+gmsh
 gnofract4d
 gnome-doc-utils
 lammps
@@ -33,7 +34,6 @@ lvm2
 manafirewall
 mercurial
 mrchem
-netgen-mesher
 nml
 oct2spec
 offlineimap
@@ -172,7 +172,6 @@ python-maxminddb
 python-metar
 python-mirakuru
 python-mistune08
-mlt
 python-modestmaps
 python-multi_key_dict
 python-mygpoclient
@@ -215,7 +214,6 @@ python-pyfim
 pyflakes
 pyftpdlib
 python-pyglet
-python-pygrocy
 pygsl
 pyke
 pyodbc
