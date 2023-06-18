@@ -1,0 +1,10 @@
+diff --git a/Cython.spec b/Cython.spec
+index bf29cd6..3019b2e 100644
+--- a/Cython.spec
++++ b/Cython.spec
+@@ -1,4 +1,4 @@
+-%bcond tests 1
++%bcond tests 0
+ 
+ # This bcond allows to ship a non-compiled version
+ # Slower, but sometimes necessary with alpha Python versions
