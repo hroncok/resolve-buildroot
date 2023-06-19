@@ -26,8 +26,6 @@ fedora-gather-easyfix
 libffado
 fonts-tweak-tool
 gaupol
-gmsh
-gnofract4d
 gnome-doc-utils
 lammps
 lvm2
@@ -83,6 +81,8 @@ python-botocore
 python-bottle
 python-box
 python3-cangjie
+python-canonicaljson
+python-catkin_lint
 python-catkin_tools
 python-chai
 python-check-manifest
@@ -100,11 +100,9 @@ python-decopatch:tests::::
 python-diff-match-patch
 dionaea
 dnf-plugins-extras
-python-dns:curio-doh-trio::::
 python-dockerfile-parse
 python-dominate
 python-ephem
-python-factory-boy:tests::::
 python-fastbencode
 python-fasteners:tests::::
 python-filelock:docs-tests::::
@@ -114,6 +112,7 @@ python-flask-babel
 python-flask-cors
 python-flask-login
 flatpak-module-tools
+python-flufl-bounce
 fonttools:tests::::
 python-fpylll
 python-fspath
@@ -121,7 +120,6 @@ future
 python-gccinvocation
 python-geomet
 gfal2-python
-python-google-api-core:tests::::
 python-googleapis-common-protos::bootstrap:::
 python-grako
 grpc
@@ -179,7 +177,6 @@ python-ndindex
 python-neovim
 python-networkx::bootstrap:::
 python-nmap
-python-nose2
 python-nose_fixes
 python-notario
 python-nss
@@ -188,6 +185,7 @@ python-optcomplete
 pyosmium
 otf2
 python-pandas::bootstrap:::
+python-parameterized
 python-pathos
 python-pathtools
 python-pbr:tests:bootstrap:::
@@ -195,6 +193,7 @@ python-pcodedmp::bootstrap:::
 pdc-client
 python-pdir2
 python-pep517:tests::::
+python-persist-queue
 python-pip:doc-tests::::
 python-pivy
 python-pluginlib
@@ -207,13 +206,11 @@ python3-py3dns
 python-py9p
 python-pyaes
 python-pycodestyle
-python-pycxx
 python-pydiffx
 python-pydocstyle
 python-pyfim
 pyflakes
 pyftpdlib
-python-pyglet
 pygsl
 pyke
 pyodbc
@@ -239,6 +236,7 @@ python-qpageview
 qpid-proton
 python-qutepart
 rabbitvcs
+python-read-roi
 python-recordclass
 python-redis
 python-requests:tests::::
