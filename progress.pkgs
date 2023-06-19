@@ -33,6 +33,7 @@ manafirewall
 mercurial
 mrchem
 nml
+ocrmypdf
 oct2spec
 offlineimap
 onboard
@@ -80,7 +81,6 @@ python-boto
 python-botocore
 python-bottle
 python-box
-python-cairocffi
 python3-cangjie
 python-catkin_tools
 python-chai
@@ -127,7 +127,6 @@ python-hdfs
 python-httpretty:::run_tests::
 python-hypothesis:doc-tests::::
 i2c-tools
-python-img2pdf
 livecd-tools
 python-immutables
 python-iniparse
