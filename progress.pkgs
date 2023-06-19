@@ -21,19 +21,20 @@ python-drgn
 electron-cash
 elements
 eric
+python-esphomeflasher
 fail2ban
 fedora-gather-easyfix
 libffado
 fonts-tweak-tool
 gaupol
 gnome-doc-utils
+kicad
 lammps
 lvm2
 manafirewall
 mercurial
 mrchem
 nml
-ocrmypdf
 oct2spec
 offlineimap
 onboard
@@ -165,6 +166,7 @@ lttng-tools
 m2crypto
 python-managesieve
 python-markdown_2
+python-matplotlib
 python-maxminddb
 python-metar
 python-mirakuru
@@ -210,6 +212,7 @@ pyflakes
 pyftpdlib
 pygsl
 pyke
+python-pyobd
 pyodbc
 python-pyopencl
 python-pyopengl
@@ -288,7 +291,6 @@ volume_key
 python-wcmatch
 python-webscrapbook
 python-webtest
-python-wxpython4
 python-x2go
 python-xmlsec
 python-yamlordereddictloader
@@ -301,6 +303,7 @@ python-yte
 python-ytmusicapi
 zbar
 python-zbase32::bootstrap:::
+quisk
 rmlint
 scribus
 sudo
@@ -314,6 +317,7 @@ targetd
 terminator
 thefuck
 transmageddon
+trelby
 vit
 wordxtr
 xcb-proto
