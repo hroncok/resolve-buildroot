@@ -444,3 +444,7 @@ withouts = ["tests"]
 
 [[bconds.python-tox-current-env]]
 withouts = ["tests"]
+
+[[bconds.python-pikepdf]]
+withs = ["docs", "tests"]
+
