@@ -79,16 +79,13 @@ botan2
 python-boto
 python-botocore
 python-bottle
-python-bowler
 python-box
 python3-cangjie
 python-catkin_tools
-python-cffsubr
 python-chai
 python-check-manifest
 python-cherrypy:tests::::
 python-click-spinner
-python-compreffor
 python-constantly:tests::::
 python-contourpy::bootstrap:::
 python-cpio
@@ -97,7 +94,6 @@ python-cryptography:tests::::
 python-curio
 python-cypari2
 python-cypy
-python-dateparser
 python-decopatch:tests::::
 python-diff-match-patch
 dionaea
@@ -115,9 +111,6 @@ python-flask-cors
 python-flask-login
 flatpak-module-tools
 python-flufl-bounce
-python-fontMath
-python-fontname
-fonttools:tests::::
 python-fpylll
 python-fspath
 future
@@ -177,6 +170,7 @@ python-mirakuru
 python-mistune08
 python-modestmaps
 python-multi_key_dict
+python-mutatormath
 python-mygpoclient
 python-ndindex
 python-neovim
@@ -184,10 +178,8 @@ python-networkx::bootstrap:::
 python-nmap
 python-nose_fixes
 python-notario
-nototools
 python-nss
 python-nudatus
-onnx
 python-optcomplete
 pyosmium
 otf2
@@ -278,7 +270,7 @@ python-tokenize-rt
 python-tornado
 python-tqdm:tests::::
 python-twisted
-python-ufoLib2
+python-ufo2ft
 python-uinput
 unicorn
 upm
@@ -296,10 +288,10 @@ volume_key
 python-wcmatch
 python-webscrapbook
 python-webtest
-woffTools
 python-wxpython4
 python-x2go
 python-xmlsec
+python-xword-dl
 python-yamlordereddictloader
 python-yappi
 python-yara
