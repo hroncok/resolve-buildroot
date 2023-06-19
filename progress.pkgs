@@ -28,7 +28,6 @@ fonts-tweak-tool
 gaupol
 gnome-doc-utils
 lammps
-linkchecker
 lvm2
 manafirewall
 mercurial
@@ -39,7 +38,6 @@ offlineimap
 onboard
 kernel-tools
 photoqt
-pungi
 pyflowtools
 python-flask-gravatar
 python-GridDataFormats
@@ -81,13 +79,16 @@ botan2
 python-boto
 python-botocore
 python-bottle
+python-bowler
 python-box
 python3-cangjie
 python-catkin_tools
+python-cffsubr
 python-chai
 python-check-manifest
 python-cherrypy:tests::::
 python-click-spinner
+python-compreffor
 python-constantly:tests::::
 python-contourpy::bootstrap:::
 python-cpio
@@ -114,9 +115,10 @@ python-flask-cors
 python-flask-login
 flatpak-module-tools
 python-flufl-bounce
+python-fontMath
+python-fontname
 fonttools:tests::::
 python-fpylll
-python-fs
 python-fspath
 future
 python-gccinvocation
@@ -174,7 +176,6 @@ python-metar
 python-mirakuru
 python-mistune08
 python-modestmaps
-python-moreorless
 python-multi_key_dict
 python-mygpoclient
 python-ndindex
@@ -183,6 +184,7 @@ python-networkx::bootstrap:::
 python-nmap
 python-nose_fixes
 python-notario
+nototools
 python-nss
 python-nudatus
 onnx
@@ -276,6 +278,7 @@ python-tokenize-rt
 python-tornado
 python-tqdm:tests::::
 python-twisted
+python-ufoLib2
 python-uinput
 unicorn
 upm
@@ -293,6 +296,7 @@ volume_key
 python-wcmatch
 python-webscrapbook
 python-webtest
+woffTools
 python-wxpython4
 python-x2go
 python-xmlsec
@@ -324,3 +328,4 @@ wordxtr
 xcb-proto
 xen
 yt-dlp
+python3-docs
