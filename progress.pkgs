@@ -80,6 +80,7 @@ python-boto
 python-botocore
 python-bottle
 python-box
+python-cairocffi
 python3-cangjie
 python-catkin_tools
 python-chai
@@ -126,6 +127,7 @@ python-hdfs
 python-httpretty:::run_tests::
 python-hypothesis:doc-tests::::
 i2c-tools
+python-img2pdf
 livecd-tools
 python-immutables
 python-iniparse
@@ -170,7 +172,6 @@ python-mirakuru
 python-mistune08
 python-modestmaps
 python-multi_key_dict
-python-mutatormath
 python-mygpoclient
 python-ndindex
 python-neovim
@@ -291,7 +292,6 @@ python-webtest
 python-wxpython4
 python-x2go
 python-xmlsec
-python-xword-dl
 python-yamlordereddictloader
 python-yappi
 python-yara
