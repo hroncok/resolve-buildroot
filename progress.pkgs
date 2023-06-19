@@ -28,6 +28,7 @@ fonts-tweak-tool
 gaupol
 gnome-doc-utils
 lammps
+linkchecker
 lvm2
 manafirewall
 mercurial
@@ -38,6 +39,7 @@ offlineimap
 onboard
 kernel-tools
 photoqt
+pungi
 pyflowtools
 python-flask-gravatar
 python-GridDataFormats
@@ -81,8 +83,6 @@ python-botocore
 python-bottle
 python-box
 python3-cangjie
-python-canonicaljson
-python-catkin_lint
 python-catkin_tools
 python-chai
 python-check-manifest
@@ -96,6 +96,7 @@ python-cryptography:tests::::
 python-curio
 python-cypari2
 python-cypy
+python-dateparser
 python-decopatch:tests::::
 python-diff-match-patch
 dionaea
@@ -115,6 +116,7 @@ flatpak-module-tools
 python-flufl-bounce
 fonttools:tests::::
 python-fpylll
+python-fs
 python-fspath
 future
 python-gccinvocation
@@ -164,6 +166,7 @@ python-linkify-it-py
 python-logging-tree
 python-logutils
 lttng-tools
+m2crypto
 python-managesieve
 python-markdown_2
 python-maxminddb
@@ -171,6 +174,7 @@ python-metar
 python-mirakuru
 python-mistune08
 python-modestmaps
+python-moreorless
 python-multi_key_dict
 python-mygpoclient
 python-ndindex
@@ -181,11 +185,11 @@ python-nose_fixes
 python-notario
 python-nss
 python-nudatus
+onnx
 python-optcomplete
 pyosmium
 otf2
 python-pandas::bootstrap:::
-python-parameterized
 python-pathos
 python-pathtools
 python-pbr:tests:bootstrap:::
@@ -193,7 +197,6 @@ python-pcodedmp::bootstrap:::
 pdc-client
 python-pdir2
 python-pep517:tests::::
-python-persist-queue
 python-pip:doc-tests::::
 python-pivy
 python-pluginlib
@@ -236,7 +239,6 @@ python-qpageview
 qpid-proton
 python-qutepart
 rabbitvcs
-python-read-roi
 python-recordclass
 python-redis
 python-requests:tests::::
@@ -247,6 +249,7 @@ python3-script
 python-semver
 python-setuptools:tests:bootstrap:::
 python-setuptools_scm:tests::::
+python-signedjson
 python-simpleparse
 python-simplewrap
 skf
