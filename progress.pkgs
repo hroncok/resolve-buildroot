@@ -35,6 +35,7 @@ manafirewall
 mercurial
 mrchem
 nml
+nodepool
 oct2spec
 offlineimap
 onboard
@@ -69,7 +70,6 @@ python-avocado
 awake
 python-azure-core:tests::::
 python-azure-mgmt-core:tests::::
-python-backrefs
 python-bidict
 python-biopython
 python-bleach
@@ -91,6 +91,7 @@ python-click-spinner
 python-constantly:tests::::
 python-contourpy::bootstrap:::
 python-cpio
+python-cram
 criu
 python-cryptography:tests::::
 python-curio
@@ -208,11 +209,9 @@ python-pycodestyle
 python-pydiffx
 python-pydocstyle
 python-pyfim
-pyflakes
 pyftpdlib
 pygsl
 pyke
-python-pyobd
 pyodbc
 python-pyopencl
 python-pyopengl
@@ -226,6 +225,7 @@ python-pysnooper
 pytest:docs-tests-timeout::::
 python-pytest-asyncio:tests::::
 python-pytest-bdd
+python-pytest-flakes
 python-pytest-metadata
 python-pytest-subtests
 python-pytest-venv
@@ -303,7 +303,6 @@ python-yte
 python-ytmusicapi
 zbar
 python-zbase32::bootstrap:::
-quisk
 rmlint
 scribus
 sudo
