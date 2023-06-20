@@ -3,7 +3,6 @@ Zim
 andriller
 appliance-tools
 aubio
-awscli2
 b43-tools
 beaker
 binwalk
@@ -35,7 +34,6 @@ manafirewall
 mercurial
 mrchem
 nml
-nodepool
 oct2spec
 offlineimap
 onboard
@@ -81,13 +79,13 @@ botan2
 python-boto
 python-botocore
 python-bottle
-python-box
 python3-cangjie
 python-catkin_tools
 python-chai
 python-check-manifest
 python-cherrypy:tests::::
 python-click-spinner
+python-cogapp
 python-constantly:tests::::
 python-contourpy::bootstrap:::
 python-cpio
@@ -225,7 +223,6 @@ python-pysnooper
 pytest:docs-tests-timeout::::
 python-pytest-asyncio:tests::::
 python-pytest-bdd
-python-pytest-flakes
 python-pytest-metadata
 python-pytest-subtests
 python-pytest-venv
@@ -241,6 +238,7 @@ python-redis
 python-requests:tests::::
 python-rope
 python-rpmfluff
+python-rstcheck-core
 python-schedutils
 python3-script
 python-semver
@@ -296,7 +294,6 @@ python-xmlsec
 python-yamlordereddictloader
 python-yappi
 python-yara
-python-yarl
 ydiff
 python-yourls
 python-yte
