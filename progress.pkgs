@@ -85,7 +85,7 @@ python-chai
 python-check-manifest
 python-cherrypy:tests::::
 python-click-spinner
-python-cogapp
+python-cloudpickle
 python-constantly:tests::::
 python-contourpy::bootstrap:::
 python-cpio
@@ -158,7 +158,6 @@ pam_wrapper
 python-libsass
 libssh2-python
 lilv
-python-linkify-it-py
 python-logging-tree
 python-logutils
 lttng-tools
@@ -181,9 +180,9 @@ python-nose_fixes
 python-notario
 python-nss
 python-nudatus
+python-opentracing
 python-optcomplete
 pyosmium
-otf2
 python-pandas::bootstrap:::
 python-pathos
 python-pathtools
@@ -263,12 +262,13 @@ python-subprocess-tee:tests::::
 sword
 python-tables
 python-tambo
+python-tenacity
+python-terminado
 python-testresources
 python-testtools::bootstrap:::
 python-textdistance
 python-token-bucket
 python-tokenize-rt
-python-tornado
 python-tqdm:tests::::
 python-twisted
 python-ufo2ft
@@ -300,6 +300,7 @@ python-yte
 python-ytmusicapi
 zbar
 python-zbase32::bootstrap:::
+python-zmq
 rmlint
 scribus
 sudo
