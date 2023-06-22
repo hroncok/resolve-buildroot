@@ -3,6 +3,7 @@ Zim
 andriller
 appliance-tools
 aubio
+awscli2
 b43-tools
 beaker
 binwalk
@@ -79,6 +80,7 @@ botan2
 python-boto
 python-botocore
 python-bottle
+python-box
 python3-cangjie
 python-catkin_tools
 python-chai
@@ -141,7 +143,6 @@ python-josepy
 python-json-logger
 python-jsonrpc-server
 python-jsonschema:tests::::
-python-jupyter-server-terminals
 python-kafka
 python-kmod
 python-lacrosse
@@ -213,7 +214,6 @@ pyodbc
 python-pyopencl
 python-pyopengl
 python-pyoptical
-pyparted
 python-pyquery:tests::::
 python-pyrad
 python-pysam
