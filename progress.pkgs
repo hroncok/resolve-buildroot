@@ -141,6 +141,7 @@ python-josepy
 python-json-logger
 python-jsonrpc-server
 python-jsonschema:tests::::
+python-jupyter-server-terminals
 python-kafka
 python-kmod
 python-lacrosse
@@ -180,7 +181,6 @@ python-nose_fixes
 python-notario
 python-nss
 python-nudatus
-python-opentracing
 python-optcomplete
 pyosmium
 python-pandas::bootstrap:::
@@ -262,8 +262,6 @@ python-subprocess-tee:tests::::
 sword
 python-tables
 python-tambo
-python-tenacity
-python-terminado
 python-testresources
 python-testtools::bootstrap:::
 python-textdistance
