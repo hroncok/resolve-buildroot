@@ -28,6 +28,7 @@ libffado
 fonts-tweak-tool
 gaupol
 gnome-doc-utils
+hstsparser
 kicad
 lammps
 lvm2
@@ -120,9 +121,8 @@ future
 python-gccinvocation
 python-geomet
 gfal2-python
-python-googleapis-common-protos::bootstrap:::
 python-grako
-grpc
+python-grpc-google-iam-v1
 python-guizero
 h5py
 python-hdfs
@@ -182,6 +182,7 @@ python-nose_fixes
 python-notario
 python-nss
 python-nudatus
+python-opencensus-proto
 python-optcomplete
 pyosmium
 python-pandas::bootstrap:::
@@ -190,7 +191,6 @@ python-pathtools
 python-pbr:tests:bootstrap:::
 python-pcodedmp::bootstrap:::
 pdc-client
-python-pdir2
 python-pep517:tests::::
 python-pip:doc-tests::::
 python-pivy
@@ -206,13 +206,13 @@ python-pyaes
 python-pycodestyle
 python-pydiffx
 python-pydocstyle
+python-pyembroidery
 python-pyfim
 pyftpdlib
 pygsl
 pyke
 pyodbc
 python-pyopencl
-python-pyopengl
 python-pyoptical
 python-pyquery:tests::::
 python-pyrad
@@ -222,11 +222,13 @@ python-pysnooper
 pytest:docs-tests-timeout::::
 python-pytest-asyncio:tests::::
 python-pytest-bdd
+python-pytest-grpc
 python-pytest-metadata
 python-pytest-subtests
 python-pytest-venv
 python-pytest-virtualenv
 watchman
+python-pyxdf
 python-pyzolib
 python-qpageview
 qpid-proton
@@ -242,6 +244,7 @@ python-schedutils
 python3-script
 python-semver
 python-setuptools:tests:bootstrap:::
+python-setuptools-git-versioning
 python-setuptools_scm:tests::::
 python-signedjson
 python-simpleparse
@@ -252,6 +255,7 @@ python-smart-gardena
 python-smartcols
 python-smbpasswd
 python-sortedcontainers:docs-tests::::
+python-soupsieve:tests::::
 python-sphinx-basic-ng::bootstrap:::
 python-sphinxcontrib-websupport:optional_tests::::
 python-sphinxygen
@@ -269,7 +273,6 @@ python-token-bucket
 python-tokenize-rt
 python-tqdm:tests::::
 python-twisted
-python-ufo2ft
 python-uinput
 unicorn
 upm
@@ -317,5 +320,4 @@ vit
 wordxtr
 xcb-proto
 xen
-yt-dlp
 python3-docs
