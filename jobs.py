@@ -236,7 +236,7 @@ if __name__ == '__main__':
                         loop_detector=loop_detector,
                     )
                     if ready_to_rebuild:
-                        if True: #  component not in components_done:
+                        if component not in components_done:
                             print(bcond_config['id'])
                 else:
                     log(f' • {bcond_config["id"]} bcond SRPM not present yet, skipping')
