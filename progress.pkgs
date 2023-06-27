@@ -27,7 +27,6 @@ fedora-gather-easyfix
 libffado
 fonts-tweak-tool
 gaupol
-gitlint
 gnome-doc-utils
 kicad
 kitty
@@ -74,11 +73,13 @@ python-boto
 python-botocore
 python-bottle
 python-box
+python-bravado-core
 python3-cangjie
 python-catkin_tools
 python-check-manifest
 python-click-spinner
 python-cloudpickle
+python-cookiecutter
 python-cpio
 python-cram
 criu
@@ -119,11 +120,9 @@ python-iniparse
 python-invoke
 python-iowait
 python-ipgetter
-python-isoduration
 python-javaproperties
 emacs-jedi
 python-jep
-python-jinja2-time
 python-josepy
 python-json-logger
 python-jsonrpc-server
