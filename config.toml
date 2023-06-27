@@ -79,7 +79,7 @@ baseurl = ["http://kojipkgs.fedoraproject.org/repos/rawhide/latest/src/"]
 repoid = "python3.12"
 #baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.12/fedora-rawhide-$basearch/"]
 baseurl = ["http://kojipkgs.fedoraproject.org/repos/f39-python/latest/$basearch/"]
-metadata_expire = 60000
+metadata_expire = 60
 
 [bconds]
 [[bconds.python-setuptools]]
