@@ -127,6 +127,7 @@ python-jep
 python-josepy
 python-json-logger
 python-jsonrpc-server
+python-jsons
 python-kafka
 python-kmod
 python-lacrosse
@@ -233,7 +234,6 @@ python-textdistance
 python-token-bucket
 python-tokenize-rt
 python-twisted
-python-typish
 python-uinput
 unicorn
 upm
