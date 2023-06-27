@@ -42,7 +42,6 @@ kernel-tools
 photoqt
 pyflowtools
 python-GridDataFormats
-python-IPy
 python-PyPDF2
 python-acora
 python-aiofiles
@@ -54,6 +53,7 @@ python-ansible-pygments
 python-ansiwrap
 python-apsw
 python-argcomplete
+python-arrow
 python-ase
 python-astroid
 python-astropy-healpix
@@ -76,7 +76,6 @@ python-bottle
 python-box
 python3-cangjie
 python-catkin_tools
-python-chai
 python-check-manifest
 python-click-spinner
 python-cloudpickle
@@ -126,7 +125,6 @@ python-jep
 python-josepy
 python-json-logger
 python-jsonrpc-server
-python-jsons
 python-kafka
 python-kmod
 python-lacrosse
@@ -273,5 +271,4 @@ trelby
 vit
 wordxtr
 xcb-proto
-xen
 python3-docs
