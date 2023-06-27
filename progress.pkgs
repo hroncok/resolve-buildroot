@@ -27,6 +27,7 @@ fedora-gather-easyfix
 libffado
 fonts-tweak-tool
 gaupol
+gitlint
 gnome-doc-utils
 kicad
 kitty
@@ -53,7 +54,6 @@ python-ansible-pygments
 python-ansiwrap
 python-apsw
 python-argcomplete
-python-arrow
 python-ase
 python-astroid
 python-astropy-healpix
@@ -119,9 +119,11 @@ python-iniparse
 python-invoke
 python-iowait
 python-ipgetter
+python-isoduration
 python-javaproperties
 emacs-jedi
 python-jep
+python-jinja2-time
 python-josepy
 python-json-logger
 python-jsonrpc-server
@@ -161,11 +163,11 @@ python-nss
 python-nudatus
 python-numpydoc
 python-optcomplete
+python-orjson
 pyosmium
 python-pathos
 python-pathtools
 pdc-client
-python-pdir2
 python-pint
 python-pivy
 python-pluginlib
@@ -228,7 +230,6 @@ python-tables
 python-tambo
 python-testresources
 python-textdistance
-python-token-bucket
 python-tokenize-rt
 python-twisted
 python-uinput
