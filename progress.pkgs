@@ -73,13 +73,11 @@ python-boto
 python-botocore
 python-bottle
 python-box
-python-bravado-core
 python3-cangjie
 python-catkin_tools
 python-check-manifest
 python-click-spinner
 python-cloudpickle
-python-cookiecutter
 python-cpio
 python-cram
 criu
