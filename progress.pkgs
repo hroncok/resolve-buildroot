@@ -46,7 +46,6 @@ python-IPy
 python-PyPDF2
 python-acora
 python-aiofiles
-python-aiosmtpd
 python-aiozeroconf
 python-alarmdecoder
 python-annexremote
