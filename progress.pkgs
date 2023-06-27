@@ -101,7 +101,6 @@ dnf-plugins-extras
 python-dns:curio-doh-trio::::
 python-dockerfile-parse
 python-dominate
-python-drat
 python-ephem
 python-factory-boy:tests::::
 python-fastbencode
@@ -118,6 +117,7 @@ python-fpylll
 python-fspath
 future
 python-gccinvocation
+gensio
 python-geomet
 gfal2-python
 python-grako
@@ -132,7 +132,6 @@ python-immutables
 python-iniparse
 python-invoke
 python-iowait
-freeipa
 python-ipgetter
 python-javaproperties
 python-jedi:tests::::
@@ -241,7 +240,6 @@ python-semver
 python-setuptools:tests:bootstrap:::
 python-setuptools_scm:tests::::
 python-signedjson
-python-simplemediawiki
 python-simpleparse
 python-simplewrap
 python-slip
@@ -298,7 +296,6 @@ sugar
 sugar-datastore
 sugar-toolkit-gtk3
 swift-lang
-system-config-printer
 system-storage-manager
 terminator
 thefuck
