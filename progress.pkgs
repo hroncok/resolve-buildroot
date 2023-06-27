@@ -27,7 +27,6 @@ fedora-gather-easyfix
 libffado
 fonts-tweak-tool
 gaupol
-gdl
 gnome-doc-utils
 kicad
 kitty
@@ -160,6 +159,7 @@ python-neovim
 python-nmap
 python-nose_fixes
 python-notario
+python-nptyping
 python-nss
 python-nudatus
 python-numpydoc
