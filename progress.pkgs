@@ -34,7 +34,6 @@ lvm2
 manafirewall
 mercurial
 mrchem
-nml
 oct2spec
 offlineimap
 onboard
@@ -71,7 +70,6 @@ python-azure-mgmt-core:tests::::
 python-bidict
 python-biopython
 python-bleach
-libblockdev
 python-blowfish
 python-bluepy
 python-bokeh
@@ -103,6 +101,7 @@ dnf-plugins-extras
 python-dns:curio-doh-trio::::
 python-dockerfile-parse
 python-dominate
+python-drat
 python-ephem
 python-factory-boy:tests::::
 python-fastbencode
@@ -133,6 +132,7 @@ python-immutables
 python-iniparse
 python-invoke
 python-iowait
+freeipa
 python-ipgetter
 python-javaproperties
 python-jedi:tests::::
@@ -145,14 +145,12 @@ python-jsonschema:tests::::
 python-kafka
 python-kmod
 python-lacrosse
-lasso
 python-lazr-smtptest
 lensfun
 python-leveldb
 python-libcst:docs-tests::::
 dtc
 libfreenect
-sssd
 python-liblarch
 libnl3
 pam_wrapper
@@ -161,7 +159,6 @@ libssh2-python
 lilv
 python-logging-tree
 python-logutils
-lttng-tools
 m2crypto
 python-managesieve
 python-markdown_2
@@ -237,15 +234,16 @@ python-requests:tests::::
 python-rope
 python-rpmfluff
 python-rstcheck-core
+python3-saml
 python-schedutils
 python3-script
 python-semver
 python-setuptools:tests:bootstrap:::
 python-setuptools_scm:tests::::
 python-signedjson
+python-simplemediawiki
 python-simpleparse
 python-simplewrap
-skf
 python-slip
 python-smart-gardena
 python-smartcols
@@ -279,14 +277,11 @@ python-urllib3:tests::::
 ustreamer
 uwsgi
 python-virtualenv-clone
-visidata
 python-visionegg-quest
 volume_key
 python-wcmatch
 python-webscrapbook
 python-webtest
-python-x2go
-python-xmlsec
 python-yamlordereddictloader
 python-yappi
 python-yara
@@ -298,7 +293,6 @@ zbar
 python-zbase32::bootstrap:::
 python-zmq
 rmlint
-scribus
 sudo
 sugar
 sugar-datastore
@@ -306,7 +300,6 @@ sugar-toolkit-gtk3
 swift-lang
 system-config-printer
 system-storage-manager
-targetd
 terminator
 thefuck
 transmageddon
