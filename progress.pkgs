@@ -176,7 +176,6 @@ python-mygpoclient
 python-ndindex
 python-neovim
 python-networkx::bootstrap:::
-python-neurotune
 python-nmap
 python-nose_fixes
 python-notario
@@ -213,7 +212,6 @@ pyftpdlib
 pygsl
 pyke
 python-pylatex
-python-pymoc
 pyodbc
 python-pyopencl
 python-pyopengl
@@ -261,7 +259,6 @@ python-sphinxygen
 python-sqlalchemy
 pdf-stapler
 python-stdlib-list
-python-steps
 python-subprocess-tee:tests::::
 sword
 python-tables
@@ -290,7 +287,6 @@ python-wcmatch
 python-webscrapbook
 python-webtest
 python-wordcloud
-python-wxnatpy
 python-yamlordereddictloader
 python-yappi
 python-yara
