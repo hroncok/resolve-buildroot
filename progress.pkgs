@@ -159,7 +159,6 @@ python-neovim
 python-nmap
 python-nose_fixes
 python-notario
-python-nptyping
 python-nss
 python-nudatus
 python-numpydoc
@@ -234,6 +233,7 @@ python-textdistance
 python-token-bucket
 python-tokenize-rt
 python-twisted
+python-typish
 python-uinput
 unicorn
 upm
