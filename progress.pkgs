@@ -43,6 +43,7 @@ photoqt
 pyflowtools
 python-GridDataFormats
 python-PyPDF2
+python-Pympler
 python-acora
 python-aiofiles
 python-aiozeroconf
@@ -71,8 +72,8 @@ python-bokeh
 botan2
 python-boto
 python-botocore
-python-bottle
 python-box
+python-bravado
 python3-cangjie
 python-catkin_tools
 python-check-manifest
@@ -106,7 +107,7 @@ python-gccinvocation
 python-geomet
 gfal2-python
 python-grako
-python-graph-tool
+grammalecte
 python-guizero
 h5py
 python-hdfs
@@ -176,6 +177,7 @@ python3-py3dns
 python-py9p
 python-pyaes
 python-pycodestyle
+python-pycurl
 python-pydiffx
 python-pydocstyle
 python-pyfim
