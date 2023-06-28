@@ -36,7 +36,6 @@ manafirewall
 mercurial
 mlpack
 mrchem
-mycli
 oct2spec
 offlineimap
 onboard
@@ -140,7 +139,6 @@ python-libsass
 libssh2-python
 lilv
 python-linuxdoc
-litecli
 python-logging-tree
 python-logutils
 m2crypto
@@ -148,7 +146,6 @@ python-managesieve
 python-markdown_2
 python-matplotlib-scalebar
 python-maxminddb
-python-mccabe
 python-metar
 python-mirakuru
 python-mistune08
@@ -197,8 +194,8 @@ python-pysam
 python-pyside2
 python-pysnooper
 python-pytest-bdd
+python-pytest-cases
 python-pytest-metadata
-python-pytest-steps
 python-pytest-subtests
 python-pytest-venv
 python-pytest-virtualenv
