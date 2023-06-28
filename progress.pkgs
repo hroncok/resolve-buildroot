@@ -18,7 +18,6 @@ cxxtest
 distgen
 dnf-plugin-diff
 swid-tools
-dogtag-pki
 python-drgn
 electron-cash
 elements
@@ -109,7 +108,6 @@ future
 python-gccinvocation
 python-geomet
 gfal2-python
-gpaw
 python-grako
 python-guizero
 h5py
@@ -121,6 +119,7 @@ python-immutables
 python-iniparse
 python-invoke
 python-iowait
+freeipa-desktop-profile
 python-ipgetter
 python-javaproperties
 emacs-jedi
@@ -180,7 +179,6 @@ python-pint
 python-pivy
 python-pluginlib
 python-podman-api
-python-probeinterface
 python-protego
 python-ptrace
 py-radix
