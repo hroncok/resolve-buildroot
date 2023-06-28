@@ -24,6 +24,7 @@ eric
 python-esphomeflasher
 fail2ban
 fedora-gather-easyfix
+fedora-review
 libffado
 fonts-tweak-tool
 gaupol
@@ -35,15 +36,16 @@ lvm2
 manafirewall
 mercurial
 mrchem
+obsctl
 oct2spec
 offlineimap
 onboard
+pcs
 kernel-tools
 photoqt
 pyflowtools
 python-GridDataFormats
 python-PyPDF2
-python-Pympler
 python-acora
 python-aiofiles
 python-aiozeroconf
@@ -73,7 +75,6 @@ botan2
 python-boto
 python-botocore
 python-box
-python-bravado
 python3-cangjie
 python-catkin_tools
 python-check-manifest
@@ -92,6 +93,7 @@ dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
 python-ephem
+python-fasjson-client
 python-fastbencode
 python-firehose
 flann
@@ -177,7 +179,6 @@ python3-py3dns
 python-py9p
 python-pyaes
 python-pycodestyle
-python-pycurl
 python-pydiffx
 python-pydocstyle
 python-pyfim
@@ -268,6 +269,7 @@ terminator
 thefuck
 transmageddon
 trelby
+variety
 vit
 wordxtr
 xcb-proto
