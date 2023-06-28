@@ -180,7 +180,7 @@ python-pint
 python-pivy
 python-pluginlib
 python-podman-api
-python-prawcore
+python-praw
 python-probeinterface
 python-protego
 python-ptrace
