@@ -18,6 +18,7 @@ cxxtest
 distgen
 dnf-plugin-diff
 swid-tools
+dogtag-pki
 python-drgn
 electron-cash
 elements
@@ -27,7 +28,6 @@ fail2ban
 fedora-gather-easyfix
 libffado
 fonts-tweak-tool
-freeipa-healthcheck:tests::::
 gnome-doc-utils
 kicad
 lammps
@@ -56,7 +56,6 @@ python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
 python-apsw
-python-ase
 python-astroid
 python-astropy-healpix
 python-astropy-helpers
@@ -110,6 +109,7 @@ future
 python-gccinvocation
 python-geomet
 gfal2-python
+gpaw
 python-grako
 python-guizero
 h5py
@@ -239,9 +239,7 @@ python-tambo
 python-test_server
 python-testresources
 python-textdistance
-python-tinyrpc
 python-tokenize-rt
-python-txzmq
 python-uinput
 unicorn
 upm
