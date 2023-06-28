@@ -24,7 +24,6 @@ eric
 python-esphomeflasher
 fail2ban
 fedora-gather-easyfix
-fedora-review
 libffado
 fonts-tweak-tool
 gaupol
@@ -36,7 +35,6 @@ lvm2
 manafirewall
 mercurial
 mrchem
-obsctl
 oct2spec
 offlineimap
 onboard
@@ -44,6 +42,7 @@ pcs
 kernel-tools
 photoqt
 pyflowtools
+python-Bottleneck
 python-GridDataFormats
 python-PyPDF2
 python-acora
@@ -84,6 +83,7 @@ python-cpio
 python-cram
 criu
 python-curio
+python-cyipopt
 python-cypari2
 python-cypy
 python-deap
@@ -93,7 +93,6 @@ dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
 python-ephem
-python-fasjson-client
 python-fastbencode
 python-firehose
 flann
@@ -109,7 +108,6 @@ python-gccinvocation
 python-geomet
 gfal2-python
 python-grako
-grammalecte
 python-guizero
 h5py
 python-hdfs
@@ -148,6 +146,7 @@ python-managesieve
 python-markdown_2
 python-matplotlib-scalebar
 python-maxminddb
+python-mercantile
 python-metar
 python-mirakuru
 python-mistune08
@@ -161,7 +160,7 @@ python-nose_fixes
 python-notario
 python-nss
 python-nudatus
-python-numpydoc
+python-numcodecs
 python-optcomplete
 python-orjson
 pyosmium
@@ -181,8 +180,10 @@ python-pyaes
 python-pycodestyle
 python-pydiffx
 python-pydocstyle
+python-pyedflib
 python-pyfim
 pyftpdlib
+python-pygraphviz
 pygsl
 pyke
 python-pylatex
@@ -191,6 +192,7 @@ python-pyopencl
 python-pyopengl
 python-pyoptical
 python-pyrad
+python-pyramid
 python-pysam
 python-pyside2
 python-pysnooper
@@ -200,6 +202,7 @@ python-pytest-subtests
 python-pytest-venv
 python-pytest-virtualenv
 watchman
+python-pywt
 python-pyzolib
 python-qpageview
 qpid-proton
@@ -208,6 +211,7 @@ rabbitvcs
 python-recordclass
 python-redis
 python-rope
+python-routes
 python-rpmfluff
 python-rstcheck-core
 python3-saml
@@ -221,6 +225,8 @@ python-slip
 python-smart-gardena
 python-smartcols
 python-smbpasswd
+python-sphinxcontrib-bibtex
+python-sphinxtesters
 python-sphinxygen
 python-sqlalchemy
 pdf-stapler
@@ -228,9 +234,11 @@ python-stdlib-list
 sword
 python-tables
 python-tambo
+python-test_server
 python-testresources
 python-textdistance
 python-tokenize-rt
+python-tw2-core
 python-twisted
 python-uinput
 unicorn
@@ -246,7 +254,6 @@ python-visionegg-quest
 volume_key
 python-wcmatch
 python-webscrapbook
-python-webtest
 python-wordcloud
 python-yamlordereddictloader
 python-yappi
@@ -269,7 +276,6 @@ terminator
 thefuck
 transmageddon
 trelby
-variety
 vit
 wordxtr
 xcb-proto
