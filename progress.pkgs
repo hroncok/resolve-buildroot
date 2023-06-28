@@ -119,7 +119,6 @@ python-immutables
 python-iniparse
 python-invoke
 python-iowait
-freeipa-desktop-profile
 python-ipgetter
 python-javaproperties
 emacs-jedi
@@ -179,6 +178,7 @@ python-pint
 python-pivy
 python-pluginlib
 python-podman-api
+python-probeinterface
 python-protego
 python-ptrace
 py-radix
