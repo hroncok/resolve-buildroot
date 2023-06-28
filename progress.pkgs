@@ -1,6 +1,5 @@
 NFStest
 Zim
-abrt
 andriller
 appliance-tools
 arbor
@@ -13,7 +12,7 @@ borgbackup
 brd
 btest
 cdist
-cinch
+centpkg
 classification-banner
 condor
 cxxtest
@@ -43,8 +42,6 @@ paraview
 pcs
 kernel-tools
 photoqt
-pipx
-pmbootstrap
 pyflowtools
 pyp2rpm
 python-GridDataFormats
@@ -58,7 +55,6 @@ python-ansi
 python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
-python-anymarkup
 python-apsw
 python-ase
 python-astroid
@@ -85,7 +81,6 @@ python-catkin_tools
 python-check-manifest
 python-click-spinner
 python-cloudpickle
-python-colcon-bazel
 python-cornice
 python-cpio
 python-cram
@@ -135,7 +130,6 @@ python-jsonrpc-server
 python-kafka
 python-klein
 python-kmod
-python-knack
 python-lacrosse
 python-lazr-smtptest
 lensfun
@@ -222,7 +216,6 @@ rabbitvcs
 python-recordclass
 python-redis
 python-rope
-rpkg
 python-rpmfluff
 python-rstcheck-core
 python3-saml
@@ -282,7 +275,6 @@ swift-lang
 system-storage-manager
 terminator
 thefuck
-tito
 transmageddon
 trelby
 vit
