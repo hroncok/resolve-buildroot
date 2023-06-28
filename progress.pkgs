@@ -1,5 +1,6 @@
 NFStest
 Zim
+abrt
 andriller
 appliance-tools
 arbor
@@ -11,11 +12,10 @@ binwalk
 borgbackup
 brd
 btest
-bumpversion
 cdist
+cinch
 classification-banner
 condor
-container-workflow-tool
 cxxtest
 distgen
 dnf-plugin-diff
@@ -43,6 +43,8 @@ paraview
 pcs
 kernel-tools
 photoqt
+pipx
+pmbootstrap
 pyflowtools
 pyp2rpm
 python-GridDataFormats
@@ -54,10 +56,10 @@ python-alarmdecoder
 python-annexremote
 python-ansi
 python-ansible-pygments
+python-ansible-runner
 python-ansiwrap
-python-anymarkup-core
+python-anymarkup
 python-apsw
-python-argcomplete
 python-ase
 python-astroid
 python-astropy-healpix
@@ -83,6 +85,7 @@ python-catkin_tools
 python-check-manifest
 python-click-spinner
 python-cloudpickle
+python-colcon-bazel
 python-cornice
 python-cpio
 python-cram
@@ -132,10 +135,12 @@ python-jsonrpc-server
 python-kafka
 python-klein
 python-kmod
+python-knack
 python-lacrosse
 python-lazr-smtptest
 lensfun
 python-leveldb
+389-ds-base
 dtc
 libfreenect
 python-liblarch
@@ -176,11 +181,11 @@ python-parsley
 python-pathos
 python-pathtools
 pdc-client
+pepc
 python-pint
 python-pivy
 python-pluginlib
 python-podman-api
-python-praw
 python-probeinterface
 python-protego
 python-ptrace
@@ -217,13 +222,13 @@ rabbitvcs
 python-recordclass
 python-redis
 python-rope
+rpkg
 python-rpmfluff
 python-rstcheck-core
 python3-saml
 python-schedutils
 python3-script
 python-semver
-sen
 python-signedjson
 python-simpleparse
 python-simplewrap
@@ -231,7 +236,6 @@ python-slip
 python-smart-gardena
 python-smartcols
 python-smbpasswd
-python-specfile
 python-sphinxygen
 python-sqlalchemy
 pdf-stapler
@@ -270,7 +274,6 @@ zbar
 python-zmq
 rmlint
 shybrid
-spec2scl
 sudo
 sugar
 sugar-datastore
@@ -279,6 +282,7 @@ swift-lang
 system-storage-manager
 terminator
 thefuck
+tito
 transmageddon
 trelby
 vit
