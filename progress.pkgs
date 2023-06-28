@@ -46,6 +46,7 @@ pyflowtools
 pyp2rpm
 python-GridDataFormats
 python-PyPDF2
+pykka
 python-acora
 python-aiofiles
 python-aiozeroconf
@@ -95,7 +96,6 @@ dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
 python-ephem
-python-eventlet
 python-fastbencode
 python-firehose
 flann
@@ -205,6 +205,7 @@ python-pyside2
 python-pysnooper
 python-pytest-metadata
 python-pytest-subtests
+python-pytest-testinfra
 python-pytest-venv
 python-pytest-virtualenv
 watchman
@@ -265,7 +266,6 @@ python-yte
 python-ytmusicapi
 zbar
 rmlint
-salt
 shybrid
 sudo
 sugar
