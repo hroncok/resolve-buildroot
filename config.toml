@@ -135,6 +135,9 @@ withouts = ["docs", "tests"]
 [[bconds.python-hypothesis]]
 withouts = ["doc", "tests"]
 
+[[bconds.python-hypothesmith]]
+withouts = ["tests"]
+
 [[bconds.python-pygments]]
 withouts = ["docs", "tests"]
 
