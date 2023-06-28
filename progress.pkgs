@@ -12,7 +12,6 @@ borgbackup
 brd
 btest
 cdist
-centpkg
 classification-banner
 condor
 cxxtest
@@ -28,6 +27,7 @@ fail2ban
 fedora-gather-easyfix
 libffado
 fonts-tweak-tool
+freeipa-healthcheck:tests::::
 gnome-doc-utils
 kicad
 lammps
@@ -96,6 +96,7 @@ dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
 python-ephem
+python-eventlet
 python-fastbencode
 python-firehose
 flann
@@ -134,7 +135,6 @@ python-lacrosse
 python-lazr-smtptest
 lensfun
 python-leveldb
-389-ds-base
 dtc
 libfreenect
 python-liblarch
@@ -172,10 +172,10 @@ python-orjson
 pyosmium
 python-pandas-datareader
 python-parsley
+python-partd
 python-pathos
 python-pathtools
 pdc-client
-pepc
 python-pint
 python-pivy
 python-pluginlib
@@ -239,7 +239,9 @@ python-tambo
 python-test_server
 python-testresources
 python-textdistance
+python-tinyrpc
 python-tokenize-rt
+python-txzmq
 python-uinput
 unicorn
 upm
@@ -264,8 +266,8 @@ python-yourls
 python-yte
 python-ytmusicapi
 zbar
-python-zmq
 rmlint
+salt
 shybrid
 sudo
 sugar
