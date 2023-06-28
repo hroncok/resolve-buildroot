@@ -36,6 +36,7 @@ manafirewall
 mercurial
 mlpack
 mrchem
+mycli
 oct2spec
 offlineimap
 onboard
@@ -77,7 +78,6 @@ python-box
 python3-cangjie
 python-catkin_tools
 python-check-manifest
-python-cli-helpers
 python-click-spinner
 python-cloudpickle
 python-cornice
@@ -88,7 +88,6 @@ python-curio
 python-cypari2
 python-cypy
 python-deap
-python-devicely
 python-diff-match-patch
 dionaea
 dnf-plugins-extras
@@ -104,7 +103,6 @@ python-flask-login
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
-python-fspath
 future
 python-gccinvocation
 python-geomet
@@ -115,11 +113,9 @@ h5py
 python-hdfs
 i2c-tools
 python-igor
-python-imagehash
 livecd-tools
 python-immutables
 python-iniparse
-python-interrogate
 python-invoke
 python-iowait
 python-ipgetter
@@ -143,6 +139,8 @@ pam_wrapper
 python-libsass
 libssh2-python
 lilv
+python-linuxdoc
+litecli
 python-logging-tree
 python-logutils
 m2crypto
@@ -150,9 +148,9 @@ python-managesieve
 python-markdown_2
 python-matplotlib-scalebar
 python-maxminddb
+python-mccabe
 python-metar
 python-mirakuru
-python-missingno
 python-mistune08
 python-modestmaps
 python-multi_key_dict
@@ -199,8 +197,8 @@ python-pysam
 python-pyside2
 python-pysnooper
 python-pytest-bdd
-python-pytest-harvest
 python-pytest-metadata
+python-pytest-steps
 python-pytest-subtests
 python-pytest-venv
 python-pytest-virtualenv
@@ -238,7 +236,6 @@ python-test_server
 python-testresources
 python-textdistance
 python-tokenize-rt
-transtats-cli
 python-twisted
 python-uinput
 unicorn
