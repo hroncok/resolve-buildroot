@@ -79,6 +79,7 @@ python3-cangjie
 python-carbon
 python-catkin_tools
 python-check-manifest
+python-cheroot
 python-click-spinner
 python-cloudpickle
 python-cornice
@@ -89,7 +90,6 @@ python-crochet
 python-curio
 python-cypari2
 python-cypy
-python-daphne
 python-deap
 python-diff-match-patch
 dionaea
@@ -99,6 +99,7 @@ python-django3
 dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
+python-elastic-transport
 python-ephem
 python-fastbencode
 python-firehose
@@ -113,6 +114,7 @@ python-gccinvocation
 python-geomet
 gfal2-python
 python-google-cloud-dns
+python-google-cloud-kms
 python-google-cloud-pubsub
 python-google-cloud-storage
 python-grako
@@ -155,13 +157,11 @@ m2crypto
 python-markdown_2
 python-martian
 python-matplotlib-scalebar
-python-matrix-synapse-ldap3
 python-mechanize
 python-metar
 python-mirakuru
 python-mistune08
 python-modestmaps
-python-moksha-hub
 python-mpd2
 python-mplcursors
 python-multi_key_dict
@@ -183,7 +183,6 @@ python-partd
 python-pathos
 python-pathtools
 pdc-client
-python-pem
 roca-detect
 python-pint
 python-pivy
@@ -253,7 +252,6 @@ python-test_server
 python-testresources
 python-textdistance
 python-tokenize-rt
-python-trustme
 python-uinput
 unicorn
 upm
