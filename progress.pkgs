@@ -46,8 +46,6 @@ python-GridDataFormats
 python-PyPDF2
 pykka
 python-acora
-python-aiohttp-cors
-python-aiounifi
 python-aiozeroconf
 python-alarmdecoder
 python-ansi
@@ -63,9 +61,9 @@ python-asyncssh
 python-audioread
 python-avocado
 awake
-python-azure-data-tables
+python-azure-common
+python-azure-functions-devops-build
 python-azure-storage-blob
-python-azure-synapse-artifacts
 python-bidict
 python-biopython
 python-bleach
@@ -90,7 +88,6 @@ python-crochet
 python-curio
 python-cypari2
 python-cypy
-python-daikin
 python-deap
 python-diff-match-patch
 dionaea
@@ -115,7 +112,6 @@ gfal2-python
 python-grako
 python-guizero
 h5py
-python-haversion
 python-hdfs
 i2c-tools
 python-igor
@@ -160,7 +156,6 @@ python-mirakuru
 python-mistune08
 python-modestmaps
 python-mpd2
-python-msrestazure
 python-multi_key_dict
 python-mygpoclient
 python-ndindex
@@ -257,17 +252,14 @@ uwsgi
 python-virtualenv-clone
 python-visionegg-quest
 volume_key
-python-vsts
 python-wcmatch
 python-webscrapbook
-python-wled
 python-wordcloud
 python-yamlordereddictloader
 python-yappi
 python-yara
 ydiff
 python-yourls
-python-ypy-websocket
 python-yte
 python-ytmusicapi
 zbar
