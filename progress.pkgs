@@ -7,7 +7,6 @@ asv
 aubio
 awscli2
 b43-tools
-bandit
 beaker
 borgbackup
 brd
@@ -35,6 +34,7 @@ lvm2
 manafirewall
 monkeytype
 mrchem
+nox
 oct2spec
 offlineimap
 onboard
@@ -96,7 +96,6 @@ python-django3
 dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
-python-enrich
 python-ephem
 python-fastbencode
 python-firehose
@@ -131,6 +130,7 @@ python-jep
 python-josepy
 python-json-logger
 python-jsonrpc-server
+python-jupyter-core
 python-kafka
 python-klein
 python-kmod
@@ -150,6 +150,7 @@ python-linuxdoc
 python-logging-tree
 python-logutils
 m2crypto
+python-manuel
 python-markdown_2
 python-martian
 python-matplotlib-scalebar
@@ -161,8 +162,6 @@ python-modestmaps
 python-mpd2
 python-multi_key_dict
 python-mygpoclient
-python-myst-parser
-python-name-that-hash
 python-ndindex
 python-neovim
 python-nmap
@@ -179,7 +178,6 @@ python-partd
 python-pathos
 python-pathtools
 pdc-client
-python-pelican
 roca-detect
 python-pint
 python-pivy
@@ -235,6 +233,7 @@ python-slip
 python-smart-gardena
 python-smartcols
 python-smbpasswd
+python-sphinx-design
 python-sphinxygen
 python-sqlalchemy
 pdf-stapler
@@ -246,7 +245,6 @@ python-test_server
 python-testresources
 python-textdistance
 python-tokenize-rt
-python-typer
 python-uinput
 unicorn
 upm
@@ -285,6 +283,7 @@ swift-lang
 system-storage-manager
 terminator
 thefuck
+tomcli
 transmageddon
 trelby
 vit
