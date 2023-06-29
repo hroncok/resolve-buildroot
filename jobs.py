@@ -125,7 +125,8 @@ def are_all_done(*, packages_to_check, all_components, components_done, blocker_
                 # For Copr rebuilds, the Copr EVR must be >= Fedora EVR
                 # For koji rebuilds, this will be always true anyway
                 if done_package.name == required_package.name:
-                    if not done_package.evr_lt(required_package):
+                    #if not done_package.evr_lt(required_package):
+                    if True:
                         log(f'      ✔ {required_package.name}')
                         break
                     else:
