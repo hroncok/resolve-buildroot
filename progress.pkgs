@@ -34,7 +34,6 @@ lvm2
 manafirewall
 monkeytype
 mrchem
-nox
 oct2spec
 offlineimap
 onboard
@@ -46,6 +45,7 @@ pyp2rpm
 python-GridDataFormats
 python-PyPDF2
 pykka
+python-ZConfig
 python-acora
 python-aiozeroconf
 python-alarmdecoder
@@ -150,7 +150,6 @@ python-linuxdoc
 python-logging-tree
 python-logutils
 m2crypto
-python-manuel
 python-markdown_2
 python-martian
 python-matplotlib-scalebar
@@ -178,6 +177,7 @@ python-partd
 python-pathos
 python-pathtools
 pdc-client
+python-persistent
 roca-detect
 python-pint
 python-pivy
@@ -206,6 +206,7 @@ python-pysam
 python-pysaml2
 python-pyside2
 python-pysnooper
+python-pytest-cython
 python-pytest-metadata
 python-pytest-subtests
 python-pytest-testinfra
@@ -233,7 +234,6 @@ python-slip
 python-smart-gardena
 python-smartcols
 python-smbpasswd
-python-sphinx-design
 python-sphinxygen
 python-sqlalchemy
 pdf-stapler
@@ -273,6 +273,7 @@ python-yourls
 python-yte
 python-ytmusicapi
 zbar
+python-zc-customdoctests
 rmlint
 shybrid
 sudo
@@ -283,7 +284,6 @@ swift-lang
 system-storage-manager
 terminator
 thefuck
-tomcli
 transmageddon
 trelby
 vit
