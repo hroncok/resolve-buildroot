@@ -90,22 +90,10 @@ python-cypy
 python-deap
 python-diff-match-patch
 dionaea
-python-django-appconf
-python-django-auth-ldap
-python-django-configurations
-python-django-contrib-comments
-python-django-debreach
-python-django-filter
-python-django-gravatar2
-python-django-haystack
-python-django-ipware
-python-django-markdownx
-python-django-picklefield
-python-django-pyscss
-python-django-redis
-python-django-uuslug
+python-django-allauth
+python-django-compressor
+python-django-q
 python-django3
-python-djangoql
 dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
@@ -116,6 +104,7 @@ flann
 python-flask-babel
 python-flask-cors
 python-flask-login
+python-flask-openid
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
@@ -157,7 +146,6 @@ python-libsass
 libssh2-python
 lilv
 python-linuxdoc
-python-livereload
 python-logging-tree
 python-logutils
 m2crypto
@@ -169,6 +157,7 @@ python-mechanize
 python-metar
 python-mirakuru
 python-mistune08
+python-moddb
 python-modestmaps
 python-mpd2
 python-multi_key_dict
@@ -180,7 +169,8 @@ python-nose_fixes
 python-notario
 python-nss
 python-nudatus
-python3-openid
+python-openid-cla
+python-openid-teams
 python-optcomplete
 python-orjson
 pyosmium
@@ -213,10 +203,10 @@ python-pyopencl
 python-pyopengl
 python-pyoptical
 python-pyrad
-python-pyrate-limiter
 python-pysam
 python-pyside2
 python-pysnooper
+python-pytest-django
 python-pytest-metadata
 python-pytest-subtests
 python-pytest-testinfra
@@ -237,7 +227,6 @@ python3-saml
 python-schedutils
 python3-script
 python-semver
-python-shortuuid
 python-signedjson
 python-simpleparse
 python-simplewrap
@@ -245,6 +234,7 @@ python-slip
 python-smart-gardena
 python-smartcols
 python-smbpasswd
+python-sphinx-autobuild
 python-sphinxygen
 python-sqlalchemy
 pdf-stapler
