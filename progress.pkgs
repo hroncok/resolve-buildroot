@@ -12,6 +12,7 @@ brd
 btest
 cdist
 classification-banner
+cloud-init
 condor
 cxxtest
 distgen
@@ -25,6 +26,7 @@ python-esphomeflasher
 fail2ban
 fedora-gather-easyfix
 libffado
+python-flit
 fonts-tweak-tool
 gnome-doc-utils
 kicad
@@ -92,7 +94,6 @@ python-diff-match-patch
 dionaea
 python-django-allauth
 python-django-extensions
-python-django-prometheus
 python-django3
 dnf-plugins-extras
 python-dockerfile-parse
@@ -107,15 +108,19 @@ python-flask-login
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
+python-freeipa
 future
 python-gccinvocation
 python-geomet
 gfal2-python
+python-gitlab
 python-grako
 python-guizero
 h5py
+python-habitipy
 python-hdfs
 i2c-tools
+python-ibm-vpc
 python-igor
 livecd-tools
 python-immutables
@@ -159,6 +164,7 @@ python-mistune08
 python-modestmaps
 python-mpd2
 python-multi_key_dict
+python-mwclient
 python-mygpoclient
 python-ndindex
 python-neovim
@@ -167,6 +173,7 @@ python-nose_fixes
 python-notario
 python-nss
 python-nudatus
+python-nuheat
 python-optcomplete
 python-orjson
 pyosmium
@@ -187,6 +194,7 @@ python3-py3dns
 python-py9p
 python-pyaes
 python-pycodestyle
+python-pycoingecko
 python-pydiffx
 python-pydocstyle
 python-pyfim
@@ -199,7 +207,6 @@ python-pyopencl
 python-pyopengl
 python-pyoptical
 python-pyrad
-python-pyramid-fas-openid
 python-pysam
 python-pyside2
 python-pysnooper
@@ -226,6 +233,7 @@ python-semver
 python-signedjson
 python-simpleparse
 python-simplewrap
+python-slacker
 python-slip
 python-smart-gardena
 python-smartcols
@@ -240,6 +248,7 @@ python-tambo
 python-test_server
 python-testresources
 python-textdistance
+python-tldextract
 python-tokenize-rt
 python-uinput
 unicorn
@@ -280,6 +289,7 @@ thefuck
 transmageddon
 trelby
 vit
+wapiti
 wordxtr
 xcb-proto
 python3-docs
