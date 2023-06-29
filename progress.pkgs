@@ -27,11 +27,11 @@ fedora-gather-easyfix
 libffado
 fonts-tweak-tool
 gnome-doc-utils
+hgview
 kicad
 lammps
 lvm2
 manafirewall
-mercurial
 monkeytype
 mrchem
 oct2spec
@@ -42,6 +42,7 @@ kernel-tools
 photoqt
 pyflowtools
 pyp2rpm
+pyp2spec
 python-GridDataFormats
 PyDrive2
 python-PyPDF2
@@ -149,6 +150,8 @@ python-grako
 python-guizero
 h5py
 python-hdfs
+python-hgapi
+python-hglib
 i2c-tools
 python-igor
 livecd-tools
@@ -182,7 +185,7 @@ python-linuxdoc
 python-logging-tree
 python-logutils
 m2crypto
-python-managesieve
+python-markdown-it-py:plugins::::
 python-markdown_2
 python-martian
 python-matplotlib-scalebar
@@ -265,6 +268,7 @@ python-slip
 python-smart-gardena
 python-smartcols
 python-smbpasswd
+python-sphinx-tabs
 python-sphinxygen
 python-sqlalchemy
 pdf-stapler
@@ -287,6 +291,8 @@ python-urllib-gssapi
 ustreamer
 python-uvloop
 uwsgi
+python-vcstools
+python-versioningit
 python-virtualenv-clone
 python-visionegg-quest
 volume_key
@@ -312,6 +318,7 @@ swift-lang
 system-storage-manager
 terminator
 thefuck
+tortoisehg
 transmageddon
 trelby
 vit
