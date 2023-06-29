@@ -1,5 +1,6 @@
 NFStest
 Zim
+academic-admin
 andriller
 appliance-tools
 arbor
@@ -39,7 +40,6 @@ mrchem
 oct2spec
 offlineimap
 onboard
-paraview
 pcs
 kernel-tools
 photoqt
@@ -67,7 +67,6 @@ python-autograd
 python-avocado
 awake
 python-azure-storage-blob
-python-bibtexparser
 python-bidict
 python-biopython
 python-bleach
@@ -82,7 +81,6 @@ python3-cangjie
 python-carbon
 python-catkin_tools
 python-check-manifest
-python-cle
 python-click-spinner
 python-cloudpickle
 python-cornice
@@ -102,10 +100,8 @@ python-django3
 dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
-python-doxytag2zealdb
 python-ephem
 python-fastbencode
-python-ffmpeg-python
 python-firehose
 flann
 python-flask-babel
@@ -225,6 +221,7 @@ python-pyzolib
 python-qpageview
 qpid-proton
 python-qutepart
+python-r128gain
 rabbitvcs
 python-recordclass
 python-redis
