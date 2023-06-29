@@ -129,7 +129,7 @@ python-jep
 python-josepy
 python-json-logger
 python-jsonrpc-server
-python-jupyter-client:doc-tests::::
+python-jupyter-c-kernel
 python-kafka
 python-klein
 python-kmod
@@ -160,7 +160,7 @@ python-modestmaps
 python-mpd2
 python-multi_key_dict
 python-mygpoclient
-python-nbformat
+python-nbclient:check::::
 python-ndindex
 python-neovim
 python-nmap
