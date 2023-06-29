@@ -42,10 +42,10 @@ kernel-tools
 photoqt
 pyflowtools
 pyp2rpm
-python-BTrees
 python-GridDataFormats
 python-PyPDF2
 pykka
+python-ZODB
 python-acora
 python-aiozeroconf
 python-alarmdecoder
