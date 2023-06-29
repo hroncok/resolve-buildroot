@@ -45,7 +45,6 @@ pyp2rpm
 python-GridDataFormats
 python-PyPDF2
 pykka
-python-ZConfig
 python-acora
 python-aiozeroconf
 python-alarmdecoder
@@ -130,7 +129,7 @@ python-jep
 python-josepy
 python-json-logger
 python-jsonrpc-server
-python-jupyter-core
+python-jupyter-client:doc-tests::::
 python-kafka
 python-klein
 python-kmod
@@ -161,6 +160,7 @@ python-modestmaps
 python-mpd2
 python-multi_key_dict
 python-mygpoclient
+python-nbformat
 python-ndindex
 python-neovim
 python-nmap
@@ -273,7 +273,7 @@ python-yourls
 python-yte
 python-ytmusicapi
 zbar
-python-zc-customdoctests
+python-zdaemon
 rmlint
 shybrid
 sudo
