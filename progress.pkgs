@@ -40,7 +40,7 @@ onboard
 pcs
 kernel-tools
 photoqt
-poezio
+pre-commit
 pyflowtools
 pyp2rpm
 python-GridDataFormats
@@ -179,7 +179,6 @@ python-pathtools
 pdc-client
 roca-detect
 python-pint
-python-pipdeptree
 python-pivy
 python-pluginlib
 python-podman-api
@@ -231,10 +230,10 @@ python-signedjson
 python-simpleparse
 python-simplewrap
 python-slip
-python-slixmpp-omemo
 python-smart-gardena
 python-smartcols
 python-smbpasswd
+python-sphinx-theme-builder
 python-sphinxygen
 python-sqlalchemy
 pdf-stapler
