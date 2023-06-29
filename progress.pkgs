@@ -1,6 +1,5 @@
 NFStest
 Zim
-academic-admin
 andriller
 appliance-tools
 arbor
@@ -31,7 +30,6 @@ fonts-tweak-tool
 gnome-doc-utils
 kicad
 lammps
-libolm
 lvm2
 manafirewall
 mercurial
@@ -43,7 +41,6 @@ onboard
 pcs
 kernel-tools
 photoqt
-proselint
 pyflowtools
 pyp2rpm
 python-GridDataFormats
@@ -63,7 +60,6 @@ python-astropy-helpers
 python-async-generator
 python-asyncssh
 python-audioread
-python-autograd
 python-avocado
 awake
 python-azure-storage-blob
@@ -113,6 +109,9 @@ python-fpylll
 python-gccinvocation
 python-geomet
 gfal2-python
+google-api-python-client
+python-google-cloud-access-context-manager
+python-google-cloud-core
 python-grako
 python-guizero
 h5py
@@ -132,7 +131,7 @@ python-josepy
 python-json-logger
 python-jsonrpc-server
 python-kafka
-kiwi
+kiwi-boxed-plugin
 python-klein
 python-kmod
 python-lacrosse
@@ -165,6 +164,7 @@ python-multi_key_dict
 python-mygpoclient
 python-ndindex
 python-neovim
+python-netmiko
 python-nmap
 python-nose_fixes
 python-notario
@@ -173,6 +173,7 @@ python-nudatus
 python-optcomplete
 python-orjson
 pyosmium
+python-ouimeaux
 python-pandas-datareader
 python-parsley
 python-partd
@@ -184,8 +185,8 @@ python-pint
 python-pivy
 python-pluginlib
 python-podman-api
-preprocess
 python-protego
+python-proto-plus
 python-ptrace
 py-radix
 python3-py3dns
@@ -197,9 +198,7 @@ python-pydocstyle
 python-pyfim
 pyftpdlib
 pygsl
-python-pyjwkest
 pyke
-python-pykeepass
 python-pylatex
 pyodbc
 python-pyopencl
@@ -209,7 +208,6 @@ python-pyrad
 python-pysam
 python-pysaml2
 python-pyside2
-python-pysignals
 python-pysnooper
 python-pytest-metadata
 python-pytest-subtests
@@ -221,7 +219,6 @@ python-pyzolib
 python-qpageview
 qpid-proton
 python-qutepart
-python-r128gain
 rabbitvcs
 python-recordclass
 python-redis
@@ -232,7 +229,6 @@ python3-saml
 python-schedutils
 python3-script
 python-semver
-python-sievelib
 python-signedjson
 python-simpleparse
 python-simplewrap
@@ -250,9 +246,7 @@ python-tambo
 python-test_server
 python-testresources
 python-textdistance
-python-textfsm
 python-tokenize-rt
-python-twitter
 python-uinput
 unicorn
 upm
@@ -262,7 +256,6 @@ python-uri-templates
 urjtag
 python-urllib-gssapi
 ustreamer
-python-uswid
 python-uvloop
 uwsgi
 python-virtualenv-clone
@@ -281,6 +274,7 @@ python-yte
 python-ytmusicapi
 zbar
 rmlint
+secrets
 shybrid
 sudo
 sugar
