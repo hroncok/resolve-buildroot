@@ -89,6 +89,7 @@ python-crochet
 python-curio
 python-cypari2
 python-cypy
+python-daphne
 python-deap
 python-diff-match-patch
 dionaea
@@ -154,11 +155,13 @@ m2crypto
 python-markdown_2
 python-martian
 python-matplotlib-scalebar
+python-matrix-synapse-ldap3
 python-mechanize
 python-metar
 python-mirakuru
 python-mistune08
 python-modestmaps
+python-moksha-hub
 python-mpd2
 python-mplcursors
 python-multi_key_dict
@@ -180,6 +183,7 @@ python-partd
 python-pathos
 python-pathtools
 pdc-client
+python-pem
 roca-detect
 python-pint
 python-pivy
@@ -229,7 +233,6 @@ python3-saml
 python-schedutils
 python3-script
 python-semver
-python-service-identity
 python-signedjson
 python-simpleparse
 python-simplewrap
@@ -250,6 +253,7 @@ python-test_server
 python-testresources
 python-textdistance
 python-tokenize-rt
+python-trustme
 python-uinput
 unicorn
 upm
@@ -270,7 +274,6 @@ python-wcmatch
 python-webscrapbook
 python-whitenoise
 python-wordcloud
-python-xrst
 python-yamlordereddictloader
 python-yappi
 python-yara
