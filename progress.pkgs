@@ -60,6 +60,7 @@ python-astropy-helpers
 python-async-generator
 python-asyncssh
 python-audioread
+python-autoprop
 python-avocado
 awake
 python-azure-storage-blob
@@ -105,6 +106,7 @@ python-flask-cors
 python-flask-login
 flatpak-module-tools
 python-flufl-bounce
+python-fontrpmspec
 python-fpylll
 future
 python-gccinvocation
@@ -188,7 +190,6 @@ python-pyaes
 python-pycodestyle
 python-pydiffx
 python-pydocstyle
-python-pydyf
 python-pyfim
 pyftpdlib
 pygsl
@@ -199,7 +200,6 @@ python-pyopencl
 python-pyopengl
 python-pyoptical
 python-pyrad
-python-pyrpm
 python-pysam
 python-pyside2
 python-pysnooper
@@ -223,7 +223,6 @@ python3-saml
 python-schedutils
 python3-script
 python-semver
-python-signature-dispatch
 python-signedjson
 python-simpleparse
 python-simplewrap
@@ -235,7 +234,6 @@ python-sphinxygen
 python-sqlalchemy
 pdf-stapler
 python-stdlib-list
-python-surt
 sword
 python-tables
 python-tambo
@@ -260,7 +258,6 @@ volume_key
 python-wcmatch
 python-webscrapbook
 python-whitenoise
-python-wikitcms
 python-wordcloud
 python-yamlordereddictloader
 python-yappi
