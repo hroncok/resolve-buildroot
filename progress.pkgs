@@ -60,7 +60,6 @@ python-astropy-helpers
 python-async-generator
 python-asyncssh
 python-audioread
-python-autoprop
 python-avocado
 awake
 python-azure-storage-blob
@@ -106,7 +105,6 @@ python-flask-cors
 python-flask-login
 flatpak-module-tools
 python-flufl-bounce
-python-fontrpmspec
 python-fpylll
 future
 python-gccinvocation
@@ -252,6 +250,7 @@ python-urllib-gssapi
 ustreamer
 python-uvloop
 uwsgi
+python-vecrec
 python-virtualenv-clone
 python-visionegg-quest
 volume_key
