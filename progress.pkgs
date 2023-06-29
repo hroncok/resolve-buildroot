@@ -42,6 +42,7 @@ kernel-tools
 photoqt
 pyflowtools
 pyp2rpm
+python-BTrees
 python-GridDataFormats
 python-PyPDF2
 pykka
@@ -129,7 +130,6 @@ python-jep
 python-josepy
 python-json-logger
 python-jsonrpc-server
-python-jupyter-c-kernel
 python-kafka
 python-klein
 python-kmod
@@ -160,7 +160,6 @@ python-modestmaps
 python-mpd2
 python-multi_key_dict
 python-mygpoclient
-python-nbclient:check::::
 python-ndindex
 python-neovim
 python-nmap
@@ -177,7 +176,6 @@ python-partd
 python-pathos
 python-pathtools
 pdc-client
-python-persistent
 roca-detect
 python-pint
 python-pivy
@@ -234,6 +232,7 @@ python-slip
 python-smart-gardena
 python-smartcols
 python-smbpasswd
+python-sphinx-autodoc-typehints
 python-sphinxygen
 python-sqlalchemy
 pdf-stapler
@@ -273,7 +272,6 @@ python-yourls
 python-yte
 python-ytmusicapi
 zbar
-python-zdaemon
 rmlint
 shybrid
 sudo
