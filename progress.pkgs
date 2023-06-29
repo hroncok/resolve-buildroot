@@ -44,6 +44,7 @@ pre-commit
 pyflowtools
 pyp2rpm
 python-GridDataFormats
+python-PyMuPDF
 python-PyPDF2
 pykka
 python-acora
@@ -73,6 +74,7 @@ botan2
 python-boto
 python-botocore
 python-box
+python-breathe
 python3-cangjie
 python-carbon
 python-catkin_tools
@@ -106,7 +108,6 @@ python-flask-login
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
-python-furo
 python-gccinvocation
 python-geomet
 gfal2-python
@@ -159,6 +160,7 @@ python-mirakuru
 python-mistune08
 python-modestmaps
 python-mpd2
+python-mplcursors
 python-multi_key_dict
 python-mygpoclient
 python-ndindex
@@ -190,7 +192,6 @@ python3-py3dns
 python-py9p
 python-pyaes
 python-pycodestyle
-python-pydata-sphinx-theme
 python-pydiffx
 python-pydocstyle
 python-pyfim
@@ -228,6 +229,7 @@ python3-saml
 python-schedutils
 python3-script
 python-semver
+python-service-identity
 python-signedjson
 python-simpleparse
 python-simplewrap
@@ -241,6 +243,7 @@ pdf-stapler
 python-stdlib-list
 python-stem
 sword
+sympy
 python-tables
 python-tambo
 python-test_server
@@ -267,6 +270,7 @@ python-wcmatch
 python-webscrapbook
 python-whitenoise
 python-wordcloud
+python-xrst
 python-yamlordereddictloader
 python-yappi
 python-yara
