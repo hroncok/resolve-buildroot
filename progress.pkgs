@@ -40,6 +40,7 @@ onboard
 pcs
 kernel-tools
 photoqt
+poezio
 pyflowtools
 pyp2rpm
 python-GridDataFormats
@@ -53,7 +54,6 @@ python-ansi
 python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
-python-anyconfig
 python-apsw
 python-astroid
 python-astropy-healpix
@@ -114,7 +114,6 @@ python-google-cloud-dns
 python-google-cloud-pubsub
 python-google-cloud-storage
 python-grako
-python-graphviz
 python-guizero
 h5py
 python-hdfs
@@ -173,7 +172,6 @@ python-opentelemetry
 python-optcomplete
 python-orjson
 pyosmium
-python-overpy
 python-pandas-datareader
 python-parsley
 python-partd
@@ -182,6 +180,7 @@ python-pathtools
 pdc-client
 roca-detect
 python-pint
+python-pipdeptree
 python-pivy
 python-pluginlib
 python-podman-api
@@ -195,7 +194,6 @@ python-pycodestyle
 python-pydiffx
 python-pydocstyle
 python-pyfim
-python-pyftdi
 pyftpdlib
 pygsl
 pyke
@@ -234,7 +232,7 @@ python-signedjson
 python-simpleparse
 python-simplewrap
 python-slip
-python-slixmpp
+python-slixmpp-omemo
 python-smart-gardena
 python-smartcols
 python-smbpasswd
@@ -278,7 +276,6 @@ python-yourls
 python-yte
 python-ytmusicapi
 zbar
-reuse
 rmlint
 shybrid
 sudo
