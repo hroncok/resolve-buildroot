@@ -106,6 +106,7 @@ python-flask-login
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
+python-furo
 python-gccinvocation
 python-geomet
 gfal2-python
@@ -189,6 +190,7 @@ python3-py3dns
 python-py9p
 python-pyaes
 python-pycodestyle
+python-pydata-sphinx-theme
 python-pydiffx
 python-pydocstyle
 python-pyfim
@@ -233,7 +235,6 @@ python-slip
 python-smart-gardena
 python-smartcols
 python-smbpasswd
-python-sphinx-theme-builder
 python-sphinxygen
 python-sqlalchemy
 pdf-stapler
