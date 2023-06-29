@@ -46,7 +46,6 @@ pyp2rpm
 python-GridDataFormats
 python-PyPDF2
 pykka
-python-ZODB
 python-acora
 python-aiozeroconf
 python-alarmdecoder
