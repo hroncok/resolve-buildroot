@@ -3,6 +3,7 @@ Zim
 andriller
 appliance-tools
 arbor
+asv
 aubio
 awscli2
 b43-tools
@@ -27,7 +28,7 @@ fedora-gather-easyfix
 libffado
 fonts-tweak-tool
 gnome-doc-utils
-hgview
+hgsvn
 kicad
 lammps
 lvm2
@@ -42,7 +43,6 @@ kernel-tools
 photoqt
 pyflowtools
 pyp2rpm
-pyp2spec
 python-GridDataFormats
 python-PyPDF2
 pykka
@@ -113,15 +113,12 @@ python-google-cloud-asset
 python-google-cloud-containeranalysis
 python-google-cloud-debugger-client
 python-google-cloud-dns
-python-google-cloud-filestore
 python-google-cloud-pubsub
 python-google-cloud-storage
 python-grako
 python-guizero
 h5py
 python-hdfs
-python-hgapi
-python-hglib
 i2c-tools
 python-igor
 livecd-tools
@@ -155,10 +152,10 @@ python-linuxdoc
 python-logging-tree
 python-logutils
 m2crypto
-python-markdown-it-py:plugins::::
 python-markdown_2
 python-martian
 python-matplotlib-scalebar
+python-mdit-py-plugins
 python-mechanize
 python-metar
 python-mirakuru
@@ -224,6 +221,7 @@ python-qutepart
 rabbitvcs
 python-recordclass
 python-redis
+python-rich
 python-rope
 python-rpmfluff
 python-rstcheck-core
@@ -238,7 +236,6 @@ python-slip
 python-smart-gardena
 python-smartcols
 python-smbpasswd
-python-sphinx-tabs
 python-sphinxygen
 python-sqlalchemy
 pdf-stapler
@@ -288,7 +285,6 @@ swift-lang
 system-storage-manager
 terminator
 thefuck
-tortoisehg
 transmageddon
 trelby
 vit
