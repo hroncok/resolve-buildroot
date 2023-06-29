@@ -53,6 +53,7 @@ python-ansi
 python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
+python-anyconfig
 python-apsw
 python-astroid
 python-astropy-healpix
@@ -113,6 +114,7 @@ python-google-cloud-dns
 python-google-cloud-pubsub
 python-google-cloud-storage
 python-grako
+python-graphviz
 python-guizero
 h5py
 python-hdfs
@@ -167,9 +169,11 @@ python-nose_fixes
 python-notario
 python-nss
 python-nudatus
+python-opentelemetry
 python-optcomplete
 python-orjson
 pyosmium
+python-overpy
 python-pandas-datareader
 python-parsley
 python-partd
@@ -191,6 +195,7 @@ python-pycodestyle
 python-pydiffx
 python-pydocstyle
 python-pyfim
+python-pyftdi
 pyftpdlib
 pygsl
 pyke
@@ -229,14 +234,15 @@ python-signedjson
 python-simpleparse
 python-simplewrap
 python-slip
+python-slixmpp
 python-smart-gardena
 python-smartcols
 python-smbpasswd
-python-sphinx-autodoc-typehints
 python-sphinxygen
 python-sqlalchemy
 pdf-stapler
 python-stdlib-list
+python-stem
 sword
 python-tables
 python-tambo
@@ -272,6 +278,7 @@ python-yourls
 python-yte
 python-ytmusicapi
 zbar
+reuse
 rmlint
 shybrid
 sudo
