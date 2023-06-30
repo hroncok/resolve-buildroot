@@ -18,6 +18,7 @@ cxxtest
 distgen
 dnf-plugin-diff
 swid-tools
+docker-compose
 python-drgn
 electron-cash
 elements
@@ -43,7 +44,6 @@ photoqt
 pre-commit
 pyflowtools
 pyp2rpm
-pyplane
 python-GridDataFormats
 python-PyMuPDF
 python-PyPDF2
@@ -94,12 +94,14 @@ python-cypy
 python-deap
 python-diff-match-patch
 dionaea
+python-diskcache
 python-django-allauth
 python-django-extensions
 python-django3
 dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
+python-environs
 python-ephem
 python-fastbencode
 python-fiat
@@ -142,13 +144,11 @@ python-lacrosse
 python-lazr-smtptest
 lensfun
 python-leveldb
-python-lfpykit
 dtc
 libfreenect
 python-liblarch
 libnl3
 pam_wrapper
-libpoly
 python-libsass
 libssh2-python
 lilv
@@ -157,7 +157,6 @@ python-logging-tree
 python-logutils
 m2crypto
 python-markdown_2
-python-martian
 python-matplotlib-scalebar
 python-mechanize
 python-metar
@@ -220,7 +219,6 @@ python-pytest-subtests
 python-pytest-testinfra
 python-pytest-venv
 python-pytest-virtualenv
-watchman
 python-pyzolib
 python-qpageview
 qpid-proton
@@ -272,11 +270,9 @@ python-virtualenv-clone
 python-visionegg-quest
 volume_key
 python-wcmatch
-python-webpy
 python-webscrapbook
 python-whitenoise
 python-wordcloud
-python-ws4py
 python-yamlordereddictloader
 python-yappi
 python-yara
@@ -285,7 +281,6 @@ python-yourls
 python-yte
 python-ytmusicapi
 zbar
-python-zoidberg
 rmlint
 shybrid
 sudo
