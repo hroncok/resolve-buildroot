@@ -43,6 +43,7 @@ photoqt
 pre-commit
 pyflowtools
 pyp2rpm
+pyplane
 python-GridDataFormats
 python-PyMuPDF
 python-PyPDF2
@@ -75,11 +76,11 @@ python-boto
 python-botocore
 python-box
 python-breathe
+python-brian2
 python3-cangjie
 python-carbon
 python-catkin_tools
 python-check-manifest
-python-cheroot
 python-click-spinner
 python-cloudpickle
 python-cornice
@@ -99,9 +100,9 @@ python-django3
 dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
-python-elastic-transport
 python-ephem
 python-fastbencode
+python-fiat
 python-firehose
 flann
 python-flask-babel
@@ -114,7 +115,6 @@ python-gccinvocation
 python-geomet
 gfal2-python
 python-google-cloud-dns
-python-google-cloud-kms
 python-google-cloud-pubsub
 python-google-cloud-storage
 python-grako
@@ -142,11 +142,13 @@ python-lacrosse
 python-lazr-smtptest
 lensfun
 python-leveldb
+python-lfpykit
 dtc
 libfreenect
 python-liblarch
 libnl3
 pam_wrapper
+libpoly
 python-libsass
 libssh2-python
 lilv
@@ -173,6 +175,7 @@ python-nose_fixes
 python-notario
 python-nss
 python-nudatus
+python-numpoly
 python-opentelemetry
 python-optcomplete
 python-orjson
@@ -245,11 +248,11 @@ pdf-stapler
 python-stdlib-list
 python-stem
 sword
-sympy
 python-tables
 python-tambo
 python-test_server
 python-testresources
+python-texext
 python-textdistance
 python-tokenize-rt
 python-uinput
@@ -269,9 +272,11 @@ python-virtualenv-clone
 python-visionegg-quest
 volume_key
 python-wcmatch
+python-webpy
 python-webscrapbook
 python-whitenoise
 python-wordcloud
+python-ws4py
 python-yamlordereddictloader
 python-yappi
 python-yara
@@ -280,6 +285,7 @@ python-yourls
 python-yte
 python-ytmusicapi
 zbar
+python-zoidberg
 rmlint
 shybrid
 sudo
