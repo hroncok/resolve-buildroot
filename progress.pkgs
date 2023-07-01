@@ -27,7 +27,9 @@ fail2ban
 fedora-gather-easyfix
 libffado
 fonts-tweak-tool
+gajim
 gnome-doc-utils
+python-jira
 kicad
 lammps
 lvm2
@@ -135,7 +137,7 @@ python-josepy
 python-json-logger
 python-jsonrpc-server
 python-kafka
-python-keyring
+python-keyrings-alt
 python-klein
 python-kmod
 python-lacrosse
@@ -276,6 +278,7 @@ ydiff
 python-yourls
 python-yte
 python-ytmusicapi
+yubikey-manager
 zbar
 rmlint
 shybrid
