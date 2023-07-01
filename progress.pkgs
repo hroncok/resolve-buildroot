@@ -45,7 +45,6 @@ pydeps
 pyflowtools
 pyp2rpm
 python-GridDataFormats
-python-Mastodon
 python-PyMuPDF
 python-PyPDF2
 pykka
@@ -56,7 +55,6 @@ python-ansi
 python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
-python-anyio
 python-apsw
 python-astroid
 python-astropy-healpix
@@ -66,7 +64,22 @@ python-asyncssh
 python-audioread
 python-avocado
 awake
-python-azure-devtools
+python-azure-loganalytics
+python-azure-mgmt-advisor
+python-azure-mgmt-apimanagement
+python-azure-mgmt-billing
+python-azure-mgmt-botservice
+python-azure-mgmt-consumption
+python-azure-mgmt-databoxedge
+python-azure-mgmt-datamigration
+python-azure-mgmt-devtestlabs
+python-azure-mgmt-dns
+python-azure-mgmt-managedservices
+python-azure-mgmt-maps
+python-azure-mgmt-marketplaceordering
+python-azure-mgmt-reservations
+python-azure-mgmt-servicefabric
+python-azure-mgmt-signalr
 python-azure-storage-blob
 python-bidict
 python-bleach
@@ -92,7 +105,6 @@ python-crochet
 python-curio
 python-cypari2
 python-cypy
-python-datadog
 python-deap
 python-diff-match-patch
 dionaea
@@ -175,7 +187,6 @@ python-notario
 python-nss
 python-nudatus
 python-numpoly
-python-oci
 python-opentelemetry
 python-optcomplete
 python-orjson
@@ -245,7 +256,6 @@ python-smbpasswd
 python-sphinxygen
 python-sqlalchemy
 pdf-stapler
-python-steam
 python-stem
 sword
 python-tables
@@ -254,7 +264,6 @@ python-test_server
 python-testresources
 python-textdistance
 python-tokenize-rt
-python-tweepy
 python-uinput
 unicorn
 upm
