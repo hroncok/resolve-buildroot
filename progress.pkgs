@@ -43,7 +43,6 @@ photoqt
 pre-commit
 pydeps
 pyflowtools
-pyinstrument
 pyp2rpm
 python-GridDataFormats
 python-PyMuPDF
@@ -219,6 +218,7 @@ python-pytest-virtualenv
 python-pyzolib
 python-qpageview
 qpid-proton
+python-qstylizer
 python-qutepart
 rabbitvcs
 python-recordclass
