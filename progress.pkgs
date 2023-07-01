@@ -27,9 +27,7 @@ fail2ban
 fedora-gather-easyfix
 libffado
 fonts-tweak-tool
-gajim
 gnome-doc-utils
-python-jira
 kicad
 lammps
 lvm2
@@ -47,6 +45,7 @@ pydeps
 pyflowtools
 pyp2rpm
 python-GridDataFormats
+python-Mastodon
 python-PyMuPDF
 python-PyPDF2
 pykka
@@ -67,6 +66,7 @@ python-asyncssh
 python-audioread
 python-avocado
 awake
+python-azure-devtools
 python-azure-storage-blob
 python-bidict
 python-bleach
@@ -92,6 +92,7 @@ python-crochet
 python-curio
 python-cypari2
 python-cypy
+python-datadog
 python-deap
 python-diff-match-patch
 dionaea
@@ -137,7 +138,6 @@ python-josepy
 python-json-logger
 python-jsonrpc-server
 python-kafka
-python-keyrings-alt
 python-klein
 python-kmod
 python-lacrosse
@@ -175,6 +175,7 @@ python-notario
 python-nss
 python-nudatus
 python-numpoly
+python-oci
 python-opentelemetry
 python-optcomplete
 python-orjson
@@ -218,6 +219,7 @@ python-pytest-subtests
 python-pytest-testinfra
 python-pytest-venv
 python-pytest-virtualenv
+python-pyvmomi
 python-pyzolib
 python-qpageview
 qpid-proton
@@ -243,6 +245,7 @@ python-smbpasswd
 python-sphinxygen
 python-sqlalchemy
 pdf-stapler
+python-steam
 python-stem
 sword
 python-tables
@@ -251,6 +254,7 @@ python-test_server
 python-testresources
 python-textdistance
 python-tokenize-rt
+python-tweepy
 python-uinput
 unicorn
 upm
@@ -278,7 +282,6 @@ ydiff
 python-yourls
 python-yte
 python-ytmusicapi
-yubikey-manager
 zbar
 rmlint
 shybrid
