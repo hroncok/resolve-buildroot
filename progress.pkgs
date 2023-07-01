@@ -130,7 +130,6 @@ python-iowait
 python-ipgetter
 python-javaproperties
 emacs-jedi
-python-jeepney
 python-jep
 python-josepy
 python-json-logger
@@ -230,6 +229,7 @@ python-rstcheck-core
 python3-saml
 python-schedutils
 python3-script
+python-SecretStorage
 python-semver
 python-signedjson
 python-simpleparse
