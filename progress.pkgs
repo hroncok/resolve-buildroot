@@ -45,7 +45,6 @@ pydeps
 pyflowtools
 pyp2rpm
 python-GridDataFormats
-ProDy
 python-PyMuPDF
 python-PyPDF2
 pykka
@@ -79,7 +78,6 @@ python-breathe
 python3-cangjie
 python-carbon
 python-catkin_tools
-python-cclib
 python-check-manifest
 python-click-spinner
 python-cloudpickle
@@ -183,12 +181,12 @@ python-partd
 python-pathos
 python-pathtools
 pdc-client
-python-pdf2image
 roca-detect
 python-pint
 python-pivy
 python-pluginlib
 python-podman-api
+python-primecountpy
 python-protego
 python-ptrace
 py-radix
@@ -212,7 +210,6 @@ python-pysam
 python-pysaml2
 python-pyside2
 python-pysnooper
-python-pytest-cython
 python-pytest-metadata
 python-pytest-subtests
 python-pytest-testinfra
@@ -250,7 +247,6 @@ python-test_server
 python-testresources
 python-textdistance
 python-tokenize-rt
-python-transforms3d
 python-uinput
 unicorn
 upm
