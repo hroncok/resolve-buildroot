@@ -43,6 +43,7 @@ photoqt
 pre-commit
 pydeps
 pyflowtools
+pyinstrument
 pyp2rpm
 python-GridDataFormats
 python-PyMuPDF
@@ -55,6 +56,7 @@ python-ansi
 python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
+python-anyio
 python-apsw
 python-astroid
 python-astropy-healpix
@@ -186,7 +188,6 @@ python-pint
 python-pivy
 python-pluginlib
 python-podman-api
-python-primecountpy
 python-protego
 python-ptrace
 py-radix
