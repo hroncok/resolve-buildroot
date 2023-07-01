@@ -135,6 +135,7 @@ python-josepy
 python-json-logger
 python-jsonrpc-server
 python-kafka
+python-keyring
 python-klein
 python-kmod
 python-lacrosse
@@ -229,7 +230,6 @@ python-rstcheck-core
 python3-saml
 python-schedutils
 python3-script
-python-SecretStorage
 python-semver
 python-signedjson
 python-simpleparse
