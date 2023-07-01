@@ -130,6 +130,7 @@ python-iowait
 python-ipgetter
 python-javaproperties
 emacs-jedi
+python-jeepney
 python-jep
 python-josepy
 python-json-logger
