@@ -44,6 +44,7 @@ pre-commit
 pydeps
 pyflowtools
 pyp2rpm
+python-CacheControl
 python-GridDataFormats
 python-PyMuPDF
 python-PyPDF2
@@ -51,6 +52,7 @@ pykka
 python-acora
 python-aiozeroconf
 python-alarmdecoder
+python-amico
 python-ansi
 python-ansible-pygments
 python-ansible-runner
@@ -76,6 +78,7 @@ python-boto
 python-botocore
 python-box
 python-breathe
+python-cachelib
 python3-cangjie
 python-carbon
 python-catkin_tools
@@ -94,6 +97,7 @@ python-deap
 python-diff-match-patch
 dionaea
 python-django-allauth
+python-django-cacheops
 python-django-extensions
 python-django3
 dnf-plugins-extras
@@ -149,6 +153,7 @@ pam_wrapper
 python-libsass
 libssh2-python
 lilv
+python-limits
 python-linuxdoc
 python-logging-tree
 python-logutils
@@ -187,6 +192,7 @@ python-pint
 python-pivy
 python-pluginlib
 python-podman-api
+python-portalocker
 python-protego
 python-ptrace
 py-radix
@@ -223,9 +229,11 @@ python-qstylizer
 python-qutepart
 rabbitvcs
 python-recordclass
-python-redis
+python-retask
+python-rmtest
 python-rope
 python-rpmfluff
+python-rq:tests::::
 python-rstcheck-core
 python3-saml
 python-schedutils
@@ -277,6 +285,7 @@ python-yourls
 python-yte
 python-ytmusicapi
 zbar
+pyzor
 rmlint
 shybrid
 sudo
