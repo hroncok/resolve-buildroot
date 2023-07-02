@@ -103,7 +103,6 @@ dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
 python-ephem
-python-executing
 python-fastbencode
 python-fiat
 python-firehose
@@ -133,6 +132,7 @@ python-iniparse
 python-invoke
 python-iowait
 python-ipgetter
+ipython:check-doc::::
 python-javaproperties
 emacs-jedi
 python-jep
@@ -249,7 +249,6 @@ python-smartcols
 python-smbpasswd
 python-sphinxygen
 python-sqlalchemy
-python-stack-data
 pdf-stapler
 python-stem
 sword
