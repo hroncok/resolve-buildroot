@@ -14,7 +14,6 @@ btest
 cdist
 classification-banner
 condor
-copr-cli
 cxxtest
 distgen
 dnf-plugin-diff
@@ -26,6 +25,7 @@ eric
 python-esphomeflasher
 fail2ban
 fedora-gather-easyfix
+fedscm-admin
 libffado
 fonts-tweak-tool
 gnome-doc-utils
@@ -38,6 +38,7 @@ mrchem
 oct2spec
 offlineimap
 onboard
+pag
 pcs
 kernel-tools
 photoqt
@@ -103,7 +104,6 @@ python-dockerfile-parse
 python-dominate
 python-ephem
 python-fastbencode
-python-fedora
 python-fiat
 python-firehose
 flann
