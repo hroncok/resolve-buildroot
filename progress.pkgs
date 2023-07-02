@@ -27,6 +27,7 @@ fail2ban
 fedora-gather-easyfix
 libffado
 fonts-tweak-tool
+gnome-abrt
 gnome-doc-utils
 kicad
 lammps
@@ -34,6 +35,8 @@ lvm2
 manafirewall
 monkeytype
 mrchem
+nordugrid-arc
+nvme-stas
 oct2spec
 offlineimap
 onboard
@@ -59,7 +62,6 @@ python-anyio
 python-apsw
 python-astropy-healpix
 python-astropy-helpers
-python-asttokens
 python-async-generator
 python-asyncssh
 python-audioread
@@ -121,6 +123,7 @@ python-grako
 python-guizero
 h5py
 python-hdfs
+python-hwdata
 i2c-tools
 python-igor
 livecd-tools
@@ -189,6 +192,7 @@ roca-detect
 python-pint
 python-pivy
 python-pluginlib
+python-pocketlint
 python-podman-api
 python-protego
 python-ptrace
@@ -204,7 +208,7 @@ pyftpdlib
 pygsl
 pyke
 python-pylatex
-pylint
+python-pylint-venv
 pyodbc
 python-pyopencl
 python-pyopengl
@@ -215,7 +219,6 @@ python-pysaml2
 python-pyside2
 python-pysnooper
 python-pytest-metadata
-python-pytest-services
 python-pytest-subtests
 python-pytest-testinfra
 python-pytest-venv
@@ -227,6 +230,7 @@ qpid-proton
 python-qstylizer
 python-qutepart
 rabbitvcs
+python-rebulk
 python-recordclass
 python-rope
 python-rpmfluff
@@ -291,6 +295,7 @@ swift-lang
 system-storage-manager
 terminator
 thefuck
+thonny
 transmageddon
 trelby
 vit
