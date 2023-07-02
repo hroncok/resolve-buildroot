@@ -45,7 +45,6 @@ pcs
 kernel-tools
 photoqt
 pre-commit
-ptpython
 pydeps
 pyflowtools
 pyp2rpm
@@ -87,7 +86,6 @@ python-catkin_tools
 python-check-manifest
 python-click-spinner
 python-cloudpickle
-python-colorspacious
 python-cornice
 python-cpio
 python-cram
@@ -134,8 +132,8 @@ python-immutables
 python-iniparse
 python-invoke
 python-iowait
-python-ipdb
 python-ipgetter
+python-ipykernel:doc-tests::::
 python-javaproperties
 emacs-jedi
 python-jep
@@ -190,7 +188,6 @@ python-parsley
 python-partd
 python-pathos
 python-pathtools
-python-patsy
 pdc-client
 python-pendulum
 roca-detect
@@ -234,12 +231,10 @@ python-pyzolib
 python-qpageview
 qpid-proton
 python-qstylizer
-python-qtconsole
 python-qutepart
 rabbitvcs
 python-rebulk
 python-recordclass
-python-represent
 python-rope
 python-rpmfluff
 python-rstcheck-core
