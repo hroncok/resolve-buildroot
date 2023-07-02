@@ -103,6 +103,7 @@ dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
 python-ephem
+python-executing
 python-fastbencode
 python-fiat
 python-firehose
