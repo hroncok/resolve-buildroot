@@ -14,6 +14,7 @@ btest
 cdist
 classification-banner
 condor
+copr-rpmbuild
 cxxtest
 distgen
 dnf-plugin-diff
@@ -82,6 +83,7 @@ python-catkin_tools
 python-check-manifest
 python-click-spinner
 python-cloudpickle
+python-copr
 python-cornice
 python-cpio
 python-cram
@@ -101,6 +103,7 @@ python-dockerfile-parse
 python-dominate
 python-ephem
 python-fastbencode
+python-fedora
 python-fiat
 python-firehose
 flann
