@@ -23,8 +23,8 @@ python-drgn
 electron-cash
 elements
 eric
-python-esphomeflasher
 fail2ban
+fedmod
 fedora-gather-easyfix
 libffado
 fonts-tweak-tool
@@ -216,7 +216,6 @@ python-pyopencl
 python-pyopengl
 python-pyoptical
 python-pyrad
-python-pysam
 python-pysaml2
 python-pysb
 python-pyside2
@@ -247,7 +246,6 @@ python-simpleparse
 python-simplewrap
 python-slip
 python-smart-gardena
-python-smartcols
 python-smbpasswd
 python-sphinxygen
 python-sqlalchemy
@@ -297,11 +295,9 @@ sugar-datastore
 sugar-toolkit-gtk3
 swift-lang
 system-storage-manager
-terminator
 thefuck
 thonny
 transmageddon
-trelby
 vit
 wordxtr
 xcb-proto
