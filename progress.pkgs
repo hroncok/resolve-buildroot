@@ -25,7 +25,6 @@ eric
 python-esphomeflasher
 fail2ban
 fedora-gather-easyfix
-fedscm-admin
 libffado
 fonts-tweak-tool
 gnome-doc-utils
@@ -38,7 +37,6 @@ mrchem
 oct2spec
 offlineimap
 onboard
-pag
 pcs
 kernel-tools
 photoqt
@@ -59,9 +57,9 @@ python-ansible-runner
 python-ansiwrap
 python-anyio
 python-apsw
-python-astroid
 python-astropy-healpix
 python-astropy-helpers
+python-asttokens
 python-async-generator
 python-asyncssh
 python-audioread
@@ -206,6 +204,7 @@ pyftpdlib
 pygsl
 pyke
 python-pylatex
+pylint
 pyodbc
 python-pyopencl
 python-pyopengl
@@ -216,6 +215,7 @@ python-pysaml2
 python-pyside2
 python-pysnooper
 python-pytest-metadata
+python-pytest-services
 python-pytest-subtests
 python-pytest-testinfra
 python-pytest-venv
