@@ -30,7 +30,6 @@ libffado
 fonts-tweak-tool
 gnome-abrt
 gnome-doc-utils
-ilua
 kicad
 lammps
 lvm2
@@ -142,7 +141,6 @@ python-josepy
 python-json-logger
 python-jsonrpc-server
 python-jsonschema-spec
-python-jupyter-kernel-singular
 python-kafka
 python-klein
 python-kmod
