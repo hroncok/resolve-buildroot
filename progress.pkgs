@@ -30,6 +30,7 @@ libffado
 fonts-tweak-tool
 gnome-abrt
 gnome-doc-utils
+ilua
 kicad
 lammps
 lvm2
@@ -70,7 +71,6 @@ python-avocado
 awake
 python-azure-identity
 python-azure-storage-blob
-python-bash-kernel
 python-bidict
 python-bleach
 python-blowfish
@@ -142,9 +142,7 @@ python-josepy
 python-json-logger
 python-jsonrpc-server
 python-jsonschema-spec
-python-jupyter-console
 python-jupyter-kernel-singular
-python-jupyter-polymake
 python-kafka
 python-klein
 python-kmod
@@ -225,7 +223,6 @@ python-pysaml2
 python-pysb
 python-pyside2
 python-pysnooper
-python-pytest-jupyter
 python-pytest-metadata
 python-pytest-subtests
 python-pytest-testinfra
