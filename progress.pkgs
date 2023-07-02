@@ -28,13 +28,13 @@ fedora-gather-easyfix
 libffado
 fonts-tweak-tool
 gnome-doc-utils
-python-howdoi
 kicad
 lammps
 lvm2
 manafirewall
 monkeytype
 mrchem
+nanopb
 oct2spec
 offlineimap
 onboard
@@ -50,6 +50,9 @@ python-PyMuPDF
 python-PyPDF2
 pykka
 python-acora
+python-aioeafm
+python-aioflo
+python-aionotion
 python-aiozeroconf
 python-alarmdecoder
 python-ansi
@@ -66,6 +69,7 @@ python-asyncssh
 python-audioread
 python-avocado
 awake
+python-azure-identity
 python-azure-storage-blob
 python-bidict
 python-bleach
@@ -106,7 +110,6 @@ python-fiat
 python-firehose
 flann
 python-flask-babel
-python-flask-caching
 python-flask-cors
 python-flask-login
 flatpak-module-tools
@@ -164,7 +167,6 @@ python-mistune08
 python-modestmaps
 python-mpd2
 python-mplcursors
-python-msal-extensions
 python-multi_key_dict
 python-mygpoclient
 python-ndindex
@@ -182,6 +184,7 @@ pyosmium
 python-pandas-datareader
 python-parsley
 python-partd
+python-pathable
 python-pathos
 python-pathtools
 pdc-client
@@ -196,6 +199,8 @@ py-radix
 python3-py3dns
 python-py9p
 python-pyaes
+python-pyairnow
+python-pyairvisual
 python-pycodestyle
 python-pydiffx
 python-pydocstyle
@@ -207,6 +212,7 @@ python-pylatex
 pyodbc
 python-pyopencl
 python-pyopengl
+python-pyopenuv
 python-pyoptical
 python-pyrad
 python-pysam
@@ -214,10 +220,13 @@ python-pysaml2
 python-pyside2
 python-pysnooper
 python-pytest-metadata
+python-pytest-spec
 python-pytest-subtests
 python-pytest-testinfra
 python-pytest-venv
 python-pytest-virtualenv
+python-pytile
+python-pytzdata
 python-pyvmomi
 python-pyzolib
 python-qpageview
@@ -244,6 +253,8 @@ python-sphinxygen
 python-sqlalchemy
 pdf-stapler
 python-stem
+python-stochastic
+stomppy
 sword
 python-tables
 python-tambo
