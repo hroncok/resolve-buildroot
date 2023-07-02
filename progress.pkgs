@@ -48,7 +48,6 @@ pydeps
 pyflowtools
 pyp2rpm
 python-GridDataFormats
-python-PyMuPDF
 python-PyPDF2
 pykka
 python-acora
@@ -234,6 +233,7 @@ rabbitvcs
 python-rebulk
 python-recordclass
 python-rope
+python-rows
 python-rpmfluff
 python-rstcheck-core
 python3-saml
