@@ -14,7 +14,7 @@ btest
 cdist
 classification-banner
 condor
-copr-rpmbuild
+copr-cli
 cxxtest
 distgen
 dnf-plugin-diff
@@ -56,6 +56,7 @@ python-ansi
 python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
+python-anyio
 python-apsw
 python-astroid
 python-astropy-healpix
@@ -83,7 +84,6 @@ python-catkin_tools
 python-check-manifest
 python-click-spinner
 python-cloudpickle
-python-copr
 python-cornice
 python-cpio
 python-cram
