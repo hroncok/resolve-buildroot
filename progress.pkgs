@@ -34,7 +34,6 @@ lvm2
 manafirewall
 monkeytype
 mrchem
-nanopb
 oct2spec
 offlineimap
 onboard
@@ -50,16 +49,12 @@ python-PyMuPDF
 python-PyPDF2
 pykka
 python-acora
-python-aioeafm
-python-aioflo
-python-aionotion
 python-aiozeroconf
 python-alarmdecoder
 python-ansi
 python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
-python-anyio
 python-apsw
 python-astroid
 python-astropy-healpix
@@ -139,6 +134,7 @@ python-jep
 python-josepy
 python-json-logger
 python-jsonrpc-server
+python-jsonschema-spec
 python-kafka
 python-klein
 python-kmod
@@ -184,10 +180,10 @@ pyosmium
 python-pandas-datareader
 python-parsley
 python-partd
-python-pathable
 python-pathos
 python-pathtools
 pdc-client
+python-pendulum
 roca-detect
 python-pint
 python-pivy
@@ -199,8 +195,6 @@ py-radix
 python3-py3dns
 python-py9p
 python-pyaes
-python-pyairnow
-python-pyairvisual
 python-pycodestyle
 python-pydiffx
 python-pydocstyle
@@ -212,7 +206,6 @@ python-pylatex
 pyodbc
 python-pyopencl
 python-pyopengl
-python-pyopenuv
 python-pyoptical
 python-pyrad
 python-pysam
@@ -220,13 +213,10 @@ python-pysaml2
 python-pyside2
 python-pysnooper
 python-pytest-metadata
-python-pytest-spec
 python-pytest-subtests
 python-pytest-testinfra
 python-pytest-venv
 python-pytest-virtualenv
-python-pytile
-python-pytzdata
 python-pyvmomi
 python-pyzolib
 python-qpageview
@@ -253,8 +243,6 @@ python-sphinxygen
 python-sqlalchemy
 pdf-stapler
 python-stem
-python-stochastic
-stomppy
 sword
 python-tables
 python-tambo
