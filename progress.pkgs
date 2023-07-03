@@ -58,7 +58,6 @@ python-ansi
 python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
-python-anyio
 python-apsw
 python-astropy-healpix
 python-astropy-helpers
@@ -78,7 +77,6 @@ botan2
 python-boto
 python-botocore
 python-box
-python-breathe
 python3-cangjie
 python-carbon
 python-catkin_tools
@@ -88,7 +86,6 @@ python-cloudpickle
 python-cornice
 python-cpio
 python-cram
-credslayer
 criu
 python-crochet
 python-curio
@@ -105,14 +102,13 @@ python-dockerfile-parse
 python-dominate
 python-ephem
 python-fastbencode
-python-fedmsg-meta-fedora-infrastructure
 python-fiat
 python-firehose
 flann
 python-flask-babel
 python-flask-cors
 python-flask-login
-python-flask-sqlalchemy
+python-flask-whooshee
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
@@ -127,9 +123,11 @@ python-grako
 python-guizero
 h5py
 python-hdfs
+python-httpcore
 python-hwdata
 i2c-tools
 python-igor
+imath
 livecd-tools
 python-immutables
 python-iniparse
@@ -150,6 +148,7 @@ python-lacrosse
 python-lazr-smtptest
 lensfun
 python-leveldb
+dnf5
 dtc
 libfreenect
 python-liblarch
@@ -199,6 +198,7 @@ python-pluginlib
 python-pocketlint
 python-podman-api
 python-protego
+python-psycopg3
 python-ptrace
 py-radix
 python3-py3dns
@@ -209,6 +209,7 @@ python-pydiffx
 python-pydocstyle
 python-pyfim
 pyftpdlib
+libgpuarray
 pygsl
 pyke
 python-pylatex
@@ -224,6 +225,7 @@ python-pysb
 python-pyside2
 python-pysnooper
 python-pytest-metadata
+python-pytest-subprocess
 python-pytest-subtests
 python-pytest-testinfra
 python-pytest-venv
@@ -278,6 +280,7 @@ python-versioningit
 python-virtualenv-clone
 python-visionegg-quest
 volume_key
+python-watchgod
 python-wcmatch
 python-webscrapbook
 python-whitenoise
