@@ -70,6 +70,7 @@ python-avocado
 awake
 python-azure-identity
 python-azure-storage-blob
+python-barbicanclient
 python-bidict
 python-blowfish
 python-bluepy
@@ -140,6 +141,7 @@ python-json-logger
 python-jsonrpc-server
 python-jsonschema-spec
 python-kafka
+python-keystoneauth1
 python-klein
 python-kmod
 python-lacrosse
@@ -185,6 +187,7 @@ openshadinglanguage
 python-opentelemetry
 python-optcomplete
 python-orjson
+python-oslo-serialization
 pyosmium
 python-pandas-datareader
 python-parsley
