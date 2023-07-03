@@ -88,7 +88,6 @@ python-cornice
 python-cpio
 python-cram
 criu
-python-crochet
 python-curio
 python-cypari2
 python-cypy
@@ -103,6 +102,7 @@ python-dockerfile-parse
 python-dominate
 python-ephem
 python-fastbencode
+fedora-messaging
 python-fiat
 python-firehose
 flann
@@ -111,7 +111,6 @@ python-flask-cors
 python-flask-login
 flatpak-module-tools
 python-flufl-bounce
-python-folium
 python-fpylll
 python-gccinvocation
 python-geomet
