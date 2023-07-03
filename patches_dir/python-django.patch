@@ -1,0 +1,28 @@
+From c4492c9906f624b45276cbd5d58776c351a24737 Mon Sep 17 00:00:00 2001
+From: Miro Hrončok <miro@hroncok.cz>
+Date: Jun 29 2023 10:52:57 +0000
+Subject: Temporarily reduce test dependencies to unblock Python 3.12 rebuild
+
+
+---
+
+diff --git a/python-django.spec b/python-django.spec
+index 27bcaf4..04e8123 100644
+--- a/python-django.spec
++++ b/python-django.spec
+@@ -95,8 +95,13 @@ sed -i '/^tzdata$/d' tests/requirements/py3.txt
+ sed -i '/^black\b/d' tests/requirements/py3.txt
+ sed -i '/^blacken-docs\b/d' docs/requirements.txt
+ 
++# Temporarily skip redis tests, as python3-redis is not yet available for Python 3.12
++# https://bugzilla.redhat.com/2196782
++sed -i '/^redis\b/d' tests/requirements/py3.txt
++
+ %generate_buildrequires
+-%pyproject_buildrequires -r tests/requirements/{py3,postgres,mysql,oracle}.txt docs/requirements.txt
++# The postgres tests are temporarily skipped, as psycopg is not yet available for Python 3.12
++%pyproject_buildrequires -r tests/requirements/{py3,mysql,oracle}.txt docs/requirements.txt
+ 
+ %build
+ %pyproject_wheel
+
