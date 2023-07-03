@@ -25,10 +25,12 @@ elements
 eric
 fail2ban
 fedora-gather-easyfix
+fedrq
 libffado
 fonts-tweak-tool
 gnome-abrt
 gnome-doc-utils
+hugin
 kicad
 lvm2
 manafirewall
@@ -112,6 +114,7 @@ flatpak-module-tools
 python-flufl-bounce
 python-fpylll
 python-gccinvocation
+gdal
 python-geomet
 gfal2-python
 python-google-cloud-bigquery
@@ -126,7 +129,6 @@ python-httpx
 python-hwdata
 i2c-tools
 python-igor
-imath
 livecd-tools
 python-immutables
 python-iniparse
@@ -147,7 +149,6 @@ python-lacrosse
 python-lazr-smtptest
 lensfun
 python-leveldb
-dnf5
 dtc
 libfreenect
 python-liblarch
@@ -179,7 +180,9 @@ python-notario
 python-nss
 python-nudatus
 python-numpoly
+opencv
 python-opentelemetry
+openvdb
 python-optcomplete
 python-orjson
 pyosmium
@@ -191,13 +194,13 @@ python-pathtools
 pdc-client
 python-pendulum
 roca-detect
+python-pgspecial
 python-pint
 python-pivy
 python-pluginlib
 python-pocketlint
 python-podman-api
 python-protego
-python-psycopg3
 python-ptrace
 py-radix
 python3-py3dns
@@ -208,7 +211,6 @@ python-pydiffx
 python-pydocstyle
 python-pyfim
 pyftpdlib
-libgpuarray
 pygsl
 pyke
 python-pylatex
@@ -261,6 +263,7 @@ python-testing.postgresql
 python-testresources
 python-TestSlide
 python-textdistance
+python-theano
 python-tokenize-rt
 python-uinput
 unicorn
@@ -275,6 +278,7 @@ python-uvloop
 uwsgi
 python-vcstools
 python-versioningit
+vigra
 python-virtualenv-clone
 python-visionegg-quest
 volume_key
