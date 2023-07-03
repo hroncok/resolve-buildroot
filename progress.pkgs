@@ -83,6 +83,7 @@ python-carbon
 python-catkin_tools
 python-check-manifest
 python-click-spinner
+python-cliff
 python-cloudpickle
 python-cornice
 python-cpio
