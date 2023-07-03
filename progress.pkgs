@@ -30,7 +30,6 @@ libffado
 fonts-tweak-tool
 gnome-abrt
 gnome-doc-utils
-hatch
 hugin
 kicad
 lvm2
@@ -225,7 +224,6 @@ python-pysaml2
 python-pysb
 python-pyside2
 python-pysnooper
-python-pytest-httpx
 python-pytest-metadata
 python-pytest-subtests
 python-pytest-testinfra
@@ -296,6 +294,7 @@ python-yourls
 python-yte
 python-ytmusicapi
 zbar
+python-zeep
 rmlint
 shybrid
 sudo
