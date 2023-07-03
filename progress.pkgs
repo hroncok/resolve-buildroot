@@ -30,7 +30,6 @@ fonts-tweak-tool
 gnome-abrt
 gnome-doc-utils
 kicad
-lammps
 lvm2
 manafirewall
 monkeytype
@@ -233,7 +232,6 @@ rabbitvcs
 python-rebulk
 python-recordclass
 python-rope
-python-rows
 python-rpmfluff
 python-rstcheck-core
 python3-saml
