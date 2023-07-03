@@ -30,6 +30,7 @@ fonts-tweak-tool
 gnome-abrt
 gnome-doc-utils
 kicad
+limnoria
 lvm2
 manafirewall
 monkeytype
@@ -43,6 +44,7 @@ pcs
 kernel-tools
 photoqt
 pre-commit
+pychess
 pydeps
 pyflowtools
 pyp2rpm
@@ -52,11 +54,13 @@ pykka
 python-acora
 python-aiozeroconf
 python-alarmdecoder
+python-alembic
 python-ansi
 python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
 python-anyio
+python-anykeystore
 python-apsw
 python-astropy-healpix
 python-astropy-helpers
@@ -67,6 +71,7 @@ python-avocado
 awake
 python-azure-identity
 python-azure-storage-blob
+python-beaker
 python-bidict
 python-bleach
 python-blowfish
@@ -88,6 +93,7 @@ python-cpio
 python-cram
 criu
 python-crochet
+python-csvkit
 python-curio
 python-cypari2
 python-cypy
@@ -102,12 +108,14 @@ python-dockerfile-parse
 python-dominate
 python-ephem
 python-fastbencode
+fedmsg
 python-fiat
 python-firehose
 flann
 python-flask-babel
 python-flask-cors
 python-flask-login
+python-flask-sqlalchemy
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
@@ -121,6 +129,7 @@ python-google-cloud-storage
 python-grako
 python-guizero
 h5py
+python-hass-data-detective
 python-hdfs
 python-hwdata
 i2c-tools
@@ -154,6 +163,7 @@ python-libsass
 libssh2-python
 lilv
 python-linuxdoc
+python-logbook
 python-logging-tree
 python-logutils
 m2crypto
@@ -161,6 +171,7 @@ python-markdown_2
 python-matplotlib-scalebar
 python-mechanize
 python-metar
+python-migrate
 python-mirakuru
 python-mistune08
 python-modestmaps
@@ -176,6 +187,7 @@ python-notario
 python-nss
 python-nudatus
 python-numpoly
+python-odata-query
 python-opentelemetry
 python-optcomplete
 python-orjson
@@ -208,6 +220,8 @@ pygsl
 pyke
 python-pylatex
 python-pylint-venv
+python-pymssql
+python-pynetdicom
 pyodbc
 python-pyopencl
 python-pyopengl
@@ -231,6 +245,7 @@ python-qutepart
 rabbitvcs
 python-rebulk
 python-recordclass
+python-repoze-who-plugins-sa
 python-rope
 python-rpmfluff
 python-rstcheck-core
@@ -245,13 +260,14 @@ python-slip
 python-smart-gardena
 python-smbpasswd
 python-sphinxygen
-python-sqlalchemy
+python-sqlalchemy-collectd
 pdf-stapler
 python-stem
 sword
 python-tables
 python-tambo
 python-test_server
+python-testing.postgresql
 python-testresources
 python-TestSlide
 python-textdistance
