@@ -31,7 +31,6 @@ fonts-tweak-tool
 gnome-abrt
 gnome-doc-utils
 kicad
-krita
 lvm2
 manafirewall
 monkeytype
@@ -113,6 +112,7 @@ flatpak-module-tools
 python-flufl-bounce
 python-fpylll
 python-gccinvocation
+python-gear
 python-geomet
 gfal2-python
 python-google-cloud-bigquery
@@ -144,6 +144,7 @@ python-kafka
 python-klein
 python-kmod
 python-lacrosse
+python-launchpadlib
 python-lazr-smtptest
 lensfun
 python-leveldb
@@ -261,7 +262,6 @@ python-tables
 python-tambo
 python-test_server
 python-testing.postgresql
-python-testresources
 python-TestSlide
 python-textdistance
 python-theano
