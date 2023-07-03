@@ -9,7 +9,6 @@ aubio
 awscli2
 b43-tools
 beaker
-bodhi-client
 borgbackup
 brd
 btest
@@ -17,6 +16,7 @@ cdist
 classification-banner
 condor
 cxxtest
+did
 distgen
 dnf-plugin-diff
 swid-tools
@@ -26,6 +26,7 @@ elements
 eric
 fail2ban
 fedora-gather-easyfix
+fedpkg
 fedrq
 libffado
 fonts-tweak-tool
@@ -78,6 +79,7 @@ botan2
 python-boto
 python-botocore
 python-box
+python-branca
 python3-cangjie
 python-carbon
 python-catkin_tools
@@ -128,7 +130,6 @@ i2c-tools
 python-igor
 livecd-tools
 python-immutables
-python-inema
 python-iniparse
 python-invoke
 python-iowait
@@ -170,7 +171,8 @@ python-mpd2
 python-mplcursors
 python-multi_key_dict
 python-mygpoclient
-python-nbconvert:check-doc::::
+python-nb2plots
+python-nbsphinx
 python-ndindex
 python-neovim
 python-nmap
@@ -294,6 +296,7 @@ python-yte
 python-ytmusicapi
 zbar
 rmlint
+python-rust-update-set
 shybrid
 sudo
 sugar
