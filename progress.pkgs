@@ -112,7 +112,6 @@ flatpak-module-tools
 python-flufl-bounce
 python-fpylll
 python-gccinvocation
-python-gear
 python-geomet
 gfal2-python
 python-google-cloud-bigquery
