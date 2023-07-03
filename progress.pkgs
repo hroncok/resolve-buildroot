@@ -73,6 +73,7 @@ python-azure-storage-blob
 python-bidict
 python-blowfish
 python-bluepy
+bodhi-messages
 python-bokeh
 botan2
 python-boto
@@ -84,6 +85,7 @@ python-catkin_tools
 python-check-manifest
 python-click-spinner
 python-cloudpickle
+copr-messaging
 python-cornice
 python-cpio
 python-cram
@@ -102,7 +104,6 @@ python-dockerfile-parse
 python-dominate
 python-ephem
 python-fastbencode
-fedora-messaging
 python-fiat
 python-firehose
 flann
@@ -174,6 +175,7 @@ python-nb2plots
 python-ndindex
 python-neovim
 python-nmap
+python-noggin-messages
 python-nose_fixes
 python-notario
 python-nss
@@ -184,6 +186,7 @@ python-opentelemetry
 python-optcomplete
 python-orjson
 pyosmium
+python-pagure-messages
 python-pandas-datareader
 python-parsley
 python-partd
@@ -191,6 +194,7 @@ python-pathos
 python-pathtools
 pdc-client
 python-pendulum
+python-perky
 roca-detect
 python-pint
 python-pivy
