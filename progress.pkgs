@@ -9,6 +9,7 @@ aubio
 awscli2
 b43-tools
 beaker
+bodhi-client
 borgbackup
 brd
 btest
@@ -30,7 +31,6 @@ libffado
 fonts-tweak-tool
 gnome-abrt
 gnome-doc-utils
-hugin
 kicad
 lvm2
 manafirewall
@@ -66,7 +66,6 @@ python-astropy-helpers
 python-async-generator
 python-asyncssh
 python-audioread
-python-authlib
 python-avocado
 awake
 python-azure-identity
@@ -115,7 +114,6 @@ flatpak-module-tools
 python-flufl-bounce
 python-fpylll
 python-gccinvocation
-gdal
 python-geomet
 gfal2-python
 python-google-cloud-bigquery
@@ -131,6 +129,7 @@ i2c-tools
 python-igor
 livecd-tools
 python-immutables
+python-inema
 python-iniparse
 python-invoke
 python-iowait
@@ -238,7 +237,6 @@ python-qutepart
 rabbitvcs
 python-rebulk
 python-recordclass
-python-respx
 python-rope
 python-rpmfluff
 python-rstcheck-core
@@ -247,6 +245,7 @@ python-schedutils
 python3-script
 python-semver
 python-signedjson
+python-simple-salesforce
 python-simpleparse
 python-simplewrap
 python-slip
@@ -294,7 +293,6 @@ python-yourls
 python-yte
 python-ytmusicapi
 zbar
-python-zeep
 rmlint
 shybrid
 sudo
