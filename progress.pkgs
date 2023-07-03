@@ -30,6 +30,7 @@ libffado
 fonts-tweak-tool
 gnome-abrt
 gnome-doc-utils
+home-assistant-cli
 kicad
 lvm2
 manafirewall
@@ -85,6 +86,7 @@ python-check-manifest
 python-click-spinner
 python-cloudpickle
 python-cornice
+python-cotyledon
 python-cpio
 python-cram
 criu
@@ -97,11 +99,11 @@ dionaea
 python-django-allauth
 python-django-extensions
 python-django3
+dlrn
 dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
 python-ephem
-python-etcd3gw
 python-fastbencode
 python-fiat
 python-firehose
@@ -137,7 +139,6 @@ emacs-jedi
 python-jep
 python-josepy
 python-json-logger
-python-jsonpath-ng
 python-jsonrpc-server
 python-jsonschema-spec
 python-kafka
@@ -171,7 +172,6 @@ python-modestmaps
 python-mpd2
 python-mplcursors
 python-multi_key_dict
-python-murano-pkg-check
 python-mygpoclient
 python-nb2plots
 python-ndindex
@@ -187,7 +187,6 @@ openshadinglanguage
 python-opentelemetry
 python-optcomplete
 python-orjson
-python-oslo-config
 pyosmium
 python-pandas-datareader
 python-parsley
@@ -240,13 +239,11 @@ qpid-proton
 python-qstylizer
 python-qutepart
 rabbitvcs
-rdopkg
 python-rebulk
 python-recordclass
-python-renderspec
 python-rope
 python-rpmfluff
-python-rsdclient
+python-rsd-lib
 python-rstcheck-core
 python3-saml
 python-schedutils
@@ -263,7 +260,6 @@ python-sphinxygen
 pdf-stapler
 python-stdio-mgr
 python-stem
-python-sushy
 sword
 python-tables
 python-tambo
@@ -273,7 +269,6 @@ python-TestSlide
 python-textdistance
 python-theano
 python-tokenize-rt
-python-tosca-parser
 python-uinput
 unicorn
 upm
@@ -288,10 +283,8 @@ uwsgi
 python-vcstools
 python-versioningit
 vigra
-python-virtualbmc
 python-virtualenv-clone
 python-visionegg-quest
-python-vitrageclient
 volume_key
 python-wcmatch
 python-webscrapbook
