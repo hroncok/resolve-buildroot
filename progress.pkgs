@@ -30,7 +30,6 @@ libffado
 fonts-tweak-tool
 gnome-abrt
 gnome-doc-utils
-home-assistant-cli
 kicad
 lvm2
 manafirewall
@@ -86,7 +85,6 @@ python-check-manifest
 python-click-spinner
 python-cloudpickle
 python-cornice
-python-cotyledon
 python-cpio
 python-cram
 criu
@@ -243,7 +241,6 @@ python-rebulk
 python-recordclass
 python-rope
 python-rpmfluff
-python-rsd-lib
 python-rstcheck-core
 python3-saml
 python-schedutils
