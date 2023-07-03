@@ -49,7 +49,6 @@ pydeps
 pyflowtools
 pyp2rpm
 python-GridDataFormats
-python-OWSLib
 python-PyPDF2
 pykka
 python-acora
@@ -79,7 +78,6 @@ botan2
 python-boto
 python-botocore
 python-box
-python-branca
 python3-cangjie
 python-carbon
 python-catkin_tools
@@ -113,6 +111,7 @@ python-flask-cors
 python-flask-login
 flatpak-module-tools
 python-flufl-bounce
+python-folium
 python-fpylll
 python-gccinvocation
 python-geomet
@@ -239,7 +238,6 @@ python-qutepart
 rabbitvcs
 python-rebulk
 python-recordclass
-restview
 python-rope
 python-rpmfluff
 python-rstcheck-core
@@ -256,6 +254,7 @@ python-smart-gardena
 python-smbpasswd
 python-sphinxygen
 pdf-stapler
+python-stdio-mgr
 python-stem
 sword
 python-tables
@@ -309,7 +308,6 @@ system-storage-manager
 thefuck
 thonny
 transmageddon
-python-twine
 vit
 wordxtr
 xcb-proto
