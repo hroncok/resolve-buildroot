@@ -108,7 +108,6 @@ flann
 python-flask-babel
 python-flask-cors
 python-flask-login
-python-flask-whooshee
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
@@ -123,7 +122,7 @@ python-grako
 python-guizero
 h5py
 python-hdfs
-python-httpcore
+python-httpx
 python-hwdata
 i2c-tools
 python-igor
@@ -225,7 +224,6 @@ python-pysb
 python-pyside2
 python-pysnooper
 python-pytest-metadata
-python-pytest-subprocess
 python-pytest-subtests
 python-pytest-testinfra
 python-pytest-venv
@@ -307,4 +305,5 @@ transmageddon
 vit
 wordxtr
 xcb-proto
+xonsh
 python3-docs
