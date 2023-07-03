@@ -83,7 +83,6 @@ python-carbon
 python-catkin_tools
 python-check-manifest
 python-click-spinner
-python-cliff
 python-cloudpickle
 python-cornice
 python-cpio
@@ -257,6 +256,7 @@ python-sphinxygen
 pdf-stapler
 python-stdio-mgr
 python-stem
+python-stestr
 sword
 python-tables
 python-tambo
