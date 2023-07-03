@@ -71,7 +71,6 @@ awake
 python-azure-identity
 python-azure-storage-blob
 python-bidict
-python-bleach
 python-blowfish
 python-bluepy
 python-bokeh
@@ -171,6 +170,7 @@ python-mpd2
 python-mplcursors
 python-multi_key_dict
 python-mygpoclient
+python-nbconvert:check-doc::::
 python-ndindex
 python-neovim
 python-nmap
@@ -181,7 +181,6 @@ python-nudatus
 python-numpoly
 opencv
 python-opentelemetry
-openvdb
 python-optcomplete
 python-orjson
 pyosmium
@@ -235,6 +234,7 @@ qpid-proton
 python-qstylizer
 python-qutepart
 rabbitvcs
+python-readme-renderer
 python-rebulk
 python-recordclass
 python-rope
