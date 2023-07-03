@@ -70,6 +70,7 @@ python-avocado
 awake
 python-azure-identity
 python-azure-storage-blob
+python-bashate
 python-bidict
 python-blowfish
 python-bluepy
@@ -111,6 +112,7 @@ python-flask-login
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
+python-gabbi
 python-gccinvocation
 python-geomet
 gfal2-python
@@ -131,7 +133,6 @@ python-iniparse
 python-invoke
 python-iowait
 python-ipgetter
-python-ipyparallel
 python-javaproperties
 emacs-jedi
 python-jep
@@ -145,6 +146,7 @@ python-kmod
 python-lacrosse
 python-launchpadlib
 python-lazr-smtptest
+python-ldappool
 lensfun
 python-leveldb
 dtc
@@ -162,6 +164,7 @@ m2crypto
 python-markdown_2
 python-matplotlib-scalebar
 python-mechanize
+python-metakernel
 python-metar
 python-mirakuru
 python-mistune08
@@ -182,8 +185,10 @@ python-numpoly
 opencv
 openshadinglanguage
 python-opentelemetry
+python-opnsense
 python-optcomplete
 python-orjson
+python-oslotest
 pyosmium
 python-pandas-datareader
 python-parsley
@@ -213,6 +218,7 @@ pygsl
 pyke
 python-pylatex
 python-pylint-venv
+python-pymod2pkg
 python-pynetdicom
 pyodbc
 python-pyopencl
@@ -256,7 +262,6 @@ python-sphinxygen
 pdf-stapler
 python-stdio-mgr
 python-stem
-python-stestr
 sword
 python-tables
 python-tambo
