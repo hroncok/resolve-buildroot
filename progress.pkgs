@@ -31,6 +31,7 @@ fonts-tweak-tool
 gnome-abrt
 gnome-doc-utils
 kicad
+krita
 lvm2
 manafirewall
 monkeytype
@@ -73,7 +74,6 @@ python-azure-storage-blob
 python-bidict
 python-blowfish
 python-bluepy
-bodhi-messages
 python-bokeh
 botan2
 python-boto
@@ -85,7 +85,6 @@ python-catkin_tools
 python-check-manifest
 python-click-spinner
 python-cloudpickle
-copr-messaging
 python-cornice
 python-cpio
 python-cram
@@ -175,18 +174,18 @@ python-nb2plots
 python-ndindex
 python-neovim
 python-nmap
-python-noggin-messages
 python-nose_fixes
 python-notario
 python-nss
 python-nudatus
 python-numpoly
 opencv
+OpenImageIO
+openshadinglanguage
 python-opentelemetry
 python-optcomplete
 python-orjson
 pyosmium
-python-pagure-messages
 python-pandas-datareader
 python-parsley
 python-partd
@@ -194,7 +193,6 @@ python-pathos
 python-pathtools
 pdc-client
 python-pendulum
-python-perky
 roca-detect
 python-pint
 python-pivy
