@@ -50,7 +50,6 @@ pyp2rpm
 python-GridDataFormats
 python-PyPDF2
 pykka
-TurboGears2
 python-acora
 python-aiozeroconf
 python-alarmdecoder
@@ -89,6 +88,7 @@ python-cloudpickle
 python-cornice
 python-cpio
 python-cram
+credslayer
 criu
 python-crochet
 python-curio
@@ -105,7 +105,7 @@ python-dockerfile-parse
 python-dominate
 python-ephem
 python-fastbencode
-fedmsg
+python-fedmsg-meta-fedora-infrastructure
 python-fiat
 python-firehose
 flann
@@ -221,7 +221,6 @@ python-pyoptical
 python-pyrad
 python-pysaml2
 python-pysb
-python-pyshark
 python-pyside2
 python-pysnooper
 python-pytest-metadata
