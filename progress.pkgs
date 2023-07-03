@@ -70,7 +70,6 @@ python-avocado
 awake
 python-azure-identity
 python-azure-storage-blob
-python-bashate
 python-bidict
 python-blowfish
 python-bluepy
@@ -102,6 +101,7 @@ dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
 python-ephem
+python-etcd3gw
 python-fastbencode
 python-fiat
 python-firehose
@@ -112,7 +112,6 @@ python-flask-login
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
-python-gabbi
 python-gccinvocation
 python-geomet
 gfal2-python
@@ -138,6 +137,7 @@ emacs-jedi
 python-jep
 python-josepy
 python-json-logger
+python-jsonpath-ng
 python-jsonrpc-server
 python-jsonschema-spec
 python-kafka
@@ -146,7 +146,6 @@ python-kmod
 python-lacrosse
 python-launchpadlib
 python-lazr-smtptest
-python-ldappool
 lensfun
 python-leveldb
 dtc
@@ -172,6 +171,7 @@ python-modestmaps
 python-mpd2
 python-mplcursors
 python-multi_key_dict
+python-murano-pkg-check
 python-mygpoclient
 python-nb2plots
 python-ndindex
@@ -185,10 +185,9 @@ python-numpoly
 opencv
 openshadinglanguage
 python-opentelemetry
-python-opnsense
 python-optcomplete
 python-orjson
-python-oslotest
+python-oslo-config
 pyosmium
 python-pandas-datareader
 python-parsley
@@ -218,7 +217,6 @@ pygsl
 pyke
 python-pylatex
 python-pylint-venv
-python-pymod2pkg
 python-pynetdicom
 pyodbc
 python-pyopencl
@@ -242,10 +240,13 @@ qpid-proton
 python-qstylizer
 python-qutepart
 rabbitvcs
+rdopkg
 python-rebulk
 python-recordclass
+python-renderspec
 python-rope
 python-rpmfluff
+python-rsdclient
 python-rstcheck-core
 python3-saml
 python-schedutils
@@ -262,6 +263,7 @@ python-sphinxygen
 pdf-stapler
 python-stdio-mgr
 python-stem
+python-sushy
 sword
 python-tables
 python-tambo
@@ -271,6 +273,7 @@ python-TestSlide
 python-textdistance
 python-theano
 python-tokenize-rt
+python-tosca-parser
 python-uinput
 unicorn
 upm
@@ -285,8 +288,10 @@ uwsgi
 python-vcstools
 python-versioningit
 vigra
+python-virtualbmc
 python-virtualenv-clone
 python-visionegg-quest
+python-vitrageclient
 volume_key
 python-wcmatch
 python-webscrapbook
