@@ -30,6 +30,7 @@ libffado
 fonts-tweak-tool
 gnome-abrt
 gnome-doc-utils
+hatch
 hugin
 kicad
 lvm2
@@ -53,6 +54,7 @@ python-GridDataFormats
 python-PyPDF2
 pykka
 python-acora
+python-aiohttp-socks
 python-aiozeroconf
 python-alarmdecoder
 python-alembic
@@ -125,7 +127,6 @@ python-grako
 python-guizero
 h5py
 python-hdfs
-python-httpx
 python-hwdata
 i2c-tools
 python-igor
@@ -225,6 +226,7 @@ python-pysaml2
 python-pysb
 python-pyside2
 python-pysnooper
+python-pytest-httpx
 python-pytest-metadata
 python-pytest-subtests
 python-pytest-testinfra
@@ -254,6 +256,7 @@ python-smart-gardena
 python-smbpasswd
 python-sphinxygen
 pdf-stapler
+python-starlette
 python-stem
 sword
 python-tables
