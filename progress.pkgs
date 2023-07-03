@@ -16,7 +16,6 @@ cdist
 classification-banner
 condor
 cxxtest
-did
 distgen
 dnf-plugin-diff
 swid-tools
@@ -26,7 +25,6 @@ elements
 eric
 fail2ban
 fedora-gather-easyfix
-fedpkg
 fedrq
 libffado
 fonts-tweak-tool
@@ -51,12 +49,14 @@ pydeps
 pyflowtools
 pyp2rpm
 python-GridDataFormats
+python-OWSLib
 python-PyPDF2
 pykka
 python-acora
 python-aiozeroconf
 python-alarmdecoder
 python-alembic
+python-animatplot
 python-ansi
 python-ansible-pygments
 python-ansible-runner
@@ -134,6 +134,7 @@ python-iniparse
 python-invoke
 python-iowait
 python-ipgetter
+python-ipyparallel
 python-javaproperties
 emacs-jedi
 python-jep
@@ -172,7 +173,6 @@ python-mplcursors
 python-multi_key_dict
 python-mygpoclient
 python-nb2plots
-python-nbsphinx
 python-ndindex
 python-neovim
 python-nmap
@@ -224,6 +224,7 @@ python-pysaml2
 python-pysb
 python-pyside2
 python-pysnooper
+python-pyswarms
 python-pytest-metadata
 python-pytest-subtests
 python-pytest-testinfra
@@ -236,9 +237,9 @@ qpid-proton
 python-qstylizer
 python-qutepart
 rabbitvcs
-python-readme-renderer
 python-rebulk
 python-recordclass
+restview
 python-rope
 python-rpmfluff
 python-rstcheck-core
@@ -295,6 +296,7 @@ python-yourls
 python-yte
 python-ytmusicapi
 zbar
+pythran
 rmlint
 python-rust-update-set
 shybrid
@@ -307,6 +309,7 @@ system-storage-manager
 thefuck
 thonny
 transmageddon
+python-twine
 vit
 wordxtr
 xcb-proto
