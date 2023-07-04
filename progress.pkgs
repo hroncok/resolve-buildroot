@@ -92,6 +92,7 @@ criu
 python-curio
 python-cypari2
 python-cypy
+python-daiquiri
 python-deap
 python-diff-match-patch
 dionaea
@@ -137,9 +138,9 @@ python-javaproperties
 emacs-jedi
 python-jep
 python-josepy
-python-json-logger
 python-jsonrpc-server
 python-jsonschema-spec
+python-jupyter-events
 python-kafka
 python-klein
 python-kmod
