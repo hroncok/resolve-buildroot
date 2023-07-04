@@ -188,6 +188,7 @@ python-openstacksdk
 python-opentelemetry
 python-optcomplete
 python-orjson
+python-oslo-log
 pyosmium
 python-pandas-datareader
 python-parsley
