@@ -32,6 +32,7 @@ libffado
 fonts-tweak-tool
 gnome-abrt
 gnome-doc-utils
+jupyterlab
 kicad
 lvm2
 manafirewall
@@ -84,7 +85,6 @@ python-catkin_tools
 python-check-manifest
 python-click-spinner
 conda
-python-contextily
 python-cornice
 python-cpio
 python-cram
@@ -131,7 +131,6 @@ python-igor
 livecd-tools
 python-immutables
 python-iniparse
-python-intern
 python-invoke
 python-iowait
 python-ipgetter
@@ -141,7 +140,6 @@ python-jep
 python-josepy
 python-jsonrpc-server
 python-jsonschema-spec
-python-jupyterlab-server
 python-kafka
 python-klein
 python-kmod
@@ -161,7 +159,6 @@ lilv
 python-linuxdoc
 python-logging-tree
 python-logutils
-python-lunr
 m2crypto
 python-markdown_2
 python-matplotlib-scalebar
