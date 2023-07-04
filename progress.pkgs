@@ -44,7 +44,9 @@ offlineimap
 onboard
 pcs
 kernel-tools
+pew
 photoqt
+pipenv
 pre-commit
 pychess
 pydeps
@@ -62,6 +64,7 @@ python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
 python-apsw
+python-astroML
 python-astropy-healpix
 python-astropy-helpers
 python-async-generator
@@ -84,10 +87,12 @@ python-catkin_tools
 python-check-manifest
 python-click-spinner
 conda
+python-contextualbandits
 python-cornice
 python-cpio
 python-cram
 criu
+python-cro
 python-curio
 python-cypari2
 python-cypy
@@ -127,6 +132,7 @@ python-hdfs
 python-hwdata
 i2c-tools
 python-igor
+python-imbalanced-learn
 livecd-tools
 python-immutables
 python-iniparse
@@ -137,9 +143,9 @@ python-javaproperties
 emacs-jedi
 python-jep
 python-josepy
+python-jsonpickle
 python-jsonrpc-server
 python-jsonschema-spec
-python-jupyter-collaboration
 python-kafka
 python-klein
 python-kmod
@@ -174,7 +180,10 @@ python-multi_key_dict
 python-mygpoclient
 python-nb2plots
 python-ndindex
+python-neatdend
 python-neovim
+python-niaaml
+python-niaclass
 python-nmap
 python-nose_fixes
 python-notario
@@ -225,6 +234,7 @@ python-pyopengl
 python-pyoptical
 python-pyphi
 python-pyrad
+python-pyriemann
 python-pysaml2
 python-pysb
 python-pyside2
@@ -242,6 +252,7 @@ qpid-proton
 python-qstylizer
 python-qutepart
 rabbitvcs
+python-ratinabox
 python-rebulk
 python-recordclass
 python-robosignatory
@@ -250,13 +261,14 @@ python-rpmfluff
 python-rstcheck-core
 python3-saml
 python-schedutils
-python-scikit-learn
+python-scikit-uplift
 python3-script
 python-semver
 python-signedjson
 python-simple-salesforce
 python-simpleparse
 python-simplewrap
+python-sklearn-nature-inspired-algorithms
 python-slip
 python-smart-gardena
 python-smbpasswd
@@ -287,7 +299,7 @@ uwsgi
 python-vcstools
 python-versioningit
 vigra
-python-virtualenv-clone
+python-virtualenvwrapper
 python-visionegg-quest
 volume_key
 python-wcmatch
