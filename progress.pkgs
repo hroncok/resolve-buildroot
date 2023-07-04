@@ -32,6 +32,7 @@ gnome-abrt
 gnome-doc-utils
 kicad
 lvm2
+maildirproc
 manafirewall
 monkeytype
 mrchem
@@ -177,8 +178,6 @@ python-neovim
 python-nmap
 python-nose_fixes
 python-notario
-python-novaclient-os-networks
-python-novaclient-os-virtual-interfaces
 python-nss
 python-nudatus
 python-numpoly
