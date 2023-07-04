@@ -1,9 +1,0 @@
-diff --git a/python-pep517.spec b/python-pep517.spec
-index 8bcabd7..d173661 100644
---- a/python-pep517.spec
-+++ b/python-pep517.spec
-@@ -1,3 +1,4 @@
-+%global _without_tests 1
- %global pypi_name pep517
- 
- Name:           python-%{pypi_name}
