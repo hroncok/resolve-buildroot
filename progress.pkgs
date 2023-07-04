@@ -60,7 +60,6 @@ python-ansi
 python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
-python-aodhclient
 python-apsw
 python-astropy-healpix
 python-astropy-helpers
@@ -83,7 +82,6 @@ python3-cangjie
 python-carbon
 python-catkin_tools
 python-check-manifest
-python-cinderclient
 python-click-spinner
 python-cloudpickle
 python-cornice
@@ -117,7 +115,6 @@ python-fpylll
 python-gccinvocation
 python-geomet
 gfal2-python
-python-glanceclient
 python-google-cloud-bigquery
 python-google-cloud-dns
 python-google-cloud-pubsub
@@ -180,7 +177,8 @@ python-neovim
 python-nmap
 python-nose_fixes
 python-notario
-python-novaclient
+python-novaclient-os-networks
+python-novaclient-os-virtual-interfaces
 python-nss
 python-nudatus
 python-numpoly
@@ -262,7 +260,6 @@ python-sphinxygen
 pdf-stapler
 python-stdio-mgr
 python-stem
-python-swiftclient
 sword
 python-tables
 python-tambo
