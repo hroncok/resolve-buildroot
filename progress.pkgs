@@ -15,6 +15,7 @@ borgbackup
 brd
 btest
 cdist
+cfn-lint
 classification-banner
 condor
 cxxtest
@@ -253,7 +254,6 @@ python-rope
 python-rpmfluff
 python-rstcheck-core
 python3-saml
-python-sarif-om
 python-schedutils
 python3-script
 python-semver
