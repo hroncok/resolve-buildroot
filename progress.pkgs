@@ -32,7 +32,6 @@ libffado
 fonts-tweak-tool
 gnome-abrt
 gnome-doc-utils
-jupyterlab
 kicad
 lvm2
 manafirewall
@@ -140,6 +139,7 @@ python-jep
 python-josepy
 python-jsonrpc-server
 python-jsonschema-spec
+python-jupyter-collaboration
 python-kafka
 python-klein
 python-kmod
@@ -175,10 +175,10 @@ python-mygpoclient
 python-nb2plots
 python-ndindex
 python-neovim
-python-niaarm
 python-nmap
 python-nose_fixes
 python-notario
+python-notebook
 python-nss
 python-nudatus
 python-numpoly
