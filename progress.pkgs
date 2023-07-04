@@ -15,7 +15,6 @@ borgbackup
 brd
 btest
 cdist
-cfn-lint
 classification-banner
 condor
 cxxtest
