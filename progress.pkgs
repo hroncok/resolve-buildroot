@@ -101,7 +101,6 @@ python-django3
 dlrn
 dnf-plugins-extras
 python-dockerfile-parse
-python-doit
 python-dominate
 python-ephem
 python-fastbencode
