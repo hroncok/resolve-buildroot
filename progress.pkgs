@@ -13,11 +13,9 @@ beaker
 borgbackup
 brd
 btest
-buildbot
 cdist
 classification-banner
 condor
-copr-backend
 cxxtest
 distgen
 dnf-plugin-diff
@@ -72,7 +70,6 @@ python-asyncssh
 python-audioread
 python-avocado
 awake
-python-aws-sam-translator
 python-azure-identity
 python-azure-storage-blob
 python-bidict
@@ -88,7 +85,7 @@ python-catkin_tools
 python-check-manifest
 python-click-spinner
 python-cloudpickle
-python-conda-package-streaming::bootstrap:::
+python-conda-package-handling
 python-cornice
 python-cpio
 python-cram
@@ -111,7 +108,6 @@ python-dominate
 python-ephem
 python-fastbencode
 python-fiat
-python-fiona
 python-firehose
 flann
 python-flask-babel
@@ -146,7 +142,9 @@ python-jep
 python-josepy
 python-jsonrpc-server
 python-jsonschema-spec
-python-jupyter-server:tests::::
+python-jupyter-lsp
+python-jupyter-server-fileid
+python-jupyterlab-server
 python-kafka
 python-klein
 python-kmod
@@ -185,6 +183,7 @@ python-neovim
 python-nmap
 python-nose_fixes
 python-notario
+python-notebook-shim
 python-nss
 python-nudatus
 python-numpoly
@@ -220,7 +219,6 @@ python-pydiffx
 python-pydocstyle
 python-pyfim
 pyftpdlib
-python-pygal
 pygsl
 pyke
 python-pylatex
@@ -248,7 +246,6 @@ qpid-proton
 python-qstylizer
 python-qutepart
 rabbitvcs
-python-rasterio
 python-rebulk
 python-recordclass
 python-robosignatory
