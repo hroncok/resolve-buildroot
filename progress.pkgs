@@ -32,7 +32,6 @@ gnome-abrt
 gnome-doc-utils
 kicad
 lvm2
-maildirproc
 manafirewall
 monkeytype
 mrchem
@@ -55,7 +54,6 @@ pykka
 python-acora
 python-aiozeroconf
 python-alarmdecoder
-python-alembic
 python-animatplot
 python-ansi
 python-ansible-pygments
@@ -79,6 +77,7 @@ botan2
 python-boto
 python-botocore
 python-box
+python-cairosvg
 python3-cangjie
 python-carbon
 python-catkin_tools
@@ -111,6 +110,7 @@ flann
 python-flask-babel
 python-flask-cors
 python-flask-login
+python-flask-migrate
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
@@ -188,6 +188,7 @@ python-openstacksdk
 python-opentelemetry
 python-optcomplete
 python-orjson
+python-oslo-db
 python-oslo-log
 pyosmium
 python-pandas-datareader
@@ -243,6 +244,7 @@ python-qutepart
 rabbitvcs
 python-rebulk
 python-recordclass
+resalloc
 python-rope
 python-rpmfluff
 python-rstcheck-core
