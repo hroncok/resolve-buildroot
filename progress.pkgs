@@ -75,7 +75,6 @@ python-bluepy
 python-bokeh
 botan2
 python-boto
-python-botocore
 python-box
 python-cairosvg
 python3-cangjie
@@ -219,6 +218,7 @@ pygsl
 pyke
 python-pylatex
 python-pylint-venv
+python-pynamodb
 python-pynetdicom
 pyodbc
 python-pyopencl
@@ -248,6 +248,7 @@ resalloc
 python-rope
 python-rpmfluff
 python-rstcheck-core
+python-s3transfer
 python3-saml
 python-schedutils
 python3-script
