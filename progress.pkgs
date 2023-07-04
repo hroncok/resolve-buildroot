@@ -53,7 +53,6 @@ pychess
 pydeps
 pyflowtools
 pyp2rpm
-python-EvoPreprocess
 python-GridDataFormats
 python-PyPDF2
 pykka
@@ -73,7 +72,9 @@ python-asyncssh
 python-audioread
 python-avocado
 awake
-python-azure-identity
+python-azure-appconfiguration
+python-azure-eventhub
+python-azure-servicebus
 python-azure-storage-blob
 python-bidict
 python-blowfish
@@ -96,10 +97,8 @@ python-curio
 python-cypari2
 python-cypy
 python-daiquiri
-python-datalad
 python-deap
 python-diff-match-patch
-python-digitalocean
 dionaea
 python-django-allauth
 python-django-extensions
@@ -119,7 +118,6 @@ python-flask-login
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
-python-gatspy
 python-gccinvocation
 python-geomet
 gfal2-python
@@ -144,12 +142,12 @@ python-javaproperties
 emacs-jedi
 python-jep
 python-josepy
-python-jschema-to-python
 python-jsonrpc-server
 python-jsonschema-spec
 python-kafka
 python-klein
 python-kmod
+python-kombu
 python-lacrosse
 python-launchpadlib
 python-lazr-smtptest
@@ -182,6 +180,7 @@ python-music21
 python-mygpoclient
 python-nb2plots
 python-ndindex
+python-neo
 python-neovim
 python-nmap
 python-nose_fixes
@@ -257,6 +256,7 @@ python-rope
 python-rpmfluff
 python-rstcheck-core
 python3-saml
+python-sarif-om
 python-schedutils
 python3-script
 python-semver
