@@ -83,7 +83,6 @@ python-carbon
 python-catkin_tools
 python-check-manifest
 python-click-spinner
-python-cloudpickle
 conda
 python-cornice
 python-cpio
@@ -102,6 +101,7 @@ python-django3
 dlrn
 dnf-plugins-extras
 python-dockerfile-parse
+python-doit
 python-dominate
 python-ephem
 python-fastbencode
@@ -137,6 +137,7 @@ python-ipgetter
 python-javaproperties
 emacs-jedi
 python-jep
+python-joblib
 python-josepy
 python-jsonrpc-server
 python-jsonschema-spec
