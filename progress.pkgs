@@ -84,6 +84,7 @@ python-catkin_tools
 python-check-manifest
 python-click-spinner
 conda
+python-contextily
 python-cornice
 python-cpio
 python-cram
@@ -130,13 +131,13 @@ python-igor
 livecd-tools
 python-immutables
 python-iniparse
+python-intern
 python-invoke
 python-iowait
 python-ipgetter
 python-javaproperties
 emacs-jedi
 python-jep
-python-joblib
 python-josepy
 python-jsonrpc-server
 python-jsonschema-spec
@@ -160,6 +161,7 @@ lilv
 python-linuxdoc
 python-logging-tree
 python-logutils
+python-lunr
 m2crypto
 python-markdown_2
 python-matplotlib-scalebar
@@ -176,6 +178,7 @@ python-mygpoclient
 python-nb2plots
 python-ndindex
 python-neovim
+python-niaarm
 python-nmap
 python-nose_fixes
 python-notario
@@ -223,6 +226,7 @@ pyodbc
 python-pyopencl
 python-pyopengl
 python-pyoptical
+python-pyphi
 python-pyrad
 python-pysaml2
 python-pysb
@@ -249,6 +253,7 @@ python-rpmfluff
 python-rstcheck-core
 python3-saml
 python-schedutils
+python-scikit-learn
 python3-script
 python-semver
 python-signedjson
