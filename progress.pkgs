@@ -30,7 +30,6 @@ fedora-gather-easyfix
 fedrq
 libffado
 fonts-tweak-tool
-gnome-abrt
 gnome-doc-utils
 kicad
 lvm2
@@ -64,7 +63,6 @@ python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
 python-apsw
-python-astroML
 python-astropy-healpix
 python-astropy-helpers
 python-async-generator
@@ -99,6 +97,7 @@ python-cypy
 python-daiquiri
 python-deap
 python-diff-match-patch
+python-digitalocean
 dionaea
 python-django-allauth
 python-django-extensions
@@ -118,6 +117,7 @@ python-flask-login
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
+python-gatspy
 python-gccinvocation
 python-geomet
 gfal2-python
@@ -143,7 +143,7 @@ python-javaproperties
 emacs-jedi
 python-jep
 python-josepy
-python-jsonpickle
+python-jschema-to-python
 python-jsonrpc-server
 python-jsonschema-spec
 python-kafka
@@ -177,13 +177,13 @@ python-modestmaps
 python-mpd2
 python-mplcursors
 python-multi_key_dict
+python-music21
 python-mygpoclient
 python-nb2plots
 python-ndindex
 python-neatdend
 python-neovim
 python-niaaml
-python-niaclass
 python-nmap
 python-nose_fixes
 python-notario
@@ -261,7 +261,6 @@ python-rpmfluff
 python-rstcheck-core
 python3-saml
 python-schedutils
-python-scikit-uplift
 python3-script
 python-semver
 python-signedjson
@@ -299,7 +298,6 @@ uwsgi
 python-vcstools
 python-versioningit
 vigra
-python-virtualenvwrapper
 python-visionegg-quest
 volume_key
 python-wcmatch
