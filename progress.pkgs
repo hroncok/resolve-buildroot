@@ -72,9 +72,6 @@ python-asyncssh
 python-audioread
 python-avocado
 awake
-python-azure-appconfiguration
-python-azure-eventhub
-python-azure-servicebus
 python-azure-storage-blob
 python-bidict
 python-blowfish
@@ -107,6 +104,7 @@ dlrn
 dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
+python-efel
 python-ephem
 python-fastbencode
 python-fiat
@@ -180,7 +178,6 @@ python-music21
 python-mygpoclient
 python-nb2plots
 python-ndindex
-python-neo
 python-neovim
 python-nmap
 python-nose_fixes
