@@ -85,7 +85,7 @@ python-catkin_tools
 python-check-manifest
 python-click-spinner
 python-cloudpickle
-python-conda-package-handling
+conda
 python-cornice
 python-cpio
 python-cram
@@ -142,8 +142,6 @@ python-jep
 python-josepy
 python-jsonrpc-server
 python-jsonschema-spec
-python-jupyter-lsp
-python-jupyter-server-fileid
 python-jupyterlab-server
 python-kafka
 python-klein
@@ -178,12 +176,12 @@ python-mplcursors
 python-multi_key_dict
 python-mygpoclient
 python-nb2plots
+python-nbclassic
 python-ndindex
 python-neovim
 python-nmap
 python-nose_fixes
 python-notario
-python-notebook-shim
 python-nss
 python-nudatus
 python-numpoly
