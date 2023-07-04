@@ -37,7 +37,6 @@ lvm2
 manafirewall
 monkeytype
 mrchem
-nbdkit
 nordugrid-arc
 nvme-stas
 oct2spec
@@ -102,7 +101,6 @@ python-django-extensions
 python-django3
 dlrn
 dnf-plugins-extras
-python-dns-lexicon
 python-dockerfile-parse
 python-dominate
 python-ephem
@@ -176,7 +174,6 @@ python-mplcursors
 python-multi_key_dict
 python-mygpoclient
 python-nb2plots
-python-nbclassic
 python-ndindex
 python-neovim
 python-nmap
