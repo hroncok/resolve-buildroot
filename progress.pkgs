@@ -21,7 +21,6 @@ cxxtest
 distgen
 dnf-plugin-diff
 swid-tools
-dnfdragora
 python-drgn
 electron-cash
 elements
@@ -31,10 +30,10 @@ fedora-gather-easyfix
 fedrq
 libffado
 fonts-tweak-tool
+freecell-solver
 gnome-doc-utils
 heat-cfntools
 kicad
-lvm2
 manafirewall
 monkeytype
 mrchem
@@ -248,7 +247,6 @@ python-qutepart
 rabbitvcs
 python-rebulk
 python-recordclass
-python-robosignatory
 python-rope
 python-rpmfluff
 python-rstcheck-core
@@ -314,7 +312,6 @@ sugar
 sugar-datastore
 sugar-toolkit-gtk3
 swift-lang
-system-storage-manager
 thefuck
 thonny
 transmageddon
