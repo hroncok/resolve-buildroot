@@ -30,7 +30,6 @@ fedora-gather-easyfix
 fedrq
 libffado
 fonts-tweak-tool
-gnome-doc-utils
 heat-cfntools
 kicad
 manafirewall
@@ -79,6 +78,7 @@ botan2
 python-box
 python3-cangjie
 python-carbon
+caribou
 python-catkin_tools
 python-check-manifest
 python-click-spinner
@@ -165,7 +165,6 @@ python-markdown_2
 python-matplotlib-scalebar
 python-mechanize
 python-metakernel
-python-metar
 python-mirakuru
 python-mistune08
 python-modestmaps
