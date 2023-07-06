@@ -40,7 +40,6 @@ offlineimap
 onboard
 pcs
 pew
-pg_activity
 photoqt
 pipenv
 pre-commit
@@ -54,7 +53,6 @@ pykka
 python-acora
 python-aiozeroconf
 python-alarmdecoder
-python-animatplot
 python-ansi
 python-ansible-pygments
 python-ansible-runner
@@ -189,7 +187,6 @@ pdc-client
 python-pendulum
 roca-detect
 python-pint
-python-pivy
 python-pocketlint
 python-podman-api
 python-protego
