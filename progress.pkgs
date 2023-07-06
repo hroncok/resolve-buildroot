@@ -40,6 +40,7 @@ offlineimap
 onboard
 pcs
 pew
+pg_activity
 photoqt
 pipenv
 pre-commit
@@ -219,7 +220,6 @@ python-pyside2
 python-pysnooper
 python-pyswarms
 python-pytest-metadata
-python-pytest-postgresql
 python-pytest-subtests
 python-pytest-testinfra
 python-pytest-venv
