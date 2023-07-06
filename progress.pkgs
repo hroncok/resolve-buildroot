@@ -96,7 +96,6 @@ python-dockerfile-parse
 python-dominate
 python-efel
 python-ephem
-python-exoscale
 python-fastbencode
 python-fiat
 python-firehose
@@ -243,7 +242,6 @@ python-schedutils
 python3-script
 python-semver
 python-signedjson
-python-simple-salesforce
 python-simpleparse
 python-simplewrap
 python-sklearn-nature-inspired-algorithms
