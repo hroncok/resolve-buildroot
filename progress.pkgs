@@ -156,7 +156,6 @@ python-markdown_2
 python-matplotlib-scalebar
 python-mechanize
 python-metakernel
-python-mirakuru
 python-mistune08
 python-modestmaps
 python-mpd2
@@ -221,6 +220,7 @@ python-pyside2
 python-pysnooper
 python-pyswarms
 python-pytest-metadata
+python-pytest-postgresql
 python-pytest-subtests
 python-pytest-testinfra
 python-pytest-venv
