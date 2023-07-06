@@ -17,7 +17,6 @@ btest
 cdist
 classification-banner
 condor
-cozy
 cxxtest
 distgen
 dnf-plugin-diff
@@ -97,6 +96,7 @@ python-dockerfile-parse
 python-dominate
 python-efel
 python-ephem
+python-exoscale
 python-fastbencode
 python-fiat
 python-firehose
@@ -155,7 +155,6 @@ python-logutils
 m2crypto
 python-markdown_2
 python-matplotlib-scalebar
-python-matrix-nio
 python-mechanize
 python-metakernel
 python-mirakuru
@@ -176,7 +175,6 @@ python-notebook
 python-nss
 python-nudatus
 python-numpoly
-python-oletools::bootstrap:::
 opencv
 openshadinglanguage
 python-openstacksdk
@@ -228,7 +226,6 @@ python-pytest-subtests
 python-pytest-testinfra
 python-pytest-venv
 python-pytest-virtualenv
-python-pyupgrade
 python-pyvmomi
 python-pyzolib
 python-qpageview
@@ -305,7 +302,6 @@ thefuck
 thonny
 transmageddon
 vit
-vorta
 wordxtr
 xcb-proto
 xonsh
