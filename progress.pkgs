@@ -11,7 +11,6 @@ awscli
 awscli2
 b43-tools
 beaker
-borgbackup
 brd
 btest
 cdist
@@ -35,6 +34,7 @@ monkeytype
 mrchem
 nordugrid-arc
 nvme-stas
+nyx
 oct2spec
 offlineimap
 onboard
@@ -109,9 +109,7 @@ python-gccinvocation
 python-geomet
 gfal2-python
 python-google-cloud-bigquery
-python-google-cloud-dns
 python-google-cloud-pubsub
-python-google-cloud-storage
 python-grako
 python-guizero
 h5py
@@ -125,7 +123,6 @@ python-iniparse
 python-invoke
 python-iowait
 python-ipgetter
-python-javaproperties
 emacs-jedi
 python-jep
 python-josepy
@@ -171,6 +168,7 @@ python-notebook
 python-nss
 python-nudatus
 python-numpoly
+python-onionbalance
 opencv
 openshadinglanguage
 python-openstacksdk
@@ -247,7 +245,6 @@ python-smbpasswd
 python-sphinxygen
 pdf-stapler
 python-stdio-mgr
-python-stem
 sword
 python-tables
 python-tambo
@@ -272,7 +269,6 @@ python-versioningit
 vigra
 python-visionegg-quest
 volume_key
-python-webscrapbook
 python-whitenoise
 python-wordcloud
 python-yamlordereddictloader
