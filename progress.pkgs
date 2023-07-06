@@ -17,6 +17,7 @@ btest
 cdist
 classification-banner
 condor
+cozy
 cxxtest
 distgen
 dnf-plugin-diff
@@ -27,11 +28,9 @@ elements
 eric
 fail2ban
 fedora-gather-easyfix
-fedrq
 libffado
 fonts-tweak-tool
 heat-cfntools
-kicad
 manafirewall
 monkeytype
 mrchem
@@ -41,7 +40,6 @@ oct2spec
 offlineimap
 onboard
 pcs
-kernel-tools
 pew
 photoqt
 pipenv
@@ -61,7 +59,6 @@ python-ansi
 python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
-python-apsw
 python-astropy-healpix
 python-astropy-helpers
 python-async-generator
@@ -69,16 +66,13 @@ python-asyncssh
 python-audioread
 python-avocado
 awake
-python-azure-storage-blob
 python-bidict
-python-blowfish
 python-bluepy
 python-bokeh
 botan2
 python-box
 python3-cangjie
 python-carbon
-caribou
 python-catkin_tools
 python-check-manifest
 python-click-spinner
@@ -86,7 +80,6 @@ conda
 python-cornice
 python-cpio
 python-cram
-criu
 python-cro
 python-curio
 python-cypari2
@@ -141,15 +134,14 @@ python-josepy
 python-jsonrpc-server
 python-jsonschema-spec
 python-kafka
-python-klein
 python-kmod
 python-kombu
 python-lacrosse
+python-lasagne
 python-launchpadlib
 python-lazr-smtptest
 lensfun
 python-leveldb
-dtc
 libfreenect
 python-liblarch
 libnl3
@@ -163,6 +155,7 @@ python-logutils
 m2crypto
 python-markdown_2
 python-matplotlib-scalebar
+python-matrix-nio
 python-mechanize
 python-metakernel
 python-mirakuru
@@ -183,10 +176,10 @@ python-notebook
 python-nss
 python-nudatus
 python-numpoly
+python-oletools::bootstrap:::
 opencv
 openshadinglanguage
 python-openstacksdk
-python-opentelemetry
 python-optcomplete
 python-orjson
 python-oslo-log
@@ -201,13 +194,11 @@ python-pendulum
 roca-detect
 python-pint
 python-pivy
-python-pluginlib
 python-pocketlint
 python-podman-api
 python-protego
 python-ptrace
 py-radix
-python3-py3dns
 python-py9p
 python-pyaes
 python-pycodestyle
@@ -218,6 +209,7 @@ pyftpdlib
 pygsl
 pyke
 python-pylatex
+python-pylibravatar
 python-pylint-venv
 python-pynetdicom
 pyodbc
@@ -236,6 +228,7 @@ python-pytest-subtests
 python-pytest-testinfra
 python-pytest-venv
 python-pytest-virtualenv
+python-pyupgrade
 python-pyvmomi
 python-pyzolib
 python-qpageview
@@ -272,7 +265,6 @@ python-testing.postgresql
 python-TestSlide
 python-textdistance
 python-theano
-python-tokenize-rt
 python-uinput
 unicorn
 upm
@@ -289,7 +281,6 @@ python-versioningit
 vigra
 python-visionegg-quest
 volume_key
-python-wcmatch
 python-webscrapbook
 python-whitenoise
 python-wordcloud
@@ -314,6 +305,7 @@ thefuck
 thonny
 transmageddon
 vit
+vorta
 wordxtr
 xcb-proto
 xonsh
