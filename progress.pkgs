@@ -46,7 +46,6 @@ pychess
 pydeps
 pyflowtools
 pyp2rpm
-python-GridDataFormats
 python-PyPDF2
 pykka
 certbot
@@ -128,7 +127,6 @@ python-jep
 python-jsonrpc-server
 python-jsonschema-spec
 python-kafka
-python-kmod
 python-kombu
 python-lacrosse
 python-lasagne
@@ -227,6 +225,7 @@ python-recordclass
 python-rope
 python-rpmfluff
 python-rstcheck-core
+python-rtslib
 python3-saml
 python-schedutils
 python3-script
