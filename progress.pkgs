@@ -13,7 +13,7 @@ b43-tools
 beaker
 brd
 btest
-calypso
+calibre
 cdist
 classification-banner
 condor
@@ -50,6 +50,7 @@ pyp2rpm
 python-GridDataFormats
 python-PyPDF2
 pykka
+certbot
 python-acora
 python-aiozeroconf
 python-alarmdecoder
@@ -123,7 +124,6 @@ python-iowait
 python-ipgetter
 emacs-jedi
 python-jep
-python-josepy
 python-jsonrpc-server
 python-jsonschema-spec
 python-kafka
@@ -147,7 +147,6 @@ python-logging-tree
 python-logutils
 m2crypto
 python-markdown_2
-python-mechanize
 python-metakernel
 python-mistune08
 python-modestmaps
@@ -288,7 +287,6 @@ sugar-toolkit-gtk3
 swift-lang
 thefuck
 thonny
-translate-toolkit
 transmageddon
 vit
 wordxtr
