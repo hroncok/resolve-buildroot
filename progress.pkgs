@@ -153,6 +153,7 @@ python-mpd2
 python-multi_key_dict
 python-music21
 python-mygpoclient
+python-natsort
 python-nb2plots
 python-ndindex
 python-neovim
@@ -172,7 +173,6 @@ python-orjson
 python-oslo-log
 pyosmium
 python-pandas-datareader
-python-pari-jupyter
 python-parsley
 python-partd
 python-pathos
@@ -230,7 +230,6 @@ python-rstcheck-core
 python3-saml
 python-schedutils
 python3-script
-python-semver
 python-signedjson
 python-simpleparse
 python-simplewrap
