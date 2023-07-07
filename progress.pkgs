@@ -68,7 +68,6 @@ python-bidict
 python-bluepy
 python-bokeh
 botan2
-python-boutdata
 python-box
 python3-cangjie
 python-carbon
@@ -146,7 +145,6 @@ python-logging-tree
 python-logutils
 m2crypto
 python-markdown_2
-python-metakernel
 python-mistune08
 python-modestmaps
 python-mpd2
@@ -163,6 +161,7 @@ python-notebook
 python-nss
 python-nudatus
 python-numpoly
+python-octave-kernel
 python-onionbalance
 openshadinglanguage
 python-openstacksdk
