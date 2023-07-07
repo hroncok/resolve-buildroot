@@ -13,6 +13,7 @@ b43-tools
 beaker
 brd
 btest
+calypso
 cdist
 classification-banner
 condor
@@ -34,7 +35,6 @@ monkeytype
 mrchem
 nordugrid-arc
 nvme-stas
-nyx
 oct2spec
 offlineimap
 onboard
@@ -76,7 +76,6 @@ python-check-manifest
 python-click-spinner
 conda
 python-cornice
-python-cpio
 python-cram
 python-cro
 python-curio
@@ -119,7 +118,6 @@ i2c-tools
 python-igor
 livecd-tools
 python-immutables
-python-iniparse
 python-invoke
 python-iowait
 python-ipgetter
@@ -290,9 +288,9 @@ sugar-toolkit-gtk3
 swift-lang
 thefuck
 thonny
+translate-toolkit
 transmageddon
 vit
 wordxtr
-xcb-proto
 xonsh
 python3-docs
