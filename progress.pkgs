@@ -16,7 +16,6 @@ btest
 cdist
 classification-banner
 condor
-cvc4
 distgen
 dnf-plugin-diff
 swid-tools
@@ -28,6 +27,7 @@ fail2ban
 fedora-gather-easyfix
 libffado
 fonts-tweak-tool
+gdb
 heat-cfntools
 manafirewall
 monkeytype
@@ -57,7 +57,7 @@ python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
 python-astropy-healpix
-python-astropy-helpers
+python-astroscrappy
 python-async-generator
 python-asyncssh
 python-audioread
@@ -106,7 +106,6 @@ python-fpylll
 python-gccinvocation
 python-geomet
 gfal2-python
-ginga
 python-google-cloud-bigquery
 python-google-cloud-pubsub
 python-grako
@@ -206,7 +205,6 @@ python-pyside2
 python-pysnooper
 python-pyswarms
 python-pytest-metadata
-python-pytest-subtests
 python-pytest-testinfra
 python-pytest-venv
 python-pytest-virtualenv
@@ -223,7 +221,6 @@ python-rope
 python-rpmfluff
 python-rstcheck-core
 python3-saml
-python-schedutils
 python3-script
 python-signedjson
 python-simpleparse
@@ -250,7 +247,6 @@ python-upoints
 python-uranium
 python-uri-templates
 urjtag
-python-urllib-gssapi
 ustreamer
 python-uvloop
 uwsgi
@@ -268,7 +264,6 @@ ydiff
 python-yourls
 python-yte
 python-ytmusicapi
-zbar
 pythran
 rmlint
 python-rust-update-set
