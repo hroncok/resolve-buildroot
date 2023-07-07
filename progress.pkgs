@@ -13,7 +13,6 @@ b43-tools
 beaker
 brd
 btest
-calibre
 cdist
 classification-banner
 condor
@@ -151,7 +150,6 @@ python-metakernel
 python-mistune08
 python-modestmaps
 python-mpd2
-python-mplcursors
 python-multi_key_dict
 python-music21
 python-mygpoclient
@@ -174,6 +172,7 @@ python-orjson
 python-oslo-log
 pyosmium
 python-pandas-datareader
+python-pari-jupyter
 python-parsley
 python-partd
 python-pathos
