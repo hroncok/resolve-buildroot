@@ -59,6 +59,7 @@ python-ansible-runner
 python-ansiwrap
 python-astropy-healpix
 python-astropy-helpers
+python-astroquery
 python-async-generator
 python-asyncssh
 python-audioread
@@ -68,6 +69,7 @@ python-bidict
 python-bluepy
 python-bokeh
 botan2
+python-boutdata
 python-box
 python3-cangjie
 python-carbon
@@ -153,7 +155,6 @@ python-mpd2
 python-multi_key_dict
 python-music21
 python-mygpoclient
-python-natsort
 python-nb2plots
 python-ndindex
 python-neovim
@@ -165,7 +166,6 @@ python-nss
 python-nudatus
 python-numpoly
 python-onionbalance
-opencv
 openshadinglanguage
 python-openstacksdk
 python-optcomplete
