@@ -27,7 +27,6 @@ fail2ban
 fedora-gather-easyfix
 libffado
 fonts-tweak-tool
-gdb
 heat-cfntools
 manafirewall
 monkeytype
@@ -57,7 +56,6 @@ python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
 python-astropy-healpix
-python-astroscrappy
 python-async-generator
 python-asyncssh
 python-audioread
@@ -134,7 +132,6 @@ lensfun
 python-leveldb
 libfreenect
 python-liblarch
-libnl3
 pam_wrapper
 python-libsass
 libssh2-python
@@ -199,7 +196,6 @@ python-pyopengl
 python-pyoptical
 python-pyphi
 python-pyrad
-python-pysaml2
 python-pysb
 python-pyside2
 python-pysnooper
@@ -254,7 +250,6 @@ python-vcstools
 python-versioningit
 vigra
 python-visionegg-quest
-volume_key
 python-whitenoise
 python-wordcloud
 python-yamlordereddictloader
