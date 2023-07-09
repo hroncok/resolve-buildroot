@@ -16,6 +16,7 @@ btest
 cdist
 classification-banner
 condor
+cura
 distgen
 dnf-plugin-diff
 swid-tools
@@ -237,7 +238,6 @@ python-uinput
 unicorn
 upm
 python-upoints
-python-uranium
 python-uri-templates
 urjtag
 ustreamer
