@@ -28,7 +28,6 @@ fedora-gather-easyfix
 libffado
 fonts-tweak-tool
 heat-cfntools
-kf5-kapidox
 manafirewall
 monkeytype
 mrchem
@@ -59,7 +58,6 @@ python-ansiwrap
 python-astropy-healpix
 python-async-generator
 python-asyncssh
-python-audioread
 python-avocado
 awake
 python-bidict
@@ -87,7 +85,6 @@ python-django-allauth
 python-django-extensions
 python-django3
 dlrn
-dnf-plugins-extras
 python-dockerfile-parse
 python-dominate
 python-efel
@@ -192,7 +189,6 @@ python-pylibravatar
 python-pylint-venv
 python-pynetdicom
 pyodbc
-python-pyopencl
 python-pyopengl
 python-pyoptical
 python-pyphi
