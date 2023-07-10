@@ -153,9 +153,9 @@ python-nss
 python-nudatus
 python-numpoly
 openshadinglanguage
-python-openstacksdk
 python-optcomplete
 python-orjson
+python-osc-lib
 python-oslo-log
 python-parsley
 python-partd
@@ -183,7 +183,6 @@ python-pylatex
 python-pylibravatar
 python-pylint-venv
 python-pynetdicom
-python-pyngus
 pyodbc
 python-pyopengl
 python-pyoptical
@@ -210,6 +209,7 @@ python-rstcheck-core
 python3-saml
 python-scikit-image
 python3-script
+python-shade
 python-signedjson
 python-simpleparse
 python-simplewrap
@@ -254,7 +254,6 @@ qpid-dispatch
 rmlint
 python-rust-update-set
 shybrid
-sourcextractor++
 sudo
 sugar
 sugar-datastore
