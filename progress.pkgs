@@ -122,7 +122,6 @@ python-jep
 python-jsonrpc-server
 python-jsonschema-spec
 python-kafka
-python-kombu
 python-lacrosse
 python-lasagne
 python-launchpadlib
@@ -131,7 +130,6 @@ lensfun
 python-leveldb
 libfreenect
 python-liblarch
-pam_wrapper
 python-libsass
 libssh2-python
 lilv
