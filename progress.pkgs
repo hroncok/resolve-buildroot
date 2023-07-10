@@ -80,6 +80,7 @@ python-cypari2
 python-cypy
 python-daiquiri
 python-deap
+python-designateclient
 python-diff-match-patch
 dionaea
 python-django-allauth
@@ -101,6 +102,7 @@ python-fpylll
 python-gccinvocation
 python-geomet
 gfal2-python
+python-gnocchiclient
 python-google-cloud-bigquery
 python-google-cloud-pubsub
 python-grako
@@ -136,6 +138,7 @@ python-logging-tree
 python-logutils
 m2crypto
 python-markdown_2
+python-mistralclient
 python-mistune08
 python-modestmaps
 python-mpd2
@@ -155,7 +158,6 @@ python-numpoly
 openshadinglanguage
 python-optcomplete
 python-orjson
-python-osc-lib
 python-oslo-log
 python-parsley
 python-partd
@@ -209,7 +211,6 @@ python-rstcheck-core
 python3-saml
 python-scikit-image
 python3-script
-python-shade
 python-signedjson
 python-simpleparse
 python-simplewrap
