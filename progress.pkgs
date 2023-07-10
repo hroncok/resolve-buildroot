@@ -41,7 +41,6 @@ pcs
 pew
 photoqt
 pipenv
-pre-commit
 pychess
 pydeps
 pyflowtools
@@ -90,7 +89,6 @@ python-dockerfile-parse
 python-dominate
 python-efel
 python-ephem
-python-ezdxf
 python-fastbencode
 python-fiat
 python-firehose
@@ -155,6 +153,7 @@ python-nudatus
 python-numpoly
 openshadinglanguage
 python-optcomplete
+python-opytimizer
 python-orjson
 python-oslo-log
 python-parsley
@@ -197,7 +196,6 @@ python-pytest-testinfra
 python-pytest-virtualenv
 python-pyvmomi
 python-pyzolib
-python-qpageview
 python-qstylizer
 python-qutepart
 rabbitvcs
