@@ -174,7 +174,6 @@ python-pint
 python-pocketlint
 python-podman-api
 python-protego
-python-ptrace
 py-radix
 python-py9p
 python-pyaes
@@ -200,7 +199,6 @@ python-pysnooper
 python-pyswarms
 python-pytest-metadata
 python-pytest-testinfra
-python-pytest-venv
 python-pytest-virtualenv
 python-pyvmomi
 python-pyzolib
