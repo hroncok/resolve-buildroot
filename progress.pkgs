@@ -22,7 +22,6 @@ dnf-plugin-diff
 swid-tools
 python-drgn
 electron-cash
-elements-alexandria
 eric
 fail2ban
 fedora-gather-easyfix
@@ -38,7 +37,6 @@ oct2spec
 odcs
 offlineimap
 onboard
-oraculum
 pcs
 pew
 photoqt
@@ -159,7 +157,6 @@ python-openstacksdk
 python-optcomplete
 python-orjson
 python-oslo-log
-python-pandas-datareader
 python-parsley
 python-partd
 python-pathos
@@ -186,6 +183,7 @@ python-pylatex
 python-pylibravatar
 python-pylint-venv
 python-pynetdicom
+python-pyngus
 pyodbc
 python-pyopengl
 python-pyoptical
@@ -201,7 +199,6 @@ python-pytest-virtualenv
 python-pyvmomi
 python-pyzolib
 python-qpageview
-qpid-proton
 python-qstylizer
 python-qutepart
 rabbitvcs
@@ -211,6 +208,7 @@ python-rope
 python-rpmfluff
 python-rstcheck-core
 python3-saml
+python-scikit-image
 python3-script
 python-signedjson
 python-simpleparse
@@ -252,10 +250,11 @@ ydiff
 python-yourls
 python-yte
 python-ytmusicapi
-pythran
+qpid-dispatch
 rmlint
 python-rust-update-set
 shybrid
+sourcextractor++
 sudo
 sugar
 sugar-datastore
