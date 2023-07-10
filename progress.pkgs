@@ -31,7 +31,6 @@ manafirewall
 monkeytype
 mrchem
 nordugrid-arc
-nvme-stas
 oct2spec
 odcs
 offlineimap
@@ -96,13 +95,13 @@ python-flask-babel
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
+python-fsspec::bootstrap:::
 python-gccinvocation
 python-geomet
 gfal2-python
 python-google-cloud-bigquery
 python-google-cloud-pubsub
 python-grako
-python-guessit
 python-guizero
 h5py
 python-hdfs
@@ -113,6 +112,7 @@ python-immutables
 python-invoke
 python-iowait
 python-ipgetter
+python-ipywidgets
 emacs-jedi
 python-jep
 python-jsonrpc-server
@@ -146,7 +146,6 @@ python-neovim
 python-nmap
 python-nose_fixes
 python-notario
-python-notebook
 python-nudatus
 python-numpoly
 openshadinglanguage
@@ -212,6 +211,7 @@ python-smbpasswd
 python-sphinxygen
 pdf-stapler
 python-stdio-mgr
+python-subliminal
 sword
 python-tables
 python-tambo
@@ -231,7 +231,6 @@ python-uvloop
 uwsgi
 python-vcstools
 python-versioningit
-vigra
 python-visionegg-quest
 python-whitenoise
 python-wordcloud
