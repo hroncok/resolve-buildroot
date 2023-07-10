@@ -95,8 +95,8 @@ python-flask-babel
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
-python-fsspec::bootstrap:::
 python-gccinvocation
+python-gcsfs
 python-geomet
 gfal2-python
 python-google-cloud-bigquery
@@ -112,11 +112,11 @@ python-immutables
 python-invoke
 python-iowait
 python-ipgetter
-python-ipywidgets
 emacs-jedi
 python-jep
 python-jsonrpc-server
 python-jsonschema-spec
+python-jupyter-sphinx
 python-kafka
 python-lacrosse
 python-lasagne
@@ -161,6 +161,7 @@ pdc-client
 python-pendulum
 roca-detect
 python-pint
+python-plotly
 python-pocketlint
 python-podman-api
 python-protego
@@ -211,7 +212,6 @@ python-smbpasswd
 python-sphinxygen
 pdf-stapler
 python-stdio-mgr
-python-subliminal
 sword
 python-tables
 python-tambo
