@@ -90,6 +90,7 @@ python-dockerfile-parse
 python-dominate
 python-efel
 python-ephem
+python-ezdxf
 python-fastbencode
 python-fiat
 python-firehose
