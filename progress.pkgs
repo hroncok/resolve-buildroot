@@ -1,5 +1,4 @@
 NFStest
-NiaAML-GUI
 Zim
 andriller
 androguard
@@ -103,10 +102,10 @@ gfal2-python
 python-google-cloud-bigquery
 python-google-cloud-pubsub
 python-grako
+python-guessit
 python-guizero
 h5py
 python-hdfs
-python-hwdata
 i2c-tools
 python-igor
 livecd-tools
@@ -148,7 +147,6 @@ python-nmap
 python-nose_fixes
 python-notario
 python-notebook
-python-nss
 python-nudatus
 python-numpoly
 openshadinglanguage
@@ -179,7 +177,6 @@ pygsl
 pyke
 python-pylatex
 python-pylibravatar
-python-pylint-venv
 python-pynetdicom
 pyodbc
 python-pyopengl
@@ -198,7 +195,6 @@ python-pyzolib
 python-qstylizer
 python-qutepart
 rabbitvcs
-python-rebulk
 python-recordclass
 python-rope
 python-rpmfluff
@@ -249,14 +245,12 @@ python-ytmusicapi
 qpid-dispatch
 rmlint
 python-rust-update-set
-shybrid
 sudo
 sugar
 sugar-datastore
 sugar-toolkit-gtk3
 swift-lang
 thefuck
-thonny
 transmageddon
 vit
 wordxtr
