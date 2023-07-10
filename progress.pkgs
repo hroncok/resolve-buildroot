@@ -35,8 +35,10 @@ mrchem
 nordugrid-arc
 nvme-stas
 oct2spec
+odcs
 offlineimap
 onboard
+oraculum
 pcs
 pew
 photoqt
@@ -95,8 +97,6 @@ python-fiat
 python-firehose
 flann
 python-flask-babel
-python-flask-cors
-python-flask-login
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
