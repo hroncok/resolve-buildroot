@@ -30,7 +30,6 @@ heat-cfntools
 manafirewall
 monkeytype
 mrchem
-nordugrid-arc
 oct2spec
 odcs
 offlineimap
@@ -54,7 +53,6 @@ python-ansible-runner
 python-ansiwrap
 python-astropy-healpix
 python-async-generator
-python-asyncssh
 python-avocado
 awake
 python-bidict
@@ -96,6 +94,7 @@ python-gccinvocation
 python-gcsfs
 python-geomet
 gfal2-python
+python-glymur
 python-google-cloud-bigquery
 python-google-cloud-pubsub
 python-grako
@@ -194,7 +193,6 @@ python-rope
 python-rpmfluff
 python-rstcheck-core
 python3-saml
-python-scikit-image
 python3-script
 python-signedjson
 python-simpleparse
