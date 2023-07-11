@@ -94,7 +94,6 @@ python-gccinvocation
 python-gcsfs
 python-geomet
 gfal2-python
-python-glymur
 python-google-cloud-bigquery
 python-google-cloud-pubsub
 python-grako
@@ -135,7 +134,6 @@ python-mpd2
 python-multi_key_dict
 python-music21
 python-mygpoclient
-python-nb2plots
 python-ndindex
 python-neovim
 python-nmap
