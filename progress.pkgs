@@ -231,6 +231,7 @@ python-versioningit
 python-visionegg-quest
 python-whitenoise
 python-wordcloud
+wult
 python-yamlordereddictloader
 python-yappi
 python-yara
@@ -241,7 +242,6 @@ python-ytmusicapi
 qpid-dispatch
 rmlint
 python-rust-update-set
-stats-collect
 sudo
 sugar
 sugar-datastore
