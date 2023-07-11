@@ -15,7 +15,6 @@ btest
 cdist
 classification-banner
 condor
-cura
 distgen
 dnf-plugin-diff
 swid-tools
@@ -116,7 +115,6 @@ emacs-jedi
 python-jep
 python-jsonrpc-server
 python-jsonschema-spec
-python-jupyter-sphinx
 python-kafka
 python-lacrosse
 python-lasagne
@@ -161,7 +159,6 @@ pdc-client
 python-pendulum
 roca-detect
 python-pint
-python-plotly
 python-pocketlint
 python-podman-api
 python-protego
@@ -244,6 +241,7 @@ python-ytmusicapi
 qpid-dispatch
 rmlint
 python-rust-update-set
+stats-collect
 sudo
 sugar
 sugar-datastore
