@@ -11,6 +11,7 @@ awscli2
 b43-tools
 beaker
 brd
+breezy
 btest
 cdist
 classification-banner
@@ -20,6 +21,7 @@ dnf-plugin-diff
 swid-tools
 python-drgn
 electron-cash
+enki
 eric
 fail2ban
 fedora-gather-easyfix
@@ -76,7 +78,6 @@ python-cypari2
 python-cypy
 python-daiquiri
 python-deap
-python-diff-match-patch
 dionaea
 python-django-allauth
 python-django-extensions
@@ -86,7 +87,6 @@ python-dockerfile-parse
 python-dominate
 python-efel
 python-ephem
-python-fastbencode
 python-fiat
 python-firehose
 flann
@@ -190,7 +190,6 @@ python-pytest-virtualenv
 python-pyvmomi
 python-pyzolib
 python-qstylizer
-python-qutepart
 rabbitvcs
 python-recordclass
 python-rope
@@ -231,7 +230,6 @@ python-versioningit
 python-visionegg-quest
 python-whitenoise
 python-wordcloud
-wult
 python-yamlordereddictloader
 python-yappi
 python-yara
