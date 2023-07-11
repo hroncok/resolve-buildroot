@@ -21,7 +21,6 @@ dnf-plugin-diff
 swid-tools
 python-drgn
 electron-cash
-enki
 eric
 fail2ban
 fedora-gather-easyfix
@@ -36,7 +35,6 @@ oct2spec
 odcs
 offlineimap
 onboard
-pcs
 pew
 photoqt
 pipenv
