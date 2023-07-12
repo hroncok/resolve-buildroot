@@ -27,6 +27,7 @@ fedora-gather-easyfix
 libffado
 fonts-tweak-tool
 heat-cfntools
+ini2toml
 manafirewall
 monkeytype
 mrchem
@@ -63,7 +64,6 @@ python-box
 python3-cangjie
 python-carbon
 python-catkin_tools
-python-ccdproc
 python-check-manifest
 python-click-spinner
 conda
@@ -129,7 +129,6 @@ python-linuxdoc
 python-logging-tree
 python-logutils
 m2crypto
-python-m2r
 python-markdown_2
 python-modestmaps
 python-mpd2
@@ -176,8 +175,9 @@ pyodbc
 python-pyopengl
 python-pyoptical
 python-pyphi
-python-pyrad
+python-pyrtlsdr
 python-pysb
+python-pyscaffold
 python-pyside2
 python-pysnooper
 python-pyswarms
@@ -201,6 +201,7 @@ python-sklearn-nature-inspired-algorithms
 python-slip
 python-smart-gardena
 python-smbpasswd
+python-sphinxcontrib-openapi
 python-sphinxygen
 pdf-stapler
 python-stdio-mgr
@@ -218,6 +219,7 @@ upm
 python-upoints
 python-uri-templates
 urjtag
+python-usort
 ustreamer
 python-uvloop
 uwsgi
@@ -234,6 +236,7 @@ python-yourls
 python-yte
 python-ytmusicapi
 qpid-dispatch
+rebase-helper
 rmlint
 python-rust-update-set
 sudo
