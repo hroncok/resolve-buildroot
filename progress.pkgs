@@ -1,5 +1,4 @@
 NFStest
-PyMca
 Zim
 andriller
 androguard
@@ -83,7 +82,7 @@ dlrn
 python-dockerfile-parse
 python-dominate
 python-efel
-python-emcee
+python-elephant
 python-ephem
 espresso
 python-exdir
@@ -102,9 +101,8 @@ python-google-cloud-bigquery
 python-google-cloud-pubsub
 python-grako
 python-guizero
-python-h5io
-python-hdf5storage
 python-hdfs
+python-hdmf
 i2c-tools
 python-igor
 livecd-tools
@@ -117,18 +115,16 @@ python-jep
 python-jsonrpc-server
 python-jsonschema-spec
 python-kafka
-python-klusta
 python-lacrosse
 python-lasagne
 python-launchpadlib
 python-lazr-smtptest
+python-lazy-ops
 lensfun
 python-leveldb
-python-lfpy
 libfreenect
 python-liblarch
 python-libsass
-libsonata
 libssh2-python
 lilv
 python-linuxdoc
@@ -138,15 +134,14 @@ m2crypto
 python-markdown_2
 python-mistune08
 python-modestmaps
-morphio
 python-mpd2
 python-multi_key_dict
 python-music21
 python-mygpoclient
 python-ndindex
 python-neovim
+python-neurom
 python-nibabel
-python-nixio
 python-nmap
 python-nose_fixes
 python-notario
@@ -166,7 +161,6 @@ python-pendulum
 roca-detect
 python-pint
 python-podman-api
-python-probeinterface
 python-protego
 py-radix
 python-py9p
@@ -180,7 +174,6 @@ pygsl
 pyke
 python-pylatex
 python-pylibravatar
-python-pymatreader
 python-pynetdicom
 python-pynn
 pyodbc
@@ -189,7 +182,6 @@ python-pyoptical
 python-pyphi
 python-pyrad
 python-pysb
-python-pyscf
 python-pyside2
 python-pysnooper
 python-pyswarms
@@ -207,7 +199,6 @@ python-rstcheck-core
 python3-saml
 python3-script
 python-signedjson
-python-simframe
 python-simpleparse
 python-simplewrap
 python-sklearn-nature-inspired-algorithms
@@ -215,7 +206,6 @@ python-slip
 python-smart-gardena
 python-smbpasswd
 python-sphinxygen
-python-spyking-circus
 pdf-stapler
 python-stdio-mgr
 sword
@@ -247,7 +237,6 @@ ydiff
 python-yourls
 python-yte
 python-ytmusicapi
-python-zarr
 qpid-dispatch
 rmlint
 python-rust-update-set
@@ -258,7 +247,6 @@ sugar-toolkit-gtk3
 swift-lang
 thefuck
 transmageddon
-veusz
 vit
 wordxtr
 xonsh
