@@ -41,7 +41,6 @@ pychess
 pydeps
 pyflowtools
 pyp2rpm
-APLpy
 python-PyPDF2
 pykka
 certbot
@@ -221,7 +220,6 @@ uwsgi
 python-vcstools
 python-versioningit
 python-visionegg-quest
-python-whitenoise
 python-wordcloud
 python-yamlordereddictloader
 python-yappi
@@ -233,7 +231,6 @@ python-ytmusicapi
 qpid-dispatch
 rmlint
 python-rust-update-set
-spectrographic
 sudo
 sugar
 sugar-datastore
