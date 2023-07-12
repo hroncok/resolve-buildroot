@@ -51,7 +51,6 @@ python-ansi
 python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
-python-astropy-healpix
 python-async-generator
 python-avocado
 awake
@@ -84,7 +83,6 @@ python-dominate
 python-efel
 python-elephant
 python-ephem
-espresso
 python-exdir
 python-fiat
 python-firehose
@@ -175,7 +173,6 @@ pyke
 python-pylatex
 python-pylibravatar
 python-pynetdicom
-python-pynn
 pyodbc
 python-pyopengl
 python-pyoptical
@@ -193,6 +190,7 @@ python-pyzolib
 python-qstylizer
 rabbitvcs
 python-recordclass
+python-reproject
 python-rope
 python-rpmfluff
 python-rstcheck-core
