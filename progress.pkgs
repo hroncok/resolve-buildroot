@@ -27,7 +27,6 @@ fedora-gather-easyfix
 libffado
 fonts-tweak-tool
 heat-cfntools
-ini2toml
 manafirewall
 monkeytype
 mrchem
@@ -175,9 +174,7 @@ pyodbc
 python-pyopengl
 python-pyoptical
 python-pyphi
-python-pyrtlsdr
 python-pysb
-python-pyscaffold
 python-pyside2
 python-pysnooper
 python-pyswarms
@@ -201,7 +198,6 @@ python-sklearn-nature-inspired-algorithms
 python-slip
 python-smart-gardena
 python-smbpasswd
-python-sphinxcontrib-openapi
 python-sphinxygen
 pdf-stapler
 python-stdio-mgr
@@ -219,7 +215,6 @@ upm
 python-upoints
 python-uri-templates
 urjtag
-python-usort
 ustreamer
 python-uvloop
 uwsgi
@@ -236,9 +231,9 @@ python-yourls
 python-yte
 python-ytmusicapi
 qpid-dispatch
-rebase-helper
 rmlint
 python-rust-update-set
+spectrographic
 sudo
 sugar
 sugar-datastore
