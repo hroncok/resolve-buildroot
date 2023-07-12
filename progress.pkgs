@@ -41,6 +41,7 @@ pychess
 pydeps
 pyflowtools
 pyp2rpm
+APLpy
 python-PyPDF2
 pykka
 certbot
@@ -62,6 +63,7 @@ python-box
 python3-cangjie
 python-carbon
 python-catkin_tools
+python-ccdproc
 python-check-manifest
 python-click-spinner
 conda
@@ -81,7 +83,6 @@ dlrn
 python-dockerfile-parse
 python-dominate
 python-efel
-python-elephant
 python-ephem
 python-exdir
 python-fiat
@@ -117,7 +118,6 @@ python-lacrosse
 python-lasagne
 python-launchpadlib
 python-lazr-smtptest
-python-lazy-ops
 lensfun
 python-leveldb
 libfreenect
@@ -129,8 +129,8 @@ python-linuxdoc
 python-logging-tree
 python-logutils
 m2crypto
+python-m2r
 python-markdown_2
-python-mistune08
 python-modestmaps
 python-mpd2
 python-multi_key_dict
@@ -138,7 +138,6 @@ python-music21
 python-mygpoclient
 python-ndindex
 python-neovim
-python-neurom
 python-nibabel
 python-nmap
 python-nose_fixes
@@ -190,7 +189,6 @@ python-pyzolib
 python-qstylizer
 rabbitvcs
 python-recordclass
-python-reproject
 python-rope
 python-rpmfluff
 python-rstcheck-core
