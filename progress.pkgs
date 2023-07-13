@@ -99,7 +99,6 @@ python-google-cloud-pubsub
 python-grako
 python-guizero
 python-hdfs
-python-hdmf
 i2c-tools
 python-igor
 livecd-tools
@@ -140,7 +139,6 @@ python-nmap
 python-nose_fixes
 python-notario
 python-nudatus
-python-numpoly
 openshadinglanguage
 python-optcomplete
 python-orjson
@@ -169,6 +167,7 @@ pyke
 python-pylatex
 python-pylibravatar
 python-pynetdicom
+python-pynwb
 pyodbc
 python-pyopengl
 python-pyoptical
@@ -190,6 +189,7 @@ python-rpmfluff
 python-rstcheck-core
 python3-saml
 python3-script
+python-sentry-sdk
 python-signedjson
 python-simpleparse
 python-simplewrap
@@ -226,11 +226,11 @@ python-yappi
 python-yara
 ydiff
 python-yourls
-python-yte
 python-ytmusicapi
 qpid-dispatch
 rmlint
 python-rust-update-set
+snakemake
 sudo
 sugar
 sugar-datastore
