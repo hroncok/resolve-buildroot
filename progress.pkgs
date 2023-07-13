@@ -16,6 +16,7 @@ btest
 cdist
 classification-banner
 condor
+diffoscope
 distgen
 dnf-plugin-diff
 swid-tools
@@ -24,14 +25,12 @@ electron-cash
 eric
 fail2ban
 fedora-gather-easyfix
-libffado
 fonts-tweak-tool
 heat-cfntools
 manafirewall
 monkeytype
 mrchem
 oct2spec
-odcs
 offlineimap
 onboard
 pew
@@ -47,6 +46,7 @@ python-acora
 python-aiozeroconf
 python-alarmdecoder
 python-ansi
+ansible-lint
 python-ansible-pygments
 python-ansible-runner
 python-ansiwrap
@@ -72,6 +72,7 @@ python-cypari2
 python-cypy
 python-daiquiri
 python-deap
+python-devtools
 dionaea
 python-django-allauth
 python-django-extensions
@@ -109,7 +110,6 @@ emacs-jedi
 python-jep
 python-jsonrpc-server
 python-jsonschema-spec
-python-kafka
 python-lacrosse
 python-lasagne
 python-launchpadlib
@@ -146,7 +146,6 @@ python-parsley
 python-partd
 python-pathos
 python-pathtools
-pcp
 pdc-client
 python-pendulum
 roca-detect
@@ -188,7 +187,6 @@ python-rpmfluff
 python-rstcheck-core
 python3-saml
 python3-script
-python-sentry-sdk
 python-signedjson
 python-simpleparse
 python-simplewrap
