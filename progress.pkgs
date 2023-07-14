@@ -17,6 +17,7 @@ breezy
 btest
 classification-banner
 condor
+copr-dist-git
 diffoscope
 distgen
 dnf-plugin-diff
@@ -81,10 +82,8 @@ python-dominate
 python-efel
 python-ephem
 python-exdir
-python-f5-sdk
 python-fiat
 python-firehose
-python-flake8-comprehensions
 flann
 python-flask-babel
 python-flask-mailman
@@ -94,13 +93,13 @@ python-fpylll
 python-gccinvocation
 python-gcsfs
 python-geomet
-python-gerritlib
 gfal2-python
 python-google-cloud-bigquery
 python-google-cloud-pubsub
 python-grako
 python-guizero
 python-hdfs
+python-heatclient
 i2c-tools
 python-igor
 livecd-tools
@@ -111,7 +110,6 @@ emacs-jedi
 python-jep
 python-jsonrpc-server
 python-jsonschema-spec
-python-keystoneclient
 python-lacrosse
 python-lasagne
 python-lazr-smtptest
@@ -139,9 +137,9 @@ python-nose_fixes
 python-notario
 python-nudatus
 openshadinglanguage
+python-openstackclient
 python-optcomplete
 python-orjson
-python-oslo-concurrency
 python-oslo-log
 python-parsley
 python-partd
@@ -163,7 +161,6 @@ pyftpdlib
 pygsl
 pyke
 python-pylatex
-python-pymochad
 python-pynetdicom
 python-pynwb
 pyodbc
