@@ -16,8 +16,6 @@ btest
 cdist
 classification-banner
 condor
-d-feet
-python-dcrpm
 diffoscope
 distgen
 dnf-plugin-diff
@@ -112,18 +110,15 @@ python-jsonrpc-server
 python-jsonschema-spec
 python-lacrosse
 python-lasagne
-python-launchpadlib
 python-lazr-smtptest
 lensfun
 python-leveldb
 python-liblarch
-python-libsass
 libssh2-python
 lilv
 python-linuxdoc
 python-logging-tree
 python-logutils
-python-lsp-jsonrpc
 m2crypto
 python-markdown_2
 python-modestmaps
@@ -174,7 +169,6 @@ python-pyside2
 python-pysnooper
 python-pyswarms
 python-pytest-metadata
-python-pytest-testinfra
 python-pytest-virtualenv
 python-pyvmomi
 python-pyzolib
