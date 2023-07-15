@@ -42,7 +42,6 @@ pydeps
 pyflowtools
 pyp2rpm
 pykka
-certbot
 python-acora
 python-aiozeroconf
 python-alarmdecoder
@@ -63,6 +62,8 @@ python-box
 python3-cangjie
 python-carbon
 python-catkin_tools
+python-certbot-dns-cloudxns
+python-certbot-dns-plesk
 python-check-manifest
 python-click-spinner
 conda
@@ -108,7 +109,6 @@ python-ipgetter
 emacs-jedi
 python-jep
 python-jsonrpc-server
-python-jsonschema-spec
 python-lacrosse
 python-lasagne
 python-lazr-smtptest
@@ -141,7 +141,6 @@ python-orjson
 python-oslo-log
 python-parsley
 python-partd
-python-pathos
 python-pathtools
 pdc-client
 python-pendulum
