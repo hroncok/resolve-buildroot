@@ -130,7 +130,6 @@ python-mygpoclient
 python-ndindex
 python-neovim
 python-nibabel
-python-nikola
 python-nmap
 python-nose_fixes
 python-notario
@@ -198,7 +197,6 @@ python-test_server
 python-testing.postgresql
 python-theano
 python-uinput
-unicorn
 upm
 python-upoints
 python-uri-templates
