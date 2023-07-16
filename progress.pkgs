@@ -70,7 +70,6 @@ python-curio
 python-cypari2
 python-cypy
 python-daiquiri
-python-deap
 dionaea
 python-django-allauth
 python-django-extensions
@@ -152,7 +151,6 @@ python-pyfim
 pyftpdlib
 pygsl
 pyke
-python-pylatex
 python-pynetdicom
 python-pynwb
 pyodbc
@@ -177,6 +175,8 @@ python3-script
 python-signedjson
 python-simpleparse
 python-simplewrap
+python-sklearn-genetic
+python-sklearn-genetic-opt
 python-sklearn-nature-inspired-algorithms
 python-slip
 python-smart-gardena
