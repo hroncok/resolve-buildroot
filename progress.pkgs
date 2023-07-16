@@ -41,6 +41,7 @@ pipenv
 pydeps
 pyflowtools
 pyp2rpm
+python-OBD
 pykka
 python-acora
 python-aiozeroconf
@@ -62,8 +63,6 @@ python-box
 python3-cangjie
 python-carbon
 python-catkin_tools
-python-certbot-dns-cloudxns
-python-certbot-dns-plesk
 python-check-manifest
 python-click-spinner
 conda
@@ -145,7 +144,6 @@ python-pathtools
 pdc-client
 python-pendulum
 roca-detect
-python-pint
 python-podman-api
 python-protego
 py-radix
@@ -166,13 +164,13 @@ python-pyoptical
 python-pyphi
 python-pysb
 python-pyside2
-python-pysnooper
 python-pyswarms
 python-pytest-flake8
 python-pytest-metadata
 python-pytest-virtualenv
 python-pyvmomi
 python-pyzolib
+python-qcelemental
 rabbitvcs
 python-recordclass
 python-rope
@@ -206,6 +204,7 @@ uwsgi
 python-vcstools
 python-versioningit
 python-visionegg-quest
+python-vulture
 python-wordcloud
 python-yamlordereddictloader
 python-yappi
