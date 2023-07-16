@@ -152,7 +152,6 @@ pyftpdlib
 pygsl
 pyke
 python-pynetdicom
-python-pynwb
 pyodbc
 python-pyopengl
 python-pyoptical
@@ -184,6 +183,7 @@ python-smbpasswd
 python-sphinxygen
 pdf-stapler
 python-stdio-mgr
+python-streamlink
 sword
 python-tables
 python-tambo
@@ -199,7 +199,6 @@ ustreamer
 python-uvloop
 uwsgi
 python-vcstools
-python-versioningit
 python-visionegg-quest
 python-wordcloud
 python-yamlordereddictloader
