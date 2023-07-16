@@ -41,7 +41,6 @@ pipenv
 pydeps
 pyflowtools
 pyp2rpm
-python-OBD
 pykka
 python-acora
 python-aiozeroconf
@@ -82,7 +81,7 @@ python-dominate
 python-efel
 python-ephem
 python-exdir
-python-fiat
+python-ffc
 python-firehose
 flann
 python-flask-babel
@@ -126,7 +125,6 @@ python-mpd2
 python-multi_key_dict
 python-music21
 python-mygpoclient
-python-ndindex
 python-neovim
 python-nibabel
 python-nmap
@@ -204,7 +202,6 @@ uwsgi
 python-vcstools
 python-versioningit
 python-visionegg-quest
-python-vulture
 python-wordcloud
 python-yamlordereddictloader
 python-yappi
