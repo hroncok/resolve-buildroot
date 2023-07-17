@@ -8,7 +8,6 @@ asv
 aubio
 awscli
 awscli2
-azure-cli
 b43-tools
 beaker
 bodhi-server
@@ -51,7 +50,6 @@ python-ansible-runner
 python-ansiwrap
 python-async-generator
 python-autopep8
-python-avocado
 awake
 python-bidict
 python-blockdiag
@@ -92,7 +90,6 @@ python-gcsfs
 python-geomet
 gfal2-python
 python-google-cloud-bigquery
-python-google-cloud-pubsub
 python-grako
 python-guizero
 python-hdfs
@@ -130,7 +127,6 @@ python-nose_fixes
 python-notario
 python-nudatus
 openshadinglanguage
-python-openstackclient
 python-optcomplete
 python-orjson
 python-oslo-log
@@ -165,6 +161,7 @@ python-pytest-virtualenv
 python-pyvmomi
 python-pyzolib
 python-qcelemental
+python-qemu-qmp
 rabbitvcs
 python-recordclass
 python-rope
@@ -210,7 +207,6 @@ python-ytmusicapi
 qpid-dispatch
 rmlint
 python-rust-update-set
-snakemake
 sudo
 sugar
 sugar-datastore
