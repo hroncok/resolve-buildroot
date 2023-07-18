@@ -10,6 +10,7 @@ awscli
 awscli2
 b43-tools
 beaker
+blender
 bodhi-server
 brd
 breezy
@@ -21,11 +22,14 @@ diffoscope
 distgen
 dnf-plugin-diff
 swid-tools
-dxf2gcode
-electron-cash
 eric
 fail2ban
 fedora-gather-easyfix
+gr-air-modes
+gr-funcube
+gr-hpsdr
+gr-iqbal
+gr-rds
 heat-cfntools
 imgbased
 manafirewall
@@ -151,7 +155,6 @@ python-pynetdicom
 pyodbc
 python-pyoptical
 python-pyphi
-python-pyqtgraph
 python-pyside2
 python-pyswarms
 python-pytest-flake8
@@ -203,7 +206,6 @@ python-yourls
 python-ytmusicapi
 qpid-dispatch
 rmlint
-rtlsdr-scanner
 python-rust-update-set
 sudo
 sugar
