@@ -25,11 +25,7 @@ swid-tools
 eric
 fail2ban
 fedora-gather-easyfix
-gr-air-modes
-gr-funcube
-gr-hpsdr
-gr-iqbal
-gr-rds
+gr-osmosdr
 heat-cfntools
 imgbased
 manafirewall
