@@ -21,14 +21,16 @@ diffoscope
 distgen
 dnf-plugin-diff
 swid-tools
+dnsviz
 electron-cash
 eric
 fail2ban
 fedora-gather-easyfix
-fonts-tweak-tool
 heat-cfntools
 imgbased
+ipsilon
 manafirewall
+module-build-service
 monkeytype
 mrchem
 oct2spec
@@ -59,7 +61,6 @@ botan2
 python-box
 python3-cangjie
 python-carbon
-python-catkin_tools
 python-check-manifest
 python-click-spinner
 conda
@@ -81,7 +82,6 @@ python-exdir
 python-firehose
 flann
 python-flask-babel
-python-flask-mailman
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
@@ -113,7 +113,6 @@ lilv
 python-linuxdoc
 python-logging-tree
 python-logutils
-m2crypto
 python-markdown_2
 python-modestmaps
 python-mpd2
@@ -130,8 +129,8 @@ openshadinglanguage
 python-optcomplete
 python-orjson
 python-oslo-log
+paperwork
 python-parsley
-python-partd
 python-pathtools
 pdc-client
 python-pendulum
@@ -152,7 +151,6 @@ pyodbc
 python-pyopengl
 python-pyoptical
 python-pyphi
-python-pysb
 python-pyside2
 python-pyswarms
 python-pytest-flake8
@@ -161,7 +159,6 @@ python-pytest-virtualenv
 python-pyvmomi
 python-pyzolib
 python-qcelemental
-python-qemu-qmp
 rabbitvcs
 python-recordclass
 python-rope
