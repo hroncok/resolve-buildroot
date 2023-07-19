@@ -25,8 +25,6 @@ swid-tools
 eric
 fail2ban
 fedora-gather-easyfix
-gr-osmosdr
-heat-cfntools
 imgbased
 manafirewall
 monkeytype
@@ -37,7 +35,6 @@ onboard
 pew
 photoqt
 pipenv
-pydeps
 pyflowtools
 pyp2rpm
 pykka
@@ -68,7 +65,6 @@ python-cypy
 python-daiquiri
 python-dask
 dionaea
-python-dipy
 python-django-allauth
 python-django-extensions
 python-django3
@@ -77,9 +73,7 @@ python-dockerfile-parse
 python-dominate
 python-efel
 python-ephem
-python-exdir
 python-firehose
-flann
 python-flask-babel
 flatpak-module-tools
 python-flufl-bounce
@@ -92,7 +86,6 @@ gfal2-python
 python-google-cloud-bigquery
 python-grako
 python-guizero
-python-hdfs
 i2c-tools
 python-igor
 livecd-tools
@@ -114,13 +107,13 @@ python-linuxdoc
 python-logging-tree
 python-logutils
 python-markdown_2
+python-mne
 python-modestmaps
 python-mpd2
 python-multi_key_dict
 python-music21
 python-mygpoclient
 python-neovim
-python-nilearn
 python-nipy
 python-nmap
 python-nose_fixes
