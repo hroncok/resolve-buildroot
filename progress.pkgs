@@ -20,7 +20,6 @@ condor
 copr-dist-git
 diffoscope
 distgen
-dnf-plugin-diff
 swid-tools
 eric
 fail2ban
@@ -58,11 +57,11 @@ python3-cangjie
 python-carbon
 python-check-manifest
 python-click-spinner
+python-cradox
 python-cram
 python-curio
 python-cypari2
 python-cypy
-python-daiquiri
 python-dask
 dionaea
 python-django-allauth
