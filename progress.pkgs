@@ -1,4 +1,3 @@
-NFStest
 andriller
 androguard
 appliance-tools
@@ -53,7 +52,6 @@ python-click-spinner
 python-cram
 python-curio
 python-cypy
-python-django-allauth
 python-django-extensions
 python-django3
 dlrn
@@ -123,7 +121,6 @@ python-pydocstyle
 pyftpdlib
 pygsl
 pyke
-python-pynetdicom
 pyodbc
 python-pyoptical
 python-pyphi
@@ -145,7 +142,6 @@ python-simpleparse
 python-simplewrap
 python-sklearn-genetic
 python-sklearn-genetic-opt
-python-sklearn-nature-inspired-algorithms
 python-slip
 python-smart-gardena
 python-smbpasswd
