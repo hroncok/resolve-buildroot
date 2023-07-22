@@ -1,7 +1,6 @@
 andriller
 androguard
 appliance-tools
-arbor
 asv
 awscli
 awscli2
@@ -13,7 +12,6 @@ btest
 classification-banner
 condor
 copr-dist-git
-diffoscope
 distgen
 swid-tools
 eric
@@ -73,7 +71,6 @@ python-guizero
 i2c-tools
 python-igor
 livecd-tools
-python-immutables
 python-iowait
 python-ipgetter
 emacs-jedi
@@ -178,7 +175,6 @@ sugar
 sugar-datastore
 sugar-toolkit-gtk3
 swift-lang
-thefuck
 transmageddon
 vit
 wordxtr
