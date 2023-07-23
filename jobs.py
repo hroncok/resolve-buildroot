@@ -124,7 +124,8 @@ def are_all_done(*, packages_to_check, all_components, components_done, blocker_
                 # Hence, we only compare the names
                 # For Copr rebuilds, the Copr EVR must be >= Fedora EVR
                 # For koji rebuilds, this will be always true anyway
-                if done_package.name == required_package.name:
+                # XXX cython was renamed after the rebuild
+                if done_package.name == required_package.name or required_package.name == 'python3-Cython':
                     #if not done_package.evr_lt(required_package):
                     if True:
                         log(f'      ✔ {required_package.name}')
