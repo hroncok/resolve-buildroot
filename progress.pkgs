@@ -6,8 +6,10 @@ awscli
 awscli2
 b43-tools
 beaker
+blender
 bodhi-server
 brd
+breezy
 btest
 classification-banner
 condor
@@ -31,6 +33,8 @@ pipenv
 pyflowtools
 pyp2rpm
 pykka
+python-acora
+python-aiozeroconf
 python-alarmdecoder
 python-ansi
 python-ansible-pygments
@@ -39,6 +43,7 @@ python-ansiwrap
 python-async-generator
 python-autopep8
 awake
+python-basemap
 python-bidict
 python-blockdiag
 python-bluepy
@@ -51,7 +56,9 @@ python-check-manifest
 python-click-spinner
 python-cram
 python-curio
+python-cypari2
 python-cypy
+dionaea
 python-django-extensions
 python-django3
 dlrn
@@ -62,6 +69,7 @@ python-firehose
 python-flask-babel
 flatpak-module-tools
 python-flufl-bounce
+python-fpylll
 python-gccinvocation
 python-gcsfs
 python-geomet
@@ -89,10 +97,12 @@ python-linuxdoc
 python-logging-tree
 python-logutils
 python-markdown_2
+python-mne
 python-mpd2
 python-music21
 python-mygpoclient
 python-neovim
+python-nipy
 python-nmap
 python-nose_fixes
 python-notario
@@ -150,6 +160,7 @@ sword
 python-tambo
 python-test_server
 python-testing.postgresql
+python-theano
 python-tilestache
 python-uinput
 upm
@@ -157,10 +168,12 @@ python-upoints
 python-uri-templates
 urjtag
 ustreamer
+python-uvloop
 uwsgi
 python-vcstools
 python-visionegg-quest
 python-wordcloud
+python-xbout
 python-yamlordereddictloader
 python-yappi
 python-yara
