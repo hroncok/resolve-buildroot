@@ -55,7 +55,7 @@ if __name__ == '__main__':
 
         # Bump and commit only if we haven't already, XXX ability to force this
         head_commit_msg = run('git', '-C', repopath, 'log', '--format=%B', '-n1', 'HEAD').stdout.rstrip()
-        if bootstrap or head_commit_msg != message:
+        if False and bootstrap or head_commit_msg != message:
             run('rpmdev-bumpspec', '-c', message, '--userstring', CONFIG['distgit']['author'], specpath)
             run('git', '-C', repopath, 'commit', '--allow-empty', f'{component_name}.spec', '-m', message, '--author', CONFIG['distgit']['author'])
 
