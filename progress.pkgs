@@ -14,7 +14,6 @@ btest
 classification-banner
 condor
 copr-dist-git
-distgen
 swid-tools
 eric
 fail2ban
@@ -76,7 +75,6 @@ python-geomet
 gfal2-python
 python-grako
 python-guizero
-i2c-tools
 python-igor
 livecd-tools
 python-iowait
@@ -94,6 +92,7 @@ python-liblarch
 libssh2-python
 lilv
 python-linuxdoc
+liquidctl
 python-logging-tree
 python-logutils
 python-markdown_2
@@ -116,7 +115,6 @@ python-parsley
 python-pathtools
 pdc-client
 python-pendulum
-roca-detect
 python-pingouin
 python-podman-api
 python-protego
@@ -153,7 +151,6 @@ python-slip
 python-smart-gardena
 python-smbpasswd
 python-sphinxygen
-pdf-stapler
 python-stdio-mgr
 python-streamlink
 sword
