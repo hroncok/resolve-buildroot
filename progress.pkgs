@@ -98,12 +98,10 @@ python-mpd2
 python-music21
 python-mygpoclient
 python-neovim
-python-netpyne
 python-nipy
 python-nmap
 python-nose_fixes
 python-notario
-python-nudatus
 openshadinglanguage
 python-optcomplete
 python-oslo-log
@@ -185,6 +183,7 @@ sugar-datastore
 sugar-toolkit-gtk3
 swift-lang
 transmageddon
+uflash
 vit
 wordxtr
 xonsh
