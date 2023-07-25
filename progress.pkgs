@@ -16,11 +16,9 @@ condor
 copr-dist-git
 swid-tools
 eric
-etckeeper
 fail2ban
 fedora-gather-easyfix
 ibus-cangjie
-ikiwiki
 imgbased
 manafirewall
 monkeytype
@@ -63,7 +61,6 @@ python-django3
 dlrn
 python-dockerfile-parse
 python-dominate
-python-dunamai
 python-ephem
 python-firehose
 python-flask-babel
@@ -118,6 +115,7 @@ pdc-client
 python-pendulum
 python-pingouin
 python-podman-api
+python-poetry-dynamic-versioning
 python-protego
 py-radix
 python-py9p
