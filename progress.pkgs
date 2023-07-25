@@ -47,14 +47,12 @@ python-bidict
 python-blockdiag
 python-bluepy
 python-bluepyopt
-python-bokeh
 botan2
 python-box
 python-carbon
 python-check-manifest
 python-click-spinner
 python-cram
-python-curio
 python-cypari2
 python-cypy
 dionaea
@@ -80,7 +78,6 @@ livecd-tools
 python-iowait
 python-ipgetter
 emacs-jedi
-python-jenkins
 python-jep
 python-jsonrpc-server
 python-lacrosse
@@ -101,6 +98,7 @@ python-mpd2
 python-music21
 python-mygpoclient
 python-neovim
+python-netpyne
 python-nipy
 python-nmap
 python-nose_fixes
