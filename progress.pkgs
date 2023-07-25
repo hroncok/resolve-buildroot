@@ -55,7 +55,6 @@ python-click-spinner
 python-cram
 python-cypari2
 python-cypy
-python-deepdiff
 dionaea
 python-django-extensions
 python-django3
@@ -67,8 +66,8 @@ python-firehose
 python-flask-babel
 flatpak-module-tools
 python-flufl-bounce
+python-formulaic
 python-fpylll
-python-fvs
 python-gccinvocation
 python-gcsfs
 python-geomet
@@ -77,7 +76,6 @@ python-grako
 python-guizero
 python-igor
 livecd-tools
-python-interface-meta
 python-iowait
 python-ipgetter
 emacs-jedi
@@ -110,6 +108,7 @@ python-nudatus
 openshadinglanguage
 python-optcomplete
 python-oslo-log
+packit
 paperwork
 python-parsley
 python-pathtools
@@ -141,6 +140,7 @@ python-recordclass
 python-rope
 python-rstcheck-core
 python3-saml
+python-sciunit
 python3-script
 python-signedjson
 python-simpleparse
