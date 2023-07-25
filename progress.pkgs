@@ -23,6 +23,7 @@ imgbased
 manafirewall
 monkeytype
 mrchem
+mu
 oct2spec
 offlineimap
 onboard
@@ -155,7 +156,6 @@ python-tambo
 python-test_server
 python-testing.postgresql
 python-theano
-python-tilestache
 python-uinput
 upm
 python-upoints
@@ -183,7 +183,6 @@ sugar-datastore
 sugar-toolkit-gtk3
 swift-lang
 transmageddon
-uflash
 vit
 wordxtr
 xonsh
