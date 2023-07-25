@@ -9,16 +9,18 @@ beaker
 blender
 bodhi-server
 brd
-breezy
 btest
+buildstream
 classification-banner
 condor
 copr-dist-git
 swid-tools
 eric
+etckeeper
 fail2ban
 fedora-gather-easyfix
 ibus-cangjie
+ikiwiki
 imgbased
 manafirewall
 monkeytype
@@ -61,6 +63,7 @@ python-django3
 dlrn
 python-dockerfile-parse
 python-dominate
+python-dunamai
 python-ephem
 python-firehose
 python-flask-babel
