@@ -69,13 +69,13 @@ fedpkg = "_fedpkg_cache_dir"
 repoid = "rawhide"
 # metalink = "https://mirrors.fedoraproject.org/metalink?repo=rawhide&arch=$basearch"
 baseurl = ["https://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20230705.n.0/compose/Everything/$basearch/os/"]
-metadata_expire = 600000
+metadata_expire = 600000000
 
 [[repos.rawhide]]
 repoid = "rawhide-source"
 # metalink = "https://mirrors.fedoraproject.org/metalink?repo=rawhide-source&arch=$basearch"
 baseurl = ["https://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20230705.n.0/compose/Everything/source/tree/"]
-metadata_expire = 600000
+metadata_expire = 600000000
 
 [[repos.target]]
 repoid = "python3.12"
