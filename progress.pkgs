@@ -62,6 +62,7 @@ python-django3
 dlrn
 python-dockerfile-parse
 python-dominate
+python-editdistance-s
 python-ephem
 python-firehose
 python-flask-babel
@@ -99,6 +100,7 @@ python-mpd2
 python-music21
 python-mygpoclient
 python-neovim
+python-networkmanager
 python-nipy
 python-nmap
 python-nose_fixes
@@ -123,6 +125,7 @@ python-pydocstyle
 pyftpdlib
 pygsl
 pyke
+python-pyngus
 pyodbc
 python-pyoptical
 python-pyphi
