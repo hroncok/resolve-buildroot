@@ -20,11 +20,9 @@ imgbased
 manafirewall
 monkeytype
 mrchem
-mu
 noggin
 oct2spec
 offlineimap
-onboard
 pew
 photoqt
 pipenv
@@ -36,7 +34,6 @@ python-aiozeroconf
 python-alarmdecoder
 python-ansi
 python-ansible-pygments
-python-ansible-runner
 python-ansiwrap
 python-async-generator
 python-autopep8
@@ -92,6 +89,7 @@ python-mpd2
 python-music21
 python-mygpoclient
 python-neovim
+python-network-runner
 python-networkmanager
 python-nipy
 python-nmap
