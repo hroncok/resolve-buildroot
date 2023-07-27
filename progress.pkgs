@@ -3,9 +3,7 @@ androguard
 appliance-tools
 asv
 awscli
-awscli2
 b43-tools
-beaker
 blender
 bodhi-server
 brd
@@ -18,12 +16,12 @@ swid-tools
 eric
 fail2ban
 fedora-gather-easyfix
-ibus-cangjie
 imgbased
 manafirewall
 monkeytype
 mrchem
 mu
+noggin
 oct2spec
 offlineimap
 onboard
@@ -44,7 +42,6 @@ python-async-generator
 python-autopep8
 awake
 python-basemap
-python-bidict
 python-blockdiag
 python-bluepy
 python-bluepyopt
@@ -53,7 +50,6 @@ python-box
 python-carbon
 python-check-manifest
 python-click-spinner
-python-cram
 python-cypari2
 python-cypy
 dionaea
@@ -64,8 +60,6 @@ python-dockerfile-parse
 python-dominate
 python-editdistance-s
 python-ephem
-python-firehose
-python-flask-babel
 flatpak-module-tools
 python-flufl-bounce
 python-fpylll
@@ -76,7 +70,6 @@ gfal2-python
 python-grako
 python-guizero
 python-igor
-livecd-tools
 python-iowait
 python-ipgetter
 emacs-jedi
@@ -91,7 +84,6 @@ python-liblarch
 libssh2-python
 lilv
 python-linuxdoc
-liquidctl
 python-logging-tree
 python-logutils
 python-markdown_2
@@ -180,10 +172,6 @@ python-ytmusicapi
 qpid-dispatch
 rmlint
 python-rust-update-set
-sudo
-sugar
-sugar-datastore
-sugar-toolkit-gtk3
 swift-lang
 transmageddon
 vit
