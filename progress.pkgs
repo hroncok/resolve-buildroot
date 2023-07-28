@@ -18,6 +18,7 @@ fail2ban
 fedora-gather-easyfix
 imgbased
 manafirewall
+mirrormanager2
 monkeytype
 mrchem
 noggin
@@ -100,12 +101,10 @@ python-oslo-log
 paperwork
 python-parsley
 python-pathtools
-pdc-client
 python-pendulum
 python-pingouin
 python-podman-api
 python-protego
-py-radix
 python-py9p
 python-pyaes
 python-pybids
@@ -153,7 +152,6 @@ upm
 python-upoints
 python-uri-templates
 urjtag
-ustreamer
 python-uvloop
 uwsgi
 python-vcstools
