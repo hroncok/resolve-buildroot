@@ -34,7 +34,6 @@ python-aiozeroconf
 python-alarmdecoder
 python-ansi
 python-ansible-pygments
-python-ansiwrap
 python-async-generator
 python-autopep8
 awake
@@ -59,10 +58,8 @@ python-editdistance-s
 python-ephem
 flatpak-module-tools
 python-flufl-bounce
-fontdump
 python-fpylll
 python-gccinvocation
-python-gcsfs
 python-geomet
 gfal2-python
 python-grako
@@ -101,7 +98,6 @@ paperwork
 python-parsley
 python-pathtools
 python-pendulum
-python-pingouin
 python-podman-api
 python-protego
 python-py9p
