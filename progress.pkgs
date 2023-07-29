@@ -2,7 +2,6 @@ andriller
 androguard
 appliance-tools
 asv
-awscli
 b43-tools
 blender
 bodhi-server
@@ -18,7 +17,7 @@ fail2ban
 fedora-gather-easyfix
 imgbased
 manafirewall
-mirrormanager2
+matrix-synapse
 monkeytype
 mrchem
 noggin
@@ -60,6 +59,7 @@ python-editdistance-s
 python-ephem
 flatpak-module-tools
 python-flufl-bounce
+fontdump
 python-fpylll
 python-gccinvocation
 python-gcsfs
@@ -84,7 +84,6 @@ lilv
 python-linuxdoc
 python-logging-tree
 python-logutils
-python-markdown_2
 python-mne
 python-mpd2
 python-music21
@@ -126,12 +125,10 @@ python-pyvmomi
 python-qcelemental
 rabbitvcs
 python-recordclass
-python-rope
 python-rstcheck-core
 python3-saml
 python-sciunit
 python3-script
-python-signedjson
 python-simpleparse
 python-simplewrap
 python-sklearn-genetic
@@ -169,7 +166,6 @@ rmlint
 python-rust-update-set
 swift-lang
 transmageddon
-vit
 wordxtr
 xonsh
 python3-docs
