@@ -25,9 +25,7 @@ noggin
 oct2spec
 offlineimap
 pew
-pgcli
 photoqt
-pipenv
 pyflowtools
 pyp2rpm
 pykka
@@ -45,7 +43,6 @@ python-bluepy
 botan2
 python-box
 python-carbon
-python-cattrs
 python-check-manifest
 python-click-spinner
 python-cypari2
@@ -83,7 +80,6 @@ lilv
 python-linuxdoc
 python-logging-tree
 python-logutils
-python-maya
 python-mne
 python-mpd2
 python-music21
@@ -125,6 +121,7 @@ rabbitvcs
 python-recordclass
 python-rstcheck-core
 python3-saml
+python-scikit-build-core
 python-sciunit
 python3-script
 python-simpleparse
@@ -148,7 +145,6 @@ python-upoints
 python-uri-templates
 urjtag
 python-uvloop
-uwsgi
 python-vcstools
 python-visionegg-quest
 python-wordcloud
