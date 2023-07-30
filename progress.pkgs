@@ -11,6 +11,7 @@ buildstream
 classification-banner
 condor
 copr-dist-git
+cvc4
 swid-tools
 eric
 fail2ban
@@ -24,6 +25,7 @@ noggin
 oct2spec
 offlineimap
 pew
+pgcli
 photoqt
 pipenv
 pyflowtools
@@ -40,10 +42,10 @@ awake
 python-basemap
 python-blockdiag
 python-bluepy
-python-bluepyopt
 botan2
 python-box
 python-carbon
+python-cattrs
 python-check-manifest
 python-click-spinner
 python-cypari2
@@ -81,6 +83,7 @@ lilv
 python-linuxdoc
 python-logging-tree
 python-logutils
+python-maya
 python-mne
 python-mpd2
 python-music21
@@ -97,9 +100,9 @@ python-oslo-log
 paperwork
 python-parsley
 python-pathtools
-python-pendulum
 python-podman-api
 python-protego
+python-pvc
 python-py9p
 python-pyaes
 python-pybids
@@ -117,7 +120,6 @@ python-pyswarms
 python-pytest-flake8
 python-pytest-metadata
 python-pytest-virtualenv
-python-pyvmomi
 python-qcelemental
 rabbitvcs
 python-recordclass
@@ -150,11 +152,9 @@ uwsgi
 python-vcstools
 python-visionegg-quest
 python-wordcloud
-python-xbout
 python-yamlordereddictloader
 python-yappi
 python-yara
-ydiff
 python-yourls
 python-ytmusicapi
 qpid-dispatch
