@@ -36,7 +36,6 @@ python-ansible-pygments
 python-async-generator
 python-autopep8
 awake
-python-basemap
 python-blockdiag
 python-bluepy
 botan2
@@ -47,7 +46,6 @@ python-click-spinner
 python-cypari2
 python-cypy
 dionaea
-python-django-extensions
 python-django3
 dlrn
 python-dockerfile-parse
