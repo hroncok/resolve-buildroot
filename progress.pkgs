@@ -120,7 +120,6 @@ rabbitvcs
 python-recordclass
 python-rstcheck-core
 python3-saml
-python-scikit-build-core
 python-sciunit
 python3-script
 python-simpleparse
@@ -142,7 +141,6 @@ python-uinput
 upm
 python-upoints
 python-uri-templates
-urjtag
 python-uvloop
 python-vcstools
 python-visionegg-quest
