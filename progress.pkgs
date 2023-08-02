@@ -41,7 +41,6 @@ python-bluepy
 botan2
 python-box
 python-carbon
-python-check-manifest
 python-click-spinner
 python-cypari2
 python-cypy
@@ -106,6 +105,7 @@ pygsl
 pyke
 python-pyngus
 pyodbc
+python-pyone
 python-pyoptical
 python-pyphi
 python-pyside2
@@ -150,7 +150,6 @@ python-yara
 python-yourls
 python-ytmusicapi
 qpid-dispatch
-rmlint
 python-rust-update-set
 swift-lang
 transmageddon
