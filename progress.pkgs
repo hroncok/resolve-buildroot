@@ -24,7 +24,6 @@ noggin
 oct2spec
 offlineimap
 pew
-photoqt
 pyflowtools
 pyp2rpm
 pykka
@@ -62,7 +61,6 @@ python-guizero
 python-igor
 python-iowait
 python-ipgetter
-emacs-jedi
 python-jep
 python-jsonrpc-server
 python-lacrosse
