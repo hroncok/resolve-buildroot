@@ -22,7 +22,6 @@ mrchem
 noggin
 oct2spec
 offlineimap
-pew
 pyflowtools
 pyp2rpm
 pykka
@@ -129,7 +128,6 @@ python-streamlink
 sword
 python-tambo
 python-test_server
-python-testing.postgresql
 python-theano
 python-uinput
 upm
@@ -144,7 +142,6 @@ python-yappi
 python-yara
 python-yourls
 python-ytmusicapi
-qpid-dispatch
 python-rust-update-set
 swift-lang
 transmageddon
