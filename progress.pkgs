@@ -3,7 +3,6 @@ androguard
 appliance-tools
 asv
 b43-tools
-blender
 brd
 btest
 buildstream
@@ -64,6 +63,7 @@ python-ipgetter
 python-jep
 python-jsonrpc-server
 python-lacrosse
+python-lark-parser
 python-lasagne
 python-lazr-smtptest
 lensfun
@@ -110,7 +110,6 @@ python-pytest-flake8
 python-pytest-metadata
 python-pytest-virtualenv
 python-qcelemental
-rabbitvcs
 python-recordclass
 python-rstcheck-core
 python3-saml
@@ -149,6 +148,5 @@ qpid-dispatch
 python-rust-update-set
 swift-lang
 transmageddon
-wordxtr
 xonsh
 python3-docs
