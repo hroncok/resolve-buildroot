@@ -2,6 +2,7 @@ andriller
 androguard
 appliance-tools
 asv
+audiotube
 b43-tools
 brd
 btest
@@ -22,6 +23,7 @@ mrchem
 noggin
 oct2spec
 offlineimap
+psi4
 pyflowtools
 pyp2rpm
 pykka
@@ -44,7 +46,6 @@ python-cypy
 dionaea
 python-django3
 dlrn
-python-dockerfile-parse
 python-dominate
 python-editdistance-s
 python-ephem
@@ -108,7 +109,7 @@ python-pyswarms
 python-pytest-flake8
 python-pytest-metadata
 python-pytest-virtualenv
-python-qcelemental
+python-qcengine
 python-recordclass
 python-rstcheck-core
 python3-saml
@@ -141,7 +142,6 @@ python-yamlordereddictloader
 python-yappi
 python-yara
 python-yourls
-python-ytmusicapi
 python-rust-update-set
 swift-lang
 transmageddon
