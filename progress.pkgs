@@ -24,7 +24,6 @@ oct2spec
 offlineimap
 psi4
 pyflowtools
-pyp2rpm
 pykka
 python-acora
 python-aiozeroconf
@@ -105,6 +104,7 @@ python-pyoptical
 python-pyphi
 python-pyside2
 python-pyswarms
+python-pytelegrambotapi
 python-pytest-flake8
 python-pytest-metadata
 python-pytest-virtualenv
