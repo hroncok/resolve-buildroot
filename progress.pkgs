@@ -37,7 +37,7 @@ python-blockdiag
 python-bluepy
 botan2
 python-box
-python-carbon
+python-certbot-dns-cloudxns
 python-click-spinner
 python-cypari2
 python-cypy
@@ -85,7 +85,6 @@ python-notario
 openshadinglanguage
 python-optcomplete
 python-oslo-log
-paperwork
 python-parsley
 python-pathtools
 python-podman-api
