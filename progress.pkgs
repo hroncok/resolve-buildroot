@@ -16,6 +16,7 @@ fail2ban
 fedora-gather-easyfix
 imgbased
 manafirewall
+python-mathics3
 matrix-synapse
 monkeytype
 mrchem
@@ -47,7 +48,6 @@ dlrn
 python-dominate
 python-editdistance-s
 python-ephem
-flatpak-module-tools
 python-flufl-bounce
 python-fpylll
 python-gccinvocation
@@ -107,8 +107,6 @@ python-pytelegrambotapi
 python-pytest-flake8
 python-pytest-metadata
 python-pytest-virtualenv
-python-qcengine
-python-recordclass
 python-rstcheck-core
 python3-saml
 python-sciunit
@@ -120,8 +118,6 @@ python-sklearn-genetic-opt
 python-slip
 python-smart-gardena
 python-smbpasswd
-python-sphinxygen
-python-sport-activities-features
 python-stdio-mgr
 python-streamlink
 sword
@@ -135,7 +131,6 @@ python-uri-templates
 python-uvloop
 python-vcstools
 python-visionegg-quest
-python-wordcloud
 python-yamlordereddictloader
 python-yappi
 python-yara
