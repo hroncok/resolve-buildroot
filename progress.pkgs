@@ -79,8 +79,6 @@ python-nose_fixes
 python-notario
 openshadinglanguage
 python-optcomplete
-python-oslo-metrics
-python-oslo-service
 python-parsley
 python-pathtools
 python-podman-api
@@ -104,7 +102,6 @@ python-pytest-flake8
 python-pytest-metadata
 python-pytest-virtualenv
 python-rstcheck-core
-python-saharaclient
 python3-saml
 python-sciunit
 python3-script
@@ -118,11 +115,9 @@ python-smbpasswd
 python-stdio-mgr
 python-streamlink
 sword
-python-tackerclient
 python-tambo
 python-test_server
 python-theano
-python-troveclient
 python-uinput
 upm
 python-upoints
