@@ -1,6 +1,5 @@
 andriller
 androguard
-appliance-tools
 asv
 b43-tools
 brd
@@ -23,7 +22,6 @@ mrchem
 noggin
 oct2spec
 offlineimap
-psi4
 pyflowtools
 pykka
 python-acora
@@ -44,7 +42,6 @@ python-cypari2
 python-cypy
 dionaea
 python-django3
-dlrn
 python-dominate
 python-editdistance-s
 python-ephem
@@ -54,7 +51,6 @@ python-gccinvocation
 python-geomet
 gfal2-python
 python-grako
-python-guizero
 python-igor
 python-iowait
 python-ipgetter
@@ -68,10 +64,11 @@ lensfun
 python-leveldb
 python-liblarch
 libssh2-python
-lilv
 python-linuxdoc
 python-logging-tree
 python-logutils
+python-magnumclient
+python-manilaclient
 python-mne
 python-mpd2
 python-music21
@@ -82,9 +79,11 @@ python-nipy
 python-nmap
 python-nose_fixes
 python-notario
+python-octaviaclient
 openshadinglanguage
 python-optcomplete
-python-oslo-log
+python-oslo-metrics
+python-oslo-service
 python-parsley
 python-pathtools
 python-podman-api
@@ -108,6 +107,7 @@ python-pytest-flake8
 python-pytest-metadata
 python-pytest-virtualenv
 python-rstcheck-core
+python-saharaclient
 python3-saml
 python-sciunit
 python3-script
@@ -121,9 +121,11 @@ python-smbpasswd
 python-stdio-mgr
 python-streamlink
 sword
+python-tackerclient
 python-tambo
 python-test_server
 python-theano
+python-troveclient
 python-uinput
 upm
 python-upoints
@@ -132,7 +134,6 @@ python-uvloop
 python-vcstools
 python-visionegg-quest
 python-yamlordereddictloader
-python-yappi
 python-yara
 python-yourls
 python-rust-update-set
