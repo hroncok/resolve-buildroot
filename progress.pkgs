@@ -67,8 +67,6 @@ libssh2-python
 python-linuxdoc
 python-logging-tree
 python-logutils
-python-magnumclient
-python-manilaclient
 python-mne
 python-mpd2
 python-music21
@@ -79,7 +77,6 @@ python-nipy
 python-nmap
 python-nose_fixes
 python-notario
-python-octaviaclient
 openshadinglanguage
 python-optcomplete
 python-oslo-metrics
