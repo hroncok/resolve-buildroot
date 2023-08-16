@@ -1,13 +1,13 @@
 andriller
 androguard
 asv
+awscli
 b43-tools
 brd
 btest
 buildstream
 classification-banner
 condor
-copr-dist-git
 cvc4
 swid-tools
 eric
@@ -25,6 +25,8 @@ offlineimap
 pyflowtools
 pykka
 python-acora
+python-aioambient
+python-aioguardian
 python-aiozeroconf
 python-alarmdecoder
 python-ansi
@@ -41,6 +43,8 @@ python-click-spinner
 python-cypari2
 python-cypy
 dionaea
+python-django-contact-form
+python-django-robots
 python-django3
 python-dominate
 python-editdistance-s
@@ -51,6 +55,7 @@ python-gccinvocation
 python-geomet
 gfal2-python
 python-grako
+python-graphitesend
 python-igor
 python-iowait
 python-ipgetter
@@ -124,6 +129,7 @@ python-upoints
 python-uri-templates
 python-uvloop
 python-vcstools
+vertica-python
 python-visionegg-quest
 python-yamlordereddictloader
 python-yara
