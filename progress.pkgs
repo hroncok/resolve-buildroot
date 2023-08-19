@@ -1,8 +1,6 @@
 andriller
 androguard
-asv
 awscli
-b43-tools
 brd
 btest
 buildstream
@@ -84,7 +82,6 @@ python-nose_fixes
 python-notario
 openshadinglanguage
 python-optcomplete
-python-parsley
 python-pathtools
 python-podman-api
 python-protego
@@ -95,6 +92,7 @@ python-pybids
 python-pydiffx
 python-pydocstyle
 pyftpdlib
+libgpuarray
 pygsl
 python-pyngus
 pyodbc
@@ -107,7 +105,6 @@ python-pytest-flake8
 python-pytest-metadata
 python-pytest-virtualenv
 python-rstcheck-core
-python3-saml
 python-sciunit
 python3-script
 python-simpleparse
@@ -117,12 +114,12 @@ python-sklearn-genetic-opt
 python-slip
 python-smart-gardena
 python-smbpasswd
+python-social-auth-core
 python-stdio-mgr
 python-streamlink
 sword
 python-tambo
 python-test_server
-python-theano
 python-uinput
 upm
 python-upoints
