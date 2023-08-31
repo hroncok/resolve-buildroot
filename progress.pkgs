@@ -14,9 +14,7 @@ fedora-gather-easyfix
 imgbased
 manafirewall
 python-mathics3
-matrix-synapse
 monkeytype
-mrchem
 noggin
 oct2spec
 offlineimap
@@ -47,7 +45,6 @@ python-django3
 python-dominate
 python-editdistance-s
 python-ephem
-python-flufl-bounce
 python-fpylll
 python-gccinvocation
 python-geomet
@@ -82,7 +79,6 @@ python-nose_fixes
 python-notario
 openshadinglanguage
 python-optcomplete
-python-pathtools
 python-podman-api
 python-protego
 python-pvc
@@ -95,7 +91,6 @@ pyftpdlib
 libgpuarray
 pygsl
 python-pyngus
-pyodbc
 python-pyoptical
 python-pyphi
 python-pyside2
@@ -109,7 +104,6 @@ python-sciunit
 python3-script
 python-simpleparse
 python-simplewrap
-python-sklearn-genetic
 python-sklearn-genetic-opt
 python-slip
 python-smart-gardena
@@ -128,10 +122,8 @@ python-vcstools
 vertica-python
 python-visionegg-quest
 python-yamlordereddictloader
-python-yara
 python-yourls
 python-rust-update-set
-swift-lang
 transmageddon
 xonsh
 python3-docs
