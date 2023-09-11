@@ -14,7 +14,6 @@ imgbased
 python-mathics3
 monkeytype
 oct2spec
-offlineimap
 pyflowtools
 python-acora
 python-aioambient
@@ -46,7 +45,6 @@ python-geomet
 python-grako
 python-graphitesend
 python-igor
-python-iowait
 python-ipgetter
 python-jep
 python-jsonrpc-server
@@ -89,7 +87,6 @@ python-pytelegrambotapi
 python-pytest-flake8
 python-pytest-metadata
 python-pytest-virtualenv
-python-sciunit
 python3-script
 python-simpleparse
 python-simplewrap
