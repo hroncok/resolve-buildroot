@@ -12,8 +12,6 @@ fail2ban
 fedora-gather-easyfix
 imgbased
 python-mathics3
-monkeytype
-oct2spec
 pyflowtools
 python-acora
 python-aioambient
@@ -23,14 +21,12 @@ python-alarmdecoder
 python-ansi
 python-ansible-pygments
 python-async-generator
-python-autopep8
 awake
 python-blockdiag
 python-bluepy
 python-box
 python-certbot-dns-cloudxns
 python-click-spinner
-python-convertdate
 python-cypari2
 python-cypy
 dionaea
@@ -39,6 +35,7 @@ python-django-robots
 python-django3
 python-dominate
 python-editdistance-s
+python-elpy
 python-fpylll
 python-gccinvocation
 python-geomet
@@ -56,14 +53,12 @@ lensfun
 python-leveldb
 python-liblarch
 libssh2-python
-python-linuxdoc
 python-logging-tree
 python-logutils
 python-mpd2
 python-music21
 python-networkmanager
 python-nipy
-python-nmap
 python-nose_fixes
 python-notario
 openshadinglanguage
@@ -80,9 +75,7 @@ pyftpdlib
 libgpuarray
 python-pyngus
 python-pyoptical
-python-pyphi
 python-pyside2
-python-pyswarms
 python-pytelegrambotapi
 python-pytest-flake8
 python-pytest-metadata
