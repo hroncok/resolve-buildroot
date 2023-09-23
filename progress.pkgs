@@ -3,7 +3,6 @@ androguard
 awscli
 brd
 btest
-classification-banner
 condor
 cvc4
 swid-tools
@@ -56,6 +55,7 @@ libssh2-python
 python-logging-tree
 python-logutils
 python-mpd2
+mraa
 python-music21
 python-networkmanager
 python-nipy
@@ -93,7 +93,6 @@ sword
 python-tambo
 python-test_server
 python-uinput
-upm
 python-upoints
 python-uri-templates
 python-uvloop
@@ -104,5 +103,4 @@ python-yamlordereddictloader
 python-yourls
 python-rust-update-set
 transmageddon
-xonsh
 python3-docs
