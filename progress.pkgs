@@ -70,7 +70,6 @@ python-py9p
 python-pyaes
 python-pybv
 python-pydiffx
-python-pydocstyle
 pyftpdlib
 libgpuarray
 python-pyngus
