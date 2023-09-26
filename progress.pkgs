@@ -12,6 +12,7 @@ fedora-gather-easyfix
 imgbased
 python-mathics3
 pyflowtools
+python-ZEO
 python-acora
 python-aioambient
 python-aioguardian
@@ -56,7 +57,6 @@ python-logging-tree
 python-logutils
 python-mpd2
 mraa
-python-music21
 python-networkmanager
 python-nipy
 python-nose_fixes
@@ -64,12 +64,12 @@ python-notario
 openshadinglanguage
 python-optcomplete
 python-podman-api
-python-protego
 python-pvc
 python-py9p
 python-pyaes
 python-pybv
 python-pydiffx
+python-pydocstyle
 pyftpdlib
 libgpuarray
 python-pyngus
@@ -94,7 +94,7 @@ python-test_server
 python-uinput
 python-upoints
 python-uri-templates
-python-uvloop
+python-uvicorn
 python-vcstools
 vertica-python
 python-visionegg-quest
