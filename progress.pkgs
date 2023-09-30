@@ -1,5 +1,6 @@
 andriller
 androguard
+androwarn
 awscli
 brd
 btest
@@ -11,12 +12,14 @@ fail2ban
 fedora-gather-easyfix
 imgbased
 python-mathics3
+pico-wizard
 pyflowtools
-python-ZEO
 python-acora
+python-adext
 python-aioambient
 python-aioguardian
 python-aiozeroconf
+python-airthings
 python-alarmdecoder
 python-ansi
 python-ansible-pygments
@@ -35,7 +38,7 @@ python-django-robots
 python-django3
 python-dominate
 python-editdistance-s
-python-elpy
+python-flask-bootstrap
 python-fpylll
 python-gccinvocation
 python-geomet
@@ -69,9 +72,9 @@ python-py9p
 python-pyaes
 python-pybv
 python-pydiffx
-python-pydocstyle
 pyftpdlib
 libgpuarray
+python-pymc3
 python-pyngus
 python-pyoptical
 python-pyside2
@@ -86,12 +89,12 @@ python-sklearn-genetic-opt
 python-slip
 python-smart-gardena
 python-smbpasswd
+python-sphinxcontrib-actdiag
 python-stdio-mgr
 python-streamlink
 sword
 python-tambo
 python-test_server
-python-uinput
 python-upoints
 python-uri-templates
 python-uvicorn
@@ -100,6 +103,5 @@ vertica-python
 python-visionegg-quest
 python-yamlordereddictloader
 python-yourls
-python-rust-update-set
 transmageddon
 python3-docs
