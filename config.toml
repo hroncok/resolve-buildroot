@@ -300,9 +300,6 @@ withouts = ["tests", "docs"]
 [[bconds.python-databases]]
 withs = ["bootstrap"]
 
-[[bconds.python-molecule]]
-withouts = ["doc"]
-
 [[bconds.scipy]]
 withouts = ["pythran"]
 
