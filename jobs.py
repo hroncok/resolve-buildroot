@@ -156,6 +156,7 @@ def _sort_loop(loop):
 
 def _detect_loop(loop_detector, probed_component, depchain, loops, seen):
     for component in loop_detector[probed_component]:
+        recursedown = component not in seen
         seen.add(component)
         if component in CONFIG['bconds']:
             # we assume bconds are manually crafted not to have loops
@@ -165,7 +166,7 @@ def _detect_loop(loop_detector, probed_component, depchain, loops, seen):
         if component in depchain:
             loops.add(_sort_loop(depchain[depchain.index(component):]))
             continue
-        if component not in seen:
+        if recursedown:
             _detect_loop(loop_detector, component, depchain + [component], loops, seen)
 
 def report_blocking_components(loop_detector):
