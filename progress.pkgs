@@ -18,7 +18,6 @@ python-apsw
 python-apt
 python-astroid
 audit
-python-azure-mgmt-core:tests::::
 python-bottle
 python-bsddb3
 pycairo
