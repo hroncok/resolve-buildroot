@@ -165,7 +165,8 @@ def _detect_loop(loop_detector, probed_component, depchain, loops, seen):
         if component in depchain:
             loops.add(_sort_loop(depchain[depchain.index(component):]))
             continue
-        _detect_loop(loop_detector, component, depchain + [component], loops, seen)
+        if component not in seen:
+            _detect_loop(loop_detector, component, depchain + [component], loops, seen)
 
 def report_blocking_components(loop_detector):
     loops = set()
