@@ -44,8 +44,8 @@ target = 'rawhide'
 
 [distgit]
 branch = "rawhide"
-commit_message = "Rebuilt for Python 3.12"
-bootstrap_commit_message = "Bootstrap for Python 3.12"
+commit_message = "Rebuilt for Python 3.13"
+bootstrap_commit_message = "Bootstrap for Python 3.13"
 author = "Python Maint <python-maint@redhat.com>"
 
 [architectures]
@@ -53,11 +53,11 @@ repoquery = "x86_64" # used for repository querying
 koji = "x86_64" # used to scratch build packages with bconds
 
 [deps]
-old = ["python(abi) = 3.11", "libpython3.11.so.1.0()(64bit)", "libpython3.11d.so.1.0()(64bit)"]
-new = ["python(abi) = 3.12", "libpython3.12.so.1.0()(64bit)", "libpython3.12d.so.1.0()(64bit)"]
+old = ["python(abi) = 3.12", "libpython3.12.so.1.0()(64bit)", "libpython3.12d.so.1.0()(64bit)"]
+new = ["python(abi) = 3.13", "libpython3.13.so.1.0()(64bit)", "libpython3.13d.so.1.0()(64bit)"]
 
 [components]
-excluded = ["python3.11", "python3.12"]
+excluded = ["python3.12", "python3.13"]
 extra = ["python3-docs"]
 
 [cache_dir]
@@ -68,19 +68,17 @@ fedpkg = "_fedpkg_cache_dir"
 [[repos.rawhide]]
 repoid = "rawhide"
 # metalink = "https://mirrors.fedoraproject.org/metalink?repo=rawhide&arch=$basearch"
-baseurl = ["https://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20230705.n.0/compose/Everything/$basearch/os/"]
-metadata_expire = 600000000
+baseurl = ["http://kojipkgs.fedoraproject.org/repos/rawhide/latest/$basearch/"]
 
 [[repos.rawhide]]
 repoid = "rawhide-source"
 # metalink = "https://mirrors.fedoraproject.org/metalink?repo=rawhide-source&arch=$basearch"
-baseurl = ["https://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20230705.n.0/compose/Everything/source/tree/"]
-metadata_expire = 600000000
+baseurl = ["http://kojipkgs.fedoraproject.org/repos/rawhide/latest/src/"]
 
 [[repos.target]]
-repoid = "python3.12"
-#baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.12/fedora-rawhide-$basearch/"]
-baseurl = ["http://kojipkgs.fedoraproject.org/repos/f39-build/latest/$basearch/"]
+repoid = "python3.13"
+baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.13/fedora-rawhide-$basearch/"]
+#baseurl = ["http://kojipkgs.fedoraproject.org/repos/f39-build/latest/$basearch/"]
 metadata_expire = 60
 
 [bconds]
