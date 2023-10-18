@@ -175,6 +175,7 @@ def report_blocking_components(loop_detector):
     for component in loop_detector:
         if component not in seen:
             _detect_loop(loop_detector, component, [component], loops, seen)
+            seen.add(component)
     log('\nDetected dependency loops:')
     for loop in sorted(loops, key=lambda t: -len(t)):
         log('    • ' + ' → '.join(loop))
