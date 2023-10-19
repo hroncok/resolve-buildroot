@@ -18,6 +18,7 @@ python-apsw
 python-apt
 python-astroid
 audit
+python-awscrt
 python-bottle
 python-bsddb3
 pycairo
@@ -34,7 +35,6 @@ python-demjson
 python-distlib
 python-dukpy
 python-fdb
-python-fluidity-sm
 freeradius
 python-gammu
 gdcm
@@ -46,7 +46,6 @@ python-igraph
 python-immutables
 python-iniparse
 python-installer
-python-jdcal
 python-jinja2:docs::::
 jsonnet
 python-jsonpointer
@@ -54,6 +53,7 @@ python-kerberos
 libcec
 libsbml
 libselinux
+python-linkify-it-py
 lttng-tools
 m2crypto
 python-makefun
@@ -99,10 +99,9 @@ python-subvertpy
 python-toolz
 python-transaction
 python3-typed_ast
-python-uc-micro-py
 python-wadllib
 python-webob
-python-websockets
+python-websocket-client
 python-yappi
 python3-zope-fixers
 python-zope-i18nmessageid
