@@ -18,7 +18,6 @@ python-apsw
 python-apt
 python-astroid
 audit
-python-awscrt
 python-bottle
 python-bsddb3
 pycairo
@@ -33,6 +32,7 @@ python-cython0.29
 python-defusedxml
 python-demjson
 python-distlib
+python-docker-squash
 python-dukpy
 python-fdb
 freeradius
@@ -101,7 +101,6 @@ python-transaction
 python3-typed_ast
 python-wadllib
 python-webob
-python-websocket-client
 python-yappi
 python3-zope-fixers
 python-zope-i18nmessageid
