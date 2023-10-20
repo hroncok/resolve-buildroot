@@ -2,6 +2,8 @@ WALinuxAgent
 b43-tools
 coccinelle
 cryptlib
+dib-utils
+git-review
 insight
 libsigrokdecode
 mom
@@ -32,13 +34,14 @@ python-cython0.29
 python-defusedxml
 python-demjson
 python-distlib
-python-docker-squash
 python-dukpy
 python-fdb
+python-fixtures::bootstrap:::
 freeradius
 python-gammu
 gdcm
 python-genshi
+python-gertty
 python-gphoto2
 i2c-tools
 python-idstools
@@ -46,6 +49,7 @@ python-igraph
 python-immutables
 python-iniparse
 python-installer
+python-ironicclient
 python-jinja2:docs::::
 jsonnet
 python-jsonpointer
@@ -63,6 +67,7 @@ python-memcached
 python-mglob
 python-mimeparse
 python-minimock
+python-mongomock
 python-ndjson-testrunner
 python-netifaces
 newt
@@ -71,8 +76,8 @@ OpenIPMI
 python-openoffice
 python-parso
 python-passlib
-python-pbr
 pcapy
+python-pifpaf
 python-pivy
 python-precis_i18n
 protobuf
@@ -88,10 +93,14 @@ pythia8
 python-pytn3270
 python-recordclass
 python-regex
+python-requests-unixsocket
+python-requestsexceptions
 python-schedutils
 python-setuptools_scm_git_archive
 python-simpleaudio
+python-sphinxcontrib-pecanwsme
 py-spidev
+python-ssdp
 python-straight-plugin
 python-subprocess-tee
 subversion
@@ -102,8 +111,10 @@ python3-typed_ast
 python-wadllib
 python-webob
 python-yappi
+python-zaqarclient
 python3-zope-fixers
 python-zope-i18nmessageid
+python-zuul-sphinx
 rdiff-backup
 recoll
 sigil
