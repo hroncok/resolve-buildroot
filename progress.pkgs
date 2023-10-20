@@ -96,9 +96,11 @@ python-straight-plugin
 python-subprocess-tee
 subversion
 python-subvertpy
-python-testtools::bootstrap:::
+python-testresources
+python-testscenarios
 python-toolz
 python-transaction
+python-tree-format
 python3-typed_ast
 python-wadllib
 python-webob
