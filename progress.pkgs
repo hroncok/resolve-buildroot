@@ -88,9 +88,9 @@ python-recordclass
 python-regex
 python-requests-mock
 python-schedutils
-python-setupmeta
 python-setuptools_scm_git_archive
 python-simpleaudio
+python-sphinx:tests-websupport::::
 py-spidev
 python-straight-plugin
 python-subprocess-tee
@@ -99,7 +99,6 @@ python-subvertpy
 python-toolz
 python-transaction
 python3-typed_ast
-python-urlpy
 python-wadllib
 python-webob
 python-yappi
