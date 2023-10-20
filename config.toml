@@ -446,7 +446,7 @@ withouts = ["tests"]
 withouts = ["tests"]
 
 [[bconds.python-pikepdf]]
-withs = ["docs", "tests"]
+withouts = ["docs", "tests"]
 
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
