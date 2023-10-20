@@ -38,7 +38,6 @@ freeradius
 python-gammu
 gdcm
 python-genshi
-python-glad2
 python-gphoto2
 i2c-tools
 python-idstools
@@ -46,8 +45,6 @@ python-igraph
 python-immutables
 python-iniparse
 python-installer
-python-jinja2-cli
-python-jinja2_pluralize
 jsonnet
 python-jsonpointer
 python-kerberos
@@ -91,6 +88,7 @@ python-recordclass
 python-regex
 python-requests-mock
 python-schedutils
+python-setupmeta
 python-setuptools_scm_git_archive
 python-simpleaudio
 py-spidev
@@ -101,6 +99,7 @@ python-subvertpy
 python-toolz
 python-transaction
 python3-typed_ast
+python-urlpy
 python-wadllib
 python-webob
 python-yappi
