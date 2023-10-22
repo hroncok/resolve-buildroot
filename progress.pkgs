@@ -4,7 +4,6 @@ coccinelle
 cryptlib
 python-drgn
 fontforge
-hddfancontrol
 insight
 libsigrokdecode
 mom
@@ -40,7 +39,9 @@ python-defusedxml
 python-demjson
 python-distlib
 python-dukpy
+python-executing:tests::::
 python-fdb
+python-ffmpeg-python
 freeradius
 python-gammu
 gdcm
@@ -82,8 +83,6 @@ newt
 python-nodeenv
 OpenIPMI
 python-openoffice
-python-os-testr
-python-oslo-i18n
 python-oslo-sphinx
 python-parso
 python-passlib
@@ -95,7 +94,6 @@ python-psutil
 python-psycopg2
 python-ptyprocess
 libesedb
-python-pyghmi
 pyicu
 orocos-kdl
 pyodbc
@@ -123,7 +121,6 @@ subversion
 python-subvertpy
 python-tinycss2
 python-toolz
-python-trailrunner
 python-transaction
 python3-typed_ast
 python-wadllib
