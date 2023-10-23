@@ -15,6 +15,7 @@ postgresql
 profanity
 proxmark3
 pyotherside
+python-configupdater
 HepMC3
 python-alsaaudio
 python-amico
@@ -29,7 +30,7 @@ botan2
 python-bottle
 python-bsddb3
 btrfs-progs
-python-cachelib
+python-build
 pycairo
 python-capturer
 python-cbor2
@@ -101,6 +102,7 @@ python-nose2
 OpenIPMI
 python-openoffice
 python-openpaperwork-core
+python-oscrypto
 python-oslo-sphinx
 python-parso
 python-passlib
@@ -109,6 +111,7 @@ python-pivy
 python-precis_i18n
 protobuf
 python-psycopg2
+python-py-gql
 libesedb
 pyicu
 orocos-kdl
@@ -117,14 +120,12 @@ pyserial
 python-pysmb
 python-pysnmp-mibs
 pysvn
+python-pytest-bdd5
 python-pytest-cache
-python-pytest-shutil
-python-pytest-xdist
 pythia8
 python-pytn3270
 python-random2
 python-recordclass
-python-remoto
 python-requests-mock
 python-schedutils
 python-scss
