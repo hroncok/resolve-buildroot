@@ -451,6 +451,9 @@ withouts = ["docs", "tests"]
 [[bconds.python-executing]]
 withouts = ["tests"]
 
+[[bconds.python-editables]]
+withouts = ["doc"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
