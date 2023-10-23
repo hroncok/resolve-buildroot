@@ -454,6 +454,9 @@ withouts = ["tests"]
 [[bconds.python-editables]]
 withouts = ["doc"]
 
+[[bconds.python-jsonschema-specifications]]
+replacements = {with_doc = "0"}
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
