@@ -13,13 +13,17 @@ perl-Inline-Python
 postgresql
 profanity
 proxmark3
+py3status
 pyotherside
 HepMC3
+python-aiofiles
 python-alsaaudio
+python-annotated-types
 python-apsw
 python-apt
 python-astroid
 audit
+python-backrefs
 botan2
 python-bottle
 python-bsddb3
@@ -27,6 +31,7 @@ btrfs-progs
 pycairo
 python-capturer
 python-cffi
+python-colorama
 python-confluent-kafka
 python-copr-common
 python-crypto
@@ -45,8 +50,10 @@ python-gammu
 gdcm
 python-genshi
 python-gmpy2
+python-google-i18n-address
 python-gphoto2
-python-hatchling
+python-hatch-jupyter-builder
+python-hatch-vcs
 python-hl7
 python-htmlmin
 i2c-tools
@@ -65,6 +72,7 @@ libsbml
 libselinux
 python-linecache2
 python-linkify-it-py
+python-looseversion
 lttng-tools
 m2crypto
 python-makefun
@@ -86,7 +94,6 @@ python-oslo-sphinx
 python-parso
 python-passlib
 pcapy
-python-pdm-backend
 python-pivy
 python-precis_i18n
 protobuf
@@ -110,9 +117,11 @@ python-scss
 python-setuptools_scm_git_archive
 python-simpleaudio
 python-snipeit
+python-soupsieve:tests::::
 python-sphinx-notfound-page
 python-sphinx-pytest
 python-sphinxcontrib-jquery
+python-sphinxcontrib-zopeext
 py-spidev
 python-straight-plugin
 python-subprocess-tee
@@ -120,9 +129,11 @@ subversion
 python-subvertpy
 python-tinycss2
 python-toolz
+python-traitlets
 python-transaction
 python3-typed_ast
 python-wadllib
+python-wcmatch
 python-webob
 python-yappi
 python-yara
