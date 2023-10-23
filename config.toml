@@ -225,9 +225,6 @@ withouts = ["optional_tests"]
 [[bconds.python-soupsieve]]
 withouts = ["tests"]
 
-[[bconds.python-towncrier]]
-withouts = ["tests"]
-
 [[bconds.python-pytest-asyncio]]
 withouts = ["tests"]
 
@@ -238,15 +235,6 @@ withouts = ["tests"]
 withouts = ["tests"]
 
 [[bconds.python-async-timeout]]
-withouts = ["tests"]
-
-[[bconds.python-trio]]
-withouts = ["tests"]
-
-[[bconds.python-Automat]]
-withouts = ["tests"]
-
-[[bconds.python-invoke]]
 withouts = ["tests"]
 
 [[bconds.python-jupyter-client]]
@@ -306,9 +294,6 @@ withouts = ["pythran"]
 [[bconds.python-pandas]]
 withs = ["bootstrap"]
 
-[[bconds.grpc]]
-withs = ["bootstrap"]
-
 [[bconds.python-fasteners]]
 withouts = ["tests"]
 
@@ -329,7 +314,7 @@ withouts = ["tests"]
 withouts = ["tests"]
 
 [[bconds.python-geopandas]]
-withouts = ["tests"]
+withs = ["bootstrap"]
 
 [[bconds.python-astropy]]
 withouts = ["check"]
@@ -346,8 +331,10 @@ withouts = ["tests"]
 [[bconds.python-azure-core]]
 withouts = ["tests"]
 
-[[bconds.python-azure-common]]
-withouts = ["tests"]
+# this bcond is disabled in spec on purpose
+# it might be enabled in the future, so leaving this here, commend out
+#[[bconds.python-azure-common]]
+#withouts = ["tests"]
 
 [[bconds.python-azure-mgmt-core]]
 withouts = ["tests"]
@@ -356,7 +343,7 @@ withouts = ["tests"]
 withouts = ["tests"]
 
 [[bconds.python-typeguard]]
-withouts = ["doc_pdf"]
+withs = ["bootstrap"]
 
 [[bconds.python-tox]]
 withouts = ["tests"]
@@ -401,7 +388,7 @@ withouts = ["tests"]
 withouts = ["trio", "curio", "doh"]
 
 [[bconds.python-poetry-plugin-export]]
-withouts = ["bootstrap"]
+withs = ["bootstrap"]
 
 [[bconds.poetry]]
 withs = ["bootstrap"]
@@ -418,8 +405,11 @@ withouts = ["extras"]
 [[bconds.python-constantly]]
 withouts = ["tests"]
 
-[[bconds.gdb]]
-replacements = {_without_python = "1"}
+# this is intentionally commented out
+# 1) is is part of the initial bootstrap
+# 2) replacement does not work, the macro isn't there (needs to be added)
+#[[bconds.gdb]]
+#replacements = {_without_python = "1"}
 
 [[bconds.python-pysocks]]
 replacements = {with_python3_tests = "0"}

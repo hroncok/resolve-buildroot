@@ -207,6 +207,7 @@ if __name__ == '__main__':
         except ValueError as e:
             log(f'\n  ✗ {e}')
             continue
+        number_of_resolved = len(component_buildroot)
 
         ready_to_rebuild = are_all_done(
             packages_to_check=set(component_buildroot) & binary_rpms,
@@ -232,6 +233,10 @@ if __name__ == '__main__':
                     except ValueError as e:
                         log(f'\n  ✗ {e}')
                         continue
+                    if number_of_resolved == len(component_buildroot):
+                        # XXX when this happens, the bcond might be bogus
+                        # figure out a way to present that information
+                        pass
                     ready_to_rebuild = are_all_done(
                         packages_to_check=set(component_buildroot) & binary_rpms,
                         all_components=components,
