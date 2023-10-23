@@ -11,7 +11,6 @@ mom
 ninja-build
 kernel-tools
 perl-Inline-Python
-playitagainsam
 postgresql
 profanity
 proxmark3
@@ -25,12 +24,12 @@ python-astroid
 audit
 python-autopep8
 python-backrefs
-python-billiard
 python-bitstruct
 botan2
 python-bottle
 python-bsddb3
 btrfs-progs
+python-cachelib
 pycairo
 python-capturer
 python-cbor2
@@ -61,7 +60,6 @@ python-gphoto2
 python-grabbit
 python-greenlet
 python-hatch-jupyter-builder
-python-helpdev
 python-hl7
 python-htmlmin
 i2c-tools
@@ -82,7 +80,6 @@ python-linecache2
 python-linkify-it-py
 python-logutils
 lttng-tools
-python-lz4
 m2crypto
 python-makefun
 python-maxminddb
@@ -93,7 +90,6 @@ python-mglob
 python-migen
 python-mimeparse
 python-minimock
-python-mirakuru
 mod_wsgi
 python-multiprocess
 python-ndjson-testrunner
@@ -109,7 +105,6 @@ python-oslo-sphinx
 python-parso
 python-passlib
 pcapy
-python-pidfile
 python-pivy
 python-precis_i18n
 protobuf
@@ -122,12 +117,14 @@ pyserial
 python-pysmb
 python-pysnmp-mibs
 pysvn
-python-pytest-openfiles
-python-pytest-xprocess
+python-pytest-cache
+python-pytest-shutil
+python-pytest-xdist
 pythia8
 python-pytn3270
 python-random2
 python-recordclass
+python-remoto
 python-requests-mock
 python-schedutils
 python-scss
@@ -151,7 +148,6 @@ python-wcmatch
 python-webob
 python-yappi
 python-yara
-python-zict
 python-zombie-imp
 python3-zope-fixers
 python-zope-i18nmessageid
@@ -159,11 +155,9 @@ pyzor
 qpid-dispatch
 rdiff-backup
 recoll
-rig
 rss2email
 python-samloader
 sigil
-sshuttle
 sudo
 sugar-datastore
 swift-lang
