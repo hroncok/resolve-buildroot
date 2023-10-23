@@ -65,6 +65,7 @@ python-igraph
 python-immutables
 python-iniparse
 python-installer
+python-iso3166
 jsonnet
 python-jsonpointer
 python-kerberos
@@ -102,7 +103,6 @@ python-parso
 python-passlib
 pcapy
 python-pivy
-python-portalocker
 python-precis_i18n
 protobuf
 python-psutil
@@ -120,16 +120,12 @@ python-pytn3270
 python-random2
 python-recordclass
 python-requests-mock
-python-retask
-python-rmtest
 python-schedutils
 python-scss
 python-setuptools_scm_git_archive
 python-simpleaudio
 python-snipeit
-python-sphinx-notfound-page
 py-spidev
-python-spotipy
 python-stdnum
 python-straight-plugin
 python-subprocess-tee
@@ -139,6 +135,7 @@ python-tinycss2
 python-toolz
 python-transaction
 python3-typed_ast
+python-typeguard::bootstrap:::
 python-virtualenv-clone
 python-wadllib
 python-wcmatch
