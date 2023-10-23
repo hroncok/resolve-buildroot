@@ -58,11 +58,11 @@ python-igraph
 python-immutables
 python-iniparse
 python-installer
+python-jaraco-envs
 jsonnet
 python-jsonpointer
 python-kerberos
 pykickstart
-python-kitchen
 python-ldap
 libcec
 libsbml
@@ -73,13 +73,13 @@ lttng-tools
 m2crypto
 python-makefun
 python-maxminddb
-python-mbstrdecoder
 med
 python-memcached
 python-metaextract
 python-mglob
 python-mimeparse
 python-minimock
+python-moksha-common
 python-ndjson-testrunner
 python-netaddr
 python-netifaces
@@ -97,7 +97,6 @@ protobuf
 python-psutil
 python-psycopg2
 python-ptyprocess
-pydot
 libesedb
 pyicu
 orocos-kdl
@@ -105,7 +104,6 @@ pyodbc
 pyserial
 python-pysmb
 python-pysnmp-mibs
-python-pysrt
 pysvn
 pythia8
 python-pytn3270
@@ -124,8 +122,10 @@ python-straight-plugin
 python-subprocess-tee
 subversion
 python-subvertpy
+python-textwrap3
 python-tinycss2
 python-toolz
+python-tox-current-env:tests::::
 python-transaction
 python3-typed_ast
 python-wadllib
@@ -144,4 +144,3 @@ sigil
 sudo
 sugar-datastore
 swift-lang
-python-tox:tests::::
