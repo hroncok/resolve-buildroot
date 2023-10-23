@@ -21,6 +21,7 @@ python-amico
 python-apsw
 python-apt
 python-astroid
+python-attrs:tests::::
 audit
 python-autopep8
 python-backrefs
@@ -58,7 +59,6 @@ python-google-i18n-address
 python-gphoto2
 python-grabbit
 python-greenlet
-python-hatch-fancy-pypi-readme
 python-hatch-jupyter-builder
 python-hl7
 python-htmlmin
@@ -68,6 +68,7 @@ python-igraph
 python-immutables
 python-iniparse
 python-installer
+python-jaraco-logging
 python-jaraco-packaging
 jsonnet
 python-jsonpointer
@@ -107,6 +108,7 @@ python-parso
 python-passlib
 pcapy
 python-pivy
+python-portend
 python-precis_i18n
 protobuf
 python-psycopg2
@@ -135,7 +137,6 @@ python-straight-plugin
 python-subprocess-tee
 subversion
 python-subvertpy
-python-tempora
 python-tinycss2
 python-toolz
 python-transaction
