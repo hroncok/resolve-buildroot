@@ -20,8 +20,8 @@ python-apsw
 python-apt
 python-astroid
 audit
+python-automaton
 python-backrefs
-python-beautifulsoup4:soupsieve-tests::::
 botan2
 python-bottle
 python-bsddb3
@@ -29,10 +29,8 @@ btrfs-progs
 pycairo
 python-capturer
 python-cffi
-python-comm
 python-confluent-kafka
 python-copr-common
-python-crayons
 python-crypto
 python-cups
 python-curio
@@ -44,8 +42,8 @@ python-demjson
 python-distlib
 python-dukpy
 python-fdb
-python-filelock:docs-tests::::
 freeradius
+python-futurist
 python-gammu
 gdcm
 python-genshi
@@ -74,7 +72,6 @@ python-linkify-it-py
 lttng-tools
 m2crypto
 python-makefun
-python-matplotlib-inline
 python-maxminddb
 med
 python-memcached
@@ -94,9 +91,7 @@ python-parso
 python-passlib
 pcapy
 python-pivy
-python-platformdirs
 python-precis_i18n
-python-prettytable
 protobuf
 python-psutil
 python-psycopg2
@@ -109,6 +104,7 @@ pyserial
 python-pysmb
 python-pysnmp-mibs
 pysvn
+python-pytest-sugar
 pythia8
 python-pytn3270
 python-recordclass
@@ -126,7 +122,6 @@ python-straight-plugin
 python-subprocess-tee
 subversion
 python-subvertpy
-python-termcolor
 python-tinycss2
 python-toolz
 python-transaction
@@ -147,4 +142,3 @@ sigil
 sudo
 sugar-datastore
 swift-lang
-urlscan
