@@ -1,6 +1,7 @@
 WALinuxAgent
 b43-tools
 coccinelle
+codespell
 cryptlib
 python-drgn
 fontforge
@@ -28,10 +29,10 @@ btrfs-progs
 pycairo
 python-capturer
 python-cffi
-python-chardet:doc::::
 python-confluent-kafka
 python-copr-common
 python-crypto
+python-css-parser
 python-cups
 python-curio
 python-cx-oracle
@@ -61,6 +62,7 @@ jsonnet
 python-jsonpointer
 python-kerberos
 pykickstart
+python-kitchen
 python-ldap
 libcec
 libsbml
@@ -71,6 +73,7 @@ lttng-tools
 m2crypto
 python-makefun
 python-maxminddb
+python-mbstrdecoder
 med
 python-memcached
 python-metaextract
@@ -94,6 +97,7 @@ protobuf
 python-psutil
 python-psycopg2
 python-ptyprocess
+pydot
 libesedb
 pyicu
 orocos-kdl
@@ -101,6 +105,7 @@ pyodbc
 pyserial
 python-pysmb
 python-pysnmp-mibs
+python-pysrt
 pysvn
 pythia8
 python-pytn3270
@@ -139,3 +144,4 @@ sigil
 sudo
 sugar-datastore
 swift-lang
+python-tox:tests::::
