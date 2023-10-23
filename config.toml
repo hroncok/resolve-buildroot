@@ -108,7 +108,7 @@ withouts = ["tests"]
 withouts = ["docs", "tests"]
 
 [[bconds.python-chardet]]
-withouts = ["doc_pdf"]
+withouts = ["doc"]
 
 [[bconds.python-pbr]]
 withs = ["bootstrap"]
