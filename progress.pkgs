@@ -39,9 +39,7 @@ python-defusedxml
 python-demjson
 python-distlib
 python-dukpy
-python-executing:tests::::
 python-fdb
-python-ffmpeg-python
 freeradius
 python-gammu
 gdcm
@@ -103,8 +101,8 @@ python-pysnmp-mibs
 pysvn
 pythia8
 python-pytn3270
+python-re-assert
 python-recordclass
-python-regex
 python-requests-mock
 python-schedutils
 python-scss
@@ -123,6 +121,7 @@ python-tinycss2
 python-toolz
 python-transaction
 python3-typed_ast
+python-uritools
 python-wadllib
 python-webob
 python-yappi
