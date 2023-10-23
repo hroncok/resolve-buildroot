@@ -11,6 +11,7 @@ mom
 ninja-build
 kernel-tools
 perl-Inline-Python
+pmbootstrap
 postgresql
 profanity
 proxmark3
@@ -19,8 +20,8 @@ HepMC3
 python-alsaaudio
 python-apsw
 python-apt
-python-argcomplete
 python-astroid
+python-async-lru
 audit
 python-autopep8
 python-backrefs
@@ -34,6 +35,7 @@ python-capturer
 python-cbor2
 python-cffi
 python-click
+python-colcon-bazel
 python-confluent-kafka
 python-copr-common
 python-crypto
@@ -44,10 +46,11 @@ python-cvxopt
 python-cx-oracle
 Cython:tests::::
 python-cython0.29
-python-datetimerange
+python-dbus-next
 python-defusedxml
 python-demjson
 python-dukpy
+python-easyprocess
 python-fdb
 freeradius
 python-gammu
@@ -68,7 +71,6 @@ python-iniparse
 python-installer
 jsonnet
 python-jsonpointer
-python-jupyter-server-terminals
 python-kerberos
 pykickstart
 python-ldap
@@ -80,7 +82,6 @@ python-linkify-it-py
 lttng-tools
 m2crypto
 python-makefun
-python-marshmallow-enum
 python-maxminddb
 med
 python-memcached
@@ -116,13 +117,12 @@ pyserial
 python-pysmb
 python-pysnmp-mibs
 pysvn
-python-pytest-timeout
 pythia8
 python-pytn3270
 python-random2
 python-recordclass
+python-redis
 python-requests-mock
-resultsdb_conventions
 python-schedutils
 python-scss
 python-setuptools_scm_git_archive
@@ -157,3 +157,4 @@ sigil
 sudo
 sugar-datastore
 swift-lang
+tito
