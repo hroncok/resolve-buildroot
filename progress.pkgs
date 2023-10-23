@@ -11,17 +11,16 @@ mom
 ninja-build
 kernel-tools
 perl-Inline-Python
-pmbootstrap
 postgresql
 profanity
 proxmark3
 pyotherside
 HepMC3
 python-alsaaudio
+python-amico
 python-apsw
 python-apt
 python-astroid
-python-async-lru
 audit
 python-autopep8
 python-backrefs
@@ -35,7 +34,6 @@ python-capturer
 python-cbor2
 python-cffi
 python-click
-python-colcon-bazel
 python-confluent-kafka
 python-copr-common
 python-crypto
@@ -46,11 +44,9 @@ python-cvxopt
 python-cx-oracle
 Cython:tests::::
 python-cython0.29
-python-dbus-next
 python-defusedxml
 python-demjson
 python-dukpy
-python-easyprocess
 python-fdb
 freeradius
 python-gammu
@@ -79,6 +75,7 @@ libsbml
 libselinux
 python-linecache2
 python-linkify-it-py
+python-logutils
 lttng-tools
 m2crypto
 python-makefun
@@ -105,6 +102,7 @@ python-parso
 python-passlib
 pcapy
 python-pivy
+python-portalocker
 python-precis_i18n
 protobuf
 python-psutil
@@ -121,8 +119,9 @@ pythia8
 python-pytn3270
 python-random2
 python-recordclass
-python-redis
 python-requests-mock
+python-retask
+python-rmtest
 python-schedutils
 python-scss
 python-setuptools_scm_git_archive
@@ -130,6 +129,7 @@ python-simpleaudio
 python-snipeit
 python-sphinx-notfound-page
 py-spidev
+python-spotipy
 python-stdnum
 python-straight-plugin
 python-subprocess-tee
@@ -148,6 +148,7 @@ python-yara
 python-zombie-imp
 python3-zope-fixers
 python-zope-i18nmessageid
+pyzor
 qpid-dispatch
 rdiff-backup
 recoll
@@ -157,4 +158,3 @@ sigil
 sudo
 sugar-datastore
 swift-lang
-tito
