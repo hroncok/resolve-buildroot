@@ -39,6 +39,7 @@ python-defusedxml
 python-demjson
 python-distlib
 python-dukpy
+python-editables:doc::::
 python-fdb
 freeradius
 python-gammu
@@ -101,7 +102,6 @@ python-pysnmp-mibs
 pysvn
 pythia8
 python-pytn3270
-python-re-assert
 python-recordclass
 python-requests-mock
 python-schedutils
@@ -121,7 +121,6 @@ python-tinycss2
 python-toolz
 python-transaction
 python3-typed_ast
-python-uritools
 python-wadllib
 python-webob
 python-yappi
