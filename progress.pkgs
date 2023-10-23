@@ -39,7 +39,6 @@ python-defusedxml
 python-demjson
 python-distlib
 python-dukpy
-python-editables:doc::::
 python-fdb
 freeradius
 python-gammu
@@ -47,6 +46,7 @@ gdcm
 python-genshi
 python-gmpy2
 python-gphoto2
+python-hatchling
 python-hl7
 python-htmlmin
 i2c-tools
@@ -86,6 +86,7 @@ python-oslo-sphinx
 python-parso
 python-passlib
 pcapy
+python-pdm-backend
 python-pivy
 python-precis_i18n
 protobuf
