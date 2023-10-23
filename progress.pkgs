@@ -28,6 +28,7 @@ btrfs-progs
 pycairo
 python-capturer
 python-cffi
+python-chardet:doc::::
 python-confluent-kafka
 python-copr-common
 python-crypto
@@ -97,7 +98,6 @@ libesedb
 pyicu
 orocos-kdl
 pyodbc
-python-pyproject-api
 pyserial
 python-pysmb
 python-pysnmp-mibs
