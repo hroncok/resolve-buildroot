@@ -29,6 +29,7 @@ btrfs-progs
 pycairo
 python-capturer
 python-cffi
+python-colcon-core
 python-confluent-kafka
 python-copr-common
 python-crypto
@@ -39,7 +40,6 @@ Cython:tests::::
 python-cython0.29
 python-defusedxml
 python-demjson
-python-distlib
 python-dukpy
 python-fdb
 freeradius
@@ -126,6 +126,7 @@ python-tinycss2
 python-toolz
 python-transaction
 python3-typed_ast
+python-virtualenv:tests::::
 python-wadllib
 python-wcmatch
 python-webob
