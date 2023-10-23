@@ -15,7 +15,6 @@ postgresql
 profanity
 proxmark3
 pyotherside
-python-configupdater
 HepMC3
 python-alsaaudio
 python-amico
@@ -30,7 +29,6 @@ botan2
 python-bottle
 python-bsddb3
 btrfs-progs
-python-build
 pycairo
 python-capturer
 python-cbor2
@@ -60,6 +58,7 @@ python-google-i18n-address
 python-gphoto2
 python-grabbit
 python-greenlet
+python-hatch-fancy-pypi-readme
 python-hatch-jupyter-builder
 python-hl7
 python-htmlmin
@@ -69,6 +68,7 @@ python-igraph
 python-immutables
 python-iniparse
 python-installer
+python-jaraco-packaging
 jsonnet
 python-jsonpointer
 python-kerberos
@@ -102,7 +102,6 @@ python-nose2
 OpenIPMI
 python-openoffice
 python-openpaperwork-core
-python-oscrypto
 python-oslo-sphinx
 python-parso
 python-passlib
@@ -120,8 +119,6 @@ pyserial
 python-pysmb
 python-pysnmp-mibs
 pysvn
-python-pytest-bdd5
-python-pytest-cache
 pythia8
 python-pytn3270
 python-random2
@@ -138,6 +135,7 @@ python-straight-plugin
 python-subprocess-tee
 subversion
 python-subvertpy
+python-tempora
 python-tinycss2
 python-toolz
 python-transaction
