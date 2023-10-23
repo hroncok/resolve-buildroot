@@ -111,12 +111,12 @@ python-oslo-sphinx
 python-parso
 python-passlib
 pcapy
+python-pexpect
 python-pivy
 python-precis_i18n
 protobuf
 python-psutil
 python-psycopg2
-python-ptyprocess
 libesedb
 pyicu
 orocos-kdl
@@ -146,6 +146,7 @@ python-strictyaml
 python-subprocess-tee
 subversion
 python-subvertpy
+python-terminado
 python-tinycss2
 python-toolz
 python-transaction
