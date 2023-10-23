@@ -28,10 +28,6 @@ btrfs-progs
 pycairo
 python-capturer
 python-cffi
-python-colcon-bundle
-python-colcon-cmake
-python-colcon-notification
-python-colcon-ros
 python-confluent-kafka
 python-copr-common
 python-crypto
@@ -106,12 +102,10 @@ pyserial
 python-pysmb
 python-pysnmp-mibs
 pysvn
-python-pytest-venv
 pythia8
 python-pytn3270
 python-recordclass
 python-requests-mock
-python-resultsdb_api
 python-schedutils
 python-scss
 python-setuptools_scm_git_archive
@@ -129,7 +123,6 @@ python-tinycss2
 python-toolz
 python-transaction
 python3-typed_ast
-python-virtualenv-api
 python-wadllib
 python-wcmatch
 python-webob
