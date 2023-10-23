@@ -31,7 +31,6 @@ python-cffi
 python-click
 python-confluent-kafka
 python-copr-common
-python-crossword
 python-crypto
 python-css-parser
 python-cups
@@ -94,7 +93,6 @@ python-parso
 python-passlib
 pcapy
 python-pivy
-python-ppft
 python-precis_i18n
 protobuf
 python-psutil
@@ -108,7 +106,6 @@ pyserial
 python-pysmb
 python-pysnmp-mibs
 pysvn
-python-pytest-expect
 pythia8
 python-pytn3270
 python-random2
@@ -120,7 +117,7 @@ python-setuptools_scm_git_archive
 python-simpleaudio
 python-snipeit
 python-sphinx-notfound-page
-python-sphinxcontrib-jquery
+python-sphinx_rtd_theme
 py-spidev
 python-stdnum
 python-straight-plugin
