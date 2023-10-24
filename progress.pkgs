@@ -1,6 +1,5 @@
 WALinuxAgent
 audiotube
-python-b4
 b43-tools
 coccinelle
 cryptlib
@@ -27,8 +26,8 @@ python-apsw
 python-apt
 python-astroid
 audit
-python-authheaders
 python-autopep8
+python-awsiotsdk
 python-backrefs
 python-bitstruct
 botan2
@@ -123,7 +122,6 @@ python-py-gql
 libesedb
 pyicu
 orocos-kdl
-python-pynamodb
 pyodbc
 python-pyrsistent
 pyserial
@@ -138,7 +136,6 @@ python-random2
 python-recordclass
 python-requests-mock
 python-rq
-python-s3transfer
 python-schedutils
 python-scss
 python-setuptools_scm_git_archive
@@ -162,7 +159,6 @@ python-virtualenv-clone
 python-wadllib
 python-wcmatch
 python-webob
-python-wtforms
 python-xattr
 python-yappi
 python-yara
