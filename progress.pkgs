@@ -1,5 +1,6 @@
 WALinuxAgent
 audiotube
+python-b4
 b43-tools
 coccinelle
 cryptlib
@@ -11,7 +12,6 @@ libsigrokdecode
 lldb
 meld
 mkosi14
-mock
 mom
 openvswitch
 kernel-tools
@@ -27,18 +27,17 @@ python-apsw
 python-apt
 python-astroid
 audit
+python-authheaders
 python-autopep8
 python-backrefs
 python-bitstruct
 botan2
-python-botocore
 python-bottle
 python-bsddb3
 btrfs-progs
 python-capturer
 python-cbor2
 python-cloudpickle
-python-colander
 python-confluent-kafka
 python-copr-common
 python-crypto
@@ -51,10 +50,8 @@ Cython:tests::::
 python-cython0.29
 python-defusedxml
 python-demjson
-python-dkimpy
 python-dotenv
 python-dukpy
-python-email-validator
 python-etcd
 python-fdb
 freeradius
@@ -65,7 +62,6 @@ python-gmpy2
 python-google-i18n-address
 python-gphoto2
 python-grabbit
-python-graphene
 python-greenlet
 gtts
 python-hatch-jupyter-builder
@@ -76,13 +72,10 @@ python-ibm-cloud-sdk-core
 python-idstools
 python-igraph
 python-immutables
-python-influxdb-client
 python-iniparse
 python-installer
 jsonnet
 python-jsonpointer
-python-kdcproxy
-python-keep
 python-kerberos
 pykickstart
 python-ldap
@@ -93,11 +86,9 @@ libsbml
 libselinux
 python-linecache2
 python-linkify-it-py
-python-localzone
 python-logutils
 lttng-tools
 m2crypto
-python-m3u8
 python-makefun
 python-maxminddb
 med
@@ -108,7 +99,6 @@ python-migen
 python-mimeparse
 python-minimock
 mod_wsgi
-python-mrcrowbar
 python-multiprocess
 python-ndjson-testrunner
 python-netaddr
@@ -133,6 +123,7 @@ python-py-gql
 libesedb
 pyicu
 orocos-kdl
+python-pynamodb
 pyodbc
 python-pyrsistent
 pyserial
@@ -147,6 +138,7 @@ python-random2
 python-recordclass
 python-requests-mock
 python-rq
+python-s3transfer
 python-schedutils
 python-scss
 python-setuptools_scm_git_archive
@@ -163,7 +155,6 @@ python-subvertpy
 python-tinycss2
 python-toolz
 python-transaction
-python-trezor
 python-trio
 python3-typed_ast
 python-typeguard::bootstrap:::
@@ -171,8 +162,8 @@ python-virtualenv-clone
 python-wadllib
 python-wcmatch
 python-webob
+python-wtforms
 python-xattr
-python-xeddsa
 python-yappi
 python-yara
 python-zodbpickle
@@ -191,4 +182,3 @@ sudo
 sugar-datastore
 swift-lang
 theme-switcher
-tldr
