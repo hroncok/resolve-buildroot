@@ -1,12 +1,12 @@
 WALinuxAgent
 audiotube
 b43-tools
-binwalk
 coccinelle
 cryptlib
 python-drgn
 fapolicy-analyzer
 fontforge
+heat-cfntools
 insight
 libsigrokdecode
 lldb
@@ -32,7 +32,6 @@ python-autopep8
 python-backrefs
 python-bitstruct
 botan2
-python-boto
 python-bottle
 python-bsddb3
 btrfs-progs
@@ -178,5 +177,4 @@ sigil
 sudo
 sugar-datastore
 swift-lang
-thefuck
 theme-switcher
