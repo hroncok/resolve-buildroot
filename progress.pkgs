@@ -1,5 +1,6 @@
 WALinuxAgent
 audiotube
+auditwheel
 b43-tools
 coccinelle
 cryptlib
@@ -30,6 +31,7 @@ python-autopep8
 python-backrefs
 python-bitstruct
 botan2
+python-botocore
 python-bottle
 python-bsddb3
 btrfs-progs
@@ -72,7 +74,6 @@ python-iniparse
 python-installer
 jsonnet
 python-jsonpointer
-python-jsonschema:tests::::
 python-kerberos
 pykickstart
 python-ldap
@@ -113,6 +114,7 @@ python-passlib
 python-paste
 pcapy
 python-pivy
+python-poetry-core
 python-precis_i18n
 protobuf
 python-psycopg2
@@ -132,6 +134,7 @@ python-pywayland
 python-random2
 python-recordclass
 python-requests-mock
+python-robotframework
 python-rq
 python-schedutils
 python-scss
@@ -169,6 +172,7 @@ qpid-dispatch
 rdiff-backup
 recoll
 rss2email
+rust2rpm
 python-samloader
 sigil
 sudo
