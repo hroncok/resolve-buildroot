@@ -9,7 +9,6 @@ fontforge
 insight
 libsigrokdecode
 lldb
-maturin
 meld
 mkosi14
 mom
@@ -108,6 +107,7 @@ python-ndjson-testrunner
 python-netaddr
 python-netifaces
 newt
+python-nh3
 python-nodeenv
 python-noiseprotocol
 python-nose2
@@ -141,6 +141,7 @@ python-pywayland
 python-random2
 python-recordclass
 python-requests-mock
+python-rpds-py
 python-rq
 python-schedutils
 python-scss
@@ -168,6 +169,7 @@ python-wadllib
 python-wcmatch
 python-webob
 python-xattr
+python-y-py
 python-yappi
 python-yara
 python-zodbpickle
