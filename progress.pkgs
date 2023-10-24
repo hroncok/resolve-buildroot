@@ -27,19 +27,15 @@ python-apt
 python-astroid
 audit
 python-autopep8
-python-azure-datalake-store
 python-backrefs
-python-betamax-matchers
 python-bitstruct
 botan2
 python-bottle
-python-boxsdk
 python-bsddb3
 btrfs-progs
 python-capturer
 python-cbor2
 python-cloudpickle
-python-cloudscraper
 python-confluent-kafka
 python-copr-common
 python-crypto
@@ -76,8 +72,7 @@ python-iniparse
 python-installer
 jsonnet
 python-jsonpointer
-python-jsonschema-specifications:::with_doc::
-python-jupyter-ydoc
+python-jsonschema:tests::::
 python-kerberos
 pykickstart
 python-ldap
@@ -88,7 +83,6 @@ libsbml
 libselinux
 python-linecache2
 python-linkify-it-py
-python-locket
 python-logutils
 lttng-tools
 m2crypto
@@ -102,7 +96,6 @@ python-migen
 python-mimeparse
 python-minimock
 mod_wsgi
-python-msal-extensions
 python-multiprocess
 python-ndjson-testrunner
 python-netaddr
@@ -141,7 +134,6 @@ python-recordclass
 python-requests-mock
 python-rq
 python-schedutils
-python-scitokens
 python-scss
 python-setuptools_scm_git_archive
 python-simpleaudio
