@@ -58,6 +58,7 @@ python-gammu
 gdcm
 python-genshi
 python-gmpy2
+python-google-auth-oauthlib
 python-google-i18n-address
 python-gphoto2
 python-grabbit
@@ -89,7 +90,6 @@ python-logutils
 lttng-tools
 m2crypto
 python-makefun
-python-marathon
 python-maxminddb
 med
 python-memcached
@@ -109,7 +109,6 @@ python-nose2
 OpenIPMI
 python-openoffice
 python-openpaperwork-core
-python-os-service-types
 python-oslo-sphinx
 python-parso
 python-passlib
@@ -120,7 +119,6 @@ python-precis_i18n
 protobuf
 python-psycopg2
 python-py-gql
-python-pyarlo
 libesedb
 pyicu
 orocos-kdl
@@ -136,7 +134,7 @@ python-pytn3270
 python-pywayland
 python-random2
 python-recordclass
-python-requests-oauthlib
+python-ring-doorbell
 python-rq
 python-schedutils
 python-scss
