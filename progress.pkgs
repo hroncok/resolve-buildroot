@@ -6,7 +6,6 @@ coccinelle
 cryptlib
 python-drgn
 fontforge
-gyp
 insight
 libsigrokdecode
 lldb
@@ -14,7 +13,6 @@ meld
 mkosi14
 mom
 kernel-tools
-pipx
 postgresql
 profanity
 proxmark3
@@ -50,7 +48,7 @@ Cython:tests::::
 python-cython0.29
 python-defusedxml
 python-demjson
-python-dictdiffer
+python-dogpile-cache
 python-dukpy
 python-fdb
 freeradius
@@ -72,13 +70,11 @@ python-igraph
 python-immutables
 python-iniparse
 python-installer
-iscsi-initiator-utils
 jsonnet
 python-jsonpointer
 python-kerberos
 pykickstart
-python-kubernetes
-python-lazr-delegates
+python-lazr-config
 python-ldap
 libcec
 dtc
@@ -130,7 +126,6 @@ python-pysnmp-mibs
 pysvn
 pythia8
 python-pytn3270
-qr-code-generator
 python-random2
 python-recordclass
 python-requests-mock
@@ -138,13 +133,11 @@ python-rq
 python-schedutils
 python-scss
 python-setuptools_scm_git_archive
-python-shodan
 python-simpleaudio
 python-snipeit
 libsolv
 py-spidev
 python-stdnum
-python-stevedore
 python-straight-plugin
 python-subprocess-tee
 subversion
@@ -166,7 +159,6 @@ python-zodbpickle
 python-zombie-imp
 python3-zope-fixers
 python-zope-i18nmessageid
-python-zopeundo
 pyzor
 qpid-dispatch
 rdiff-backup
