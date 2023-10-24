@@ -1,6 +1,7 @@
 WALinuxAgent
 audiotube
 b43-tools
+binwalk
 coccinelle
 cryptlib
 python-drgn
@@ -10,6 +11,7 @@ insight
 libsigrokdecode
 lldb
 meld
+mercurial
 mkosi14
 mom
 openvswitch
@@ -27,10 +29,10 @@ python-apt
 python-astroid
 audit
 python-autopep8
-python-awsiotsdk
 python-backrefs
 python-bitstruct
 botan2
+python-boto
 python-bottle
 python-bsddb3
 btrfs-progs
@@ -163,7 +165,6 @@ python-xattr
 python-yappi
 python-yara
 python-zodbpickle
-python-zombie-imp
 python3-zope-fixers
 python-zope-i18nmessageid
 python-zstandard
@@ -177,4 +178,5 @@ sigil
 sudo
 sugar-datastore
 swift-lang
+thefuck
 theme-switcher
