@@ -6,7 +6,6 @@ cryptlib
 python-drgn
 fapolicy-analyzer
 fontforge
-insight
 libsigrokdecode
 lldb
 meld
@@ -20,7 +19,6 @@ postgresql
 profanity
 proxmark3
 pyotherside
-HepMC3
 python-alsaaudio
 python-amico
 python-apsw
@@ -32,7 +30,6 @@ python-backrefs
 python-bitstruct
 botan2
 python-bottle
-python-bsddb3
 btrfs-progs
 python-capturer
 python-cbor2
@@ -47,7 +44,6 @@ python-cvxopt
 python-cx-oracle
 Cython:tests::::
 python-cython0.29
-python-defusedxml
 python-demjson
 python-dotenv
 python-dukpy
@@ -58,7 +54,6 @@ python-gammu
 gdcm
 python-genshi
 python-gmpy2
-python-google-auth-oauthlib
 python-google-i18n-address
 python-gphoto2
 python-grabbit
@@ -70,7 +65,6 @@ python-htmlmin
 i2c-tools
 python-ibm-cloud-sdk-core
 python-idstools
-python-igraph
 python-immutables
 python-iniparse
 python-installer
@@ -85,7 +79,6 @@ libnvme
 libsbml
 libselinux
 python-linecache2
-python-linkify-it-py
 python-logutils
 lttng-tools
 m2crypto
@@ -113,14 +106,12 @@ python-oslo-sphinx
 python-parso
 python-passlib
 python-paste
-pcapy
 python-pivy
 python-precis_i18n
 protobuf
 python-psycopg2
 python-py-gql
 libesedb
-pyicu
 orocos-kdl
 pyodbc
 python-pyrsistent
@@ -134,13 +125,11 @@ python-pytn3270
 python-pywayland
 python-random2
 python-recordclass
-python-ring-doorbell
 python-rq
 python-schedutils
 python-scss
 python-setuptools_scm_git_archive
 python-simpleaudio
-python-snipeit
 libsolv
 py-spidev
 python-spnego
@@ -150,11 +139,12 @@ python-subprocess-tee
 subversion
 python-subvertpy
 python-tinycss2
+python-tinydb
 python-toolz
 python-transaction
 python-trio
-python3-typed_ast
 python-typeguard::bootstrap:::
+python-uritools
 python-virtualenv-clone
 python-wadllib
 python-wcmatch
