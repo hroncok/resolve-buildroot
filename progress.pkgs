@@ -11,6 +11,7 @@ lldb
 meld
 mercurial
 mkosi14
+nyx
 openvswitch
 kernel-tools
 pitivi
@@ -55,7 +56,6 @@ python-gmpy2
 python-google-i18n-address
 python-gphoto2
 python-grabbit
-python-graphviz
 python-greenlet
 gtts
 python-hl7
@@ -101,17 +101,16 @@ OpenIPMI
 python-openoffice
 python-openpaperwork-core
 python-oslo-sphinx
-python-overpy
 python-parso
 python-passlib
 python-paste
+python-pipdeptree
 python-pivy
 python-precis_i18n
 protobuf
 python-psycopg2
 python-py-gql
 libesedb
-python-pyftdi
 orocos-kdl
 pyodbc
 python-pyrsistent
@@ -133,7 +132,6 @@ libsolv
 py-spidev
 python-spnego
 python-stdnum
-python-stem
 python-straight-plugin
 python-subprocess-tee
 subversion
