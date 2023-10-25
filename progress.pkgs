@@ -11,7 +11,6 @@ lldb
 meld
 mercurial
 mkosi14
-mom
 openvswitch
 kernel-tools
 pitivi
@@ -33,7 +32,6 @@ python-bottle
 btrfs-progs
 python-capturer
 python-cbor2
-python-cloudpickle
 python-confluent-kafka
 python-copr-common
 python-crypto
@@ -45,6 +43,7 @@ python-cx-oracle
 Cython:tests::::
 python-cython0.29
 python-demjson
+python-doit
 python-dotenv
 python-dukpy
 python-etcd
@@ -59,7 +58,6 @@ python-gphoto2
 python-grabbit
 python-greenlet
 gtts
-python-hatch-jupyter-builder
 python-hl7
 python-htmlmin
 i2c-tools
@@ -120,7 +118,6 @@ python-pysmb
 python-pysnmp-mibs
 pysvn
 python-pytest-bdd
-pythia8
 python-pytn3270
 python-pywayland
 python-random2
@@ -139,7 +136,6 @@ python-subprocess-tee
 subversion
 python-subvertpy
 python-tinycss2
-python-tinydb
 python-toolz
 python-transaction
 python-trio
