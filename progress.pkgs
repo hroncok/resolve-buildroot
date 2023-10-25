@@ -8,13 +8,10 @@ fapolicy-analyzer
 fontforge
 libsigrokdecode
 lldb
-meld
 mercurial
 mkosi14
-nyx
 openvswitch
 kernel-tools
-pitivi
 postgresql
 profanity
 proxmark3
@@ -66,14 +63,12 @@ python-idstools
 python-immutables
 python-iniparse
 python-installer
+python-jenkins
 jsonnet
 python-jsonpointer
-python-kerberos
 pykickstart
 python-ldap
 libcec
-dtc
-libnvme
 libsbml
 libselinux
 python-linecache2
@@ -94,7 +89,6 @@ python-multiprocess
 python-ndjson-testrunner
 python-netaddr
 python-netifaces
-newt
 python-nodeenv
 python-nose2
 OpenIPMI
@@ -104,7 +98,6 @@ python-oslo-sphinx
 python-parso
 python-passlib
 python-paste
-python-pipdeptree
 python-pivy
 python-precis_i18n
 protobuf
@@ -163,4 +156,3 @@ sigil
 sudo
 sugar-datastore
 swift-lang
-theme-switcher
