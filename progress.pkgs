@@ -43,7 +43,6 @@ python-cx-oracle
 Cython:tests::::
 python-cython0.29
 python-demjson
-python-doit
 python-dotenv
 python-dukpy
 python-etcd
@@ -56,6 +55,7 @@ python-gmpy2
 python-google-i18n-address
 python-gphoto2
 python-grabbit
+python-graphviz
 python-greenlet
 gtts
 python-hl7
@@ -101,6 +101,7 @@ OpenIPMI
 python-openoffice
 python-openpaperwork-core
 python-oslo-sphinx
+python-overpy
 python-parso
 python-passlib
 python-paste
@@ -110,6 +111,7 @@ protobuf
 python-psycopg2
 python-py-gql
 libesedb
+python-pyftdi
 orocos-kdl
 pyodbc
 python-pyrsistent
@@ -131,6 +133,7 @@ libsolv
 py-spidev
 python-spnego
 python-stdnum
+python-stem
 python-straight-plugin
 python-subprocess-tee
 subversion
@@ -139,7 +142,7 @@ python-tinycss2
 python-toolz
 python-transaction
 python-trio
-python-typeguard::bootstrap:::
+python-typeguard
 python-uritools
 python-virtualenv-clone
 python-wadllib
