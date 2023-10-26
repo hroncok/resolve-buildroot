@@ -23,6 +23,7 @@ python-apt
 python-astroid
 audit
 python-autopep8
+python-azure-identity
 python-backrefs
 python-bitstruct
 botan2
