@@ -36,7 +36,6 @@ python-crypto
 python-css-parser
 python-cups
 python-curio
-python-cvxopt
 python-cx-oracle
 Cython:tests::::
 python-cython0.29
@@ -63,12 +62,9 @@ python-idstools
 python-immutables
 python-iniparse
 python-installer
-python-jenkins
 jsonnet
 python-jsonpointer
-pykickstart
 python-ldap
-libcec
 libsbml
 libselinux
 python-linecache2
