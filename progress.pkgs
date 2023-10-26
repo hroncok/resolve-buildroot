@@ -32,7 +32,6 @@ python-cbor2
 python-confluent-kafka
 python-crypto
 python-css-parser
-python-cssselect2
 python-cups
 python-curio
 python-cx-oracle
@@ -106,7 +105,6 @@ pysvn
 python-pytest-bdd
 python-pytn3270
 python-pywayland
-python-qstylizer
 python-random2
 python-recordclass
 python-rq
