@@ -26,8 +26,8 @@ python-autopep8
 python-backrefs
 python-bitstruct
 python-bottle
+python-bsmschema
 btrfs-progs
-python-canonicaljson
 python-capturer
 python-cbor2
 python-confluent-kafka
@@ -39,6 +39,7 @@ python-cx-oracle
 Cython:tests::::
 python-cython0.29
 python-demjson
+python-dirty-equals
 python-dukpy
 python-etcd
 python-fdb
@@ -66,7 +67,6 @@ libsbml
 libselinux
 python-linecache2
 python-logutils
-lttng-tools
 m2crypto
 python-makefun
 med
@@ -94,7 +94,6 @@ python-precis_i18n
 protobuf
 python-psycopg2
 python-py-gql
-python-pydantic
 libesedb
 orocos-kdl
 pyodbc
@@ -105,12 +104,12 @@ python-pytest-bdd
 python-pytn3270
 python-pywayland
 python-random2
-python-read-roi
 python-recordclass
 python-rq
 python-schedutils
 python-scss
 python-setuptools_scm_git_archive
+python-signedjson
 python-simpleaudio
 libsolv
 py-spidev
