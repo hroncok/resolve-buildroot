@@ -55,7 +55,6 @@ gtts
 python-hl7
 python-htmlmin
 i2c-tools
-python-ibm-cloud-sdk-core
 python-idstools
 python-immutables
 python-iniparse
@@ -71,7 +70,6 @@ lttng-tools
 m2crypto
 python-makefun
 med
-python-memcached
 python-metaextract
 python-mglob
 python-migen
@@ -122,7 +120,7 @@ python-subvertpy
 python-toolz
 python-transaction
 python-trio
-python-typeguard
+python-uhashring
 python-uritools
 python-virtualenv-clone
 python-wadllib
