@@ -25,7 +25,6 @@ audit
 python-autopep8
 python-backrefs
 python-bitstruct
-botan2
 python-bottle
 btrfs-progs
 python-capturer
@@ -33,6 +32,7 @@ python-cbor2
 python-confluent-kafka
 python-crypto
 python-css-parser
+python-cssselect2
 python-cups
 python-curio
 python-cx-oracle
@@ -102,12 +102,11 @@ orocos-kdl
 pyodbc
 python-pyrsistent
 pyserial
-python-pysmb
-python-pysnmp-mibs
 pysvn
 python-pytest-bdd
 python-pytn3270
 python-pywayland
+python-qstylizer
 python-random2
 python-recordclass
 python-rq
@@ -122,13 +121,11 @@ python-straight-plugin
 python-subprocess-tee
 subversion
 python-subvertpy
-python-tinycss2
 python-toolz
 python-transaction
 python-trio
 python-typeguard
 python-uritools
-python-vatnumber
 python-virtualenv-clone
 python-wadllib
 python-wcmatch
@@ -145,8 +142,6 @@ qpid-dispatch
 rdiff-backup
 recoll
 rss2email
-python-samloader
 sigil
 sudo
-sugar-datastore
 swift-lang
