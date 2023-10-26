@@ -31,7 +31,6 @@ btrfs-progs
 python-capturer
 python-cbor2
 python-confluent-kafka
-python-copr-common
 python-crypto
 python-css-parser
 python-cups
@@ -72,7 +71,6 @@ python-logutils
 lttng-tools
 m2crypto
 python-makefun
-python-maxminddb
 med
 python-memcached
 python-metaextract
@@ -120,7 +118,6 @@ python-simpleaudio
 libsolv
 py-spidev
 python-spnego
-python-stdnum
 python-straight-plugin
 python-subprocess-tee
 subversion
@@ -131,6 +128,7 @@ python-transaction
 python-trio
 python-typeguard
 python-uritools
+python-vatnumber
 python-virtualenv-clone
 python-wadllib
 python-wcmatch
