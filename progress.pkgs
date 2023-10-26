@@ -16,8 +16,6 @@ postgresql
 profanity
 proxmark3
 pyotherside
-python-adb
-python-aiosignal
 python-alsaaudio
 python-amico
 python-apsw
@@ -29,6 +27,7 @@ python-backrefs
 python-bitstruct
 python-bottle
 btrfs-progs
+python-canonicaljson
 python-capturer
 python-cbor2
 python-confluent-kafka
@@ -40,8 +39,6 @@ python-cx-oracle
 Cython:tests::::
 python-cython0.29
 python-demjson
-python-devolo-home-control-api
-python-dotenv
 python-dukpy
 python-etcd
 python-fdb
@@ -82,14 +79,13 @@ mod_wsgi
 python-multiprocess
 python-ndjson-testrunner
 python-netaddr
-python-netdisco
 python-netifaces
 python-nodeenv
-python-nose2
 OpenIPMI
 python-openoffice
 python-openpaperwork-core
 python-oslo-sphinx
+python-parameterized
 python-parso
 python-passlib
 python-paste
@@ -98,6 +94,7 @@ python-precis_i18n
 protobuf
 python-psycopg2
 python-py-gql
+python-pydantic
 libesedb
 orocos-kdl
 pyodbc
@@ -108,6 +105,7 @@ python-pytest-bdd
 python-pytn3270
 python-pywayland
 python-random2
+python-read-roi
 python-recordclass
 python-rq
 python-schedutils
