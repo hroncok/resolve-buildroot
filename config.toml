@@ -453,6 +453,12 @@ replacements = {with_doc = "0"}
 [[bconds.python-oslo-config]]
 withs = ["repo_bootstrap"]
 
+[[bconds.python-neutronclient]]
+replacements = {with_doc = "0"}
+
+[[bconds.python-glanceclient]]
+replacements = {with_doc = "0"}
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
