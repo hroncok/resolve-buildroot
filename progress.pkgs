@@ -26,7 +26,6 @@ python-autopep8
 python-backrefs
 python-bitstruct
 python-bottle
-python-bsmschema
 btrfs-progs
 python-capturer
 python-cbor2
@@ -39,10 +38,8 @@ python-cx-oracle
 Cython:tests::::
 python-cython0.29
 python-demjson
-python-dirty-equals
 python-dukpy
 python-etcd
-python-fdb
 freeradius
 python-gammu
 gdcm
@@ -95,7 +92,6 @@ protobuf
 python-psycopg2
 python-py-gql
 libesedb
-orocos-kdl
 pyodbc
 python-pyrsistent
 pyserial
@@ -109,7 +105,6 @@ python-rq
 python-schedutils
 python-scss
 python-setuptools_scm_git_archive
-python-signedjson
 python-simpleaudio
 libsolv
 py-spidev
