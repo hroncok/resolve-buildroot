@@ -447,6 +447,12 @@ withouts = ["doc"]
 [[bconds.python-jsonschema-specifications]]
 replacements = {with_doc = "0"}
 
+[[bconds.python-openstackclient]]
+replacements = {with_doc = "0"}
+
+[[bconds.python-oslo-config]]
+withs = ["repo_bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
