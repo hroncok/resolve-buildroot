@@ -2,6 +2,7 @@ WALinuxAgent
 awscli2
 b43-tools
 borgbackup
+cekit
 coccinelle
 cryptlib
 docker-compose
@@ -32,6 +33,7 @@ python-bottle
 btrfs-progs
 python-capturer
 python-cbor2
+python-colcon-ros-bundle
 python-confluent-kafka
 python-cradox
 python-css-parser
@@ -47,7 +49,6 @@ python-dukpy
 python-etcd
 python-fastbencode
 python-filecheck
-fmf
 fonttools:tests::::
 freeradius
 python-gammu
@@ -107,7 +108,6 @@ protobuf
 python-psycopg2
 python-py-gql
 libesedb
-python-pykwalify
 pyliblo
 pyodbc
 python-pyroaring
@@ -120,8 +120,6 @@ python-random2
 receptor
 python-recordclass
 python-reedsolo
-python-rosdep
-python-rosinstall_generator
 python-rq
 python-rtmidi
 python-schedutils
@@ -146,7 +144,6 @@ python-virtualenv-clone
 python-wadllib
 python-wcmatch
 python-webob
-python-widgetsnbextension
 python-wsaccel
 python-yappi
 python-yara
