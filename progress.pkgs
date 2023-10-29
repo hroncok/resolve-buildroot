@@ -1,8 +1,6 @@
 WALinuxAgent
-awscli2
 b43-tools
 borgbackup
-cekit
 coccinelle
 cryptlib
 docker-compose
@@ -33,7 +31,6 @@ python-bottle
 btrfs-progs
 python-capturer
 python-cbor2
-python-colcon-ros-bundle
 python-confluent-kafka
 python-cradox
 python-css-parser
