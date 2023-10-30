@@ -85,7 +85,6 @@ python-minimock
 mod_wsgi
 python-multidict
 python-multiprocess
-python-ndjson-testrunner
 python-netaddr
 python-netifaces
 python-nodeenv
@@ -104,9 +103,7 @@ python-precis_i18n
 protobuf
 python-psycopg2
 python-py-gql
-python-pyahocorasick
 libesedb
-python-pygmars
 pyliblo
 pyodbc
 python-pyroaring
