@@ -9,7 +9,6 @@ docker-compose
 python-drgn
 fapolicy-analyzer
 fontforge
-libvirt-test-API
 lldb
 mercurial
 mkosi14
@@ -47,10 +46,6 @@ python-cython0.29
 python-demjson
 dionaea
 python-djvulibre
-dnf-plugin-cow
-dnf-plugin-flunk_dependent_remove
-dnf-plugins-extras
-dnf-plugin-perfmetrics
 python-dukpy
 python-etcd
 python-fastbencode
@@ -166,7 +161,6 @@ qpid-dispatch
 rdiff-backup
 recoll
 remmina
-retrace-server
 rss2email
 sigil
 sudo
