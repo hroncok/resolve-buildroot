@@ -15,7 +15,6 @@ mkosi14
 opae
 openvswitch
 kernel-tools
-photoqt
 postgresql
 profanity
 proxmark3
@@ -58,7 +57,6 @@ gdcm
 python-genshi
 python-gmpy2
 pygobject3
-python-google-api-core:tests::::
 python-gphoto2
 python-grabbit
 python-greenlet
