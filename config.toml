@@ -363,9 +363,6 @@ withs = ["bootstrap"]
 [[bconds.python-msrest]]
 withouts = ["tests"]
 
-[[bconds.numpy]]
-withouts = ["tests"]
-
 [[bconds.python-oletools]]
 withs = ["bootstrap"]
 
