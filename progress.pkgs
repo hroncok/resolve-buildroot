@@ -104,7 +104,9 @@ python-precis_i18n
 protobuf
 python-psycopg2
 python-py-gql
+python-pyahocorasick
 libesedb
+python-pygmars
 pyliblo
 pyodbc
 python-pyroaring
