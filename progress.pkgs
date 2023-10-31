@@ -10,7 +10,6 @@ python-drgn
 fapolicy-analyzer
 fontforge
 glade
-gnofract4d
 gnumeric
 linkchecker
 lldb
@@ -34,7 +33,6 @@ python-amico
 python-apsw
 python-apt
 python-astroid
-python-asyncmy
 audit
 python-autopep8
 python-backrefs
