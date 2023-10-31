@@ -7,6 +7,7 @@ collectd
 cryptlib
 docker-compose
 python-drgn
+esptool
 fapolicy-analyzer
 fontforge
 glade
@@ -127,7 +128,6 @@ python-qt5
 python-random2
 receptor
 python-recordclass
-python-reedsolo
 python-rq
 python-rtmidi
 python-schedutils
