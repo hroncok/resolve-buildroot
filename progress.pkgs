@@ -9,12 +9,14 @@ docker-compose
 python-drgn
 fapolicy-analyzer
 fontforge
+linkchecker
 lldb
 mercurial
 mkosi14
 opae
 openvswitch
 kernel-tools
+pew
 postgresql
 profanity
 proxmark3
@@ -27,6 +29,7 @@ python-astroid
 python-asyncmy
 audit
 python-autopep8
+python-aws-sam-translator
 python-backrefs
 python-bitstruct
 python-bottle
@@ -89,6 +92,7 @@ python-migen
 python-mimeparse
 python-minimock
 mod_wsgi
+python-moreorless
 python-multidict
 python-multiprocess
 python-netaddr
@@ -100,7 +104,6 @@ python-openoffice
 python-openpaperwork-core
 python-orderedset
 python-oslo-sphinx
-python-parameterized
 python-parso
 python-passlib
 python-paste
@@ -144,7 +147,7 @@ python-transaction
 python-trio
 python-uritools
 vapoursynth
-python-virtualenv-clone
+python-virtualenvwrapper
 python-wadllib
 python-wcmatch
 python-webob
