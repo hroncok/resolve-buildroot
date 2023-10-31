@@ -24,10 +24,13 @@ opae
 openvswitch
 kernel-tools
 postgresql
+pre-commit
+printrun
 profanity
 proxmark3
 pyotherside
 PyQt4
+python-adafruit-board-toolkit
 python-alsaaudio
 python-amico
 python-apsw
@@ -66,6 +69,7 @@ python-gammu
 gdcm
 python-gmpy2
 python-gphoto2
+gpsd
 python-grabbit
 python-greenlet
 python-gstreamer1
@@ -94,6 +98,7 @@ m2crypto
 python-makefun
 med
 python-mglob
+python-microfs
 python-migen
 python-mimeparse
 python-minimock
@@ -102,7 +107,6 @@ python-multidict
 python-multiprocess
 python-netaddr
 python-netifaces
-python-nodeenv
 numpy
 OpenIPMI
 python-openoffice
@@ -123,7 +127,7 @@ pyodbc
 python-pyquery
 python-pyroaring
 python-pyrsistent
-pyserial
+pyserial-asyncio
 pysvn
 python-pytn3270
 python-pywayland
@@ -132,7 +136,6 @@ python-random2
 receptor
 python-recordclass
 python-reedsolo
-restview
 python-rq
 python-rtmidi
 python-schedutils
