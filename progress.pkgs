@@ -38,6 +38,7 @@ audit
 python-autopep8
 python-backrefs
 python-bitstruct
+python-bleach
 python-bottle
 btrfs-progs
 python-caja
@@ -72,7 +73,6 @@ python-gstreamer1
 gtts
 python-hidapi
 python-hl7
-python-html5lib
 python-htmlmin
 i2c-tools
 python-idstools
@@ -133,7 +133,6 @@ python-random2
 receptor
 python-recordclass
 python-reedsolo
-python-relatorio
 python-rq
 python-rtmidi
 python-schedutils
@@ -144,6 +143,7 @@ python-simpleaudio
 python-smartcols
 snallygaster
 libsolv
+python-sphinxygen
 py-spidev
 python-spnego
 python-straight-plugin
