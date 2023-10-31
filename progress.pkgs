@@ -67,7 +67,6 @@ python-gmpy2
 python-gphoto2
 python-grabbit
 python-greenlet
-python-gstreamer1
 gtts
 python-hidapi
 python-hl7
@@ -133,7 +132,6 @@ python-rq
 python-rtmidi
 python-schedutils
 python-scss
-setools
 python-setuptools_scm_git_archive
 python-simpleaudio
 python-smartcols
@@ -150,6 +148,7 @@ python-transaction
 python-trio
 python-uritools
 vapoursynth
+vrpn
 python-wadllib
 python-wcmatch
 python-webob
