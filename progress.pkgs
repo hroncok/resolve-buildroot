@@ -22,12 +22,10 @@ nemo-extensions
 onboard
 opae
 openvswitch
-orca
 kernel-tools
 postgresql
 profanity
 proxmark3
-prunerepo
 pyotherside
 PyQt4
 python-alsaaudio
@@ -66,7 +64,6 @@ fonttools:tests::::
 freeradius
 python-gammu
 gdcm
-python-genshi
 python-gmpy2
 python-gphoto2
 python-grabbit
@@ -75,6 +72,7 @@ python-gstreamer1
 gtts
 python-hidapi
 python-hl7
+python-html5lib
 python-htmlmin
 i2c-tools
 python-idstools
@@ -89,7 +87,6 @@ python-jsonpointer
 python-landslide
 lasso
 python-ldap
-libguestfs
 libsbml
 libselinux
 libuser
@@ -136,6 +133,7 @@ python-random2
 receptor
 python-recordclass
 python-reedsolo
+python-relatorio
 python-rq
 python-rtmidi
 python-schedutils
