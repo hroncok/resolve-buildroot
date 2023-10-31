@@ -38,7 +38,6 @@ audit
 python-autopep8
 python-backrefs
 python-bitstruct
-python-bleach
 python-bottle
 btrfs-progs
 python-caja
@@ -130,6 +129,7 @@ python-pytn3270
 python-pywayland
 python-qt5
 python-random2
+python-readme-renderer
 receptor
 python-recordclass
 python-reedsolo
@@ -143,7 +143,6 @@ python-simpleaudio
 python-smartcols
 snallygaster
 libsolv
-python-sphinxygen
 py-spidev
 python-spnego
 python-straight-plugin
