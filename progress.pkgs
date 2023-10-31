@@ -25,12 +25,10 @@ openvswitch
 kernel-tools
 postgresql
 pre-commit
-printrun
 profanity
 proxmark3
 pyotherside
 PyQt4
-python-adafruit-board-toolkit
 python-alsaaudio
 python-amico
 python-apsw
@@ -69,7 +67,6 @@ python-gammu
 gdcm
 python-gmpy2
 python-gphoto2
-gpsd
 python-grabbit
 python-greenlet
 python-gstreamer1
@@ -98,7 +95,6 @@ m2crypto
 python-makefun
 med
 python-mglob
-python-microfs
 python-migen
 python-mimeparse
 python-minimock
@@ -121,13 +117,13 @@ python-precis_i18n
 libprelude
 python-psycopg2
 python-py-gql
+python-pycomfoair
 libesedb
 pyliblo
 pyodbc
 python-pyquery
 python-pyroaring
 python-pyrsistent
-pyserial-asyncio
 pysvn
 python-pytn3270
 python-pywayland
