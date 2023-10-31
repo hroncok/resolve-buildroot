@@ -1,9 +1,7 @@
 WALinuxAgent
 b43-tools
 beaker
-blueman
 borgbackup
-catfish
 coccinelle
 collectd
 cryptlib
@@ -13,11 +11,9 @@ fapolicy-analyzer
 fontforge
 glade
 gnofract4d
-gnome-abrt
 gnumeric
 linkchecker
 lldb
-lvm2
 mercurial
 mkosi14
 modulemd-tools
@@ -26,10 +22,12 @@ nemo-extensions
 onboard
 opae
 openvswitch
+orca
 kernel-tools
 postgresql
 profanity
 proxmark3
+prunerepo
 pyotherside
 PyQt4
 python-alsaaudio
@@ -42,7 +40,6 @@ audit
 python-autopep8
 python-backrefs
 python-bitstruct
-boom-boot
 python-bottle
 btrfs-progs
 python-caja
@@ -58,11 +55,9 @@ python-curio
 python-cx-oracle
 python-cysignals
 python-cython0.29
-python-dbusmock
 python-demjson
 dionaea
 python-djvulibre
-dnf-plugins-core
 python-dukpy
 python-etcd
 python-fastbencode
@@ -72,7 +67,6 @@ freeradius
 python-gammu
 gdcm
 python-genshi
-glusterfs
 python-gmpy2
 python-gphoto2
 python-grabbit
@@ -95,6 +89,7 @@ python-jsonpointer
 python-landslide
 lasso
 python-ldap
+libguestfs
 libsbml
 libselinux
 libuser
@@ -102,7 +97,6 @@ python-logutils
 m2crypto
 python-makefun
 med
-python-meh
 python-mglob
 python-migen
 python-mimeparse
@@ -127,7 +121,6 @@ python-precis_i18n
 libprelude
 python-psycopg2
 python-py-gql
-pyatspi
 libesedb
 pyliblo
 pyodbc
@@ -160,7 +153,6 @@ python-subprocess-tee
 subversion
 python-subvertpy
 python-toolz
-tracer
 python-transaction
 python-trio
 python-uritools
@@ -184,5 +176,3 @@ rss2email
 sigil
 sudo
 swift-lang
-terminator
-tuned
