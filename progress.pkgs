@@ -116,7 +116,6 @@ python-psycopg2
 python-py-gql
 libesedb
 pyliblo
-python-pylsqpack
 pyodbc
 python-pyquery
 python-pyroaring
