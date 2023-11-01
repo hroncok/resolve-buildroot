@@ -7,7 +7,6 @@ collectd
 cryptlib
 docker-compose
 python-drgn
-esptool
 fapolicy-analyzer
 fontforge
 glade
@@ -117,6 +116,7 @@ python-psycopg2
 python-py-gql
 libesedb
 pyliblo
+python-pylsqpack
 pyodbc
 python-pyquery
 python-pyroaring
