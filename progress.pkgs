@@ -54,8 +54,6 @@ dionaea
 python-djvulibre
 python-dukpy
 python-etcd
-python-extractcode-7z
-python-extractcode-libarchive
 python-fastbencode
 python-filecheck
 fonttools:tests::::
@@ -63,10 +61,6 @@ freeradius
 python-gammu
 gdcm
 python-gmpy2
-python-google-cloud-asset
-python-google-cloud-containeranalysis
-python-google-cloud-debugger-client
-python-google-cloud-filestore
 python-gphoto2
 python-grabbit
 python-greenlet
