@@ -8,6 +8,7 @@ docker-compose
 python-drgn
 fapolicy-analyzer
 fontforge
+gaupol
 glade
 gnumeric
 lldb
@@ -30,6 +31,7 @@ python-amico
 python-apsw
 python-apt
 python-astroid
+python-audioread
 audit
 python-autopep8
 python-backrefs
@@ -97,6 +99,7 @@ python-multidict
 python-multiprocess
 python-netaddr
 python-netifaces
+notcurses
 numpy
 OpenIPMI
 python-openoffice
@@ -114,13 +117,14 @@ python-py-gql
 libesedb
 pyliblo
 pyodbc
+python-pyqt6
 python-pyquery
 python-pyroaring
-python-pyrsistent
 pysvn
 python-pytn3270
 python-pywayland
 python-qt5
+python-r128gain
 python-random2
 receptor
 python-recordclass
@@ -143,7 +147,6 @@ python-toolz
 python-transaction
 python-trio
 python-uritools
-vapoursynth
 vrpn
 python-wadllib
 python-wcmatch
