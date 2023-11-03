@@ -57,7 +57,6 @@ python-dukpy
 python-etcd
 python-fastbencode
 python-filecheck
-python-fontquery
 fonttools:tests::::
 freeradius
 python-gammu
@@ -143,7 +142,6 @@ python-subvertpy
 python-toolz
 python-transaction
 python-trio
-python-typecode-libmagic
 python-uritools
 vrpn
 python-wadllib
