@@ -57,7 +57,6 @@ python-dukpy
 python-etcd
 python-fastbencode
 python-filecheck
-fonttools:tests::::
 freeradius
 python-gammu
 gdcm
@@ -116,7 +115,6 @@ pyliblo
 pyodbc
 python-pyqt6
 python-pyquery
-python-pyroaring
 pysvn
 python-pytn3270
 python-pywayland
