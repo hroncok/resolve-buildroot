@@ -8,7 +8,6 @@ docker-compose
 python-drgn
 fapolicy-analyzer
 fontforge
-gaupol
 glade
 gnumeric
 lldb
@@ -58,6 +57,7 @@ python-dukpy
 python-etcd
 python-fastbencode
 python-filecheck
+python-fontquery
 fonttools:tests::::
 freeradius
 python-gammu
@@ -71,7 +71,6 @@ python-hidapi
 python-hl7
 python-htmlmin
 i2c-tools
-python-idstools
 python-immutables
 python-iniparse
 python-installer
@@ -99,7 +98,6 @@ python-multidict
 python-multiprocess
 python-netaddr
 python-netifaces
-notcurses
 numpy
 OpenIPMI
 python-openoffice
@@ -124,7 +122,6 @@ pysvn
 python-pytn3270
 python-pywayland
 python-qt5
-python-r128gain
 python-random2
 receptor
 python-recordclass
@@ -146,6 +143,7 @@ python-subvertpy
 python-toolz
 python-transaction
 python-trio
+python-typecode-libmagic
 python-uritools
 vrpn
 python-wadllib
