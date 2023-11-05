@@ -1,7 +1,6 @@
 WALinuxAgent
 b43-tools
 beaker
-borgbackup
 coccinelle
 collectd
 docker-compose
@@ -20,7 +19,6 @@ opae
 openvswitch
 kernel-tools
 postgresql
-pre-commit
 profanity
 proxmark3
 pyotherside
@@ -37,7 +35,6 @@ python-backrefs
 python-bitstruct
 python-bottle
 btrfs-progs
-python-caja
 python-capturer
 python-cbor2
 python-cloudflare
@@ -86,7 +83,6 @@ libuser
 python-logutils
 m2crypto
 python-makefun
-med
 python-mglob
 python-migen
 python-mimeparse
@@ -106,6 +102,7 @@ python-parso
 python-passlib
 python-paste
 python-pivy
+python-plaster-pastedeploy
 python-precis_i18n
 libprelude
 python-psycopg2
@@ -131,6 +128,7 @@ python-simpleaudio
 python-smartcols
 snallygaster
 libsolv
+python-sphinx-argparse-cli
 py-spidev
 python-spnego
 python-straight-plugin
@@ -157,7 +155,6 @@ qpid-dispatch
 rdiff-backup
 remmina
 rss2email
-sigil
 sudo
 swift-lang
 python3-docs
