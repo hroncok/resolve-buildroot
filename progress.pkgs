@@ -17,6 +17,7 @@ nemo-extensions
 onboard
 opae
 openvswitch
+pagure-exporter
 kernel-tools
 postgresql
 profanity
@@ -102,7 +103,6 @@ python-parso
 python-passlib
 python-paste
 python-pivy
-python-plaster-pastedeploy
 python-precis_i18n
 libprelude
 python-psycopg2
@@ -128,7 +128,6 @@ python-simpleaudio
 python-smartcols
 snallygaster
 libsolv
-python-sphinx-argparse-cli
 py-spidev
 python-spnego
 python-straight-plugin
