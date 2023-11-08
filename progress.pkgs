@@ -1,7 +1,6 @@
 WALinuxAgent
 b43-tools
 beaker
-coccinelle
 collectd
 docker-compose
 python-drgn
@@ -17,7 +16,6 @@ nemo-extensions
 onboard
 opae
 openvswitch
-pagure-exporter
 kernel-tools
 postgresql
 profanity
@@ -134,6 +132,7 @@ python-straight-plugin
 python-subprocess-tee
 subversion
 python-subvertpy
+python-tiktoken
 python-toolz
 python-transaction
 python-trio
