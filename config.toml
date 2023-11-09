@@ -325,9 +325,6 @@ withouts = ["tests"]
 [[bconds.python-aiohttp]]
 withouts = ["tests"]
 
-[[bconds.python-pep517]]
-withouts = ["tests"]
-
 [[bconds.python-azure-core]]
 withouts = ["tests"]
 
@@ -455,6 +452,9 @@ replacements = {with_doc = "0"}
 
 [[bconds.python-glanceclient]]
 replacements = {with_doc = "0"}
+
+[[bconds.python-domdf-python-tools]]
+withouts = ["tests"]
 
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
