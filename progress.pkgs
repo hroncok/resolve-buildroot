@@ -49,6 +49,7 @@ python-cython0.29
 python-demjson
 dionaea
 python-djvulibre
+python-domdf-python-tools:tests::::
 python-dukpy
 python-etcd
 python-fastbencode
