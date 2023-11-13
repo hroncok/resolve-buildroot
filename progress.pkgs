@@ -101,10 +101,8 @@ python-paste
 python-pivy
 python-precis_i18n
 libprelude
-python-protego
 python-psycopg2
 python-py-gql
-python-pycomposefile
 libesedb
 pyliblo
 pyodbc
@@ -116,7 +114,6 @@ python-qt5
 python-random2
 receptor
 python-recordclass
-python-repoze-tm2
 python-rq
 python-rtmidi
 python-schedutils
