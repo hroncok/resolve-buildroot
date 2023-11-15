@@ -18,7 +18,6 @@ openvswitch
 kernel-tools
 postgresql
 profanity
-proxmark3
 pyotherside
 PyQt4
 python-alsaaudio
@@ -114,6 +113,7 @@ python-qt5
 python-random2
 receptor
 python-recordclass
+python-rpmautospec-core
 python-rq
 python-rtmidi
 python-schedutils
