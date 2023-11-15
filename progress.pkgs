@@ -113,7 +113,6 @@ python-qt5
 python-random2
 receptor
 python-recordclass
-python-rpmautospec-core
 python-rq
 python-rtmidi
 python-schedutils
@@ -138,6 +137,7 @@ python-wcmatch
 python-webob
 python-wsaccel
 python-yappi
+python-yaql
 python-yara
 python-zodbpickle
 python3-zope-fixers
