@@ -189,24 +189,6 @@ withouts = ["tests"]
 [[bconds.python-requests]]
 withouts = ["tests"]
 
-[[bconds.python-sphinxcontrib-applehelp]]
-withouts = ["check"]
-
-[[bconds.python-sphinxcontrib-devhelp]]
-withouts = ["check"]
-
-[[bconds.python-sphinxcontrib-htmlhelp]]
-withouts = ["check"]
-
-[[bconds.python-sphinxcontrib-jsmath]]
-withouts = ["check"]
-
-[[bconds.python-sphinxcontrib-qthelp]]
-withouts = ["check"]
-
-[[bconds.python-sphinxcontrib-serializinghtml]]
-withouts = ["check"]
-
 [[bconds.python-sphinx]]
 withouts = ["tests", "websupport"]
 
