@@ -190,7 +190,7 @@ withouts = ["tests"]
 withouts = ["tests"]
 
 [[bconds.python-sphinx]]
-withouts = ["tests", "websupport"]
+withouts = ["tests", "sphinxcontrib"]
 
 [[bconds.python-jedi]]
 withouts = ["tests"]
