@@ -6,7 +6,6 @@ collectd
 dmlite
 docker-compose
 python-drgn
-elements-alexandria
 fontforge
 gdb
 glade
@@ -14,8 +13,8 @@ gnucash
 gnumeric
 libarrow
 libreoffice
-lirc
 lldb
+manafirewall
 mercurial
 mkosi14
 nautilus-python
@@ -87,7 +86,7 @@ python-immutables
 python-iniparse
 python-installer
 python-intbitset
-python-jaraco-collections
+python-irc
 jc
 python-jenkins-job-builder
 jsonnet
@@ -98,11 +97,9 @@ python-ldap
 libsbml
 libselinux
 libuser
-libxc
 python-logutils
 m2crypto
 python-makefun
-python-manatools
 python-mglob
 python-migen
 python-mimeparse
@@ -117,7 +114,6 @@ netcdf4-python
 python-netifaces
 python-numexpr
 onnx
-onnxruntime
 OpenIPMI
 python-openoffice
 python-openopt
@@ -170,7 +166,6 @@ python-toolz
 trademgen
 python-trio
 python-uritools
-urjtag
 vrpn
 python-wadllib
 python-wcmatch
@@ -190,6 +185,7 @@ rb_libtorrent
 rdiff-backup
 remmina
 rss2email
+sourcextractor++
 sudo
 swift-lang
 python3-docs
