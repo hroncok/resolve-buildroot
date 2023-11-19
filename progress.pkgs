@@ -29,7 +29,6 @@ pyotherside
 PyQt4
 python-Traits::bootstrap:::
 abiword
-python-aioodbc
 python-alsaaudio
 python-amico
 python-apsw
@@ -42,6 +41,7 @@ python-avocado
 python-backrefs
 python-bottle
 btrfs-progs
+python3-cangjie
 python-capturer
 python-confluent-kafka
 python-contourpy::bootstrap:::
@@ -53,11 +53,11 @@ python-curio
 cvc5
 python-cysignals
 python-cython0.29
-python-debian
 python-demjson
 dionaea
 python-djvulibre
 python-docx
+dput-ng
 python-eccodes
 python-etcd
 python-fastbencode
@@ -153,7 +153,6 @@ python-toolz
 trademgen
 python-trio
 python-uritools
-python-uswid
 vrpn
 python-wadllib
 python-wcmatch
@@ -170,7 +169,6 @@ qpid-dispatch
 rb_libtorrent
 remmina
 rss2email
-setroubleshoot
 sourcextractor++
 swift-lang
 python3-docs
