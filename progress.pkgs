@@ -11,6 +11,7 @@ gdb
 glade
 gnucash
 gnumeric
+ibus-cangjie
 libarrow
 libreoffice
 lldb
@@ -41,10 +42,8 @@ python-avocado
 python-backrefs
 python-bottle
 btrfs-progs
-python3-cangjie
 python-capturer
 python-confluent-kafka
-python-contourpy::bootstrap:::
 python-cradox
 python-css-parser
 python-cssutils
@@ -57,7 +56,6 @@ python-demjson
 dionaea
 python-djvulibre
 python-docx
-dput-ng
 python-eccodes
 python-etcd
 python-fastbencode
@@ -146,7 +144,7 @@ libsolv
 spglib
 python-spnego
 python-straight-plugin
-python-subprocess-tee
+python-subprocess-tee:tests::::
 subversion
 python-subvertpy
 python-toolz
