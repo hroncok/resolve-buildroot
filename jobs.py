@@ -1,5 +1,6 @@
 import collections
 import functools
+import os
 import sys
 
 from sacks import MULTILIB, rawhide_sack, target_sack
@@ -218,8 +219,7 @@ if __name__ == '__main__':
         )
 
         if ready_to_rebuild:
-            # XXX make this configurable
-            if component not in components_done:
+            if os.environ.get('PRINT_ALL') or component not in components_done:
                 print(component)
         elif component in CONFIG['bconds']:
             for bcond_config in CONFIG['bconds'][component]:
@@ -245,7 +245,7 @@ if __name__ == '__main__':
                         loop_detector=loop_detector,
                     )
                     if ready_to_rebuild:
-                        if component not in components_done:
+                        if os.environ.get('PRINT_ALL') or component not in components_done:
                             print(bcond_config['id'])
                 else:
                     log(f' • {bcond_config["id"]} bcond SRPM not present yet, skipping')
