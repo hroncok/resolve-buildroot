@@ -37,7 +37,6 @@ astrometry
 python-audioread
 audit
 python-autopep8
-python-autoprop
 python-avocado
 python-backrefs
 python-bottle
@@ -121,7 +120,6 @@ python-precis_i18n
 libprelude
 python-psycopg2
 python-py-gql
-python-pydyf
 libesedb
 python-pyfastnoisesimd
 pygame
@@ -152,6 +150,7 @@ python-tinygrad
 python-toolz
 python-trio
 python-uritools
+python-vecrec
 vrpn
 python-wadllib
 python-wcmatch
