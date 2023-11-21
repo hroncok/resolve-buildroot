@@ -20,10 +20,9 @@ mkosi14
 nautilus-python
 nemo-extensions
 nextpnr
-nova-agent
+nicotine+
 obs-studio
 openvswitch
-pdfarranger
 kernel-tools
 postgresql
 profanity
@@ -57,8 +56,8 @@ python-cython0.29
 python-demjson
 dionaea
 python-djvulibre
-python-docx
 python-etcd
+python-extractcode
 python-fastbencode
 python-filecheck
 freeradius
@@ -92,7 +91,6 @@ libuser
 python-logutils
 m2crypto
 python-makefun
-python-markups
 python-mglob
 python-migen
 python-mimeparse
@@ -130,7 +128,6 @@ pygsl
 pyliblo
 python-pyqt6
 python-pyquery
-python-pytest-xvfb
 python-pytn3270
 python-pywayland
 python-qt5
@@ -155,8 +152,6 @@ python-tinygrad
 python-toolz
 trademgen
 python-trio
-python-trml2pdf
-python-typecode
 python-uritools
 vrpn
 python-wadllib
@@ -175,7 +170,6 @@ qpid-dispatch
 rb_libtorrent
 remmina
 rss2email
-rst2pdf
 sourcextractor++
 swift-lang
 python3-docs
