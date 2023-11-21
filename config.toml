@@ -438,6 +438,9 @@ replacements = {with_doc = "0"}
 [[bconds.python-domdf-python-tools]]
 withouts = ["tests"]
 
+[[bconds.python-tiny-proxy]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
