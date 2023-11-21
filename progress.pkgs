@@ -37,6 +37,7 @@ astrometry
 python-audioread
 audit
 python-autopep8
+python-autoprop
 python-avocado
 python-backrefs
 python-bottle
@@ -104,7 +105,6 @@ netcdf4-python
 python-nuheat
 python-numexpr
 onnx
-python-openapi-spec-validator
 OpenIPMI
 python-openoffice
 python-openopt
@@ -113,7 +113,6 @@ python-orderedset
 python-parso
 python-passlib
 python-paste
-python-perky
 petsc
 python-photutils
 python-piexif
@@ -130,8 +129,6 @@ pygsl
 pyliblo
 python-pyqt6
 python-pyquery
-python-pyrpm
-python-pysaml2
 python-pytn3270
 python-pywayland
 python-qt5
@@ -142,7 +139,6 @@ scipy
 python-scss
 python-setuptools_scm_git_archive
 python-shapely
-python-signature-dispatch
 python-simpleaudio
 python-smartcols
 snallygaster
@@ -152,7 +148,6 @@ python-spnego
 python-straight-plugin
 subversion
 python-subvertpy
-python-surt
 python-tinygrad
 python-toolz
 python-trio
@@ -174,7 +169,6 @@ pyzor
 qpid-dispatch
 rb_libtorrent
 remmina
-resalloc-ibm-cloud
 rss2email
 sourcextractor++
 swift-lang
