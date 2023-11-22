@@ -27,6 +27,7 @@ kernel-tools
 postgresql
 profanity
 pyotherside
+NLopt
 PyQt4
 python-Traits::bootstrap:::
 abiword
@@ -82,6 +83,7 @@ jc
 python-jenkins-job-builder
 jsonnet
 python-jsonpointer
+python-kafka
 python-landslide
 lasso
 python-ldap
@@ -161,12 +163,12 @@ python-yappi
 python-zodbpickle
 python3-zope-fixers
 python-zope-i18nmessageid
-python-zstandard
 zxing-cpp
 pyzor
 qpid-dispatch
 rb_libtorrent
 remmina
+rpmlint
 rss2email
 sourcextractor++
 swift-lang
