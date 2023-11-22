@@ -31,6 +31,7 @@ NLopt
 PyQt4
 python-Traits::bootstrap:::
 abiword
+python-aiokafka
 python-alsaaudio
 python-amico
 python-apsw
