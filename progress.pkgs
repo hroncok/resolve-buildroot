@@ -27,7 +27,6 @@ kernel-tools
 postgresql
 profanity
 pyotherside
-NLopt
 PyQt4
 python-Traits::bootstrap:::
 abiword
@@ -60,6 +59,7 @@ python-demjson
 dionaea
 python-djvulibre
 python-etcd
+python-fiona
 python-flask-httpauth
 flatpak-module-tools
 freeradius
@@ -84,7 +84,6 @@ jc
 python-jenkins-job-builder
 jsonnet
 python-jsonpointer
-python-kafka
 python-landslide
 lasso
 python-ldap
@@ -113,6 +112,7 @@ python-openoffice
 python-openopt
 python-openpaperwork-core
 python-orderedset
+pyosmium
 python-parso
 python-passlib
 python-paste
@@ -139,7 +139,6 @@ python-rq
 python-rtmidi
 python-scss
 python-setuptools_scm_git_archive
-python-shapely
 python-simpleaudio
 python-smartcols
 snallygaster
@@ -169,7 +168,6 @@ pyzor
 qpid-dispatch
 rb_libtorrent
 remmina
-rpmlint
 rss2email
 sourcextractor++
 swift-lang
