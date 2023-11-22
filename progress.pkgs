@@ -7,7 +7,6 @@ collectd
 dmlite
 docker-compose
 python-drgn
-etckeeper
 fontforge
 gdb
 glade
@@ -79,9 +78,9 @@ python-iniparse
 python-inkex
 python-installer
 python-intbitset
+python-intern
 jc
 python-jenkins-job-builder
-python-joblib
 jsonnet
 python-jsonpointer
 python-landslide
@@ -136,6 +135,7 @@ python-qt5
 python-random2
 python-rq
 python-rtmidi
+python-scikit-learn
 python-scss
 python-setuptools_scm_git_archive
 python-shapely
