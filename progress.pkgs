@@ -13,7 +13,6 @@ glade
 python-glue
 gnucash
 gnumeric
-ini2toml
 libarrow
 libreoffice
 lldb
@@ -46,6 +45,8 @@ python-backrefs
 python-bottle
 btrfs-progs
 python-capturer
+python-cffsubr
+python-compreffor
 python-confluent-kafka
 python-contourpy::bootstrap:::
 python-cradox
@@ -56,14 +57,17 @@ python-curio
 cvc5
 python-cysignals
 python-cython0.29
+python-defcon
 python-demjson
 dionaea
 python-djvulibre
 python-etcd
 python-flask-httpauth
 flatpak-module-tools
+python-fontMath
+python-fontname
+python-fontrpmspec
 freeradius
-python-fs
 future
 gdcm
 python-gmpy2
@@ -93,7 +97,6 @@ libuser
 python-logutils
 m2crypto
 python-makefun
-python-mdurl
 python-mglob
 python-migen
 python-mimeparse
@@ -106,6 +109,7 @@ python-multiprocess
 python-mwclient
 python-netaddr
 netcdf4-python
+nototools
 python-nuheat
 python-numexpr
 onnx
@@ -129,7 +133,6 @@ python-py-gql
 libesedb
 python-pyfastnoisesimd
 pygame
-python-pygments-git
 pygsl
 pyliblo
 python-pymemcache
@@ -137,7 +140,6 @@ python-pyqt6
 python-pyquery
 python-pyscaffold
 python-pytn3270
-python-pytz-deprecation-shim
 python-pywayland
 python-qt5
 python-rq
@@ -157,11 +159,12 @@ python-time-machine
 python-tinygrad
 python-toolz
 python-trio
-python-unicodedata2
+python-tzlocal
 python-uritools
 vrpn
 python-wadllib
 python-wcmatch
+weasyprint
 python-webob
 python-webscrapbook
 python-wxpython4
