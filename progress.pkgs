@@ -13,6 +13,7 @@ glade
 python-glue
 gnucash
 gnumeric
+khal
 libarrow
 libreoffice
 lldb
@@ -27,6 +28,7 @@ kernel-tools
 postgresql
 profanity
 pyotherside
+python-APScheduler
 NLopt
 PyQt4
 python-Traits::bootstrap:::
@@ -46,7 +48,6 @@ python-bottle
 btrfs-progs
 python-capturer
 python-cffsubr
-python-compreffor
 python-confluent-kafka
 python-contourpy::bootstrap:::
 python-cradox
@@ -57,16 +58,12 @@ python-curio
 cvc5
 python-cysignals
 python-cython0.29
-python-defcon
 python-demjson
 dionaea
 python-djvulibre
 python-etcd
 python-flask-httpauth
 flatpak-module-tools
-python-fontMath
-python-fontname
-python-fontrpmspec
 freeradius
 future
 gdcm
@@ -106,10 +103,10 @@ mod_wsgi
 mpi4py
 python-multidict
 python-multiprocess
+python-mutatormath
 python-mwclient
 python-netaddr
 netcdf4-python
-nototools
 python-nuheat
 python-numexpr
 onnx
@@ -133,6 +130,7 @@ python-py-gql
 libesedb
 python-pyfastnoisesimd
 pygame
+python-pygrocy
 pygsl
 pyliblo
 python-pymemcache
@@ -159,12 +157,10 @@ python-time-machine
 python-tinygrad
 python-toolz
 python-trio
-python-tzlocal
 python-uritools
 vrpn
 python-wadllib
 python-wcmatch
-weasyprint
 python-webob
 python-webscrapbook
 python-wxpython4
