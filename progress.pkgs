@@ -59,6 +59,7 @@ python-demjson
 dionaea
 python-djvulibre
 python-etcd
+python-faker
 python-flask-httpauth
 flatpak-module-tools
 freeradius
@@ -89,6 +90,7 @@ python-ldap
 libsbml
 libuser
 python-logutils
+python-lqrt
 m2crypto
 python-makefun
 python-mglob
@@ -130,10 +132,10 @@ pygsl
 pyliblo
 python-pyqt6
 python-pyquery
+python-pysol-cards
 python-pytn3270
 python-pywayland
 python-qt5
-python-random2
 python-rq
 python-rtmidi
 python-scss
