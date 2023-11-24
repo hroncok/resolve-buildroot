@@ -86,7 +86,6 @@ jsonnet
 python-jsonpointer
 python-landslide
 lasso
-python-ldap
 libsbml
 libuser
 python-logutils
@@ -101,7 +100,6 @@ mod_wsgi
 mpi4py
 python-multidict
 python-multiprocess
-python-mwclient
 python-netaddr
 netcdf4-python
 python-nuheat
@@ -134,7 +132,7 @@ python-pyqt6
 python-pyquery
 python-pyscaffold
 python-pytn3270
-python-pywayland
+python-pywlroots
 python-qt5
 python-rq
 python-rtmidi
@@ -158,6 +156,7 @@ python-wadllib
 python-wcmatch
 python-webob
 python-webscrapbook
+python-wikitcms
 python-wxpython4
 xcfun
 python-yappi
