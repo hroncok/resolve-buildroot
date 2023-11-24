@@ -13,7 +13,6 @@ glade
 python-glue
 gnucash
 gnumeric
-khal
 libarrow
 libreoffice
 lldb
@@ -28,7 +27,6 @@ kernel-tools
 postgresql
 profanity
 pyotherside
-python-APScheduler
 NLopt
 PyQt4
 python-Traits::bootstrap:::
@@ -103,7 +101,6 @@ mod_wsgi
 mpi4py
 python-multidict
 python-multiprocess
-python-mutatormath
 python-mwclient
 python-netaddr
 netcdf4-python
@@ -130,7 +127,6 @@ python-py-gql
 libesedb
 python-pyfastnoisesimd
 pygame
-python-pygrocy
 pygsl
 pyliblo
 python-pymemcache
@@ -153,7 +149,6 @@ python-spnego
 python-straight-plugin
 subversion
 python-subvertpy
-python-time-machine
 python-tinygrad
 python-toolz
 python-trio
