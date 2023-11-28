@@ -10,7 +10,6 @@ fontforge
 gdb
 glade
 python-glue
-gnucash
 gnumeric
 libarrow
 libreoffice
@@ -163,7 +162,6 @@ zxing-cpp
 pyzor
 qpid-dispatch
 rb_libtorrent
-relval
 remmina
 rss2email
 sourcextractor++
