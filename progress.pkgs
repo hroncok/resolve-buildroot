@@ -6,11 +6,13 @@ collectd
 dmlite
 docker-compose
 python-drgn
+python-esphomeflasher
 fontforge
 gdb
 glade
 python-glue
 gnumeric
+lammps
 libarrow
 libreoffice
 lldb
@@ -18,12 +20,11 @@ mercurial
 mkosi14
 nautilus-python
 nemo-extensions
+neuron
 nextpnr
 obs-studio
 openvswitch
 kernel-tools
-postgresql16
-postgresql15
 profanity
 pyotherside
 NLopt
@@ -56,6 +57,7 @@ cvc5
 python-cysignals
 python-cython0.29
 python-demjson
+python-dijitso
 dionaea
 python-djvulibre
 python-etcd
@@ -95,7 +97,6 @@ python-mimeparse
 python-minimock
 mlir
 mod_wsgi
-mpi4py
 python-multidict
 python-multiprocess
 python-netaddr
@@ -126,6 +127,7 @@ pygame
 pygsl
 pyliblo
 python-pymemcache
+python-pyobd
 python-pyqt6
 python-pyscaffold
 python-pytn3270
@@ -151,7 +153,6 @@ python-wadllib
 python-wcmatch
 python-webob
 python-webscrapbook
-python-wxpython4
 xcfun
 python-yappi
 python-zodbpickle
@@ -160,9 +161,11 @@ python-zope-i18nmessageid
 zxing-cpp
 pyzor
 qpid-dispatch
+quisk
 rb_libtorrent
 remmina
 rss2email
 sourcextractor++
 swift-lang
+trelby
 python3-docs
