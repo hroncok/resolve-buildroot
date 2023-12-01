@@ -6,7 +6,6 @@ collectd
 dmlite
 docker-compose
 python-drgn
-python-esphomeflasher
 fontforge
 gdb
 glade
@@ -57,7 +56,6 @@ cvc5
 python-cysignals
 python-cython0.29
 python-demjson
-python-dijitso
 dionaea
 python-djvulibre
 python-etcd
@@ -127,7 +125,6 @@ pygame
 pygsl
 pyliblo
 python-pymemcache
-python-pyobd
 python-pyqt6
 python-pyscaffold
 python-pytn3270
@@ -167,5 +164,4 @@ remmina
 rss2email
 sourcextractor++
 swift-lang
-trelby
 python3-docs
