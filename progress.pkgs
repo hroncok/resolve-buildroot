@@ -33,7 +33,7 @@ abiword
 python-alsaaudio
 python-amico
 python-apsw
-python-ase
+python-archspec
 python-astroid
 astrometry
 python-audioread
@@ -41,6 +41,7 @@ audit
 python-autopep8
 python-avocado
 python-backrefs
+python-blosc2
 python-bottle
 btrfs-progs
 python-capturer
