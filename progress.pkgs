@@ -26,7 +26,6 @@ openvswitch
 kernel-tools
 profanity
 pyotherside
-pyp2spec
 NLopt
 PyQt4
 python-Traits::bootstrap:::
@@ -45,7 +44,6 @@ python-bottle
 btrfs-progs
 python-capturer
 python-cffsubr
-python-coincidence
 python-confluent-kafka
 python-contourpy::bootstrap:::
 python-cradox
@@ -70,6 +68,7 @@ python-gphoto2
 python-grabbit
 python-greenlet
 gtts
+python-hatch-requirements-txt
 python-hl7
 python-htmlmin
 python-imagecodecs
@@ -90,6 +89,7 @@ libuser
 python-logutils
 m2crypto
 python-makefun
+python-markdown-it-py:plugins::::
 python-mglob
 python-migen
 python-mimeparse
@@ -138,7 +138,6 @@ python-smartcols
 snallygaster
 libsolv
 spglib
-python-sphinx-tabs
 python-spnego
 python-straight-plugin
 subversion
