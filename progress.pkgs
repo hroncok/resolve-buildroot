@@ -85,6 +85,7 @@ jsonnet
 python-jsonpointer
 python-landslide
 lasso
+libmamba
 libsbml
 libuser
 python-logutils
@@ -154,7 +155,6 @@ python-webob
 python-webscrapbook
 xcfun
 python-yappi
-python-zdaemon
 python-zodbpickle
 python3-zope-fixers
 python-zope-i18nmessageid
