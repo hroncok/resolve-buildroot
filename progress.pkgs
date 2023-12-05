@@ -89,7 +89,6 @@ libuser
 python-logutils
 m2crypto
 python-makefun
-python-mdit-py-plugins
 python-mglob
 python-migen
 python-mimeparse
@@ -98,6 +97,7 @@ mlir
 mod_wsgi
 python-multidict
 python-multiprocess
+python-myst-parser
 python-netaddr
 netcdf4-python
 python-nuheat
