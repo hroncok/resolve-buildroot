@@ -26,10 +26,10 @@ openvswitch
 kernel-tools
 profanity
 pyotherside
+python-BTrees
 NLopt
 PyQt4
 python-Traits::bootstrap:::
-python-ZConfig
 abiword
 python-alsaaudio
 python-amico
@@ -98,7 +98,6 @@ mlir
 mod_wsgi
 python-multidict
 python-multiprocess
-python-nbformat
 python-netaddr
 netcdf4-python
 python-nuheat
@@ -113,7 +112,6 @@ pyosmium
 python-parso
 python-passlib
 python-paste
-python-persistent
 petsc
 python-photutils
 python-piexif
@@ -130,7 +128,6 @@ pyliblo
 python-pymemcache
 python-pyqt6
 python-pyscaffold
-python-pytest-cython
 python-pytn3270
 python-qt5
 python-rich
@@ -157,7 +154,7 @@ python-webob
 python-webscrapbook
 xcfun
 python-yappi
-python-zc-customdoctests
+python-zdaemon
 python-zodbpickle
 python3-zope-fixers
 python-zope-i18nmessageid
