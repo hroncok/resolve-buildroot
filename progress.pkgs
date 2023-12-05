@@ -89,7 +89,7 @@ libuser
 python-logutils
 m2crypto
 python-makefun
-python-markdown-it-py:plugins::::
+python-mdit-py-plugins
 python-mglob
 python-migen
 python-mimeparse
@@ -130,6 +130,7 @@ python-pyqt6
 python-pyscaffold
 python-pytn3270
 python-qt5
+python-rich
 python-rtmidi
 python-scss
 python-setuptools_scm_git_archive
