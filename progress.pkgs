@@ -26,6 +26,7 @@ openvswitch
 kernel-tools
 profanity
 pyotherside
+pyp2spec
 NLopt
 PyQt4
 python-Traits::bootstrap:::
@@ -33,7 +34,6 @@ abiword
 python-alsaaudio
 python-amico
 python-apsw
-python-archspec
 python-astroid
 astrometry
 python-audioread
@@ -41,11 +41,11 @@ audit
 python-autopep8
 python-avocado
 python-backrefs
-python-blosc2
 python-bottle
 btrfs-progs
 python-capturer
 python-cffsubr
+python-coincidence
 python-confluent-kafka
 python-contourpy::bootstrap:::
 python-cradox
@@ -138,6 +138,7 @@ python-smartcols
 snallygaster
 libsolv
 spglib
+python-sphinx-tabs
 python-spnego
 python-straight-plugin
 subversion
