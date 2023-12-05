@@ -21,6 +21,7 @@ nautilus-python
 nemo-extensions
 neuron
 nextpnr
+nox
 obs-studio
 openvswitch
 kernel-tools
@@ -82,6 +83,7 @@ jc
 python-jenkins-job-builder
 jsonnet
 python-jsonpointer
+python-jupyter-core
 python-landslide
 lasso
 libsbml
@@ -89,6 +91,7 @@ libuser
 python-logutils
 m2crypto
 python-makefun
+python-manuel
 python-mglob
 python-migen
 python-mimeparse
@@ -97,7 +100,6 @@ mlir
 mod_wsgi
 python-multidict
 python-multiprocess
-python-myst-parser
 python-netaddr
 netcdf4-python
 python-nuheat
@@ -139,6 +141,7 @@ python-smartcols
 snallygaster
 libsolv
 spglib
+python-sphinx-design
 python-spnego
 python-straight-plugin
 subversion
