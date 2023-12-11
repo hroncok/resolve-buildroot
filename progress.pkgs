@@ -106,7 +106,6 @@ python-numexpr
 onnx
 OpenIPMI
 python-openoffice
-python-openopt
 python-openpaperwork-core
 python-orderedset
 pyosmium
@@ -167,4 +166,5 @@ remmina
 rss2email
 sourcextractor++
 swift-lang
+xwayland-run
 python3-docs
