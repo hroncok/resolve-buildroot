@@ -351,6 +351,15 @@ withouts = ["tests"]
 [[bconds.fonttools]]
 withouts = ["tests"]
 
+[[bconds.conda]]
+withouts = ["tests"]
+
+[[bconds.conda-build]]
+withouts = ["tests"]
+
+[[bconds.python-conda-index]]
+withs = ["bootstrap"]
+
 [[bconds.python-conda-package-streaming]]
 withs = ["bootstrap"]
 
