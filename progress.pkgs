@@ -85,7 +85,6 @@ jsonnet
 python-jsonpointer
 python-landslide
 lasso
-libmamba
 libsbml
 libuser
 python-logutils
@@ -166,5 +165,4 @@ remmina
 rss2email
 sourcextractor++
 swift-lang
-xwayland-run
 python3-docs
