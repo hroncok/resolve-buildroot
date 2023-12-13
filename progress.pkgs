@@ -46,7 +46,6 @@ btrfs-progs
 python-capturer
 python-cffsubr
 python-confluent-kafka
-python-contourpy::bootstrap:::
 python-cradox
 python-css-parser
 python-cssutils
@@ -64,6 +63,7 @@ flatpak-module-tools
 freeradius
 future
 gdcm
+python-gitlab
 python-gmpy2
 python-gphoto2
 python-grabbit
@@ -86,9 +86,9 @@ lasso
 libsbml
 libuser
 python-logutils
+python-lsp-jsonrpc
 m2crypto
 python-makefun
-python-menuinst
 python-mglob
 python-migen
 python-mimeparse
@@ -96,6 +96,7 @@ python-minimock
 mlir
 mod_wsgi
 python-multiprocess
+nest
 python-netaddr
 netcdf4-python
 python-nuheat
