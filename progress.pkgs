@@ -1,6 +1,5 @@
 WALinuxAgent
 b43-tools
-bandit
 beaker
 buildstream
 collectd
@@ -12,7 +11,6 @@ gdb
 glade
 python-glue
 gnumeric
-python-howdoi
 lammps
 libarrow
 libreoffice
@@ -71,7 +69,6 @@ python-gphoto2
 python-grabbit
 python-greenlet
 gtts
-python-hatch-requirements-txt
 python-hl7
 python-htmlmin
 python-imagecodecs
@@ -85,13 +82,13 @@ jc
 python-jenkins-job-builder
 jsonnet
 python-jsonpointer
-python-landslide
 lasso
 libsbml
 libuser
 python-logutils
 m2crypto
 python-makefun
+python-menuinst
 python-mglob
 python-migen
 python-mimeparse
@@ -99,7 +96,6 @@ python-minimock
 mlir
 mod_wsgi
 python-multiprocess
-python-name-that-hash
 python-netaddr
 netcdf4-python
 python-nuheat
@@ -113,7 +109,6 @@ pyosmium
 python-parso
 python-passlib
 python-paste
-python-pelican
 petsc
 python-photutils
 python-piexif
@@ -122,6 +117,8 @@ python-precis_i18n
 libprelude
 python-psycopg2
 python-py-gql
+python-pydantic-extra-types
+python-pydantic-settings
 libesedb
 python-pyfastnoisesimd
 pygame
@@ -147,7 +144,6 @@ python-subvertpy
 python-tinygrad
 python-toolz
 python-trio
-python-typer
 python-uritools
 vrpn
 python-wadllib
