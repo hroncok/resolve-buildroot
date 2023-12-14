@@ -46,7 +46,6 @@ btrfs-progs
 python-cairocffi
 python-capturer
 python-cffsubr
-python-colcon-override-check
 python-confluent-kafka
 python-cradox
 python-css-parser
@@ -58,7 +57,6 @@ python-cysignals
 python-cython0.29
 python-demjson
 dionaea
-python-dirhash
 python-djvulibre
 python-etcd
 python-flask-httpauth
@@ -102,13 +100,10 @@ python-netaddr
 netcdf4-python
 python-nuheat
 python-numexpr
-python-ogr
-onnx
 OpenIPMI
 python-openoffice
 python-openpaperwork-core
 python-orderedset
-pyosmium
 python-parso
 python-passlib
 python-paste
@@ -153,12 +148,10 @@ python-wadllib
 python-wcmatch
 python-webob
 python-webscrapbook
-xcfun
 python-yappi
 python-zodbpickle
 python3-zope-fixers
 python-zope-i18nmessageid
-zxing-cpp
 pyzor
 qpid-dispatch
 quisk
