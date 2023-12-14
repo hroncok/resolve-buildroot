@@ -43,8 +43,10 @@ python-avocado
 python-backrefs
 python-bottle
 btrfs-progs
+python-cairocffi
 python-capturer
 python-cffsubr
+python-colcon-override-check
 python-confluent-kafka
 python-cradox
 python-css-parser
@@ -56,6 +58,7 @@ python-cysignals
 python-cython0.29
 python-demjson
 dionaea
+python-dirhash
 python-djvulibre
 python-etcd
 python-flask-httpauth
@@ -63,7 +66,6 @@ flatpak-module-tools
 freeradius
 future
 gdcm
-python-gitlab
 python-gmpy2
 python-gphoto2
 python-grabbit
@@ -86,7 +88,6 @@ lasso
 libsbml
 libuser
 python-logutils
-python-lsp-jsonrpc
 m2crypto
 python-makefun
 python-mglob
@@ -101,6 +102,7 @@ python-netaddr
 netcdf4-python
 python-nuheat
 python-numexpr
+python-ogr
 onnx
 OpenIPMI
 python-openoffice
