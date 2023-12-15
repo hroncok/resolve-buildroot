@@ -2,6 +2,7 @@ WALinuxAgent
 b43-tools
 beaker
 buildstream
+cobbler
 collectd
 dmlite
 docker-compose
@@ -19,6 +20,7 @@ mercurial
 mkosi14
 nautilus-python
 nemo-extensions
+netstat-monitor
 neuron
 nextpnr
 obs-studio
@@ -96,7 +98,6 @@ mlir
 mod_wsgi
 python-multiprocess
 nest
-python-netaddr
 netcdf4-python
 python-nuheat
 python-numexpr
@@ -124,6 +125,7 @@ pygsl
 pyliblo
 python-pymemcache
 python-pyqt6
+python-pyrad
 python-pyscaffold
 python-pytn3270
 python-qt5
@@ -160,4 +162,5 @@ remmina
 rss2email
 sourcextractor++
 swift-lang
+wfuzz
 python3-docs
