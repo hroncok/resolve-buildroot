@@ -3,7 +3,6 @@ b43-tools
 beaker
 buildstream
 collectd
-dmlite
 docker-compose
 python-drgn
 fontforge
@@ -26,7 +25,6 @@ openvswitch
 kernel-tools
 profanity
 pyotherside
-python-BTrees
 NLopt
 PyQt4
 python-Traits::bootstrap:::
@@ -107,7 +105,6 @@ python-parso
 python-passlib
 python-paste
 petsc
-python-photutils
 python-piexif
 python-pivy
 python-precis_i18n
@@ -116,7 +113,6 @@ python-psycopg2
 python-py-gql
 python-pydantic-extra-types
 python-pydantic-settings
-libesedb
 python-pyfastnoisesimd
 pygame
 pygsl
