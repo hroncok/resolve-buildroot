@@ -29,7 +29,6 @@ NLopt
 PyQt4
 python-Traits::bootstrap:::
 abiword
-python-aioquic
 python-alsaaudio
 python-amico
 python-apsw
@@ -47,6 +46,7 @@ btrfs-progs
 python-cairocffi
 python-capturer
 python-cffsubr
+python-cheroot
 python-confluent-kafka
 python-cradox
 python-css-parser
@@ -59,6 +59,7 @@ python-cython0.29
 python-demjson
 dionaea
 python-djvulibre
+python-elastic-transport
 python-etcd
 python-flask-httpauth
 flatpak-module-tools
@@ -139,7 +140,6 @@ python-subvertpy
 python-tinygrad
 python-toolz
 python-trio
-python-trustme
 python-twisted
 python-uritools
 vrpn
