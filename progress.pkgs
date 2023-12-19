@@ -29,6 +29,7 @@ NLopt
 PyQt4
 python-Traits::bootstrap:::
 abiword
+python-aiohttp:tests::::
 python-alsaaudio
 python-amico
 python-apsw
@@ -57,6 +58,7 @@ python-demjson
 dionaea
 python-djvulibre
 python-etcd
+python-expandvars
 python-flask-httpauth
 flatpak-module-tools
 freeradius
@@ -90,7 +92,6 @@ python-mglob
 python-migen
 python-mimeparse
 python-minimock
-mlir
 mod_wsgi
 python-multiprocess
 nest
