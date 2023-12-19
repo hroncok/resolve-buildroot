@@ -29,6 +29,7 @@ NLopt
 PyQt4
 python-Traits::bootstrap:::
 abiword
+python-aioquic
 python-alsaaudio
 python-amico
 python-apsw
@@ -138,6 +139,8 @@ python-subvertpy
 python-tinygrad
 python-toolz
 python-trio
+python-trustme
+python-twisted
 python-uritools
 vrpn
 python-wadllib
