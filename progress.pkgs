@@ -19,7 +19,6 @@ mkosi14
 nautilus-python
 nemo-extensions
 neuron
-nextpnr
 obs-studio
 openvswitch
 kernel-tools
@@ -30,7 +29,6 @@ NLopt
 PyQt4
 python-Traits::bootstrap:::
 abiword
-python-alsaaudio
 python-amico
 python-apsw
 python-astroid
@@ -90,7 +88,6 @@ python-logutils
 m2crypto
 python-makefun
 python-mglob
-python-migen
 python-mimeparse
 python-minimock
 mod_wsgi
