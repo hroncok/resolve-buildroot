@@ -3,6 +3,7 @@ b43-tools
 beaker
 buildstream
 collectd
+dnfdragora
 docker-compose
 python-drgn
 fontforge
@@ -21,6 +22,7 @@ nemo-extensions
 neuron
 obs-studio
 openvswitch
+pacemaker
 kernel-tools
 profanity
 pyotherside
@@ -42,7 +44,6 @@ python-azure-functions-devops-build
 python-backrefs
 python-bottle
 btrfs-progs
-python-cairocffi
 python-capturer
 python-cffsubr
 python-confluent-kafka
@@ -58,7 +59,9 @@ python-demjson
 dionaea
 python-djvulibre
 python-etcd
+flann
 python-flask-httpauth
+python-flask-session
 flatpak-module-tools
 freeradius
 future
@@ -74,7 +77,6 @@ python-imagecodecs
 python-img2pdf
 python-immutables
 python-iniparse
-python-inkex
 python-installer
 python-intbitset
 jc
@@ -91,6 +93,7 @@ python-mglob
 python-mimeparse
 python-minimock
 mod_wsgi
+python-mpmath
 python-multiprocess
 nest
 netcdf4-python
@@ -113,6 +116,7 @@ python-py-gql
 python-pydantic-extra-types
 python-pydantic-settings
 python-pyfastnoisesimd
+python-pygal
 pygame
 pygsl
 pyliblo
@@ -133,6 +137,7 @@ python-spnego
 python-straight-plugin
 subversion
 python-subvertpy
+python-svg2tikz
 python-tinygrad
 python-toolz
 python-trio
