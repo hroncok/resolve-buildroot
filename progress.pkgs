@@ -133,6 +133,7 @@ python-setuptools_scm_git_archive
 python-simpleaudio
 python-smartcols
 smoldyn
+python-snakemake-interface-common
 snallygaster
 libsolv
 spglib
@@ -143,14 +144,15 @@ python-subvertpy
 python-toolz
 python-trio
 python-twisted
+python-types-pygments
 python-uritools
+python-uvloop
 vrpn
 python-wadllib
 python-wcmatch
 python-webob
 python-webpy
 python-webscrapbook
-python-xyzservices
 python-yappi
 python-zodbpickle
 python3-zope-fixers
