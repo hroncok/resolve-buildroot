@@ -44,6 +44,7 @@ python-bottle
 btrfs-progs
 python-capturer
 python-cffsubr
+python-conda-libmamba-solver:tests::::
 python-confluent-kafka
 python-cradox
 python-css-parser
@@ -61,7 +62,6 @@ python-flask-httpauth
 flatpak-module-tools
 freeradius
 future
-python-gatspy
 gdcm
 python-gmpy2
 python-gphoto2
@@ -84,6 +84,7 @@ python-jenkins-job-builder
 jsonnet
 python-jsonpointer
 lasso
+python-libcst:docs-tests::::
 libsbml
 libuser
 python-logutils
