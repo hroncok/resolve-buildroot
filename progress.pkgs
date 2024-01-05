@@ -5,6 +5,7 @@ buildstream
 collectd
 docker-compose
 python-drgn
+quodlibet
 fontforge
 gdb
 glade
@@ -26,7 +27,6 @@ profanity
 pyotherside
 python-CacheControl
 NLopt
-python-OBD
 PyQt4
 python-Traits::bootstrap:::
 abiword
@@ -58,7 +58,8 @@ python-demjson
 dionaea
 python-djvulibre
 python-etcd
-python-fixit
+python-f5-icontrol-rest
+python-flake8-comprehensions
 python-flask-httpauth
 flatpak-module-tools
 freeradius
@@ -72,7 +73,6 @@ python-greenlet
 gtts
 python-hl7
 python-htmlmin
-python-hypothesmith:tests::::
 python-imagecodecs
 python-imagehash
 python-img2pdf
@@ -127,7 +127,6 @@ python-pymemcache
 python-pyqt6
 python-pyscaffold
 python-pytn3270
-python-qcelemental
 python-qt5
 python-rtmidi
 python-scss
@@ -146,10 +145,8 @@ python-toolz
 python-trio
 python-twisted
 python-uritools
-python-usort
 python-uvloop
 vrpn
-python-vulture
 python-wadllib
 python-wcmatch
 python-webob
@@ -167,5 +164,4 @@ remmina
 rss2email
 sourcextractor++
 swift-lang
-tmt
 python3-docs
