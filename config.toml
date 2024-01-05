@@ -357,6 +357,9 @@ withouts = ["tests"]
 [[bconds.conda-build]]
 withouts = ["tests"]
 
+[[bconds.python-conda-libmamba-solver]]
+withouts = ["tests"]
+
 [[bconds.python-conda-index]]
 withs = ["bootstrap"]
 
