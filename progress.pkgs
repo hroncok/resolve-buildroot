@@ -31,7 +31,6 @@ python-Traits::bootstrap:::
 abiword
 python-amico
 python-apsw
-python-astroML
 python-astroid
 astrometry
 python-audioread
@@ -62,6 +61,7 @@ python-flask-httpauth
 flatpak-module-tools
 freeradius
 future
+python-gatspy
 gdcm
 python-gmpy2
 python-gphoto2
