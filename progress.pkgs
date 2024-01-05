@@ -38,8 +38,6 @@ python-audioread
 audit
 python-autopep8
 python-avocado
-python-azure-common
-python-azure-functions-devops-build
 python-backrefs
 python-bottle
 btrfs-progs
