@@ -59,7 +59,6 @@ dionaea
 python-djvulibre
 python-etcd
 python-f5-icontrol-rest
-python-flake8-comprehensions
 python-flask-httpauth
 flatpak-module-tools
 freeradius
