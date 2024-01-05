@@ -26,6 +26,7 @@ profanity
 pyotherside
 python-CacheControl
 NLopt
+python-OBD
 PyQt4
 python-Traits::bootstrap:::
 abiword
@@ -44,7 +45,6 @@ python-bottle
 btrfs-progs
 python-capturer
 python-cffsubr
-python-conda-libmamba-solver:tests::::
 python-confluent-kafka
 python-cradox
 python-css-parser
@@ -58,6 +58,7 @@ python-demjson
 dionaea
 python-djvulibre
 python-etcd
+python-fixit
 python-flask-httpauth
 flatpak-module-tools
 freeradius
@@ -71,6 +72,7 @@ python-greenlet
 gtts
 python-hl7
 python-htmlmin
+python-hypothesmith:tests::::
 python-imagecodecs
 python-imagehash
 python-img2pdf
@@ -84,7 +86,6 @@ python-jenkins-job-builder
 jsonnet
 python-jsonpointer
 lasso
-python-libcst:docs-tests::::
 libsbml
 libuser
 python-logutils
@@ -111,7 +112,6 @@ python-passlib
 python-paste
 petsc
 python-piexif
-python-pint
 python-pivy
 python-precis_i18n
 libprelude
@@ -127,6 +127,7 @@ python-pymemcache
 python-pyqt6
 python-pyscaffold
 python-pytn3270
+python-qcelemental
 python-qt5
 python-rtmidi
 python-scss
@@ -145,8 +146,10 @@ python-toolz
 python-trio
 python-twisted
 python-uritools
+python-usort
 python-uvloop
 vrpn
+python-vulture
 python-wadllib
 python-wcmatch
 python-webob
@@ -164,4 +167,5 @@ remmina
 rss2email
 sourcextractor++
 swift-lang
+tmt
 python3-docs
