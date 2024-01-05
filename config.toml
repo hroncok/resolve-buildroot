@@ -456,6 +456,9 @@ withouts = ["tests"]
 [[bconds.python-werkzeug]]
 withouts = ["tests"]
 
+[[bconds.python-click]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
