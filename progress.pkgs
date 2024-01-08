@@ -136,8 +136,6 @@ libsolv
 spglib
 python-spnego
 python-straight-plugin
-subversion
-python-subvertpy
 python-toolz
 python-trio
 python-twisted
