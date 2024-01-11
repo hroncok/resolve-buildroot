@@ -1,4 +1,5 @@
 WALinuxAgent
+abrt
 b43-tools
 beaker
 buildstream
@@ -7,7 +8,6 @@ docker-compose
 python-drgn
 quodlibet
 fontforge
-gdb
 glade
 python-glue
 gnumeric
@@ -43,13 +43,13 @@ python-bottle
 btrfs-progs
 python-capturer
 python-cffsubr
+python-chalice
 python-confluent-kafka
 python-cradox
 python-css-parser
 python-cssutils
 python-cups
 python-curio
-cvc5
 python-cysignals
 python-cython0.29
 python-demjson
@@ -83,6 +83,7 @@ python-jenkins-job-builder
 jsonnet
 python-jsonpointer
 lasso
+librealsense
 libsbml
 libuser
 python-logutils
@@ -98,6 +99,7 @@ python-mpmath
 python-multiprocess
 nest
 netcdf4-python
+notmuch
 python-nuheat
 python-numexpr
 OpenIPMI
@@ -157,6 +159,7 @@ quisk
 rb_libtorrent
 remmina
 rss2email
+ruff
 sourcextractor++
 swift-lang
 python3-docs
