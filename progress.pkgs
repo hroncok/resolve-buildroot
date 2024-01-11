@@ -1,5 +1,4 @@
 WALinuxAgent
-abrt
 b43-tools
 beaker
 buildstream
@@ -43,7 +42,6 @@ python-bottle
 btrfs-progs
 python-capturer
 python-cffsubr
-python-chalice
 python-confluent-kafka
 python-cradox
 python-css-parser
@@ -99,7 +97,6 @@ python-mpmath
 python-multiprocess
 nest
 netcdf4-python
-notmuch
 python-nuheat
 python-numexpr
 OpenIPMI
