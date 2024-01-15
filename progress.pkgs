@@ -48,7 +48,6 @@ python-css-parser
 python-cssutils
 python-cups
 python-curio
-python-cysignals
 python-cython0.29
 python-demjson
 dionaea
@@ -63,7 +62,6 @@ gdcm
 python-gmpy2
 python-gphoto2
 python-grabbit
-python-graph-tool
 python-greenlet
 gtts
 python-hl7
@@ -74,14 +72,12 @@ python-img2pdf
 python-immutables
 python-iniparse
 python-inspyred
-python-installer
 python-intbitset
 jc
 python-jenkins-job-builder
 jsonnet
 python-jsonpointer
 lasso
-librealsense
 libsbml
 libuser
 python-logutils
@@ -147,6 +143,7 @@ python-webob
 python-webpy
 python-webscrapbook
 python-yappi
+python-zlib-ng
 python-zodbpickle
 python3-zope-fixers
 python-zope-i18nmessageid
@@ -156,7 +153,6 @@ quisk
 rb_libtorrent
 remmina
 rss2email
-ruff
 sourcextractor++
 swift-lang
 python3-docs
