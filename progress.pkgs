@@ -8,6 +8,7 @@ python-drgn
 quodlibet
 fail2ban
 fontforge
+freeipa-healthcheck:tests::::
 glade
 python-glue
 gnumeric
@@ -41,7 +42,6 @@ python-backrefs
 python-bottle
 btrfs-progs
 python-capturer
-cepces
 python-cffsubr
 python-confluent-kafka
 python-cradox
@@ -79,7 +79,6 @@ python-jenkins-job-builder
 jsonnet
 python-jsonpointer
 lasso
-389-ds-base
 libsbml
 libuser
 python-logutils
@@ -132,7 +131,6 @@ libsolv
 spglib
 python-spnego
 python-straight-plugin
-python-textual
 python-toolz
 python-trio
 python-twisted
