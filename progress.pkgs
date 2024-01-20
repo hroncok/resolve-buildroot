@@ -1,11 +1,12 @@
 WALinuxAgent
 b43-tools
-beaker
 buildstream
+ceph
 collectd
 docker-compose
 python-drgn
 quodlibet
+fail2ban
 fontforge
 glade
 python-glue
@@ -13,7 +14,6 @@ gnumeric
 lammps
 libarrow
 libreoffice
-lldb
 mercurial
 mkosi14
 nautilus-python
@@ -21,6 +21,7 @@ nemo-extensions
 neuron
 obs-studio
 openvswitch
+openwsman
 kernel-tools
 profanity
 pyotherside
@@ -34,13 +35,13 @@ python-apsw
 python-astroid
 astrometry
 python-audioread
-audit
 python-autopep8
 python-avocado
 python-backrefs
 python-bottle
 btrfs-progs
 python-capturer
+cepces
 python-cffsubr
 python-confluent-kafka
 python-cradox
@@ -78,6 +79,7 @@ python-jenkins-job-builder
 jsonnet
 python-jsonpointer
 lasso
+389-ds-base
 libsbml
 libuser
 python-logutils
@@ -116,6 +118,7 @@ pygame
 pygsl
 pyliblo
 python-pymemcache
+python-pymilter
 python-pyqt6
 python-pyscaffold
 python-pytn3270
@@ -125,12 +128,11 @@ python-scss
 python-setuptools_scm_git_archive
 python-simpleaudio
 python-smartcols
-smoldyn
-snallygaster
 libsolv
 spglib
 python-spnego
 python-straight-plugin
+python-textual
 python-toolz
 python-trio
 python-twisted
@@ -142,6 +144,7 @@ python-wcmatch
 python-webob
 python-webpy
 python-webscrapbook
+xrootd
 python-yappi
 python-zlib-ng
 python-zodbpickle
@@ -149,7 +152,6 @@ python3-zope-fixers
 python-zope-i18nmessageid
 pyzor
 qpid-dispatch
-quisk
 rb_libtorrent
 remmina
 rss2email
