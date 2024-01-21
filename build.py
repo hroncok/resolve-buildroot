@@ -63,11 +63,11 @@ if __name__ == '__main__':
             run('git', '-C', repopath, 'push')
         run('fedpkg', 'build', '--fail-fast', '--nowait', '--target', CONFIG['koji']['target'], cwd=repopath)  # '--background'
 
-        # XXX prune this directory becasue we don't want no thousands clones?
+        # XXX prune this directory because we don't want no thousands clones?
         # maybe we are not gonna need this?
     except Exception:
         print(sys.argv[1])
         raise
 
-    # XXX prune this directory becasue we don't want no thousands clones?
+    # XXX prune this directory because we don't want no thousands clones?
     # maybe we are not gonna need this?
