@@ -168,7 +168,7 @@ def handle_exisitng_koji_id(repopath, *, was_updated):
                 return None
             else:
                 log(f'   • Koji task {koji_task_id} is {status}; '
-                    f'not rebulding (rm {KOJI_ID_FILENAME} to force).')
+                    f'not rebuilding (rm {KOJI_ID_FILENAME} to force).')
                 return koji_task_id
 
 
@@ -230,10 +230,10 @@ def download_srpm_if_possible(component_name, bcond_config):
     command = ('koji', 'download-task', bcond_config['koji_task_id'], '--arch=src', '--noprogress')
     koji_output = run(*command, cwd=repopath).stdout.splitlines()
     if (l := len(koji_output)) != 1:
-        raise RuntimeError(f'Cannot parse koji download-task ouptut, expected 1 line, got {l}')
+        raise RuntimeError(f'Cannot parse koji download-task output, expected 1 line, got {l}')
     srpm_filename = koji_output[0].split(' ')[-1]
     if not srpm_filename.endswith('.src.rpm'):
-        raise RuntimeError('Cannot parse koji download-task ouptut, expected a *.src.rpm filename, got {srpm_filename}')
+        raise RuntimeError('Cannot parse koji download-task output, expected a *.src.rpm filename, got {srpm_filename}')
     srpm = repopath / srpm_filename
     if not srpm.exists():
         raise RuntimeError('Downloaded SRPM does not exist: {srpm}')
