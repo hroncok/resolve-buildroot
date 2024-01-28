@@ -3,11 +3,13 @@ b43-tools
 buildstream
 ceph
 collectd
+dnsconfd
 docker-compose
 python-drgn
 quodlibet
 fail2ban
 fontforge
+git-cola
 glade
 python-glue
 gnumeric
@@ -27,6 +29,7 @@ pyotherside
 python-CacheControl
 NLopt
 PyQt4
+python-Traits::bootstrap:::
 abiword
 python-amico
 python-apsw
@@ -126,7 +129,6 @@ python-setuptools_scm_git_archive
 python-simpleaudio
 python-smartcols
 libsolv
-spglib
 python-spnego
 python-straight-plugin
 python-toolz
