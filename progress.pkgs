@@ -3,13 +3,11 @@ b43-tools
 buildstream
 ceph
 collectd
-dnsconfd
 docker-compose
 python-drgn
 quodlibet
 fail2ban
 fontforge
-git-cola
 glade
 python-glue
 gnumeric
@@ -29,7 +27,6 @@ pyotherside
 python-CacheControl
 NLopt
 PyQt4
-python-Traits::bootstrap:::
 abiword
 python-amico
 python-apsw
@@ -80,15 +77,12 @@ lasso
 libsbml
 libuser
 python-logutils
-python-lunr
 m2crypto
 python-makefun
 python-mglob
 python-mimeparse
 python-minimock
 mod_wsgi
-python-mplcairo
-python-mpmath
 python-multiprocess
 nest
 netcdf4-python
