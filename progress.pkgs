@@ -27,6 +27,7 @@ pyotherside
 python-CacheControl
 NLopt
 PyQt4
+python-Traits::bootstrap:::
 abiword
 python-amico
 python-apsw
@@ -120,6 +121,7 @@ python-scss
 python-setuptools_scm_git_archive
 python-simpleaudio
 python-smartcols
+python-snakemake-interface-storage-plugins::bootstrap:::
 libsolv
 python-spnego
 python-straight-plugin
@@ -134,7 +136,6 @@ python-wcmatch
 python-webob
 python-webpy
 python-webscrapbook
-python-xkbregistry
 xrootd
 python-yappi
 python-zodbpickle
