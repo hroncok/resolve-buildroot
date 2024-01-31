@@ -27,7 +27,6 @@ pyotherside
 python-CacheControl
 NLopt
 PyQt4
-python-Traits::bootstrap:::
 abiword
 python-amico
 python-apsw
@@ -49,7 +48,6 @@ python-curio
 python-cython0.29
 python-demjson
 dionaea
-python-dirty-equals
 python-djvulibre
 python-etcd
 python-f5-icontrol-rest
@@ -102,6 +100,7 @@ python-precis_i18n
 libprelude
 python-psycopg2
 python-py-gql
+python-pydantic-extra-types
 python-pydantic-settings
 python-pyfastnoisesimd
 pygame
@@ -121,7 +120,6 @@ python-scss
 python-setuptools_scm_git_archive
 python-simpleaudio
 python-smartcols
-python-snakemake-interface-storage-plugins::bootstrap:::
 libsolv
 python-spnego
 python-straight-plugin
@@ -136,6 +134,7 @@ python-wcmatch
 python-webob
 python-webpy
 python-webscrapbook
+python-xkbregistry
 xrootd
 python-yappi
 python-zodbpickle
