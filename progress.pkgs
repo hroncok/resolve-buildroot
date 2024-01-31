@@ -41,6 +41,7 @@ python-bottle
 btrfs-progs
 python-capturer
 python-confluent-kafka
+python-cotyledon
 python-cradox
 python-css-parser
 python-cssutils
