@@ -459,6 +459,9 @@ withouts = ["tests"]
 [[bconds.python-netaddr]]
 withouts = ["docs"]
 
+[[bconds.python-dirty-equals]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
