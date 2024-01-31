@@ -1,5 +1,4 @@
 WALinuxAgent
-academic-admin
 b43-tools
 buildstream
 ceph
@@ -28,6 +27,7 @@ pyotherside
 python-CacheControl
 NLopt
 PyQt4
+python-Traits::bootstrap:::
 abiword
 python-amico
 python-apsw
@@ -121,6 +121,7 @@ python-scss
 python-setuptools_scm_git_archive
 python-simpleaudio
 python-smartcols
+python-snakemake-interface-storage-plugins::bootstrap:::
 libsolv
 python-spnego
 python-straight-plugin
