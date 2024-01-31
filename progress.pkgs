@@ -1,4 +1,5 @@
 WALinuxAgent
+academic-admin
 b43-tools
 buildstream
 ceph
@@ -62,7 +63,6 @@ python-grabbit
 python-greenlet
 gtts
 python-hl7
-python-htmlmin
 python-imagecodecs
 python-img2pdf
 python-immutables
@@ -108,7 +108,6 @@ pygame
 pygsl
 pyliblo
 python-pymaven-patch
-python-pymemcache
 python-pymilter
 python-pyqt6
 python-pyquery
