@@ -11,9 +11,7 @@ fontforge
 glade
 python-glue
 gnumeric
-lammps
 libarrow
-libreoffice
 mercurial
 mkosi14
 nautilus-python
@@ -21,14 +19,12 @@ nemo-extensions
 neuron
 obs-studio
 openvswitch
-kernel-tools
 profanity
 pyotherside
 python-CacheControl
 NLopt
 PyQt4
 python-Traits::bootstrap:::
-abiword
 python-amico
 python-apsw
 python-astroid
@@ -41,7 +37,6 @@ python-bottle
 btrfs-progs
 python-capturer
 python-confluent-kafka
-python-cotyledon
 python-cradox
 python-css-parser
 python-cssutils
@@ -96,8 +91,8 @@ python-parso
 python-passlib
 python-paste
 petsc
-python-piexif
 python-pivy
+python-praw
 python-precis_i18n
 libprelude
 python-psycopg2
@@ -115,6 +110,7 @@ python-pyquery
 python-pyscaffold
 python-pytn3270
 python-qt5
+python-ratinabox
 python-rq
 python-rstcheck-core
 python-rtmidi
@@ -125,7 +121,10 @@ python-smartcols
 python-snakemake-interface-storage-plugins::bootstrap:::
 libsolv
 python-spnego
+python-sqlalchemy
+python-sqlalchemy1.4
 python-straight-plugin
+python-sybil
 python-toolz
 python-trio
 python-twisted
