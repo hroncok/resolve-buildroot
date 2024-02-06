@@ -28,6 +28,7 @@ python-Traits::bootstrap:::
 python-aiosmtpd
 python-amico
 python-apsw
+python-arrow
 python-astroid
 python-audioread
 python-autopep8
@@ -44,7 +45,6 @@ python-cssutils
 python-cups
 python-curio
 python-cython0.29
-python-dateparser
 python-demjson
 dionaea
 python-djvulibre
@@ -52,9 +52,6 @@ python-etcd
 python-f5-icontrol-rest
 python-flask-httpauth
 flatpak-module-tools
-python-flufl-bounce
-python-flufl-i18n
-python-flufl-lock
 freeradius
 future
 gdcm
@@ -70,7 +67,6 @@ python-immutables
 python-iniparse
 python-inspyred
 python-intbitset
-python-itemloaders
 jc
 python-jenkins-job-builder
 jsonnet
@@ -141,6 +137,7 @@ python-webob
 python-webpy
 python-webscrapbook
 xrootd
+python-xword-dl
 python-yappi
 python-zodbpickle
 python3-zope-fixers
