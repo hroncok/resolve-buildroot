@@ -8,6 +8,7 @@ python-drgn
 quodlibet
 fail2ban
 fontforge
+gitlint
 glade
 python-glue
 gnumeric
@@ -28,7 +29,6 @@ python-Traits::bootstrap:::
 python-aiosmtpd
 python-amico
 python-apsw
-python-arrow
 python-astroid
 python-audioread
 python-autopep8
@@ -39,6 +39,7 @@ python-bottle
 btrfs-progs
 python-capturer
 python-confluent-kafka
+python-cookiecutter
 python-cradox
 python-css-parser
 python-cssutils
@@ -67,8 +68,10 @@ python-immutables
 python-iniparse
 python-inspyred
 python-intbitset
+python-isoduration
 jc
 python-jenkins-job-builder
+python-jinja2-time
 jsonnet
 python-jsonpointer
 lasso
@@ -89,6 +92,7 @@ OpenIPMI
 python-openoffice
 python-openpaperwork-core
 python-orderedset
+python-orjson
 python-parso
 python-passlib
 python-paste
@@ -136,8 +140,8 @@ python-wcmatch
 python-webob
 python-webpy
 python-webscrapbook
+python-xdfile
 xrootd
-python-xword-dl
 python-yappi
 python-zodbpickle
 python3-zope-fixers
