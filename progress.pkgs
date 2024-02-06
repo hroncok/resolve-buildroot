@@ -8,7 +8,6 @@ python-drgn
 quodlibet
 fail2ban
 fontforge
-gitlint
 glade
 python-glue
 gnumeric
@@ -39,7 +38,6 @@ python-bottle
 btrfs-progs
 python-capturer
 python-confluent-kafka
-python-cookiecutter
 python-cradox
 python-css-parser
 python-cssutils
@@ -68,10 +66,8 @@ python-immutables
 python-iniparse
 python-inspyred
 python-intbitset
-python-isoduration
 jc
 python-jenkins-job-builder
-python-jinja2-time
 jsonnet
 python-jsonpointer
 lasso
@@ -140,7 +136,6 @@ python-wcmatch
 python-webob
 python-webpy
 python-webscrapbook
-python-xdfile
 xrootd
 python-yappi
 python-zodbpickle
