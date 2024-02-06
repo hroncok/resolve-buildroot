@@ -25,10 +25,10 @@ python-CacheControl
 NLopt
 PyQt4
 python-Traits::bootstrap:::
+python-aiosmtpd
 python-amico
 python-apsw
 python-astroid
-python-atpublic
 python-audioread
 python-autopep8
 python-avocado
@@ -44,6 +44,7 @@ python-cssutils
 python-cups
 python-curio
 python-cython0.29
+python-dateparser
 python-demjson
 dionaea
 python-djvulibre
@@ -51,6 +52,9 @@ python-etcd
 python-f5-icontrol-rest
 python-flask-httpauth
 flatpak-module-tools
+python-flufl-bounce
+python-flufl-i18n
+python-flufl-lock
 freeradius
 future
 gdcm
@@ -58,6 +62,7 @@ python-gphoto2
 python-grabbit
 python-greenlet
 gtts
+h5py
 python-hl7
 python-imagecodecs
 python-img2pdf
@@ -65,6 +70,7 @@ python-immutables
 python-iniparse
 python-inspyred
 python-intbitset
+python-itemloaders
 jc
 python-jenkins-job-builder
 jsonnet
@@ -80,7 +86,6 @@ python-mimeparse
 python-minimock
 mod_wsgi
 python-multiprocess
-nest
 netcdf4-python
 python-nuheat
 python-numexpr
@@ -88,7 +93,6 @@ OpenIPMI
 python-openoffice
 python-openpaperwork-core
 python-orderedset
-python-parsel
 python-parso
 python-passlib
 python-paste
@@ -109,8 +113,6 @@ python-pymilter
 python-pyqt6
 python-pyquery
 python-pyscaffold
-python-pytest-mpi
-python-python-ulid
 python-pytn3270
 python-qt5
 python-ratinabox
