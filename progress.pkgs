@@ -19,6 +19,7 @@ nemo-extensions
 neuron
 obs-studio
 openvswitch
+kernel
 profanity
 pyotherside
 python-CacheControl
@@ -88,10 +89,10 @@ OpenIPMI
 python-openoffice
 python-openpaperwork-core
 python-orderedset
-python-orjson
 python-parso
 python-passlib
 python-paste
+python-pendulum
 petsc
 python-pivy
 python-precis_i18n
@@ -103,7 +104,6 @@ python-pyfastnoisesimd
 pygame
 pygsl
 pyliblo
-python-pymaven-patch
 python-pymilter
 python-pyqt6
 python-pyquery
@@ -115,12 +115,12 @@ python-rq
 python-rtmidi
 python-scss
 python-setuptools_scm_git_archive
+python-simple-pid
 python-simpleaudio
 python-smartcols
 python-snakemake-interface-storage-plugins::bootstrap:::
 libsolv
 python-spnego
-python-sqlalchemy
 python-sqlalchemy1.4
 python-straight-plugin
 python-toolz
@@ -143,6 +143,7 @@ pyzor
 qpid-dispatch
 rb_libtorrent
 remmina
+renderdoc
 rss2email
 sourcextractor++
 swift-lang
