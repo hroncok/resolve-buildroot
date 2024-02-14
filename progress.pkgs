@@ -65,7 +65,6 @@ python-imagecodecs
 python-img2pdf
 python-immutables
 python-iniparse
-python-inspyred
 python-intbitset
 jc
 python-jenkins-job-builder
@@ -85,14 +84,12 @@ python-multiprocess
 netcdf4-python
 python-nuheat
 python-numexpr
-OpenIPMI
 python-openoffice
 python-openpaperwork-core
 python-orderedset
 python-parso
 python-passlib
 python-paste
-python-pendulum
 petsc
 python-pivy
 python-precis_i18n
@@ -115,7 +112,6 @@ python-rq
 python-rtmidi
 python-scss
 python-setuptools_scm_git_archive
-python-simple-pid
 python-simpleaudio
 python-smartcols
 python-snakemake-interface-storage-plugins::bootstrap:::
