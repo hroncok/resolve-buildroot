@@ -1,5 +1,4 @@
 WALinuxAgent
-arbor
 b43-tools
 buildstream
 cantera
@@ -16,7 +15,6 @@ gnumeric
 libarrow
 mercurial
 mkosi14
-mlpack
 nautilus-python
 nemo-extensions
 neuron
@@ -24,6 +22,7 @@ obs-studio
 openvswitch
 kernel
 profanity
+pungi
 pyotherside
 python-CacheControl
 NLopt
@@ -51,7 +50,6 @@ python-cython0.29
 python-demjson
 python-devicely
 dionaea
-root
 python-djvulibre
 python-etcd
 python-f5-icontrol-rest
@@ -60,6 +58,7 @@ python-flask-httpauth
 flatpak-module-tools
 freeradius
 future
+gdal
 gdcm
 python-gphoto2
 python-grabbit
@@ -94,6 +93,7 @@ python-nuheat
 python-numexpr
 python-openoffice
 python-openpaperwork-core
+openvdb
 python-orderedset
 python-parso
 python-passlib
