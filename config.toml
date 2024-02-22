@@ -471,6 +471,9 @@ withs = ["bootstrap"]
 [[bconds.snakemake]]
 withs = ["bootstrap"]
 
+[[bconds.python-sphinx-theme-builder]]
+withs = ["bootstrap"]
+
 [[bconds.python-oslo-i18n]]
 replacements = {with_doc = "0"}
 
