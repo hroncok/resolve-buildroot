@@ -1,4 +1,5 @@
 WALinuxAgent
+ansible-core
 b43-tools
 buildstream
 ceph
@@ -23,6 +24,7 @@ kernel
 profanity
 pungi
 pyotherside
+python-pyside6
 NLopt
 PyQt4
 python-Traits::bootstrap:::
@@ -46,7 +48,6 @@ python-css-parser
 python-cssutils
 python-cups
 python-curio
-python-cython0.29
 python-demjson
 python-devicely
 dionaea
@@ -63,7 +64,6 @@ python-grabbit
 python-greenlet
 gtts
 python-h5io
-coin-or-HiGHS
 python-hl7
 python-imagecodecs
 python-imagehash
@@ -89,12 +89,10 @@ python-multiprocess
 netcdf4-python
 python-nibabel
 python-nuheat
-python-numexpr
 python-openoffice
 python-openpaperwork-core
 python-orderedset
 python-parso
-python-passlib
 python-paste
 petsc
 python-pivy
@@ -122,6 +120,7 @@ python-smartcols
 libsolv
 python-sqlalchemy1.4
 python-straight-plugin
+python-tables
 python-toolz
 transtats-cli
 python-trio
@@ -134,9 +133,9 @@ python-wcmatch
 python-webob
 python-webpy
 python-webscrapbook
+python-wrapt
 python-yappi
 python3-zope-fixers
-python-zope-i18nmessageid
 pyzor
 qpid-dispatch
 rb_libtorrent
