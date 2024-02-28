@@ -468,11 +468,17 @@ withs = ["bootstrap"]
 [[bconds.python-snakemake-interface-executor-plugins]]
 withs = ["bootstrap"]
 
+[[bconds.python-snakemake-interface-report-plugins]]
+withs = ["bootstrap"]
+
 [[bconds.snakemake]]
 withs = ["bootstrap"]
 
 [[bconds.python-sphinx-theme-builder]]
 withs = ["bootstrap"]
+
+[[bconds.python-httpx]]
+withouts = ["tests"]
 
 [[bconds.python-oslo-i18n]]
 replacements = {with_doc = "0"}
