@@ -30,7 +30,6 @@ PyQt4
 python-Traits::bootstrap:::
 python-ZODB
 python-aiosmtpd
-python-aiostream
 python-amico
 python-apsw
 python-astroid
