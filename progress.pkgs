@@ -30,6 +30,7 @@ PyQt4
 python-Traits::bootstrap:::
 python-ZODB
 python-aiosmtpd
+python-aiostream
 python-amico
 python-apsw
 python-astroid
@@ -92,7 +93,6 @@ python-nuheat
 python-openoffice
 python-openpaperwork-core
 python-orderedset
-python-parso
 python-paste
 petsc
 python-pivy
