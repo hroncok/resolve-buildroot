@@ -52,6 +52,7 @@ python-demjson
 python-devicely
 dionaea
 python-djvulibre
+python-docopt-ng
 python-etcd
 python-exdir
 python-flask-httpauth
@@ -92,6 +93,7 @@ python-nuheat
 python-openoffice
 python-openpaperwork-core
 python-orderedset
+python-parso
 python-paste
 petsc
 python-pivy
@@ -107,6 +109,7 @@ python-pymilter
 python-pyqt6
 python-pyquery
 python-pyscaffold
+python-pytest-home
 python-pytn3270
 python-qt5
 python-ratinabox
@@ -141,5 +144,7 @@ rb_libtorrent
 remmina
 renderdoc
 rss2email
+sourcextractor++
 swift-lang
+syncplay
 python3-docs
