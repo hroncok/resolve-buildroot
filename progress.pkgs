@@ -52,7 +52,6 @@ python-demjson
 python-devicely
 dionaea
 python-djvulibre
-python-docopt-ng
 python-etcd
 python-exdir
 python-flask-httpauth
@@ -109,7 +108,6 @@ python-pymilter
 python-pyqt6
 python-pyquery
 python-pyscaffold
-python-pytest-home
 python-pytn3270
 python-qt5
 python-ratinabox
@@ -119,6 +117,7 @@ python-scss
 python-setuptools_scm_git_archive
 python-simpleaudio
 python-smartcols
+python-snakemake-interface-report-plugins::bootstrap:::
 libsolv
 python-sqlalchemy1.4
 python-straight-plugin
@@ -146,5 +145,4 @@ renderdoc
 rss2email
 sourcextractor++
 swift-lang
-syncplay
 python3-docs
