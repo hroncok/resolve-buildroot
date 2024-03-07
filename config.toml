@@ -483,6 +483,9 @@ withouts = ["tests"]
 [[bconds.python-oslo-i18n]]
 replacements = {with_doc = "0"}
 
+[[bconds.python-pymssql]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
