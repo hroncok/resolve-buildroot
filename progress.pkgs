@@ -117,7 +117,7 @@ python-scss
 python-setuptools_scm_git_archive
 python-simpleaudio
 python-smartcols
-python-snakemake-interface-report-plugins::bootstrap:::
+python-snakemake-interface-storage-plugins::bootstrap:::
 libsolv
 python-sqlalchemy1.4
 python-straight-plugin
@@ -134,7 +134,6 @@ python-wcmatch
 python-webob
 python-webpy
 python-webscrapbook
-python-wrapt
 python-yappi
 python3-zope-fixers
 pyzor
