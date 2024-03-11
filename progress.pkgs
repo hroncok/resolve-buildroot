@@ -76,6 +76,7 @@ python-jenkins-job-builder
 python-jsonformatter
 jsonnet
 python-jsonpointer
+python-jupyter-client:doc-tests::::
 lasso
 libsbml
 libuser
@@ -142,5 +143,6 @@ rb_libtorrent
 remmina
 renderdoc
 rss2email
+salt
 swift-lang
 python3-docs
