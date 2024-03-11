@@ -76,7 +76,6 @@ python-jenkins-job-builder
 python-jsonformatter
 jsonnet
 python-jsonpointer
-python-jupyter-c-kernel
 lasso
 libsbml
 libuser
@@ -88,7 +87,7 @@ python-mimeparse
 python-minimock
 mod_wsgi
 python-multiprocess
-python-nbclient:check::::
+python-nbconvert:check-doc::::
 netcdf4-python
 python-nibabel
 python-nuheat
@@ -144,6 +143,5 @@ rb_libtorrent
 remmina
 renderdoc
 rss2email
-salt
 swift-lang
 python3-docs
