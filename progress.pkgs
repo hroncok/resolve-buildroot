@@ -87,7 +87,6 @@ python-mimeparse
 python-minimock
 mod_wsgi
 python-multiprocess
-python-nbconvert:check-doc::::
 netcdf4-python
 python-nibabel
 python-nuheat
