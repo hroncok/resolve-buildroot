@@ -73,6 +73,7 @@ python-iniparse
 python-intbitset
 jc
 python-jenkins-job-builder
+python-jsonformatter
 jsonnet
 python-jsonpointer
 lasso
@@ -141,6 +142,5 @@ rb_libtorrent
 remmina
 renderdoc
 rss2email
-sourcextractor++
 swift-lang
 python3-docs
