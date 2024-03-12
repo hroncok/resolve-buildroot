@@ -14,6 +14,7 @@ gnumeric
 libarrow
 mercurial
 mkosi14
+monkeytype
 nautilus-python
 nemo-extensions
 neuron
@@ -50,7 +51,24 @@ python-curio
 python-demjson
 python-devicely
 dionaea
+python-django-appconf
+python-django-auth-ldap
+python-django-clacks
+python-django-configurations
+python-django-contrib-comments
+python-django-debreach
+python-django-filter
+python-django-formtools
+python-django-gravatar2
+python-django-haystack
+python-django-ipware
+python-django-markdownx
+python-django-picklefield
+python-django-redis
+python-django-uuslug
+python-djangoql
 python-djvulibre
+python-environs
 python-etcd
 python-exdir
 python-flask-httpauth
@@ -78,6 +96,7 @@ python-jsonpointer
 lasso
 libsbml
 libuser
+python-livereload
 python-logutils
 m2crypto
 python-makefun
@@ -115,6 +134,7 @@ python-rq
 python-rtmidi
 python-scss
 python-setuptools_scm_git_archive
+python-shortuuid
 python-simpleaudio
 python-smartcols
 libsolv
@@ -124,6 +144,7 @@ python-tables
 python-toolz
 transtats-cli
 python-trio
+python-twilio
 python-twisted
 python-uritools
 python-uvloop
@@ -133,6 +154,7 @@ python-wcmatch
 python-webob
 python-webpy
 python-webscrapbook
+python-whitenoise
 python-yappi
 python3-zope-fixers
 pyzor
