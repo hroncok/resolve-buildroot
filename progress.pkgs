@@ -14,7 +14,6 @@ gnumeric
 libarrow
 mercurial
 mkosi14
-monkeytype
 nautilus-python
 nemo-extensions
 neuron
@@ -52,19 +51,7 @@ python-demjson
 python-devicely
 dionaea
 python-django-appconf
-python-django-auth-ldap
-python-django-clacks
-python-django-configurations
-python-django-contrib-comments
-python-django-debreach
-python-django-filter
-python-django-formtools
-python-django-gravatar2
-python-django-haystack
-python-django-ipware
-python-django-markdownx
-python-django-picklefield
-python-django-redis
+python-django-q
 python-django-uuslug
 python-djangoql
 python-djvulibre
@@ -127,6 +114,7 @@ python-pymilter
 python-pyqt6
 python-pyquery
 python-pyscaffold
+python-pytest-django
 python-pytn3270
 python-qt5
 python-ratinabox
