@@ -42,6 +42,7 @@ python-bottle
 python-brian2
 btrfs-progs
 python-capturer
+python-chaospy
 python-confluent-kafka
 python-cradox
 python-css-parser
@@ -77,8 +78,6 @@ python-jsonformatter
 jsonnet
 python-jsonpointer
 lasso
-python-lfpykit
-libpoly
 libsbml
 libuser
 python-logutils
@@ -92,7 +91,6 @@ python-multiprocess
 netcdf4-python
 python-nibabel
 python-nuheat
-python-numpoly
 python-openoffice
 python-openpaperwork-core
 python-orderedset
@@ -125,8 +123,8 @@ libsolv
 python-sqlalchemy1.4
 python-straight-plugin
 python-tables
-python-texext
 python-toolz
+python-transforms3d
 transtats-cli
 python-trio
 python-twisted
