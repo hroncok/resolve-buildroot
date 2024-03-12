@@ -51,7 +51,6 @@ python-demjson
 python-devicely
 dionaea
 python-django-compressor
-python-django-q
 python-djvulibre
 python-etcd
 python-exdir
@@ -121,9 +120,9 @@ python-setuptools_scm_git_archive
 python-simpleaudio
 python-smartcols
 libsolv
-python-sphinx-autobuild
 python-sqlalchemy1.4
 python-straight-plugin
+sympy
 python-tables
 python-toolz
 transtats-cli
