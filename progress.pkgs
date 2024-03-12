@@ -5,7 +5,6 @@ buildstream
 ceph
 collectd
 docker-compose
-python-drgn
 quodlibet
 fail2ban
 fontforge
