@@ -50,9 +50,6 @@ python-curio
 python-demjson
 python-devicely
 dionaea
-python-diskcache
-python-django-cacheops
-python-django-extensions
 python-djvulibre
 python-etcd
 python-exdir
