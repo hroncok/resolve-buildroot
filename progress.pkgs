@@ -50,7 +50,9 @@ python-curio
 python-demjson
 python-devicely
 dionaea
-python-django-compressor
+python-diskcache
+python-django-cacheops
+python-django-extensions
 python-djvulibre
 python-etcd
 python-exdir
@@ -109,7 +111,6 @@ python-pymilter
 python-pyqt6
 python-pyquery
 python-pyscaffold
-python-pytest-django
 python-pytn3270
 python-qt5
 python-ratinabox
