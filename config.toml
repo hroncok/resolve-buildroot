@@ -486,6 +486,9 @@ replacements = {with_doc = "0"}
 [[bconds.python-pymssql]]
 withouts = ["tests"]
 
+[[bconds.python-zmq]]
+withouts = ["gevent"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
