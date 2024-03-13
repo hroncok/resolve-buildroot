@@ -72,6 +72,7 @@ python-immutables
 python-iniparse
 python-intbitset
 jc
+python-jedi
 python-jenkins-job-builder
 python-jsonformatter
 jsonnet
@@ -93,7 +94,6 @@ python-nuheat
 python-openoffice
 python-openpaperwork-core
 python-orderedset
-python-parso
 python-paste
 petsc
 python-pivy
