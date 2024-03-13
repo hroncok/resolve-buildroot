@@ -3,6 +3,7 @@ ansible-core
 b43-tools
 buildstream
 ceph
+cloud-init
 collectd
 docker-compose
 quodlibet
@@ -43,6 +44,7 @@ python-bravado-core
 btrfs-progs
 python-capturer
 python-chaospy
+conda:tests::::
 python-confluent-kafka
 python-cradox
 python-css-parser
@@ -76,7 +78,6 @@ jc
 python-jenkins-job-builder
 python-jsonformatter
 jsonnet
-python-jsonpatch
 python-jupyter-events
 lasso
 libsbml
@@ -101,7 +102,6 @@ python-pivy
 python-precis_i18n
 libprelude
 python-psycopg2
-python-pudb
 python-py-gql
 python-pydantic
 python-pyfastnoisesimd
@@ -118,10 +118,10 @@ python-rq
 python-rtmidi
 python-scss
 python-setuptools_scm_git_archive
+python-sexpdata
 python-simpleaudio
 python-smartcols
 libsolv
-python-sphinx-jsonschema
 python-sqlalchemy1.4
 python-straight-plugin
 python-tables
@@ -133,6 +133,7 @@ python-uritools
 python-uvloop
 vrpn
 python-wadllib
+python-warlock
 python-wcmatch
 python-webob
 python-webpy
