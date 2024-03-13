@@ -39,7 +39,6 @@ python-backrefs
 python-beartype
 python-biopython
 python-bottle
-python-brian2
 btrfs-progs
 python-capturer
 python-chaospy
@@ -124,7 +123,6 @@ python-sqlalchemy1.4
 python-straight-plugin
 python-tables
 python-toolz
-python-transforms3d
 transtats-cli
 python-trio
 python-twisted
