@@ -44,7 +44,6 @@ python-bravado-core
 btrfs-progs
 python-capturer
 python-chaospy
-conda:tests::::
 python-confluent-kafka
 python-cradox
 python-css-parser
@@ -55,6 +54,7 @@ python-demjson
 python-devicely
 dionaea
 python-djvulibre
+python-epc
 python-etcd
 python-exdir
 python-flask-httpauth
@@ -118,7 +118,6 @@ python-rq
 python-rtmidi
 python-scss
 python-setuptools_scm_git_archive
-python-sexpdata
 python-simpleaudio
 python-smartcols
 libsolv
@@ -133,7 +132,6 @@ python-uritools
 python-uvloop
 vrpn
 python-wadllib
-python-warlock
 python-wcmatch
 python-webob
 python-webpy
