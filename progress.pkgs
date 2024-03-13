@@ -39,6 +39,7 @@ python-backrefs
 python-beartype
 python-biopython
 python-bottle
+python-bravado-core
 btrfs-progs
 python-capturer
 python-chaospy
@@ -72,11 +73,11 @@ python-immutables
 python-iniparse
 python-intbitset
 jc
-python-jedi
 python-jenkins-job-builder
 python-jsonformatter
 jsonnet
-python-jsonpointer
+python-jsonpatch
+python-jupyter-events
 lasso
 libsbml
 libuser
@@ -100,6 +101,7 @@ python-pivy
 python-precis_i18n
 libprelude
 python-psycopg2
+python-pudb
 python-py-gql
 python-pydantic
 python-pyfastnoisesimd
@@ -119,6 +121,7 @@ python-setuptools_scm_git_archive
 python-simpleaudio
 python-smartcols
 libsolv
+python-sphinx-jsonschema
 python-sqlalchemy1.4
 python-straight-plugin
 python-tables
