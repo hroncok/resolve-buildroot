@@ -7,14 +7,12 @@ ceph
 cloud-init
 collectd
 docker-compose
-enki
 quodlibet
 fail2ban
 fontforge
 glade
 python-glue
 gnumeric
-lector
 libarrow
 mercurial
 mkosi14
@@ -23,7 +21,6 @@ nautilus-python
 nemo-extensions
 neuron
 obs-studio
-obserware
 openvswitch
 kernel
 plplot
