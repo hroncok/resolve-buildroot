@@ -45,7 +45,6 @@ python-backrefs
 python-beartype
 python-biopython
 python-bottle
-python-bravado-core
 btrfs-progs
 python-capturer
 python-chaospy
@@ -84,7 +83,6 @@ jc
 python-jenkins-job-builder
 python-jsonformatter
 jsonnet
-python-jupyter-events
 lasso
 libsbml
 libuser
@@ -110,6 +108,7 @@ python-precis_i18n
 libprelude
 python-psycopg2
 python-py-gql
+python-pyconify
 python-pydantic
 python-pyfastnoisesimd
 pygame
