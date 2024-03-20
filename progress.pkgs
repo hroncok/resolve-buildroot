@@ -49,6 +49,7 @@ btrfs-progs
 python-capturer
 python-chaospy
 python-cliff
+python-cmap
 python-confluent-kafka
 python-cradox
 python-css-parser
@@ -108,7 +109,6 @@ python-precis_i18n
 libprelude
 python-psycopg2
 python-py-gql
-python-pyconify
 python-pydantic
 python-pyfastnoisesimd
 pygame
@@ -151,6 +151,7 @@ remmina
 renderdoc
 rss2email
 scribus
+sourcextractor++
 swift-lang
 urh
 veusz
