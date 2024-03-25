@@ -12,12 +12,10 @@ fail2ban
 fontforge
 glade
 python-glue
-gnumeric
 libarrow
 mercurial
 mkosi14
 mycli
-nautilus-python
 nemo-extensions
 neuron
 obs-studio
@@ -47,7 +45,6 @@ python-biopython
 python-bottle
 btrfs-progs
 python-capturer
-python-chaospy
 python-cliff
 python-cmap
 python-confluent-kafka
@@ -118,7 +115,6 @@ python-pyqt6
 python-pyquery
 python-pyscaffold
 python-pytn3270
-python-ratinabox
 python-rq
 python-rtmidi
 python-scss
@@ -126,6 +122,7 @@ python-setuptools_scm_git_archive
 python-simpleaudio
 python-smartcols
 libsolv
+sphinxbase
 python-sqlalchemy1.4
 python-straight-plugin
 python-tables
