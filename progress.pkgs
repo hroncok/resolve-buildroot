@@ -24,9 +24,7 @@ kernel
 plplot
 profanity
 pungi
-pymol
 pyotherside
-pyplane
 python-pyside6
 NLopt
 PyQt4
@@ -68,7 +66,6 @@ gdcm
 gnuradio
 python-gphoto2
 python-grabbit
-python-gradunwarp
 python-greenlet
 gtts
 python-h5io
@@ -76,7 +73,6 @@ python-hl7
 python-imagecodecs
 python-imagehash
 python-immutables
-python-indexed_gzip
 python-iniparse
 python-intbitset
 jc
@@ -87,7 +83,6 @@ lasso
 libsbml
 libuser
 python-logutils
-python-lxml-html-clean
 m2crypto
 python-makefun
 python-mglob
@@ -97,7 +92,6 @@ mod_wsgi
 python-multiprocess
 netcdf4-python
 python-nipy
-python-nitime
 python-nuheat
 python-openoffice
 python-openpaperwork-core
