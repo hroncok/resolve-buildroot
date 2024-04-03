@@ -439,7 +439,7 @@ replacements = {with_doc = "0"}
 replacements = {with_doc = "0"}
 
 [[bconds.python-oslo-config]]
-replacements = {with_doc = "0", with_tests = "0"}
+withs = ["repo_bootstrap"]
 
 [[bconds.python-neutronclient]]
 replacements = {with_doc = "0"}
@@ -488,6 +488,9 @@ withouts = ["tests"]
 
 [[bconds.python-zmq]]
 withouts = ["gevent"]
+
+[[bconds.python-django]]
+withouts = ["tests"]
 
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
