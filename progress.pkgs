@@ -13,7 +13,6 @@ fontforge
 glade
 python-glue
 libarrow
-mercurial
 mkosi14
 mycli
 nemo-extensions
@@ -55,15 +54,14 @@ python-demjson
 python-devicely
 dionaea
 python-djvulibre
+python-dunamai
 python-etcd
 python-exdir
-fedora-messaging
 python-flask-httpauth
 flatpak-module-tools
 freeradius
 future
 gdcm
-gnuradio
 python-gphoto2
 python-grabbit
 python-greenlet
