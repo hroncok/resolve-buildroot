@@ -24,7 +24,6 @@ plplot
 profanity
 pungi
 pyotherside
-python-pyside6
 NLopt
 PyQt4
 python-Traits::bootstrap:::
@@ -82,6 +81,7 @@ libsbml
 libuser
 python-logutils
 m2crypto
+mailman3-fedmsg-plugin-schemas
 python-makefun
 python-mglob
 python-mimeparse
@@ -142,5 +142,4 @@ rss2email
 scribus
 sourcextractor++
 swift-lang
-urh
 python3-docs
