@@ -53,7 +53,6 @@ python-demjson
 python-devicely
 dionaea
 python-djvulibre
-python-dunamai
 python-etcd
 python-exdir
 python-flask-httpauth
@@ -62,7 +61,6 @@ freeradius
 future
 gdcm
 python-gphoto2
-python-grabbit
 python-greenlet
 gtts
 python-h5io
@@ -90,7 +88,6 @@ mod_wsgi
 python-multiprocess
 netcdf4-python
 python-nipy
-python-nuheat
 python-openoffice
 python-openpaperwork-core
 python-orderedset
