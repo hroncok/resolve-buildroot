@@ -142,6 +142,14 @@ def koji_status(koji_id):
     raise RuntimeError('Cannot parse koji taskinfo output')
 
 
+def koji_task_is_obsolete(koji_id):
+    command = ('koji', 'download-task', koji_id, '--arch=src', '--noprogress')
+    koji_output = run(*command).stdout.splitlines()
+    if 'No files for download found.' in koji_output:
+        return True
+    return False
+
+
 def handle_existing_srpm(repopath, *, was_updated):
     srpm = srpm_path(repopath)
     if srpm and not was_updated:
@@ -166,6 +174,10 @@ def handle_existing_koji_id(repopath, *, was_updated):
                     f'removing {KOJI_ID_FILENAME}.')
                 koji_id_path.unlink()
                 return None
+            elif status == 'closed' and koji_task_is_obsolete(koji_task_id):
+                log(f'   • Koji task {koji_task_id} is long closed '
+                    f'and there\'s nothing to download; removing {KOJI_ID_FILENAME}.')
+                koji_id_path.unlink()
             else:
                 log(f'   • Koji task {koji_task_id} is {status}; '
                     f'not rebuilding (rm {KOJI_ID_FILENAME} to force).')
