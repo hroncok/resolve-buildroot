@@ -139,10 +139,10 @@ def koji_status(koji_id):
     for line in output:
         if line.startswith('State: '):
             return line.split(' ')[-1]
-    raise RuntimeError('Carnot parse koji taskinfo output')
+    raise RuntimeError('Cannot parse koji taskinfo output')
 
 
-def handle_exisitng_srpm(repopath, *, was_updated):
+def handle_existing_srpm(repopath, *, was_updated):
     srpm = srpm_path(repopath)
     if srpm and not was_updated:
         log(f'   • Found {srpm.name}, will not rebuild; remove it to force me.')
@@ -152,7 +152,7 @@ def handle_exisitng_srpm(repopath, *, was_updated):
     return None
 
 
-def handle_exisitng_koji_id(repopath, *, was_updated):
+def handle_existing_koji_id(repopath, *, was_updated):
     koji_id_path = repopath / KOJI_ID_FILENAME
     if koji_id_path.exists():
         if was_updated:
@@ -194,11 +194,11 @@ def scratchbuild_patched_if_needed(component_name, bcond_config, *, branch='', t
         clone_into(component_name, repopath, branch=branch)
         news = True
 
-    if srpm := handle_exisitng_srpm(repopath, was_updated=news):
+    if srpm := handle_existing_srpm(repopath, was_updated=news):
         bcond_config['srpm'] = srpm
         return False
 
-    if koji_id := handle_exisitng_koji_id(repopath, was_updated=news):
+    if koji_id := handle_existing_koji_id(repopath, was_updated=news):
         bcond_config['koji_task_id'] = koji_id
         return False
 
