@@ -10,11 +10,13 @@ docker-compose
 quodlibet
 fail2ban
 fontforge
+getdp
 glade
 python-glue
+gmsh
+kicad
 libarrow
 mkosi14
-mycli
 nemo-extensions
 neuron
 obs-studio
@@ -24,6 +26,7 @@ plplot
 profanity
 pungi
 pyotherside
+python-pyside6
 NLopt
 PyQt4
 python-Traits::bootstrap:::
@@ -33,7 +36,6 @@ python-anymarkup-core
 python-apsw
 python-astroid
 python-audioread
-python-autobahn
 python-autopep8
 python-avocado
 python-backrefs
@@ -49,6 +51,7 @@ python-css-parser
 python-cssutils
 python-cups
 python-curio
+python-daphne
 python-demjson
 python-devicely
 dionaea
@@ -79,7 +82,6 @@ libsbml
 libuser
 python-logutils
 m2crypto
-mailman3-fedmsg-plugin-schemas
 python-makefun
 python-mglob
 python-mimeparse
@@ -106,6 +108,8 @@ python-pymilter
 python-pyqt6
 python-pyquery
 python-pytn3270
+python-pyzstd
+python-qudida
 python-rq
 python-rtmidi
 python-scss
@@ -123,12 +127,12 @@ python-trio
 python-uritools
 python-uvloop
 vrpn
-vtk
 python-wadllib
 python-wcmatch
 python-webob
 python-webpy
 python-webscrapbook
+python-willow
 python-yappi
 python3-zope-fixers
 pyzor
