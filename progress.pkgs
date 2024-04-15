@@ -13,7 +13,6 @@ fontforge
 getdp
 glade
 python-glue
-gmsh
 kicad
 libarrow
 mkosi14
@@ -52,7 +51,6 @@ python-cssutils
 python-cups
 python-curio
 python-daphne
-python-demjson
 python-devicely
 dionaea
 python-djvulibre
@@ -109,7 +107,6 @@ python-pyqt6
 python-pyquery
 python-pytn3270
 python-pyzstd
-python-qudida
 python-rq
 python-rtmidi
 python-scss
@@ -132,7 +129,6 @@ python-wcmatch
 python-webob
 python-webpy
 python-webscrapbook
-python-willow
 python-yappi
 python3-zope-fixers
 pyzor
