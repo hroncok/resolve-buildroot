@@ -3,7 +3,6 @@ ansible-core
 b43-tools
 buildstream
 ceph
-cloud-init
 collectd
 container-workflow-tool
 docker-compose
@@ -13,6 +12,7 @@ fontforge
 getdp
 glade
 python-glue
+hplip
 kicad
 libarrow
 mkosi14
@@ -48,9 +48,7 @@ python-confluent-kafka
 python-cradox
 python-css-parser
 python-cssutils
-python-cups
 python-curio
-python-daphne
 python-devicely
 dionaea
 python-djvulibre
@@ -139,4 +137,5 @@ rss2email
 scribus
 sourcextractor++
 swift-lang
+xpra
 python3-docs
