@@ -1,22 +1,19 @@
 WALinuxAgent
-anaconda
 ansible-core
 b43-tools
+bodhi-client
 buildstream
 ceph
 collectd
 container-workflow-tool
 docker-compose
-eric
 quodlibet
 fail2ban
 fontforge
-getdp
 python-glue
 hplip
 kicad
 libarrow
-lutris
 openvswitch
 plplot
 pungi
@@ -47,6 +44,7 @@ python-djvulibre
 python-etcd
 python-exdir
 python-flask-httpauth
+python-flask-oidc
 flatpak-module-tools
 freeradius
 future
@@ -71,11 +69,9 @@ python-makefun
 python-mglob
 python-mimeparse
 python-minimock
-mod_wsgi
 python-multiprocess
 netcdf4-python
-python-nipy
-openms
+python3-openid
 python-openoffice
 python-openpaperwork-core
 python-orderedset
@@ -84,7 +80,6 @@ petsc
 python-pivy
 python-precis_i18n
 libprelude
-python-psycopg2
 python-py-gql
 python-pydantic
 python-pyfastnoisesimd
@@ -98,6 +93,7 @@ python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
 qgis
+python-rows
 python-rq
 python-rtmidi
 python-scss
@@ -126,5 +122,5 @@ qpid-dispatch
 remmina
 rss2email
 swift-lang
-xpra
+toot
 python3-docs
