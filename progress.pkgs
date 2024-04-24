@@ -1,7 +1,6 @@
 WALinuxAgent
 ansible-core
 b43-tools
-bodhi-client
 buildstream
 ceph
 collectd
@@ -12,9 +11,9 @@ fail2ban
 fontforge
 python-glue
 hplip
-kicad
 libarrow
 openvswitch
+pag
 plplot
 pungi
 NLopt
@@ -40,11 +39,11 @@ python-cssutils
 python-curio
 python-devicely
 dionaea
+python-django-mailman3
 python-djvulibre
 python-etcd
 python-exdir
 python-flask-httpauth
-python-flask-oidc
 flatpak-module-tools
 freeradius
 future
@@ -71,7 +70,6 @@ python-mimeparse
 python-minimock
 python-multiprocess
 netcdf4-python
-python3-openid
 python-openoffice
 python-openpaperwork-core
 python-orderedset
@@ -88,12 +86,10 @@ pyliblo
 python-pymilter
 python-pyngus
 python-pyquery
-python-pytest-qt
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
 qgis
-python-rows
 python-rq
 python-rtmidi
 python-scss
