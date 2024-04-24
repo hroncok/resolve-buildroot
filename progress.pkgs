@@ -13,7 +13,6 @@ python-glue
 hplip
 libarrow
 openvswitch
-pag
 plplot
 pungi
 NLopt
@@ -21,6 +20,7 @@ PyQt4
 python-Traits::bootstrap:::
 python-aiosmtpd
 python-amico
+python-anyio
 python-anymarkup-core
 python-apsw
 python-astroid
@@ -39,9 +39,7 @@ python-cssutils
 python-curio
 python-devicely
 dionaea
-python-django-mailman3
 python-djvulibre
-python-etcd
 python-exdir
 python-flask-httpauth
 flatpak-module-tools
@@ -86,6 +84,7 @@ pyliblo
 python-pymilter
 python-pyngus
 python-pyquery
+python-pytest-trio
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
@@ -102,7 +101,6 @@ python-tables
 python-tblib
 python-toolz
 transtats-cli
-python-trio
 python-uritools
 python-uvloop
 vrpn
@@ -116,6 +114,7 @@ python3-zope-fixers
 pyzor
 qpid-dispatch
 remmina
+rpkg-util
 rss2email
 swift-lang
 toot
