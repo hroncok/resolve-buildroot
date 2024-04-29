@@ -10,7 +10,7 @@ quodlibet
 fail2ban
 fontforge
 python-glue
-hplip
+krita
 libarrow
 openvswitch
 plplot
@@ -45,7 +45,6 @@ python-flask-httpauth
 flatpak-module-tools
 freeradius
 future
-gdcm
 python-greenlet
 gtts
 python-h5io
@@ -71,7 +70,6 @@ netcdf4-python
 python-openoffice
 python-openpaperwork-core
 python-orderedset
-python-paste
 petsc
 python-pivy
 python-precis_i18n
@@ -117,5 +115,4 @@ remmina
 rpkg-util
 rss2email
 swift-lang
-toot
 python3-docs
