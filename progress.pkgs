@@ -1,5 +1,4 @@
 WALinuxAgent
-ansible-core
 b43-tools
 buildstream
 ceph
@@ -10,8 +9,6 @@ quodlibet
 fail2ban
 fontforge
 python-glue
-jrnl
-krita
 libarrow
 openvswitch
 plplot
@@ -24,9 +21,7 @@ python-anyio
 python-anymarkup-core
 python-apsw
 python-astroid
-python-asyncpg
 python-audioread
-python-autopep8
 python-avocado
 python-backrefs
 python-beartype
@@ -40,7 +35,6 @@ python-cssutils
 python-curio
 python-devicely
 dionaea
-python-dipy
 python-djvulibre
 python-exdir
 python-flask-httpauth
@@ -58,7 +52,6 @@ python-immutables
 python-iniparse
 python-intbitset
 jc
-python-jenkins-job-builder
 python-jsonformatter
 jsonnet
 lasso
@@ -85,7 +78,9 @@ pygame
 pyliblo
 python-pymilter
 python-pyngus
+python-pypet
 python-pyquery
+python-pytest-testinfra
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
@@ -98,8 +93,8 @@ python-smartcols
 libsolv
 python-sqlalchemy1.4
 python-straight-plugin
-python-tables
 python-tblib
+python-testinfra
 python-toolz
 transtats-cli
 python-trio-websocket
