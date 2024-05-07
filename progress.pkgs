@@ -20,6 +20,7 @@ python-amico
 python-anyio
 python-anymarkup-core
 python-apsw
+ara
 python-astroid
 python-audioread
 python-avocado
@@ -29,7 +30,6 @@ python-bottle
 btrfs-progs
 python-capturer
 python-cclib
-python-cliff
 python-css-parser
 python-cssutils
 python-curio
@@ -67,6 +67,7 @@ netcdf4-python
 python-openoffice
 python-openpaperwork-core
 python-orderedset
+python-oslotest
 petsc
 python-pivy
 python-precis_i18n
@@ -90,7 +91,6 @@ python-rtmidi
 python-scss
 python-setuptools_scm_git_archive
 python-smartcols
-libsolv
 python-sqlalchemy1.4
 python-straight-plugin
 python-tblib
