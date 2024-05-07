@@ -492,6 +492,9 @@ withouts = ["gevent"]
 [[bconds.python-django]]
 withouts = ["tests"]
 
+[[bconds.python-authlib]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
