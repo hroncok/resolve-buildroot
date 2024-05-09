@@ -8,9 +8,13 @@ docker-compose
 quodlibet
 fail2ban
 fontforge
+freecell-solver
 python-glue
+home-assistant-cli
+krita
 libarrow
 openvswitch
+paraview
 plplot
 NLopt
 PyQt4
@@ -27,6 +31,7 @@ python-avocado
 python-backrefs
 python-beartype
 python-bottle
+python-boutdata
 btrfs-progs
 python-capturer
 python-cclib
@@ -63,11 +68,9 @@ python-mglob
 python-mimeparse
 python-minimock
 python-multiprocess
-netcdf4-python
 python-openoffice
 python-openpaperwork-core
 python-orderedset
-python-oslotest
 petsc
 python-pivy
 python-precis_i18n
@@ -87,6 +90,7 @@ python-pyzstd
 python-qcustomplot-pyqt
 qgis
 python-rq
+python-rsd-lib
 python-rtmidi
 python-scss
 python-setuptools_scm_git_archive
@@ -106,6 +110,7 @@ python-webob
 python-webpy
 python-webscrapbook
 python-yappi
+python-zoidberg
 python3-zope-fixers
 pyzor
 qpid-dispatch
