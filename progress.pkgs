@@ -8,9 +8,7 @@ docker-compose
 quodlibet
 fail2ban
 fontforge
-freecell-solver
 python-glue
-home-assistant-cli
 krita
 libarrow
 openvswitch
@@ -31,7 +29,6 @@ python-avocado
 python-backrefs
 python-beartype
 python-bottle
-python-boutdata
 btrfs-progs
 python-capturer
 python-cclib
@@ -90,7 +87,6 @@ python-pyzstd
 python-qcustomplot-pyqt
 qgis
 python-rq
-python-rsd-lib
 python-rtmidi
 python-scss
 python-setuptools_scm_git_archive
@@ -109,8 +105,8 @@ python-wcmatch
 python-webob
 python-webpy
 python-webscrapbook
+python-x3dh
 python-yappi
-python-zoidberg
 python3-zope-fixers
 pyzor
 qpid-dispatch
