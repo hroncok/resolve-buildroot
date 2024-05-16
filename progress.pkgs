@@ -11,8 +11,8 @@ fontforge
 python-glue
 krita
 libarrow
+nordugrid-arc
 openvswitch
-paraview
 plplot
 NLopt
 PyQt4
@@ -21,9 +21,7 @@ python-aiosmtpd
 python-amico
 python-anyio
 python-anymarkup-core
-python-apsw
 ara
-python-astroid
 python-audioread
 python-avocado
 python-backrefs
@@ -73,7 +71,7 @@ python-pivy
 python-precis_i18n
 libprelude
 python-py-gql
-python-pydantic
+python-pydantic-core
 python-pyfastnoisesimd
 pygame
 pyliblo
@@ -85,13 +83,13 @@ python-pytest-testinfra
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
-qgis
 python-rq
 python-rtmidi
 python-scss
 python-setuptools_scm_git_archive
 python-smartcols
 python-sqlalchemy1.4
+python-stack-data
 python-straight-plugin
 python-tblib
 python-testinfra
