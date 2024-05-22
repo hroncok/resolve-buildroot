@@ -1,7 +1,6 @@
 WALinuxAgent
 b43-tools
 buildstream
-calypso
 ceph
 collectd
 docker-compose
@@ -13,6 +12,8 @@ krita
 libarrow
 openvswitch
 paraview
+plplot
+NLopt
 PyQt4
 python-Traits::bootstrap:::
 python-aiosmtpd
@@ -79,13 +80,14 @@ libprelude
 python-py-gql
 python-pydantic-core
 python-pyfastnoisesimd
+python-pygal
 pygame
 pyliblo
 python-pymilter
 python-pyngus
 python-pypet
-python-pyquery
 python-pytest-testinfra
+python-python-fcl
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
@@ -115,9 +117,9 @@ python3-zope-fixers
 pythran
 pyzor
 qpid-dispatch
+rebase-helper
 remmina
 rpkg-util
 rss2email
 swift-lang
-translate-toolkit
 python3-docs
