@@ -80,7 +80,6 @@ libprelude
 python-py-gql
 python-pydantic-core
 python-pyfastnoisesimd
-python-pygal
 pygame
 pyliblo
 python-pymilter
@@ -117,7 +116,6 @@ python3-zope-fixers
 pythran
 pyzor
 qpid-dispatch
-rebase-helper
 remmina
 rpkg-util
 rss2email
