@@ -42,7 +42,6 @@ python-flask-httpauth
 python-flask-mailman
 flatpak-module-tools
 freeradius
-python-ftfy
 future
 python-greenlet
 gtts
@@ -86,7 +85,6 @@ python-pymilter
 python-pyngus
 python-pypet
 python-pytest-testinfra
-python-python-fcl
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
