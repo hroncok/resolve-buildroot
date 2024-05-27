@@ -498,6 +498,9 @@ withouts = ["tests"]
 [[bconds.python-oslotest]]
 withs = ["repo_bootstrap"]
 
+[[bconds.python-gunicorn]]
+withouts = ["extras"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
