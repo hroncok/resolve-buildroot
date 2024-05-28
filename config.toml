@@ -175,7 +175,7 @@ withouts = ["tests"]
 withs = ["bootstrap"]
 
 [[bconds.python-jinja2]]
-withouts = ["docs"]
+withouts = ["docs", "asyncio_tests"]
 
 [[bconds.python-sphinx_rtd_theme]]
 withs = ["bootstrap"]
