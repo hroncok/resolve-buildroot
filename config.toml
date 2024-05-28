@@ -501,6 +501,9 @@ withs = ["repo_bootstrap"]
 [[bconds.python-gunicorn]]
 withouts = ["extras"]
 
+[[bconds.python-execnet]]
+withouts = ["optional_test_deps"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
