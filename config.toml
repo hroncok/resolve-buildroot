@@ -77,7 +77,7 @@ baseurl = ["http://kojipkgs.fedoraproject.org/repos/rawhide/latest/src/"]
 
 [[repos.target]]
 repoid = "python3.13"
-baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.13/fedora-rawhide-$basearch/"]
+baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.13-b1/fedora-rawhide-$basearch/"]
 #baseurl = ["http://kojipkgs.fedoraproject.org/repos/f39-build/latest/$basearch/"]
 metadata_expire = 60
 
