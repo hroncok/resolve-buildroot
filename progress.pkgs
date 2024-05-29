@@ -70,7 +70,6 @@ python-ibm-vpc
 python-immutables
 python-intbitset
 jc
-python-joblib
 python-json-logger
 python-jsonformatter
 jsonnet
@@ -114,7 +113,6 @@ python-pyfastnoisesimd
 pyflakes
 pygame
 pyliblo
-python-pynamodb
 python-pyngus
 pyodbc
 python-pypandoc
@@ -138,6 +136,7 @@ python-sphinxcontrib-openapi
 python-sqlalchemy1.4
 python-straight-plugin
 python-swagger-spec-validator
+python-tensile
 python-toolz
 python-txaio
 python-uritools
