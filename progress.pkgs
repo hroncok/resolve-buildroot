@@ -1,17 +1,13 @@
 RBTools
 WALinuxAgent
 argparse-manpage
-auditwheel
 awscli2
 b43-tools
-borgmatic
 calamares
 calypso
-cekit
 ceph
 dmlite
 docker-compose
-elements-alexandria
 fail2ban
 fontforge
 ikiwiki
@@ -25,7 +21,6 @@ nut
 nwchem
 opae
 openscap
-openscap-report
 openvswitch
 openwsman
 python-pyside6
@@ -34,6 +29,7 @@ python-Traits::bootstrap:::
 python-accept-types
 python-aiosmtpd
 python-amico
+python-anyconfig
 python-apsw
 python-archspec
 python-astroid
@@ -51,6 +47,7 @@ python-cachelib
 pycairo
 python-capturer
 python-catkin_lint
+python-cbor2
 pychromecast
 condor
 python-configargparse
@@ -65,13 +62,13 @@ dionaea
 root
 python-django-auth-ldap
 python-djvulibre
-dlib
 python-etcd
 fmf
 freeradius
 python-frozenlist
 future
 python-gast
+python-graphviz
 python-greenlet
 gtts
 python-hl7
@@ -113,6 +110,7 @@ python-openoffice
 python-openpaperwork-core
 python-opytimark
 python-orderedset
+python-overpy
 python-pathvalidate
 python-pdir2
 pepc
@@ -148,11 +146,12 @@ python-scales
 scons
 python-scss
 python-setuptools_scm_git_archive
+python-slixmpp
 python-smartcols
-python-sphinx-autodoc-typehints
 python-sphinx-notfound-page
 python-sphinxcontrib-openapi
 python-sqlalchemy1.4
+python-stem
 python-straight-plugin
 python-swagger-spec-validator
 python-toolz
@@ -180,6 +179,7 @@ qpid-dispatch
 rss2email
 ruff
 rust2rpm
+sourcextractor++
 swift-lang
 system-storage-manager
 ubertooth
