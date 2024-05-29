@@ -3,11 +3,13 @@ WALinuxAgent
 argparse-manpage
 b43-tools
 boost
+breezy
 calypso
 fail2ban
 fontforge
 lammps
 mate-menu
+maturin
 nut
 nwchem
 openscap
@@ -20,10 +22,10 @@ python-aiosmtpd
 python-amico
 python-apsw
 python-astroid
-astrometry
 python-astunparse
 python-avocado
 python-backrefs
+python-bcrypt
 python-beartype
 python-boltons
 python-bottle
@@ -35,6 +37,7 @@ python-capturer
 python-catkin_lint
 pychromecast
 python-configargparse
+python-cryptography
 python-css-parser
 python-cssutils
 python-curio
@@ -51,6 +54,7 @@ python-greenlet
 gtts
 python-hl7
 python-immutables
+python-importlib-metadata
 python-intbitset
 python-json-logger
 python-jsonformatter
@@ -58,6 +62,7 @@ jsonnet
 python-kafka
 koji
 lasso
+python-libcst:docs-tests::::
 python-libusb1
 libuser
 libxc
@@ -102,7 +107,6 @@ pyodbc
 python-pypandoc
 python-pyquery
 pyserial
-python-python-fcl
 python-pytn3270
 python-pyzstd
 python-recordclass
@@ -112,12 +116,12 @@ python-ruffus
 python-scales
 scons
 python-scss
-python-setuptools-rust
 python-setuptools_scm_git_archive
 python-smartcols
 python-sphinx-notfound-page
 python-sqlalchemy1.4
 python-straight-plugin
+python-tiktoken
 python-toolz
 python-txaio
 python-uritools
@@ -134,7 +138,6 @@ python-xmlsec
 xrootd
 python-yappi
 python-zbase32
-python-zipp
 python3-zope-fixers
 pyzor
 qpid-dispatch
