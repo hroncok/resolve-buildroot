@@ -504,6 +504,9 @@ withouts = ["extras"]
 [[bconds.python-execnet]]
 withouts = ["optional_test_deps"]
 
+[[bconds.python-threadpoolctl]]
+withouts = ["check"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
