@@ -33,8 +33,8 @@ python-asyncssh
 python-avocado
 python-backrefs
 python-beartype
-python-blosc2
 python-boltons
+python-boto3
 python-bottle
 python-bsddb3
 btrfs-progs
@@ -70,6 +70,7 @@ python-ibm-vpc
 python-immutables
 python-intbitset
 jc
+python-joblib
 python-json-logger
 python-jsonformatter
 jsonnet
@@ -92,7 +93,6 @@ notmuch
 python-numexpr
 python-oauth2client
 python-oauthlib
-python-openapi-spec-validator
 python-openoffice
 python-openpaperwork-core
 python-orderedset
@@ -100,7 +100,6 @@ python-pathvalidate
 python-pdir2
 pepc
 petsc
-python-pipdeptree
 python-pivy
 python-ppft
 python-precis_i18n
@@ -128,8 +127,8 @@ python-robotframework
 python-rpmfluff
 python-rq
 python-ruffus
-python-s3transfer
 python-scales
+scipy:pythran::::
 scons
 python-scss
 python-setuptools_scm_git_archive
@@ -144,7 +143,6 @@ python-txaio
 python-uritools
 urjtag
 python-usort
-python-uswid
 python-vatnumber
 python-virtualenvwrapper
 vrpn
