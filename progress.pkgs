@@ -15,8 +15,8 @@ libarrow
 libreoffice
 linkchecker
 mate-menu
+nbdkit
 nut
-nwchem
 openscap
 openvswitch
 openwsman
@@ -31,10 +31,10 @@ python-astroid
 python-astunparse
 python-asyncssh
 python-avocado
+python-awsiotsdk
 python-backrefs
 python-beartype
 python-boltons
-python-boto3
 python-bottle
 python-bsddb3
 btrfs-progs
@@ -42,6 +42,7 @@ python-cachelib
 pycairo
 python-capturer
 python-catkin_lint
+python-chalice
 pychromecast
 condor
 python-configargparse
@@ -57,6 +58,7 @@ root
 python-django-auth-ldap
 python-djvulibre
 python-etcd
+python-fiona
 fmf
 freeradius
 python-frozenlist
@@ -136,7 +138,6 @@ python-sphinxcontrib-openapi
 python-sqlalchemy1.4
 python-straight-plugin
 python-swagger-spec-validator
-python-tensile
 python-toolz
 python-txaio
 python-uritools
