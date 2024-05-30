@@ -507,6 +507,9 @@ withouts = ["optional_test_deps"]
 [[bconds.python-threadpoolctl]]
 withouts = ["check"]
 
+[[bconds.python-tabulate]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
