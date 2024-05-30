@@ -5,7 +5,6 @@ argparse-manpage
 awscli2
 b43-tools
 buildstream
-centpkg
 ceph
 clang
 docker-compose
@@ -19,6 +18,7 @@ libaccounts-glib
 libarrow
 libreoffice
 linkchecker
+mkdocs
 nut
 openscap
 openvswitch
@@ -36,7 +36,6 @@ python-astunparse
 python-asyncssh
 python-audioread
 python-avocado
-python-azure-mgmt-servicefabric
 python-backrefs
 python-beartype
 python-boltons
@@ -98,7 +97,6 @@ python-mglob
 python-mimeparse
 python-minimock
 python-mirakuru
-python-mkdocs-get-deps
 mod_wsgi
 python-munch
 notmuch
@@ -113,13 +111,12 @@ python-ppft
 python-precis_i18n
 libprelude
 libpreludedb
+python-primecountpy
 python-psycopg2
 python-py-gql
 py-radix
 afflib
-python-pyclipper
 python-pydantic
-python-pydapsys
 python-pyfastnoisesimd
 pyflakes
 pygame
@@ -128,7 +125,6 @@ python-pyngus
 pyodbc
 python-pypandoc
 python-pyquery
-python-pytest-cython
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
@@ -166,8 +162,8 @@ python-xmlsec
 xrootd
 python-yappi
 python-zbase32
-python-zc-customdoctests
 python3-zope-fixers
+python-zope-testrunner
 pyzor
 qpid-dispatch
 rss2email
