@@ -68,6 +68,7 @@ future
 python-gast
 python-gbulb
 python-gensim
+gnuradio
 python-google-cloud-monitoring
 python-greenlet
 gtts
@@ -75,7 +76,6 @@ python-hl7
 python-ibm-vpc
 python-imagehash
 python-immutables
-python-inspyred
 python-intbitset
 jc
 python-json-logger
@@ -100,7 +100,6 @@ python-munch
 notmuch
 python-openoffice
 python-openpaperwork-core
-openvdb
 python-orderedset
 python-pathvalidate
 python-pdir2
@@ -128,11 +127,8 @@ python-pytest-testinfra
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
-qgis
 python-rdflib
 python-recordclass
-python-robotframework
-rpmdeplint
 python-rq
 python-ruffus
 scons
@@ -148,7 +144,6 @@ python-testinfra
 python-toolz
 transtats-cli
 python-uritools
-urjtag
 python-usort
 python-uvloop
 vrpn
@@ -169,4 +164,4 @@ qpid-dispatch
 rss2email
 swift-lang
 ubertooth
-uhd
+urh
