@@ -13,6 +13,7 @@ libffado
 fontforge
 python-glue
 ikiwiki
+khal
 lammps
 libaccounts-glib
 libarrow
@@ -24,6 +25,7 @@ openvswitch
 openwsman
 plplot
 python-pyside6
+python-CacheControl
 NLopt
 PyQt4
 python-Traits::bootstrap:::
@@ -31,7 +33,6 @@ python-agate
 python-aiosmtpd
 python-amico
 python-ansible-runner
-python-anyio
 python-apsw
 python-astroid
 python-astunparse
@@ -48,7 +49,6 @@ python-cachelib
 python-capturer
 python-catkin_lint
 python-cclib
-python-cheroot
 pychromecast
 condor
 python-configargparse
@@ -63,7 +63,6 @@ dionaea
 root
 python-django-auth-ldap
 python-djvulibre
-python-elastic-transport
 python-etcd
 python-flask-basicauth
 python-flask-httpauth
@@ -113,6 +112,7 @@ python-precis_i18n
 libprelude
 libpreludedb
 python-psycopg2
+python-psycopg3
 python-py-gql
 py-radix
 afflib
@@ -126,6 +126,7 @@ python-pyngus
 pyodbc
 python-pypandoc
 python-pyquery
+python-pytest-subprocess
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
@@ -135,6 +136,7 @@ python-recordclass
 python-rq
 python-ruffus
 python-scss
+python-selenium
 python-setuptools_scm_git_archive
 python-smartcols
 python-sphinxcontrib-openapi
@@ -142,19 +144,21 @@ python-sqlalchemy1.4
 python-straight-plugin
 python-tables
 python-testinfra
+python-tiny-proxy:tests::::
 python-toolz
 transtats-cli
-python-trio-websocket
 python-twisted
 python-uritools
 python-usort
 python-uvloop
-vdirsyncer
 vrpn
 vtk
 python-wadllib
+python-watchfiles
+python-watchgod
 python-wcmatch
 python-webob
+python-webpy
 python-wordcloud
 python-wsaccel
 python-xmlsec
