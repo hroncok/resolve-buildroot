@@ -7,6 +7,7 @@ b43-tools
 buildstream
 ceph
 docker-compose
+electrum
 eric
 fail2ban
 libffado
@@ -22,14 +23,12 @@ nut
 openscap
 openvswitch
 openwsman
-pgcli
 plplot
 python-pyside6
 NLopt
 PyQt4
 python-Traits::bootstrap:::
 python-agate
-python-aiohttp-socks
 python-aiosmtpd
 python-amico
 python-ansible-runner
