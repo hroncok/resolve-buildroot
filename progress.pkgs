@@ -5,7 +5,6 @@ argparse-manpage
 awscli2
 b43-tools
 buildstream
-cantera
 ceph
 docker-compose
 eric
@@ -26,6 +25,7 @@ openwsman
 plplot
 python-pyside6
 NLopt
+python-PyMuPDF
 PyQt4
 python-Traits::bootstrap:::
 python-agate
@@ -34,7 +34,6 @@ python-amico
 python-ansible-runner
 python-apsw
 python-astroid
-python-astropy-iers-data
 python-astunparse
 python-asyncssh
 python-audioread
@@ -72,7 +71,6 @@ python-gast
 python-gbulb
 python-gensim
 python-google-cloud-monitoring
-gpsd
 python-greenlet
 gtts
 python-hl7
@@ -135,9 +133,9 @@ python-recordclass
 python-rq
 python-ruffus
 python-scss
+python-service-identity
 python-setuptools_scm_git_archive
 python-smartcols
-python-sphinx-notfound-page
 python-sphinxcontrib-openapi
 python-sqlalchemy1.4
 python-straight-plugin
