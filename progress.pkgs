@@ -22,13 +22,14 @@ nut
 openscap
 openvswitch
 openwsman
+pgcli
 plplot
 python-pyside6
-python-CacheControl
 NLopt
 PyQt4
 python-Traits::bootstrap:::
 python-agate
+python-aiohttp-socks
 python-aiosmtpd
 python-amico
 python-ansible-runner
@@ -105,7 +106,6 @@ python-orderedset
 python-pathvalidate
 python-pdir2
 petsc
-python-pgspecial
 python-pivy
 python-ppft
 python-precis_i18n
@@ -136,7 +136,6 @@ python-ruffus
 python-scss
 python-setuptools_scm_git_archive
 python-smartcols
-python-socks
 python-sphinxcontrib-openapi
 python-sqlalchemy1.4
 python-straight-plugin
