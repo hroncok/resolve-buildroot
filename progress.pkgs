@@ -13,7 +13,6 @@ libffado
 fontforge
 python-glue
 ikiwiki
-khal
 lammps
 libaccounts-glib
 libarrow
@@ -106,13 +105,13 @@ python-orderedset
 python-pathvalidate
 python-pdir2
 petsc
+python-pgspecial
 python-pivy
 python-ppft
 python-precis_i18n
 libprelude
 libpreludedb
 python-psycopg2
-python-psycopg3
 python-py-gql
 py-radix
 afflib
@@ -126,7 +125,6 @@ python-pyngus
 pyodbc
 python-pypandoc
 python-pyquery
-python-pytest-subprocess
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
@@ -136,15 +134,14 @@ python-recordclass
 python-rq
 python-ruffus
 python-scss
-python-selenium
 python-setuptools_scm_git_archive
 python-smartcols
+python-socks
 python-sphinxcontrib-openapi
 python-sqlalchemy1.4
 python-straight-plugin
 python-tables
 python-testinfra
-python-tiny-proxy:tests::::
 python-toolz
 transtats-cli
 python-twisted
@@ -154,8 +151,6 @@ python-uvloop
 vrpn
 vtk
 python-wadllib
-python-watchfiles
-python-watchgod
 python-wcmatch
 python-webob
 python-webpy
@@ -174,3 +169,4 @@ rss2email
 swift-lang
 ubertooth
 wesnoth
+xonsh
