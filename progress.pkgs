@@ -33,7 +33,7 @@ python-aiosmtpd
 python-amico
 python-ansible-runner
 python-apsw
-python-astroid
+python-asttokens
 python-astunparse
 python-asyncssh
 python-audioread
@@ -124,6 +124,7 @@ python-pyngus
 pyodbc
 python-pypandoc
 python-pyquery
+python-pytest-services
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
