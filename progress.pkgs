@@ -77,6 +77,7 @@ python-ibm-vpc
 python-imagehash
 python-immutables
 python-intbitset
+ipython:check-doc::::
 jc
 python-json-logger
 python-jsonformatter
@@ -136,7 +137,6 @@ python-setuptools_scm_git_archive
 python-smartcols
 python-sphinxcontrib-openapi
 python-sqlalchemy1.4
-python-stack-data
 python-straight-plugin
 python-tables
 python-testinfra
