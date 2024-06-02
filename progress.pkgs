@@ -33,7 +33,6 @@ python-aiosmtpd
 python-amico
 python-ansible-runner
 python-apsw
-python-asttokens
 python-astunparse
 python-asyncssh
 python-audioread
@@ -124,7 +123,6 @@ python-pyngus
 pyodbc
 python-pypandoc
 python-pyquery
-python-pytest-services
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
@@ -138,6 +136,7 @@ python-setuptools_scm_git_archive
 python-smartcols
 python-sphinxcontrib-openapi
 python-sqlalchemy1.4
+python-stack-data
 python-straight-plugin
 python-tables
 python-testinfra
