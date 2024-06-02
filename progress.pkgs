@@ -25,10 +25,10 @@ openwsman
 plplot
 python-pyside6
 NLopt
-python-PyMuPDF
 PyQt4
 python-Traits::bootstrap:::
 python-agate
+python-aioquic
 python-aiosmtpd
 python-amico
 python-ansible-runner
@@ -133,7 +133,6 @@ python-recordclass
 python-rq
 python-ruffus
 python-scss
-python-service-identity
 python-setuptools_scm_git_archive
 python-smartcols
 python-sphinxcontrib-openapi
@@ -143,6 +142,8 @@ python-tables
 python-testinfra
 python-toolz
 transtats-cli
+python-trustme
+python-twisted
 python-uritools
 python-usort
 python-uvloop
