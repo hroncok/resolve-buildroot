@@ -28,10 +28,10 @@ NLopt
 PyQt4
 python-Traits::bootstrap:::
 python-agate
-python-aioquic
 python-aiosmtpd
 python-amico
 python-ansible-runner
+python-anyio
 python-apsw
 python-astroid
 python-astunparse
@@ -48,6 +48,7 @@ python-cachelib
 python-capturer
 python-catkin_lint
 python-cclib
+python-cheroot
 pychromecast
 condor
 python-configargparse
@@ -62,6 +63,7 @@ dionaea
 root
 python-django-auth-ldap
 python-djvulibre
+python-elastic-transport
 python-etcd
 python-flask-basicauth
 python-flask-httpauth
@@ -142,11 +144,12 @@ python-tables
 python-testinfra
 python-toolz
 transtats-cli
-python-trustme
+python-trio-websocket
 python-twisted
 python-uritools
 python-usort
 python-uvloop
+vdirsyncer
 vrpn
 vtk
 python-wadllib
