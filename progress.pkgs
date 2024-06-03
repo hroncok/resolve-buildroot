@@ -20,19 +20,17 @@ libaccounts-glib
 libarrow
 libreoffice
 linkchecker
-micropipenv
 nut
 openscap
 openvswitch
 openwsman
 paraview
 plplot
-pyp2rpm
 python-pyside6
-python-BTrees
 NLopt
 PyQt4
 python-Traits::bootstrap:::
+python-ZODB
 python-agate
 python-aiosmtpd
 python-amico
@@ -50,7 +48,6 @@ python-bash-kernel
 python-beartype
 python-boltons
 python-bottle
-python-bsddb3
 btrfs-progs
 python-cachelib
 python-capturer
@@ -81,7 +78,6 @@ python-gast
 python-gbulb
 python-gensim
 python-google-cloud-monitoring
-python-gradunwarp
 python-greenlet
 gtts
 python-h5io
@@ -89,7 +85,6 @@ python-hl7
 python-ibm-vpc
 python-imagehash
 python-immutables
-python-indexed_gzip
 python-intbitset
 python-ipdb
 python-ipyparallel
@@ -101,7 +96,6 @@ python-jupyter-kernel-singular
 python-jupyter-kernel-test
 python-kafka
 lasso
-python-lazr-config
 qtile
 python-libusb1
 libuser
@@ -118,7 +112,6 @@ python-minimock
 python-mirakuru
 mod_wsgi
 python-munch
-python-neurosynth
 notmuch
 python-openoffice
 python-openpaperwork-core
@@ -142,6 +135,7 @@ pyflakes
 pygame
 python-jnius
 pyliblo
+python-pymilter
 python-pyngus
 pyodbc
 python-pypandoc
@@ -156,7 +150,6 @@ python-recordclass
 python-rq
 python-ruffus
 python-scss
-sen
 python-setuptools_scm_git_archive
 python-smartcols
 python-specfile
@@ -184,14 +177,12 @@ python-xmlsec
 xrootd
 python-yappi
 python-zbase32
-python-zdaemon
+python-zope-configuration
 python3-zope-fixers
-python-zope-schema
 pyzor
 qpid-dispatch
 rmlint
 rss2email
-spec2scl
 swift-lang
 ubertooth
 veusz
