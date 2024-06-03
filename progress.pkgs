@@ -7,6 +7,7 @@ awscli2
 b43-tools
 buildstream
 ceph
+python-dcrpm
 docker-compose
 electrum
 eric
@@ -14,11 +15,11 @@ fail2ban
 libffado
 fontforge
 python-glue
+hddfancontrol
 ikiwiki
 lammps
 libaccounts-glib
 libarrow
-libreoffice
 linkchecker
 nut
 openscap
@@ -28,9 +29,9 @@ paraview
 plplot
 python-pyside6
 NLopt
+python-OWSLib
 PyQt4
 python-Traits::bootstrap:::
-python-ZODB
 python-agate
 python-aiosmtpd
 python-amico
@@ -61,6 +62,7 @@ python-css-parser
 python-cssutils
 python-curio
 python-dateparser
+python-deap
 python-devicely
 python-dill
 dionaea
@@ -102,6 +104,7 @@ libuser
 python-lmdb
 python-logutils
 m2crypto
+python-makefun
 python-matplotlib-venn
 python-matrix-common
 python-mechanize
@@ -112,12 +115,14 @@ python-minimock
 python-mirakuru
 mod_wsgi
 python-munch
+notcurses
 notmuch
 python-openoffice
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
 python-patsy
+python-pcodedmp::bootstrap:::
 python-pdir2
 petsc
 python-pivy
@@ -138,9 +143,9 @@ pyliblo
 python-pymilter
 python-pyngus
 pyodbc
-python-pypandoc
 python-pyquery
-python-pytest-arraydiff
+python-pyrtlsdr
+python-pytest-astropy
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
@@ -177,7 +182,6 @@ python-xmlsec
 xrootd
 python-yappi
 python-zbase32
-python-zope-configuration
 python3-zope-fixers
 pyzor
 qpid-dispatch
