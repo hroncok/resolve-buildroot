@@ -31,8 +31,10 @@ python-Traits::bootstrap:::
 python-agate
 python-aiosmtpd
 python-amico
+python-animatplot
 python-ansible-runner
 python-apsw
+ara
 python-astunparse
 python-asyncssh
 python-audioread
@@ -42,7 +44,6 @@ python-bash-kernel
 python-beartype
 python-boltons
 python-bottle
-python-branca
 python-bsddb3
 btrfs-progs
 python-cachelib
@@ -85,10 +86,8 @@ jc
 python-json-logger
 python-jsonformatter
 jsonnet
-python-jupyter-console
 python-jupyter-kernel-singular
 python-jupyter-kernel-test
-python-jupyter-polymake
 python-kafka
 lasso
 qtile
@@ -105,7 +104,6 @@ python-minimock
 python-mirakuru
 mod_wsgi
 python-munch
-python-nbsphinx
 notmuch
 python-openoffice
 python-openpaperwork-core
@@ -133,7 +131,6 @@ python-pyngus
 pyodbc
 python-pypandoc
 python-pyquery
-python-pytest-jupyter
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
@@ -147,7 +144,6 @@ python-scss
 python-setuptools_scm_git_archive
 python-smartcols
 python-sphinxcontrib-openapi
-python-spyder-kernels
 python-sqlalchemy1.4
 python-straight-plugin
 python-tables
