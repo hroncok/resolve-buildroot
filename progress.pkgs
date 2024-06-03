@@ -1,7 +1,6 @@
 RBTools
 WALinuxAgent
 Zim
-ansible-builder
 arbor
 argparse-manpage
 awscli2
@@ -21,7 +20,7 @@ libaccounts-glib
 libarrow
 libreoffice
 linkchecker
-neuron
+noggin
 nut
 openscap
 openvswitch
@@ -29,7 +28,6 @@ openwsman
 paraview
 plplot
 python-pyside6
-MUSIC
 NLopt
 PyQt4
 python-Traits::bootstrap:::
@@ -47,7 +45,6 @@ python-avocado
 python-backrefs
 python-bash-kernel
 python-beartype
-bodhi-messages
 python-boltons
 python-bottle
 python-bsddb3
@@ -59,7 +56,6 @@ python-cclib
 pychromecast
 condor
 python-configargparse
-copr-messaging
 csound
 python-css-parser
 python-cssutils
@@ -104,7 +100,6 @@ libuser
 python-lmdb
 python-logutils
 m2crypto
-mailman3-fedmsg-plugin-schemas
 python-matplotlib-venn
 python-matrix-common
 python-mechanize
@@ -115,12 +110,11 @@ python-minimock
 python-mirakuru
 mod_wsgi
 python-munch
-python-noggin-messages
+python-neurotune
 notmuch
 python-openoffice
 python-openpaperwork-core
 python-orderedset
-python-pagure-messages
 python-pathvalidate
 python-patsy
 python-pdir2
@@ -151,7 +145,6 @@ python-qcustomplot-pyqt
 python-rasterio
 python-rdflib
 python-recordclass
-python-robosignatory
 python-rq
 python-ruffus
 python-scss
