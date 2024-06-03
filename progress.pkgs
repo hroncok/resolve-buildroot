@@ -11,6 +11,7 @@ python-glue
 krita
 libarrow
 openvswitch
+osh
 paraview
 pg_activity
 plplot
@@ -21,8 +22,10 @@ python-aiosmtpd
 python-amico
 python-anymarkup-core
 ara
+python-astropy-iers-data
 python-audioread
 python-avocado
+python-azure-mgmt-servicefabric
 python-backrefs
 python-bash-kernel
 python-beartype
@@ -41,7 +44,6 @@ python-exdir
 python-flask-httpauth
 python-flask-mailman
 flatpak-module-tools
-freeradius
 future
 python-greenlet
 gtts
@@ -66,8 +68,10 @@ python-memray
 python-mglob
 python-mimeparse
 python-minimock
+python-mkdocs-get-deps
 python-multiprocess
 python-nbclassic
+python-netpyne
 python-openoffice
 python-openpaperwork-core
 python-orderedset
@@ -77,13 +81,14 @@ python-pivy
 python-precis_i18n
 libprelude
 python-py-gql
+python-pyclipper
 python-pydantic
+python-pydapsys
 python-pyfastnoisesimd
 pygame
 pyliblo
 python-pymilter
 python-pyngus
-python-pypet
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
