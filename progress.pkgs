@@ -5,9 +5,9 @@ Zim
 argparse-manpage
 awscli2
 b43-tools
+python-black
 buildstream
 ceph
-python-dcrpm
 docker-compose
 electrum
 eric
@@ -15,7 +15,6 @@ fail2ban
 libffado
 fontforge
 python-glue
-hddfancontrol
 ikiwiki
 lammps
 libaccounts-glib
@@ -29,9 +28,9 @@ paraview
 plplot
 python-pyside6
 NLopt
-python-OWSLib
 PyQt4
 python-Traits::bootstrap:::
+python-ZEO
 python-agate
 python-aiosmtpd
 python-amico
@@ -40,7 +39,10 @@ python-ansible-runner
 python-anymarkup-core
 python-apsw
 ara
+python-astroplan
+python-astropy-healpix
 python-astunparse
+python-asyncpg
 python-asyncssh
 python-audioread
 python-avocado
@@ -62,7 +64,6 @@ python-css-parser
 python-cssutils
 python-curio
 python-dateparser
-python-deap
 python-devicely
 python-dill
 dionaea
@@ -83,6 +84,7 @@ python-google-cloud-monitoring
 python-greenlet
 gtts
 python-h5io
+python-healpy
 python-hl7
 python-ibm-vpc
 python-imagehash
@@ -115,16 +117,15 @@ python-minimock
 python-mirakuru
 mod_wsgi
 python-munch
-notcurses
 notmuch
 python-openoffice
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
 python-patsy
-python-pcodedmp::bootstrap:::
 python-pdir2
 petsc
+python-photutils
 python-pivy
 python-ppft
 python-precis_i18n
@@ -144,10 +145,9 @@ python-pymilter
 python-pyngus
 pyodbc
 python-pyquery
-python-pyrtlsdr
-python-pytest-astropy
 python-pytest-testinfra
 python-pytn3270
+python-pyvo
 python-pyzstd
 python-qcustomplot-pyqt
 python-rasterio
@@ -157,6 +157,7 @@ python-rq
 python-ruffus
 python-scss
 python-setuptools_scm_git_archive
+python-sklearn-genetic-opt
 python-smartcols
 python-specfile
 python-sphinxcontrib-openapi
@@ -169,7 +170,6 @@ python-toolz
 transtats-cli
 python-uritools
 python-usort
-python-uvloop
 vrpn
 vtk
 python-wadllib
