@@ -140,6 +140,7 @@ python-pyngus
 pyodbc
 python-pypandoc
 python-pyquery
+python-pytest-arraydiff
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
@@ -157,7 +158,6 @@ python-sphinxcontrib-openapi
 python-sqlalchemy1.4
 python-stompest
 python-straight-plugin
-python-tables
 python-tblib
 python-testinfra
 python-toolz
