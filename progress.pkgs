@@ -5,9 +5,9 @@ Zim
 argparse-manpage
 awscli2
 b43-tools
-python-black
 buildstream
 ceph
+diffoscope
 docker-compose
 electrum
 eric
@@ -30,7 +30,7 @@ python-pyside6
 NLopt
 PyQt4
 python-Traits::bootstrap:::
-python-ZEO
+python-ZODB3
 python-agate
 python-aiosmtpd
 python-amico
@@ -39,10 +39,9 @@ python-ansible-runner
 python-anymarkup-core
 python-apsw
 ara
-python-astroplan
 python-astropy-healpix
+python-astroquery
 python-astunparse
-python-asyncpg
 python-asyncssh
 python-audioread
 python-avocado
@@ -65,6 +64,7 @@ python-cssutils
 python-curio
 python-dateparser
 python-devicely
+python-devtools
 python-dill
 dionaea
 root
@@ -136,6 +136,7 @@ python-py-gql
 py-radix
 afflib
 python-pydantic
+pydot
 python-pyfastnoisesimd
 pyflakes
 pygame
@@ -147,7 +148,6 @@ pyodbc
 python-pyquery
 python-pytest-testinfra
 python-pytn3270
-python-pyvo
 python-pyzstd
 python-qcustomplot-pyqt
 python-rasterio
@@ -157,7 +157,6 @@ python-rq
 python-ruffus
 python-scss
 python-setuptools_scm_git_archive
-python-sklearn-genetic-opt
 python-smartcols
 python-specfile
 python-sphinxcontrib-openapi
@@ -179,7 +178,6 @@ python-webpy
 python-wordcloud
 python-wsaccel
 python-xmlsec
-xrootd
 python-yappi
 python-zbase32
 python3-zope-fixers
