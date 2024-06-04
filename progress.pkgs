@@ -75,7 +75,6 @@ python-flask-httpauth
 python-flask-mailman
 fmf
 future
-python-fvs
 python-gast
 python-gbulb
 python-gensim
@@ -115,11 +114,9 @@ python-mirakuru
 mod_wsgi
 python-munch
 notmuch
-opencv
 OpenImageIO
 python-openoffice
 python-openpaperwork-core
-openshadinglanguage
 python-orderedset
 python-pathvalidate
 python-patsy
@@ -147,6 +144,7 @@ python-pytest-testinfra
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
+python-qudida
 python-rasterio
 python-rdflib
 python-recordclass
@@ -172,6 +170,7 @@ python-wadllib
 python-wcmatch
 python-webob
 python-webpy
+python-willow
 python-wordcloud
 python-wsaccel
 python-xmlsec
