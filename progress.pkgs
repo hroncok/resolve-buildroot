@@ -1,4 +1,3 @@
-OpenColorIO
 RBTools
 WALinuxAgent
 Zim
@@ -10,17 +9,16 @@ ceph
 docker-compose
 eric
 quodlibet
-f3d
 fail2ban
 fontforge
-getdp
 python-glue
+gmsh
 ikiwiki
 kicad
+krita
 libaccounts-glib
 libarrow
 linkchecker
-netgen-mesher
 nut
 openscap
 openvswitch
@@ -31,7 +29,6 @@ python-pyside6
 NLopt
 PyQt4
 python-Traits::bootstrap:::
-YafaRay
 python-agate
 python-aiosmtpd
 python-amico
@@ -102,8 +99,6 @@ python-jupyter-kernel-singular
 python-jupyter-kernel-test
 python-kafka
 lasso
-libfreenect
-libopenshot
 qtile
 python-libusb1
 libuser
@@ -117,13 +112,14 @@ python-mglob
 python-mimeparse
 python-minimock
 python-mirakuru
-mlt
 mod_wsgi
 python-munch
 notmuch
 opencv
+OpenImageIO
 python-openoffice
 python-openpaperwork-core
+openshadinglanguage
 python-orderedset
 python-pathvalidate
 python-patsy
