@@ -3,7 +3,6 @@ b43-tools
 buildstream
 ceph
 collectd
-cura
 docker-compose
 quodlibet
 fail2ban
