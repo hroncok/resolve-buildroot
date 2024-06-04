@@ -7,7 +7,6 @@ awscli2
 b43-tools
 buildstream
 ceph
-diffoscope
 docker-compose
 electrum
 eric
@@ -16,7 +15,6 @@ libffado
 fontforge
 python-glue
 ikiwiki
-lammps
 libaccounts-glib
 libarrow
 linkchecker
@@ -30,7 +28,6 @@ python-pyside6
 NLopt
 PyQt4
 python-Traits::bootstrap:::
-python-ZODB3
 python-agate
 python-aiosmtpd
 python-amico
@@ -136,7 +133,6 @@ python-py-gql
 py-radix
 afflib
 python-pydantic
-pydot
 python-pyfastnoisesimd
 pyflakes
 pygame
