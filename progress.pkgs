@@ -8,6 +8,7 @@ buildstream
 ceph
 docker-compose
 eric
+quodlibet
 fail2ban
 fontforge
 python-glue
@@ -51,7 +52,6 @@ python-catkin_lint
 python-cclib
 pychromecast
 condor
-python-configargparse
 csound
 python-css-parser
 python-cssutils
@@ -67,8 +67,10 @@ python-djvulibre
 espresso
 python-etcd
 python-exdir
+python-flake8-comprehensions
 python-flask-basicauth
 python-flask-httpauth
+python-flask-mailman
 fmf
 future
 python-fvs
@@ -129,7 +131,6 @@ py-radix
 afflib
 python-pydantic
 python-pyfastnoisesimd
-pyflakes
 pygame
 python-jnius
 pyliblo
