@@ -12,9 +12,7 @@ quodlibet
 fail2ban
 fontforge
 python-glue
-gmsh
 ikiwiki
-kicad
 krita
 libaccounts-glib
 libarrow
@@ -114,7 +112,6 @@ python-mirakuru
 mod_wsgi
 python-munch
 notmuch
-OpenImageIO
 python-openoffice
 python-openpaperwork-core
 python-orderedset
@@ -144,7 +141,6 @@ python-pytest-testinfra
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
-python-qudida
 python-rasterio
 python-rdflib
 python-recordclass
@@ -170,7 +166,6 @@ python-wadllib
 python-wcmatch
 python-webob
 python-webpy
-python-willow
 python-wordcloud
 python-wsaccel
 python-xmlsec
@@ -181,6 +176,7 @@ pyzor
 qpid-dispatch
 rmlint
 rss2email
+setzer
 swift-lang
 ubertooth
 wesnoth
