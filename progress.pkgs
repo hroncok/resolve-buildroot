@@ -4,6 +4,7 @@ Zim
 argparse-manpage
 awscli2
 b43-tools
+bodhi-client
 buildstream
 ceph
 docker-compose
@@ -53,6 +54,7 @@ python-catkin_lint
 python-cclib
 pychromecast
 condor
+python-copr
 csound
 python-css-parser
 python-cssutils
@@ -68,10 +70,11 @@ python-djvulibre
 espresso
 python-etcd
 python-exdir
+python-fedora
+fedora-distro-aliases
 python-flask-basicauth
 python-flask-httpauth
 python-flask-mailman
-python-flask-openid
 fmf
 future
 python-gast
@@ -111,10 +114,7 @@ python-mimeparse
 python-minimock
 python-mirakuru
 mod_wsgi
-python-munch
 notmuch
-python-openid-cla
-python-openid-teams
 python-openoffice
 python-openpaperwork-core
 python-orderedset
@@ -145,6 +145,7 @@ python-pyzstd
 python-qcustomplot-pyqt
 python-rasterio
 python-rdflib
+rdopkg
 python-recordclass
 python-rq
 python-ruffus
@@ -177,8 +178,10 @@ python3-zope-fixers
 pyzor
 qpid-dispatch
 rmlint
+rpkg-util
 rss2email
 swift-lang
+python-twine
 ubertooth
 wesnoth
 xonsh
