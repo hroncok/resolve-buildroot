@@ -1,7 +1,6 @@
 RBTools
 WALinuxAgent
 Zim
-argparse-manpage
 awscli2
 b43-tools
 buildstream
@@ -15,7 +14,6 @@ python-glue
 ikiwiki
 kitty
 krita
-libaccounts-glib
 libarrow
 linkchecker
 nut
@@ -24,6 +22,7 @@ openvswitch
 openwsman
 paraview
 plplot
+pyinstrument
 python-pyside6
 NLopt
 PyQt4
@@ -58,6 +57,7 @@ csound
 python-css-parser
 python-cssutils
 python-curio
+python-datadog
 python-devicely
 python-devtools
 python-dill
@@ -68,6 +68,7 @@ python-django-auth-ldap
 python-djvulibre
 espresso
 python-etcd
+python-eventlet
 python-exdir
 python-flask-basicauth
 python-flask-httpauth
@@ -78,7 +79,6 @@ python-gast
 python-gbulb
 python-gensim
 python-google-cloud-monitoring
-python-greenlet
 gtts
 python-h5io
 python-healpy
@@ -111,9 +111,11 @@ python-mimeparse
 python-minimock
 python-mirakuru
 mod_wsgi
+python-neovim
 notmuch
 python-openoffice
 python-openpaperwork-core
+python-opentelemetry
 python-orderedset
 python-pathvalidate
 python-patsy
@@ -136,6 +138,7 @@ python-pymilter
 python-pyngus
 pyodbc
 python-pyquery
+python-pytest-httpx
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
@@ -151,14 +154,18 @@ python-smartcols
 python-specfile
 python-sphinxcontrib-openapi
 python-sqlalchemy1.4
+python-starlette
 python-stompest
 python-straight-plugin
 python-tblib
 python-testinfra
 python-toolz
 transtats-cli
+python-treq
+python-tweepy
 python-uritools
 python-usort
+uwsgi
 python-vedo
 vrpn
 python-wadllib
@@ -167,6 +174,7 @@ python-webob
 python-webpy
 python-wordcloud
 python-wsaccel
+python-x2go
 python-xmlsec
 python-yappi
 python-zbase32
