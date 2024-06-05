@@ -4,13 +4,15 @@ Zim
 argparse-manpage
 awscli2
 b43-tools
-bodhi-client
 buildstream
 ceph
+copr-cli
+did
 docker-compose
 eric
 quodlibet
 fail2ban
+fedpkg
 fontforge
 python-glue
 ikiwiki
@@ -22,6 +24,7 @@ nut
 openscap
 openvswitch
 openwsman
+pag
 paraview
 plplot
 python-pyside6
@@ -54,7 +57,6 @@ python-catkin_lint
 python-cclib
 pychromecast
 condor
-python-copr
 csound
 python-css-parser
 python-cssutils
@@ -67,11 +69,10 @@ python-dipy
 root
 python-django-auth-ldap
 python-djvulibre
+python-elasticsearch
 espresso
 python-etcd
 python-exdir
-python-fedora
-fedora-distro-aliases
 python-flask-basicauth
 python-flask-httpauth
 python-flask-mailman
@@ -145,7 +146,6 @@ python-pyzstd
 python-qcustomplot-pyqt
 python-rasterio
 python-rdflib
-rdopkg
 python-recordclass
 python-rq
 python-ruffus
@@ -180,8 +180,8 @@ qpid-dispatch
 rmlint
 rpkg-util
 rss2email
+python-rust-update-set
 swift-lang
-python-twine
 ubertooth
 wesnoth
 xonsh
