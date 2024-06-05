@@ -21,7 +21,6 @@ nut
 openscap
 openvswitch
 openwsman
-osh
 paraview
 plplot
 python-pyside6
@@ -72,6 +71,7 @@ python-exdir
 python-flask-basicauth
 python-flask-httpauth
 python-flask-mailman
+python-flask-openid
 fmf
 future
 python-gast
@@ -113,7 +113,8 @@ python-mirakuru
 mod_wsgi
 python-munch
 notmuch
-python3-openid
+python-openid-cla
+python-openid-teams
 python-openoffice
 python-openpaperwork-core
 python-orderedset
@@ -145,7 +146,6 @@ python-qcustomplot-pyqt
 python-rasterio
 python-rdflib
 python-recordclass
-python-rows
 python-rq
 python-ruffus
 python-scss
