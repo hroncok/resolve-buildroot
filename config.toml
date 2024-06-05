@@ -34,6 +34,7 @@
 #    macros:
 #      _without_tests: 1
 #      _without_doc: 1
+#      _without_extras: 1
 ## wait for gdb
 #- python3.N
 # VERIFY all of the above have correct Provides/Requires
