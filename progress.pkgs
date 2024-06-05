@@ -21,6 +21,7 @@ nut
 openscap
 openvswitch
 openwsman
+osh
 paraview
 plplot
 python-pyside6
@@ -112,6 +113,7 @@ python-mirakuru
 mod_wsgi
 python-munch
 notmuch
+python3-openid
 python-openoffice
 python-openpaperwork-core
 python-orderedset
@@ -124,7 +126,6 @@ python-ppft
 python-precis_i18n
 libprelude
 libpreludedb
-python-psycopg2
 python-py-gql
 py-radix
 afflib
@@ -144,6 +145,7 @@ python-qcustomplot-pyqt
 python-rasterio
 python-rdflib
 python-recordclass
+python-rows
 python-rq
 python-ruffus
 python-scss
@@ -176,7 +178,6 @@ pyzor
 qpid-dispatch
 rmlint
 rss2email
-setzer
 swift-lang
 ubertooth
 wesnoth
