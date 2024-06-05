@@ -6,16 +6,14 @@ awscli2
 b43-tools
 buildstream
 ceph
-copr-cli
-did
 docker-compose
 eric
 quodlibet
 fail2ban
-fedpkg
 fontforge
 python-glue
 ikiwiki
+kitty
 krita
 libaccounts-glib
 libarrow
@@ -24,7 +22,6 @@ nut
 openscap
 openvswitch
 openwsman
-pag
 paraview
 plplot
 python-pyside6
@@ -69,7 +66,6 @@ python-dipy
 root
 python-django-auth-ldap
 python-djvulibre
-python-elasticsearch
 espresso
 python-etcd
 python-exdir
@@ -180,7 +176,6 @@ qpid-dispatch
 rmlint
 rpkg-util
 rss2email
-python-rust-update-set
 swift-lang
 ubertooth
 wesnoth
