@@ -511,6 +511,12 @@ withouts = ["check"]
 [[bconds.python-tabulate]]
 withs = ["bootstrap"]
 
+[[bconds.python-repoze-sphinx-autointerface]]
+withouts = ["tests"]
+
+[[bconds.python-zope-exceptions]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
