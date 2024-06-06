@@ -52,11 +52,11 @@ python-capturer
 python-catkin_lint
 python-cclib
 pychromecast
+cmake
 condor
 csound
 python-css-parser
 python-cssutils
-python-curio
 python-datadog
 python-devicely
 python-devtools
@@ -70,6 +70,7 @@ espresso
 python-etcd
 python-eventlet
 python-exdir
+python-falcon
 python-flask-basicauth
 python-flask-httpauth
 python-flask-mailman
@@ -107,7 +108,7 @@ python-makefun
 python-matplotlib-venn
 python-mechanize
 python-mglob
-python-mimeparse
+python-mimerender
 python-minimock
 python-mirakuru
 mod_wsgi
@@ -115,7 +116,9 @@ python-neovim
 notmuch
 python-openoffice
 python-openpaperwork-core
-python-opentelemetry
+python-opentelemetry-propagator-aws-xray
+python-opentelemetry-resource-detector-azure
+python-opentelemetry-sdk-extension-aws
 python-orderedset
 python-pathvalidate
 python-patsy
@@ -143,6 +146,7 @@ python-pytest-testinfra
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
+python-quart-trio
 python-rasterio
 python-rdflib
 python-recordclass
