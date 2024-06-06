@@ -15,7 +15,6 @@ ikiwiki
 kitty
 krita
 libarrow
-linkchecker
 nut
 openscap
 openvswitch
@@ -52,7 +51,6 @@ python-capturer
 python-catkin_lint
 python-cclib
 pychromecast
-cmake
 condor
 csound
 python-css-parser
@@ -108,7 +106,6 @@ python-makefun
 python-matplotlib-venn
 python-mechanize
 python-mglob
-python-mimerender
 python-minimock
 python-mirakuru
 mod_wsgi
@@ -116,9 +113,6 @@ python-neovim
 notmuch
 python-openoffice
 python-openpaperwork-core
-python-opentelemetry-propagator-aws-xray
-python-opentelemetry-resource-detector-azure
-python-opentelemetry-sdk-extension-aws
 python-orderedset
 python-pathvalidate
 python-patsy
@@ -146,7 +140,6 @@ python-pytest-testinfra
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
-python-quart-trio
 python-rasterio
 python-rdflib
 python-recordclass
@@ -192,3 +185,4 @@ swift-lang
 ubertooth
 wesnoth
 xonsh
+python3-docs
