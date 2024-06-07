@@ -2,15 +2,11 @@ WALinuxAgent
 Zim
 autokey
 b43-tools
-catfish
 electron-cash
 fail2ban
 libffado
 fontforge
-gitg
 gnofract4d
-gnome-builder
-gnome-music
 gplugin
 mogui
 nut
@@ -22,7 +18,6 @@ proxmark3
 python-APScheduler
 PyQt4
 python-XStatic-Patternfly
-python-aiodns
 python-aiostream
 python-argcomplete
 python-argon2-cffi-bindings
@@ -132,7 +127,6 @@ python-pytest-timeout
 python-pytn3270
 python-pywayland
 python-pywizlight
-python-pyzabbix
 python-pyzstd
 qhexedit2
 python-qpageview
