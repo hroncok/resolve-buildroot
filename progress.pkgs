@@ -3,7 +3,6 @@ Zim
 anaconda
 b43-tools
 binwalk
-classification-banner
 fontforge
 gaupol
 gnofract4d
@@ -12,19 +11,15 @@ gnumeric
 gst-editing-services
 ibus
 initial-setup
-jack-mixer
 menulibre
 nautilus-python
-nordugrid-arc-nagios-plugins
 nut
 openscap
-profanity
 proxmark3
 pydeps
 python-parsimonious
 python-APScheduler
 python-XStatic-Patternfly
-python-adafruit-pureio
 python-aiostream
 python-ansicolor
 python-ansiwrap
@@ -48,7 +43,6 @@ python-cloud-sptheme
 cmake
 python-colorclass
 python-crcmod
-createrepo_c
 python-css-parser
 python-cssutils
 python-cysignals
@@ -64,7 +58,6 @@ python-django-rq
 python-django-tagging
 python-djvulibre
 python-dulwich
-python-epc
 python-ephem
 python-feedparser
 firewalld
@@ -72,7 +65,6 @@ future
 python-gast
 python-getmac
 libgexiv2
-python-gmpy2
 python-gnupg
 gpsd
 python-gstreamer1
@@ -85,6 +77,7 @@ python-igraph
 python-intbitset
 python-ipuz
 jc
+emacs-jedi
 python-json-logger
 python-jsonformatter
 jsonnet
@@ -103,7 +96,6 @@ librepo
 libunity
 python-libusb1
 libuser
-python-linuxdoc
 python-lmdb
 lttng-tools
 python-lz4
@@ -115,6 +107,7 @@ python-mglob
 python-minidump
 python-minimock
 python-mistune
+python-mpmath
 mpsolve
 python-nss
 python-openoffice
