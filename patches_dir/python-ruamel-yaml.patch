@@ -1,9 +1,0 @@
-diff --git a/python-ruamel-yaml.spec b/python-ruamel-yaml.spec
-index aad5c62..745f0ff 100644
---- a/python-ruamel-yaml.spec
-+++ b/python-ruamel-yaml.spec
-@@ -1,3 +1,4 @@
-+%global _with_bootstrap 1
- # Breaks the circular dependency with ruamel.yaml.clib.
- %bcond_with bootstrap
- 
