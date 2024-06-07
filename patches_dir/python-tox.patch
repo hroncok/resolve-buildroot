@@ -1,0 +1,9 @@
+diff --git a/python-tox.spec b/python-tox.spec
+index 1d8623f..bcfd678 100644
+--- a/python-tox.spec
++++ b/python-tox.spec
+@@ -1,3 +1,4 @@
++%global _without_tests 1
+ # Many tests are enabled by default
+ %bcond tests 1
+ # However, some tests are disabled by default, becasue they require:
