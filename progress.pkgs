@@ -1,11 +1,13 @@
 WALinuxAgent
 Zim
 b43-tools
+breezy
 enki
 fail2ban
 fontforge
 gnofract4d
 gplugin
+maturin
 nut
 openscap
 openwsman
@@ -23,6 +25,7 @@ python-audioread
 python-avocado
 python-backrefs
 barman
+python-bcrypt
 python-beartype
 python-boltons
 python-bottle
@@ -34,10 +37,10 @@ python-ciso8601
 python-click-default-group
 python-cligj
 python-cmarkgfm
-python-colcon-bazel
 python-colorclass
 python-constantly:tests::::
 python-convertdate
+python-cryptography:tests::::
 python-css-parser
 python-cssutils
 python-cvxopt
@@ -77,6 +80,7 @@ python-kanboard
 python-kiwisolver
 koan
 lasso
+python-libcst:docs-tests::::
 sssd
 python-libsass
 python-libusb1
@@ -122,7 +126,6 @@ python-pyqt6-charts
 python-pyqt6-webengine
 python-pyquery
 python-pyrpmmd
-python-pytest-freezegun
 python-pytest-services
 python-pytn3270
 python-pywayland
@@ -141,7 +144,6 @@ python-ruffus
 python-rx
 scidavis
 python-scss
-python-setuptools-rust
 python-setuptools_scm_git_archive
 python-smartcols
 python-snaptime
@@ -149,6 +151,7 @@ python-sqlalchemy1.4
 python-straight-plugin
 tbb
 python-tcx2gpx
+python-tiktoken
 python-tkrzw
 python-toolz
 python-txaio
