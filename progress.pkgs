@@ -1,10 +1,8 @@
 WALinuxAgent
 b43-tools
-csmock
 nut
 openscap
 kernel
-protontricks
 proxmark3
 py3status
 python-APScheduler
@@ -21,7 +19,6 @@ python-btchip
 python-ciso8601
 python-click-default-group
 python-cligj
-python-colcon-ros
 python-colorama
 python-colorclass
 python-css-parser
@@ -52,7 +49,6 @@ python-kanboard
 koan
 libldb
 sssd
-nmstate
 python-libusb1
 python-lmdb
 python-looseversion
@@ -86,6 +82,7 @@ python-pytn3270
 python-pywizlight
 python-pyzstd
 python-recordclass
+python-requests:tests::::
 python-rx
 python-setuptools_scm_git_archive
 python-soupsieve:tests::::
@@ -93,7 +90,6 @@ python-sqlalchemy1.4
 python-straight-plugin
 python-toolz
 python-traitlets
-python-urllib3:tests::::
 python-userpath
 python-vine
 vrpn
@@ -104,12 +100,10 @@ python-websockets
 python-wsaccel
 python-xmlsec
 python-yappi
-z3
 python-zbase32
 python3-zope-fixers
 swift-lang
 torbrowser-launcher
 ubertooth
-volk
 weechat
 znc
