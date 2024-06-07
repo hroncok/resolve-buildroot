@@ -59,9 +59,9 @@ if __name__ == '__main__':
             run('rpmdev-bumpspec', '-c', message, '--userstring', CONFIG['distgit']['author'], specpath)
             run('git', '-C', repopath, 'commit', '--allow-empty', f'{component_name}.spec', '-m', message, '--author', CONFIG['distgit']['author'])
 
-            raise NotImplementedError('no pushing yet')
+            # raise NotImplementedError('no pushing yet')
             run('git', '-C', repopath, 'push')
-        run('fedpkg', 'build', '--fail-fast', '--nowait', '--target', CONFIG['koji']['target'], cwd=repopath)  # '--background'
+        run('fedpkg', 'build', '--fail-fast', '--nowait', '--background', '--target', CONFIG['koji']['target'], cwd=repopath)
 
         # XXX prune this directory because we don't want no thousands clones?
         # maybe we are not gonna need this?
