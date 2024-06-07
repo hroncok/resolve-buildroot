@@ -1,4 +1,3 @@
-PyX
 WALinuxAgent
 Zim
 anaconda
@@ -17,7 +16,6 @@ ibus
 ibus-cangjie
 initial-setup
 jack-mixer
-libaccounts-glib
 lollypop
 menulibre
 minigalaxy
@@ -28,6 +26,7 @@ openscap
 powerline
 profanity
 proxmark3
+pydeps
 python-APScheduler
 python-XStatic-Patternfly
 python-adafruit-pureio
@@ -165,7 +164,6 @@ python-sphinxcontrib-jquery
 python-sphinxext-rediraffe
 python-sqlalchemy1.4
 python-sseclient
-python-stdlib-list
 python-straight-plugin
 python-systemd
 python-textwrap3
