@@ -22,7 +22,6 @@ python-advisory-parser
 python-aiostream
 python-astunparse
 python-azure-cosmos
-babel::bootstrap:::
 barman
 libblockdev
 python-bottle
@@ -47,6 +46,7 @@ python-fontquery
 python-frozenlist
 future
 python-gast
+python-genshi
 python-getmac
 pygobject3
 gtts
@@ -54,10 +54,12 @@ python-hexdump
 python-html5-parser
 python-igraph
 jc
+python-jinja2:asyncio_tests-docs::::
 python-json-logger
 python-jsonformatter
 jsonnet
 python-jsonpointer
+python-kajiki
 python-kanboard
 python-kerberos
 koan
@@ -88,6 +90,7 @@ python-platformdirs
 python-precis_i18n
 libprelude
 libpreludedb
+prewikka
 protobuf
 python-publicsuffix2
 py-radix
@@ -129,6 +132,7 @@ python-zm
 python3-zope-fixers
 remmina
 rst2txt
+screenkey
 seafile
 simple-ccsm
 swift-lang
