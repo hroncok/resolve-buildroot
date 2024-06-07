@@ -1,9 +1,0 @@
-diff --git a/python-wheel.spec b/python-wheel.spec
-index 1f8aaec..4cf0177 100644
---- a/python-wheel.spec
-+++ b/python-wheel.spec
-@@ -1,3 +1,4 @@
-+%global _with_bootstrap 1
- # The function of bootstrap is that it builds the package with flit_core.wheel
- # and installs it by unzipping it.
- # A real build uses %%pyproject_wheel and %%pyproject_install.
