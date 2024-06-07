@@ -1,4 +1,3 @@
-PackageKit
 PyX
 WALinuxAgent
 Zim
@@ -10,10 +9,8 @@ blueprint-compiler
 classification-banner
 claws-mail
 cm_rgb
-dee
 python-drgn
 fedora-third-party
-flent
 fontforge
 fonts-tweak-tool
 gaupol
@@ -46,7 +43,6 @@ python-XStatic-Patternfly
 python-abimap
 python-adafruit-platformdetect
 python-adafruit-pureio
-python-aiosignal
 python-aiostream
 python-ansicolor
 python-asteval
@@ -56,7 +52,6 @@ barman
 python-beartype
 python-beautifultable
 python-bibtexparser
-libblockdev
 python-boltons
 python-boolean.py
 botan2
@@ -72,7 +67,6 @@ python-cliff-tablib
 python-cligj
 python-cloud-sptheme
 cmake
-python-colcon-bundle
 python-colorclass
 python-coveralls
 python-crcmod
@@ -107,10 +101,8 @@ firewalld
 python-funcsigs
 future
 python-gast
-python-genshi
 python-getmac
 libgexiv2
-python-glad2
 python-gmpy2
 gpsd
 python-gstreamer1
@@ -142,6 +134,7 @@ python-libdiscid
 sssd
 libmodulemd
 librepo
+libunity
 python-libusb1
 libuser
 python-linuxdoc
@@ -203,6 +196,7 @@ qpid-proton
 rabbitvcs
 python-re-assert
 python-recordclass
+python-relatorio
 python-repoze-sphinx-autointerface:tests::::
 rpmconf
 python-rx
@@ -282,7 +276,6 @@ python-zbase32
 python-zope-component
 python3-zope-fixers
 rmlint
-seafile
 soundconverter
 sshuttle
 swift-lang
