@@ -1,0 +1,9 @@
+diff --git a/python-extras.spec b/python-extras.spec
+index c0befc2..6e7e4ab 100644
+--- a/python-extras.spec
++++ b/python-extras.spec
+@@ -1,3 +1,4 @@
++%global _with_bootstrap 1
+ %bcond_with bootstrap
+ 
+ Name:           python-extras
