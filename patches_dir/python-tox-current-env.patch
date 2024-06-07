@@ -1,0 +1,9 @@
+diff --git a/python-tox-current-env.spec b/python-tox-current-env.spec
+index 2610560..f674614 100644
+--- a/python-tox-current-env.spec
++++ b/python-tox-current-env.spec
+@@ -1,3 +1,4 @@
++%global _without_tests 1
+ Name:           python-tox-current-env
+ Version:        0.0.11
+ Release:        %autorelease
