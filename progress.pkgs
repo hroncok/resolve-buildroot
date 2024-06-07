@@ -33,10 +33,8 @@ python-audioread
 python-backrefs
 barman
 python-beartype
-python-blowfish
 python-boltons
 botan2
-python-boto
 python-bottle
 python-btchip
 python-capturer
@@ -53,7 +51,6 @@ python-crcmod
 createrepo_c
 python-css-parser
 python-cssutils
-python-curtsies
 python-cysignals
 python-d2to1
 python-dasbus
@@ -66,8 +63,8 @@ python-django-pdb
 python-django-rq
 python-django-tagging
 python-djvulibre
-python-dropbox
 python-dulwich
+python-epc
 python-ephem
 python-feedparser
 firewalld
@@ -118,7 +115,6 @@ python-mglob
 python-minidump
 python-minimock
 python-mistune
-python-mkdocs-get-deps
 mpsolve
 python-nss
 python-openoffice
@@ -159,20 +155,16 @@ python-pytn3270
 python-pywizlight
 python-pyzstd
 qpid-proton
-python-readability-lxml
 python-recordclass
 python-repoze-sphinx-autointerface:tests::::
 python-rx
 python-sane
 python-scss
 python-setuptools_scm_git_archive
-python-sexpdata
 python-shodan
 signon-glib
-python-simple-pid
 python-simplejson
 python-smartcols
-python-sphinx-notfound-page
 python-sphinx-sitemap
 python-sphinxcontrib-github-alt
 python-sphinxcontrib-jquery
@@ -200,7 +192,6 @@ python-werkzeug:tests::::
 python-wsaccel
 xapian-bindings
 xapps
-python-xmlschema
 python-xmlsec
 python-xmp-toolkit
 python-yappi
@@ -210,10 +201,8 @@ python-zbase32
 python3-zope-fixers
 rmlint
 salt-lint
-ssh-audit
 swift-lang
 system-storage-manager
-thefuck
 torbrowser-launcher
 ubertooth
 vimiv
