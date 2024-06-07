@@ -59,7 +59,7 @@ old = ["python(abi) = 3.12", "libpython3.12.so.1.0()(64bit)", "libpython3.12d.so
 new = ["python(abi) = 3.13", "libpython3.13.so.1.0()(64bit)", "libpython3.13d.so.1.0()(64bit)"]
 
 [components]
-excluded = ["python3.12", "python3.13", "rust-add-determinism"]
+excluded = ["python3.12", "python3.13", "rust-add-determinism", "kernel"]
 extra = ["python3-docs"]
 
 [cache_dir]
