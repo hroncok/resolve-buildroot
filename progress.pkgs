@@ -5,7 +5,6 @@ cairo-dock-plug-ins
 dee
 distgen
 fonts-tweak-tool
-gnome-feeds
 gst-devtools
 kf6-kapidox
 nut
@@ -15,6 +14,7 @@ proxmark3
 python-APScheduler
 python-XStatic-Patternfly
 python-advisory-parser
+python-aiosignal
 python-aiostream
 python-astunparse
 python-azure-cosmos
@@ -39,7 +39,6 @@ python-django-tagging
 python-docker
 firewalld
 python-fontquery
-python-frozenlist
 future
 python-gast
 python-genshi
@@ -84,7 +83,7 @@ python-pdir2
 python-pefile
 python-pexpect
 python-pivy
-python-platformdirs
+python-pooch
 python-precis_i18n
 libprelude
 libpreludedb
@@ -105,16 +104,16 @@ python-pywizlight
 python-pyzstd
 python-recordclass
 python-regex
-python-requests-futures
 python-rx
 python-setuptools_scm_git_archive
-snowball
+python-sphinx:sphinxcontrib-tests::::
 python-sqlalchemy1.4
 python-straight-plugin
 python-stripe
 python-testtools::bootstrap:::
 python-toolz
 python-vine
+python-virtualenv:tests::::
 vrpn
 python-wadllib
 python-wcmatch
