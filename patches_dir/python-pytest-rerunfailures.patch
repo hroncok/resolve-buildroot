@@ -1,9 +1,0 @@
-diff --git a/python-pytest-rerunfailures.spec b/python-pytest-rerunfailures.spec
-index 956fab3..904bd88 100644
---- a/python-pytest-rerunfailures.spec
-+++ b/python-pytest-rerunfailures.spec
-@@ -1,3 +1,4 @@
-+%global _without_tests 1
- %global srcname pytest-rerunfailures
- 
- # Needed for Python bootstrap
