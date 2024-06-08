@@ -1,0 +1,9 @@
+diff --git a/python-tabulate.spec b/python-tabulate.spec
+index 8447870..296c4af 100644
+--- a/python-tabulate.spec
++++ b/python-tabulate.spec
+@@ -1,3 +1,4 @@
++%global _with_bootstrap 1
+ # python-pandas creates a cyclic dependency on python-Bottleneck;
+ # we need to be able to break it during the new Python bootstrap
+ %bcond bootstrap 0
