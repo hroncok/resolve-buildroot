@@ -25,7 +25,6 @@ plplot
 proxmark3
 python-pyside6
 NLopt
-PyDrive2
 PyQt4
 python-Traits::bootstrap:::
 python-aiosmtpd
@@ -59,8 +58,6 @@ fmf
 future
 python-gast
 python-gbulb
-python-google-cloud-dns
-python-google-cloud-storage
 gtts
 python-hl7
 python-ibm-vpc
@@ -114,7 +111,6 @@ python-pyquery
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
-qgis
 receptor
 python-recordclass
 python-rq
