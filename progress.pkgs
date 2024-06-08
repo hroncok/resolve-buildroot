@@ -25,6 +25,7 @@ plplot
 proxmark3
 python-pyside6
 NLopt
+PyDrive2
 PyQt4
 python-Traits::bootstrap:::
 python-aiosmtpd
@@ -58,9 +59,8 @@ fmf
 future
 python-gast
 python-gbulb
-google-api-python-client
-python-google-cloud-core
-python-grpc-google-iam-v1
+python-google-cloud-dns
+python-google-cloud-storage
 gtts
 python-hl7
 python-ibm-vpc
@@ -84,7 +84,6 @@ python-minimock
 python-mirakuru
 mpsolve
 python-neovim
-python-opencensus-proto
 python-openoffice
 python-openpaperwork-core
 python-opytimark
@@ -97,7 +96,6 @@ python-ppft
 python-precis_i18n
 libprelude
 libpreludedb
-python-proto-plus
 python-pure-eval
 python-py-gql
 py-radix
@@ -113,7 +111,6 @@ python-pyngus
 pyodbc
 python-pypandoc
 python-pyquery
-python-pytest-grpc
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
