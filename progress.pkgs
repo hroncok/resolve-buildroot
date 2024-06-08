@@ -4,6 +4,7 @@ Zim
 awscli2
 b43-tools
 boost
+buildstream
 docker-compose
 eric
 quodlibet
@@ -57,7 +58,9 @@ fmf
 future
 python-gast
 python-gbulb
-grpc
+google-api-python-client
+python-google-cloud-core
+python-grpc-google-iam-v1
 gtts
 python-hl7
 python-ibm-vpc
@@ -81,6 +84,7 @@ python-minimock
 python-mirakuru
 mpsolve
 python-neovim
+python-opencensus-proto
 python-openoffice
 python-openpaperwork-core
 python-opytimark
@@ -89,11 +93,11 @@ python-pathvalidate
 python-pdir2
 petsc
 python-pivy
-poetry::bootstrap:::
 python-ppft
 python-precis_i18n
 libprelude
 libpreludedb
+python-proto-plus
 python-pure-eval
 python-py-gql
 py-radix
@@ -109,8 +113,8 @@ python-pyngus
 pyodbc
 python-pypandoc
 python-pyquery
+python-pytest-grpc
 python-pytn3270
-python-pyvat
 python-pyzstd
 python-qcustomplot-pyqt
 qgis
@@ -149,8 +153,6 @@ qpid-dispatch
 rmlint
 rss2email
 swift-lang
-syslog-ng
 ubertooth
-veusz
 znc
 python3-docs
