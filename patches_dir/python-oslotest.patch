@@ -1,0 +1,9 @@
+diff --git a/python-oslotest.spec b/python-oslotest.spec
+index 1f3501b..87f52ac 100644
+--- a/python-oslotest.spec
++++ b/python-oslotest.spec
+@@ -1,3 +1,4 @@
++%global _with_repo_bootstrap 1
+ %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
+ %global sources_gpg_sign 0x2ef3fe0ec2b075ab7458b5f8b702b20b13df2318
+ %global pypi_name oslotest
