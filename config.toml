@@ -60,7 +60,8 @@ new = ["python(abi) = 3.13", "libpython3.13.so.1.0()(64bit)", "libpython3.13d.so
 
 [components]
 excluded = ["python3.12", "python3.13", "rust-add-determinism", "kernel"]
-extra = ["python3-docs"]
+#extra = ["python3-docs"]
+extra = []
 
 [cache_dir]
 dnf = "_dnf_cache_dir"
