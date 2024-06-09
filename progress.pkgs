@@ -1,3 +1,4 @@
+NiaAML-GUI
 RBTools
 WALinuxAgent
 Zim
@@ -32,7 +33,6 @@ openvswitch
 openwsman
 plplot
 proxmark3
-pyp2spec
 python-pyside6
 NLopt
 PyQt4
@@ -48,7 +48,6 @@ python-audioread
 python-avocado
 python-backrefs
 python-beartype
-python-bioframe
 python-boltons
 python-bottle
 btrfs-progs
@@ -57,9 +56,7 @@ python-capturer
 python-catkin_lint
 python-cclib
 pychromecast
-python-coincidence
 condor
-python-contextualbandits
 csound
 python-css-parser
 python-cssutils
@@ -76,6 +73,7 @@ python-eventlet
 python-exdir
 python-fastavro
 python-fiona
+python-flask
 fmf
 future
 python-gast
@@ -86,6 +84,7 @@ python-google-cloud-monitoring
 python-graph-tool
 gtts
 python-h5io
+python-hatch-requirements-txt
 python-hl7
 python-ibm-vpc
 python-imagehash
@@ -104,6 +103,7 @@ python-lmdb
 python-logutils
 m2crypto
 python-makefun
+python-manatools
 python-markdown-it-py:plugins::::
 mathgl
 python-matplotlib-venn
@@ -112,7 +112,6 @@ python-minimock
 python-mirakuru
 mpsolve
 python-neovim
-python-niaaml
 notcurses
 openbabel
 openms
@@ -153,12 +152,10 @@ python-ruffus
 python-scss
 python-setuptools_scm_git_archive
 python-smartcols
-python-sphinx-tabs
 python-sphinxcontrib-openapi
 python-sqlalchemy1.4
 python-straight-plugin
 python-tcx2gpx
-python-tdlib
 python-tkrzw
 python-toolz
 transtats-cli
@@ -177,7 +174,6 @@ python-x2go
 xcfun
 python-xmlsec
 python-yappi
-libyui
 python-zbase32
 python3-zope-fixers
 zxing-cpp
