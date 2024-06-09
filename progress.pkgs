@@ -80,7 +80,6 @@ fmf
 future
 python-gast
 python-gbulb
-gdal
 python-gensim
 python-google-cloud-monitoring
 gtts
@@ -165,6 +164,7 @@ python-straight-plugin
 python-tblib
 python-tcx2gpx
 python-testinfra
+python-tilestache
 python-tkrzw
 python-toolz
 transtats-cli
