@@ -1,9 +1,0 @@
-diff --git a/python-poetry-plugin-export.spec b/python-poetry-plugin-export.spec
-index 33db308..e56efb1 100644
---- a/python-poetry-plugin-export.spec
-+++ b/python-poetry-plugin-export.spec
-@@ -1,3 +1,4 @@
-+%global _with_bootstrap 1
- # To break circular dependency on poetry, when bootstrapping
- # we don't BuildRequire runtime deps and we don't run tests.
- %bcond bootstrap 0
