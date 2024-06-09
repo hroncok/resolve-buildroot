@@ -3,6 +3,7 @@ WALinuxAgent
 Zim
 awscli2
 b43-tools
+python-black
 buildstream
 docker-compose
 eric
@@ -24,6 +25,7 @@ openwsman
 paraview
 plplot
 proxmark3
+ptpython
 pyinstrument
 python-pyside6
 python-BTrees
@@ -53,6 +55,7 @@ python-capturer
 python-catkin_lint
 python-cclib
 pychromecast
+python-colorspacious
 condor
 csound
 python-css-parser
@@ -86,7 +89,8 @@ python-hl7
 python-ibm-vpc
 python-imagehash
 python-intbitset
-ipython:check-doc::::
+python-ipdb
+python-ipykernel:doc-tests::::
 jc
 python-json-logger
 python-jsonformatter
@@ -103,6 +107,7 @@ m2crypto
 python-makefun
 python-matplotlib-venn
 python-mechanize
+python-memray
 python-mglob
 python-minimock
 python-mirakuru
@@ -112,6 +117,7 @@ python-openoffice
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
+python-patsy
 python-pdir2
 petsc
 python-pivy
@@ -133,13 +139,17 @@ python-pymilter
 python-pyngus
 pyodbc
 python-pyquery
+python-pysb
 python-pytest-httpx
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
+python-qtconsole
+python-rasterio
 python-rdflib
 python-recordclass
+python-represent
 python-rq
 python-rtmidi
 python-ruffus
@@ -156,6 +166,7 @@ python-straight-plugin
 python-tblib
 python-tcx2gpx
 python-testinfra
+python-TestSlide
 python-tkrzw
 python-toolz
 transtats-cli
