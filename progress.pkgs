@@ -34,6 +34,7 @@ openwsman
 plplot
 proxmark3
 python-pyside6
+python-EvoPreprocess
 NLopt
 PyQt4
 python-Traits::bootstrap:::
@@ -80,7 +81,6 @@ python-gast
 python-gbulb
 python-gensim
 python-google-cloud-monitoring
-gpaw
 python-graph-tool
 gtts
 python-h5io
@@ -88,7 +88,7 @@ hamlib
 python-hl7
 hokuyoaist
 python-ibm-vpc
-python-imbalanced-learn
+python-imagehash
 python-intbitset
 jc
 python-json-logger
@@ -153,12 +153,9 @@ python-pyrtlsdr
 python-pytest-astropy
 python-pytest-regressions
 python-pytn3270
-watchman
-python-pywt
 python-pyzstd
 python-qcustomplot-pyqt
 python-rapidfuzz
-receptor
 python-recordclass
 python-rq
 python-ruffus
