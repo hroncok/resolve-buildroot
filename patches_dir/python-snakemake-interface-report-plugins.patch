@@ -1,9 +1,0 @@
-diff --git a/python-snakemake-interface-report-plugins.spec b/python-snakemake-interface-report-plugins.spec
-index 45ad30e..3d7fe6f 100644
---- a/python-snakemake-interface-report-plugins.spec
-+++ b/python-snakemake-interface-report-plugins.spec
-@@ -1,3 +1,4 @@
-+%global _with_bootstrap 1
- # Work around a circular dependency on snakemake.
- %bcond bootstrap 0
- 
