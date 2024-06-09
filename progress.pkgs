@@ -14,7 +14,6 @@ python-glue
 gnofract4d
 gplugin
 ikiwiki
-ilua
 kitty
 krita
 libarrow
@@ -29,7 +28,6 @@ pyinstrument
 python-pyside6
 python-BTrees
 NLopt
-python-OWSLib
 PyQt4
 python-Traits::bootstrap:::
 python-agate
@@ -80,7 +78,6 @@ python-flask-basicauth
 python-flask-httpauth
 python-flask-mailman
 fmf
-python-folium
 future
 python-gast
 python-gbulb
@@ -121,7 +118,6 @@ python-neovim
 python-openoffice
 python-openpaperwork-core
 python-orderedset
-python-pari-jupyter
 python-pathvalidate
 python-patsy
 python-pdir2
@@ -158,13 +154,11 @@ python-rtmidi
 python-ruffus
 python-scss
 python-setuptools_scm_git_archive
-python-sklearn-genetic-opt
 python-smartcols
 python-specfile
 python-sphinxcontrib-openapi
 python-sqlalchemy-collectd
 python-sqlalchemy1.4
-python-sqlalchemy_schemadisplay
 python-starlette
 python-stompest
 python-straight-plugin
