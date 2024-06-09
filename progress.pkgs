@@ -86,6 +86,7 @@ python-hl7
 python-ibm-vpc
 python-imagehash
 python-intbitset
+ipython:check-doc::::
 jc
 python-json-logger
 python-jsonformatter
@@ -149,7 +150,6 @@ python-specfile
 python-sphinxcontrib-openapi
 python-sqlalchemy-collectd
 python-sqlalchemy1.4
-python-stack-data
 python-starlette
 python-stompest
 python-straight-plugin
