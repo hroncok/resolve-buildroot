@@ -118,7 +118,6 @@ python-ppft
 python-precis_i18n
 libprelude
 libpreludedb
-python-pure-eval
 python-py-gql
 py-radix
 afflib
@@ -150,6 +149,7 @@ python-specfile
 python-sphinxcontrib-openapi
 python-sqlalchemy-collectd
 python-sqlalchemy1.4
+python-stack-data
 python-starlette
 python-stompest
 python-straight-plugin
