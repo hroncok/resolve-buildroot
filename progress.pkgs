@@ -1,7 +1,6 @@
 RBTools
 WALinuxAgent
 Zim
-arbor
 awscli2
 b43-tools
 buildstream
@@ -12,7 +11,6 @@ fail2ban
 fontforge
 getdp
 python-glue
-gmsh
 gnofract4d
 gplugin
 ikiwiki
@@ -31,7 +29,6 @@ pyinstrument
 python-pyside6
 python-BTrees
 NLopt
-python-PyMuPDF
 PyQt4
 python-Traits::bootstrap:::
 python-agate
@@ -112,7 +109,6 @@ mpsolve
 python-neovim
 python-openoffice
 python-openpaperwork-core
-openvdb
 python-orderedset
 python-pathvalidate
 python-pdir2
@@ -144,6 +140,7 @@ python-pyzstd
 python-qcustomplot-pyqt
 python-rdflib
 python-recordclass
+python-rows
 python-rq
 python-ruffus
 python-scss
@@ -181,12 +178,10 @@ python-yappi
 python-zbase32
 python3-zope-fixers
 zxing-cpp
-pyzor
 qpid-dispatch
 rmlint
 rpkg-util
 rss2email
-setzer
 swift-lang
 ubertooth
 wesnoth
