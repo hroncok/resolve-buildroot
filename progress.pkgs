@@ -18,7 +18,6 @@ gdb
 python-glue
 gnofract4d
 gplugin
-hddfancontrol
 ikiwiki
 kitty
 lammps
@@ -35,7 +34,6 @@ plplot
 proxmark3
 pyp2spec
 python-pyside6
-python-EvoPreprocess
 NLopt
 PyQt4
 python-Traits::bootstrap:::
@@ -88,7 +86,6 @@ python-google-cloud-monitoring
 python-graph-tool
 gtts
 python-h5io
-hamlib
 python-hl7
 python-ibm-vpc
 python-imagehash
@@ -113,22 +110,18 @@ python-matplotlib-venn
 python-mglob
 python-minimock
 python-mirakuru
-python-missingno
 mpsolve
 python-neovim
 python-niaaml
-python-niaarm
 notcurses
 openbabel
 openms
 python-openoffice
 python-openpaperwork-core
-python-opfunu
 python-opytimark
 python-orderedset
 python-pandas-datareader
 python-pathvalidate
-python-pcodedmp::bootstrap:::
 python-pdir2
 petsc
 python-pivy
@@ -148,10 +141,7 @@ pyliblo
 python-pymilter
 python-pyngus
 pyodbc
-python-pyopencl
 python-pyquery
-python-pyriemann
-python-pyrtlsdr
 python-pytest-astropy
 python-pytn3270
 python-pyzstd
@@ -171,7 +161,6 @@ python-tcx2gpx
 python-tdlib
 python-tkrzw
 python-toolz
-trademgen
 transtats-cli
 python-uritools
 urjtag
