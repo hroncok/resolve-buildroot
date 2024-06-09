@@ -1,9 +1,0 @@
-diff --git a/snakemake.spec b/snakemake.spec
-index 0100802..eb1e8af 100644
---- a/snakemake.spec
-+++ b/snakemake.spec
-@@ -1,3 +1,4 @@
-+%global _with_bootstrap 1
- # Work around a series of circular test dependencies:
- #
- #    python-snakemake-interface-report-plugins

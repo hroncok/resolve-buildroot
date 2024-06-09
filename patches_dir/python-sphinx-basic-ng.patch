@@ -1,9 +1,0 @@
-diff --git a/python-sphinx-basic-ng.spec b/python-sphinx-basic-ng.spec
-index 7487460..28c3e27 100644
---- a/python-sphinx-basic-ng.spec
-+++ b/python-sphinx-basic-ng.spec
-@@ -1,3 +1,4 @@
-+%global _with_bootstrap 1
- %global prerel beta2
- 
- # The documentation and tests need furo.  But to build furo at all, we need
