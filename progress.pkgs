@@ -3,7 +3,6 @@ WALinuxAgent
 Zim
 awscli2
 b43-tools
-bandit
 buildstream
 docker-compose
 eric
@@ -147,7 +146,6 @@ python-ruffus
 python-scss
 python-setuptools_scm_git_archive
 python-smartcols
-python-snakemake-executor-plugin-slurm
 python-specfile
 python-sphinxcontrib-openapi
 python-sqlalchemy-collectd
