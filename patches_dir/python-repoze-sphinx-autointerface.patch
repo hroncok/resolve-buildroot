@@ -1,9 +1,0 @@
-diff --git a/python-repoze-sphinx-autointerface.spec b/python-repoze-sphinx-autointerface.spec
-index f96e003..9cfc8d7 100644
---- a/python-repoze-sphinx-autointerface.spec
-+++ b/python-repoze-sphinx-autointerface.spec
-@@ -1,3 +1,4 @@
-+%global _without_tests 1
- %global pkgname repoze.sphinx.autointerface
- %global srcname %(tr . - <<< %{pkgname})
- 
