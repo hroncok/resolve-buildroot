@@ -21,7 +21,6 @@ kitty
 krita
 libarrow
 nut
-oci-cli
 openscap
 openvswitch
 openwsman
@@ -32,6 +31,7 @@ pyinstrument
 python-pyside6
 python-BTrees
 NLopt
+python-PyMuPDF
 PyQt4
 python-Traits::bootstrap:::
 python-agate
@@ -109,14 +109,10 @@ python-mglob
 python-minimock
 python-mirakuru
 mpsolve
-mupdf
 python-neovim
-OpenImageIO
 python-openoffice
 python-openpaperwork-core
-openshadinglanguage
 openvdb
-python-opytimark
 python-orderedset
 python-pathvalidate
 python-pdir2
@@ -127,7 +123,6 @@ python-precis_i18n
 libprelude
 libpreludedb
 python-pure-eval
-python-pvc
 python-py-gql
 py-radix
 afflib
@@ -147,7 +142,6 @@ python-pytest-testinfra
 python-pytn3270
 python-pyzstd
 python-qcustomplot-pyqt
-python-qudida
 python-rdflib
 python-recordclass
 python-rq
@@ -164,7 +158,6 @@ python-straight-plugin
 python-tblib
 python-tcx2gpx
 python-testinfra
-python-tilestache
 python-tkrzw
 python-toolz
 transtats-cli
@@ -174,14 +167,11 @@ python-uritools
 python-usort
 uwsgi
 python-vedo
-python-vevents
-python-vpoller
 vrpn
 python-wadllib
 python-wcmatch
 python-webob
 python-webpy
-python-willow
 python-wordcloud
 python-wsaccel
 python-x2go
@@ -196,6 +186,7 @@ qpid-dispatch
 rmlint
 rpkg-util
 rss2email
+setzer
 swift-lang
 ubertooth
 wesnoth
