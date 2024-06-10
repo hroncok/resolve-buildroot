@@ -5,7 +5,6 @@ awscli2
 b43-tools
 buildstream
 docker-compose
-dogtag-pki
 eric
 quodlibet
 fail2ban
@@ -14,6 +13,7 @@ getdp
 python-glue
 gplugin
 ikiwiki
+ipa-hcc
 kitty
 krita
 libarrow
@@ -56,7 +56,6 @@ python-catkin_lint
 python-cclib
 pychromecast
 condor
-python-cotyledon
 csound
 python-css-parser
 python-cssutils
@@ -91,6 +90,7 @@ python-hl7
 python-ibm-vpc
 python-imagehash
 python-intbitset
+freeipa-desktop-profile
 python-ipdb
 jc
 python-json-logger
