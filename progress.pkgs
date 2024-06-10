@@ -5,6 +5,7 @@ awscli2
 b43-tools
 buildstream
 docker-compose
+python-ebranch
 eric
 quodlibet
 fail2ban
@@ -58,6 +59,7 @@ csound
 python-cssutils
 python-d2to1
 python-datadog
+python-decopatch:tests::::
 python-devicely
 python-devtools
 python-dill
@@ -73,6 +75,7 @@ python-fiona
 python-flask-basicauth
 python-flask-httpauth
 python-flask-mailman
+flatpak-module-tools
 fmf
 future
 python-gast
@@ -94,13 +97,13 @@ jsonnet
 python-jupyter-kernel-singular
 python-kafka
 lasso
+python-libNeuroML
 qtile
 python-libusb1
 libuser
 python-lmdb
 python-logutils
 m2crypto
-python-makefun
 python-matplotlib-venn
 python-mechanize
 python-memray
@@ -109,8 +112,9 @@ python-mglob
 python-minimock
 python-mirakuru
 mpsolve
+python-nashpy
 python-neovim
-python-networkx::bootstrap:::
+python-nitime
 python-openoffice
 python-openpaperwork-core
 python-orderedset
@@ -130,6 +134,7 @@ python-pydantic
 python-pyfastnoisesimd
 pygame
 python-pygdbmi
+python-pygmtools
 pygsl
 python-jnius
 pyliblo
@@ -161,6 +166,7 @@ python-straight-plugin
 python-tblib
 python-tcx2gpx
 python-testinfra
+python-tinygrad
 python-tkrzw
 python-toolz
 transtats-cli
@@ -181,6 +187,7 @@ python-x2go
 xcfun
 python-xmlsec
 python-yappi
+yubikey-manager
 python-zbase32
 python3-zope-fixers
 zxing-cpp
