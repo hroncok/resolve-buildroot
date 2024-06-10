@@ -442,7 +442,7 @@ replacements = {with_doc = "0"}
 replacements = {with_doc = "0"}
 
 [[bconds.python-oslo-config]]
-withs = ["repo_bootstrap"]
+replacements = {repo_bootstrap = "1"}
 
 [[bconds.python-neutronclient]]
 replacements = {with_doc = "0"}
