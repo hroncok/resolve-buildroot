@@ -4,6 +4,7 @@ Zim
 awscli2
 b43-tools
 buildstream
+diffoscope
 docker-compose
 eric
 quodlibet
@@ -16,7 +17,6 @@ ikiwiki
 kitty
 krita
 libarrow
-libvirt-test-API
 nut
 openscap
 openvswitch
@@ -95,7 +95,6 @@ jsonnet
 python-jupyter-kernel-singular
 python-kafka
 lasso
-libguestfs
 qtile
 python-libusb1
 libuser
@@ -162,7 +161,6 @@ python-stompest
 python-straight-plugin
 python-tblib
 python-tcx2gpx
-testcloud
 python-testinfra
 python-tkrzw
 python-toolz
@@ -173,7 +171,6 @@ python-uritools
 python-usort
 uwsgi
 python-vedo
-python-virtualbmc
 vrpn
 python-wadllib
 python-wcmatch
@@ -194,7 +191,7 @@ rpkg-util
 rss2email
 swift-lang
 ubertooth
-virt-lightning
+virt-bootstrap
 wesnoth
 xonsh
 znc
