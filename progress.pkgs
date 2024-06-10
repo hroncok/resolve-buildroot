@@ -26,7 +26,7 @@ python-pyside6
 NLopt
 PyQt4
 python-Traits::bootstrap:::
-python-ZODB
+python-ZEO
 python-agate
 python-aiosmtpd
 python-aiostream
@@ -133,7 +133,6 @@ python-pymilter
 python-pyngus
 pyodbc
 python-pyquery
-python-pytest-cases
 python-pytest-httpx
 python-pytest-testinfra
 python-pytn3270
