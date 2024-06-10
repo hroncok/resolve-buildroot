@@ -15,7 +15,6 @@ gplugin
 ikiwiki
 kitty
 krita
-libarrow
 nut
 openscap
 openvswitch
@@ -24,10 +23,10 @@ paraview
 plplot
 proxmark3
 python-pyside6
-python-BTrees
 NLopt
 PyQt4
 python-Traits::bootstrap:::
+python-ZODB
 python-agate
 python-aiosmtpd
 python-aiostream
@@ -43,7 +42,6 @@ python-asyncssh
 python-audioread
 python-avocado
 python-backrefs
-python-bash-kernel
 python-beartype
 python-boltons
 python-bottle
@@ -107,7 +105,6 @@ python-metakernel
 python-mglob
 python-minimock
 python-mirakuru
-mpsolve
 python-nbclassic
 python-neovim
 python-openoffice
@@ -136,8 +133,8 @@ python-pymilter
 python-pyngus
 pyodbc
 python-pyquery
+python-pytest-cases
 python-pytest-httpx
-python-pytest-steps
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
