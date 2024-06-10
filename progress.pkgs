@@ -31,7 +31,6 @@ python-aiosmtpd
 python-aiostream
 python-amico
 python-animatplot
-python-annarchy
 python-ansible-runner
 python-anymarkup-core
 ara
@@ -45,14 +44,13 @@ python-backrefs
 python-beartype
 python-boltons
 python-bottle
-python-boutdata
+bout++
 python-brian2
 btrfs-progs
 python-cachelib
 python-capturer
 python-catkin_lint
 python-cclib
-python-chaospy
 pychromecast
 condor
 csound
@@ -66,11 +64,11 @@ dionaea
 python-dipy
 python-django-auth-ldap
 python-djvulibre
+dolfin
 python-eventlet
 python-exdir
 python-falcon
 fedmsg
-python-ffc
 python-fiona
 python-flask-basicauth
 python-flask-httpauth
@@ -96,7 +94,6 @@ jsonnet
 python-jupyter-kernel-singular
 python-kafka
 lasso
-python-lfpy
 qtile
 python-libusb1
 libuser
@@ -111,8 +108,8 @@ python-mglob
 python-minimock
 python-mirakuru
 python-nbclassic
-python-neatdend
 python-neovim
+python-nipy
 python-openoffice
 python-openpaperwork-core
 python-orderedset
@@ -165,7 +162,6 @@ python-tcx2gpx
 python-testinfra
 python-tkrzw
 python-toolz
-python-transforms3d
 transtats-cli
 python-treq
 python-tweepy
