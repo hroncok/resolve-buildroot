@@ -4,7 +4,6 @@ Zim
 awscli2
 b43-tools
 buildstream
-diffoscope
 docker-compose
 eric
 quodlibet
@@ -191,7 +190,6 @@ rpkg-util
 rss2email
 swift-lang
 ubertooth
-virt-bootstrap
 wesnoth
 xonsh
 znc
