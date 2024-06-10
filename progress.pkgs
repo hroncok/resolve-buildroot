@@ -9,9 +9,9 @@ eric
 quodlibet
 fail2ban
 fontforge
+freeipa-healthcheck:tests::::
 getdp
 python-glue
-gnofract4d
 gplugin
 ikiwiki
 kitty
@@ -90,6 +90,7 @@ python-hl7
 python-ibm-vpc
 python-imagehash
 python-intbitset
+freeipa
 python-ipdb
 jc
 python-json-logger
@@ -98,7 +99,6 @@ jsonnet
 python-jupyter-kernel-singular
 python-kafka
 lasso
-sssd
 qtile
 python-libusb1
 libuser
