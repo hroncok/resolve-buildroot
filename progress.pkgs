@@ -54,10 +54,10 @@ python-catkin_lint
 python-cclib
 pychromecast
 condor
+python-cradox
 csound
 python-cssutils
 python-d2to1
-python-daiquiri
 python-datadog
 python-devicely
 python-devtools
@@ -92,8 +92,8 @@ python-ipdb
 jc
 python-jsonformatter
 jsonnet
-python-jupyter-events
 python-jupyter-kernel-singular
+python-jupyter-server:tests::::
 python-kafka
 lasso
 qtile
