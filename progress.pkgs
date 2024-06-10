@@ -57,6 +57,7 @@ condor
 csound
 python-cssutils
 python-d2to1
+python-daiquiri
 python-datadog
 python-devicely
 python-devtools
@@ -89,9 +90,9 @@ python-imagehash
 python-intbitset
 python-ipdb
 jc
-python-json-logger
 python-jsonformatter
 jsonnet
+python-jupyter-events
 python-jupyter-kernel-singular
 python-kafka
 lasso
@@ -136,8 +137,8 @@ python-pymilter
 python-pyngus
 pyodbc
 python-pyquery
-python-pytest-harvest
 python-pytest-httpx
+python-pytest-steps
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
@@ -161,7 +162,6 @@ python-straight-plugin
 python-tblib
 python-tcx2gpx
 python-testinfra
-python-tinygrad
 python-tkrzw
 python-toolz
 transtats-cli
