@@ -207,16 +207,18 @@ if __name__ == '__main__':
             component_buildroot = resolve_buildrequires_of(component)
         except ValueError as e:
             log(f'\n  ✗ {e}')
-            continue
-        number_of_resolved = len(component_buildroot)
+            number_of_resolved = None
+            ready_to_rebuild = False
+        else:
+            number_of_resolved = len(component_buildroot)
 
-        ready_to_rebuild = are_all_done(
-            packages_to_check=set(component_buildroot) & binary_rpms,
-            all_components=components,
-            components_done=components_done,
-            blocker_counter=blocker_counter,
-            loop_detector=loop_detector,
-        )
+            ready_to_rebuild = are_all_done(
+                packages_to_check=set(component_buildroot) & binary_rpms,
+                all_components=components,
+                components_done=components_done,
+                blocker_counter=blocker_counter,
+                loop_detector=loop_detector,
+            )
 
         if ready_to_rebuild:
             if os.environ.get('PRINT_ALL') or component not in components_done:

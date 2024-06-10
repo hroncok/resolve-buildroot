@@ -23,7 +23,6 @@ openwsman
 paraview
 plplot
 proxmark3
-pyinstrument
 python-pyside6
 python-BTrees
 NLopt
@@ -56,7 +55,6 @@ python-cclib
 pychromecast
 condor
 csound
-python-css-parser
 python-cssutils
 python-d2to1
 python-datadog
@@ -112,6 +110,7 @@ python-minimock
 python-mirakuru
 mpsolve
 python-neovim
+python-networkx::bootstrap:::
 python-openoffice
 python-openpaperwork-core
 python-orderedset
@@ -149,7 +148,6 @@ python-recordclass
 python-rq
 python-rtmidi
 python-ruffus
-samba
 python-scss
 python-setuptools_scm_git_archive
 python-smartcols
