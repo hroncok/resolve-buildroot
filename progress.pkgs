@@ -5,11 +5,11 @@ awscli2
 b43-tools
 buildstream
 docker-compose
+dogtag-pki
 eric
 quodlibet
 fail2ban
 fontforge
-freeipa-healthcheck:tests::::
 getdp
 python-glue
 gplugin
@@ -56,6 +56,7 @@ python-catkin_lint
 python-cclib
 pychromecast
 condor
+python-cotyledon
 csound
 python-css-parser
 python-cssutils
@@ -90,7 +91,6 @@ python-hl7
 python-ibm-vpc
 python-imagehash
 python-intbitset
-freeipa
 python-ipdb
 jc
 python-json-logger
