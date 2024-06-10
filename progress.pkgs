@@ -93,8 +93,6 @@ jc
 python-jsonformatter
 jsonnet
 python-jupyter-kernel-singular
-python-jupyter-lsp
-python-jupyterlab-server
 python-kafka
 lasso
 libguestfs
@@ -112,8 +110,8 @@ python-mglob
 python-minimock
 python-mirakuru
 mpsolve
+python-nbclassic
 python-neovim
-python-notebook-shim
 python-openoffice
 python-openpaperwork-core
 python-orderedset
