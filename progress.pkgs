@@ -26,7 +26,7 @@ python-pyside6
 NLopt
 PyQt4
 python-Traits::bootstrap:::
-python-ZEO
+python-ZODB3
 python-agate
 python-aiosmtpd
 python-aiostream
