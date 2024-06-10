@@ -13,7 +13,6 @@ getdp
 python-glue
 gplugin
 ikiwiki
-ipa-hcc
 kitty
 krita
 libarrow
@@ -68,7 +67,6 @@ dionaea
 python-dipy
 python-django-auth-ldap
 python-djvulibre
-python-etcd
 python-eventlet
 python-exdir
 python-falcon
@@ -90,7 +88,6 @@ python-hl7
 python-ibm-vpc
 python-imagehash
 python-intbitset
-freeipa-desktop-profile
 python-ipdb
 jc
 python-json-logger
@@ -152,6 +149,7 @@ python-recordclass
 python-rq
 python-rtmidi
 python-ruffus
+samba
 python-scss
 python-setuptools_scm_git_archive
 python-smartcols
