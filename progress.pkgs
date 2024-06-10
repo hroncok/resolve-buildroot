@@ -22,6 +22,7 @@ openwsman
 paraview
 plplot
 proxmark3
+pyplane
 python-pyside6
 NLopt
 PyQt4
@@ -31,6 +32,7 @@ python-aiosmtpd
 python-aiostream
 python-amico
 python-animatplot
+python-annarchy
 python-ansible-runner
 python-anymarkup-core
 ara
@@ -44,6 +46,8 @@ python-backrefs
 python-beartype
 python-boltons
 python-bottle
+python-boutdata
+python-brian2
 btrfs-progs
 python-cachelib
 python-capturer
@@ -66,12 +70,14 @@ python-eventlet
 python-exdir
 python-falcon
 fedmsg
+python-fiat
 python-fiona
 python-flask-basicauth
 python-flask-httpauth
 python-flask-mailman
 flatpak-module-tools
 fmf
+python-formulaic
 future
 python-gast
 python-gbulb
@@ -91,6 +97,8 @@ jsonnet
 python-jupyter-kernel-singular
 python-kafka
 lasso
+python-lfpykit
+libpoly
 qtile
 python-libusb1
 libuser
@@ -105,7 +113,9 @@ python-mglob
 python-minimock
 python-mirakuru
 python-nbclassic
+python-neatdend
 python-neovim
+python-numpoly
 python-openoffice
 python-openpaperwork-core
 python-orderedset
@@ -156,6 +166,7 @@ python-straight-plugin
 python-tblib
 python-tcx2gpx
 python-testinfra
+python-texext
 python-tkrzw
 python-toolz
 transtats-cli
@@ -177,6 +188,7 @@ xcfun
 python-xmlsec
 python-yappi
 python-zbase32
+python-zoidberg
 python3-zope-fixers
 zxing-cpp
 qpid-dispatch
