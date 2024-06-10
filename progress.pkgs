@@ -16,6 +16,7 @@ ikiwiki
 kitty
 krita
 libarrow
+libvirt-test-API
 nut
 openscap
 openvswitch
@@ -54,7 +55,6 @@ python-catkin_lint
 python-cclib
 pychromecast
 condor
-python-cradox
 csound
 python-cssutils
 python-d2to1
@@ -97,6 +97,7 @@ python-jupyter-lsp
 python-jupyterlab-server
 python-kafka
 lasso
+libguestfs
 qtile
 python-libusb1
 libuser
@@ -163,6 +164,7 @@ python-stompest
 python-straight-plugin
 python-tblib
 python-tcx2gpx
+testcloud
 python-testinfra
 python-tkrzw
 python-toolz
@@ -173,6 +175,7 @@ python-uritools
 python-usort
 uwsgi
 python-vedo
+python-virtualbmc
 vrpn
 python-wadllib
 python-wcmatch
@@ -193,6 +196,7 @@ rpkg-util
 rss2email
 swift-lang
 ubertooth
+virt-lightning
 wesnoth
 xonsh
 znc
