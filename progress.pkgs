@@ -130,7 +130,6 @@ python-pymilter
 python-pyngus
 pyodbc
 python-pyquery
-python-pytest-httpx
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
