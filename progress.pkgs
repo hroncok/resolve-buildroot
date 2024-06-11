@@ -119,7 +119,6 @@ py-radix
 afflib
 python-pydantic
 python-pyfastnoisesimd
-python-pygal
 pygame
 pygsl
 python-jnius
