@@ -84,7 +84,6 @@ python-imagehash
 python-intbitset
 python-ipdb
 jc
-python-jsonformatter
 jsonnet
 python-jupyter-kernel-singular
 python-kafka
