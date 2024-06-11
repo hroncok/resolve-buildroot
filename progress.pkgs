@@ -4,8 +4,8 @@ Zim
 awscli2
 b43-tools
 buildstream
+dib-utils
 docker-compose
-eric
 quodlibet
 fail2ban
 fontforge
@@ -44,18 +44,16 @@ python-backrefs
 python-beartype
 python-boltons
 python-bottle
-bout++
-python-brian2
 btrfs-progs
 python-cachelib
 python-capturer
 python-catkin_lint
 python-cclib
 pychromecast
+python-colour
 condor
 csound
 python-cssutils
-python-d2to1
 python-datadog
 python-devicely
 python-devtools
@@ -64,7 +62,7 @@ dionaea
 python-dipy
 python-django-auth-ldap
 python-djvulibre
-dolfin
+python-dukpy
 python-eventlet
 python-exdir
 python-falcon
@@ -109,7 +107,6 @@ python-minimock
 python-mirakuru
 python-nbclassic
 python-neovim
-python-nipy
 python-openoffice
 python-openpaperwork-core
 python-orderedset
@@ -135,6 +132,7 @@ pyliblo
 python-pymilter
 python-pyngus
 pyodbc
+python-pypet
 python-pyquery
 python-pytest-httpx
 python-pytest-testinfra
@@ -147,6 +145,7 @@ python-recordclass
 python-rq
 python-rtmidi
 python-ruffus
+python-rxjson
 python-scss
 python-setuptools_scm_git_archive
 python-smartcols
@@ -187,6 +186,7 @@ qpid-dispatch
 rmlint
 rpkg-util
 rss2email
+shyaml
 swift-lang
 ubertooth
 wesnoth
