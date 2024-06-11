@@ -522,6 +522,9 @@ withouts = ["tests"]
 [[bconds.python-deepdiff]]
 withouts = ["tests"]
 
+[[bconds.python-sentry-sdk]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
