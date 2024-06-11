@@ -119,6 +119,7 @@ py-radix
 afflib
 python-pydantic
 python-pyfastnoisesimd
+python-pygal
 pygame
 pygsl
 python-jnius
@@ -126,7 +127,6 @@ pyliblo
 python-pymilter
 python-pyngus
 pyodbc
-python-pyquery
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
