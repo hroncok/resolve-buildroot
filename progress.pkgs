@@ -43,13 +43,13 @@ python-boltons
 python-bottle
 btrfs-progs
 python-cachelib
-python-capturer
 python-catkin_lint
 python-cclib
 pychromecast
 condor
 csound
 python-cssutils
+python-cvdupdate
 python-datadog
 python-devicely
 python-devtools
@@ -97,6 +97,7 @@ python-memray
 python-metakernel
 python-mglob
 python-mirakuru
+python-multiecho
 python-mygpoclient
 python-neovim
 python-openoffice
