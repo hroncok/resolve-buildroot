@@ -49,7 +49,6 @@ pychromecast
 condor
 csound
 python-cssutils
-python-cvdupdate
 python-datadog
 python-devicely
 python-devtools
@@ -98,7 +97,6 @@ python-metakernel
 python-mglob
 python-mirakuru
 python-multiecho
-python-mygpoclient
 python-neovim
 python-openoffice
 python-openpaperwork-core
