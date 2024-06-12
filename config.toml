@@ -41,8 +41,8 @@
 # do a test/scratch build to VERIFY python3-rpm-generators work before proceeding!
 
 [koji]
-# target = 'rawhide'
-target = 'f41-python'
+target = 'rawhide'
+# target = 'f41-python'
 
 [distgit]
 branch = "rawhide"
@@ -71,17 +71,19 @@ fedpkg = "_fedpkg_cache_dir"
 [[repos.rawhide]]
 repoid = "rawhide"
 # metalink = "https://mirrors.fedoraproject.org/metalink?repo=rawhide&arch=$basearch"
-baseurl = ["http://kojipkgs.fedoraproject.org/repos/rawhide/latest/$basearch/"]
+baseurl = ["https://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20240610.n.0/compose/Everything/$basearch/os/"]
+metadata_expire = 600000000
 
 [[repos.rawhide]]
 repoid = "rawhide-source"
 # metalink = "https://mirrors.fedoraproject.org/metalink?repo=rawhide-source&arch=$basearch"
-baseurl = ["http://kojipkgs.fedoraproject.org/repos/rawhide/latest/src/"]
+baseurl = ["https://kojipkgs.fedoraproject.org/compose/rawhide/Fedora-Rawhide-20240610.n.0/compose/Everything/source/tree/"]
+metadata_expire = 600000000
 
 [[repos.target]]
 repoid = "python3.13"
 # baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.13/fedora-rawhide-$basearch/"]
-baseurl = ["http://kojipkgs.fedoraproject.org/repos/f41-python/latest/$basearch/"]
+baseurl = ["http://kojipkgs.fedoraproject.org/repos/f41-build/latest/$basearch/"]
 metadata_expire = 60
 
 [bconds]
