@@ -96,8 +96,8 @@ python-mechanize
 python-memray
 python-metakernel
 python-mglob
-python-minimock
 python-mirakuru
+python-mygpoclient
 python-neovim
 python-openoffice
 python-openpaperwork-core
