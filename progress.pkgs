@@ -2,7 +2,6 @@ RBTools
 WALinuxAgent
 Zim
 awscli2
-b43-tools
 buildstream
 docker-compose
 quodlibet
@@ -75,7 +74,6 @@ python-gast
 python-gbulb
 python-gensim
 python-google-cloud-monitoring
-gtts
 python-h5io
 python-healpy
 python-hl7
@@ -175,7 +173,6 @@ zxing-cpp
 qpid-dispatch
 rmlint
 rpkg-util
-rss2email
 swift-lang
 ubertooth
 wesnoth
