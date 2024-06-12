@@ -83,7 +83,6 @@ python-intbitset
 python-ipdb
 jc
 jsonnet
-python-jupyter-kernel-singular
 python-kafka
 lasso
 qtile
