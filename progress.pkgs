@@ -46,7 +46,6 @@ btrfs-progs
 python-cachelib
 python-capturer
 python-catkin_lint
-python-cattrs
 python-cclib
 pychromecast
 condor
@@ -60,6 +59,7 @@ dionaea
 python-dipy
 python-django-auth-ldap
 python-djvulibre
+python-dukpy
 python-eventlet
 python-exdir
 python-falcon
