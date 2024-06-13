@@ -1,5 +1,4 @@
 RBTools
-WALinuxAgent
 Zim
 awscli2
 buildstream
@@ -25,6 +24,7 @@ NLopt
 PyQt4
 python-Traits::bootstrap:::
 python-agate
+python-aioodbc
 python-aiosmtpd
 python-aiostream
 python-amico
@@ -96,13 +96,13 @@ python-memray
 python-metakernel
 python-mglob
 python-mirakuru
-python-multiecho
 python-neovim
 python-openoffice
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
 python-patsy
+pcp
 python-pdir2
 petsc
 python-pivy
@@ -121,7 +121,6 @@ python-jnius
 pyliblo
 python-pymilter
 python-pyngus
-pyodbc
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
