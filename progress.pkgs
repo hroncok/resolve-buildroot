@@ -1,6 +1,5 @@
 RBTools
 Zim
-awscli2
 buildstream
 docker-compose
 quodlibet
@@ -42,7 +41,6 @@ python-boltons
 python-bottle
 btrfs-progs
 python-cachelib
-python-catkin_lint
 python-cclib
 condor
 csound
