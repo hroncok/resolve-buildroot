@@ -24,7 +24,6 @@ NLopt
 PyQt4
 python-Traits::bootstrap:::
 python-agate
-python-aioodbc
 python-aiosmtpd
 python-aiostream
 python-amico
@@ -45,7 +44,6 @@ btrfs-progs
 python-cachelib
 python-catkin_lint
 python-cclib
-pychromecast
 condor
 csound
 python-cssutils
@@ -95,7 +93,6 @@ python-mechanize
 python-memray
 python-metakernel
 python-mglob
-python-mirakuru
 python-neovim
 python-openoffice
 python-openpaperwork-core
@@ -120,6 +117,7 @@ python-jnius
 pyliblo
 python-pymilter
 python-pyngus
+python-pytest-postgresql
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
