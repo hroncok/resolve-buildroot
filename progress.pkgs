@@ -10,13 +10,13 @@ getdp
 python-glue
 gplugin
 ikiwiki
-kitty
 krita
 nut
 openscap
 openvswitch
 openwsman
 paraview
+pg_activity
 plplot
 proxmark3
 python-pyside6
@@ -117,7 +117,6 @@ python-jnius
 pyliblo
 python-pymilter
 python-pyngus
-python-pytest-postgresql
 python-pytest-testinfra
 python-pytn3270
 python-pyzstd
