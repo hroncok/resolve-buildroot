@@ -21,13 +21,13 @@ proxmark3
 python-pyside6
 NLopt
 PyQt4
-python-Traits::bootstrap:::
 python-agate
 python-aiosmtpd
 python-aiostream
 python-amico
 python-ansible-runner
 python-anymarkup-core
+python-AppTools
 ara
 python-astropy-healpix
 python-astroquery
@@ -89,14 +89,12 @@ python-mechanize
 python-memray
 python-metakernel
 python-mglob
-python-openoffice
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
 python-patsy
 python-pdir2
 petsc
-python-pivy
 python-ppft
 python-precis_i18n
 libprelude
@@ -137,6 +135,7 @@ python-testinfra
 python-tkrzw
 python-toolz
 python-torch
+python-traitsui
 transtats-cli
 python-treq
 python-tweepy
