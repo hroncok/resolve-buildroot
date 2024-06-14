@@ -37,7 +37,6 @@ python-audioread
 python-avocado
 python-backrefs
 python-beartype
-python-bluepyopt
 python-boltons
 python-bottle
 btrfs-progs
@@ -104,7 +103,6 @@ libprelude
 libpreludedb
 python-py-gql
 py-radix
-afflib
 python-pydantic
 python-pyfastnoisesimd
 pygame
