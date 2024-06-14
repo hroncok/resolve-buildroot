@@ -56,7 +56,6 @@ python-djvulibre
 python-dukpy
 python-eventlet
 python-exdir
-python-falcon
 fedmsg
 python-fiona
 python-flask-basicauth
