@@ -27,7 +27,6 @@ python-aiostream
 python-amico
 python-ansible-runner
 python-anymarkup-core
-python-AppTools
 ara
 python-astropy-healpix
 python-astroquery
@@ -54,6 +53,7 @@ python-dipy
 python-django-auth-ldap
 python-djvulibre
 python-dukpy
+python-envisage
 python-eventlet
 python-exdir
 fedmsg
@@ -85,6 +85,7 @@ python-lmdb
 python-logutils
 m2crypto
 python-matplotlib-venn
+Mayavi
 python-mechanize
 python-memray
 python-metakernel
@@ -111,11 +112,10 @@ python-pymilter
 python-pyngus
 python-pytest-testinfra
 python-pytn3270
-python-pyzstd
 python-qcustomplot-pyqt
-python-rasterio
 python-rdflib
 python-recordclass
+python-repoze-who
 python-rq
 python-rtmidi
 python-ruffus
@@ -135,7 +135,6 @@ python-testinfra
 python-tkrzw
 python-toolz
 python-torch
-python-traitsui
 transtats-cli
 python-treq
 python-tweepy
@@ -146,8 +145,8 @@ python-vedo
 vrpn
 python-wadllib
 python-wcmatch
-python-webob
 python-webpy
+python-webtest
 python-wordcloud
 python-wsaccel
 python-x2go
