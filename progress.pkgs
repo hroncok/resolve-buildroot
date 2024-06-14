@@ -59,13 +59,13 @@ python-exdir
 fedmsg
 python-fiona
 python-flask-basicauth
-python-flask-httpauth
 python-flask-mailman
 flatpak-module-tools
 fmf
 future
 python-gast
 python-gbulb
+python-gcsfs
 python-gensim
 python-google-cloud-monitoring
 python-h5io
@@ -139,6 +139,7 @@ python-tcx2gpx
 python-testinfra
 python-tkrzw
 python-toolz
+python-torch
 transtats-cli
 python-treq
 python-tweepy
