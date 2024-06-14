@@ -65,7 +65,6 @@ fmf
 future
 python-gast
 python-gbulb
-python-gcsfs
 python-gensim
 python-google-cloud-monitoring
 python-h5io
@@ -90,10 +89,10 @@ python-mechanize
 python-memray
 python-metakernel
 python-mglob
-python-neovim
 python-openoffice
 python-openpaperwork-core
 python-orderedset
+python-papermill
 python-pathvalidate
 python-patsy
 python-pdir2
