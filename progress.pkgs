@@ -37,6 +37,7 @@ python-audioread
 python-avocado
 python-backrefs
 python-beartype
+python-bluepyopt
 python-boltons
 python-bottle
 btrfs-progs
@@ -92,7 +93,6 @@ python-mglob
 python-openoffice
 python-openpaperwork-core
 python-orderedset
-python-papermill
 python-pathvalidate
 python-patsy
 python-pdir2
