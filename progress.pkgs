@@ -1,10 +1,7 @@
 RBTools
-Zim
 buildstream
 docker-compose
 quodlibet
-fail2ban
-fontforge
 getdp
 python-glue
 gplugin
@@ -44,6 +41,7 @@ python-cclib
 condor
 csound
 python-cssutils
+python-cytoolz
 python-datadog
 python-devicely
 python-devtools
@@ -53,7 +51,6 @@ python-dipy
 python-django-auth-ldap
 python-djvulibre
 python-dukpy
-python-envisage
 python-eventlet
 python-exdir
 fedmsg
@@ -92,6 +89,7 @@ python-metakernel
 python-mglob
 python-openpaperwork-core
 python-orderedset
+python-partd
 python-pathvalidate
 python-patsy
 python-pdir2
@@ -133,7 +131,6 @@ python-tblib
 python-tcx2gpx
 python-testinfra
 python-tkrzw
-python-toolz
 python-torch
 transtats-cli
 python-treq
