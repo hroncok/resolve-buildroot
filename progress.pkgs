@@ -33,7 +33,6 @@ python-avocado
 python-backrefs
 python-beaker
 python-beartype
-python-beniget
 python-boltons
 python-bottle
 btrfs-progs
@@ -151,6 +150,7 @@ python-yappi
 python-zbase32
 python3-zope-fixers
 zxing-cpp
+pythran
 qpid-dispatch
 rmlint
 rpkg-util
