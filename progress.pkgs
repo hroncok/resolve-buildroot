@@ -18,9 +18,6 @@ proxmark3
 python-pyside6
 NLopt
 PyQt4
-python-agate-dbf
-python-agate-excel
-python-agate-sql
 python-aiosmtpd
 python-aiostream
 python-amico
@@ -45,6 +42,7 @@ python-cclib
 condor
 csound
 python-cssutils
+python-csvkit
 python-cytoolz
 python-datadog
 python-devicely
