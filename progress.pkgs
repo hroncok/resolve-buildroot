@@ -51,7 +51,9 @@ dionaea
 python-dipy
 python-django-auth-ldap
 python-djvulibre
+python-duecredit
 python-dukpy
+python-elephant
 python-eventlet
 python-exdir
 fedmsg
@@ -87,7 +89,6 @@ Mayavi
 python-mechanize
 python-memray
 python-mglob
-python-octave-kernel
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
@@ -114,7 +115,6 @@ python-qcustomplot-pyqt
 python-rdflib
 python-recordclass
 python-repoze-who
-python-routes
 python-rq
 python-rtmidi
 python-ruffus
@@ -123,10 +123,10 @@ python-setuptools_scm_git_archive
 python-smartcols
 python-specfile
 python-sphinxcontrib-openapi
+python-spyking-circus
 python-sqlalchemy-collectd
 python-sqlalchemy1.4
 python-starlette
-python-statsmodels
 python-stompest
 python-straight-plugin
 python-tblib
@@ -136,7 +136,7 @@ python-tkrzw
 python-torch
 transtats-cli
 python-treq
-python-tw2-core
+python-tw2-forms
 python-tweepy
 python-uritools
 python-usort
