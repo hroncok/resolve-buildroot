@@ -32,6 +32,7 @@ python-asyncssh
 python-audioread
 python-avocado
 python-backrefs
+python-beaker
 python-beartype
 python-boltons
 python-bottle
@@ -85,13 +86,11 @@ python-matplotlib-venn
 Mayavi
 python-mechanize
 python-memray
-python-metakernel
 python-mglob
+python-octave-kernel
 python-openpaperwork-core
 python-orderedset
-python-partd
 python-pathvalidate
-python-patsy
 python-pdir2
 petsc
 python-ppft
@@ -108,12 +107,14 @@ python-jnius
 pyliblo
 python-pymilter
 python-pyngus
+python-pyramid
 python-pytest-testinfra
 python-pytn3270
 python-qcustomplot-pyqt
 python-rdflib
 python-recordclass
 python-repoze-who
+python-routes
 python-rq
 python-rtmidi
 python-ruffus
@@ -125,6 +126,7 @@ python-sphinxcontrib-openapi
 python-sqlalchemy-collectd
 python-sqlalchemy1.4
 python-starlette
+python-statsmodels
 python-stompest
 python-straight-plugin
 python-tblib
@@ -134,6 +136,7 @@ python-tkrzw
 python-torch
 transtats-cli
 python-treq
+python-tw2-core
 python-tweepy
 python-uritools
 python-usort
@@ -143,7 +146,6 @@ vrpn
 python-wadllib
 python-wcmatch
 python-webpy
-python-webtest
 python-wordcloud
 python-wsaccel
 python-x2go
