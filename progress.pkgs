@@ -33,6 +33,7 @@ python-avocado
 python-backrefs
 python-beaker
 python-beartype
+python-beniget
 python-boltons
 python-bottle
 btrfs-progs
@@ -62,7 +63,6 @@ python-flask-mailman
 flatpak-module-tools
 fmf
 future
-python-gast
 python-gbulb
 python-gensim
 python-google-cloud-monitoring
