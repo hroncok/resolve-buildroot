@@ -18,7 +18,9 @@ proxmark3
 python-pyside6
 NLopt
 PyQt4
-python-agate
+python-agate-dbf
+python-agate-excel
+python-agate-sql
 python-aiosmtpd
 python-aiostream
 python-amico
@@ -38,6 +40,7 @@ python-boltons
 python-bottle
 btrfs-progs
 python-cachelib
+python-cattrs
 python-cclib
 condor
 csound
@@ -123,7 +126,6 @@ python-specfile
 python-sphinxcontrib-openapi
 python-sqlalchemy-collectd
 python-sqlalchemy1.4
-python-starlette
 python-stompest
 python-straight-plugin
 python-tblib
