@@ -2,6 +2,7 @@ RBTools
 buildstream
 docker-compose
 quodlibet
+fedscm-admin
 getdp
 python-glue
 gplugin
@@ -38,7 +39,6 @@ btrfs-progs
 python-cachelib
 python-cattrs
 python-cclib
-python-conda-package-handling
 condor
 csound
 python-cssutils
@@ -55,7 +55,6 @@ python-djvulibre
 python-dukpy
 python-elephant
 python-eventlet
-python-fasjson-client
 fedmsg
 python-fiona
 python-flask-basicauth
@@ -89,7 +88,6 @@ Mayavi
 python-mechanize
 python-memray
 python-mglob
-python-odml
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
