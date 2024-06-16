@@ -46,7 +46,6 @@ python-cytoolz
 python-datadog
 python-devicely
 python-devtools
-python-dill
 dionaea
 python-dipy
 python-django-auth-ldap
@@ -86,7 +85,10 @@ Mayavi
 python-mechanize
 python-memray
 python-mglob
+python-multiprocess
+python-netpyne
 python-openpaperwork-core
+python-opytimizer
 python-orderedset
 python-pathvalidate
 python-pdir2
@@ -103,6 +105,7 @@ pygame
 pygsl
 python-jnius
 pyliblo
+pylint
 python-pymilter
 python-pyngus
 python-pyramid
@@ -117,6 +120,7 @@ python-ruffus
 python-scikit-image
 python-scss
 python-setuptools_scm_git_archive
+python-simframe
 python-smartcols
 python-specfile
 python-sphinxcontrib-openapi
