@@ -20,6 +20,7 @@ python-pyside6
 NLopt
 PyQt4
 python-Pympler
+TurboGears2
 python-aiosmtpd
 python-aiostream
 python-amico
@@ -108,7 +109,6 @@ python-pytest-testinfra
 python-pytn3270
 python-qcustomplot-pyqt
 python-recordclass
-python-repoze-who
 python-rq
 python-rtmidi
 python-ruffus
@@ -122,7 +122,6 @@ python-sqlalchemy-collectd
 python-sqlalchemy1.4
 python-stompest
 python-straight-plugin
-python-subliminal
 python-tblib
 python-tcx2gpx
 python-testinfra
