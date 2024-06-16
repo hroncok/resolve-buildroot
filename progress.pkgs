@@ -7,7 +7,6 @@ python-glue
 gplugin
 ikiwiki
 krita
-muse
 nut
 openscap
 openvswitch
@@ -35,12 +34,11 @@ python-avocado
 python-backrefs
 python-beaker
 python-beartype
-python-bravado
 btrfs-progs
 python-cachelib
 python-cattrs
 python-cclib
-python-conda-package-streaming::bootstrap:::
+python-conda-package-handling
 condor
 csound
 python-cssutils
@@ -57,6 +55,7 @@ python-djvulibre
 python-dukpy
 python-elephant
 python-eventlet
+python-fasjson-client
 fedmsg
 python-fiona
 python-flask-basicauth
@@ -67,7 +66,6 @@ future
 python-gbulb
 python-gensim
 python-google-cloud-monitoring
-grammalecte
 python-h5io
 python-healpy
 python-hl7
@@ -91,9 +89,9 @@ Mayavi
 python-mechanize
 python-memray
 python-mglob
+python-odml
 python-openpaperwork-core
 python-orderedset
-python-owl_rl
 python-pathvalidate
 python-pdir2
 petsc
@@ -153,7 +151,6 @@ xcfun
 python-xmlsec
 python-yappi
 python-zbase32
-zeitgeist
 python3-zope-fixers
 zxing-cpp
 qpid-dispatch
