@@ -9,7 +9,6 @@ ikiwiki
 krita
 nordugrid-arc
 nut
-nvme-stas
 openscap
 openvswitch
 openwsman
@@ -50,7 +49,6 @@ python-devicely
 python-devtools
 dionaea
 python-dipy
-distro-info
 python-django-auth-ldap
 python-djvulibre
 python-dukpy
@@ -66,9 +64,9 @@ future
 python-gbulb
 python-gensim
 python-google-cloud-monitoring
+python-guessit
 python-h5io
 python-hl7
-python-hwdata
 python-ibm-vpc
 python-imagehash
 python-intbitset
@@ -93,8 +91,6 @@ python-orderedset
 python-pathvalidate
 python-pdir2
 petsc
-python-platformio
-python-pocketlint
 python-ppft
 python-precis_i18n
 libprelude
@@ -107,14 +103,12 @@ pygame
 pygsl
 python-jnius
 pyliblo
-python-pylint-venv
 python-pymilter
 python-pyngus
 python-pyramid
 python-pytest-testinfra
 python-pytn3270
 python-qcustomplot-pyqt
-python-rebulk
 python-recordclass
 python-repoze-who
 python-rq
@@ -159,7 +153,6 @@ qpid-dispatch
 rmlint
 rpkg-util
 swift-lang
-thonny
 ubertooth
 wesnoth
 xonsh
