@@ -1,0 +1,15 @@
+diff --git a/python-conda-package-streaming.spec b/python-conda-package-streaming.spec
+index 573d203..786cf72 100644
+--- a/python-conda-package-streaming.spec
++++ b/python-conda-package-streaming.spec
+@@ -1,8 +1,9 @@
++%global _with_bootstrap 1
+ %global srcname conda-package-streaming
+ %global pkgname conda_package_streaming
+ 
+ # We have a circular dep on conda for tests
+-%bcond_with bootstrap
++%bcond_without bootstrap
+ 
+ Name:           python-%{srcname}
+ Version:        0.10.0
