@@ -2,7 +2,6 @@ RBTools
 buildstream
 docker-compose
 quodlibet
-fedscm-admin
 getdp
 python-glue
 gplugin
@@ -79,7 +78,6 @@ lasso
 qtile
 python-libusb1
 libuser
-lilv
 python-lmdb
 python-logutils
 m2crypto
