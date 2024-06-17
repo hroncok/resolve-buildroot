@@ -1,5 +1,6 @@
 RBTools
 buildstream
+copr-rpmbuild
 docker-compose
 quodlibet
 getdp
@@ -85,6 +86,7 @@ python-mglob
 python-multiprocess
 python-openpaperwork-core
 python-orderedset
+packit
 python-pathvalidate
 python-pdir2
 petsc
@@ -114,7 +116,6 @@ python-scikit-image
 python-scss
 python-setuptools_scm_git_archive
 python-smartcols
-python-specfile
 python-sphinxcontrib-openapi
 python-sqlalchemy-collectd
 python-sqlalchemy1.4
@@ -146,6 +147,7 @@ python-zbase32
 python3-zope-fixers
 zxing-cpp
 qpid-dispatch
+rebase-helper
 rmlint
 rpkg-util
 swift-lang
