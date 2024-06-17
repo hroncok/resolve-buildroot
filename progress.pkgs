@@ -51,6 +51,7 @@ python-django-auth-ldap
 python-djvulibre
 python-dukpy
 python-elephant
+python-esbonio
 python-eventlet
 fedmsg
 python-fiona
@@ -67,6 +68,7 @@ python-ibm-vpc
 python-imagehash
 python-intbitset
 python-ipdb
+python-ipywidgets
 jc
 jsonnet
 python-jupytext
@@ -83,7 +85,7 @@ Mayavi
 python-memray
 python-mglob
 python-multiprocess
-python-notebook
+python-nikola
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
@@ -102,9 +104,7 @@ python-jnius
 pyliblo
 python-pymilter
 python-pyngus
-python-pynwb
 python-pyramid
-python-pytest-lsp
 python-pytest-testinfra
 python-pytn3270
 python-qcustomplot-pyqt
@@ -151,8 +151,6 @@ qpid-dispatch
 rebase-helper
 rmlint
 rpkg-util
-rpm-spec-language-server
-ruff-lsp
 swift-lang
 ubertooth
 wesnoth
