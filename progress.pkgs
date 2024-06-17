@@ -1,6 +1,5 @@
 RBTools
 buildstream
-copr-rpmbuild
 docker-compose
 quodlibet
 getdp
@@ -58,7 +57,6 @@ python-fiona
 python-flask-basicauth
 python-flask-mailman
 flatpak-module-tools
-fmf
 future
 python-gbulb
 python-gensim
@@ -86,7 +84,6 @@ python-mglob
 python-multiprocess
 python-openpaperwork-core
 python-orderedset
-packit
 python-pathvalidate
 python-pdir2
 petsc
@@ -134,7 +131,6 @@ python-usort
 uwsgi
 python-vedo
 vrpn
-python-wadllib
 python-wcmatch
 python-webpy
 python-wordcloud
@@ -151,6 +147,7 @@ rebase-helper
 rmlint
 rpkg-util
 swift-lang
+tmt
 ubertooth
 wesnoth
 xonsh
