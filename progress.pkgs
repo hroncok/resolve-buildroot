@@ -51,7 +51,6 @@ python-django-auth-ldap
 python-djvulibre
 python-dukpy
 python-elephant
-python-esbonio
 python-eventlet
 fedmsg
 python-fiona
@@ -85,7 +84,6 @@ Mayavi
 python-memray
 python-mglob
 python-multiprocess
-python-nikola
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
