@@ -19,6 +19,7 @@ python-pyside6
 NLopt
 PyQt4
 python-Pympler
+aggregate6
 python-aiosmtpd
 python-aiostream
 python-amico
@@ -35,13 +36,13 @@ python-beaker
 python-beartype
 btrfs-progs
 python-cachelib
-python-cattrs
 python-cclib
 condor
 csound
 python-cssutils
 python-csvkit
 python-cytoolz
+python-dask
 python-datadog
 python-devicely
 python-devtools
@@ -62,8 +63,10 @@ python-gbulb
 python-gensim
 python-google-cloud-monitoring
 python-h5io
+python-hdmf
 python-hl7
 python-ibm-vpc
+python-imagecodecs
 python-imagehash
 python-intbitset
 python-ipdb
@@ -71,11 +74,13 @@ jc
 jsonnet
 python-kafka
 lasso
+python-lazy-ops
 qtile
 python-libusb1
 libuser
 python-lmdb
 python-logutils
+python-lsprotocol
 m2crypto
 python-matplotlib-venn
 Mayavi
@@ -91,8 +96,8 @@ python-ppft
 python-precis_i18n
 libprelude
 libpreludedb
+python-probeinterface
 python-py-gql
-py-radix
 python-pydantic
 python-pyfastnoisesimd
 pygame
@@ -106,9 +111,11 @@ python-pytest-testinfra
 python-pytn3270
 python-qcustomplot-pyqt
 python-recordclass
+python-requests-cache
 python-rq
 python-rtmidi
 python-ruffus
+python-scikit-build-core
 python-scikit-image
 python-scss
 python-setuptools_scm_git_archive
@@ -126,6 +133,7 @@ python-torch
 transtats-cli
 python-treq
 python-tweepy
+python-ufoLib2
 python-uritools
 python-usort
 uwsgi
@@ -147,7 +155,6 @@ rebase-helper
 rmlint
 rpkg-util
 swift-lang
-tmt
 ubertooth
 wesnoth
 xonsh
