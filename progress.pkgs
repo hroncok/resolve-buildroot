@@ -6,6 +6,7 @@ getdp
 python-glue
 gplugin
 ikiwiki
+jupyterlab
 krita
 nut
 openscap
@@ -19,7 +20,6 @@ python-pyside6
 NLopt
 PyQt4
 python-Pympler
-aggregate6
 python-aiosmtpd
 python-aiostream
 python-amico
@@ -63,7 +63,6 @@ python-gbulb
 python-gensim
 python-google-cloud-monitoring
 python-h5io
-python-hdmf
 python-hl7
 python-ibm-vpc
 python-imagecodecs
@@ -80,7 +79,6 @@ python-libusb1
 libuser
 python-lmdb
 python-logutils
-python-lsprotocol
 m2crypto
 python-matplotlib-venn
 Mayavi
@@ -96,22 +94,22 @@ python-ppft
 python-precis_i18n
 libprelude
 libpreludedb
-python-probeinterface
 python-py-gql
 python-pydantic
 python-pyfastnoisesimd
 pygame
+python-pygls
 pygsl
 python-jnius
 pyliblo
 python-pymilter
 python-pyngus
+python-pynwb
 python-pyramid
 python-pytest-testinfra
 python-pytn3270
 python-qcustomplot-pyqt
 python-recordclass
-python-requests-cache
 python-rq
 python-rtmidi
 python-ruffus
@@ -133,7 +131,7 @@ python-torch
 transtats-cli
 python-treq
 python-tweepy
-python-ufoLib2
+python-ufo2ft
 python-uritools
 python-usort
 uwsgi
