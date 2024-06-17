@@ -6,7 +6,6 @@ getdp
 python-glue
 gplugin
 ikiwiki
-jupyterlab
 krita
 nut
 openscap
@@ -65,15 +64,14 @@ python-google-cloud-monitoring
 python-h5io
 python-hl7
 python-ibm-vpc
-python-imagecodecs
 python-imagehash
 python-intbitset
 python-ipdb
 jc
 jsonnet
+python-jupytext
 python-kafka
 lasso
-python-lazy-ops
 qtile
 python-libusb1
 libuser
@@ -85,6 +83,7 @@ Mayavi
 python-memray
 python-mglob
 python-multiprocess
+python-notebook
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
@@ -98,7 +97,6 @@ python-py-gql
 python-pydantic
 python-pyfastnoisesimd
 pygame
-python-pygls
 pygsl
 python-jnius
 pyliblo
@@ -106,6 +104,7 @@ python-pymilter
 python-pyngus
 python-pynwb
 python-pyramid
+python-pytest-lsp
 python-pytest-testinfra
 python-pytn3270
 python-qcustomplot-pyqt
@@ -152,6 +151,8 @@ qpid-dispatch
 rebase-helper
 rmlint
 rpkg-util
+rpm-spec-language-server
+ruff-lsp
 swift-lang
 ubertooth
 wesnoth
