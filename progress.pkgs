@@ -7,13 +7,13 @@ python-glue
 gplugin
 ikiwiki
 krita
+mu
 nut
 openscap
 openvswitch
 openwsman
 paraview
 pg_activity
-pgzero
 plplot
 proxmark3
 python-pyside6
@@ -37,7 +37,6 @@ python-beaker
 python-beartype
 btrfs-progs
 python-cachelib
-python-ccdproc
 python-cclib
 condor
 csound
@@ -63,7 +62,6 @@ flatpak-module-tools
 future
 python-gbulb
 python-gensim
-python-glymur
 python-google-cloud-monitoring
 python-h5io
 python-hl7
@@ -85,13 +83,13 @@ Mayavi
 python-memray
 python-mglob
 python-multiprocess
-python-nb2plots
+python-neurom
+python-nilearn
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
 python-pdir2
 petsc
-python-plotly
 python-ppft
 python-precis_i18n
 libprelude
@@ -104,7 +102,9 @@ python-jnius
 pyliblo
 python-pymilter
 python-pyngus
+python-pyone
 python-pyopengl
+python-pyphi
 pyproj
 python-pytest-testinfra
 python-pytn3270
@@ -121,7 +121,6 @@ python-sqlalchemy-collectd
 python-sqlalchemy1.4
 python-stompest
 python-straight-plugin
-python-tblib
 python-tcx2gpx
 python-testinfra
 python-tkrzw
@@ -151,6 +150,7 @@ qpid-dispatch
 rebase-helper
 rmlint
 rpkg-util
+stats-collect
 swift-lang
 ubertooth
 wesnoth
