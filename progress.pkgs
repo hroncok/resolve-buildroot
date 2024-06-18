@@ -13,6 +13,7 @@ openvswitch
 openwsman
 paraview
 pg_activity
+pgzero
 plplot
 proxmark3
 python-pyside6
@@ -72,7 +73,6 @@ python-ipdb
 python-ipywidgets
 jc
 jsonnet
-python-jupytext
 lasso
 qtile
 python-libusb1
@@ -98,12 +98,12 @@ libpreludedb
 python-py-gql
 python-pydantic
 python-pyfastnoisesimd
-pygame
 pygsl
 python-jnius
 pyliblo
 python-pymilter
 python-pyngus
+python-pyopengl
 pyproj
 python-pytest-testinfra
 python-pytn3270
