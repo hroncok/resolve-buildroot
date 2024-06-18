@@ -37,6 +37,7 @@ python-beaker
 python-beartype
 btrfs-progs
 python-cachelib
+python-ccdproc
 python-cclib
 condor
 csound
@@ -50,7 +51,6 @@ dionaea
 python-dipy
 python-django-auth-ldap
 python-djvulibre
-python-drain3
 python-dukpy
 python-elephant
 python-eventlet
@@ -63,6 +63,7 @@ flatpak-module-tools
 future
 python-gbulb
 python-gensim
+python-glymur
 python-google-cloud-monitoring
 python-h5io
 python-hl7
@@ -72,7 +73,6 @@ python-intbitset
 python-ipdb
 jc
 jsonnet
-python-jupyter-sphinx
 lasso
 qtile
 python-libusb1
@@ -91,7 +91,7 @@ python-orderedset
 python-pathvalidate
 python-pdir2
 petsc
-python-pingouin
+python-plotly
 python-ppft
 python-precis_i18n
 libprelude
@@ -113,7 +113,6 @@ python-recordclass
 python-rq
 python-ruffus
 python-scikit-build-core
-python-scikit-image
 python-scss
 python-setuptools_scm_git_archive
 python-smartcols
