@@ -3,7 +3,6 @@ bodhi-server
 buildstream
 docker-compose
 quodlibet
-getdp
 python-glue
 gplugin
 ikiwiki
@@ -111,7 +110,6 @@ python-pytn3270
 python-qcustomplot-pyqt
 python-recordclass
 python-rq
-python-rtmidi
 python-ruffus
 python-scikit-build-core
 python-scikit-image
