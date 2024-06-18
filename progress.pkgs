@@ -70,9 +70,9 @@ python-ibm-vpc
 python-imagehash
 python-intbitset
 python-ipdb
-python-ipywidgets
 jc
 jsonnet
+python-jupyter-sphinx
 lasso
 qtile
 python-libusb1
@@ -85,6 +85,7 @@ Mayavi
 python-memray
 python-mglob
 python-multiprocess
+python-nb2plots
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
