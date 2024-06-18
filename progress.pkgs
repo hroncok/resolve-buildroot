@@ -7,7 +7,6 @@ python-glue
 gplugin
 ikiwiki
 krita
-mu
 nut
 openscap
 openvswitch
@@ -83,7 +82,6 @@ Mayavi
 python-memray
 python-mglob
 python-multiprocess
-python-neurom
 python-nilearn
 python-openpaperwork-core
 python-orderedset
@@ -102,9 +100,7 @@ python-jnius
 pyliblo
 python-pymilter
 python-pyngus
-python-pyone
 python-pyopengl
-python-pyphi
 pyproj
 python-pytest-testinfra
 python-pytn3270
@@ -126,7 +122,6 @@ python-testinfra
 python-tkrzw
 python-torch
 transtats-cli
-python-treq
 python-tweepy
 python-ufo2ft
 python-uritools
@@ -138,6 +133,7 @@ python-wcmatch
 python-webpy
 python-wordcloud
 python-wsaccel
+wult
 python-x2go
 python-xbout
 xcfun
@@ -147,10 +143,8 @@ python-zbase32
 python3-zope-fixers
 zxing-cpp
 qpid-dispatch
-rebase-helper
 rmlint
 rpkg-util
-stats-collect
 swift-lang
 ubertooth
 wesnoth
