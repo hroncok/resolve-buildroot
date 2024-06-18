@@ -49,6 +49,7 @@ dionaea
 python-dipy
 python-django-auth-ldap
 python-djvulibre
+python-drain3
 python-dukpy
 python-elephant
 python-eventlet
@@ -72,7 +73,6 @@ python-ipywidgets
 jc
 jsonnet
 python-jupytext
-python-kafka
 lasso
 qtile
 python-libusb1
