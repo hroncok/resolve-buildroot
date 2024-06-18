@@ -41,7 +41,6 @@ csound
 python-cssutils
 python-csvkit
 python-cytoolz
-python-dask
 python-datadog
 python-devicely
 python-devtools
@@ -54,6 +53,7 @@ python-elephant
 python-eventlet
 fedmsg
 python-fiona
+python-flake8-docstrings
 python-flask-basicauth
 python-flask-mailman
 flatpak-module-tools
@@ -107,6 +107,7 @@ python-pytest-testinfra
 python-pytn3270
 python-qcustomplot-pyqt
 python-recordclass
+python-reproject
 python-rq
 python-rtmidi
 python-ruffus
