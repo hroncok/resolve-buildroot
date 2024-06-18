@@ -1,4 +1,5 @@
 RBTools
+bodhi-server
 buildstream
 docker-compose
 quodlibet
@@ -26,7 +27,6 @@ python-amico
 python-ansible-runner
 python-anymarkup-core
 ara
-python-arviz
 python-astroquery
 python-astunparse
 python-asyncssh
@@ -39,7 +39,6 @@ btrfs-progs
 python-cachelib
 python-cclib
 condor
-python-cornice
 csound
 python-cssutils
 python-csvkit
@@ -107,10 +106,6 @@ pyliblo
 python-pymilter
 python-pyngus
 pyproj
-python-pyramid-fas-openid
-python-pyramid-mako
-python-pyramid-tm
-python-pyramid_sawing
 python-pytest-testinfra
 python-pytn3270
 python-qcustomplot-pyqt
