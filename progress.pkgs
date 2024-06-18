@@ -87,6 +87,7 @@ python-mglob
 python-multiprocess
 python-openpaperwork-core
 python-orderedset
+python-pandas-flavor
 python-pathvalidate
 python-pdir2
 petsc
@@ -103,6 +104,7 @@ python-jnius
 pyliblo
 python-pymilter
 python-pyngus
+pyproj
 python-pyramid
 python-pytest-testinfra
 python-pytn3270
@@ -140,6 +142,8 @@ python-webpy
 python-wordcloud
 python-wsaccel
 python-x2go
+python-xarray-einstats
+python-xbout
 xcfun
 python-xmlsec
 python-yappi
