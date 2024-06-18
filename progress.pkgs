@@ -39,6 +39,7 @@ btrfs-progs
 python-cachelib
 python-cclib
 condor
+python-cornice
 csound
 python-cssutils
 python-csvkit
@@ -88,10 +89,10 @@ python-mglob
 python-multiprocess
 python-openpaperwork-core
 python-orderedset
-python-pandas-flavor
 python-pathvalidate
 python-pdir2
 petsc
+python-pingouin
 python-ppft
 python-precis_i18n
 libprelude
@@ -106,7 +107,10 @@ pyliblo
 python-pymilter
 python-pyngus
 pyproj
-python-pyramid
+python-pyramid-fas-openid
+python-pyramid-mako
+python-pyramid-tm
+python-pyramid_sawing
 python-pytest-testinfra
 python-pytn3270
 python-qcustomplot-pyqt
