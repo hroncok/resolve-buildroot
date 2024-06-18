@@ -26,6 +26,7 @@ python-amico
 python-ansible-runner
 python-anymarkup-core
 ara
+python-arviz
 python-astroquery
 python-astunparse
 python-asyncssh
@@ -142,7 +143,6 @@ python-webpy
 python-wordcloud
 python-wsaccel
 python-x2go
-python-xarray-einstats
 python-xbout
 xcfun
 python-xmlsec
