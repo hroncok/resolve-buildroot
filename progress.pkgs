@@ -6,6 +6,7 @@ quodlibet
 python-glue
 ikiwiki
 krita
+python-nifti-mrs
 nut
 openscap
 openvswitch
@@ -30,10 +31,12 @@ python-asyncssh
 python-audioread
 python-avocado
 python-backrefs
+python-basemap
 python-beaker
 python-beartype
 btrfs-progs
 python-cachelib
+python-cartopy
 python-cclib
 condor
 csound
@@ -56,7 +59,7 @@ python-flake8-docstrings
 python-flask-basicauth
 python-flask-mailman
 flatpak-module-tools
-python-fslpy
+python-fsleyes-props
 future
 python-gbulb
 python-gensim
@@ -99,7 +102,6 @@ pyliblo
 python-pymilter
 python-pyngus
 python-pyopengl
-pyproj
 python-pytest-testinfra
 python-pytn3270
 python-qcustomplot-pyqt
