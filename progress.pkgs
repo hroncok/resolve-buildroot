@@ -14,7 +14,6 @@ paraview
 pg_activity
 plplot
 proxmark3
-python-pyside6
 APLpy
 NLopt
 PyQt4
@@ -100,6 +99,7 @@ python-pymilter
 python-pyngus
 python-pyopengl
 pyproj
+python-pytest-qt
 python-pytest-testinfra
 python-pytn3270
 python-qcustomplot-pyqt
