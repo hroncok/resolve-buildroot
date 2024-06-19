@@ -6,7 +6,6 @@ quodlibet
 python-glue
 ikiwiki
 krita
-python-nifti-mrs
 nut
 openscap
 openvswitch
@@ -15,6 +14,7 @@ paraview
 pg_activity
 plplot
 proxmark3
+pychess
 APLpy
 NLopt
 PyQt4
@@ -31,7 +31,6 @@ python-asyncssh
 python-audioread
 python-avocado
 python-backrefs
-python-basemap
 python-beaker
 python-beartype
 btrfs-progs
@@ -59,7 +58,6 @@ python-flake8-docstrings
 python-flask-basicauth
 python-flask-mailman
 flatpak-module-tools
-python-fsleyes-props
 future
 python-gbulb
 python-gensim
@@ -83,7 +81,9 @@ python-matplotlib-venn
 Mayavi
 python-memray
 python-mglob
+python-migrate
 python-multiprocess
+python-odata-query
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
@@ -113,7 +113,6 @@ python-setuptools_scm_git_archive
 python-smartcols
 python-sphinxcontrib-openapi
 python-sqlalchemy-collectd
-python-sqlalchemy1.4
 python-stompest
 python-straight-plugin
 python-tcx2gpx
