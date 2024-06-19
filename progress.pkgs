@@ -1,5 +1,6 @@
 RBTools
 bodhi-server
+buildbot
 buildstream
 docker-compose
 quodlibet
@@ -81,9 +82,7 @@ python-matplotlib-venn
 Mayavi
 python-memray
 python-mglob
-python-migrate
 python-multiprocess
-python-odata-query
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
