@@ -4,7 +4,6 @@ buildstream
 docker-compose
 quodlibet
 python-glue
-gplugin
 ikiwiki
 krita
 nut
@@ -82,7 +81,6 @@ Mayavi
 python-memray
 python-mglob
 python-multiprocess
-python-nilearn
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
@@ -133,7 +131,6 @@ python-wcmatch
 python-webpy
 python-wordcloud
 python-wsaccel
-wult
 python-x2go
 python-xbout
 xcfun
