@@ -99,7 +99,6 @@ python-pymilter
 python-pyngus
 python-pyopengl
 pyproj
-python-pytest-qt
 python-pytest-testinfra
 python-pytn3270
 python-qcustomplot-pyqt
@@ -114,6 +113,7 @@ python-sqlalchemy-collectd
 python-sqlalchemy1.4
 python-stompest
 python-straight-plugin
+python-superqt
 python-tcx2gpx
 python-testinfra
 python-tkrzw
