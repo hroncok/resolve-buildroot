@@ -73,6 +73,7 @@ lasso
 qtile
 python-libusb1
 libuser
+python-llama-cpp-python
 python-lmdb
 python-logutils
 m2crypto
@@ -106,10 +107,10 @@ python-qcustomplot-pyqt
 python-recordclass
 python-rq
 python-ruffus
-python-scikit-build-core
 python-scss
 python-setuptools_scm_git_archive
 python-smartcols
+spglib
 python-sphinxcontrib-openapi
 python-sqlalchemy-collectd
 python-sqlalchemy1.4
