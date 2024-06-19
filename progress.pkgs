@@ -1,6 +1,5 @@
 RBTools
 bodhi-server
-buildbot
 buildstream
 docker-compose
 quodlibet
