@@ -4,7 +4,6 @@ buildstream
 docker-compose
 quodlibet
 python-glue
-python-hyperkitty
 ikiwiki
 krita
 nut
@@ -14,7 +13,6 @@ openwsman
 paraview
 pg_activity
 plplot
-python-postorius
 proxmark3
 pychess
 APLpy
@@ -79,6 +77,7 @@ libuser
 python-lmdb
 python-logutils
 m2crypto
+python-mailman-web
 python-matplotlib-venn
 Mayavi
 python-memray
