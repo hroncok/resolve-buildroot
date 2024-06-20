@@ -105,6 +105,7 @@ python-qcustomplot-pyqt
 python-recordclass
 python-rq
 python-ruffus
+python3-saml
 python-scss
 python-setuptools_scm_git_archive
 python-smartcols
@@ -131,7 +132,6 @@ python-wsaccel
 python-x2go
 python-xbout
 xcfun
-python-xmlsec
 python-yappi
 python-zbase32
 python3-zope-fixers
