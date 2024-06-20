@@ -77,7 +77,6 @@ libuser
 python-lmdb
 python-logutils
 m2crypto
-python-mailman-web
 python-matplotlib-venn
 Mayavi
 python-memray
