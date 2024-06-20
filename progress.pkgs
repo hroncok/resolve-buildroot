@@ -47,6 +47,7 @@ python-devicely
 python-devtools
 dionaea
 python-dipy
+python-django-allauth
 python-django-auth-ldap
 python-djvulibre
 python-dukpy
@@ -105,7 +106,6 @@ python-qcustomplot-pyqt
 python-recordclass
 python-rq
 python-ruffus
-python3-saml
 python-scss
 python-setuptools_scm_git_archive
 python-smartcols
