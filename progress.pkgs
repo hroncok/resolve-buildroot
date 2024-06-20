@@ -47,8 +47,8 @@ python-devicely
 python-devtools
 dionaea
 python-dipy
-python-django-allauth
 python-django-auth-ldap
+python-django-mailman3
 python-djvulibre
 python-dukpy
 python-elephant
