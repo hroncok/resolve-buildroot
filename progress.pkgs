@@ -4,6 +4,7 @@ buildstream
 docker-compose
 quodlibet
 python-glue
+python-hyperkitty
 ikiwiki
 krita
 nut
@@ -13,6 +14,7 @@ openwsman
 paraview
 pg_activity
 plplot
+python-postorius
 proxmark3
 pychess
 APLpy
@@ -48,7 +50,6 @@ python-devtools
 dionaea
 python-dipy
 python-django-auth-ldap
-python-django-mailman3
 python-djvulibre
 python-dukpy
 python-elephant
