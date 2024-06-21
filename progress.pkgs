@@ -31,7 +31,6 @@ python-audioread
 python-avocado
 python-backrefs
 python-beaker
-python-beartype
 btrfs-progs
 python-cachelib
 python-cartopy
@@ -60,7 +59,6 @@ flatpak-module-tools
 future
 python-gbulb
 python-gensim
-ginga
 python-google-cloud-monitoring
 python-h5io
 python-hl7
@@ -69,7 +67,6 @@ python-imagehash
 python-intbitset
 python-ipdb
 jc
-jsonnet
 lasso
 qtile
 python-libusb1
@@ -108,7 +105,6 @@ python-scss
 python-setuptools_scm_git_archive
 python-smartcols
 python-sphinxcontrib-openapi
-python-sqlalchemy-collectd
 python-stompest
 python-straight-plugin
 python-tcx2gpx
@@ -118,7 +114,6 @@ python-torch
 transtats-cli
 python-tweepy
 python-ufo2ft
-python-uritools
 python-usort
 uwsgi
 python-vedo
