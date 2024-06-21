@@ -39,7 +39,6 @@ condor
 csound
 python-cssutils
 python-csvkit
-python-cytoolz
 python-datadog
 python-devicely
 python-devtools
@@ -59,12 +58,12 @@ flatpak-module-tools
 future
 python-gbulb
 python-gensim
+python-geotiler
 python-google-cloud-monitoring
 python-h5io
 python-hl7
 python-ibm-vpc
 python-imagehash
-python-intbitset
 python-ipdb
 jc
 lasso
