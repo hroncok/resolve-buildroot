@@ -1,7 +1,6 @@
 RBTools
 bodhi-server
 buildstream
-dnsviz
 docker-compose
 quodlibet
 python-glue
@@ -11,7 +10,6 @@ nut
 openscap
 openvswitch
 openwsman
-oz
 paraview
 pg_activity
 plplot
@@ -128,7 +126,6 @@ python3-zope-fixers
 qpid-dispatch
 rmlint
 rpkg-util
-swift-lang
 ubertooth
 wesnoth
 xonsh
