@@ -1,6 +1,7 @@
 RBTools
 bodhi-server
 buildstream
+dnsviz
 docker-compose
 quodlibet
 python-glue
@@ -10,6 +11,7 @@ nut
 openscap
 openvswitch
 openwsman
+oz
 paraview
 pg_activity
 plplot
@@ -30,7 +32,6 @@ python-asyncssh
 python-audioread
 python-avocado
 python-backrefs
-python-beaker
 btrfs-progs
 python-cachelib
 python-cartopy
@@ -58,9 +59,7 @@ flatpak-module-tools
 future
 python-gbulb
 python-gensim
-python-geotiler
 python-google-cloud-monitoring
-python-h5io
 python-hl7
 python-ibm-vpc
 python-imagehash
@@ -72,7 +71,6 @@ python-libusb1
 libuser
 python-lmdb
 python-logutils
-m2crypto
 python-matplotlib-venn
 Mayavi
 python-memray
@@ -127,7 +125,6 @@ xcfun
 python-yappi
 python-zbase32
 python3-zope-fixers
-zxing-cpp
 qpid-dispatch
 rmlint
 rpkg-util
