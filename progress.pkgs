@@ -104,10 +104,6 @@ python-tcx2gpx
 python-tensordict
 python-testinfra
 python-tkrzw
-python-torchaudio
-python-torchdata
-python-torchtext
-python-torchvision
 transtats-cli
 python-tweepy
 python-ufo2ft
