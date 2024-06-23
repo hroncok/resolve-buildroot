@@ -15,7 +15,6 @@ pg_activity
 plplot
 proxmark3
 pychess
-APLpy
 NLopt
 PyQt4
 python-Pympler
@@ -37,7 +36,6 @@ python-cclib
 condor
 csound
 python-cssutils
-python-csvkit
 python-datadog
 python-devicely
 python-devtools
@@ -103,9 +101,13 @@ python-sphinxcontrib-openapi
 python-stompest
 python-straight-plugin
 python-tcx2gpx
+python-tensordict
 python-testinfra
 python-tkrzw
-python-torch
+python-torchaudio
+python-torchdata
+python-torchtext
+python-torchvision
 transtats-cli
 python-tweepy
 python-ufo2ft
