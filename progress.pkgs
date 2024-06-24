@@ -3,6 +3,7 @@ docker-compose
 quodlibet
 python-glue
 ikiwiki
+ipsilon
 krita
 nut
 openscap
@@ -56,7 +57,6 @@ python-ibm-vpc
 python-imagehash
 python-ipdb
 jc
-lasso
 qtile
 python-libusb1
 libuser
@@ -112,7 +112,6 @@ python-wordcloud
 python-wsaccel
 python-x2go
 python-xbout
-xcfun
 python-yappi
 python-zbase32
 python3-zope-fixers
