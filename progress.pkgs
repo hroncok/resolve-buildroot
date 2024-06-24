@@ -8,7 +8,6 @@ nut
 openscap
 openvswitch
 openwsman
-pg_activity
 plplot
 proxmark3
 pychess
@@ -120,6 +119,7 @@ python3-zope-fixers
 qpid-dispatch
 rmlint
 rpkg-util
+swift-lang
 ubertooth
 wesnoth
 xonsh
