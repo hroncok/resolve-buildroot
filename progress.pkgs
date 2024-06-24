@@ -1,6 +1,7 @@
 buildstream
 docker-compose
 quodlibet
+fedora-review
 python-glue
 ikiwiki
 krita
@@ -92,7 +93,6 @@ python-setuptools_scm_git_archive
 python-smartcols
 python-sphinxcontrib-openapi
 python-stompest
-python-straight-plugin
 python-tcx2gpx
 python-tensordict
 python-testinfra
