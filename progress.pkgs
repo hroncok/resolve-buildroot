@@ -1,4 +1,3 @@
-RBTools
 bodhi-server
 buildstream
 docker-compose
@@ -10,7 +9,6 @@ nut
 openscap
 openvswitch
 openwsman
-paraview
 pg_activity
 plplot
 proxmark3
