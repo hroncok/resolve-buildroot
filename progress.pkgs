@@ -16,7 +16,6 @@ PyQt4
 python-aiosmtpd
 python-aiostream
 python-amico
-python-ansible-runner
 python-anymarkup-core
 ara
 python-astunparse
@@ -65,6 +64,7 @@ Mayavi
 python-memray
 python-mglob
 python-multiprocess
+python-network-runner
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
