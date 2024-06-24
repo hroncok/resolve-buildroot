@@ -3,7 +3,6 @@ docker-compose
 quodlibet
 python-glue
 ikiwiki
-ipsilon
 krita
 nut
 openscap
@@ -14,7 +13,6 @@ proxmark3
 pychess
 NLopt
 PyQt4
-python-Pympler
 python-aiosmtpd
 python-aiostream
 python-amico
