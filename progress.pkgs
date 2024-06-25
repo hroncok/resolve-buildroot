@@ -3,6 +3,7 @@ docker-compose
 quodlibet
 python-glue
 ikiwiki
+khal
 krita
 nut
 openscap
@@ -14,7 +15,6 @@ pychess
 NLopt
 PyQt4
 python-aiosmtpd
-python-aiostream
 python-amico
 python-anymarkup-core
 ara
