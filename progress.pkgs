@@ -1,7 +1,6 @@
 buildstream
 docker-compose
 quodlibet
-fedora-review
 python-glue
 ikiwiki
 krita
