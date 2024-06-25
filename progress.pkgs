@@ -38,7 +38,6 @@ python-dukpy
 python-elephant
 python-eventlet
 fedmsg
-python-fiona
 python-flake8-docstrings
 python-flask-basicauth
 python-flask-mailman
