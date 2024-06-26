@@ -23,7 +23,6 @@ python-avocado
 python-backrefs
 btrfs-progs
 python-cachelib
-python-cartopy
 python-cclib
 condor
 csound
@@ -74,12 +73,15 @@ libpreludedb
 python-py-gql
 python-pydantic
 python-pyfastnoisesimd
+pygrib
 pygsl
 python-jnius
 pyliblo
 python-pymilter
 python-pyopengl
+python-pyshtools
 python-pytn3270
+python-pyunicorn
 python-qcustomplot-pyqt
 python-recordclass
 python-rq
