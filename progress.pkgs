@@ -1,11 +1,9 @@
+blender
 buildstream
 docker-compose
 quodlibet
 python-glue
-gr-funcube
-gr-hpsdr
-gr-iqbal
-gr-rds
+gr-osmosdr
 ikiwiki
 khal
 krita
@@ -39,7 +37,6 @@ python-django-auth-ldap
 python-djvulibre
 python-dukpy
 python-elephant
-python-ephyviewer
 python-eventlet
 fedmsg
 python-flake8-docstrings
@@ -99,7 +96,6 @@ python-tkrzw
 transtats-cli
 python-tweepy
 python-ufo2ft
-usd
 python-usort
 uwsgi
 python-vedo
@@ -116,7 +112,6 @@ python3-zope-fixers
 qpid-dispatch
 rmlint
 rpkg-util
-rtlsdr-scanner
 swift-lang
 ubertooth
 wesnoth
