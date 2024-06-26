@@ -16,6 +16,8 @@ python-aiosmtpd
 python-amico
 python-anymarkup-core
 ara
+python-arm-preprocessing
+python-ast-monitor
 python-astunparse
 python-asyncssh
 python-audioread
@@ -88,7 +90,6 @@ python-scss
 python-setuptools_scm_git_archive
 python-smartcols
 python-sphinxcontrib-openapi
-python-sport-activities-features
 python-stompest
 python-tensordict
 python-testinfra
