@@ -2,6 +2,10 @@ buildstream
 docker-compose
 quodlibet
 python-glue
+gr-funcube
+gr-hpsdr
+gr-iqbal
+gr-rds
 ikiwiki
 khal
 krita
@@ -19,7 +23,6 @@ ara
 python-arm-preprocessing
 python-astunparse
 python-asyncssh
-python-audioread
 python-avocado
 python-backrefs
 btrfs-progs
@@ -36,6 +39,7 @@ python-django-auth-ldap
 python-djvulibre
 python-dukpy
 python-elephant
+python-ephyviewer
 python-eventlet
 fedmsg
 python-flake8-docstrings
@@ -78,7 +82,6 @@ pygsl
 python-jnius
 pyliblo
 python-pymilter
-python-pyopengl
 python-pytn3270
 python-pyunicorn
 python-qcustomplot-pyqt
@@ -96,6 +99,7 @@ python-tkrzw
 transtats-cli
 python-tweepy
 python-ufo2ft
+usd
 python-usort
 uwsgi
 python-vedo
@@ -112,6 +116,7 @@ python3-zope-fixers
 qpid-dispatch
 rmlint
 rpkg-util
+rtlsdr-scanner
 swift-lang
 ubertooth
 wesnoth
