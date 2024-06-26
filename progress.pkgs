@@ -17,7 +17,6 @@ python-amico
 python-anymarkup-core
 ara
 python-arm-preprocessing
-python-ast-monitor
 python-astunparse
 python-asyncssh
 python-audioread
