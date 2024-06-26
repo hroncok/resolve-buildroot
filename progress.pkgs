@@ -73,7 +73,6 @@ libpreludedb
 python-py-gql
 python-pydantic
 python-pyfastnoisesimd
-pygrib
 pygsl
 python-jnius
 pyliblo
