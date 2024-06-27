@@ -19,7 +19,6 @@ python-anymarkup-core
 ara
 python-arm-preprocessing
 python-astunparse
-python-asyncssh
 python-avocado
 python-backrefs
 btrfs-progs
@@ -34,6 +33,7 @@ dionaea
 python-dipy
 python-django-auth-ldap
 python-djvulibre
+python-dns-lexicon
 python-dukpy
 python-elephant
 python-eventlet
@@ -49,6 +49,7 @@ python-google-cloud-monitoring
 python-hl7
 python-ibm-vpc
 python-imagehash
+python-inema
 python-ipdb
 jc
 qtile
@@ -86,6 +87,7 @@ python-rq
 python-ruffus
 python-scss
 python-setuptools_scm_git_archive
+python-simple-salesforce
 python-smartcols
 python-sphinxcontrib-openapi
 python-stompest
@@ -104,7 +106,6 @@ python-webpy
 python-wordcloud
 python-wsaccel
 python-x2go
-python-xbout
 python-yappi
 python-zbase32
 python3-zope-fixers
