@@ -49,7 +49,6 @@ python-google-cloud-monitoring
 python-hl7
 python-ibm-vpc
 python-imagehash
-python-inema
 python-ipdb
 jc
 qtile
@@ -87,7 +86,6 @@ python-rq
 python-ruffus
 python-scss
 python-setuptools_scm_git_archive
-python-simple-salesforce
 python-smartcols
 python-sphinxcontrib-openapi
 python-stompest
