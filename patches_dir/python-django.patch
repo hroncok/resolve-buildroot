@@ -1,9 +1,0 @@
-diff --git a/python-django.spec b/python-django.spec
-index e2c1f4f..c09fc50 100644
---- a/python-django.spec
-+++ b/python-django.spec
-@@ -1,3 +1,4 @@
-+%global _without_tests 1
- Name:           python-django
- %global         pkgname Django
- %global         ver 4.2.11
