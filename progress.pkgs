@@ -12,7 +12,6 @@ openscap
 openvswitch
 plplot
 proxmark3
-psi4
 NLopt
 PyQt4
 python-amico
@@ -21,6 +20,7 @@ ara
 python-arm-preprocessing
 python-astunparse
 python-avocado
+python-aws-xray-sdk
 python-backrefs
 btrfs-progs
 python-cachelib
@@ -91,11 +91,9 @@ python-scss
 python-setuptools_scm_git_archive
 python-smartcols
 python-sphinxcontrib-openapi
-python-sqlalchemy-utils
 python-stompest
 python-tensordict
 python-testinfra
-python-testing.postgresql
 python-tkrzw
 transtats-cli
 python-tweepy
