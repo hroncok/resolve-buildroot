@@ -23,7 +23,6 @@ python-avocado
 python-backrefs
 btrfs-progs
 python-cachelib
-python-cclib
 conda-build
 condor
 csound
