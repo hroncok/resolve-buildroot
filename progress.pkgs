@@ -2,6 +2,7 @@ blender
 buildstream
 docker-compose
 quodlibet
+glances
 python-glue
 ikiwiki
 khal
@@ -74,7 +75,6 @@ python-precis_i18n
 libprelude
 libpreludedb
 python-py-gql
-python-pydantic-settings
 python-pyfastnoisesimd
 pygsl
 python-jnius
