@@ -20,7 +20,6 @@ ara
 python-arm-preprocessing
 python-astunparse
 python-avocado
-python-aws-xray-sdk
 python-backrefs
 btrfs-progs
 python-cachelib
