@@ -2,7 +2,6 @@ blender
 buildstream
 docker-compose
 quodlibet
-glances
 python-glue
 ikiwiki
 khal
