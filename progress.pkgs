@@ -55,7 +55,6 @@ python-ipdb
 jc
 qtile
 python-libusb1
-libuser
 python-lmdb
 python-logutils
 python-matplotlib-venn
