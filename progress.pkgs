@@ -46,6 +46,7 @@ flatpak-module-tools
 future
 python-gbulb
 python-gensim
+gofer
 python-google-cloud-monitoring
 python-hl7
 python-ibm-vpc
