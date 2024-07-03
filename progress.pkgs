@@ -1,5 +1,6 @@
 blender
 buildstream
+collectd
 docker-compose
 quodlibet
 python-glue
@@ -7,7 +8,6 @@ ikiwiki
 khal
 krita
 mailman3
-nut
 openscap
 openvswitch
 plplot
@@ -41,7 +41,6 @@ python-eventlet
 fedmsg
 python-flake8-docstrings
 python-flask-basicauth
-python-flask-mailman
 flatpak-module-tools
 future
 python-gbulb
