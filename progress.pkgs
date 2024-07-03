@@ -1,10 +1,8 @@
 blender
 buildstream
-collectd
 docker-compose
 quodlibet
 python-glue
-python-howdoi
 ikiwiki
 khal
 krita
@@ -41,8 +39,6 @@ python-eventlet
 fedmsg
 python-flake8-docstrings
 python-flask-basicauth
-python-flask-caching
-python-flask-session
 flatpak-module-tools
 future
 python-gbulb
