@@ -4,6 +4,7 @@ collectd
 docker-compose
 quodlibet
 python-glue
+python-howdoi
 ikiwiki
 khal
 krita
@@ -22,7 +23,6 @@ python-astunparse
 python-avocado
 python-backrefs
 btrfs-progs
-python-cachelib
 conda-build
 condor
 csound
@@ -41,6 +41,8 @@ python-eventlet
 fedmsg
 python-flake8-docstrings
 python-flask-basicauth
+python-flask-caching
+python-flask-session
 flatpak-module-tools
 future
 python-gbulb
