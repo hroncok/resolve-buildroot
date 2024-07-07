@@ -21,7 +21,6 @@ python-astunparse
 python-avocado
 python-backrefs
 btrfs-progs
-python-certbot-dns-plesk
 conda-build
 condor
 csound
