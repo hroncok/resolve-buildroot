@@ -13,6 +13,7 @@ plplot
 proxmark3
 NLopt
 PyQt4
+certbot
 python-amico
 python-anymarkup-core
 ara
@@ -32,7 +33,6 @@ python-dipy
 python-django-auth-ldap
 python-django4.2
 python-djvulibre
-python-dns-lexicon
 python-dukpy
 python-elephant
 python-eventlet
