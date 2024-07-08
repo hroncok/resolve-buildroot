@@ -7,7 +7,6 @@ ikiwiki
 khal
 krita
 mailman3
-openscap
 openvswitch
 plplot
 proxmark3
@@ -60,7 +59,9 @@ python-mglob
 python-multiprocess
 python-network-runner
 python-openpaperwork-core
+python-openstacksdk
 python-orderedset
+python-oslo-serialization
 python-pathvalidate
 python-pdir2
 petsc
