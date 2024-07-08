@@ -14,17 +14,18 @@ NLopt
 PyQt4
 python-amico
 python-anymarkup-core
+python-aodhclient
 ara
 python-arm-preprocessing
 python-astunparse
 python-avocado
 python-backrefs
 btrfs-progs
-python-cinderclient
 conda-build
 condor
 csound
 python-datadog
+python-designateclient
 python-devicely
 python-devtools
 dionaea
@@ -61,7 +62,6 @@ python-multiprocess
 python-network-runner
 python-openpaperwork-core
 python-orderedset
-python-osc-lib
 python-pathvalidate
 python-pdir2
 petsc
