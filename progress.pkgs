@@ -20,6 +20,7 @@ python-astunparse
 python-avocado
 python-backrefs
 btrfs-progs
+python-cinderclient
 conda-build
 condor
 csound
@@ -59,9 +60,8 @@ python-mglob
 python-multiprocess
 python-network-runner
 python-openpaperwork-core
-python-openstacksdk
 python-orderedset
-python-oslo-serialization
+python-osc-lib
 python-pathvalidate
 python-pdir2
 petsc
