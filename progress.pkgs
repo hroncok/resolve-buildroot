@@ -14,7 +14,6 @@ NLopt
 PyQt4
 python-amico
 python-anymarkup-core
-python-aodhclient
 ara
 python-arm-preprocessing
 python-astunparse
@@ -25,7 +24,6 @@ conda-build
 condor
 csound
 python-datadog
-python-designateclient
 python-devicely
 python-devtools
 dionaea
