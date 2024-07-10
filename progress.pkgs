@@ -60,7 +60,7 @@ python-multiprocess
 python-network-runner
 python-openpaperwork-core
 python-orderedset
-python-oslo-middleware
+python-os-client-config
 python-pathvalidate
 python-pdir2
 petsc
