@@ -48,6 +48,7 @@ python-ibm-vpc
 python-imagehash
 python-ipdb
 jc
+python-keystoneclient
 qtile
 python-libusb1
 python-lmdb
@@ -60,7 +61,6 @@ python-multiprocess
 python-network-runner
 python-openpaperwork-core
 python-orderedset
-python-os-client-config
 python-pathvalidate
 python-pdir2
 petsc
@@ -80,6 +80,7 @@ python-qcustomplot-pyqt
 python-ruffus
 python-scss
 python-setuptools_scm_git_archive
+python-shade
 python-smartcols
 python-sphinxcontrib-openapi
 python-stompest
