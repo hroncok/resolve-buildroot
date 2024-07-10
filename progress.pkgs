@@ -82,7 +82,6 @@ python-setuptools_scm_git_archive
 python-smartcols
 python-sphinxcontrib-openapi
 python-stompest
-python-swiftclient
 python-tensordict
 python-testinfra
 python-tkrzw
