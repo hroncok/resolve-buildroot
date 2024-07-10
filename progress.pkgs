@@ -7,7 +7,6 @@ ikiwiki
 khal
 krita
 mailman3
-openvswitch
 plplot
 proxmark3
 NLopt
@@ -41,6 +40,7 @@ flatpak-module-tools
 future
 python-gbulb
 python-gensim
+python-gerritlib
 gofer
 python-google-cloud-monitoring
 python-hl7
@@ -60,6 +60,7 @@ python-multiprocess
 python-network-runner
 python-openpaperwork-core
 python-orderedset
+python-oslo-context
 python-pathvalidate
 python-pdir2
 petsc
@@ -73,6 +74,7 @@ pygsl
 python-jnius
 pyliblo
 python-pymilter
+python-pymochad
 python-pytn3270
 python-pyunicorn
 python-qcustomplot-pyqt
