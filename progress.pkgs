@@ -48,7 +48,6 @@ python-ibm-vpc
 python-imagehash
 python-ipdb
 jc
-python-keystoneclient
 qtile
 python-libusb1
 python-lmdb
@@ -80,10 +79,10 @@ python-qcustomplot-pyqt
 python-ruffus
 python-scss
 python-setuptools_scm_git_archive
-python-shade
 python-smartcols
 python-sphinxcontrib-openapi
 python-stompest
+python-swiftclient
 python-tensordict
 python-testinfra
 python-tkrzw
