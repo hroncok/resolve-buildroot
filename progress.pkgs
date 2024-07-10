@@ -60,7 +60,7 @@ python-multiprocess
 python-network-runner
 python-openpaperwork-core
 python-orderedset
-python-oslo-context
+python-oslo-middleware
 python-pathvalidate
 python-pdir2
 petsc
@@ -74,7 +74,6 @@ pygsl
 python-jnius
 pyliblo
 python-pymilter
-python-pymochad
 python-pytn3270
 python-pyunicorn
 python-qcustomplot-pyqt
