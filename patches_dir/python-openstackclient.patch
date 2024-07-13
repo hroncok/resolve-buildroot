@@ -1,0 +1,13 @@
+diff --git a/python-openstackclient.spec b/python-openstackclient.spec
+index 3c1b4de..90b3be0 100644
+--- a/python-openstackclient.spec
++++ b/python-openstackclient.spec
+@@ -14,7 +14,7 @@
+ # library name
+ %global sname %{cname}client
+ 
+-%global with_doc 1
++%global with_doc 0
+ 
+ %global common_desc \
+ python-%{sname} is a unified command-line client for the OpenStack APIs. \
