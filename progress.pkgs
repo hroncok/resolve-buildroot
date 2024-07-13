@@ -83,7 +83,6 @@ python-stompest
 python-tensordict
 python-testinfra
 transtats-cli
-python-troveclient
 python-tweepy
 python-ufo2ft
 python-usort
