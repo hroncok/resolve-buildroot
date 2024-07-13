@@ -18,7 +18,6 @@ ara
 python-arm-preprocessing
 python-astunparse
 python-avocado
-python-backrefs
 btrfs-progs
 conda-build
 condor
@@ -36,7 +35,6 @@ python-eventlet
 fedmsg
 python-flake8-docstrings
 python-flask-basicauth
-flatpak-module-tools
 future
 python-gbulb
 python-gensim
@@ -58,8 +56,10 @@ python-memray
 python-mglob
 python-multiprocess
 python-network-runner
+python-novaclient
 python-openpaperwork-core
 python-orderedset
+python-oslo-metrics
 python-pathvalidate
 python-pdir2
 petsc
@@ -82,6 +82,7 @@ python-setuptools_scm_git_archive
 python-smartcols
 python-sphinxcontrib-openapi
 python-stompest
+python-tackerclient
 python-tensordict
 python-testinfra
 python-tkrzw
@@ -91,10 +92,12 @@ python-ufo2ft
 python-usort
 uwsgi
 python-vedo
+python-vitrageclient
 vrpn
 python-webpy
 python-wsaccel
 python-x2go
+python-zaqarclient
 python-zbase32
 python3-zope-fixers
 qpid-dispatch
