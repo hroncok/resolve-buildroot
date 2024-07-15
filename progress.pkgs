@@ -30,7 +30,6 @@ python-django-auth-ldap
 python-djvulibre
 python-dukpy
 python-elephant
-python-etcd3gw
 python-eventlet
 fedmsg
 python-flake8-docstrings
