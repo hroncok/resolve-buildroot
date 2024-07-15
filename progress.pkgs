@@ -38,7 +38,6 @@ future
 python-gbulb
 python-gensim
 python-gerritlib
-python-gnocchiclient
 gofer
 python-google-cloud-monitoring
 python-hl7
