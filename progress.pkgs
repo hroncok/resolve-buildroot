@@ -12,7 +12,6 @@ proxmark3
 NLopt
 PyQt4
 python-amico
-ansible-lint
 python-anymarkup-core
 ara
 python-arm-preprocessing
@@ -31,6 +30,7 @@ python-django-auth-ldap
 python-djvulibre
 python-dukpy
 python-elephant
+python-etcd3gw
 python-eventlet
 fedmsg
 python-flake8-docstrings
@@ -39,6 +39,7 @@ future
 python-gbulb
 python-gensim
 python-gerritlib
+python-gnocchiclient
 gofer
 python-google-cloud-monitoring
 python-hl7
