@@ -3,6 +3,7 @@ buildstream
 docker-compose
 quodlibet
 python-glue
+gr-air-modes
 ikiwiki
 khal
 krita
@@ -10,7 +11,6 @@ mailman3
 plplot
 proxmark3
 NLopt
-PyQt4
 python-amico
 python-anymarkup-core
 ara
