@@ -43,7 +43,6 @@ python-ibm-vpc
 python-imagehash
 python-ipdb
 jc
-qtile
 python-libusb1
 python-lmdb
 python-logutils
@@ -68,6 +67,7 @@ pygsl
 python-jnius
 pyliblo
 python-pymilter
+python-pytest-grpc
 python-pytn3270
 python-pyunicorn
 python-qcustomplot-pyqt
@@ -88,6 +88,7 @@ vrpn
 python-webpy
 python-wsaccel
 python-x2go
+xapps
 python-zbase32
 python3-zope-fixers
 qpid-dispatch
