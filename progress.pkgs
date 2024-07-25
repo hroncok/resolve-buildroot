@@ -1,3 +1,4 @@
+apostrophe
 blender
 buildstream
 docker-compose
@@ -36,7 +37,7 @@ python-gbulb
 python-gensim
 python-gerritlib
 gofer
-python-google-cloud-monitoring
+python-googleapis-common-protos
 python-hl7
 python-ibm-vpc
 python-imagehash
@@ -66,6 +67,7 @@ pygsl
 python-jnius
 pyliblo
 python-pymilter
+python-pynose
 python-pytest-grpc
 python-pytn3270
 python-pyunicorn
@@ -92,6 +94,7 @@ python3-zope-fixers
 qpid-dispatch
 rmlint
 rpkg-util
+ruff-lsp
 ubertooth
 wesnoth
 xonsh
