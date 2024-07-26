@@ -15,7 +15,6 @@ python-anymarkup-core
 ara
 python-astunparse
 python-avocado
-btrfs-progs
 conda-build
 condor
 csound
@@ -38,7 +37,6 @@ python-gensim
 python-gerritlib
 gofer
 python-googleapis-common-protos
-python-hl7
 python-ibm-vpc
 python-imagehash
 python-ipdb
