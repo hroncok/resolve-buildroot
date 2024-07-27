@@ -36,7 +36,7 @@ python-gbulb
 python-gensim
 python-gerritlib
 gofer
-python-googleapis-common-protos
+python-google-cloud-monitoring
 python-ibm-vpc
 python-imagehash
 python-ipdb
