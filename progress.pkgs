@@ -7,7 +7,7 @@ python-glue
 khal
 krita
 mailman3
-mopidy
+mopidy-mpd
 plplot
 proxmark3
 NLopt
