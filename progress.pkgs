@@ -6,8 +6,6 @@ quodlibet
 python-glue
 khal
 krita
-mailman3
-mopidy-mpd
 plplot
 proxmark3
 NLopt
@@ -45,6 +43,8 @@ jc
 python-libusb1
 python-lmdb
 python-logutils
+python-mailman-hyperkitty
+mailman3-fedmsg-plugin
 python-matplotlib-venn
 Mayavi
 python-memray
