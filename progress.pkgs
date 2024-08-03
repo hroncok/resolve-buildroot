@@ -46,7 +46,6 @@ Mayavi
 python-memray
 python-mglob
 python-multiprocess
-python-network-runner
 python-openpaperwork-core
 python-orderedset
 python-pathvalidate
