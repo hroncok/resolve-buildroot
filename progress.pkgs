@@ -1,6 +1,5 @@
 apostrophe
 blender
-buildstream
 docker-compose
 quodlibet
 python-glue
@@ -35,7 +34,6 @@ python-gerritlib
 gofer
 python-google-cloud-monitoring
 python-ibm-vpc
-python-imagehash
 python-ipdb
 jc
 python-libusb1
@@ -50,7 +48,6 @@ python-openpaperwork-core
 python-orderedset
 python-pathvalidate
 python-pdir2
-petsc
 python-ppft
 python-precis_i18n
 libprelude
@@ -87,7 +84,6 @@ python-zbase32
 python3-zope-fixers
 qpid-dispatch
 rmlint
-rpkg-util
 ruff-lsp
 ubertooth
 xonsh
