@@ -2,7 +2,6 @@ apostrophe
 blender
 docker-compose
 quodlibet
-gajim
 python-glue
 khal
 krita
@@ -47,7 +46,6 @@ python-matplotlib-venn
 Mayavi
 python-mglob
 python-multiprocess
-python-oletools::bootstrap:::
 python-openpaperwork-core
 python-orderedset
 python-pdir2
