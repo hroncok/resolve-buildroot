@@ -41,7 +41,6 @@ python-j1m.sphinxautozconfig
 jc
 python-libusb1
 python-lmdb
-python-logutils
 python-matplotlib-venn
 Mayavi
 python-mglob
@@ -79,7 +78,6 @@ transtats-cli
 python-tweepy
 python-ufo2ft
 python-usort
-uwsgi
 python-vitrageclient
 vrpn
 python-webpy
@@ -91,7 +89,6 @@ python-zodbpickle
 python3-zope-fixers
 python-zopeundo
 qpid-dispatch
-rmlint
 ruff-lsp
 ubertooth
 xonsh
