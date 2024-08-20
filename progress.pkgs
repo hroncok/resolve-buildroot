@@ -12,7 +12,6 @@ python-amico
 python-anymarkup-core
 ara
 python-astunparse
-python-avocado
 conda-build
 condor
 csound
@@ -62,6 +61,8 @@ python-pytest-grpc
 python-pytn3270
 python-pyunicorn
 python-qcustomplot-pyqt
+python-qemu-qmp
+python-r128gain
 python-ruffus
 python-scss
 python-setuptools_scm_git_archive
