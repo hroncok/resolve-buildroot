@@ -174,7 +174,7 @@ withouts = ["tests"]
 withouts = ["timeout", "tests", "docs"]
 
 [[bconds.python-virtualenv]]
-withouts = ["tests"]
+withs = ["bootstrap"]
 
 [[bconds.babel]]
 withs = ["bootstrap"]
@@ -330,7 +330,7 @@ withouts = ["tests"]
 withs = ["bootstrap"]
 
 [[bconds.python-tox]]
-withouts = ["tests"]
+withs = ["bootstrap"]
 
 [[bconds.python-pytest-rerunfailures]]
 withouts = ["tests"]
@@ -426,7 +426,7 @@ withouts = ["plugins"]
 withouts = ["tests"]
 
 [[bconds.python-tox-current-env]]
-withouts = ["tests"]
+withs = ["bootstrap"]
 
 [[bconds.python-pikepdf]]
 withouts = ["docs", "tests"]
