@@ -50,6 +50,7 @@ python-persistent
 python-ppft
 python-pplpy
 libprelude
+prelude-correlator
 libpreludedb
 python-py-gql
 python-pyfastnoisesimd
@@ -81,6 +82,7 @@ vrpn
 python-webpy
 python-wsaccel
 python-x2go
+zanata-python-client
 python-zanata2fedmsg
 python-zbase32
 python-zodbpickle
