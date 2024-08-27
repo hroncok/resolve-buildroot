@@ -6,6 +6,7 @@ python-glue
 khal
 krita
 plplot
+python-EvoPreprocess
 NLopt
 python-ZConfig
 python-amico
