@@ -13,6 +13,7 @@ python-amico
 python-anymarkup-core
 ara
 python-astunparse
+python-aw-core
 conda-build
 condor
 csound
