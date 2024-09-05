@@ -25,6 +25,7 @@ python-djvulibre
 python-dukpy
 python-eventlet
 python-f5-icontrol-rest
+python-fb-re2
 fedmsg
 python-flake8-docstrings
 python-flask-basicauth
@@ -44,7 +45,6 @@ python-matplotlib-venn
 Mayavi
 python-mglob
 python-multiprocess
-python-openpaperwork-core
 python-orderedset
 python-pdir2
 python-persistent
