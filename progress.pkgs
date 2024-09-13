@@ -38,7 +38,6 @@ python-google-cloud-monitoring
 python-ibm-vpc
 python-ipdb
 python-j1m.sphinxautozconfig
-python-lmdb
 python-matplotlib-venn
 Mayavi
 python-mglob
