@@ -1,10 +1,7 @@
 apostrophe
 blender
 docker-compose
-quodlibet
 python-glue
-khal
-krita
 plplot
 python-EvoPreprocess
 NLopt
@@ -12,7 +9,6 @@ python-ZConfig
 python-adb
 python-amico
 python-anymarkup-core
-ara
 python-astunparse
 conda-build
 condor
