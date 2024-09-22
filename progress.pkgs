@@ -31,6 +31,7 @@ python-gensim
 python-gerritlib
 gofer
 python-google-cloud-monitoring
+python-grabbit
 python-ibm-vpc
 python-ipdb
 python-j1m.sphinxautozconfig
