@@ -2,6 +2,7 @@ apostrophe
 blender
 docker-compose
 python-glue
+gnome-builder
 plplot
 python-EvoPreprocess
 NLopt
