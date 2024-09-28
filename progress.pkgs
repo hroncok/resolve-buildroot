@@ -3,7 +3,6 @@ blender
 docker-compose
 python-glue
 gnome-builder
-plplot
 python-EvoPreprocess
 NLopt
 python-ZConfig
@@ -11,7 +10,6 @@ python-adb
 python-amico
 python-anymarkup-core
 python-astunparse
-condor
 csound
 python-datadog
 python-devicely
