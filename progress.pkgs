@@ -4,7 +4,6 @@ docker-compose
 python-glue
 gnome-builder
 python-EvoPreprocess
-NLopt
 python-ZConfig
 python-adb
 python-amico
@@ -31,14 +30,15 @@ python-google-cloud-monitoring
 python-grabbit
 python-ipdb
 python-j1m.sphinxautozconfig
+python-jenkins
+libldb
+python-lit
 python-matplotlib-venn
 Mayavi
 python-mglob
-python-multiprocess
 python-orderedset
 python-pdir2
 python-persistent
-python-ppft
 python-pplpy
 libprelude
 prelude-correlator
