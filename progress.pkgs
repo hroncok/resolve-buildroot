@@ -36,6 +36,7 @@ python-lit
 python-matplotlib-venn
 Mayavi
 python-mglob
+python-opentype-sanitizer
 python-orderedset
 python-pdir2
 python-persistent
