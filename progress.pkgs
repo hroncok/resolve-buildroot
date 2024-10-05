@@ -30,7 +30,6 @@ python-google-cloud-monitoring
 python-grabbit
 python-ipdb
 python-j1m.sphinxautozconfig
-python-jenkins
 libldb
 python-lit
 python-matplotlib-venn
@@ -83,4 +82,3 @@ qpid-dispatch
 ruff-lsp
 ubertooth
 xonsh
-znc
