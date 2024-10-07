@@ -50,8 +50,6 @@ pyliblo
 python-pynose
 python-pytest-cython
 python-pytest-grpc
-python-pytn3270
-python-qcustomplot-pyqt
 python-r128gain
 python-ruffus
 python-scss
@@ -80,5 +78,4 @@ python3-zope-fixers
 python-zopeundo
 qpid-dispatch
 ruff-lsp
-ubertooth
 xonsh
