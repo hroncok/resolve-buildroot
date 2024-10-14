@@ -23,7 +23,6 @@ fedmsg
 python-flake8-docstrings
 python-flask-basicauth
 future
-python-gbulb
 python-gensim
 gofer
 python-google-cloud-monitoring
@@ -45,7 +44,6 @@ prelude-correlator
 libpreludedb
 python-py-gql
 python-pyfastnoisesimd
-python-jnius
 pyliblo
 python-pynose
 python-pytest-cython
