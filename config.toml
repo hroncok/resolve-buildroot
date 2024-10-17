@@ -255,14 +255,8 @@ withouts = ["tests"]
 [[bconds.freeipa-healthcheck]]
 withouts = ["tests"]
 
-[[bconds.python-zbase32]]
-withs = ["bootstrap"]
-
 [[bconds.python-Traits]]
 withs = ["bootstrap"]
-
-[[bconds.python-lit]]
-withouts = ["check"]
 
 [[bconds.python-pcodedmp]]
 withs = ["bootstrap"]
