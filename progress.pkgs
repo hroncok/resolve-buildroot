@@ -200,15 +200,12 @@ python-apsw
 python-apypie
 python-asciitree
 python-asn1crypto
-python-async-timeout:tests::::
 atomic-reactor
-python-atomicwrites:docs-tests::::
 audit
 python-auth-credential
 python-authres
 python-axolotl-curve25519
 python-azure-sdk-tools
-babel::bootstrap:::
 babeltrace
 python-backlash
 python-baluhn
@@ -279,7 +276,6 @@ python-cvss
 python-cx-oracle
 python-cxxfilt
 python-cycler
-Cython:tests::::
 python-d2to1
 python-daemonize
 python-danfossair
@@ -349,7 +345,6 @@ python-easydict
 python-easygui
 python-edimax
 python-editor
-python-elementpath:tests::::
 python-empy
 python-enchant
 enjarify
@@ -360,9 +355,6 @@ python-etcd3
 python-evdev
 python-events
 python-exif
-python-extras::bootstrap:::
-python-factory-boy:tests::::
-python-fasteners:tests::::
 file
 firewalld
 python-firkin
@@ -511,12 +503,10 @@ python-minikerberos
 python-minimock
 miniupnpc
 python-mitogen
-python-mock:tests::::
 python-modernize
 python-modestmaps
 python-molmass
 python-monotonic
-python-more-itertools:tests::::
 python-moss
 python-mozilla-django-oidc
 python-mpd
@@ -537,7 +527,6 @@ net-snmp
 python-netapp-lib
 python-netdata
 python-netifaces
-python-networkx::bootstrap:::
 newt
 python-nltk
 python-nmap
@@ -608,7 +597,6 @@ python-pyaib
 python-pyasyncore
 pyaudio
 python-pybalboa
-pybind11:tests::::
 pybox2d
 python-pycatch22
 python-chm
@@ -660,7 +648,6 @@ pyserial
 python-pysimplesoap
 python-pysingular
 pysnmp
-python-pysocks:::with_python3_tests::
 python-pyspf
 python-pyspiflash
 python-pysword
@@ -720,7 +707,6 @@ python3-simpletal
 python-simplevisor
 python-siphash
 sipvicious
-python-six:tests::::
 skf
 slowloris
 python-smbc
@@ -729,7 +715,6 @@ python-smbpasswd
 tcl-snack
 socialscan
 python-socks5line
-python-sortedcontainers:docs-tests::::
 python-speaklater
 speech-dispatcher
 python-speedtest-cli
@@ -771,7 +756,6 @@ python-tasmotadevicecontroller
 python-tbtrim
 libtdb
 python-teletype
-python-tempdir
 python-tempita
 python-templated-dictionary
 python-testfixtures
@@ -782,7 +766,6 @@ python-tftpy
 python-three_merge
 python-timeout-decorator
 tlsh
-python-tomli-w:check::::
 python-toposort
 python-tornado
 python-translationstring
@@ -825,7 +808,6 @@ python-vsts-cd-manager
 python-vsure
 python-walkdir
 python-waqiasync
-python-wcwidth:tests::::
 python-websockets
 python-websockify
 python-webthing
@@ -847,8 +829,6 @@ python-yaswfp
 ydiff
 python-zipstream
 python-zope-deprecation
-python-zope-event:docs:bootstrap:::
-python-zope-interface:docs-tests::::
 python-zope-testing
 python-zstd
 ranger
