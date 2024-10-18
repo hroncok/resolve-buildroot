@@ -29,6 +29,7 @@ python-pluginlib
 python-precis_i18n
 protobuf
 python-pure-protobuf
+python-pytest-venv
 python-pyupgrade
 python-recordclass
 python-rpmfluff
@@ -42,10 +43,10 @@ python-three_merge
 python-toolz
 python-transaction
 python-typing-extensions
-python-virtualenv::bootstrap:::
-python-websocket-client
+python-virtualenv-api
 python-yappi
 python-zope-exceptions:tests::::
 realtime-tests
 syncplay
+python-tox::bootstrap:::
 weechat
