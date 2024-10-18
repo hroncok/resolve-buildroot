@@ -522,6 +522,25 @@ withouts = ["tests"]
 [[bconds.python-dask]]
 withs = ["bootstrap"]
 
+[[bconds.python-dask-expr]]
+withs = ["bootstrap"]
+
+[[bconds.python-build]]
+withouts = ["uv"]
+
+[[bconds.meson]]
+withouts = ["check"]
+
+[[bconds.python-gmpy2]]
+withouts = ["tests"]
+
+# keep the quotation marks - toml can't handle dots in package names
+[[bconds."python-pluggy1.3"]]
+withouts = ["tests"]
+
+[[bconds.python-humanfriendly]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
