@@ -19,6 +19,7 @@ Cython:tests::::
 python-dill
 python-httpretty
 python-iniparse
+python-jaraco-envs
 python-lark
 python-libarchive-c
 python-msgspec
@@ -29,7 +30,6 @@ python-pluginlib
 python-precis_i18n
 protobuf
 python-pure-protobuf
-python-pytest-venv
 python-pyupgrade
 python-recordclass
 python-rpmfluff
@@ -39,14 +39,14 @@ python-simpleeval
 python-sqlalchemy1.4
 python-stdlibs
 python-sure
+python-textwrap3
 python-three_merge
 python-toolz
+python-tox-current-env::bootstrap:::
 python-transaction
 python-typing-extensions
-python-virtualenv-api
 python-yappi
 python-zope-exceptions:tests::::
 realtime-tests
 syncplay
-python-tox::bootstrap:::
 weechat
