@@ -519,6 +519,9 @@ withouts = ["tests"]
 [[bconds.python-sentry-sdk]]
 withouts = ["tests"]
 
+[[bconds.python-dask]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
