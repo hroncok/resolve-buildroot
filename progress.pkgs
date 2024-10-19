@@ -14,9 +14,7 @@ python-pymongo
 pycairo
 python-cloudpickle
 python-colcon-parallel-executor
-python-colcon-ros-domain-id-coordinator
 python-colorful
-python-conda-libmamba-solver:tests::::
 Cython:tests::::
 python-dill
 python-httpretty
@@ -29,7 +27,6 @@ python-nose
 python-nss
 python-parso
 python-pexpect
-python-pluggy1.3:tests::::
 python-pluginlib
 python-precis_i18n
 protobuf
@@ -39,7 +36,6 @@ python-recordclass
 python-rpmfluff
 python-rstcheck
 python-ruamel-yaml::bootstrap:::
-python-scripttest
 python-simpleeval
 python-sqlalchemy1.4
 python-stdlibs
