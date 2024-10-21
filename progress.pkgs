@@ -44,6 +44,7 @@ python-three_merge
 python-toolz
 python-transaction
 python-typing-extensions
+python-urllib3:extradeps-tests::::
 python-xmlschema
 python-yappi
 python-zope-exceptions:tests::::
