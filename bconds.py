@@ -1,4 +1,6 @@
+import datetime
 import functools
+import os
 import pathlib
 import re
 import subprocess
@@ -142,10 +144,16 @@ def koji_status(koji_id):
     raise RuntimeError('Cannot parse koji taskinfo output')
 
 
-def koji_task_is_obsolete(koji_id):
-    command = ('koji', 'download-task', koji_id, '--arch=src', '--noprogress')
-    koji_output = run(*command).stdout.splitlines()
-    if 'No files for download found.' in koji_output:
+def koji_id_is_older_than_week(koji_id_path):
+    """
+    Returns True if koji_id file was created earlier than a week ago.
+    We assume this is a treshold time after which Koji artifacts are deleted,
+    and we need to remove koji_id to retrigger the scratchbuild.
+    If koji_id was created within the last week, return False.
+    """
+    koji_id_mtime = datetime.datetime.fromtimestamp(os.path.getmtime(koji_id_path))
+    one_week_ago = datetime.datetime.now() - datetime.timedelta(weeks=1)
+    if koji_id_mtime < one_week_ago:
         return True
     return False
 
@@ -174,9 +182,9 @@ def handle_existing_koji_id(repopath, *, was_updated):
                     f'removing {KOJI_ID_FILENAME}.')
                 koji_id_path.unlink()
                 return None
-            elif status == 'closed' and koji_task_is_obsolete(koji_task_id):
-                log(f'   • Koji task {koji_task_id} is long closed '
-                    f'and there\'s nothing to download; removing {KOJI_ID_FILENAME}.')
+            elif status == 'closed' and koji_id_is_older_than_week(koji_id_path):
+                log(f'   • Koji task {koji_task_id} is older than one week, '
+                    f'there may be nothing to download; removing {KOJI_ID_FILENAME}.')
                 koji_id_path.unlink()
             else:
                 log(f'   • Koji task {koji_task_id} is {status}; '
