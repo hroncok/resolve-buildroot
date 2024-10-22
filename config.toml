@@ -541,6 +541,15 @@ withouts = ["tests"]
 [[bconds.python-humanfriendly]]
 withs = ["bootstrap"]
 
+[[bconds.python-cascadio]]
+withs = ["bootstrap"]
+
+[[bconds.python-pint]]
+withouts = ["xarray"]
+
+[[bconds.python-pytest7]]
+withouts = ["timeout", "tests", "docs"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
