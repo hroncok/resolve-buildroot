@@ -18,11 +18,9 @@ pycairo
 python-cloudpickle
 python-colcon-parallel-executor
 python-colorful
-python-cvxopt
 Cython:tests::::
 python-dill
 python-django-compressor
-python-h2
 python-httpretty
 python-humanfriendly::bootstrap:::
 python-iniparse
@@ -31,7 +29,6 @@ python-libarchive-c
 dtc
 libnvme
 python-lz4
-python-mediafile
 python-msgspec
 python-nose
 python-nss
@@ -44,9 +41,7 @@ python-pulp-glue
 python-pure-protobuf
 python-pymeeus
 python-pynacl
-python-pytest-trio
 python-pyupgrade
-python-recommonmark
 python-recordclass
 python-repoze-sphinx-autointerface:tests::::
 python-rpmfluff
@@ -56,7 +51,6 @@ python-simpleeval
 python-sqlalchemy1.4
 python-stdlibs
 python-sure
-python-three_merge
 python-toolz
 python-transaction
 python-typing-extensions
