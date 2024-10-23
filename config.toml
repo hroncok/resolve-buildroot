@@ -550,6 +550,9 @@ withouts = ["xarray"]
 [[bconds.python-pytest7]]
 withouts = ["timeout", "tests", "docs"]
 
+[[bconds.python-qcengine]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
