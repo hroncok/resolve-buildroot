@@ -19,7 +19,6 @@ python-pymongo
 pycairo
 python-cloudpickle
 python-colcon-parallel-executor
-python-colcon-ros-bundle
 python-colorful
 python-cysignals
 python-dill
