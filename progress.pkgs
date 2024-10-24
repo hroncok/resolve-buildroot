@@ -54,7 +54,6 @@ python-rpmfluff
 python-rstcheck
 python-ruamel-yaml::bootstrap:::
 python-simpleeval
-python-sqlalchemy1.4
 python-ssh-python
 python-stdlibs
 python-sure
