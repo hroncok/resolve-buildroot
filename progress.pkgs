@@ -19,12 +19,11 @@ python-pymongo
 pycairo
 python-cloudpickle
 python-colcon-parallel-executor
+python-colcon-ros-bundle
 python-colorful
 python-cysignals
 python-dill
 python-django-compressor
-python-flufl-i18n
-python-flufl-lock
 python-giacpy
 python-httpretty
 python-humanfriendly::bootstrap:::
@@ -52,8 +51,6 @@ python-pynacl
 python-pyupgrade
 python-recordclass
 python-repoze-sphinx-autointerface:tests::::
-python-rosdep
-python-rosinstall_generator
 python-rpmfluff
 python-rstcheck
 python-ruamel-yaml::bootstrap:::
