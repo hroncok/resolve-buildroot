@@ -1,5 +1,4 @@
 python-drgn
-hyfetch
 link-grammar
 mrchem
 python-APScheduler
@@ -28,7 +27,6 @@ python-giacpy
 python-httpretty
 python-humanfriendly::bootstrap:::
 python-iniparse
-python-kiss-headers
 python-lark
 python-libarchive-c
 dtc
@@ -62,7 +60,6 @@ python-sure
 python-toolz
 python-transaction
 python-typing-extensions
-python-u-boot-pylib
 python-whitenoise
 xapian-bindings
 python-yappi
