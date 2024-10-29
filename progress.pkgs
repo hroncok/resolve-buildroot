@@ -2,6 +2,7 @@ collectd
 python-drgn
 link-grammar
 mrchem
+pag
 python-APScheduler
 python-aiosmtpd
 python-apsw
@@ -30,8 +31,6 @@ python-cysignals
 python-dill
 python-django-compressor
 dnf
-python-fedora
-python-flask-openid
 python-fontMath
 python-fontname
 python-fontrpmspec
@@ -40,7 +39,6 @@ python-html5lib
 python-httpretty
 python-humanfriendly::bootstrap:::
 python-iniparse
-python-itemloaders
 javapackages-tools
 python-lark
 python-libarchive-c
@@ -50,8 +48,6 @@ python-lz4
 python-msgspec
 python-nose
 nototools
-python-openid-cla
-python-openid-teams
 python-parso
 python-pexpect
 python-pluginlib
