@@ -23,10 +23,12 @@ python-colorful
 python-cysignals
 python-dill
 python-django-compressor
+fonttools:tests::::
 python-giacpy
 python-httpretty
 python-humanfriendly::bootstrap:::
 python-iniparse
+python-jsonpath-ng
 python-lark
 python-libarchive-c
 dtc
@@ -36,7 +38,6 @@ python-lz4
 python-meson-python
 python-msgspec
 python-nose
-python-nss
 python-parso
 python-pexpect
 python-pluginlib
@@ -54,6 +55,7 @@ python-rpmfluff
 python-rstcheck
 python-ruamel-yaml::bootstrap:::
 python-simpleeval
+python-sphinx-autodoc-typehints
 python-ssh-python
 python-stdlibs
 python-sure
