@@ -6,6 +6,7 @@ python-aiosmtpd
 python-apsw
 python-astor
 python-astroid
+python-astropy-iers-data:tests::::
 python-awscrt
 python-backrefs
 bcc
@@ -17,7 +18,6 @@ python-bottle
 brltty
 python-pymongo
 pycairo
-python-cbor2
 python-cffsubr
 python-cloudpickle
 python-colcon-parallel-executor
@@ -29,7 +29,6 @@ python-django-compressor
 python-fontMath
 python-fontname
 python-giacpy
-python-graphviz
 python-httpretty
 python-humanfriendly::bootstrap:::
 python-iniparse
@@ -43,7 +42,6 @@ python-meson-python
 python-msgspec
 python-nose
 nototools
-python-overpy
 python-parso
 python-pexpect
 python-pluginlib
@@ -61,10 +59,8 @@ python-rpmfluff
 python-rstcheck
 python-ruamel-yaml::bootstrap:::
 python-simpleeval
-python-slixmpp
 python-ssh-python
 python-stdlibs
-python-stem
 python-sure
 python-toolz
 python-transaction
