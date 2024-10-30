@@ -2,7 +2,6 @@ collectd
 python-drgn
 link-grammar
 mrchem
-pag
 python-APScheduler
 python-aiosmtpd
 python-apsw
@@ -36,7 +35,6 @@ python-fontname
 python-fontrpmspec
 python-giacpy
 python-html5lib
-python-httpretty
 python-humanfriendly::bootstrap:::
 python-iniparse
 javapackages-tools
