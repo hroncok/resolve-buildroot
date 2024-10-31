@@ -13,7 +13,6 @@ python-backrefs
 bcc
 python-beartype
 python-billiard
-python-bleach
 python-blinker
 python-boolean.py
 python-bottle
@@ -28,8 +27,10 @@ python-commoncode
 python-cysignals
 python-dill
 python-django-compressor
+python-django-haystack
 dnf
 python-giacpy
+python-hl7
 python-humanfriendly::bootstrap:::
 python-iniparse
 javapackages-tools
@@ -57,8 +58,6 @@ python-rpmfluff
 python-rstcheck
 python-ruamel-yaml::bootstrap:::
 python-simpleeval
-python-sphinxcontrib-htmlhelp
-python-sphinxygen
 python-ssh-python
 python-stdlibs
 python-sure
