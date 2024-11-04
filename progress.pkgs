@@ -1,4 +1,3 @@
-RBTools
 collectd
 python-drgn
 lammps
@@ -24,7 +23,6 @@ python-pymongo
 pycairo
 python-chameleon
 python-cloudpickle
-cmake
 python-colcon-parallel-executor
 python-colorful
 python-commoncode
@@ -34,7 +32,6 @@ python-dataclassy
 python-dill
 root
 python-django-compressor
-dlib
 dnf
 python-etcd
 python-gevent
@@ -49,7 +46,6 @@ python-josepy
 python-lark
 python-libarchive-c
 libnvme
-libxc
 python-loguru
 python-msal
 python-msgspec
@@ -87,7 +83,6 @@ python-typing-inspect
 visidata
 python-whitenoise
 xapian-bindings
-python-yapf
 python-yappi
 python-zope-exceptions:tests::::
 realtime-tests
