@@ -346,7 +346,7 @@ withs = ["bootstrap"]
 withouts = ["tests"]
 
 [[bconds.fonttools]]
-withouts = ["tests"]
+withouts = ["tests", "plot_extra", "symfont_extra", "ufo_extra", "woff_extra", "graphite_extra", "interpolatable_extra"]
 
 [[bconds.conda]]
 withouts = ["tests"]
