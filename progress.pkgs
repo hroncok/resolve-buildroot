@@ -21,6 +21,7 @@ python-bottle
 brltty
 python-pymongo
 pycairo
+python-cairocffi
 python-chameleon
 python-cloudpickle
 python-colcon-parallel-executor
@@ -30,7 +31,6 @@ python-cssutils
 python-cysignals
 python-dataclassy
 python-dill
-root
 python-django-compressor
 dnf
 python-etcd
@@ -58,6 +58,7 @@ python-precis_i18n
 protobuf
 python-pulp-glue
 python-pure-protobuf
+python-pydicom
 pygsl
 python-pymdown-extensions
 python-pymeeus
@@ -88,4 +89,5 @@ python-zope-exceptions:tests::::
 realtime-tests
 syncplay
 thefuck
+trac
 weechat
