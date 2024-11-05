@@ -21,7 +21,6 @@ python-bottle
 brltty
 python-pymongo
 pycairo
-python-cairocffi
 python-chameleon
 python-cloudpickle
 python-colcon-parallel-executor
@@ -89,5 +88,4 @@ python-zope-exceptions:tests::::
 realtime-tests
 syncplay
 thefuck
-trac
 weechat
