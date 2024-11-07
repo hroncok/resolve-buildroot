@@ -1,6 +1,5 @@
 collectd
 python-drgn
-freecell-solver
 lammps
 link-grammar
 linode-cli
@@ -52,7 +51,6 @@ libnvme
 python-loguru
 python-m3u8
 python-mccabe
-python-moreorless
 python-msal
 python-msgspec
 python-nose
@@ -90,7 +88,6 @@ satyr
 python-ssh-python
 python-sure
 python-toolz
-python-tox-uv
 trademgen
 python-transaction
 python-typeguard
