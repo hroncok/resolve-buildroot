@@ -3,12 +3,12 @@ import sys
 
 # this module reuses bconds functions heavily
 # XXX move to a common module?
-from bconds import clone_into, refresh_gitrepo, patch_spec, run
+from bconds import clone_into, refresh_gitrepo, patch_spec
 
 # the following bcond things actually do stay there
 from bconds import reverse_id_lookup, build_reverse_id_lookup
 
-from utils import CONFIG
+from utils import CONFIG, run
 
 
 PATCHDIR = pathlib.Path('patches_dir')

@@ -4,10 +4,9 @@ import functools
 import os
 import pathlib
 import re
-import subprocess
 import sys
 
-from utils import CONFIG, log
+from utils import CONFIG, log, run
 
 KOJI_ID_FILENAME = 'koji.id'
 
@@ -39,13 +38,6 @@ def bcond_cache_identifier(component_name, bcond_config, *, branch='', target=''
     identifier = f'{component_name}:{withouts_id}:{withs_id}:{replacements_id}:{branch}:{target}'
     reverse_id_lookup[identifier] = bcond_config
     return identifier   
-
-
-def run(*cmd, **kwargs):
-    kwargs.setdefault('check', True)
-    kwargs.setdefault('capture_output', True)
-    kwargs.setdefault('text', True)
-    return subprocess.run(cmd, **kwargs)
 
 
 def clone_into(component_name, target, branch=''):

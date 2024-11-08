@@ -1,3 +1,4 @@
+import subprocess
 import sys
 import tomllib
 
@@ -26,3 +27,10 @@ def stringify(lst, separator=', '):
     If no separator is given, separates the items by comma and space.
     """
     return separator.join(name_or_str(i) for i in lst)
+
+
+def run(*cmd, **kwargs):
+    kwargs.setdefault('check', True)
+    kwargs.setdefault('capture_output', True)
+    kwargs.setdefault('text', True)
+    return subprocess.run(cmd, **kwargs)
