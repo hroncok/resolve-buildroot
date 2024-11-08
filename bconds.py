@@ -3,9 +3,9 @@ import datetime
 import functools
 import os
 import pathlib
-import re
 import sys
 
+from gitrepo import clone_into, refresh_gitrepo, patch_spec
 from utils import CONFIG, log, run
 
 KOJI_ID_FILENAME = 'koji.id'
@@ -37,35 +37,7 @@ def bcond_cache_identifier(component_name, bcond_config, *, branch='', target=''
         branch = ''
     identifier = f'{component_name}:{withouts_id}:{withs_id}:{replacements_id}:{branch}:{target}'
     reverse_id_lookup[identifier] = bcond_config
-    return identifier   
-
-
-def clone_into(component_name, target, branch=''):
-    branch = branch or CONFIG['distgit']['branch']
-    log(f' • Cloning {component_name} into "{target}"...', end=' ')
-    # I would like to use --depth=1 but that breaks rpmautospec
-    # https://pagure.io/fedora-infra/rpmautospec/issue/227
-    run('fedpkg', 'clone', component_name, target, f'--branch={branch}')
-    log('done.')
-
-
-def refresh_gitrepo(repopath, prune_exisitng=False):
-    log(f' • Refreshing "{repopath}" git repo...', end=' ')
-    git = 'git', '-C', repopath
-    head_before = run(*git, 'rev-parse', 'HEAD').stdout.rstrip()
-    run(*git, 'stash')
-    run(*git, 'reset', '--hard')
-    run(*git, 'pull')
-    head_after = run(*git, 'rev-parse', 'HEAD').stdout.rstrip()
-    if head_before == head_after:
-        if not prune_exisitng:
-            # we try to preserve the changes for local inspection, but if it fails, meh
-            run(*git, 'stash', 'pop', check=False)
-        log('already up to date.')
-        return False
-    else:
-        log(f'updated {head_before[:10]}..{head_after[:10]}.')
-        return True
+    return identifier
 
 
 def srpm_path(directory):
@@ -80,28 +52,6 @@ def srpm_path(directory):
     if count := len(candidates) > 1:
         raise RuntimeError(f'Found {count} SRPMs in {directory}.')
     return candidates[0]
-
-
-def patch_spec(specpath, bcond_config):
-    log(f'   • Patching {specpath.name}')
-
-    run('git', '-C', specpath.parent, 'reset', '--hard')
-
-    spec_text = specpath.read_text()
-
-    lines = []
-    for without in sorted(bcond_config.get('withouts', ())):
-        if without in bcond_config.get('withs', ()):
-            raise ValueError(f'Cannot have the same with and without: {without}')
-        lines.append(f'%global _without_{without} 1')
-    for with_ in sorted(bcond_config.get('withs', ())):
-        lines.append(f'%global _with_{with_} 1')
-    for macro, value in bcond_config.get('replacements', {}).items():
-        spec_text = re.sub(fr'^(\s*)%(define|global)(\s+){macro}(\s+)\S.*$',
-                           fr'\1%\2\g<3>{macro}\g<4>{value}',
-                           spec_text, flags=re.MULTILINE)
-    lines.append(spec_text)
-    specpath.write_text('\n'.join(lines))
 
 
 def submit_scratchbuild(repopath, target=''):
