@@ -2,7 +2,7 @@ import pathlib
 import sys
 
 from bconds import reverse_id_lookup, build_reverse_id_lookup
-from gitrepo import clone_into, refresh_gitrepo, patch_spec
+from gitrepo import clone_into, refresh_gitrepo, patch_spec, refresh_or_clone
 from utils import CONFIG, run
 
 
@@ -21,13 +21,8 @@ if __name__ == '__main__':
             bootstrap = reverse_id_lookup[component_name]
             component_name, *_ = component_name.partition(':')
 
-        # XXX make a reusable function with just refresh_gitrepo/clone_into
         repopath = FEDPKG_CACHEDIR / component_name
-        if repopath.exists():
-            refresh_gitrepo(repopath, prune_exisitng=True)
-        else:
-            FEDPKG_CACHEDIR.mkdir(exist_ok=True)
-            clone_into(component_name, repopath)
+        refresh_or_clone(repopath, component_name, prune_existing=True)
 
         specpath = repopath / f'{component_name}.spec'
 

@@ -5,7 +5,7 @@ import os
 import pathlib
 import sys
 
-from gitrepo import clone_into, refresh_gitrepo, patch_spec
+from gitrepo import clone_into, refresh_gitrepo, patch_spec, refresh_or_clone
 from utils import CONFIG, log, run
 
 KOJI_ID_FILENAME = 'koji.id'
@@ -135,7 +135,7 @@ def handle_existing_koji_id(repopath, *, was_updated):
                 return koji_task_id
 
 
-def scratchbuild_patched_if_needed(component_name, bcond_config, no_git_refresh, *, branch='', target=''):
+def scratchbuild_patched_if_needed(component_name, bcond_config, *, branch='', target='', no_git_refresh=False):
     """
     This will:
      1. clone/fetch the given component_name package from Fedora to fedpkg_cache_dir
@@ -151,15 +151,7 @@ def scratchbuild_patched_if_needed(component_name, bcond_config, no_git_refresh,
     """
     repopath = pathlib.Path(CONFIG['cache_dir']['fedpkg']) / bcond_config['id']
 
-    if repopath.exists():
-        if no_git_refresh:
-            news = False
-        else:
-            news = refresh_gitrepo(repopath)
-    else:
-        pathlib.Path(CONFIG['cache_dir']['fedpkg']).mkdir(exist_ok=True)
-        clone_into(component_name, repopath, branch=branch)
-        news = True
+    news = refresh_or_clone(repopath, component_name, no_git_refresh=no_git_refresh, branch=branch)
 
     if srpm := handle_existing_srpm(repopath, was_updated=news):
         bcond_config['srpm'] = srpm
@@ -269,7 +261,7 @@ if __name__ == '__main__':
     # build everything
     something_was_submitted = False
     for component_name, bcond_config in each_bcond_name_config():
-        something_was_submitted |= scratchbuild_patched_if_needed(component_name, bcond_config, args.no_git_refresh)
+        something_was_submitted |= scratchbuild_patched_if_needed(component_name, bcond_config, no_git_refresh=args.no_git_refresh)
 
     # download everything until there's nothing downloaded
     # the idea is that while downloading, other tasks could finish

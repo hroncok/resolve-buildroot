@@ -17,7 +17,7 @@ def clone_into(component_name, target, branch=''):
     log('done.')
 
 
-def refresh_gitrepo(repopath, prune_exisitng=False):
+def refresh_gitrepo(repopath, prune_existing=False):
     log(f' • Refreshing "{repopath}" git repo...', end=' ')
     git = 'git', '-C', repopath
     head_before = run(*git, 'rev-parse', 'HEAD').stdout.rstrip()
@@ -26,7 +26,7 @@ def refresh_gitrepo(repopath, prune_exisitng=False):
     run(*git, 'pull')
     head_after = run(*git, 'rev-parse', 'HEAD').stdout.rstrip()
     if head_before == head_after:
-        if not prune_exisitng:
+        if not prune_existing:
             # we try to preserve the changes for local inspection, but if it fails, meh
             run(*git, 'stash', 'pop', check=False)
         log('already up to date.')
@@ -56,3 +56,21 @@ def patch_spec(specpath, bcond_config):
                            spec_text, flags=re.MULTILINE)
     lines.append(spec_text)
     specpath.write_text('\n'.join(lines))
+
+
+def refresh_or_clone(repopath, component_name, *, prune_existing=False, no_git_refresh=False, branch=''):
+    """
+    Returns True if there's new contents of the repository.
+    Returns False if the content of the repository remains the same
+    or if no_git_refresh option is set to True
+    (we skip the repository update and assume nothing has changed).
+    """
+    if repopath.exists():
+        if no_git_refresh:
+            return False
+        else:
+            return refresh_gitrepo(repopath, prune_existing=prune_existing)
+    else:
+        repopath.parent.mkdir(exist_ok=True)
+        clone_into(component_name, repopath, branch=branch)
+        return True
