@@ -228,7 +228,7 @@ if __name__ == '__main__':
                 bcond_config['id'] = bcond_cache_identifier(component, bcond_config)
                 log(f'• {component} not ready and {bcond_config["id"]} bcond found, will check that one')
                 if 'buildrequires' not in bcond_config:
-                    extract_buildrequires_if_possible(component, bcond_config)
+                    extract_buildrequires_if_possible(bcond_config)
                 if 'buildrequires' in bcond_config:
                     try:
                         component_buildroot = resolve_requires(tuple(sorted(bcond_config['buildrequires'])))

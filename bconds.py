@@ -233,7 +233,7 @@ def scratchbuild_patched_if_needed(component_name, bcond_config, *, branch='', t
     return True
 
 
-def download_srpm_if_possible(component_name, bcond_config):
+def download_srpm_if_possible(bcond_config):
     """
     This will:
      1. inspect the bcond_config for srpm path and a koji build id
@@ -275,7 +275,7 @@ def rpm_requires(rpm):
     return tuple(sorted({r for r in raw_requires if not r.startswith('rpmlib(')}))
 
 
-def extract_buildrequires_if_possible(component_name, bcond_config):
+def extract_buildrequires_if_possible(bcond_config):
     """
     This will:
      1. inspect the bcond_config for srpm path
@@ -321,8 +321,8 @@ if __name__ == '__main__':
         for pkg, bcond_configs in CONFIG['bconds'].items():
             for bcond_config in bcond_configs:
                 if 'buildrequires' not in bcond_config:
-                    something_was_downloaded |= download_srpm_if_possible(component_name, bcond_config)
-                    if extract_buildrequires_if_possible(component_name, bcond_config):
+                    something_was_downloaded |= download_srpm_if_possible(bcond_config)
+                    if extract_buildrequires_if_possible(bcond_config):
                         extracted_count += 1
         koji_status.cache_clear()
 
