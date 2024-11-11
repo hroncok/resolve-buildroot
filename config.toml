@@ -281,7 +281,7 @@ withs = ["bootstrap"]
 withouts = ["docs"]
 
 [[bconds.python-zope-interface]]
-withouts = ["tests", "docs"]
+withouts = ["docs"]
 
 [[bconds.python-tqdm]]
 withouts = ["tests"]
