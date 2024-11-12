@@ -17,7 +17,6 @@ python-backrefs
 python-beartype
 python-billiard
 python-blinker
-python-boolean.py
 python-bottle
 brltty
 python-pymongo
@@ -48,7 +47,7 @@ javapackages-tools
 python-josepy
 python-libarchive-c
 libnvme
-python-loguru
+python-license-expression
 python-m3u8
 python-mccabe
 python-msal
@@ -72,6 +71,7 @@ python-pynacl
 python-pypandoc
 pyproj
 python-pyramid
+python-pysignals
 python-pytest-split
 python-pyupgrade
 watchman
@@ -86,7 +86,6 @@ python-rstcheck
 python-ruamel-yaml::bootstrap:::
 satyr
 python-ssh-python
-python-sure
 python-toolz
 trademgen
 python-transaction
