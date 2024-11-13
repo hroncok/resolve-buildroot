@@ -3,6 +3,7 @@ python-drgn
 lammps
 link-grammar
 linode-cli
+pitivi
 python-pyside6
 python-APScheduler
 python-aiosmtpd
@@ -20,7 +21,6 @@ python-blinker
 python-bottle
 brltty
 python-pymongo
-pycairo
 python-chameleon
 python-cloudpickle
 python-colcon-parallel-executor
@@ -38,6 +38,7 @@ python-etcd
 python-flufl-bounce
 python-gevent
 python-giacpy
+pygobject3
 python-gunicorn
 python-h5netcdf
 python-hl7
@@ -47,12 +48,12 @@ javapackages-tools
 python-josepy
 python-libarchive-c
 libnvme
-python-license-expression
 python-m3u8
 python-mccabe
 python-msal
 python-msgspec
 python-nose
+python-nose-timer
 python-parso
 petsc
 python-pexpect
