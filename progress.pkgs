@@ -1,16 +1,18 @@
+python-b4
 collectd
 python-drgn
 lammps
 link-grammar
 linode-cli
-pitivi
 python-pyside6
 python-APScheduler
+python-aiomysql
 python-aiosmtpd
 python-apsw
 python-astor
 python-astroid
 python-asyncssh
+python-authheaders
 python-authlib
 python-avocado
 python-awscrt
@@ -46,6 +48,7 @@ python-humanfriendly::bootstrap:::
 python-iniparse
 javapackages-tools
 python-josepy
+python-keep
 python-libarchive-c
 libnvme
 python-m3u8
@@ -53,7 +56,7 @@ python-mccabe
 python-msal
 python-msgspec
 python-nose
-python-nose-timer
+python-paramiko
 python-parso
 petsc
 python-pexpect
@@ -68,7 +71,6 @@ python-pydicom
 pygsl
 python-pymdown-extensions
 python-pymeeus
-python-pynacl
 python-pypandoc
 pyproj
 python-pyramid
