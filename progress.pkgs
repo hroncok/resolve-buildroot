@@ -16,7 +16,6 @@ python-awscrt
 python-backrefs
 python-beartype
 python-billiard
-python-blinker
 python-bottle
 brltty
 python-pymongo
@@ -52,6 +51,7 @@ python-mccabe
 python-msal
 python-msgspec
 python-nose
+python-oauthlib
 python-paramiko
 python-parso
 petsc
