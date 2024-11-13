@@ -1,4 +1,3 @@
-python-b4
 collectd
 python-drgn
 lammps
@@ -6,13 +5,11 @@ link-grammar
 linode-cli
 python-pyside6
 python-APScheduler
-python-aiomysql
 python-aiosmtpd
 python-apsw
 python-astor
 python-astroid
 python-asyncssh
-python-authheaders
 python-authlib
 python-avocado
 python-awscrt
@@ -48,7 +45,6 @@ python-humanfriendly::bootstrap:::
 python-iniparse
 javapackages-tools
 python-josepy
-python-keep
 python-libarchive-c
 libnvme
 python-m3u8
