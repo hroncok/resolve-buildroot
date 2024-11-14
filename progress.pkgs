@@ -51,7 +51,6 @@ python-mccabe
 python-msal
 python-msgspec
 python-nose
-python-oauthlib
 python-paramiko
 python-parso
 petsc
@@ -84,6 +83,7 @@ python-rpmfluff
 python-rstcheck
 python-ruamel-yaml::bootstrap:::
 satyr
+python-social-auth-core
 python-ssh-python
 python-toolz
 trademgen
