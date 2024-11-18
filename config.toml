@@ -562,6 +562,9 @@ withs = ["bootstrap"]
 [[bconds.python-pyogrio]]
 withs = ["bootstrap"]
 
+[[bconds.python-fastapi]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
