@@ -7,7 +7,6 @@ link-grammar
 linode-cli
 pcs
 python-pyside6
-python-aiokafka
 python-aiosmtpd
 python-apsw
 python-astor
@@ -35,7 +34,6 @@ python-django-compressor
 python-django-extensions
 dnf
 python-docstring-parser
-python-easyprocess
 python-etcd
 python-flufl-bounce
 python-gevent
@@ -68,7 +66,6 @@ protobuf
 python-pulp-glue
 python-pure-protobuf
 python-pydantic-core
-python-pydicom
 python-pyftpdlib
 pygsl
 python-pymdown-extensions
@@ -76,7 +73,6 @@ python-pymeeus
 python-pypandoc
 pyproj
 python-pyramid
-python-pytest-aiohttp
 python-pytest-split
 python-pyupgrade
 watchman
