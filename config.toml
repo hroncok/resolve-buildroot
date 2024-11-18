@@ -559,6 +559,9 @@ withouts = ["tests"]
 [[bconds.python-pymongo]]
 withs = ["bootstrap"]
 
+[[bconds.python-pyogrio]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
