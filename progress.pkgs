@@ -7,7 +7,6 @@ link-grammar
 linode-cli
 pcs
 python-pyside6
-python-APScheduler
 python-aiokafka
 python-aiosmtpd
 python-apsw
@@ -15,7 +14,6 @@ python-astor
 python-astroid
 python-async-lru
 python-asyncssh
-python-authlib:tests::::
 python-avocado
 python-awscrt
 python-backrefs
