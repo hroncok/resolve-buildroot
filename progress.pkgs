@@ -44,7 +44,6 @@ python-gunicorn
 python-h5netcdf
 python-iniparse
 python-josepy
-python-keystoneauth1
 python-libarchive-c
 libnvme
 qtile
@@ -56,8 +55,6 @@ python-msgspec
 python-neovim
 python-nose
 python-oscrypto
-python-oslo-concurrency
-python-oslo-serialization
 python-parso
 python-pooch
 python-precis_i18n
