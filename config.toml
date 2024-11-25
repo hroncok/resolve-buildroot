@@ -565,6 +565,9 @@ withs = ["bootstrap"]
 [[bconds.python-fastapi]]
 withs = ["bootstrap"]
 
+[[bconds.python-pydantic-core]]
+withouts = ["inline_snapshot_tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
