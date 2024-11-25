@@ -11,6 +11,7 @@ pcs
 pychess
 python-pyside6
 python-aiosmtpd
+python-anyio
 python-argcomplete
 python-astor
 python-astroid
@@ -41,7 +42,6 @@ python-etcd
 python-flufl-bounce
 python-gevent
 python-giacpy
-gnuradio
 grammalecte
 python-gunicorn
 python-h5netcdf
@@ -77,13 +77,14 @@ watchman
 qgis
 python-readability-lxml
 python-recordclass
-python-redis
 python-remoto
 python-repoze-sphinx-autointerface:tests::::
 python-repoze-who
 python-requests-toolbelt
 rmol
+python-rmtest
 python-rpmfluff
+python-rq
 python-rstcheck
 python-ruamel-yaml::bootstrap:::
 python-s3transfer
@@ -95,6 +96,7 @@ python-terminado
 python-toolz
 trademgen
 python-transaction
+python-twisted
 python-typeguard
 python-typing-inspect
 python-uvloop
