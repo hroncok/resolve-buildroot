@@ -61,7 +61,6 @@ python-neovim
 python-nibabel
 python-nose
 python-oscrypto
-python-parso
 python-precis_i18n
 protobuf
 python-pulp-glue
