@@ -2,8 +2,7 @@ alot
 borgbackup
 collectd
 python-drgn
-python-flit
-lammps
+kicad
 link-grammar
 linode-cli
 mopidy
@@ -37,15 +36,15 @@ python-dill
 python-django-compressor
 dnf
 python-docstring-parser
-espresso
-python-etcd
 python-flufl-bounce
 python-gevent
 python-giacpy
+python-gradunwarp
 grammalecte
 python-gunicorn
 python-h5netcdf
 python-img2pdf
+python-indexed_gzip
 python-iniparse
 python-josepy
 python-klusta
@@ -58,9 +57,9 @@ python-mccabe
 python-msal
 python-msgspec
 python-neovim
-python-nibabel
 python-nose
 python-oscrypto
+python-patsy
 python-precis_i18n
 protobuf
 python-pulp-glue
@@ -73,7 +72,6 @@ python-pyramid
 python-pytest-split
 python-pyupgrade
 watchman
-qgis
 python-readability-lxml
 python-recordclass
 python-remoto
@@ -101,7 +99,6 @@ python-typing-inspect
 python-uvloop
 python-valkey
 visidata
-vtk
 python-webscrapbook
 python-yappi
 python-zict
@@ -111,4 +108,3 @@ realtime-tests
 syncplay
 weechat
 xpra
-python3-docs
