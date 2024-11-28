@@ -223,7 +223,7 @@ withouts = ["tests"]
 withouts = ["tests"]
 
 [[bconds.python-jupyter-client]]
-withouts = ["doc","tests"]
+withouts = ["tests"]
 
 [[bconds.python-jupyter-server]]
 withouts = ["tests"]
