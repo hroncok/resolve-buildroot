@@ -39,12 +39,10 @@ python-docstring-parser
 python-flufl-bounce
 python-gevent
 python-giacpy
-python-gradunwarp
 grammalecte
 python-gunicorn
 python-h5netcdf
 python-img2pdf
-python-indexed_gzip
 python-iniparse
 python-josepy
 python-klusta
@@ -59,7 +57,6 @@ python-msgspec
 python-neovim
 python-nose
 python-oscrypto
-python-patsy
 python-precis_i18n
 protobuf
 python-pulp-glue
