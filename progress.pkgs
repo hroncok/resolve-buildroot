@@ -36,7 +36,6 @@ python-dill
 python-django-compressor
 dnf
 python-docstring-parser
-python-flufl-bounce
 python-gevent
 python-giacpy
 grammalecte
@@ -65,15 +64,13 @@ pygsl
 python-pymdown-extensions
 python-pymeeus
 pyproj
-python-pyramid
+python-pyramid_sawing
 python-pytest-split
 python-pyupgrade
 watchman
 python-readability-lxml
 python-recordclass
 python-remoto
-python-repoze-sphinx-autointerface:tests::::
-python-repoze-who
 python-requests-toolbelt
 rmol
 python-rmtest
@@ -89,7 +86,6 @@ python-surt
 python-terminado
 python-toolz
 trademgen
-python-transaction
 python-twisted
 python-typeguard
 python-typing-inspect
@@ -99,7 +95,6 @@ visidata
 python-webscrapbook
 python-yappi
 python-zict
-python-zope-exceptions:tests::::
 python-zstandard
 realtime-tests
 syncplay
