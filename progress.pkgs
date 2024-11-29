@@ -1,6 +1,5 @@
 alot
 borgbackup
-collectd
 python-drgn
 kicad
 link-grammar
@@ -27,6 +26,7 @@ python-capturer
 python-chameleon
 python-cloudpickle
 python-colcon-parallel-executor
+python-collectd_cvmfs
 python-colorful
 python-commoncode
 python-crick
@@ -55,6 +55,7 @@ python-msal
 python-msgspec
 python-neovim
 python-nose
+openvino
 python-oscrypto
 python-precis_i18n
 protobuf
