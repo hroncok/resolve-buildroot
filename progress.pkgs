@@ -22,7 +22,7 @@ python-awscrt
 python-backrefs
 python-beartype
 python-billiard
-python-bravado-core
+python-bravado
 brltty
 python-pymongo
 python-capturer
