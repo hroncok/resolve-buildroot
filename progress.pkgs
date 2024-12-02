@@ -1,15 +1,12 @@
 alot
 borgbackup
-cekit
-cffconvert
 python-drgn
-home-assistant-cli
+gitlint
 kicad
 libreoffice
 link-grammar
 linode-cli
 mopidy
-obsctl
 pcs
 pychess
 python-pyside6
@@ -17,7 +14,6 @@ python-aiosmtpd
 python-anyio
 ara
 python-argcomplete
-python-arrow
 python-astor
 python-astroid
 python-async-lru
@@ -40,6 +36,7 @@ python-cysignals
 python-dataclassy
 python-dill
 python-django-compressor
+python-django-q
 dnf
 python-docstring-parser
 python-gevent
@@ -49,7 +46,9 @@ python-gunicorn
 python-h5netcdf
 python-img2pdf
 python-iniparse
+python-isoduration
 jc
+python-jinja2-time
 python-josepy
 python-klusta
 python-libarchive-c
@@ -62,6 +61,7 @@ python-msal
 python-msgspec
 python-neovim
 python-nose
+python-orjson
 python-oscrypto
 python-precis_i18n
 protobuf
@@ -100,7 +100,6 @@ python-uvloop
 python-valkey
 visidata
 python-webscrapbook
-python-xword-dl
 python-yappi
 python-zict
 python-zstandard
