@@ -1,7 +1,6 @@
 alot
 borgbackup
 python-drgn
-gitlint
 kicad
 libreoffice
 link-grammar
@@ -23,6 +22,7 @@ python-awscrt
 python-backrefs
 python-beartype
 python-billiard
+python-bravado-core
 brltty
 python-pymongo
 python-capturer
@@ -36,7 +36,6 @@ python-cysignals
 python-dataclassy
 python-dill
 python-django-compressor
-python-django-q
 dnf
 python-docstring-parser
 python-gevent
@@ -46,9 +45,7 @@ python-gunicorn
 python-h5netcdf
 python-img2pdf
 python-iniparse
-python-isoduration
 jc
-python-jinja2-time
 python-josepy
 python-klusta
 python-libarchive-c
