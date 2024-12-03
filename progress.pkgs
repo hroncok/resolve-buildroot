@@ -2,7 +2,6 @@ alot
 borgbackup
 python-drgn
 kicad
-libreoffice
 link-grammar
 linode-cli
 mopidy
@@ -22,7 +21,6 @@ python-awscrt
 python-backrefs
 python-beartype
 python-billiard
-python-bravado
 brltty
 python-pymongo
 python-capturer
@@ -38,6 +36,7 @@ python-dill
 python-django-compressor
 dnf
 python-docstring-parser
+python-fasjson-client
 python-gevent
 python-giacpy
 grammalecte
