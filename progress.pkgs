@@ -1,6 +1,7 @@
 alot
 borgbackup
 python-drgn
+fedscm-admin
 kicad
 link-grammar
 linode-cli
@@ -36,7 +37,6 @@ python-dill
 python-django-compressor
 dnf
 python-docstring-parser
-python-fasjson-client
 python-gevent
 python-giacpy
 grammalecte
