@@ -1,7 +1,6 @@
 alot
 borgbackup
 python-drgn
-ipsilon
 kicad
 link-grammar
 linode-cli
@@ -46,7 +45,6 @@ python-img2pdf
 python-iniparse
 jc
 python-josepy
-python-jupyter-core
 python-klusta
 python-libarchive-c
 libnvme
@@ -56,6 +54,7 @@ python-matplotlib
 python-mccabe
 python-msal
 python-msgspec
+python-nbformat
 python-neovim
 python-nose
 python-orjson
@@ -63,7 +62,6 @@ python-oscrypto
 python-precis_i18n
 protobuf
 python-pulp-glue
-python-pulsectl-asyncio
 python-pure-protobuf
 pygsl
 python-pymdown-extensions
