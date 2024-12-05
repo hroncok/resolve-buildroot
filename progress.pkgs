@@ -54,7 +54,6 @@ python-matplotlib
 python-mccabe
 python-msal
 python-msgspec
-python-nbformat
 python-neovim
 python-nose
 python-orjson
