@@ -2,12 +2,11 @@ alot
 borgbackup
 python-drgn
 esptool
+freeipa-healthcheck:tests::::
 kicad
 link-grammar
 linode-cli
 mopidy
-pipx
-pmbootstrap
 pychess
 python-pyside6
 python-aiosmtpd
@@ -27,7 +26,6 @@ python-pymongo
 python-capturer
 python-chameleon
 python-cloudpickle
-python-colcon-bazel
 python-colcon-parallel-executor
 python-colorful
 python-commoncode
@@ -48,8 +46,6 @@ python-iniparse
 jc
 python-josepy
 python-klusta
-python-knack
-389-ds-base
 python-libarchive-c
 libnvme
 qtile
@@ -75,7 +71,6 @@ python-pyramid_sawing
 python-pytest-split
 python-pyupgrade
 watchman
-python-ramalama
 python-readability-lxml
 python-recordclass
 python-remoto
@@ -84,12 +79,10 @@ python-requests-toolbelt
 rmol
 python-rmtest
 python-rpmfluff
-rpmspectool
 python-rq
 python-rstcheck
 python-s3transfer
 satyr
-python-sdkmanager
 python-social-auth-core
 python-surt
 python-terminado
@@ -107,6 +100,4 @@ python-zict
 python-zstandard
 realtime-tests
 syncplay
-tito
-virtme-ng
 xpra
