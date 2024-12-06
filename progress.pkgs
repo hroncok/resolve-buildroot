@@ -1,12 +1,12 @@
 alot
 borgbackup
+dogtag-pki
 python-drgn
 esptool
-freeipa-healthcheck:tests::::
 kicad
 link-grammar
 linode-cli
-mopidy
+mopidy-mpd
 pychess
 python-pyside6
 python-aiosmtpd
