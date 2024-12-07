@@ -1,12 +1,12 @@
 alot
 borgbackup
-dogtag-pki
 python-drgn
 esptool
 kicad
 link-grammar
 linode-cli
 mopidy-mpd
+pcs
 pychess
 python-pyside6
 python-aiosmtpd
@@ -58,7 +58,6 @@ python-neovim
 python-nose
 python-orjson
 python-oscrypto
-pepc
 python-precis_i18n
 protobuf
 python-pulp-glue
