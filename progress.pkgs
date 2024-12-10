@@ -12,7 +12,6 @@ python-aiosmtpd
 python-anyio
 ara
 python-astor
-python-asttokens
 python-async-lru
 python-asyncssh
 python-avocado
@@ -33,7 +32,6 @@ python-dill
 python-django-compressor
 dnf
 python-docstring-parser
-python-doit
 python-gevent
 python-giacpy
 grammalecte
@@ -41,6 +39,7 @@ python-gunicorn
 python-h5netcdf
 python-img2pdf
 python-iniparse
+ipython:check-doc::::
 jc
 python-joblib
 python-josepy
@@ -66,7 +65,6 @@ python-pymdown-extensions
 python-pymeeus
 pyproj
 python-pyramid_sawing
-python-pytest-services
 python-pytest-split
 python-pyupgrade
 watchman
@@ -82,7 +80,6 @@ python-rstcheck
 python-s3transfer
 satyr
 python-social-auth-core
-python-sphinx-autoapi
 python-surt
 python-terminado
 python-toolz
