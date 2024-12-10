@@ -5,7 +5,6 @@ esptool
 kicad
 linode-cli
 mopidy-mpd
-orca
 pcs
 pychess
 python-pyside6
@@ -13,7 +12,7 @@ python-aiosmtpd
 python-anyio
 ara
 python-astor
-python-astroid
+python-asttokens
 python-async-lru
 python-asyncssh
 python-avocado
@@ -24,7 +23,6 @@ python-billiard
 python-pymongo
 python-capturer
 python-chameleon
-python-cloudpickle
 python-colcon-parallel-executor
 python-colorful
 python-commoncode
@@ -35,6 +33,7 @@ python-dill
 python-django-compressor
 dnf
 python-docstring-parser
+python-doit
 python-gevent
 python-giacpy
 grammalecte
@@ -43,6 +42,7 @@ python-h5netcdf
 python-img2pdf
 python-iniparse
 jc
+python-joblib
 python-josepy
 python-klusta
 python-libarchive-c
@@ -66,6 +66,7 @@ python-pymdown-extensions
 python-pymeeus
 pyproj
 python-pyramid_sawing
+python-pytest-services
 python-pytest-split
 python-pyupgrade
 watchman
@@ -81,6 +82,7 @@ python-rstcheck
 python-s3transfer
 satyr
 python-social-auth-core
+python-sphinx-autoapi
 python-surt
 python-terminado
 python-toolz
