@@ -1,5 +1,6 @@
 alot
 borgbackup
+llvm
 python-drgn
 esptool
 kicad
@@ -39,7 +40,6 @@ python-gunicorn
 python-h5netcdf
 python-img2pdf
 python-iniparse
-ipython:check-doc::::
 jc
 python-joblib
 python-josepy
@@ -68,11 +68,13 @@ python-pyramid_sawing
 python-pytest-split
 python-pyupgrade
 watchman
+python-rdflib
 python-readability-lxml
 python-recordclass
 python-remoto
 python-reportlab
 python-requests-toolbelt
+python-rich
 rmol
 python-rpmfluff
 python-rq
@@ -93,6 +95,7 @@ visidata
 python-webscrapbook
 python-yappi
 python-zict
+python-zope-testrunner
 python-zstandard
 realtime-tests
 syncplay
