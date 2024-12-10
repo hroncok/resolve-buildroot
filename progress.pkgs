@@ -3,9 +3,9 @@ borgbackup
 python-drgn
 esptool
 kicad
-link-grammar
 linode-cli
 mopidy-mpd
+orca
 pcs
 pychess
 python-pyside6
@@ -21,7 +21,6 @@ python-awscrt
 python-backrefs
 python-beartype
 python-billiard
-brltty
 python-pymongo
 python-capturer
 python-chameleon
@@ -76,7 +75,6 @@ python-remoto
 python-reportlab
 python-requests-toolbelt
 rmol
-python-rmtest
 python-rpmfluff
 python-rq
 python-rstcheck
