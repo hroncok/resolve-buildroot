@@ -71,7 +71,6 @@ python-nose
 python-orjson
 osbuild
 python-oscrypto
-python-pari-jupyter
 python-precis_i18n
 protobuf
 python-pulp-glue
@@ -101,6 +100,7 @@ python-s3transfer
 satyr
 python-social-auth-core
 python-surt
+python-tensile
 python-terminado
 python-toolz
 totpcgi
