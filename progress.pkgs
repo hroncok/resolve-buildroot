@@ -61,6 +61,7 @@ python-klusta
 python-libarchive-c
 libnvme
 qtile
+python-locket
 python-makefun
 python-matplotlib
 python-mccabe
@@ -100,7 +101,6 @@ python-s3transfer
 satyr
 python-social-auth-core
 python-surt
-python-tensile
 python-terminado
 python-toolz
 totpcgi
