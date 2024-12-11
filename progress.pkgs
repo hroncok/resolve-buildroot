@@ -27,9 +27,9 @@ python-colcon-parallel-executor
 python-colorful
 python-commoncode
 python-crick
-python-cymruwhois
 python-cysignals
 python-dataclassy
+python-defcon
 python-dill
 python-django-compressor
 dnf
@@ -55,13 +55,13 @@ python-msal
 python-msgspec
 python-neovim
 python-nose
-python-openstep-plist
 python-orjson
 python-oscrypto
 python-precis_i18n
 protobuf
 python-pulp-glue
 python-pure-protobuf
+python-pyface
 pygsl
 python-pymdown-extensions
 python-pymeeus
@@ -93,6 +93,7 @@ python-typing-inspect
 python-uvloop
 python-valkey
 visidata
+weasyprint
 python-webscrapbook
 python-yappi
 python-zict
