@@ -27,6 +27,7 @@ python-colcon-parallel-executor
 python-colorful
 python-commoncode
 python-crick
+python-cymruwhois
 python-cysignals
 python-dataclassy
 python-dill
@@ -54,6 +55,7 @@ python-msal
 python-msgspec
 python-neovim
 python-nose
+python-openstep-plist
 python-orjson
 python-oscrypto
 python-precis_i18n
@@ -67,7 +69,6 @@ pyproj
 python-pyramid_sawing
 python-pytest-split
 python-pyupgrade
-watchman
 python-rdflib
 python-readability-lxml
 python-recordclass
