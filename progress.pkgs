@@ -45,6 +45,7 @@ python-defcon
 python-dill
 python-django-compressor
 python-docstring-parser
+python-fabric
 python-gevent
 python-giacpy
 grammalecte
@@ -52,7 +53,6 @@ python-gunicorn
 python-h5netcdf
 python-img2pdf
 python-iniparse
-python-invoke
 freeipa
 jc
 python-joblib
