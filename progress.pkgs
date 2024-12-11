@@ -52,6 +52,7 @@ python-gunicorn
 python-h5netcdf
 python-img2pdf
 python-iniparse
+python-invoke
 freeipa
 jc
 python-joblib
@@ -61,7 +62,6 @@ python-klusta
 python-libarchive-c
 libnvme
 qtile
-python-locket
 python-makefun
 python-matplotlib
 python-mccabe
