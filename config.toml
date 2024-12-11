@@ -483,9 +483,6 @@ replacements = {with_doc = "0"}
 [[bconds.python-pymssql]]
 withouts = ["tests"]
 
-[[bconds.python-zmq]]
-withouts = ["gevent"]
-
 [[bconds.python-django]]
 withouts = ["tests"]
 
