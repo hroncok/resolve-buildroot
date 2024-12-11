@@ -132,6 +132,13 @@ def are_all_done(*, packages_to_check, all_components, components_done, blocker_
                         break
                     else:
                         has_older = True
+                else:
+                    # Check the virtual provides - maybe one of them matches what we look for
+                    for provide in done_package.provides:
+                        if provide.name == required_package.name:
+                            log(f'      ✔ {required_package.name}')
+                            break
+                    break
             else:
                 if has_older:
                     log(f'      ✗ {required_package.name} (older EVR available)')
