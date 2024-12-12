@@ -45,7 +45,6 @@ python-defcon
 python-dill
 python-django-compressor
 python-docstring-parser
-python-fabric
 python-gevent
 python-giacpy
 grammalecte
@@ -63,6 +62,7 @@ python-libarchive-c
 libnvme
 qtile
 python-makefun
+python-marshmallow
 python-matplotlib
 python-mccabe
 python-msal
@@ -78,7 +78,7 @@ python-pulp-glue
 python-pure-protobuf
 python-pyface
 pygsl
-python-pymdown-extensions
+python-pylatex
 python-pymeeus
 python-pymilter
 pyproj
