@@ -62,8 +62,7 @@ python-libarchive-c
 libnvme
 qtile
 python-makefun
-python-marshmallow
-python-matplotlib
+python-marshmallow-enum
 python-mccabe
 python-msal
 python-msgspec
@@ -78,7 +77,6 @@ python-pulp-glue
 python-pure-protobuf
 python-pyface
 pygsl
-python-pylatex
 python-pymeeus
 python-pymilter
 pyproj
