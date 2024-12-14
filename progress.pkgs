@@ -15,7 +15,6 @@ mopidy-mpd
 nfs-ganesha
 openssh-ldap-authkeys
 openwsman
-pcs
 pychess
 python-pyside6
 python-aiosmtpd
@@ -45,6 +44,7 @@ python-defcon
 python-dill
 python-django-compressor
 python-docstring-parser
+geopmd
 python-gevent
 python-giacpy
 grammalecte
@@ -62,8 +62,9 @@ python-libarchive-c
 libnvme
 qtile
 python-makefun
-python-marshmallow-enum
 python-mccabe
+python-mkdocs-autorefs
+python-mkdocs-click
 python-msal
 python-msgspec
 python-neovim
@@ -76,6 +77,7 @@ protobuf
 python-pulp-glue
 python-pure-protobuf
 python-pyface
+python-pygments-ansi-color
 pygsl
 python-pymeeus
 python-pymilter
