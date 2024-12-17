@@ -1,4 +1,5 @@
 alot
+binwalk
 borgbackup
 ceph
 llvm
@@ -11,10 +12,12 @@ esptool
 fail2ban
 kicad
 linode-cli
+mlpack
 mopidy-mpd
 nfs-ganesha
 openssh-ldap-authkeys
 openwsman
+pcs
 pychess
 python-pyside6
 python-aiosmtpd
@@ -27,6 +30,7 @@ python-avocado
 python-awscrt
 python-backrefs
 python-beartype
+bids-schema
 python-billiard
 bluechi
 python-pymongo
@@ -43,8 +47,6 @@ python-dataclassy
 python-defcon
 python-dill
 python-django-compressor
-python-docstring-parser
-geopmd
 python-gevent
 python-giacpy
 grammalecte
@@ -63,8 +65,6 @@ libnvme
 qtile
 python-makefun
 python-mccabe
-python-mkdocs-autorefs
-python-mkdocs-click
 python-msal
 python-msgspec
 python-neovim
@@ -72,18 +72,21 @@ python-nose
 python-orjson
 osbuild
 python-oscrypto
+python-pandas-datareader
 python-precis_i18n
 protobuf
 python-pulp-glue
 python-pure-protobuf
+python-pybbi
+python-pydantic-core:inline_snapshot_tests::::
 python-pyface
-python-pygments-ansi-color
 pygsl
 python-pymeeus
 python-pymilter
+python-pyongc
 pyproj
 python-pyramid_sawing
-python-pytest-split
+python-pytest-arraydiff
 python-pyupgrade
 radicale
 python-rdflib
@@ -100,6 +103,7 @@ python-rstcheck
 python-s3transfer
 satyr
 python-social-auth-core
+python-statsmodels
 python-surt
 python-terminado
 python-toolz
@@ -119,5 +123,6 @@ python-zict
 python-zope-testrunner
 python-zstandard
 realtime-tests
+sherlock-project
 syncplay
 xpra
