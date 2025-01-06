@@ -14,7 +14,6 @@ pcs
 pychess
 python-pyside6
 python-aiosmtpd
-python-anyio
 ara
 python-ase
 python-async-lru
@@ -37,8 +36,8 @@ python-dill
 python-fsleyes-widgets
 python-giacpy
 python-graph-tool
-python-gunicorn
 python-h5netcdf
+python-httpcore
 python-img2pdf
 python-iniparse
 jc
@@ -60,10 +59,10 @@ python-orjson
 python-oscrypto
 python-pandas-datareader
 protobuf
+python-psycopg3
 python-pulp-glue
 python-pure-protobuf
 python-pybbi
-python-pydantic-core:inline_snapshot_tests::::
 python-pyface
 pygsl
 python-pymeeus
@@ -72,6 +71,7 @@ pyproj
 python-pyramid_sawing
 python-pytest-arraydiff
 python-pytest-regressions
+python-pytest-subprocess
 python-pyupgrade
 python-pywt
 python-rdflib
@@ -93,6 +93,7 @@ python-statsmodels
 python-steps
 python-succulent
 python-terminado
+python-tiny-proxy:tests::::
 python-toolz
 trademgen
 python-twisted
@@ -101,6 +102,8 @@ python-typing-inspect
 python-uvloop
 python-valkey
 visidata
+python-watchfiles
+python-watchgod
 weasyprint
 python-webscrapbook
 python-wordcloud
