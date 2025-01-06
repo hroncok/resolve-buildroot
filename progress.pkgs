@@ -33,6 +33,7 @@ python-cysignals
 python-dataclassy
 python-defcon
 python-dill
+python-dipy
 python-fsleyes-widgets
 python-giacpy
 python-graph-tool
@@ -92,7 +93,6 @@ python-succulent
 python-terminado
 python-toolz
 trademgen
-python-trx-python
 python-twisted
 python-typeguard
 python-typing-inspect
