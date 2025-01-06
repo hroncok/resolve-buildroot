@@ -31,11 +31,9 @@ python-commoncode
 python-crick
 python-cysignals
 python-dataclassy
-python-deepdiff:tests::::
 python-defcon
 python-dill
 python-fsleyes-widgets
-python-fvs
 python-giacpy
 python-graph-tool
 python-h5netcdf
@@ -94,6 +92,7 @@ python-succulent
 python-terminado
 python-toolz
 trademgen
+python-trx-python
 python-twisted
 python-typeguard
 python-typing-inspect
