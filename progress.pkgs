@@ -11,8 +11,10 @@ linode-cli
 mlpack
 mopidy-mpd
 pcs
+pg_activity
 pychess
 python-pyside6
+python-aiohttp-socks
 python-aiosmtpd
 ara
 python-ase
@@ -57,7 +59,6 @@ python-opfunu
 python-orjson
 python-oscrypto
 python-pandas-datareader
-python-pgspecial
 protobuf
 python-pulp-glue
 python-pure-protobuf
@@ -70,7 +71,6 @@ python-pyongc
 pyproj
 python-pyramid_sawing
 python-pytest-arraydiff
-python-pytest-postgresql
 python-pytest-regressions
 python-pyupgrade
 python-pywt
@@ -89,7 +89,6 @@ python-s3transfer
 satyr
 python-seaborn
 python-social-auth-core
-python-socks
 python-statsmodels
 python-steps
 python-succulent
