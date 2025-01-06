@@ -63,6 +63,7 @@ protobuf
 python-pulp-glue
 python-pure-protobuf
 python-pybbi
+python-pydantic-core:inline_snapshot_tests::::
 python-pyface
 pygsl
 python-pymeeus
