@@ -23,9 +23,7 @@ python-backrefs
 python-beartype
 bids-schema
 python-billiard
-python-binary-manager
 python-pymongo
-python-buildman
 python-capturer
 python-colcon-parallel-executor
 python-colorful
