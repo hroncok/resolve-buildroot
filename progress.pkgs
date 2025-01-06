@@ -6,7 +6,6 @@ ceph
 llvm
 cockpit
 esptool
-gajim
 kicad
 linode-cli
 mlpack
@@ -34,6 +33,7 @@ python-cysignals
 python-dataclassy
 python-defcon
 python-dill
+python-dtoc
 python-giacpy
 python-gunicorn
 python-h5netcdf
@@ -42,14 +42,12 @@ python-iniparse
 jc
 python-joblib
 python-josepy
-python-klusta
 python-libarchive-c
 libnvme
 qtile
 python-makefun
 python-matplotlib
 python-mccabe
-python-mkdocs-minify-plugin
 python-msal
 python-msgspec
 python-neovim
@@ -57,10 +55,13 @@ python-nose
 python-orjson
 python-oscrypto
 python-pandas-datareader
+python-patch-manager
+python-pretty-yaml
 protobuf
 python-pulp-glue
 python-pure-protobuf
 python-pybbi
+python-pydantic-core:inline_snapshot_tests::::
 python-pyface
 pygsl
 python-pymeeus
@@ -88,7 +89,6 @@ python-surt
 python-terminado
 python-toolz
 trademgen
-python-tw2-forms
 python-twisted
 python-typeguard
 python-typing-inspect
