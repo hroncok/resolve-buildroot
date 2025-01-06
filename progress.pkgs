@@ -16,6 +16,7 @@ python-pyside6
 python-aiosmtpd
 python-anyio
 ara
+python-ase
 python-async-lru
 python-asyncssh
 python-avocado
@@ -33,7 +34,9 @@ python-cysignals
 python-dataclassy
 python-defcon
 python-dill
+python-fsleyes-widgets
 python-giacpy
+python-graph-tool
 python-gunicorn
 python-h5netcdf
 python-img2pdf
@@ -45,12 +48,14 @@ python-libarchive-c
 libnvme
 qtile
 python-makefun
-python-matplotlib
 python-mccabe
+python-mizani
 python-msal
 python-msgspec
 python-neovim
+python-niapy
 python-nose
+python-opfunu
 python-orjson
 python-oscrypto
 python-pandas-datareader
@@ -65,7 +70,9 @@ python-pyongc
 pyproj
 python-pyramid_sawing
 python-pytest-arraydiff
+python-pytest-regressions
 python-pyupgrade
+python-pywt
 python-rdflib
 python-readability-lxml
 python-recordclass
@@ -79,9 +86,11 @@ python-rq
 python-rstcheck
 python-s3transfer
 satyr
+python-seaborn
 python-social-auth-core
 python-statsmodels
-python-surt
+python-steps
+python-succulent
 python-terminado
 python-toolz
 trademgen
@@ -93,6 +102,7 @@ python-valkey
 visidata
 weasyprint
 python-webscrapbook
+python-wordcloud
 python-yappi
 python-zict
 python-zope-testrunner
