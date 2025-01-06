@@ -11,10 +11,8 @@ linode-cli
 mlpack
 mopidy-mpd
 pcs
-pg_activity
 pychess
 python-pyside6
-python-aiohttp-socks
 python-aiosmtpd
 ara
 python-ase
@@ -33,9 +31,11 @@ python-commoncode
 python-crick
 python-cysignals
 python-dataclassy
+python-deepdiff:tests::::
 python-defcon
 python-dill
 python-fsleyes-widgets
+python-fvs
 python-giacpy
 python-graph-tool
 python-h5netcdf
@@ -56,7 +56,6 @@ python-neovim
 python-niapy
 python-nose
 python-opfunu
-python-orjson
 python-oscrypto
 python-pandas-datareader
 protobuf
