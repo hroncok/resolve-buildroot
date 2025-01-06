@@ -565,6 +565,9 @@ withs = ["bootstrap"]
 [[bconds.python-pydantic-core]]
 withouts = ["inline_snapshot_tests"]
 
+[[bconds.python-optking]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
