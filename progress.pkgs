@@ -43,11 +43,8 @@ python-josepy
 python-libarchive-c
 libnvme
 qtile
-python-mailman-web
 python-makefun
 python-mccabe
-python-mkdocs-material-extensions
-python-mkdocs-static-i18n
 python-msal
 python-msgspec
 python-neovim
@@ -83,7 +80,6 @@ python-social-auth-core
 python-terminado
 python-toolz
 trademgen
-python-trailrunner
 python-twisted
 python-typeguard
 python-typing-inspect
