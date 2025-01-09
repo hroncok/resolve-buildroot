@@ -23,6 +23,7 @@ python-beartype
 python-billiard
 python-pymongo
 python-capturer
+python-cattrs
 python-colcon-parallel-executor
 python-colorful
 python-commoncode
@@ -59,7 +60,6 @@ python-pyface
 pygsl
 python-pymeeus
 pyproj
-python-pyramid_sawing
 python-pyupgrade
 python-pywt
 python-rdflib
