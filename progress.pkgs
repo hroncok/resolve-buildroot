@@ -61,7 +61,6 @@ pygsl
 python-pymeeus
 pyproj
 python-pyupgrade
-python-pywt
 python-rdflib
 python-readability-lxml
 python-recordclass
@@ -80,6 +79,7 @@ python-social-auth-core
 python-terminado
 python-toolz
 trademgen
+python-triton
 python-twisted
 python-typeguard
 python-typing-inspect
