@@ -79,7 +79,6 @@ python-social-auth-core
 python-terminado
 python-toolz
 trademgen
-python-triton
 python-twisted
 python-typeguard
 python-typing-inspect
