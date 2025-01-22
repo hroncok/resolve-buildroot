@@ -5,7 +5,6 @@ borgbackup
 llvm
 cockpit
 gnofract4d
-go-vendor-tools
 linode-cli
 pcs
 pychess
@@ -29,7 +28,6 @@ python-cysignals
 python-dataclassy
 python-defcon
 python-dill
-python-etelemetry
 python-fsleyes-widgets
 python-graph-tool
 python-h5netcdf
@@ -69,7 +67,6 @@ python-rq
 python-rstcheck
 python-s3transfer
 satyr
-python-scooby
 python-seaborn
 python-social-auth-core
 python-terminado
