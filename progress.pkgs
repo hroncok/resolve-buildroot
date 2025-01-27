@@ -2,11 +2,14 @@ alot
 awscli2
 binwalk
 borgbackup
+ceph
 llvm
 cockpit
 gnofract4d
+kicad
 linode-cli
 pcs
+pulp-cli
 pychess
 python-aiosmtpd
 ara
@@ -29,6 +32,7 @@ python-dataclassy
 python-defcon
 python-dill
 python-fsleyes-widgets
+python-giacpy
 python-graph-tool
 python-h5netcdf
 python-img2pdf
@@ -46,7 +50,6 @@ python-nose
 python-oscrypto
 python-photutils
 protobuf
-python-pulp-glue
 python-pure-protobuf
 python-pyairvisual
 python-pydantic-core:inline_snapshot_tests::::
@@ -62,7 +65,6 @@ python-reportlab
 python-requests-toolbelt
 python-rich
 rmol
-python-rpmfluff
 python-rq
 python-rstcheck
 python-s3transfer
